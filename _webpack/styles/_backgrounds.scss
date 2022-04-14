@@ -5,6 +5,20 @@
   background-size: cover;
 }
 
+.bg-subscriptions {
+  background-image: url('~images/bg-subscriptions.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-services {
+  background-image: url('~images/bg-get-started-services.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bg-angled {
   position: absolute;
   width: 0;
@@ -34,6 +48,10 @@
 
 .bg-green {
   background-color: $green-100 !important;
+}
+
+.bg-green-img {
+  background-image: url('~images/bg-green.jpg');
 }
 
 .bg-code-review {

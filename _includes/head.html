@@ -18,12 +18,18 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
     rel="stylesheet"
   />
-
-  {% if site.gtm %} {% include gtm.html %} {% endif %} {% if page.path contains
-  '_posts' %}
-  <link
-    rel="amphtml"
-    href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}"
-  />
+  {% if site.gtm %}
+    {% include gtm.html %}
   {% endif %}
+  {% if page.path contains '_posts' %}
+    <link
+      rel="amphtml"
+      href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}"
+    />
+  {% endif %}
+  <!-- Memberstack -->
+  <script
+    src="https://api.memberstack.io/static/memberstack.js?custom"
+    data-memberstack-id="a3e6ec8bed08ca0c0b2cf2709f806dd2"
+  ></script>
 </head>

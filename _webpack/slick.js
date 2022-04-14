@@ -1,16 +1,31 @@
 import 'slick-carousel';
 
 const init = $(function() {
-  let $slick = $('.slick-redant');
+  let $redant = $('.slick-redant');
 
-  if ($slick.length) {
-    $slick.slick({
+  if ($redant.length) {
+    $redant.slick({
       lazyLoad: 'ondemand',
       dots: true,
       arrows: false,
       autoplay: true,
       autoplaySpeed: 7000,
       slidesToShow: 1,
+    });
+  }
+
+  let $subscriptions = $('.slick-subscriptions');
+
+  if ($subscriptions.length) {
+    $subscriptions.slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: false,
+      arrows: false,
+      centerMode: true,
+      centerPadding: '25%',
+      autoplay: true,
+      infinite: true,
     });
   }
 });
