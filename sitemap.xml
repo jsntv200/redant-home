@@ -244,6 +244,9 @@
 <loc>https://redant.com.au/on-demand/backend-ruby-on-rails/</loc>
 </url>
 <url>
+<loc>https://redant.com.au/on-demand/thank-you/backend</loc>
+</url>
+<url>
 <loc>https://redant.com.au/portfolio/beautyheaven-beautorium/</loc>
 </url>
 <url>
@@ -287,6 +290,9 @@
 </url>
 <url>
 <loc>https://redant.com.au/on-demand/frontend-javascript/</loc>
+</url>
+<url>
+<loc>https://redant.com.au/on-demand/thank-you/frontend</loc>
 </url>
 <url>
 <loc>https://redant.com.au/get-started/</loc>
@@ -433,9 +439,6 @@
 <loc>https://redant.com.au/on-demand/terms-of-service/</loc>
 </url>
 <url>
-<loc>https://redant.com.au/on-demand/thank-you/</loc>
-</url>
-<url>
 <loc>https://redant.com.au/services/the-3rs-resourcing-roadmaps-revenue/</loc>
 </url>
 <url>
@@ -446,6 +449,15 @@
 </url>
 <url>
 <loc>https://redant.com.au/technology/twilio/</loc>
+</url>
+<url>
+<loc>https://redant.com.au/on-demand/thank-you/ux-backend</loc>
+</url>
+<url>
+<loc>https://redant.com.au/on-demand/thank-you/ux-frontend</loc>
+</url>
+<url>
+<loc>https://redant.com.au/on-demand/thank-you/ux</loc>
 </url>
 <url>
 <loc>https://redant.com.au/portfolio/voome-chatbot/</loc>
