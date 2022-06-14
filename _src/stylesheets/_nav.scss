@@ -104,6 +104,7 @@
   position: fixed;
   width: 100%;
   z-index: 100;
+  max-width: $layout-max-width;
 }
 
 .nav-toggle-icon {
@@ -180,7 +181,6 @@
 
   &.open {
     align-items: flex-start;
-    height: 100%;
     width: 100%;
     padding: 18px 0;
     z-index: 100;
@@ -212,6 +212,10 @@
 
     .nav-links {
       display: block;
+    }
+
+    @include media-breakpoint-down(md) {
+      height: 100%;
     }
   }
 
