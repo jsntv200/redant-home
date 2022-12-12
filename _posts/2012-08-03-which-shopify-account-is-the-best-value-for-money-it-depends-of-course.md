@@ -13,7 +13,7 @@ description:
 keywords: shopify pricing
 image_small: '/assets/uploads/2012/shopify-account-comparison-chart-small.png'
 image: '/assets/uploads/2012/shopify-account-comparison-chart.png'
-excerpt-short: Shopify for e-commerce - we looked into this as part of a recent assesment.
+excerpt-short: Shopify for e-commerce - we looked into this as part of a recent assessment.
 excerpt-long:
   As part of a recent assessment for a client e-commerce solution we looked
   into <a href="http://www.shopify.com">Shopify</a>. Part of that meant checking out
