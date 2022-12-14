@@ -3,7 +3,6 @@
   "version": "2.0.0",
   "description": "Red Ant Website.",
   "main": "assets/javascript/index.js",
-  "author": "Jason Taylor <jason@redant.com.au>",
   "license": "UNLICENSED",
   "scripts": {
     "build": "node _src/lib/esbuild.js",
