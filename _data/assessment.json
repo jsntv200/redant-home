@@ -64,7 +64,7 @@
         "weight": "4",
         "answers": [
           "Picture a scene from the movie Dumb and Dumber",
-          "We've worked out the payment processes, and data required for inputs, outputs, suppliers, and customers have been identified.  We don't really have a formal payment processes and data architecture. Business Process Integration is limited to Line of Business objectives.",
+          "We haven't really spent that much time working this out. We have a basic direction and plan, but nothing concrete at this stage.",
           "We have a pretty good understanding of the needs of the payment processes and the customers data. We have a formal plan to guide use of payment processes and data architecture.",
           "The payment process has an Owner within the business, and they've set up performance expectations and KPIs with other areas. We've formalised our data and process in an agreed Architecture.",
           "The payment Owner and others int the business have established clear SLAs. Our process is really well defined for both internal and external flows. We monitor this performance via a live dashboard with key payment metrics."
