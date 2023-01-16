@@ -48,7 +48,7 @@ Generally all images for posts / pages should be uploaded and handled through th
 
 Forestry config for front matters and settings are located in the `.forestry` folder.
 
-Files uploaded through Forestry are set to go into the `/assets/uploads` folder.
+Files uploaded through Forestry are set to go into the `/assets/uploads` folder
 
 ## Release / Deploy
 
