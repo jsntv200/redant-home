@@ -4,6 +4,16 @@
   color: $purple-300 !important;
 }
 
+.assessment {
+  ol li::marker {
+    font-weight: bold;
+  }
+
+  .w-75 {
+    width: 100% !important;
+  }
+}
+
 .results-table {
   thead {
     th {

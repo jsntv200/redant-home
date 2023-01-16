@@ -14,6 +14,7 @@ export class AssessmentController extends Controller {
     "response",
     "results",
     "resume",
+    "scoresInput",
     "section",
     "submitButton"
   ];
@@ -30,6 +31,7 @@ export class AssessmentController extends Controller {
 
       if (Object.entries(answers).length > 0) {
         this.answersInputTarget.value = JSON.stringify(answers);
+        this.calculate();
       } else {
         this.navigateTo();
       }
@@ -47,7 +49,7 @@ export class AssessmentController extends Controller {
     const weighting = 0.6;
     const answers = params.has('r') ? 
       JSON.parse(decodeURIComponent(params.get('r')).replaceAll('&#34;', '"')) :
-      {};
+      this.getAnswers();
 
     const scoreRange = Object.keys(questions)
       .reduce((accumulator, currentValue) => {
@@ -57,32 +59,43 @@ export class AssessmentController extends Controller {
         });
       }, []);
 
+    var scores = "";
+
     for (const [i, values] of Object.values(answers).entries()) {
+      const maxScore = scoreRange[i]["max"];
       const minScore = scoreRange[i]["min"];
+      const range = maxScore - minScore;
+      const scoreLevels = [
+        minScore, 
+        minScore + range/5,
+        minScore + range/2,
+        maxScore - range/5,
+        maxScore
+      ];
       // To calculate result: answer_number * (weight * weighting)
-      const sum = values.reduce((accumulator, currentValue) => {
+      const totalScore = values.reduce((accumulator, currentValue) => {
         return accumulator + (currentValue[0] * (currentValue[1] * weighting))
       }, 0);
-      
-      if (this.diff(sum, minScore) >= this.diff(sum, scoreRange[i]["max"])) {
-        // upper 1/2
-        if (this.diff(sum, minScore * 2) >= this.diff(sum, minScore * 4)) {
-          // falls in 4/4
-          this.setResult(i, 3);
-        } else {
-          // falls in 3/4
-          this.setResult(i, 2);
-        }
-      } else {
-        // lower 1/2
-        if (this.diff(sum, minScore) >= this.diff(sum, minScore * 2)) {
-          // falls in 2/4
-          this.setResult(i, 1);
-        } else {
-          // fall in 1/4
-          this.setResult(i, 0);
+
+      var closest = -1;
+      var closeDiff = -1;
+      // Get the closest score level to determine which result to present
+      for (const ii in scoreLevels) {
+        if (Math.abs(scoreLevels[ii] - totalScore) < closeDiff || closest === -1) {
+          closeDiff = Math.abs(scoreLevels[ii] - totalScore);
+          closest = ii;
         }
       }
+
+      if (location.pathname === "/assessment/submit") {
+        scores += `${results[i]["results"][closest]["title"]},`;
+      } else {
+        this.setResult(i, closest);
+      }
+    }
+
+    if (location.pathname === "/assessment/submit") {
+      this.scoresInputTarget.value = scores.slice(0, -1);
     }
   }
 
@@ -212,7 +225,6 @@ export class AssessmentController extends Controller {
     xhr.onreadystatechange = function() {
       if (xhr.readyState === 4 && xhr.status === 200) {
         self.formTarget.reset();
-        self.clearAnswers();
         self.formTarget.classList.toggle("d-none");
         self.responseTarget.classList.toggle("d-none");
         self.responseTarget.classList.toggle("d-flex");
@@ -329,6 +341,11 @@ export class AssessmentController extends Controller {
       results[sectionIndex]["results"][resultIndex]["title"];
     this.resultsTargets[sectionIndex].children[2].children[0].innerHTML = 
       results[sectionIndex]["results"][resultIndex]["description"];
+  }
+
+  start() {
+    this.clearAnswers();
+    location.href = "/assessment/current?q=1";
   }
 
   validateEmail() {

@@ -13,9 +13,9 @@
         "answers": [
           "Somewhere just past the Stone Age",
           "Early days - we don't do much. Actually not at all.",
-          "The business does process some digital payments, but we're still trying to expand",
-          "Everything is digital. And we're pretty awesome at it",
-          "Everything is digital, but we know there is room for improvement"
+          "The business does process some digital payments, but we're still trying to expand. We do credit card payments",
+          "Everything is digital. And we're pretty awesome at it. We do transactions in Credit cards, Direct Debit and BNPL",
+          "All our payments are 100% digital, but we know there is room for improvement"
         ]
       },
       {
@@ -24,9 +24,9 @@
         "icon": "money-bill",
         "weight": "5",
         "answers": [
-          "Nup. Nada.",
-          "An occasional one, but they are unusual",
-          "Most payments are done this way",
+          "Not really that much at all. We get the occcasional customer request",
+          "It's a small part of our revenue, but we're keen to learn how to grow it efficiently",
+          "Most payments are done this way. Well, probably more than half.",
           "All payments are done this way",
           "All payments are digital, but we know we can always improve speed and resilience."
         ]
@@ -37,7 +37,7 @@
         "icon": "telescope",
         "weight": "10",
         "answers": [
-          "Process what?",
+          "We don't really plan things out like that",
           "We haven't really designed much. But we know we need to.",
           "We've redesigned from end to end, but at this stage it's unclear how this will fit in with other data and processes",
           "We've redesigned from end to end, but at this stage it's fully integrated with our internal data and processes",
@@ -161,8 +161,8 @@
         "icon": "person",
         "weight": "8",
         "answers": [
-          "That's funny - the Police had the same question",
-          "Not really",
+          "That's really weird - the Police had the same question",
+          "Not really - accounts keep on asking about this",
           "There was someone, but they left a few years ago.",
           "There is a clear owner",
           "There is a clear owner, who is a senior person in the organisation. They are able to focus on payment related issues."
@@ -211,7 +211,7 @@
         "weight": "6",
         "answers": [
           "You might have heard of the term Reinventing the Wheel...",
-          "Our architecture is more of an informal By Mutual Agreement style of system architecture.",
+          "Our architecture is more of an informal By Mutual Agreement Between Developers style of system architecture.",
           "Some patterns and formats used, but I think we'd be exagerating things a bit if we said there was any actual formal architecture or practices. We feel our own way and evolve over time.",
           "We use frameworks and practices in conjunction with a formal SOAmethod and architectures. Our overall business information model is still evolving - still in it's infancy.",
           "Service components are designed using formal methods, practices, and frameworks that promote the reuse of assets. Formal enterprise-wide business information services have been developed and deployed."
@@ -236,8 +236,8 @@
         "icon": "dumpster-fire",
         "weight": "8",
         "answers": [
-          "Since there is no performance to measure, we decided to remove the requirement for metrics",
-          "We track which parts of our payments system aren't working by complaints coming in from customers",
+          "Since no one could really answer all the questions we kept on getting asked about performance problems, we took a group decision to remove the metrics functionality. Now all our graphs look really good and no one asks questions.",
+          "We track which parts of our payments system aren't working by complaints coming in from customers on a whiteboard. The cleaner removes it every Friday so we can start over with a clean slate.",
           "Someone has a spreadsheet, which we update before the end of each quarter. We track key payment related data points, and send this around to stakeholders in the organisation.",
           "Our KPI and metric scoreboard is partially automated. It tracks both payment related and company metrics where they overlap and influence each other.",
           "Our KPI and metrics scoreboard is fully automated and receives live data. It tracks all relevant payment metrics, as well as company wide ones where there is an intersection or influence. The metrics include application throughput and errors, as well as user behaviour, infrastructure and financial data points."
@@ -250,7 +250,7 @@
         "weight": "8",
         "answers": [
           "Great question - no one has asked for it yet",
-          "I'm not sure management is aware. Or if they are, then maybe they are too scared to ask what the metrics are.",
+          "I'm not sure management is aware. Or if they are, then maybe they are too scared to ask what the numbers mean. It's like a horror movie - if you look away, it isn't that scary.",
           "Metrics are used to compare against benchmarks, as well as inform some business decisions. They are limited in scope, which limits how useful they are at the moment. If the data was more accurate and current, it may find more uses within the business.",
           "Management team use these metrics as part of a team review or motivation. They are aware of any changes, and use them for day to day management of the payment process. Work to include targets and SLAs is being considered.",
           "Management team use these metrics in reviews, as well as day to day management decisions. Targets and SLAs are designed and set regularly, and everyone is aware if we're not meeting them. Partner data is included in metrics."
