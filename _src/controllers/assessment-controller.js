@@ -141,7 +141,7 @@ export class AssessmentController extends Controller {
     var email = "";
 
     var fields = Object.keys(elements).filter(function(k) {
-      if (elements[k].name === "honeypot") {
+      if (elements[k].name === "user") {
         honeypot = elements[k].value;
         return false;
       }
