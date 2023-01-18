@@ -48,8 +48,10 @@ Generally all images for posts / pages should be uploaded and handled through th
 
 Forestry config for front matters and settings are located in the `.forestry` folder.
 
-Files uploaded through Forestry are set to go into the `/assets/uploads` folder
+Files uploaded through Forestry are set to go into the `/assets/uploads` folder.
 
 ## Release / Deploy
 
 A github workflow will compile and deploy to `gh_pages` when updates are pushed to `master`.
+
+Ensure that the CNAME file has the correct domain name when deploying to production and staging.
