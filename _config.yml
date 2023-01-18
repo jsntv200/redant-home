@@ -7,14 +7,14 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://redant.com.au" # the base hostname & protocol for your site, e.g. http://example.com
 url_host: "redant.com.au"
-announcement_bar: true
+announcement_bar: false
 
 # Build settings
 permalink: /:title/
 markdown: kramdown
 google_analtyics: UA-421251-1
 
-on_demand: true
+on_demand: false
 
 gtm:
   dev: GTM-N3CM249
