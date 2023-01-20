@@ -7,7 +7,6 @@ categories:
   - our-work
   - ruby-on-rails
 author: Ben Still
-image:
 image_small: /assets/uploads/2009/forum-small.png
 image: /assets/uploads/2009/forum-large.png
 meta:

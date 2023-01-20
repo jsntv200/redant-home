@@ -6,7 +6,6 @@ type: news
 categories:
   - our-work
 author: Ben Still
-image:
 image_small: /assets/uploads/2008/ant-small.jpg
 image: /assets/uploads/2008/ant-large.jpg
 meta:

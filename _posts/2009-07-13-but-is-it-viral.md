@@ -6,7 +6,6 @@ type: ideas
 categories:
   - strategy
 author: Ben Still
-image:
 image_small: /assets/uploads/2009/viral-small.png
 image: /assets/uploads/2009/viral-large.jpg
 meta:

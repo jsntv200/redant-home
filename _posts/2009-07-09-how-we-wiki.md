@@ -7,7 +7,6 @@ categories:
   - how-we-do
   - agile
 author: Ben Still
-image:
 image_small: /assets/uploads/2009/wiki-wiki-small.jpg
 image: /assets/uploads/2009/wiki-wiki-big.jpg
 meta:

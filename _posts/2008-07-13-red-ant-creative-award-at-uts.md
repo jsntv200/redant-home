@@ -6,7 +6,6 @@ type: news
 categories:
   - our-work
 author: Ben Still
-image:
 image_small: /assets/uploads/2008/kap-uts-design-award.jpg
 image: /assets/uploads/2008/kap-uts-design-award.jpg
 meta:

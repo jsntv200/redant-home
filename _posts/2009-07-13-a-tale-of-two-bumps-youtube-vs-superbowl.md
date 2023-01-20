@@ -6,7 +6,6 @@ type: news
 categories:
   - how-we-do
 author: Ben Still
-image:
 image_small: /assets/uploads/2009/alexa.png
 image: /assets/uploads/2009/alexa.png
 meta:

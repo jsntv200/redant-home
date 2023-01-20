@@ -7,7 +7,6 @@ categories:
   - how-we-do
   - tool-reviews
 author: Ben Still
-image:
 image_small: /assets/uploads/2009/ui-friction-small.jpg
 image: /assets/uploads/2009/ui-friction.jpg
 meta:

@@ -6,7 +6,6 @@ type: ideas
 categories:
   - our-work
 author: Ben Still
-image:
 image_small: /assets/uploads/2008/radiant-admin-465x311.png
 image: /assets/uploads/2008/radiant-admin.png
 meta:

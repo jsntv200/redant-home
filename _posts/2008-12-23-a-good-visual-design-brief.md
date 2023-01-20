@@ -8,7 +8,6 @@ categories:
   - how-we-do
   - ruby-on-rails
 author: Ben Still
-image:
 image_small: /assets/uploads/2008/brief-small.jpg
 image: /assets/uploads/2008/brief-large.jpg
 meta:
