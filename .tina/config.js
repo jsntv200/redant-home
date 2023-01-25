@@ -28,22 +28,22 @@ export default defineConfig({
           {
             type: "string",
             name: "layout",
-            label: "layout",
+            label: "layout *required",
             ui: {
               defaultItem: "job",
             },
           }, {
             type: "string",
             name: "slug",
-            label: "slug",
+            label: "slug *required",
           }, {
             type: "string",
             name: "title",
-            label: "title",
+            label: "title *required",
           }, {
             type: "string",
             name: "description",
-            label: "description",
+            label: "description *required",
             component: "textarea",
           }, {
             type: "string",
@@ -73,14 +73,14 @@ export default defineConfig({
           {
             type: "string",
             name: "layout",
-            label: "layout",
+            label: "layout *required",
             config: {
               defaultItem: "project",
             },
           }, {
             type: "string",
             name: "theme",
-            label: "theme",
+            label: "theme *required",
             options: [
               {
                 value: "12wbt",
@@ -306,22 +306,22 @@ export default defineConfig({
         format: "md",
         fields: [
           {
-            label: "layout",
+            label: "layout *required",
             name: "layout",
             type: "string",
             ui: {
               defaultItem: "post",
             },
           }, {
-            label: "title",
+            label: "title *required",
             name: "title",
             type: "string",
           }, {
-            label: "permalink",
+            label: "permalink *required",
             name: "permalink",
             type: "string",
           }, {
-            label: "type",
+            label: "type *required",
             name: "type",
             type: "string",
             options: [{
@@ -340,12 +340,29 @@ export default defineConfig({
               description: "Example categories: our-work; ruby-on-rails; red-ant-stuff; ecommerce; strategy; how-we-do; design; automated-testing; ruby-on-rails-devops; mobile; agile; digital-products; tool-reviews; pjax; lean-development; marketing; software-development;",
             },
           }, {
-            label: "author",
+            label: "author *required",
             name: "author",
             type: "string",
             ui: {
               defaultItem: "Ben Still",
             },
+          }, {
+            type: "string",
+            name: "description",
+            label: "description *required",
+            component: "textarea",
+          }, {
+            type: "string",
+            name: "keywords",
+            label: "keywords",
+          }, {
+            type: "image",
+            name: "image_small",
+            label: "image_small",
+          }, {
+            type: "image",
+            name: "image",
+            label: "image",
           }, {
             label: "excerpt_short",
             name: "excerpt_short",
@@ -377,7 +394,7 @@ export default defineConfig({
             type: "string",
             component: "tags",
           }, {
-            label: "date_published",
+            label: "date_published *required",
             name: "date_published",
             type: "datetime",
             ui: {
@@ -385,7 +402,7 @@ export default defineConfig({
               dateFormat: "YYYY MM DD",
             },
           }, {
-            label: "updated_at",
+            label: "updated_at *required",
             name: "updated_at",
             type: "datetime",
             ui: {
@@ -393,7 +410,7 @@ export default defineConfig({
               dateFormat: "YYYY MM DD",
             },
           }, {
-            label: "publisher",
+            label: "publisher *required",
             name: "publisher",
             type: "string",
             ui: {
@@ -409,7 +426,7 @@ export default defineConfig({
         fields: [
           {
             type: "string",
-            label: "layout",
+            label: "layout *required",
             name: "layout",
             ui: {
               defaultItem: "service",
@@ -417,11 +434,11 @@ export default defineConfig({
           }, {
             type: "string",
             name: "title",
-            label: "title",
+            label: "title *required",
           }, {
             type: "string",
             name: "subtitle_1",
-            label: "subtitle_1",
+            label: "subtitle_1 *required",
             component: "textarea",
           }, {
             type: "string",
@@ -431,11 +448,11 @@ export default defineConfig({
           }, {
             type: "string",
             name: "cta_button_title",
-            label: "cta_button_title",
+            label: "cta_button_title *required",
           }, {
             type: "string",
             name: "service_title",
-            label: "service_title",
+            label: "service_title *required",
           }, {
             type: "string",
             name: "service_bulletpoints",
@@ -444,7 +461,7 @@ export default defineConfig({
           }, {
             type: "string",
             name: "time",
-            label: "time",
+            label: "time *required",
           }, {
             type: "string",
             name: "cost",
@@ -452,7 +469,7 @@ export default defineConfig({
           }, {
             type: "string",
             name: "description",
-            label: "description",
+            label: "description *required",
             component: "textarea",
           }, {
             type: "string",
@@ -485,7 +502,7 @@ export default defineConfig({
           {
             type: "string",
             name: "layout",
-            label: "layout",
+            label: "layout *required",
             ui: {
               defaultItem: "technology"
             },
@@ -493,7 +510,7 @@ export default defineConfig({
           {
             type: "string",
             name: "category",
-            label: "category",
+            label: "category *required",
             options: [
               "Languages",
               "Payments",
@@ -507,6 +524,7 @@ export default defineConfig({
           {
             type: "string",
             name: "type",
+            label: "type *required",
             ui: {
               description: "Determines which subcategory this item belongs to in the technology list",
             },
@@ -518,17 +536,17 @@ export default defineConfig({
           {
             type: "string",
             name: "title",
-            label: "title",
+            label: "title *required",
           },
           {
             type: "string",
             name: "subtitle",
-            label: "subtitle",
+            label: "subtitle *required",
           },
           {
             type: "string",
             name: "description",
-            label: "description",
+            label: "description *required",
             component: "textarea",
           },
           {
@@ -570,7 +588,7 @@ export default defineConfig({
           {
             type: "string",
             name: "how_title",
-            label: "how_title",
+            label: "how_title *required",
           },
           {
             type: "string",
