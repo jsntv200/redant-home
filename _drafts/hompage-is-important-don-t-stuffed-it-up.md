@@ -13,8 +13,8 @@ description: How to optimize your homepage in the mobile era
 keywords: ''
 image_small: "/assets/uploads/2020/group-2.png"
 image: "/assets/uploads/2020/group-2.png"
-excerpt-short: ''
-excerpt-long: ''
+excerpt_short: ''
+excerpt_long: ''
 redirect_from: []
 
 ---

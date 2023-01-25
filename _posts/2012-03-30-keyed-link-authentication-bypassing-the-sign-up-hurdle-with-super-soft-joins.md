@@ -12,8 +12,8 @@ description: When your users are unlikely to want to provide their email address
 keywords: super soft joins
 image_small: "/assets/uploads/2012/clear-your-vision-home-small.jpg"
 image: "/assets/uploads/2012/clear-your-vision-home.jpg"
-excerpt-short: How we use super-soft joins to interact with users on personal subjects.
-excerpt-long: Sometimes engaging users can be difficult if the subject matter is intensely
+excerpt_short: How we use super-soft joins to interact with users on personal subjects.
+excerpt_long: Sometimes engaging users can be difficult if the subject matter is intensely
   personal. Super-soft joins helped us help people quit drugs.
 tags: []
 time: ''

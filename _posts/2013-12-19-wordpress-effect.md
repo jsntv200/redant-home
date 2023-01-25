@@ -12,9 +12,9 @@ description: The growth of WordPress has turned the web development market on it
 keywords: wordpress
 image_small: "/assets/uploads/2013/canyon-small.jpg"
 image: "/assets/uploads/2013/canyon-small.jpg"
-excerpt-short: The growth of tools like Wordpress have had a massive impact on the
+excerpt_short: The growth of tools like Wordpress have had a massive impact on the
   web development market. It's created two very distinct areas with a huge gap between.
-excerpt-long: The growth of tools like Wordpress have had a massive impact on the
+excerpt_long: The growth of tools like Wordpress have had a massive impact on the
   web development market. It's created two very distinct areas with a huge gap between.
   One side are marketing sites. These have become very easy to make, and can be set
   up now in hours rather than months. On the other side are the "digital products"

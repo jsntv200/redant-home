@@ -10,10 +10,10 @@ author: Sam Bauers
 keywords: ''
 image_small: "/assets/uploads/2014/plando-small.png"
 image: "/assets/uploads/2014/plando-wide.png"
-excerpt-short: The world of employment and careers is due for a shakeup. We've been
+excerpt_short: The world of employment and careers is due for a shakeup. We've been
   helping Plando build a career management platform that we think will fundamentally
   change the careers landscape.
-excerpt-long: We've been helping Plando build a career management platform that will
+excerpt_long: We've been helping Plando build a career management platform that will
   shakeup the world of employment and careers by giving individuals the tools to manage
   their own careers. Traditionally employees have been reliant on their employer's
   HR practices and tools to successfully map their career path. Plando changes all

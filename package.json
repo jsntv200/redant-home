@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "node _src/lib/esbuild.js",
-    "dev": "yarn tinacms dev -c 'bundle exec jekyll serve --livereload'"
+    "dev": "yarn tinacms dev -c 'bundle exec jekyll serve --livereload --trace'"
   },
   "dependencies": {
     "@hotwired/stimulus": "3.1.0",

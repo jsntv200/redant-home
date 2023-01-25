@@ -12,9 +12,9 @@ description: We've recently spent some time adding some new features to a site t
 keywords: refactoring
 image_small: "/assets/uploads/2009/refactor-small.jpg"
 image: "/assets/uploads/2009/refactor-large.jpg"
-excerpt-short: We've recently spent some time adding some new features to a site that
+excerpt_short: We've recently spent some time adding some new features to a site that
   we built a while back.
-excerpt-long: We've recently spent some time adding some new features to a site that
+excerpt_long: We've recently spent some time adding some new features to a site that
   we built a while back. Part of this was moving it to a new CMS, and since we had
   the chance, we took a look at each of the templates to see where they could be improved.
 tags: []

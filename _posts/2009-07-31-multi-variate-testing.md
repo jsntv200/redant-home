@@ -14,9 +14,9 @@ description: Lately, we've been doing quite a bit of work on sites which involve
 keywords: multi variate testing
 image_small: "/assets/uploads/2009/peter-small.jpg"
 image: "/assets/uploads/2009/peter.jpg"
-excerpt-short: Lately, we've been doing quite a bit of work on sites which involve
+excerpt_short: Lately, we've been doing quite a bit of work on sites which involve
   multi-variate (MV) testing
-excerpt-long: Lately, we've been doing quite a bit of work on sites which involve
+excerpt_long: Lately, we've been doing quite a bit of work on sites which involve
   multi-variate (MV) testing. Its quite interesting, but hard to explain. In a nutshell,
   MV testing means testing lots of little changes or variations to a web site to see
   what works. Does bold orange type work better than small grey type? Should we show

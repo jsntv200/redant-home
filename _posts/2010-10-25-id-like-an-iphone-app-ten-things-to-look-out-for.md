@@ -12,8 +12,8 @@ description: considerations for your iphone app design brief
 keywords: iphone app design brief
 image_small: "/assets/uploads/2010/iphone-app-small.jpg"
 image: "/assets/uploads/2010/iphone-app.jpg"
-excerpt-short: 'Ten quick tips: considerations for your iphone app design brief'
-excerpt-long: Ten quick tips or ideas to consider before getting someone to build
+excerpt_short: 'Ten quick tips: considerations for your iphone app design brief'
+excerpt_long: Ten quick tips or ideas to consider before getting someone to build
   you an iphone app, and what to put in your design / development brief
 tags: []
 time: ''

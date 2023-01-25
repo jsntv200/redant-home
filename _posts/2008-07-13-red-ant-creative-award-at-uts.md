@@ -13,8 +13,8 @@ meta:
   keywords: Red Ant creative award at UTS
   description: We're sponsoring an award at the design school of University of Technology, Sydney.
 excerpt:
-excerpt-short: We're sponsoring an award at the design school of University of Technology, Sydney.
-excerpt-long: We're sponsoring an award at the design school of University of Technology, Sydney. It's competitive, and only the best will make the cut.
+excerpt_short: We're sponsoring an award at the design school of University of Technology, Sydney.
+excerpt_long: We're sponsoring an award at the design school of University of Technology, Sydney. It's competitive, and only the best will make the cut.
 published: true
 date_published: ! ' 2008-07-13'
 updated_at: 2008-07-13

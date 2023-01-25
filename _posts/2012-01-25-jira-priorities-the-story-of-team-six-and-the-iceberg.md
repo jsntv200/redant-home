@@ -12,8 +12,8 @@ description: Find out how we use Jira priorities at Red Ant to manage developmen
 keywords: Jira priorities
 image_small: "/assets/uploads/2012/jira-screenshot-small.jpg"
 image: "/assets/uploads/2012/jira-screenshot.jpg"
-excerpt-short: Seal teams, titanic sinkers and our prioritization ratings.
-excerpt-long: We use Jira to keep track of all of our tasks - without it we'd be overwhelmed
+excerpt_short: Seal teams, titanic sinkers and our prioritization ratings.
+excerpt_long: We use Jira to keep track of all of our tasks - without it we'd be overwhelmed
   with the sheer volume of "stuff" you need to keep track of on a typical digital
   project.
 tags: []

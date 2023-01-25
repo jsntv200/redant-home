@@ -12,9 +12,9 @@ description: How we used Ruby on Rails convention over configuration to make our
 keywords: ruby on rails efficient
 image_small: "/assets/uploads/2013/ruby-on-rails.png"
 image: "/assets/uploads/2013/ruby-on-rails.png"
-excerpt-short: '"convention over configuration". How to improve team effectiveness
+excerpt_short: '"convention over configuration". How to improve team effectiveness
   and quality.'
-excerpt-long: Before we switched to Ruby on Rails, we had a small team working in
+excerpt_long: Before we switched to Ruby on Rails, we had a small team working in
   Microsoft ASP and .Net. They'd butt heads all the time over seemingly trivial stuff,
   which had the impact of slowing us down. Once using Ruby on Rails, we started approaching
   these issues from a "convention over configuration" perspective, which helped us

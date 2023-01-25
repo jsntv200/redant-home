@@ -12,9 +12,9 @@ description: R&D grants can help offset the cost of development. But you need to
 keywords: research and development grants
 image_small: "/assets/uploads/2013/milo-closeup-small.jpg"
 image: "/assets/uploads/2012/m-lo-small.jpg"
-excerpt-short: R&D grants can help offset the cost of development. But you need to
+excerpt_short: R&D grants can help offset the cost of development. But you need to
   make sure you're actually innovating.
-excerpt-long: R&D innovation grants can help offset the cost of development. But you
+excerpt_long: R&D innovation grants can help offset the cost of development. But you
   need to make sure you're actually innovating and creating something new.
 tags:
 - Innovation

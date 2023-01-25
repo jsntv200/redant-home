@@ -13,8 +13,8 @@ description: As our projects have grown larger, so has the complexity of testing
   this process, read on to see how we do it.
 image_small: "/assets/uploads/2012/github-small.jpg"
 image: "/assets/uploads/2012/github.jpg"
-excerpt-short: GitFlow is the way of the future. Find out why and how here.
-excerpt-long: As our projects have grown larger, so has the complexity of testing
+excerpt_short: GitFlow is the way of the future. Find out why and how here.
+excerpt_long: As our projects have grown larger, so has the complexity of testing
   and deploying work. We've started moving projects over to GitFlow in order to simplify
   this process, read on to see how we do it.
 tags: []

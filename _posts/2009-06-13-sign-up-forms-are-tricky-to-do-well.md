@@ -14,8 +14,8 @@ meta:
   keywords: sign up forms are tricky
   description: Ryan Singer talks about 10 different ways to do sign up forms.
 excerpt:
-excerpt-short: Ryan Singer talks about 10 different ways to do sign up forms.
-excerpt-long: Ryan Signer goes through 10 different things we can do to make sign up forms awesome. They are the entry point for conversion, so it's important to focus on visual simplicity and ease of use.
+excerpt_short: Ryan Singer talks about 10 different ways to do sign up forms.
+excerpt_long: Ryan Signer goes through 10 different things we can do to make sign up forms awesome. They are the entry point for conversion, so it's important to focus on visual simplicity and ease of use.
 published: false
 date_published: ! ' 2009-06-13'
 updated_at: 2009-06-13

@@ -12,10 +12,10 @@ description: Why we use Ruby on Rails
 keywords: ruby on rails
 image_small: '/assets/uploads/2009/ruby-on-rails.png'
 image: '/assets/uploads/2009/ruby-on-rails.png'
-excerpt-short:
+excerpt_short:
   We do a lot of work with a programming language called Ruby on Rails.
   This is why.
-excerpt-long:
+excerpt_long:
   'We do a lot of work with a programming language called Ruby on Rails.
   When I explain this, some people look at me blankly (disclosure: I get that a lot
   anyway...). Techie people usually start gushing about how great it is, or want a

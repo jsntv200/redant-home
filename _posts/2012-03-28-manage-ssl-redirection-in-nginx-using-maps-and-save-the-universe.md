@@ -11,9 +11,9 @@ description: A simple tutorial showing how to manage a large list of rewrite rul
 keywords: nginx ssl redirection
 image_small: "/assets/uploads/2012/milo-on-floor-small.jpg"
 image: "/assets/uploads/2012/milo-on-floor.jpg"
-excerpt-short: Solutions to simple yet common and frustrating problems. We spill the
+excerpt_short: Solutions to simple yet common and frustrating problems. We spill the
   beans on how we do it.
-excerpt-long: What if (block) Nginx really can do it all? It's taken a little customisation
+excerpt_long: What if (block) Nginx really can do it all? It's taken a little customisation
   but we think we've found the solution to a simple yet common and frustrating problem
   with redirects and HTTPS and HTTP connections. Plus, see a upside down picture of
   a cute dog!

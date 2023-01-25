@@ -14,9 +14,9 @@ keywords: Subversion, MySQL, backup, MySQL backup, small database backup, dolphi
   with lasers
 image_small: "/assets/uploads/2014/dolphins-with-lasers-small.jpg"
 image: "/assets/uploads/2014/dolphins-with-lasers.jpg"
-excerpt-short: A common pain point when using databases like MySQL on small projects
+excerpt_short: A common pain point when using databases like MySQL on small projects
   is a simple way of managing backups. Here is a solution we've created.
-excerpt-long: A common pain point when using <a href="http://www.mysql.com">MySQL</a>
+excerpt_long: A common pain point when using <a href="http://www.mysql.com">MySQL</a>
   <a href="https://mariadb.org">and</a> <a href="http://www.percona.com/software">friends</a>
   is managing backups. Generally the solutions on offer are focused on huge databases
   and are overly complex or time-consuming to setup. For small databases - like a

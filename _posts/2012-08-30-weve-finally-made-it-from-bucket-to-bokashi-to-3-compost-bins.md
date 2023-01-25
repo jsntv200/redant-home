@@ -11,8 +11,8 @@ description: A whirlwind tale of Red Ant's journey through the wonderful world o
 keywords: compost bins
 image_small: "/assets/uploads/2012/compost-bin-small.jpg"
 image: "/assets/uploads/2012/compost-bin.jpg"
-excerpt-short: 'Green offices of the present future: office composting.'
-excerpt-long: This week we reached a major milestone in our business - something we're
+excerpt_short: 'Green offices of the present future: office composting.'
+excerpt_long: This week we reached a major milestone in our business - something we're
   all very excited about. Finally, after years of hard work and dedication, and several
   wrong turns along the way, we've got there.
 tags: []

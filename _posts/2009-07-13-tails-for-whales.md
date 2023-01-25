@@ -12,9 +12,9 @@ description: Tails was whales has been a huge success, and we've loved working o
 keywords: tails for whales
 image_small: "/assets/uploads/2009/tails-whales-small.png"
 image: "/assets/uploads/2009/tails-whales-big.png"
-excerpt-short: Tails was whales has been a huge success, and we've loved working on
+excerpt_short: Tails was whales has been a huge success, and we've loved working on
   it. And now we're making it even better.
-excerpt-long: Tails was whales is a great campaign to raise awareness for what happens
+excerpt_long: Tails was whales is a great campaign to raise awareness for what happens
   in Japan each year where they set sail and hunt these beautiful creatures. We think
   it's wrong, and so do a lot of you it seems too.
 tags: []

@@ -14,8 +14,8 @@ image:
   path: '/assets/uploads/2009/redant-wallpaper-1400x1050.jpg'
   height: 1050
   width: 1400
-excerpt-short: Download your Red Ant desktop wallpaper today.
-excerpt-long: Download your Red Ant desktop wallpaper today.
+excerpt_short: Download your Red Ant desktop wallpaper today.
+excerpt_long: Download your Red Ant desktop wallpaper today.
 tags: []
 time: ''
 redirect_from: []

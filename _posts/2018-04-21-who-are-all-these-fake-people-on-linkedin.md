@@ -10,8 +10,8 @@ description: Who are all these fake people on LinkedIn?
 keywords: ''
 image_small: "/assets/uploads/2018/linkedin2.png"
 image: "/assets/uploads/2018/linkedin2.png"
-excerpt-short: ''
-excerpt-long: ''
+excerpt_short: ''
+excerpt_long: ''
 tags:
 - Red-Ant-Marketing
 - LinkedIn

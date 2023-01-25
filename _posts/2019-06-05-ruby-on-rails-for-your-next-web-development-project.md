@@ -14,10 +14,10 @@ description:
 keywords: ""
 image_small: "/assets/uploads/2019/why-choose-ruby.jpg"
 image: "/assets/uploads/2019/why-choose-ruby.jpg"
-excerpt-short:
+excerpt_short:
   The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
-excerpt-long:
+excerpt_long:
   The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
 redirect_from: []

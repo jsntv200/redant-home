@@ -11,8 +11,8 @@ description: A quick outline of how we're using Jenkins and the Pipeline view to
 keywords: ''
 image_small: "/assets/uploads/2012/jenkins-pipeline-start-small.png"
 image: "/assets/uploads/2012/jenkins-pipeline-start.png"
-excerpt-short: How we build relational trust; our integrated testing pipeline
-excerpt-long: A review of how we use the Jenkins Pipeline feature of Jenkins Continuous
+excerpt_short: How we build relational trust; our integrated testing pipeline
+excerpt_long: A review of how we use the Jenkins Pipeline feature of Jenkins Continuous
   Integration to visualise our automated tests and builds, and understand how close
   different tests are to completion.
 tags: []

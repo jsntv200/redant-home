@@ -12,10 +12,10 @@ description:
 keywords: Clicktale review
 image_small: '/assets/uploads/2012/clicktale-small.png'
 image: '/assets/uploads/2012/clicktale.png'
-excerpt-short:
+excerpt_short:
   It could be so good, but sadly Clicktale doesn't do everything it says
   on the box.
-excerpt-long:
+excerpt_long:
   Clicktale is a software tool which allows you to track what users are
   doing on your website. It is used to analyse how people behave and what they do
   on particular pages. we've used it on several projects to try to gain a better understanding

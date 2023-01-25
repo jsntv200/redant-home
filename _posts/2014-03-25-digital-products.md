@@ -11,11 +11,11 @@ description: Defining a Digital Product
 keywords: Digital Product
 image_small: '/assets/uploads/2014/digital-product-small.jpg'
 image: '/assets/uploads/2014/digital-product.jpg'
-excerpt-short:
+excerpt_short:
   One of the things we focus on is developing Digital Products. These
   are websites that provide some form of utility to users - these allow people to
   "do" stuff
-excerpt-long:
+excerpt_long:
   One of the things we focus on is developing Digital Products. These
   are websites that provide some form of utility to users - these allow people to
   "do" stuff. Unlike a static site, which might be used for marketing a product or

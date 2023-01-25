@@ -20,6 +20,10 @@ gtm:
   dev: GTM-N3CM249
   prod: GTM-P7QNBDH
 
+tina:
+  clientId: "4fa7de6e-3c9c-4c57-a2ec-3397f690416f"
+  token: "5745ce7a9de6960cf1746a9bb458804153fafdcc"
+
 defaults:
   - scope:
       path: admin

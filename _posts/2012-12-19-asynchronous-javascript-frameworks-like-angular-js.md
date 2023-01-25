@@ -12,10 +12,10 @@ description:
 keywords: fast asynchronous javascript frameworks
 image_small: '/assets/uploads/2012/google-angular-small.png'
 image: '/assets/uploads/2012/angularjs.png'
-excerpt-short:
+excerpt_short:
   Have you noticed that some of the sites you use have been getting super
   fast lately?
-excerpt-long:
+excerpt_long:
   Have you noticed that some of the sites you use have been getting super
   fast lately? Web pages seem to respond almost too quickly. Try typing a search term
   into Google and see how quickly the suggested results come back.

@@ -13,10 +13,10 @@ description: One of our long-term client, Beauty Heaven, has let us make some sn
 keywords: beautyheaven ruby on rails
 image_small: "/assets/uploads/2009/beautyheaven-small.png"
 image: "/assets/uploads/2009/beautyheaven-redesigned-home-page.png"
-excerpt-short: The latest release of Beauty Heaven is part of a number of changes
+excerpt_short: The latest release of Beauty Heaven is part of a number of changes
   that we've been making to the site to improve functionality and performance - faster,
   higher and that sort of stuff.
-excerpt-long: One of our long-term client, Beauty Heaven, has let us make some snazzy
+excerpt_long: One of our long-term client, Beauty Heaven, has let us make some snazzy
   new updates to their super popular website. Think faster, higher and that sort of
   stuff.
 tags: []
