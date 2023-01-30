@@ -12,7 +12,6 @@ announcement_bar: false
 # Build settings
 permalink: /:title/
 markdown: kramdown
-google_analtyics: UA-421251-1
 
 on_demand: false
 
