@@ -8,7 +8,7 @@ export default defineConfig({
   clientId: process.env.TINA__CLIENT_ID, // Get this from tina.io
   token: process.env.TINA__TOKEN, // Get this from tina.io
   build: {
-    outputFolder: "admin",
+    outputFolder: "",
     publicFolder: "admin",
   },
   media: {
