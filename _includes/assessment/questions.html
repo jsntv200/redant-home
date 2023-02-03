@@ -1,43 +1,18 @@
-<div class="row flex-column flex-md-row">
-  {% for question in include.section.questions %}
-    <div class="col-6 col-sm-auto mb-2">
-      <button
-        data-action="click->assessment#select"
-        data-assessment-href-param="{{ include.section.slug }}?q={{ forloop.index }}"
-        class="d-flex flex-column align-items-center justify-content-center w-100 rounded-4 bg-blue-100 py-4 text-black border border-light"
-        data-assessment-target="question">
-        <i class="fa fa-{{ question.icon }} pb-2"></i>
-        <p class="m-0 lh-1">{{ question.title }}</p>
-      </button>
-    </div>
-  {% endfor %}
-</div>
-<div class="card-body px-0">
-  <div class="d-flex flex-column">
+<div 
+  class="row tabs"
+  data-assessment-target="questionSlider">
+  <div class="d-flex">
     {% for question in include.section.questions %}
-      {% if forloop.last == true %}
-        {% assign next-question-url = include.next-section %}
-      {% else %}
-        {% assign next-question-number = forloop.index | plus: 1 %}
-        {% assign next-question-url = include.section.slug | append: "?q=" | append: next-question-number %}
-      {% endif %}
-      <div 
-        class="d-none" 
-        data-assessment-target="answerSection">
-        <p class="py-4 fs-4">{{ question.description }}</p>
-        <div 
-          class="row flex-column"
-          data-assessment-target="answer">
-          {% for answer in question.answers %}
-            <button
-              class="d-flex btn btn-link text-decoration-none w-100 rounded-4 bg-blue-100 p-3 mb-3 text-black border border-light text-start"
-              data-action="click->assessment#select"
-              data-assessment-answer-param="{{ include.section.slug }},{{ forloop.parentloop.index }},{{ forloop.index }},{{ question.weight }}"
-              data-assessment-href-param="{{ next-question-url }}">
-              {{ answer }}
-            </button>
-          {% endfor %}
-        </div>
+      <div class="col-auto me-3">
+        <button
+          data-action="click->assessment#select"
+          data-assessment-href-param="{{ include.section.slug }}?q={{ forloop.index }}"
+          class="btn btn-link text-black p-0"
+          data-assessment-target="question">
+          <p class="m-0 pb-3 lh-1 d-flex align-items-center position-relative">
+            <i class="fa fa-{{ question.icon }} me-2"></i> {{ question.title }}
+          </p>
+        </button>
       </div>
     {% endfor %}
   </div>

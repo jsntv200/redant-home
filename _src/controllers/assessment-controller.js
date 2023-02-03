@@ -7,20 +7,24 @@ export class AssessmentController extends Controller {
     "answer",
     "answersInput",
     "answerSection",
+    "colorsInput",
     "emailInput",
     "form",
     "invalidEmail",
     "question",
+    "questionSlider",
     "response",
     "results",
     "resume",
     "scoresInput",
     "section",
+    "sectionSlider",
     "submitButton"
   ];
 
   static values = {
-    sections: {type: Array, default: ["current", "your-team", "owner", "technology"]}
+    sections: {type: Array, default: ["current", "your-team", "owner", "technology"]},
+    colorHashes: {type: Array, default: ["dc697a", "fdc95b", "c2d7b1", "92defb", "9069f7"]}
   }
 
   connect() {
@@ -60,6 +64,7 @@ export class AssessmentController extends Controller {
       }, []);
 
     var scores = "";
+    var colors = "";
 
     for (const [i, values] of Object.values(answers).entries()) {
       const maxScore = scoreRange[i]["max"];
@@ -89,6 +94,7 @@ export class AssessmentController extends Controller {
 
       if (location.pathname === "/assessment/submit") {
         scores += `${results[i]["results"][closest]["title"]},`;
+        colors += `${this.colorHashesValue[closest]},`;
       } else {
         this.setResult(i, closest);
       }
@@ -96,6 +102,7 @@ export class AssessmentController extends Controller {
 
     if (location.pathname === "/assessment/submit") {
       this.scoresInputTarget.value = scores.slice(0, -1);
+      this.colorsInputTarget.value = colors.slice(0, -1);
     }
   }
 
@@ -274,7 +281,7 @@ export class AssessmentController extends Controller {
       const element = target.children[oldAnswer - 1];
       
       element.classList.toggle("border-light");
-      element.classList.toggle("active-purple");
+      element.classList.toggle("active-question");
     }
   }
 
@@ -285,8 +292,10 @@ export class AssessmentController extends Controller {
   
     this.answerSectionTargets[index].classList.toggle("d-none");
     this.questionTargets[index].classList.toggle("border-light");
-    this.questionTargets[index].classList.toggle("active-purple");
-  
+    this.questionTargets[index].classList.toggle("active");
+    this.questionTargets[index].parentElement.classList.toggle("border-gradient");    
+    this.questionSliderTarget.scrollLeft = this.questionTargets[index].offsetLeft - this.questionSliderTarget.offsetLeft;
+
     for (const i in this.questionTargets) {
       const hasAnswer = !!answers[section] && !!answers[section][i];
 
@@ -309,6 +318,8 @@ export class AssessmentController extends Controller {
         if (location.pathname.includes(slug) || !!sections.find(section => section === slug)) {
           this.sectionTargets[i].removeAttribute("disabled");
           this.sectionTargets[i].classList.remove("opacity-25");
+
+          this.sectionSliderTarget.scrollLeft = this.sectionTargets[i].offsetLeft - this.sectionSliderTarget.offsetLeft;
         }
       }
     }
