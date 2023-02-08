@@ -5,7 +5,7 @@
     <div class="col-auto me-3">
       <button
         class="btn btn-link text-black fs-6 fw-bold p-0 border-0 text-decoration-none
-        {% if page.permalink == '/assessment/current' %}border-black{% endif %}"
+        {% if page.permalink == '/online-payments/payment-maturity-assessment/current' %}border-black{% endif %}"
         data-action="click->assessment#select"
         data-assessment-href-param="{{ include.sections.current.slug }}?q=1"
         data-assessment-target="section">
@@ -17,7 +17,7 @@
     <div class="col-auto me-3">
       <button
         class="btn btn-link text-black fs-6 fw-bold p-0 border-0 text-decoration-none opacity-25
-        {% if page.permalink == '/assessment/your-team' %}border-black{% endif %}"
+        {% if page.permalink == '/online-payments/payment-maturity-assessment/your-team' %}border-black{% endif %}"
         data-action="click->assessment#select"
         data-assessment-href-param="{{ include.sections.your-team.slug }}?q=1"
         data-assessment-target="section"
@@ -30,7 +30,7 @@
     <div class="col-auto me-3">
       <button
         class="btn btn-link text-black fs-6 fw-bold p-0 border-0 text-decoration-none opacity-25
-        {% if page.permalink == '/assessment/owner' %}border-black{% endif %}"
+        {% if page.permalink == '/online-payments/payment-maturity-assessment/owner' %}border-black{% endif %}"
         data-action="click->assessment#select"
         data-assessment-href-param="{{ include.sections.owner.slug }}?q=1"
         data-assessment-target="section"
@@ -43,7 +43,7 @@
     <div class="col-auto">
       <button
         class="btn btn-link text-black fs-6 fw-bold p-0 border-0 text-decoration-none opacity-25
-        {% if page.permalink == '/assessment/technology' %}border-black{% endif %}"
+        {% if page.permalink == '/online-payments/payment-maturity-assessment/technology' %}border-black{% endif %}"
         data-action="click->assessment#select"
         data-assessment-href-param="{{ include.sections.technology.slug }}?q=1"
         data-assessment-target="section"

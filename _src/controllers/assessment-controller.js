@@ -23,14 +23,15 @@ export class AssessmentController extends Controller {
   ];
 
   static values = {
-    sections: {type: Array, default: ["current", "your-team", "owner", "technology"]},
-    colorHashes: {type: Array, default: ["dc697a", "fdc95b", "c2d7b1", "92defb", "9069f7"]}
+    basePath: "/online-payments/payment-maturity-assessment/",
+    colorHashes: {type: Array, default: ["dc697a", "fdc95b", "c2d7b1", "92defb", "9069f7"]},
+    sections: {type: Array, default: ["current", "your-team", "owner", "technology"]}
   }
 
   connect() {
-    if (location.pathname === "/assessment/") {
+    if (location.pathname === this.basePathValue) {
       this.checkIncomplete();
-    } else if (location.pathname === "/assessment/submit") {
+    } else if (location.pathname === `${this.basePathValue}submit`) {
       const answers = this.getAnswers();
 
       if (Object.entries(answers).length > 0) {
@@ -39,7 +40,7 @@ export class AssessmentController extends Controller {
       } else {
         this.navigateTo();
       }
-    } else if (location.pathname === "/assessment/results") {
+    } else if (location.pathname === `${this.basePathValue}results`) {
       this.calculate();
     } else {
       this.setActiveSections();
@@ -92,7 +93,7 @@ export class AssessmentController extends Controller {
         }
       }
 
-      if (location.pathname === "/assessment/submit") {
+      if (location.pathname === `${this.basePathValue}submit`) {
         scores += `${results[i]["results"][closest]["title"]},`;
         colors += `${this.colorHashesValue[closest]},`;
       } else {
@@ -100,7 +101,7 @@ export class AssessmentController extends Controller {
       }
     }
 
-    if (location.pathname === "/assessment/submit") {
+    if (location.pathname === `${this.basePathValue}submit`) {
       this.scoresInputTarget.value = scores.slice(0, -1);
       this.colorsInputTarget.value = colors.slice(0, -1);
     }
@@ -205,7 +206,7 @@ export class AssessmentController extends Controller {
   }
 
   navigateTo(href = '') {
-    location.href = `/assessment/${href}`;
+    location.href = `${this.basePathValue}${href}`;
   }
 
   submit() {
@@ -356,7 +357,7 @@ export class AssessmentController extends Controller {
 
   start() {
     this.clearAnswers();
-    location.href = "/assessment/current?q=1";
+    location.href = `${this.basePathValue}current?q=1`;
   }
 
   validateEmail() {

@@ -1,0 +1,37 @@
+{% assign postLimit = 20 %}
+{% assign postCount = site.categories[include.category] | size %}
+<section class="py-3 py-sm-5 container">
+  <div class="macy-container">
+    <div class="ga-section card mb-3">
+      <a href="/online-payments/payment-maturity-assessment" class="portfolio-tile bg-white text-black mb-0">
+        <div class="row">
+          <div class="col-md-8 post-image-preview"
+            style="background-image: url('/assets/uploads/2023/assessment-tool-min.jpg')">
+          </div>
+    
+          <div class="col-md-4 p-4">
+            <h5>Payment Maturity Assessment</h5>
+    
+            <p class="post-content">
+              This quick online tool will help you understand the overall maturity of the payments ecosystem within your organisation.
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>    
+  </div>
+
+  <div data-controller="macy">
+    {% for post in site.categories[include.category] limit:postLimit %}
+      {% include post-card.html %}
+    {% endfor %}
+  </div>
+</section>
+
+{% if postCount > postLimit %}
+  <div class="container text-center py-5">
+    <a href="/blog">
+      <h5 class="mb-0">Show more posts</h5>
+    </a>
+  </div>
+{% endif %}
