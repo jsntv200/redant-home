@@ -105,7 +105,7 @@
     top: 0;
     left: 0;
 
-    @include block($blue-200);
+    @include block($blue-300);
   }
 
   @include media-breakpoint-down(sm) {
