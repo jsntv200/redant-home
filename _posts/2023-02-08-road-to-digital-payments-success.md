@@ -12,10 +12,10 @@ publisher: Red Ant
 title: Where to start on the road to digital payments success?
 description: Where to start on the road to digital payments success?
 keywords: Online payments, digital payments
-image_small: "/assets/uploads/2020/Desktop.png"
-image: "/assets/uploads/2020/Desktop-1.png"
-excerpt-short: excerpt-short
-excerpt-long: excerpt-long
+image_small: "/assets/uploads/2023/where-to-start-on-the-road-to-digital-payments-success-min.png"
+image: "/assets/uploads/2023/where-to-start-on-the-road-to-digital-payments-success-min.png"
+excerpt-short: A checklist of steps to take to begin the process of integrating online payments into your business. Start small and soon, and make sure you validate your plan with key stakeholders.
+excerpt-long:
 redirect_from: []
 ---
 

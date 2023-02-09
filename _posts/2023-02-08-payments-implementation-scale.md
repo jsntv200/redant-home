@@ -12,10 +12,10 @@ publisher: Red Ant
 title: Payments implementation scale
 description: Payments implementation scale
 keywords: Online payments, digital payments
-image_small: "/assets/uploads/2020/Desktop.png"
-image: "/assets/uploads/2020/Desktop-1.png"
-excerpt-short: excerpt-short
-excerpt-long: excerpt-long
+image_small: "/assets/uploads/2023/payments-implementation-scale-min.png"
+image: "/assets/uploads/2023/payments-implementation-scale-min.png"
+excerpt-short: An explanation of the different technical approaches for implementing online payments, from a simple shop on eBay through to a more scalable and custom technical platform.
+excerpt-long:
 redirect_from: []
 ---
 

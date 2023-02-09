@@ -12,10 +12,10 @@ publisher: Red Ant
 title: How well does your business do online payments
 description: How well does your business do online payments
 keywords: Online payments, digital payments
-image_small: "/assets/uploads/2020/Desktop.png"
-image: "/assets/uploads/2020/Desktop-1.png"
-excerpt-short: excerpt-short
-excerpt-long: excerpt-long
+image_small: "/assets/uploads/2023/how-well-does-your-business-do-online-payments-min.png"
+image: "/assets/uploads/2023/how-well-does-your-business-do-online-payments-min.png"
+excerpt-short: What are the areas that we look at when analysing the maturity of your online payments process? This article explains what they are, and how they are relevant.
+excerpt-long:
 redirect_from: []
 ---
 

@@ -10,12 +10,12 @@ time: 5 Mins Read
 date_published: ! ' 2023-02-08'
 publisher: Red Ant
 title: Payments case study - FuelRestore fuel additive company Better payments as an opportunity to reimagine your Product.
-description: Better payments as an opportunity to reimagine your Product.
+description: Payments case study - FuelRestore fuel additive company Better payments as an opportunity to reimagine your Product.
 keywords: Online payments, digital payments
-image_small: "/assets/uploads/2020/Desktop.png"
-image: "/assets/uploads/2020/Desktop-1.png"
-excerpt-short: excerpt-short
-excerpt-long: excerpt-long
+image_small: "/assets/uploads/2023/payments-case-study-min.png"
+image: "/assets/uploads/2023/payments-case-study-min.png"
+excerpt-short: A case study on a company that explores two options for implementing online payments, and how the results of each of those can impact company business performance going forward
+excerpt-long:
 redirect_from: []
 ---
 
