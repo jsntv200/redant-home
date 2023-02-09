@@ -17,6 +17,7 @@ image: "/assets/uploads/2023/where-to-start-on-the-road-to-digital-payments-succ
 excerpt-short: A checklist of steps to take to begin the process of integrating online payments into your business. Start small and soon, and make sure you validate your plan with key stakeholders.
 excerpt-long:
 redirect_from: []
+updated_at: 2023-02-08
 ---
 
 **Start small**

@@ -17,6 +17,7 @@ image: "/assets/uploads/2023/how-well-does-your-business-do-online-payments-min.
 excerpt-short: What are the areas that we look at when analysing the maturity of your online payments process? This article explains what they are, and how they are relevant.
 excerpt-long:
 redirect_from: []
+updated_at: 2023-02-08
 ---
 
 not complete yet: https://docs.google.com/document/d/1dp_cYGa0CVMzgKjDWnHr5mKDKXHmQ_K75Dy94xv7HhM/edit

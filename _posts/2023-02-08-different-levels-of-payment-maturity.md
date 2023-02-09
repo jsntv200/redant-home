@@ -17,6 +17,7 @@ image: "/assets/uploads/2023/what-are-the-different-levels-of-payment-maturity-m
 excerpt-short: A summary of each of the different levels that we use to describe the relative maturity of a payments process. Starting from the very basic / starting off, through to the teams that are really cracking it.
 excerpt-long:
 redirect_from: []
+updated_at: 2023-02-08
 ---
 
 We have 5 different levels of maturity that we use:

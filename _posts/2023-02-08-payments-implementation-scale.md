@@ -17,6 +17,7 @@ image: "/assets/uploads/2023/payments-implementation-scale-min.png"
 excerpt-short: An explanation of the different technical approaches for implementing online payments, from a simple shop on eBay through to a more scalable and custom technical platform.
 excerpt-long:
 redirect_from: []
+updated_at: 2023-02-08
 ---
 
 [Selling on a marketplace platform](#selling-on-a-marketplace-platform)
