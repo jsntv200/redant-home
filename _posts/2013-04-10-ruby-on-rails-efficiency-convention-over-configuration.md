@@ -12,9 +12,9 @@ description: How we used Ruby on Rails convention over configuration to make our
 keywords: ruby on rails efficient
 image_small: "/assets/uploads/2013/ruby-on-rails.png"
 image: "/assets/uploads/2013/ruby-on-rails.png"
-excerpt-short: '"convention over configuration". How to improve team effectiveness
+excerpt_short: '"convention over configuration". How to improve team effectiveness
   and quality.'
-excerpt-long: Before we switched to Ruby on Rails, we had a small team working in
+excerpt_long: Before we switched to Ruby on Rails, we had a small team working in
   Microsoft ASP and .Net. They'd butt heads all the time over seemingly trivial stuff,
   which had the impact of slowing us down. Once using Ruby on Rails, we started approaching
   these issues from a "convention over configuration" perspective, which helped us
@@ -22,7 +22,7 @@ excerpt-long: Before we switched to Ruby on Rails, we had a small team working i
 tags: []
 time: ''
 redirect_from:
-- "/lean-development/ruby-on-rails-efficiency-convention-over-configuration/"
+- /lean-development/ruby-on-rails-efficiency-convention-over-configuration/
 date_published: ! ' 2013-04-10'
 publisher: Red Ant
 updated_at: 2013-04-10
@@ -38,7 +38,7 @@ As a solution, we decided to document **The Right Way**. This was before we [dis
 
 So our next attempt at solving this was to create a library of code that contained all **The Right Ways** to do stuff. This took ages to build, and it was great for a while, until we worked out that how big and inefficient the damn thing had got. It was classic [not made here (not invented here)](http://en.wikipedia.org/wiki/Not_invented_here) behaviour. Rather than using existing open source libraries, we were rolling our own, and often there were 2 or 3 very similar parts. See- the CamelCase guy might want one flavour, and lowercase guy might prefer another, so we'd better have both. I think someone had a crack at rewriting SQL in there somewhere too.
 
-![surfing](/assets/uploads/2013/surfing.gif){:height="360" width="490"}
+![surfing](/assets/uploads/2013/surfing.gif)
 
 The bloat was a problem, because this was being included on each and every request. Microsoft ASP isn't particularly fast to begin with, but we did our best to slow it to a crawl.
 

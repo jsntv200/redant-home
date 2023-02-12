@@ -8,14 +8,13 @@ categories:
   - how-we-do
   - ruby-on-rails
 author: Ben Still
-image:
 image_small: /assets/uploads/2008/brief-small.jpg
 image: /assets/uploads/2008/brief-large.jpg
 meta:
   dsq_thread_id: '480001859'
 excerpt:
-excerpt-short: A well written brief is all sorts of good. We explain why and what to consider when writing your own.
-excerpt-long: There are so many things to consider when writing a good creative brief, it's just common sense though really. Once you think about the reasoning behind writing one it'll come naturally, and your project will get the best possible start.
+excerpt_short: A well written brief is all sorts of good. We explain why and what to consider when writing your own.
+excerpt_long: There are so many things to consider when writing a good creative brief, it's just common sense though really. Once you think about the reasoning behind writing one it'll come naturally, and your project will get the best possible start.
 published: false
 date_published: ! ' 2008-12-23'
 updated_at: 2008-12-23

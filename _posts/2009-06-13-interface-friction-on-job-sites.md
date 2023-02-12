@@ -7,14 +7,13 @@ categories:
   - how-we-do
   - tool-reviews
 author: Ben Still
-image:
 image_small: /assets/uploads/2009/ui-friction-small.jpg
 image: /assets/uploads/2009/ui-friction.jpg
 meta:
   dsq_thread_id: '485220609'
 excerpt:
-excerpt-short: How many steps do you really need to take to put a job ad up?
-excerpt-long: "In the past 6 months, we've advertised for three different
+excerpt_short: How many steps do you really need to take to put a job ad up?
+excerpt_long: "In the past 6 months, we've advertised for three different
 positions: a designer, a project manager, and a web developer. How many steps do you really need to take to put a job ad up and is there a one size fits all for getting what you need?"
 published: false
 date_published: ! ' 2009-06-13'

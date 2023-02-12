@@ -12,8 +12,8 @@ description: The story behind our Wallboard. Who's working on what, and can I de
 keywords: our wallboard
 image_small: "/assets/uploads/2010/redant-wallboard-preview-small.jpg"
 image: "/assets/uploads/2010/redant-wallboard-preview.jpg"
-excerpt-short: Whiteboards are out, wallboards are in. Also, vote for us!
-excerpt-long: Wallboards are cool, and every dev house should have one. Firstly because
+excerpt_short: Whiteboards are out, wallboards are in. Also, vote for us!
+excerpt_long: Wallboards are cool, and every dev house should have one. Firstly because
   it provides some great information that everyone can see, and secondly because they're
   cool (did I mention that already?) and the developers get to have some fun in all
   that free time they have with the wallboard making everything much more efficient.
@@ -21,15 +21,15 @@ excerpt-long: Wallboards are cool, and every dev house should have one. Firstly 
 tags: []
 time: 10 Mins Read
 redirect_from:
-- "/agile/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/"
-- "/blog/the-story-behind-our-wallboard"
+- /agile/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
+- /blog/the-story-behind-our-wallboard
 - blog/the-story-behind-our-wallboard/
 date_published: ! ' 2010-11-18'
 publisher: Red Ant
 updated_at: 2010-11-18
 
 ---
-![Red Ant Wallboard](/assets/uploads/2010/redant-wallboard-preview.jpg){:height="343" width="610"}
+![Red Ant Wallboard](/assets/uploads/2010/redant-wallboard-preview.jpg)
 
 **click on this image to get a bigger version**
 

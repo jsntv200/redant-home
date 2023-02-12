@@ -108,8 +108,8 @@ Bits on Huggies.com.au we’re especially proud of:
 
 - **soft join process** – a quick and easy join process means becoming a member is pretty easy. [Try it out](https://www.huggies.com.au/join) for yourself. The soft join works when joining, asking a question or entering a promotion.
 - **seamless sign on** – there are actually three different applications that then talk to a separate CRM & membership database. One ring to rule them all!
-- the <a href="https://www.huggies.com.au/baby-names/">baby name finder</a> tool
-- the <a href="https://www.huggies.com.au/pregnancy/baby-nursery/baby-room-decorator">virtual nursery decorator</a>
-- a very popular <a href="https://www.huggies.com.au/kids-birthday-cakes">kids birthday cake gallery</a>
+- the [baby name finder](https://www.huggies.com.au/baby-names/ "baby name finder") tool
+- the [virtual nursery decorator](https://www.huggies.com.au/pregnancy/baby-nursery/baby-room-decorator "virtual nursery decorator")
+- a very popular [kids birthday cake gallery](https://www.huggies.com.au/kids-birthday-cakes "kids birthday cake gallery")
 
 Visit [Huggies](http://www.huggies.com.au/%22)

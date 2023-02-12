@@ -7,15 +7,14 @@ categories:
   - our-work
   - ruby-on-rails
 author: Ben Still
-image:
 image_small: /assets/uploads/2009/forum-small.png
 image: /assets/uploads/2009/forum-large.png
 meta:
   dsq_thread_id: '522891991'
   focus_keywords: meaningful forum
 excerpt:
-excerpt-short: Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
-excerpt-long: Forums have been around for an age, and there's a reason why. They bring people together, allow them to communicate and express thoughts and feelings behind a layer of anonymity, a face to face conversation doesn't always protect one in their most vunerable times. Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
+excerpt_short: Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
+excerpt_long: Forums have been around for an age, and there's a reason why. They bring people together, allow them to communicate and express thoughts and feelings behind a layer of anonymity, a face to face conversation doesn't always protect one in their most vunerable times. Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
 published: false
 date_published: ! ' 2009-07-13'
 updated_at: 2009-07-13

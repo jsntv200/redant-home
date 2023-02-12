@@ -10,14 +10,14 @@ description: I have this friend. Let's call him Wayne. He works in advertising.
 keywords: Digital Awards
 image_small: '/assets/uploads/2018/test-image.jpg'
 image: '/assets/uploads/2018/test-image.jpg'
-excerpt-short: I have this friend. Let's call him Wayne. He works in advertising.
-excerpt-long:
+excerpt_short: I have this friend. Let's call him Wayne. He works in advertising.
+excerpt_long:
   I have this friend. Let's call him Wayne. He works in advertising. I
   don't think I'm being unkind if I were to describe him as being a bit preoccupied
   with status. Obsessed would be more accurate.
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2018-08-17'
 publisher: Red Ant
 updated_at: 2018-08-17
@@ -29,7 +29,7 @@ Wayne has this thing about titles. It is Very Important to him that everyone kno
 
 And it shits Wayne no end when he learnt we had one of these London International awards (and he doesn't). Apparently they are a Big Deal —- one of the super prestigious awards. I explained to Wayne how we won it.
 
-![](/assets/uploads/2018/london-i18n-awards.jpg){:height="491" width="508"}
+![](/assets/uploads/2018/london-i18n-awards.jpg)
 
 London International Awards
 We had an intern. They ran out of work, so I got them to make a list of recent work and enter it into a bunch of awards.

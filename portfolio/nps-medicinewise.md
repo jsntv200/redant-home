@@ -61,9 +61,9 @@ they start looking for the best CMS. Google that and you'll get a billion option
 
 One key distinction is how they connect to other code. Wordpress, Sitecore and Adobe EM are all examples of **CMS platforms** - they are intended to be the primary technology. They suit sites where most of the pages are stuff you're editing. If you want to add functionality to say your WordPress site, you need to code that functionality so that it follows WordPress formats. Which is fine for simple things, but becomes exponentially more difficult as complexity increases.
 
-There is another type of CMS, sometimes called <i>Headless CMS</i>. Examples being <a href="https://scrivito.com/features">Scrivito</a> and <a href="https://www.contentful.com/">Contentful</a>. These are a bit more flexible (and we are big fans). You develop your code to do whatever it needs to do, and then sprinkle some CMS on pages or blocks of content as required.
+There is another type of CMS, sometimes called <i>Headless CMS</i>. Examples being [Scrivito](https://scrivito.com/features "Scrivito") and [Contentful](https://www.contentful.com/ "Contentful"). These are a bit more flexible (and we are big fans). You develop your code to do whatever it needs to do, and then sprinkle some CMS on pages or blocks of content as required.
 
-Pick your CMS by first understanding your total requirements, then determine if you need a platform or headless CMS. If anyone uses buzz words like "personalisation" as a reason for a particular CMS (I'm looking at you, Adobe and Sitecore), stop and think about exactly what is the problem you're trying to solve. Perhaps <a href="/portfolio/12wbt-dynamic-video/">dynamic content for each user</a> is what you're actually after.
+Pick your CMS by first understanding your total requirements, then determine if you need a platform or headless CMS. If anyone uses buzz words like "personalisation" as a reason for a particular CMS (I'm looking at you, Adobe and Sitecore), stop and think about exactly what is the problem you're trying to solve. Perhaps [dynamic content for each user](/portfolio/12wbt-dynamic-video/ "dynamic content for each user") is what you're actually after.
 
 </div>
 

@@ -3,7 +3,7 @@ layout: job
 slug: product-manager
 title: Digital Product Manager / Business Analyst
 image:
-  small: /assets/uploads/2014/skater.gif
+  small: "/assets/uploads/2014/skater.gif"
 published: false
 ---
 
@@ -21,11 +21,11 @@ You can merge creative thinking, your business-ey brain and an understanding of 
 
 Red Ant is a leading technical agency. We’re building digital products and platforms that excite and delight users. And deliver the goods.
 
-Our office is in a large warehouse in Surry Hills, Sydney (and no, we don’t all have beards and ride fixie bikes). Our core team of 30 is very experienced, working on large scale, high traffic projects. We use technologies like <a href="/ruby-on-rails/">Ruby on Rails</a> and <a href="/pjax/">AngularJS</a>. We apply the <a href="/agile/">Agile project methodology</a>.
+Our office is in a large warehouse in Surry Hills, Sydney (and no, we don’t all have beards and ride fixie bikes). Our core team of 30 is very experienced, working on large scale, high traffic projects. We use technologies like [Ruby on Rails](/ruby-on-rails/ "Ruby on Rails") and [AngularJS](/pjax/ "AngularJS"). We apply the [AngularJS](/pjax/ "AngularJS").
 
-We specialise in building <a href="/digital-products/">Digital Products</a> - sites and apps that allow users to "do" something and perform some kind of utility. We work with our clients to develop these - starting with the initial idea and then building on this over successive iterations. A typical project spans several years.
+We specialise in building [Digital Products](/digital-products/ "Digital Products") - sites and apps that allow users to "do" something and perform some kind of utility. We work with our clients to develop these - starting with the initial idea and then building on this over successive iterations. A typical project spans several years.
 
-Take a look at <a href="/">redant.com.au</a> for more on what we do.
+Take a look at [redant.com.au](redant.com.au "redant.com.au") for more on what we do.
 
 ## Here’s what we can offer:
 
@@ -49,12 +49,8 @@ This is a full time position. We’ve been around for over 20 years, and expect 
 
 ## Interested?
 
-If you’re interested, please send Sarah (<a href="mailto:jobs@redant.com.au">jobs@redant.com.au</a>) a short email with an outline of your experience and the size and type of projects you’ve worked on. Rather than a big attachment, we’d love to find out more about you and what you’re keen on. See what I did there? If you send in a big attachment it probably means you didn’t read down this far. Or you have a problem with detail. To be honest that combination probably isn’t a great fit for this position.
+If you’re interested, please send Sarah ([jobs@redant.com.au](mailto:jobs@redant.com.au "jobs@redant.com.au")) a short email with an outline of your experience and the size and type of projects you’ve worked on. Rather than a big attachment, we’d love to find out more about you and what you’re keen on. See what I did there? If you send in a big attachment it probably means you didn’t read down this far. Or you have a problem with detail. To be honest that combination probably isn’t a great fit for this position.
 
 So what do we want to hear about? Probably don’t mention your Brony thing, but you might run a recipe blog or have mad drone skills - that kind of thing.
 
 Recruiters please: you probably won’t read this far, but seriously we’re not interested in getting contacted by recruitment companies about this. Thank you!
-
-## Location
-
-Surry Hills, just off Oxford St (<a href="/about/">map here</a>). In terms of transport, we’re close to trains, buses, and nowhere near an airport. But lots of bike lanes. For lunch, we have a gazillion cafes, bars and restaurants around us. Actually we have a pretty good restaurant (Longrain) directly under our office.

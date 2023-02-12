@@ -13,15 +13,15 @@ description: One of our long-term client, Beauty Heaven, has let us make some sn
 keywords: beautyheaven ruby on rails
 image_small: "/assets/uploads/2009/beautyheaven-small.png"
 image: "/assets/uploads/2009/beautyheaven-redesigned-home-page.png"
-excerpt-short: The latest release of Beauty Heaven is part of a number of changes
+excerpt_short: The latest release of Beauty Heaven is part of a number of changes
   that we've been making to the site to improve functionality and performance - faster,
   higher and that sort of stuff.
-excerpt-long: One of our long-term client, Beauty Heaven, has let us make some snazzy
+excerpt_long: One of our long-term client, Beauty Heaven, has let us make some snazzy
   new updates to their super popular website. Think faster, higher and that sort of
   stuff.
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2009-07-13'
 publisher: Red Ant
 updated_at: 2009-07-13
@@ -39,16 +39,16 @@ Here are some screens:
 
 Redesigned home page
 
-![Redesigned home page](/assets/uploads/2009/beautyheaven-redesigned-home-page.jpg){:height="772" width="495"}
+![Redesigned home page](/assets/uploads/2009/beautyheaven-redesigned-home-page.jpg)
 
 The new feature that pulls in the latest articles on the home page (javascript)
 
-![Home page feed](/assets/uploads/2009/beautyheaven-home-page-feed.jpg){:height="292" width="495"}
+![Home page feed](/assets/uploads/2009/beautyheaven-home-page-feed.jpg)
 
 Latest video widget thing that pulls in video and story excerpts (flash)
 
-![Video preview widget](/assets/uploads/2009/beautyheaven-video-preview-widget.jpg){:height="328" width="412"}
+![Video preview widget](/assets/uploads/2009/beautyheaven-video-preview-widget.jpg)
 
 Salon directory application
 
-![Salon directory](/assets/uploads/2009/beautyheaven-salon-directory.jpg){:height="224" width="495"}
+![Salon directory](/assets/uploads/2009/beautyheaven-salon-directory.jpg)

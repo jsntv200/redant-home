@@ -13,9 +13,9 @@ description: How to optimize your homepage in the mobile era
 keywords: ''
 image_small: "/assets/uploads/2020/group-2.png"
 image: "/assets/uploads/2020/group-2.png"
-excerpt-short: ''
-excerpt-long: ''
-redirect_from: []
+excerpt_short: ''
+excerpt_long: ''
+redirect_from:
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

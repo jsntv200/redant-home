@@ -38,7 +38,7 @@ You don’t necessarily need experience with:
 
 You’re methodical and meticulous. Your friends think you are a super genius. You can communicate clearly. And finally, you’re really into how things work, and you’re always interested in learning more.
 
-If you’re interested, please send <a href="mailto:jobs@redant.com.au">Sarah</a> an email with an outline of your experience and the size and type of projects you’ve worked on. Rather than a big attachment, we’d love to find out (in a short email) more about you and what you’re keen on.
+If you’re interested, please send [Sarah](mailto:jobs@redant.com.au "Sarah") an email with an outline of your experience and the size and type of projects you’ve worked on. Rather than a big attachment, we’d love to find out (in a short email) more about you and what you’re keen on.
 
 Recruiters please: we’re not interested in getting contacted by recruitment companies about this. Once again, we love you and appreciate the attention, but please don’t call. Thank you!
 
@@ -50,10 +50,10 @@ We specialise in creating large and interesting websites. There are around 35 of
 
 We’re also trying to become better at TDD, becoming even more Agile, and make our builds run at somewhere approaching light speed.
 
-You can read more of the backstory here <a href="/about/">http://redant.com.au/about</a>
+You can read more of the backstory here [about](/about/ "about")
 
 Some of the sites you’ll be working on are:
 
-* <a href="http://12wbt.com" rel="nofollow">http://12wbt.com</a>
-* <a href="http://beautyheaven.com.au" rel="nofollow">http://beautyheaven.com.au</a>
-* <a href="http://huggies.com.au" rel="nofollow">http://huggies.com.au</a>
+* [http://12wbt.com](http://12wbt.com "http://12wbt.com")
+* [http://beautyheaven.com.au](http://beautyheaven.com.au "http://beautyheaven.com.au")
+* [http://huggies.com.au](http://huggies.com.au "http://huggies.com.au")

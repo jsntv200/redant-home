@@ -14,18 +14,18 @@ image:
   path: '/assets/uploads/2009/redant-wallpaper-1400x1050.jpg'
   height: 1050
   width: 1400
-excerpt-short: Download your Red Ant desktop wallpaper today.
-excerpt-long: Download your Red Ant desktop wallpaper today.
+excerpt_short: Download your Red Ant desktop wallpaper today.
+excerpt_long: Download your Red Ant desktop wallpaper today.
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2009-07-13'
 publisher: Red Ant
 updated_at: 2009-07-13
 
 ---
 
-![desktops preview](/assets/uploads/2009/redant-wallpaper-preview.jpg){:height="371" width="495"}
+![desktops preview](/assets/uploads/2009/redant-wallpaper-preview.jpg)
 
 It's been a few months now since we redesigned our website, and we're thrilled with the responses we've had. We've created a set of desktop wallpapers based on the design. It comes in a range of sizes, and we think it looks pretty neat. Download yours today!
 

@@ -11,17 +11,17 @@ description: Online visualisation of your customer funnel
 keywords: ''
 image_small: "/assets/uploads/2009/funnel-small.png"
 image: "/assets/uploads/2009/funnel-large.jpg"
-excerpt-short: Refine your user experience and create better ROI by taking an internal
+excerpt_short: Refine your user experience and create better ROI by taking an internal
   look at what happens when your customer visits your site.
-excerpt-long: Here we look at converting customers from their first visit to your
+excerpt_long: Here we look at converting customers from their first visit to your
   website to the end point at which they either purchase or become fully engaged with
   what you're offering. By visualising this you can refine the process and create
   a better user experience and increase your ROI.
 tags: []
 time: ''
 redirect_from:
-- "/blog/visualising-your-online-customer-funnel/"
-- "/blog/visualising-your-online-customer-funnel"
+- /blog/visualising-your-online-customer-funnel/
+- /blog/visualising-your-online-customer-funnel
 date_published: ! ' 2009-07-13'
 publisher: Red Ant
 updated_at: 2009-07-13

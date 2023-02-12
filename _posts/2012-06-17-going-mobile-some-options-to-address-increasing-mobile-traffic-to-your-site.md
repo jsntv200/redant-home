@@ -11,16 +11,16 @@ description: Here are four approaches for improving mobile experience on your si
 keywords: responsive mobile experience
 image_small: "/assets/uploads/2012/traffic-small.jpg"
 image: "/assets/uploads/2012/traffic.jpg"
-excerpt-short: Mobile traffic is growing crazy like. If you're addressing this already
+excerpt_short: Mobile traffic is growing crazy like. If you're addressing this already
   by thinking about a mobile aspect of your website, great! If not, read on…
-excerpt-long: Mobile traffic is growing crazy like, in some instances it's doubling
+excerpt_long: Mobile traffic is growing crazy like, in some instances it's doubling
   year on year. If you're addressing this already by thinking about a mobile aspect
   of your website, great! If not, read on to get an idea of what you can be doing
   to make the most of the traffic you're getting and to make yours a user experience
   to remember.
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2012-06-17'
 publisher: Red Ant
 updated_at: 2012-06-17

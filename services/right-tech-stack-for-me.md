@@ -22,7 +22,7 @@ description: You might be feeling a bit overwhelmed with all the different techn
   and approaches available. What’s the best way to evaluate the right path for your
   idea or product?
 slug: understanding-your-tech-options
-redirect_from: []
+redirect_from:
 bulletpoints:
 - How much will my website cost?
 - How long will it take to build?

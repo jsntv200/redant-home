@@ -3,7 +3,7 @@ layout: job
 slug: front-end-javascript-developer
 title: Senior Front Endgnr Javascript Developer
 image:
-  small: /assets/uploads/2014/yoyo.png
+  small: "/assets/uploads/2014/yoyo.png"
 published: false
 ---
 
@@ -39,19 +39,11 @@ OK- so that was a few general things. In terms of specifics, we:
 In terms of actual front end technology, the picture is a bit blurry right now. Everything we do is Ruby, but sometimes this is a single Rails app, and sometimes separate (JRuby API, Angular FE). But all of this is constantly evolving - we're also evaluating React and let's not even bring up testing frameworks.
 
 
-The things we make are typically large web applications, which we call <a href="/digital-products/">digital products</a>. Have a look at our <a href="/portfolio/">portfolio</a> to get a better idea of the some of the projects we work on.
+The things we make are typically large web applications, which we call [Digital Products](/digital-products/ "Digital Products"). Have a look at our [portfolio](/portfolio/ "portfolio") to get a better idea of the some of the projects we work on.
 
 ## Full time
 
 This is a full time position - all of our team work together (see the bottom of this page to get a better idea of what that looks like). Many of our team have been working together for a number of years. Red Ant itself has been around for over 20 years, and we’d love to find someone after a secure, long term gig.
-
-## Location
-
-We don't want to boast, but our office is pretty FTW. A light filled warehouse space, with plenty of space to help you concentrate. Have a virtual walk around and check things out.
-
-In terms of where we are, we're the epicentre of hipsterville in Surry Hills (<a href="/about/">map here</a>). You can't spill your Chai without hitting a man with a beard or a chick with ironic glasses and tattoos. In terms of transport options, you can park your chopper in the park over the road, or if you arrive by pony you can tie it up on the tree outside. We’re close to trains, buses, walkable to the harbour ferry and nowhere near an airport.
-
-For lunch, we have probably the highest concentration of cafes, bars and restaurants in the country. You’ll need to figure out if you like your coffee pressed, cold, drawn or dripped. Are you single origin or blend? Are you craft beer or obscure import?
 
 ## Is this remote or on site?
 
@@ -65,7 +57,7 @@ Really well. Probably much better than where you are right now, but not as much 
 
 ## Interested?
 
-If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to <a href="mailto:jobs@redant.com.au">Sarah</a> with an outline of the kind of projects you’ve worked on, and some insight into who you are.
+If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto:jobs@redant.com.au "Sarah") with an outline of the kind of projects you’ve worked on, and some insight into who you are.
 
 And please – no recruiters! You guys probably don't read down this far before calling up, but really we aren't interested. If you really do have all these incredible candidates, there is this thing called the Internet that they can use to find some great cat pictures as well as this job.
 

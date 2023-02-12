@@ -12,12 +12,12 @@ description: Execution matters. There are plenty of great ideas, but you need an
 keywords: ''
 image_small: "/assets/uploads/2012/milo-on-floor.jpg"
 image: "/assets/uploads/2012/milo-on-floor-small.jpg"
-excerpt-short: Execution matters. Your development team matters.
-excerpt-long: Execution matters. There are plenty of great ideas, but you need an
+excerpt_short: Execution matters. Your development team matters.
+excerpt_long: Execution matters. There are plenty of great ideas, but you need an
   experienced and opinionated development team to help you execute
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2018-09-17'
 publisher: Red Ant
 updated_at: 2018-09-17
