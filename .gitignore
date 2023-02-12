@@ -1,6 +1,7 @@
 .DS_Store
 .jekyll-cache
 .tool-versions
+.env
 *.log
 *.bak
 _site
