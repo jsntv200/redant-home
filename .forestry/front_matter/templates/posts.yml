@@ -36,7 +36,8 @@ fields:
   default: []
   description: 'Example categories: our-work; ruby-on-rails; red-ant-stuff; ecommerce;
     strategy; how-we-do; design; automated-testing; ruby-on-rails-devops; mobile;
-    agile; digital-products; tool-reviews; pjax; lean-development; marketing; software-development; online-payments'
+    agile; digital-products; tool-reviews; pjax; lean-development; marketing; software-development;
+    online-payments'
 - type: text
   name: author
   label: author
@@ -58,11 +59,11 @@ fields:
   name: image
   label: image
 - type: textarea
-  name: excerpt_short
-  label: excerpt_short
+  name: excerpt-short
+  label: excerpt-short
 - type: textarea
-  name: excerpt_long
-  label: excerpt_long
+  name: excerpt-long
+  label: excerpt-long
 - type: tag_list
   name: tags
   label: tags
@@ -160,10 +161,10 @@ pages:
 - _posts/2019-05-22-finding-the-right-development-option-offshore-vs-agency-vs-freelance-vs-team.md
 - _posts/2019-06-05-ruby-on-rails-for-your-next-web-development-project.md
 - _posts/2020-02-27-what-is-the-right-budget-for-my-website.md
-- _posts/automated-vulnerability-scanning-for-ruby-on-rails-projects-copy.md
-- _posts/hompage-is-important-don-t-stuffed-it-up.md
 - _posts/2023-02-08-different-levels-of-payment-maturity.md
 - _posts/2023-02-08-how-well-does-your-business-do-online-payments.md
 - _posts/2023-02-08-payments-case-study.md
 - _posts/2023-02-08-payments-implementation-scale.md
 - _posts/2023-02-08-road-to-digital-payments-success.md
+- _posts/automated-vulnerability-scanning-for-ruby-on-rails-projects-copy.md
+- _posts/hompage-is-important-don-t-stuffed-it-up.md
