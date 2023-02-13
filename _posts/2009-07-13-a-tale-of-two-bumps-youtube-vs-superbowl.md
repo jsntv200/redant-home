@@ -6,15 +6,14 @@ type: news
 categories:
   - how-we-do
 author: Ben Still
-image:
 image_small: /assets/uploads/2009/alexa.png
 image: /assets/uploads/2009/alexa.png
 meta:
   dsq_thread_id: '610081084'
   focus_keywords: youtube vs superbowl
 excerpt:
-excerpt-short: Is traditional broadcast advertising on its way out? The data is certainly giving us that impression.
-excerpt-long: We look at the Superbowl ad on TV vs. the Dove ad on YouTube. One was exxy to broadcast, the other was free. Guess which one did better in terms of traffic to their respective websites? Yup, you got it.
+excerpt_short: Is traditional broadcast advertising on its way out? The data is certainly giving us that impression.
+excerpt_long: We look at the Superbowl ad on TV vs. the Dove ad on YouTube. One was exxy to broadcast, the other was free. Guess which one did better in terms of traffic to their respective websites? Yup, you got it.
 published: false
 date_published: ! ' 2009-07-13'
 updated_at: 2009-07-13

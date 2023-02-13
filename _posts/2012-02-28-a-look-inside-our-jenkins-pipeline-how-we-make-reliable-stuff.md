@@ -11,13 +11,13 @@ description: A quick outline of how we're using Jenkins and the Pipeline view to
 keywords: ''
 image_small: "/assets/uploads/2012/jenkins-pipeline-start-small.png"
 image: "/assets/uploads/2012/jenkins-pipeline-start.png"
-excerpt-short: How we build relational trust; our integrated testing pipeline
-excerpt-long: A review of how we use the Jenkins Pipeline feature of Jenkins Continuous
+excerpt_short: How we build relational trust; our integrated testing pipeline
+excerpt_long: A review of how we use the Jenkins Pipeline feature of Jenkins Continuous
   Integration to visualise our automated tests and builds, and understand how close
   different tests are to completion.
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2012-02-28'
 publisher: Red Ant
 updated_at: 2012-02-28
@@ -39,35 +39,35 @@ The **Jenkins Pipeline** gives us an overview of where these tests are up to. We
 
 This is what the Jenkins Pipeline looks like when there are no tests running for our [Michelle Bridges 12WBT project](/portfolio/12wbt/). Each row is a build that relates directly to a commit, and the columns are steps in the process. Green is good, and it means that test group has all passed. You can see in this screenshot that there was a build which failed the Cucumber tests (the big red box) earlier today, followed by another which then passed.
 
-![Jenkins Pipeline before a build has been kicked off](/assets/uploads/2012/jenkins-pipeline-start.png){:height="442" width="610"}
+![Jenkins Pipeline before a build has been kicked off](/assets/uploads/2012/jenkins-pipeline-start.png)
 
 ## Step 1: rspec
 
-![Jenkins Pipeline showing RSpec test running](/assets/uploads/2012/jenkins-pipeline-rspec.png){:height="111" width="610"}
+![Jenkins Pipeline showing RSpec test running](/assets/uploads/2012/jenkins-pipeline-rspec.png)
 
 This is what the pipeline looks like when Ive just kicked off a build. A new row appears for my test. Everything goes blue and the active step is yellow. The Rspec tests are the various code tests which check to see if specific functionality is working.
 
 ## Step 2: cucumber
 
-![Jenkins Pipeline showing Cucumber test running](/assets/uploads/2012/jenkins-pipeline-cucumber.png){:height="111" width="610"}
+![Jenkins Pipeline showing Cucumber test running](/assets/uploads/2012/jenkins-pipeline-cucumber.png)
 
 Once the Rspec tests pass, that box turns green, and then the next step starts - in this case Cucumber. This is running through all of the Cucumber stories that we use to describe how different features work.
 
 ## Step 3: metrics
 
-![Pipeline showing MetricFu test running](/assets/uploads/2012/jenkins-pipeline-metrics.png){:height="111" width="610"}
+![Pipeline showing MetricFu test running](/assets/uploads/2012/jenkins-pipeline-metrics.png)
 
 The Cucumber tests all get completed, and that box turns green. The next box is metrics, which we check with a set of tools called [MetricFu (MetricFu Ruby Gem)](http://metric-fu.rubyforge.org/). These run checks to test quality in the code- looking for telltale signs like two parts of code that do the exact same thing. While this might not be the final word on whether code is in fact good, we can pick up sudden spikes in complexity or a drop in code test coverage. We've also added in Breakman to check for security flaws.
 
 ## Step 4: deploy & check
 
-![Jenkins Pipeline showing final post deploy test running](/assets/uploads/2012/jenkins-pipeline-deploy.png){:height="111" width="610"}
+![Jenkins Pipeline showing final post deploy test running](/assets/uploads/2012/jenkins-pipeline-deploy.png)
 
 Finally, the tested code is then deployed to the server using Capistrano. In this example (development pipeline) the version is pushed to our development server. There are a few checks that need to get done once everything is in place- for example a credit card payment process that relies on a 3rd party payment service. These are difficult to do inside the virtual environment of the CI server, so they get done on an actual server.
 
 ## Step 5: All green - release the Pandas
 
-![Jenkins Pipeline once a build is complete](/assets/uploads/2012/jenkins-pipeline-end.png){:height="111" width="610"}
+![Jenkins Pipeline once a build is complete](/assets/uploads/2012/jenkins-pipeline-end.png)
 
 Once all the steps are done, everything goes green. You might notice that this screenshot of the Jenkins Pipeline has a different release number- that is because I am slow and Jenkins is fast. It started on another build before I had a chance to screenshot. I am learning to live with my various shortcomings and deficiencies.
 

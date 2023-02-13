@@ -12,13 +12,13 @@ description: The initial build of the Michelle Bridges 12WBT project
 keywords: michelle bridges 12wbt
 image_small: "/assets/uploads/2012/12wbt.jpg"
 image: "/assets/uploads/2012/12wbt.jpg"
-excerpt-short: The initial build of the Michelle Bridges 12WBT project
-excerpt-long: We've been hard at work on the <a href="http://www.12wbt.com">Michelle
+excerpt_short: The initial build of the Michelle Bridges 12WBT project
+excerpt_long: We've been hard at work on the <a href="http://www.12wbt.com">Michelle
   Bridges 12WBT</a>, a project we started on mid 2011. Undertaking this work has presented
   us with some unique challenges to overcome. Find out how we did it.
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2012-01-16'
 publisher: Red Ant
 updated_at: 2012-01-16
@@ -65,7 +65,7 @@ As an example, lets use the invitation to weigh in message. Each of the 12 weeks
 
 If today is weigh in day, this is what you should see on your dashboard:
 
-![weigh in day popup image](/assets/uploads/2012/mb-weigh-in-day.png){:height="250" width="271"}
+![weigh in day popup image](/assets/uploads/2012/mb-weigh-in-day.png)
 
 Here is the story:
 
@@ -159,7 +159,7 @@ We also moved the hosting from a US cloud service to a local AU physical machine
 
 Using a bare metal server that is physically close to most of your audience makes sense if you need speed- it certainly means a far snappier response rate. This [James Gollick presentation](http://vimeo.com/12814529) has some interesting bits on this (he calculated the impact of server speed to his site revenue). Here is our Google speed report on average server response comparing the old site to the new one (hosting was US Cloud now AU bare metal running Ruby on Rails).
 
-![google report showing average speed change old vs new server](/assets/uploads/2012/mb-google.png){:height="153" width="610"}
+![google report showing average speed change old vs new server](/assets/uploads/2012/mb-google.png)
 
 What we used:
 

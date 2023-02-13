@@ -23,7 +23,7 @@ cost: Contact us to discuss your project
 description: These 3Rs are some of the most important aspects of your platform development.
   They are linked, and they will determine if your product is a success.
 slug: the-3rs-resourcing-roadmaps-revenue
-redirect_from: []
+redirect_from:
 bulletpoints:
 - How much will my website cost?
 - I have a small developer team, how long will this take?

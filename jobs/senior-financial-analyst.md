@@ -26,22 +26,17 @@ We are fanatical about tracking and have got great systems in place - but we are
 
 We’re a leading technical agency that builds digital products. These live as web sites, things that run on your phone, or in social networks. There are 35 Ants, consisting of developers, front enders, designers, producers and content people. We’ve been around for a while (18 years now) and have a great group of staff and customers.
 
-You can read more of the <a href="/about-redant">backstory here</a>
+You can read more of the [backstory here](/about-redant "backstory here").
 
 Some of the sites we work on are:
 
-* <a href="http://12wbt.com/tour">12wbt.com</a>,
-* <a href="http://www.beautyheaven.com.au">beautyheaven.com.au</a> and
-* <a href="http://www.huggies.com.au">huggies.com.au</a>
-
-### Location
-
-Surry Hills, just off Oxford St. We’re close to trains, and we’re right opposite a lovely park if you’re up for nude frisbee of a lunchtime. Or not.<br>
-Here's a <a href="/about">map</a>
+* [12wbt.com](http://12wbt.com/tour "12wbt.com"),
+* [beautyheaven.com.au](http://www.beautyheaven.com.au "beautyheaven.com.au") and
+* [huggies.com.au](http://www.huggies.com.au "huggies.com.au")
 
 ### Interested?
 
 If you’re interested in this position, here is where we work out if you've actually read down this far and you are in fact human, consider yourself somewhat qualified, and speak English. Oh, and can read. Please don't send in a big Word doc CV. All that indicates is you haven't read this bit and you're probably sending that to every job ad you can find.
-OK, so we've established that you've read this far. Send <a href="mailto:jobs@redant.com.au">Sarah</a> a short email, explaining a bit about you and why you'd be a great fit. If you could include your Linkedin profile, show us your off the chart Excel skills, analytical mind and anything else that is relevant that would just be the cherry on the cupcake.
+OK, so we've established that you've read this far. Send [sarah@redant.com.au](mailto:sarah@redant.com.au "sarah@redant.com.au") a short email, explaining a bit about you and why you'd be a great fit. If you could include your Linkedin profile, show us your off the chart Excel skills, analytical mind and anything else that is relevant that would just be the cherry on the cupcake.
 
 Finally, please no recruiters.

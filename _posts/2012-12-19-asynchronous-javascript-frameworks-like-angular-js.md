@@ -12,18 +12,18 @@ description:
 keywords: fast asynchronous javascript frameworks
 image_small: '/assets/uploads/2012/google-angular-small.png'
 image: '/assets/uploads/2012/angularjs.png'
-excerpt-short:
+excerpt_short:
   Have you noticed that some of the sites you use have been getting super
   fast lately?
-excerpt-long:
+excerpt_long:
   Have you noticed that some of the sites you use have been getting super
   fast lately? Web pages seem to respond almost too quickly. Try typing a search term
   into Google and see how quickly the suggested results come back.
 tags: []
 time: ''
 redirect_from:
-  - '/pjax'
-  - '/pjax/'
+  - /pjax
+  - /pjax/
   - pjax/
 date_published: ! ' 2012-12-19'
 publisher: Red Ant
@@ -37,13 +37,13 @@ The technology behind all this are the new Javascript frameworks, with names lik
 
 When a user clicks on a normal web page, it works something like this:
 
-![non-angularjs-rails-asynchrous-diagram1](/assets/uploads/2012/non-angularjs-rails-asynchrous-diagram1.png){:height="269" width="610"}
+![non-angularjs-rails-asynchrous-diagram1](/assets/uploads/2012/non-angularjs-rails-asynchrous-diagram1.png)
 
 Each time a user goes from page to page, pretty much the entire page gets sent back with new content. Some of this is remembered by the browser and doesn't need to come back, but a significant part needs to come back down from the server each time.
 
 When a user hits an Angular page, the process is a bit different:
 
-![angularjs-rails-asynchrous-diagram1](/assets/uploads/2012/angularjs-rails-asynchrous-diagram1.png){:height="366" width="610"}
+![angularjs-rails-asynchrous-diagram1](/assets/uploads/2012/angularjs-rails-asynchrous-diagram1.png)
 
 The result? Instead of getting a new page every time, only the bits that change need to come from the web site. So the header, footer and navigation is loaded the first time. After that, the new content is squirted in as you move from page to page. Even this can get done in the background- so the page appears in the browser and then the content appears. What this means is that page loads are in milliseconds rather than seconds.
 

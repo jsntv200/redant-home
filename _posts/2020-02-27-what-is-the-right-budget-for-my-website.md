@@ -14,16 +14,16 @@ description: Building a SaaS platform isn’t a modular commodity with a fixed p
 keywords: Budget, SaaS platform
 image_small: "/assets/uploads/2020/Desktop.png"
 image: "/assets/uploads/2020/Desktop-1.png"
-excerpt-short: Building a SaaS platform isn’t a modular commodity with a fixed price.
+excerpt_short: Building a SaaS platform isn’t a modular commodity with a fixed price.
   It requires a much deeper understanding of initial and ongoing engineering costs
   to make sure you have enough funds to stay in the game. Here we discuss how to calculate
   your tech break even and understand how far your funding runway really is.
-excerpt-long: Building a SaaS platform isn’t a modular commodity with a fixed price.
+excerpt_long: Building a SaaS platform isn’t a modular commodity with a fixed price.
   It requires a much deeper understanding of initial and ongoing engineering costs
   to make sure you have enough funds to stay in the game. Here we discuss how to calculate
   your tech break even and understand how far your funding runway really is.
 redirect_from:
-- "/strategy/what-is-the-right-budget-for-my-website/"
+  - /strategy/what-is-the-right-budget-for-my-website/
 updated_at: 2020-02-27
 
 ---
@@ -33,7 +33,7 @@ The cost of building a technology product - like a SaaS platform - is largely dr
 
 The solution lies with your business plan. Map out what you expect revenue to look like. It might look like this:
 
-![](/assets/uploads/2020/how-much-1.png){:height="610" width="539"}
+![](/assets/uploads/2020/how-much-1.png)
 
 Now remember, as a general rule, the more awesome & unique your product, the steeper that graph will be. But these usually take more engineering effort. **You can keep tech costs down by using off the shelf technologies, or a less capable development team. But it’s naive to assume you’ll get both cheap and good.**
 
@@ -43,6 +43,6 @@ Next work out your “runway” - how much money do you have to invest in this i
 
 Then overlay those costs with your revenue graph. The aim is to get those lines crossing over as soon as you can. Without trying to state the obvious, that cross over point has to be before your runway runs out.
 
-![](/assets/uploads/2020/how-much-2.png){:height="610" width="539"}
+![](/assets/uploads/2020/how-much-2.png)
 
 **Congratulations** - **you now have a basic cost model. Putting more effort into engineering (within reason & market conditions) will probably impact both revenue start date and the steepness of the graph. Spending less will make the green line smaller, and give you more runway.**

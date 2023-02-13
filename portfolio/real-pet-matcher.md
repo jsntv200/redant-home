@@ -32,7 +32,7 @@ images:
 
 ## Project Description
 
-Real Pet Food Co is Australia’s most successful Pet Food company. Their product is really good, and they've been very successful (read about <a href="http://www.afr.com/business/banking-and-finance/milennials-pet-spending-drives-1b-sale-20171023-gz6uey">their business here</a> ). They have several brands which they are rolling out in different countries.
+Real Pet Food Co is Australia’s most successful Pet Food company. Their product is really good, and they've been very successful (read about [their business here](http://www.afr.com/business/banking-and-finance/milennials-pet-spending-drives-1b-sale-20171023-gz6uey "their business here") ). They have several brands which they are rolling out in different countries.
 
 Here's the challenge the business and brands face. The main sales channel for in-store is either large supermarkets (in Australia there are two) or specialty pet stores. Online it is the major ecomm platforms like Amazon, Alibaba and JD Mall.
 

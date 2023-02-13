@@ -6,14 +6,13 @@ type: ideas
 categories:
   - ruby-on-rails
 author: Ben Still
-image:
 image_small: /assets/uploads/2008/space-small.png
 image: /assets/uploads/2008/space-large.jpg
 meta:
   dsq_thread_id: '621262000'
 excerpt:
-excerpt-short: Are any humans still actually using IE5? Or is it just bots
-excerpt-long: Are any humans still actually using IE5? Or is it just bots
+excerpt_short: Are any humans still actually using IE5? Or is it just bots
+excerpt_long: Are any humans still actually using IE5? Or is it just bots
 published: false
 date_published: ! ' 2008-08-13'
 updated_at: 2008-08-13

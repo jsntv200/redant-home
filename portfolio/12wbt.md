@@ -47,7 +47,7 @@ images:
   path: "/assets/images/projects/12wbt/12wbt-hero-desktop.jpg"
 
 ---
-[12WBT.com]({{ page.project_url }}) - an extremely successful online health and fitness platform.
+[12WBT.com](12wbt.com) - an extremely successful online health and fitness platform.
 
 12WBT is one of Australia's most successful and enduring health & fitness products, featuring a comprehensive fitness and nutrition program created by celebrity trainer Michelle Bridges (Biggest Loser).
 

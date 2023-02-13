@@ -47,7 +47,7 @@ As a heads up, I found working on this project fairly confronting. I have very f
 Anyway, the whole point of the Tribe Marketplace is to help brands connect with these influencers. Here's how it works:
 
 <ol>
-	<li>say you're a small brand and you make these <a href="https://www.youtube.com/watch?v=lF3ueBIpqbY">amazing timber keyboards</a></li>
+	<li>say you're a small brand and you make these [amazing timber keyboards](https://www.youtube.com/watch?v=lF3ueBIpqbY "amazing timber keyboards")</li>
 <li> the way things used to work, you'd engage an agency to create some ads explaining how amazing your keyboards are. Then you'd buy media in various spots (bus shelters, magazines, TV, web sites) to show this ad to your consumers.</li>
 <li> you might also engage a celebrity to help spruik your keyboards. They then get featured in kind of magazines you pick up while waiting for the doctor</li>
 <li> with Tribe, it's a bit different. You post a brief, which describes your product and how it works. All these influencers then start coming up with ideas. Some of them will be in different areas - so one might have a Thing about retro timber, another might be all about cool things to have on your desk</li>

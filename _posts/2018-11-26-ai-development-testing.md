@@ -13,13 +13,13 @@ keywords: ai development, machine learning, automated tests
 date: '2018-11-26T02:31:36.000+00:00'
 image_small: "/assets/uploads/2018/extra_large-1498661132-cover-image-1.jpg"
 image: "/assets/uploads/2018/extra_large-1498661132-cover-image.jpg"
-excerpt-short: Testing Machine Learning or AI powered features is often trickier than
+excerpt_short: Testing Machine Learning or AI powered features is often trickier than
   it seems
-excerpt-long: Testing Machine Learning or AI powered features is often trickier than
+excerpt_long: Testing Machine Learning or AI powered features is often trickier than
   it seems
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2018-11-26'
 publisher: Red Ant
 updated_at: 2018-11-26

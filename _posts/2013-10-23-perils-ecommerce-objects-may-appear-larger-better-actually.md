@@ -13,14 +13,14 @@ description: An example of when you think you know what you're buying, but end u
 keywords: ecommerce
 image_small: "/assets/uploads/2013/danger-small.jpg"
 image: "/assets/uploads/2013/danger.jpg"
-excerpt-short: Ever bought something online that wasn't what you thought it was?
-excerpt-long: Whilst the advent of ecommerce has brought about the 24/7 ease of shopping
+excerpt_short: Ever bought something online that wasn't what you thought it was?
+excerpt_long: Whilst the advent of ecommerce has brought about the 24/7 ease of shopping
   from your couch, it's also brought a boatload of potential hassle in meeting your
   consumer expectations for a product. Make sure you know what you're getting for
   your money.
 tags: []
 time: 5 Mins Read
-redirect_from: []
+redirect_from:
 date_published: ! ' 2013-10-23'
 publisher: Red Ant
 updated_at: 2013-10-23
@@ -38,4 +38,4 @@ How I ended up here:
 - I check eBay, and yes the description is pretty clear (if I had scrolled down to read that far) that this is in fact a 6cm shoe
 - [Dreaded delivery](http://www.benchfly.com/blog/caution-objects-may-appear-larger-than-they-really-are/) arrives. Luckily there has been a rush on babies at Red Ant recently (something in the coffee I think), so there are plenty of little feet.
 
-![](/assets/uploads/2013/danger.jpg){:height="406" width="610"}
+![](/assets/uploads/2013/danger.jpg)

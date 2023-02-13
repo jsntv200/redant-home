@@ -6,14 +6,13 @@ type: ideas
 categories:
   - our-work
 author: Ben Still
-image:
 image_small: /assets/uploads/2008/radiant-admin-465x311.png
 image: /assets/uploads/2008/radiant-admin.png
 meta:
   dsq_thread_id: '479978211'
 excerpt:
-excerpt-short: Visualising a list of information in interesting ways
-excerpt-long: Visualising a list of information in interesting ways
+excerpt_short: Visualising a list of information in interesting ways
+excerpt_long: Visualising a list of information in interesting ways
 published: false
 date_published: ! ' 2008-08-13'
 updated_at: 2008-08-13

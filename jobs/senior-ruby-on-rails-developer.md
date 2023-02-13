@@ -4,7 +4,7 @@ slug: senior-ruby-on-rails-developer
 title: Senior Ruby Developer
 description: Looking for a Senior Ruby developer
 image:
-  small: /assets/uploads/2014/bike.jpg
+  small: "/assets/uploads/2014/bike.jpg"
 published: false
 ---
 
@@ -20,9 +20,9 @@ Here's what we can offer:
 * We work in teams across several clients. Each client typically has several projects running.
 * We have some interesting projects, building big web apps that support a large number of users. These can throw up challenging problems, like load, handling lots of payments, concurrency, tweaking performance and taming cache unicorns.
 
-The things we make are typically large web applications, which we call <a href="/digital-products/">digital products</a>. The way we typically approach these is an Angular frontend driven by a Ruby backend (JRuby, Rails, Sinatra etc)
+The things we make are typically large web applications, which we call [Digital Products](/digital-products/ "Digital Products"). The way we typically approach these is an Angular frontend driven by a Ruby backend (JRuby, Rails, Sinatra etc)
 
-Have a look at our <a href="/portfolio/">portfolio</a> to get a better idea of the some of the projects we've worked on.
+Have a look at our [portfolio](/portfolio/ "portfolio") to get a better idea of the some of the projects we've worked on.
 
 ## Our ideal candidate
 
@@ -42,12 +42,6 @@ But it would be great if you had:
 
 This is a full time position - all of our team work together (see the bottom of this page to get a better idea of what that looks like). Many of our team have been working together for a number of years. Red Ant itself has been around for over 18 years, and we'd love to find someone after a secure, long term gig.
 
-## Location
-
-The hipster heart of Sydney: Surry Hills, just off Oxford St (<a href="/about/">map here</a>). In terms of transport options, you can park your chopper in the park over the road, if you arrive by pony you can tie it up on the tree outside, and if you bike you'd better bring it inside as a bearded hipster might "borrow" it. We’re close to trains, buses, walkable to the harbour ferry and nowhere near an airport.
-
-For lunch, we have probably the highest concentration of cafes, bars and restaurants in the country. You'll need to figure out if you like your coffee pressed, cold, drawn or dripped. Are you single origin or blend? Are you craft beer or obscure import?
-
 ## Is this remote or on site?
 
 On site - although many of us work from home now and then. And we're pretty flexible in terms of having time off for all the things that come up - like sick children, family emergencies etc. And sometimes you need some focussed time to get things done.
@@ -60,6 +54,6 @@ Really well. Probably much better than where you are right now.
 
 ## Interested?
 
-If you’re interested in this position, please don’t send in a huge Word doc CV. Just shoot an email to <a href="mailto:jobs@redant.com.au">Sarah</a> with an outline of the kind of projects you've worked on, and some insight into what makes you tick.
+If you’re interested in this position, please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto:jobs@redant.com.au "Sarah") with an outline of the kind of projects you've worked on, and some insight into what makes you tick.
 
 And please – no recruiters! This is a full time position, for a carbon based person who lives in Sydney, Australia (who does not live in the London Eye). While we really appreciate all the attention from recruiters, offshore teams and people living in famous London landmarks, we’re only looking for direct applicants that live near us.

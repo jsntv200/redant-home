@@ -22,7 +22,7 @@ description: Do you feel like your website, app or platform isn’t keeping up w
   demand or if you’ve been struggling with persistent performance issues - we can
   help you get unstuck.
 slug: solve-performance-problems
-redirect_from: []
+redirect_from:
 bulletpoints:
 - 'Why are there so many bugs and error pages? '
 - Why is my customer support team overwhelmed?

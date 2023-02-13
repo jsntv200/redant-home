@@ -13,8 +13,8 @@ description:
 keywords: shopify pricing
 image_small: '/assets/uploads/2012/shopify-account-comparison-chart-small.png'
 image: '/assets/uploads/2012/shopify-account-comparison-chart.png'
-excerpt-short: Shopify for e-commerce - we looked into this as part of a recent assessment.
-excerpt-long:
+excerpt_short: Shopify for e-commerce - we looked into this as part of a recent assessment.
+excerpt_long:
   As part of a recent assessment for a client e-commerce solution we looked
   into <a href="http://www.shopify.com">Shopify</a>. Part of that meant checking out
   their prices and finding the account level which would hit the sweet spot for the
@@ -22,14 +22,14 @@ excerpt-long:
   their accounts is pretty handy to have on hand.
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2012-08-03'
 publisher: Red Ant
 updated_at: 2012-08-03
 
 ---
 
-![](/assets/uploads/2012/shopify-account-comparison-chart.png){:height="624" width="533"}
+![](/assets/uploads/2012/shopify-account-comparison-chart.png)
 
 The graph above charts monthly sales to monthly costs for all four account levels at Shopify. What it gives us is a pretty straight-forward answer to which account is best for anybody who is planning on using the service.
 

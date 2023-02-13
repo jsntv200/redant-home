@@ -11,12 +11,12 @@ description: Seems like all the cool kids are Digital Agencies these days
 keywords: Digital Agency, technical agency
 image_small: "/assets/uploads/2013/somebody-set-us-up-the-bomb.jpg"
 image: "/assets/uploads/2013/somebody-set-us-up-the-bomb-small.jpg"
-excerpt-short: Digital agency vs a Technical Agency
-excerpt-long: Seems like all the cool kids are Digital Agencies these days. What exactly
+excerpt_short: Digital agency vs a Technical Agency
+excerpt_long: Seems like all the cool kids are Digital Agencies these days. What exactly
   is the difference (as explained to my Mum)
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2018-08-10'
 publisher: Red Ant
 updated_at: 2018-08-10

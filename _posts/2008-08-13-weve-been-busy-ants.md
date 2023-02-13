@@ -6,14 +6,13 @@ type: news
 categories:
   - our-work
 author: Ben Still
-image:
 image_small: /assets/uploads/2008/ant-small.jpg
 image: /assets/uploads/2008/ant-large.jpg
 meta:
   dsq_thread_id: '524834144'
 excerpt:
-excerpt-short: We've been busy little ants over the last few months
-excerpt-long: "We've been busy little ants over the last few months *.here .posts .blog .of .flurry .the .from .tell .probably .can .you .as*. There have been quite a few that have launched in the last weeks - here are some:"
+excerpt_short: We've been busy little ants over the last few months
+excerpt_long: "We've been busy little ants over the last few months *.here .posts .blog .of .flurry .the .from .tell .probably .can .you .as*. There have been quite a few that have launched in the last weeks - here are some:"
 published: false
 date_published: ! ' 2008-08-13'
 updated_at: 2008-08-13

@@ -12,10 +12,10 @@ description:
 keywords: Clicktale review
 image_small: '/assets/uploads/2012/clicktale-small.png'
 image: '/assets/uploads/2012/clicktale.png'
-excerpt-short:
+excerpt_short:
   It could be so good, but sadly Clicktale doesn't do everything it says
   on the box.
-excerpt-long:
+excerpt_long:
   Clicktale is a software tool which allows you to track what users are
   doing on your website. It is used to analyse how people behave and what they do
   on particular pages. we've used it on several projects to try to gain a better understanding
@@ -24,7 +24,7 @@ excerpt-long:
   what steps we could take to improve our conversion rate.
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2012-01-31'
 publisher: Red Ant
 updated_at: 2012-01-31
@@ -85,11 +85,11 @@ If it's still unclear as to why this would be a problem, here is what I'd see if
 
 What a real user sees:
 
-![clicktale-basket](/assets/uploads/2012/clicktale-basket.png){:height="461" width="610"}
+![clicktale-basket](/assets/uploads/2012/clicktale-basket.png)
 
 and what you'll see in the Clicktale report:
 
-![clicktale-basket-none](/assets/uploads/2012/clicktale-basket-none.png){:height="434" width="610"}
+![clicktale-basket-none](/assets/uploads/2012/clicktale-basket-none.png)
 
 Which is puzzling, because on the Clicktale site there are a lot of testimonials gushing about this amazing insight into behaviour which improves shopping and conversions. I'm not really sure how many of these sites don't use some sort of cookie or session information to facilitate a checkout process.
 

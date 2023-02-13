@@ -11,14 +11,14 @@ description: We've recently launched a new blog feature on the Huggies site. But
 keywords: huggies blog
 image_small: "/assets/uploads/2010/huggies-blogs-1-small.jpg"
 image: "/assets/uploads/2010/huggies-blogs-1.jpg"
-excerpt-short: We've recently launched a new blog feature on the Huggies site. But
+excerpt_short: We've recently launched a new blog feature on the Huggies site. But
   it's a blog with a difference.
-excerpt-long: The user wouldn't notice anything different about this blog, and that's
+excerpt_long: The user wouldn't notice anything different about this blog, and that's
   exactly what we wanted. For it to seamlessly integrate and to retain all that's
   lovely SEO juice. That's not all that's special about it.
 tags: []
 time: ''
-redirect_from: []
+redirect_from:
 date_published: ! ' 2010-11-17'
 publisher: Red Ant
 updated_at: 2010-11-17

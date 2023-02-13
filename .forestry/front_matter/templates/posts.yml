@@ -58,11 +58,11 @@ fields:
   name: image
   label: image
 - type: textarea
-  name: excerpt-short
-  label: excerpt-short
+  name: excerpt_short
+  label: excerpt_short
 - type: textarea
-  name: excerpt-long
-  label: excerpt-long
+  name: excerpt_long
+  label: excerpt_long
 - type: tag_list
   name: tags
   label: tags
