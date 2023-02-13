@@ -29,23 +29,42 @@ export class AssessmentController extends Controller {
   }
 
   connect() {
-    if (location.pathname === this.basePathValue) {
+    if (this.isBasePath) {
       this.checkIncomplete();
-    } else if (location.pathname === `${this.basePathValue}submit`) {
-      const answers = this.getAnswers();
-
-      if (Object.entries(answers).length > 0) {
-        this.answersInputTarget.value = JSON.stringify(answers);
-        this.calculate();
-      } else {
-        this.navigateTo();
-      }
-    } else if (location.pathname === `${this.basePathValue}results`) {
+    } else if(this.isSubmitPath) {
+      this.calculateOrRedirect();
+    } else if(this.isResultsPath) {
       this.calculate();
     } else {
       this.setActiveSections();
       this.setActiveQuestions();
       this.setActiveAnswer();
+    }
+  }
+  
+  get isBasePath() {
+    return location.pathname === this.basePathValue;
+  }
+  
+  get isSubmitPath() {
+    return location.pathname === `${this.basePathValue}submit`;
+  }
+  
+  get isResultsPath() {
+    return location.pathname === `${this.basePathValue}results`;
+  }
+
+  get answers() {
+    const answers = localStorage.getItem("answers");
+    return answers === 'null' || answers === null ? {} : JSON.parse(answers);
+  }
+  
+  calculateOrRedirect() {  
+    if (Object.entries(this.answers).length > 0) {
+      this.answersInputTarget.value = JSON.stringify(this.answers);
+      this.calculate();
+    } else {
+      this.navigateTo();
     }
   }
 
@@ -54,7 +73,7 @@ export class AssessmentController extends Controller {
     const weighting = 0.6;
     const answers = params.has('r') ? 
       JSON.parse(decodeURIComponent(params.get('r')).replaceAll('&#34;', '"')) :
-      this.getAnswers();
+      this.answers;
 
     const scoreRange = Object.keys(questions)
       .reduce((accumulator, currentValue) => {
@@ -108,9 +127,7 @@ export class AssessmentController extends Controller {
   }
 
   checkIncomplete() {
-    const answers = this.getAnswers();
-
-    if (Object.entries(answers).length > 0) {
+    if (Object.entries(this.answers).length > 0) {
       this.resumeTarget.classList.toggle("d-none");
     }
   }
@@ -120,9 +137,7 @@ export class AssessmentController extends Controller {
   }
 
   clearErrors() {
-    if (!this.invalidEmailTarget.classList.contains("d-none")) {
-      this.invalidEmailTarget.classList.toggle("d-none")
-    }
+    this.invalidEmailTarget.classList.remove("d-none");
   }
 
   diff(x, y) {
@@ -137,15 +152,10 @@ export class AssessmentController extends Controller {
     window.print();
   }
 
-  getAnswers() {
-    const answers = localStorage.getItem("answers");
-    return answers === 'null' || answers === null ? {} : JSON.parse(answers);
-  }
-
   getFormData() {
     const elements = this.formTarget.elements;
     var honeypot;
-    var formData = {};
+    var data = {};
     var email = "";
 
     var fields = Object.keys(elements).filter(function(k) {
@@ -167,37 +177,37 @@ export class AssessmentController extends Controller {
 
     fields.forEach(function(name) {
       const element = elements[name];
-      formData[name] = element.value;
+      data[name] = element.value;
 
-      if (elements[name].name === "email") {
-        email = formData[name];
+      if (element.name === "email") {
+        email = data[name];
       }
 
       if (element.length) {
-        var data = [];
+        var formData = [];
         
-        for (var i = 0; i < element.length; i++) {
+        for (const i in element) {
           const item = element.item(i);
           
           if (item.checked || item.selected) {
-            data.push(item.value);
+            formData.push(item.value);
           }
         }
         
-        formData[name] = data.join(', ');
+        data[name] = formData.join(', ');
       }
     });
 
     // add form-specific values into the data
-    formData.formDataNameOrder = JSON.stringify(fields);
-    formData.formGoogleSheetName = this.formTarget.dataset.sheet || "responses";
-    formData.formGoogleSendEmail = email;
+    data.formDataNameOrder = JSON.stringify(fields);
+    data.formGoogleSheetName = this.formTarget.dataset.sheet || "responses";
+    data.formGoogleSendEmail = email;
 
-    return {data: formData, honeypot: honeypot};
+    return { data, honeypot };
   }
 
   getParams() {
-    return new Map(location.search.slice(1).split('&').map(kv => kv.split('=')));
+    return new URLSearchParams(location.search);
   }
   
   getQuestionIndexFromUrlParams() {
@@ -230,12 +240,11 @@ export class AssessmentController extends Controller {
 
     xhr.open('POST', url);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    xhr.onreadystatechange = function() {
+    xhr.onreadystatechange = () => {
       if (xhr.readyState === 4 && xhr.status === 200) {
-        self.formTarget.reset();
-        self.formTarget.classList.toggle("d-none");
-        self.responseTarget.classList.toggle("d-none");
-        self.responseTarget.classList.toggle("d-flex");
+        this.formTarget.reset();
+        this.formTarget.classList.toggle("d-none");
+        this.responseTarget.classList.replace("d-none", "d-flex");
       }
     };
 
@@ -246,12 +255,10 @@ export class AssessmentController extends Controller {
     xhr.send(encoded);
   }
 
-  resume() {
-    const answers = this.getAnswers();
-    
-    if (Object.entries(answers).length > 0) {
-      const section = Object.keys(answers)[Object.keys(answers).length - 1];
-      const question = answers[section].length;
+  resume() {    
+    if (Object.entries(this.answers).length > 0) {
+      const section = Object.keys(this.answers)[Object.keys(this.answers).length - 1];
+      const question = this.answers[section].length;
       location.href += `/${section}?q=${question}`;
     }
   }
@@ -265,17 +272,16 @@ export class AssessmentController extends Controller {
   }
 
   setActiveAnswer() {
-    const answers = this.getAnswers();
     const section = location.pathname.split('/').reverse()[0];
   
-    if (Object.entries(answers).length === 0) return;
+    if (Object.entries(this.answers).length === 0) return;
   
     for (const i in this.answerTargets) {
       const target = this.answerTargets[i];
 
-      if (!answers[section] || !answers[section][i]) return;
+      if (!this.answers[section] || !this.answers[section][i]) return;
   
-      const oldAnswer = answers[section][i][0];
+      const oldAnswer = this.answers[section][i][0];
       
       if (!target || !oldAnswer) return;
   
@@ -288,7 +294,6 @@ export class AssessmentController extends Controller {
 
   setActiveQuestions() {
     const index = this.getQuestionIndexFromUrlParams();
-    const answers = this.getAnswers();
     const section = location.pathname.split('/').reverse()[0];
   
     this.answerSectionTargets[index].classList.toggle("d-none");
@@ -298,7 +303,7 @@ export class AssessmentController extends Controller {
     this.questionSliderTarget.scrollLeft = this.questionTargets[index].offsetLeft - this.questionSliderTarget.offsetLeft;
 
     for (const i in this.questionTargets) {
-      const hasAnswer = !!answers[section] && !!answers[section][i];
+      const hasAnswer = !!this.answers[section] && !!this.answers[section][i];
 
       if (!hasAnswer && i > index) {
         this.questionTargets[i].setAttribute("disabled", true);
@@ -308,10 +313,8 @@ export class AssessmentController extends Controller {
   }
   
   setActiveSections() {
-    const answers = this.getAnswers();
-
-    if (Object.entries(answers).length > 0) {
-      const sections = Object.keys(answers);
+    if (Object.entries(this.answers).length > 0) {
+      const sections = Object.keys(this.answers);
     
       for (const i in this.sectionsValue) {
         const slug = this.sectionsValue[i];
@@ -329,7 +332,7 @@ export class AssessmentController extends Controller {
   setAnswer(data) {
     // Data format: "section-slug,question-number,answer-number,answer-weight"
     const answer = data.split(',');
-    var answers = this.getAnswers();
+    var answers = this.answers;
 
     if (answers[answer[0]]) {
       if (answers[answer[0]][answer[1] - 1]) {
