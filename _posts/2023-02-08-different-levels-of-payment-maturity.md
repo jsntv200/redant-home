@@ -14,8 +14,8 @@ description: A summary of each of the different levels that we use to describe t
 keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/what-are-the-different-levels-of-payment-maturity-min.png"
 image: "/assets/uploads/2023/what-are-the-different-levels-of-payment-maturity-min.png"
-excerpt-short: A summary of each of the different levels that we use to describe the relative maturity of a payments process. Starting from the very basic / starting off, through to the teams that are really cracking it.
-excerpt-long:
+excerpt_short: A summary of each of the different levels that we use to describe the relative maturity of a payments process. Starting from the very basic / starting off, through to the teams that are really cracking it.
+excerpt_long:
 redirect_from: []
 updated_at: 2023-02-08
 ---

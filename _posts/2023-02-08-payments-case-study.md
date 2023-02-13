@@ -14,8 +14,8 @@ description: A case study on a company that explores two options for implementin
 keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/payments-case-study-min.png"
 image: "/assets/uploads/2023/payments-case-study-min.png"
-excerpt-short: A case study on a company that explores two options for implementing online payments, and how the results of each of those can impact company business performance going forward
-excerpt-long:
+excerpt_short: A case study on a company that explores two options for implementing online payments, and how the results of each of those can impact company business performance going forward
+excerpt_long:
 redirect_from: []
 updated_at: 2023-02-08
 ---
