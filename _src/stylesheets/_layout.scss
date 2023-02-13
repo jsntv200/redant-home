@@ -88,6 +88,14 @@ body {
   img {
     @extend .img-fluid;
   }
+
+  table {
+    th, td {
+      border-color: $gray-200;
+      border-width: 1px;
+      padding: 8px 5px;
+    }
+  }
 }
 
 .post-detail-container {

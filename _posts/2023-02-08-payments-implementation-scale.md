@@ -10,7 +10,7 @@ time: 5 Mins Read
 date_published: ! ' 2023-02-08'
 publisher: Red Ant
 title: Payments implementation scale
-description: Payments implementation scale
+description: An explanation of the different technical approaches for implementing online payments, from a simple shop on eBay through to a more scalable and custom technical platform.
 keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/payments-implementation-scale-min.png"
 image: "/assets/uploads/2023/payments-implementation-scale-min.png"

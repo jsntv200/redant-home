@@ -10,7 +10,7 @@ time: 5 Mins Read
 date_published: ! ' 2023-02-08'
 publisher: Red Ant
 title: Payments case study - better payments as a way to reimagine your Product.
-description: Payments case study - better payments as a way to reimagine your Product.
+description: A case study on a company that explores two options for implementing online payments, and how the results of each of those can impact company business performance going forward
 keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/payments-case-study-min.png"
 image: "/assets/uploads/2023/payments-case-study-min.png"
@@ -27,6 +27,7 @@ This is a case study of a company that sells engine fuel additives. Over 20 year
 Management has become increasingly dissatisfied - they’ve become price takers as more similar products become available. This has put pressure on margins, which keep dropping. Cashflow is an issue, as distributors are pushing for longer payment terms and only paying once they sell. Distributors aren’t explaining the product features well, and since FuelRestore has limited contact with end user customers, they struggle to get a message across. Worst, some distributors are selling their own fuel additives, which are rebranded white label additives of questionable quality.
 
 **Scenario 1 - do the same thing, but digital**
+
 OK, so things are a bit bad. Now the simplest and most obvious path for a digital payments solution would be to create a “FuelRestoreDirect” online store. Using a shopping cart system like Shoppify or BigCommerce. A relatively small upfront investment, and as long as pricing is same or cheaper than competitors, then the money will just pour in right? Maybe.
 
 Are there any drawbacks or risks to this approach? The most obvious risk is that you’ll irritate your suppliers. A classic cannibalisation problem: you’ve just made something that takes end user customers away from your own actual customers (the distributors). That probably make up the lion's share of your current revenue.
@@ -34,6 +35,7 @@ Are there any drawbacks or risks to this approach? The most obvious risk is that
 The outcome here is that you may need to either further discount your wholesale price, so distributors can match your online price, or you increase your online price (pushing customers back to your distributor). Or your distributors decide you’re just too much hassle to deal with and start going their own way.
 
 **Scenario 2- reimagine your Product**
+
 First up, the term “Product” might not mean the actual box of fuel additive. Think of it more as the customer experience that FuelRestore provides. In this case, it begins when a customer has a problem with their car or boat. They research either online or in a shop, buy a product, use it and then have some kind of outcome.
 
 So the start of the Product journey is when a customer discovers a problem with their car or boat. FuelRestore researched and categorised the different types of problems and symptoms, cross referencing this by type of engine and model. They created a library of videos that explained each, and built out a library of these on YouTube. The first ones were pretty basic, but they got better over time - explaining and showing how each problem might appear, and what to do about it (which FuelRestore additive to use and how).
