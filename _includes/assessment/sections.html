@@ -1,0 +1,57 @@
+<div 
+  class="tabs"
+  data-assessment-target="sectionSlider">
+  <div class="d-flex">
+    <div class="col-auto me-3">
+      <button
+        class="btn btn-link text-black fs-6 fw-bold p-0 border-0 text-decoration-none
+        {% if page.permalink == '/online-payments/payment-maturity-assessment/current' %}border-black{% endif %}"
+        data-action="click->assessment#select"
+        data-assessment-href-param="{{ include.sections.current.slug }}?q=1"
+        data-assessment-target="section">
+        <p class="position-relative py-4 m-0">
+          1. {{ include.sections.current.tab }}
+        </p>
+      </button>
+    </div>
+    <div class="col-auto me-3">
+      <button
+        class="btn btn-link text-black fs-6 fw-bold p-0 border-0 text-decoration-none opacity-25
+        {% if page.permalink == '/online-payments/payment-maturity-assessment/your-team' %}border-black{% endif %}"
+        data-action="click->assessment#select"
+        data-assessment-href-param="{{ include.sections.your-team.slug }}?q=1"
+        data-assessment-target="section"
+        disabled>
+        <p class="position-relative py-4 m-0">
+          2. {{ include.sections.your-team.tab }}
+        </p>
+      </button>  
+    </div>
+    <div class="col-auto me-3">
+      <button
+        class="btn btn-link text-black fs-6 fw-bold p-0 border-0 text-decoration-none opacity-25
+        {% if page.permalink == '/online-payments/payment-maturity-assessment/owner' %}border-black{% endif %}"
+        data-action="click->assessment#select"
+        data-assessment-href-param="{{ include.sections.owner.slug }}?q=1"
+        data-assessment-target="section"
+        disabled>
+        <p class="position-relative py-4 m-0">
+          3. {{ include.sections.owner.tab }}
+        </p>
+      </button>  
+    </div>
+    <div class="col-auto">
+      <button
+        class="btn btn-link text-black fs-6 fw-bold p-0 border-0 text-decoration-none opacity-25
+        {% if page.permalink == '/online-payments/payment-maturity-assessment/technology' %}border-black{% endif %}"
+        data-action="click->assessment#select"
+        data-assessment-href-param="{{ include.sections.technology.slug }}?q=1"
+        data-assessment-target="section"
+        disabled>
+        <p class="position-relative py-4 m-0">
+          4. {{ include.sections.technology.tab }}
+        </p>
+      </button>  
+    </div>
+  </div>
+</div>

@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Current",
+    "slug": "current",
+    "results": [
+      {
+        "title": "None of the above",
+        "description": "Sounds like your organisation hasn't really embraced any kind of payment process. Lots of room for improvement here. Seize the opportunity - many of your competitors are probably a lot more advanced."
+      },
+      {
+        "title": "Reliable",
+        "description": "You got a “Reliable” rating for your Current State. Sounds like your organisation is just at the start of your payments journey. Seize the opportunity to improve this - many of your competitors might be already more advanced."
+      },
+      {
+        "title": "Efficient",
+        "description": "You got an “Efficient” score for Current State, which is where many typical organisations find themselves. Not a great result, but the good news is that there are plenty of areas that can be improved, to capitalise on the investment that you've already started to make."
+      },
+      {
+        "title": "Responsive",
+        "description": "You got “Responsive” as your rating for Current State. This indicates that you have many of the features that indicate a well functioning payment ecosystem within your organisation. To improve this result, you'll need to tighten up your security, documentation and design processes."
+      },
+      {
+        "title": "Agile",
+        "description": "We gave you an “Agile” rating for Current State - well done! Looks like your organisation has embraced many of the aspects of a well functioning payment system. But as you're probably aware, this takes constant, careful effort to keep running smoothly"
+      }
+    ]
+  },
+  {
+    "title": "Your team",
+    "slug": "your-team",
+    "results": [
+      {
+        "title": "None of the above",
+        "description": "Sounds like your team isn't really along for the payments ride - you scored quite low on this section.  The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are lots of areas where things can be improved. Start planning out payments related training to help the team improve knowledge and specific skills."
+      },
+      {
+        "title": "Reliable",
+        "description": "We gave your team a “Reliable” rating for payments. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are lots of areas where things can be improved. Start planning out payments related training to help the team improve knowledge and specific skills."
+      },
+      {
+        "title": "Efficient",
+        "description": "Your team scored “Efficient”, which means there is still some way to go to get to a more mature payments ecosystem. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are lots of areas where things can be improved. Start planning out payments related training to help the team improve knowledge and specific skills."
+      },
+      {
+        "title": "Responsive",
+        "description": "Your team scored “Responsive”, which indicates that they are relatively mature in terms of dealing with payments. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are always areas where things can be improved. Continue planning out payments related training to help the team improve knowledge and specific skills."
+      },
+      {
+        "title": "Agile",
+        "description": "Your team scored “Agile”, which indicates that they are quite mature in terms of dealing with payments. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are always areas where things can be improved. Continue planning out payments related training to help the team improve knowledge and specific skills."
+      }
+    ]
+  },
+  {
+    "title": "Owner",
+    "slug": "owner",
+    "results": [
+      {
+        "title": "None of the above",
+        "description": "Sounds like you don't really have an kind of owner or management structure and responsibilities around payments. Without clear responsibilites and ownership, your organisation may struggle to reach a more mature posture. Start with some conversations about who needs to be responsible for making key decisions, and what this might involve."
+      },
+      {
+        "title": "Reliable",
+        "description": "Your results for clear management and ownership weren't great- we gave you a “Reliable” for this. Without clear responsibilites and ownership, your organisation may struggle to reach a more mature posture. Start with some conversations about who is actually responsible for making key decisions, and responsibilities around that."
+      },
+      {
+        "title": "Efficient",
+        "description": "Your results for clear management and ownership weren't great- we gave you an “Efficient” for this. Without clear responsibilites and ownership, your organisation may struggle to reach a more mature posture. Start with some conversations about who is actually responsible for making key decisions, and responsibilities around that."
+      },
+      {
+        "title": "Responsive",
+        "description": "Your results for clear management and ownership were good- we gave you an “Responsive” for this. There are still some areas that could be improved, to move towards a more agile and mature management process. Start with some analysis of scenarios and problems, ideally running regular retrospectives to understand and improve the decision making process."
+      },
+      {
+        "title": "Agile",
+        "description": "You scored well for clear management and ownership - we gave you an “Agile” for this. There are still some areas that could be improved, to move towards a more agile and mature management process. Start with some analysis of scenarios and problems, ideally running regular retrospectives to understand and improve the decision making process."
+      }
+    ]
+  },
+  {
+    "title": "Technology",
+    "slug": "technology",
+    "results": [
+      {
+        "title": "None of the above",
+        "description": "You scored poorly on this - it would seem that technology is not really the strong point of your organisation. Baby steps. Start thinking about and mapping out your payment requirements. Don't try to do everything at once, because it probably won't work. Chip off a bit at a time and progress towards continual improvement."
+      },
+      {
+        "title": "Reliable",
+        "description": "Plenty of room for improvement here - we gave you a “Reliable” rating on this. As in, you're still in the race, but if some pretty radical improvements don't happen, you might get left behind. Technology is both the actual technology stack, as well as the people behind it. Focus on improving both."
+      },
+      {
+        "title": "Efficient",
+        "description": "Plenty of room for improvement here - we gave you an “Efficient” rating on this. As in, you're still in the race, but if some pretty radical improvements don't happen, you might get left behind. Technology is both the actual technology stack, as well as the people behind it. Focus on improving both."
+      },
+      {
+        "title": "Responsive",
+        "description": "Good work- we gave you a “Responsive” for Technology. However there are still lots of areas that could be improved. Payments move and evolve incredibly quickly. So while you have a good foundation, there are plenty of areas that could be improved here."
+      },
+      {
+        "title": "Agile",
+        "description": "Great work- we gave you an “Agile” for Technology. However there are still lots of areas that could be improved. Payments move and evolve incredibly quickly. So while you have a good foundation, there are plenty of areas that could be improved here."
+      }
+    ]
+  }
+]

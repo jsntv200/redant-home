@@ -54,6 +54,7 @@ body {
   max-width: $layout-max-width;
   margin: auto;
   background-color: $white;
+  min-height: 100vh;
 
   @include montserrat();
   overflow: hidden;
@@ -87,6 +88,14 @@ body {
   img {
     @extend .img-fluid;
   }
+
+  table {
+    th, td {
+      border-color: $gray-200;
+      border-width: 1px;
+      padding: 8px 5px;
+    }
+  }
 }
 
 .post-detail-container {
@@ -110,10 +119,15 @@ body {
   min-height: 200px;
 }
 
-/* Remove once updated to Bootstrap 5.2*/
+/* TO DO: Remove once updated to Bootstrap 5.3*/
 .rounded-4 {
   border-radius: 1rem;
 }
+
+.fw-semibold {
+  font-weight: 600!important;
+}
+/* ------------------------------------------ */
 
 .slidedown-container {
   background-color: $gray-500;
@@ -171,6 +185,6 @@ body {
 
 @include media-breakpoint-up(lg) {
   .container {
-    max-width: 960px;
+    max-width: 980px;
   }
 }
