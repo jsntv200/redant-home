@@ -137,7 +137,7 @@ export class AssessmentController extends Controller {
   }
 
   clearErrors() {
-    this.invalidEmailTarget.classList.remove("d-none");
+    this.invalidEmailTarget.classList.add("d-none");
   }
 
   diff(x, y) {
