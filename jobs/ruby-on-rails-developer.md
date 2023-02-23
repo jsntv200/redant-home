@@ -3,8 +3,7 @@ layout: job
 slug: ruby-on-rails-developer
 title: 'Hey Ruby Developer Yes You'
 description: Senior Ruby Developer
-image:
-  small: "/assets/uploads/2014/bike.jpg"
+image_small: "/assets/uploads/2014/bike.jpg"
 published: false
 ---
 

@@ -140,7 +140,7 @@ updated_at: 2019-06-05
             object-oriented approach is most commonly demonstrated by a bit of
             code which applies an action to a number.
           </p>
-          <pre><code>5.times { print "We love Ruby -- it's outrageous!" }</code></pre>
+          <pre><code>5.times &lbrace; print "We love Ruby -- it's outrageous!" &rbrace;</code></pre>
           <p>
             In many languages, numbers and other primitive types are not objects.
             Ruby follows the influence of the Smalltalk language by giving

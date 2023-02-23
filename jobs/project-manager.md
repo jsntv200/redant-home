@@ -2,8 +2,7 @@
 layout: job
 slug: project-manager
 title: Digital Project Manager
-image:
-  small: "/assets/uploads/2014/skater.gif"
+image_small: "/assets/uploads/2014/skater.gif"
 published: false
 ---
 

@@ -2,8 +2,7 @@
 layout: job
 slug: senior-ios-developer
 title: Senior iOS Developer - Swift/Objective-C
-image:
-  small: "/assets/uploads/2014/yoyo.png"
+image_small: "/assets/uploads/2014/yoyo.png"
 published: false
 ---
 

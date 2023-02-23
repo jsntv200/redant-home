@@ -2,8 +2,7 @@
 layout: job
 slug: front-end-javascript-developer
 title: Senior Front Endgnr Javascript Developer
-image:
-  small: "/assets/uploads/2014/yoyo.png"
+image_small: "/assets/uploads/2014/yoyo.png"
 published: false
 ---
 

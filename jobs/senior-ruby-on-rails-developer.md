@@ -3,8 +3,7 @@ layout: job
 slug: senior-ruby-on-rails-developer
 title: Senior Ruby Developer
 description: Looking for a Senior Ruby developer
-image:
-  small: "/assets/uploads/2014/bike.jpg"
+image_small: "/assets/uploads/2014/bike.jpg"
 published: false
 ---
 
