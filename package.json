@@ -17,6 +17,7 @@
     "esbuild": "^0.15.10",
     "esbuild-sass-plugin": "^2.3.3",
     "macy": "2.5.1",
+    "prettier": "^2.8.4",
     "stimulus-reveal-controller": "4.0.0",
     "stimulus-scroll-to": "4.0.0",
     "swiper": "8.4.3",
