@@ -142,8 +142,81 @@ class: digital-product-development
   </div>
 </section>
 
-{% include testimonials.html colour='red' %}
-{% include cta-panel.html %}
+<section
+  id="section-testimonials"
+  class="default-padding bg-{{ include.colour }}"
+  data-ga-trigger="visibility">
+  <div class="container">
+    <h3 class="ps-3">
+      Testimonials
+    </h3>
+    <div
+      id="testimonial-carousel"
+      class="carousel carousel-dark slide col-lg-9"
+      data-bs-ride="carousel">
+      <div class="card bg-transparent h-100">
+        <div class="card-body pb-0">
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active"
+              data-carousel-target="item">
+              <p>"Working with Red Ant was a real pleasure. They developed a deep understanding of our business and came up with great strategic and tactical ideas for growth"</p>
+              <p class="small">Peter Mercer</p>
+            </div>
+            <div
+              class="carousel-item"
+              data-carousel-target="item">
+              <p>"I've worked with Red Ant for nearly 20 years. The best development agency in Sydney, one that won't let you down."</p>
+              <p class="small">Binh Wilson</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          <div class="carousel-indicators position-relative justify-content-start m-0">
+            <button
+              type="button"
+              class="active"
+              aria-current="active"
+              data-bs-target="#testimonial-carousel"
+              data-bs-slide-to="0"
+              aria-label="Peter Mercer">
+            </button>
+            <button
+              type="button"
+              class=""
+              aria-current=""
+              data-bs-target="#testimonial-carousel"
+              data-bs-slide-to="1"
+              aria-label="Binh Wilson">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section
+  id="cta-panel"
+  data-ga-trigger="visibility"
+  class="section default-padding"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <p class="h1">Ready to get started?</p>
+        <p class="my-5 subheading">Let's start a conversation</p>
+        <a
+          class="btn btn-lg btn-primary rounded-pill intercom-launcher"
+          ga-trigger="click"
+        >
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <section id="faqs" data-ga-trigger="visibility" class="faqs default-padding">
   <div class="container ">

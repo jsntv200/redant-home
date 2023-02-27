@@ -84,7 +84,7 @@ The data set we were working with was quite different
 * the data set itself (pets available) is a few thousand. Once we apply preferences (the kind of pet you're after) and location (only show pets in shelters close to you) it gets much smaller.
 * Very difficult to set success criteria. There is no clear data about whether a user actually went on to adopt pet#42. What if they did and it didn't work out (the recommendation was bad)?
 
-The problem we faced was not knowing if our fancy AI based Machine Learning <insert trendy keyword here> recommendation engine was actually making any difference at all. How different were the results it recommended vs using simple random pick code?
+The problem we faced was not knowing if our fancy AI based Machine Learning &#60; insert trendy keyword here &#62; recommendation engine was actually making any difference at all. How different were the results it recommended vs using simple random pick code?
 
 Before you rush out and AI all the Things, get some inspiration here
 
