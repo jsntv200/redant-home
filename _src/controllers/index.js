@@ -34,3 +34,9 @@ Stimulus.register("nav", NavController);
 
 import { RandomiseController } from "./randomise-controller";
 Stimulus.register("randomise", RandomiseController);
+
+import { TypewriterController } from "./typewriter-controller";
+Stimulus.register("typewriter", TypewriterController);
+
+import { TypewriterWordController } from "./typewriter-word-controller";
+Stimulus.register("typewriter-word", TypewriterWordController);
