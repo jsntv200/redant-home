@@ -7,10 +7,12 @@ export class AssessmentController extends Controller {
     "answer",
     "answersInput",
     "answerSection",
+    "bookingIframe",
     "colorsInput",
     "emailInput",
     "form",
     "invalidEmail",
+    "isMobile",
     "question",
     "questionSlider",
     "response",
@@ -35,6 +37,8 @@ export class AssessmentController extends Controller {
       this.calculateOrRedirect();
     } else if(this.isResultsPath) {
       this.calculate();
+    } else if (this.isBookingPath) {
+      this.resizeContainer();
     } else {
       this.setActiveSections();
       this.setActiveQuestions();
@@ -44,6 +48,10 @@ export class AssessmentController extends Controller {
   
   get isBasePath() {
     return location.pathname === this.basePathValue;
+  }
+
+  get isBookingPath() {
+    return location.pathname === `/online-payments/book-call/`;
   }
   
   get isSubmitPath() {
@@ -255,6 +263,12 @@ export class AssessmentController extends Controller {
     xhr.send(encoded);
   }
 
+  resizeContainer() {
+    const isMobile = this.isMobileTarget.offsetWidth > 0;
+    const iframeHeight = isMobile ? 1250 : 780;
+    this.bookingIframeTarget.parentElement.style.height = iframeHeight + 'px';
+  }
+
   resume() {    
     if (Object.entries(this.answers).length > 0) {
       const section = Object.keys(this.answers)[Object.keys(this.answers).length - 1];
@@ -299,7 +313,7 @@ export class AssessmentController extends Controller {
     this.answerSectionTargets[index].classList.toggle("d-none");
     this.questionTargets[index].classList.toggle("border-light");
     this.questionTargets[index].classList.toggle("active");
-    this.questionTargets[index].parentElement.classList.toggle("border-gradient");    
+    this.questionTargets[index].parentElement.classList.toggle("border-gradient");
     this.questionSliderTarget.scrollLeft = this.questionTargets[index].offsetLeft - this.questionSliderTarget.offsetLeft;
 
     for (const i in this.questionTargets) {
