@@ -1,263 +1,826 @@
 {
-  "current": {
-    "tab": "Current",
-    "slug": "current",
-    "title": "Your current state",
-    "description": "Tell us a bit about the current state of your payments process",
-    "questions": [
-      {
-        "title": "Current state",
-        "description": "If you were to describe where your business is right now in terms of taking digital payments, where would you put it?",
-        "icon": "rocket-launch",
-        "weight": "5",
-        "answers": [
-          "Somewhere just past the Stone Age",
-          "Early days - we don't do much. Actually not at all.",
-          "The business does process some digital payments, but we're still trying to expand. We do credit card payments",
-          "Everything is digital. And we're pretty awesome at it. We do transactions in Credit cards, Direct Debit and BNPL",
-          "All our payments are 100% digital, but we know there is room for improvement"
-        ]
-      },
-      {
-        "title": "Volume",
-        "description": "Looking at volume of all revenue, what percentage is currently digital?",
-        "icon": "money-bill",
-        "weight": "5",
-        "answers": [
-          "Not really that much at all. We get the occcasional customer request",
-          "It's a small part of our revenue, but we're keen to learn how to grow it efficiently",
-          "Most payments are done this way. Well, probably more than half.",
-          "All payments are done this way",
-          "All payments are digital, but we know we can always improve speed and resilience."
-        ]
-      },
-      {
-        "title": "Design",
-        "description": "What is the scope of your payment process design?",
-        "icon": "telescope",
-        "weight": "10",
-        "answers": [
-          "We don't really plan things out like that",
-          "We haven't really designed much. But we know we need to.",
-          "We've redesigned from end to end, but at this stage it's unclear how this will fit in with other data and processes",
-          "We've redesigned from end to end, but at this stage it's fully integrated with our internal data and processes",
-          "Our payment process and data have been designed and integrated from end to end, and they also integrate with customer and supplier processes and data."
-        ]
-      },
-      {
-        "title": "Security",
-        "description": "How is system security and fraud managed in your organisation",
-        "icon": "camera-cctv",
-        "weight": "10",
-        "answers": [
-          "If I told you, you'd probably cry",
-          "We have some basic security in place. More of a security by obscurity kind of approach.",
-          "We have some tools to manage fraud, but we rely on someone to pick this up. We do penetration tests periodically, but nothing formal",
-          "We have automated scanning tools, and also processes to look for fraudulent behavior. We consider ourselves very well protected and have determined that we've secured every possible way into our system. Our leadership team have approved this approach and we're very confident",
-          "We have extensive tooling and automated procedures in place around both payment fraud and system security. However all of our team and the leadership is aware of the need for constant improvement and adjustment of our security. We accept that almost any data can get compromised, and we try to deal with this threat pragmatically. We have active procedures to remove old data and expired API end points to minimise our threat surface."
-        ]
-      },
-      {
-        "title": "Context",
-        "description": "How well does your organisation understand it's needs around payment process and customer data?",
-        "icon": "paper-plane-top",
-        "weight": "4",
-        "answers": [
-          "Picture a scene from the movie Dumb and Dumber",
-          "We haven't really spent that much time working this out. We have a basic direction and plan, but nothing concrete at this stage.",
-          "We have a pretty good understanding of the needs of the payment processes and the customers data. We have a formal plan to guide use of payment processes and data architecture.",
-          "The payment process has an Owner within the business, and they've set up performance expectations and KPIs with other areas. We've formalised our data and process in an agreed Architecture.",
-          "The payment Owner and others int the business have established clear SLAs. Our process is really well defined for both internal and external flows. We monitor this performance via a live dashboard with key payment metrics."
-        ]
-      },
-      {
-        "title": "Documentation",
-        "description": "How well are payment processes and data documented?",
-        "icon": "pencil",
-        "weight": "4",
-        "answers": [
-          "I think there is general feeling that if you don't document, no one can be blamed if it breaks",
-          "We have some documentation, but it might be a bit out of date. It's a bit unclear who is meant to update it.",
-          "We have pretty good documentation. It's an end to end document which covers the design of payment process and data to some degree. Business drivers are also covered.",
-          "We have documentation which is linked into each system, so it's easily accessible. If someone notices a problem or something missing, they are able to flag this while using either the system or documenation, which helps keep it up to date.",
-          "Our users love our documentation, and we get lots of feedback about it. We've put a lot of effort into making it as useful and detailed as we can. Wherever we can, we've tried to integrate the documentation with the live process, so you can quickly see things like volume rates, errors, and how something might work. This helps users quickly understand and resolve problems that brought them to the documentation."
-        ]
-      }
-    ],
-    "max": "136.8",
-    "min": "22.799999999999997"
+  "payment": {
+    "current": {
+      "tab": "Current",
+      "slug": "current",
+      "title": "Your current state",
+      "description": "Tell us a bit about the current state of your payments process",
+      "questions": [
+        {
+          "title": "Current state",
+          "description": "If you were to describe where your business is right now in terms of taking digital payments, where would you put it?",
+          "icon": "rocket-launch",
+          "weight": "5",
+          "answers": [
+            "Somewhere just past the Stone Age",
+            "Early days - we don't do much. Actually not at all.",
+            "The business does process some digital payments, but we're still trying to expand. We do credit card payments",
+            "Everything is digital. And we're pretty awesome at it. We do transactions in Credit cards, Direct Debit and BNPL",
+            "All our payments are 100% digital, but we know there is room for improvement"
+          ]
+        },
+        {
+          "title": "Volume",
+          "description": "Looking at volume of all revenue, what percentage is currently digital?",
+          "icon": "money-bill",
+          "weight": "5",
+          "answers": [
+            "Not really that much at all. We get the occcasional customer request",
+            "It's a small part of our revenue, but we're keen to learn how to grow it efficiently",
+            "Most payments are done this way. Well, probably more than half.",
+            "All payments are done this way",
+            "All payments are digital, but we know we can always improve speed and resilience."
+          ]
+        },
+        {
+          "title": "Design",
+          "description": "What is the scope of your payment process design?",
+          "icon": "telescope",
+          "weight": "10",
+          "answers": [
+            "We don't really plan things out like that",
+            "We haven't really designed much. But we know we need to.",
+            "We've redesigned from end to end, but at this stage it's unclear how this will fit in with other data and processes",
+            "We've redesigned from end to end, but at this stage it's fully integrated with our internal data and processes",
+            "Our payment process and data have been designed and integrated from end to end, and they also integrate with customer and supplier processes and data."
+          ]
+        },
+        {
+          "title": "Security",
+          "description": "How is system security and fraud managed in your organisation",
+          "icon": "camera-cctv",
+          "weight": "10",
+          "answers": [
+            "If I told you, you'd probably cry",
+            "We have some basic security in place. More of a security by obscurity kind of approach.",
+            "We have some tools to manage fraud, but we rely on someone to pick this up. We do penetration tests periodically, but nothing formal",
+            "We have automated scanning tools, and also processes to look for fraudulent behavior. We consider ourselves very well protected and have determined that we've secured every possible way into our system. Our leadership team have approved this approach and we're very confident",
+            "We have extensive tooling and automated procedures in place around both payment fraud and system security. However all of our team and the leadership is aware of the need for constant improvement and adjustment of our security. We accept that almost any data can get compromised, and we try to deal with this threat pragmatically. We have active procedures to remove old data and expired API end points to minimise our threat surface."
+          ]
+        },
+        {
+          "title": "Context",
+          "description": "How well does your organisation understand it's needs around payment process and customer data?",
+          "icon": "paper-plane-top",
+          "weight": "4",
+          "answers": [
+            "Picture a scene from the movie Dumb and Dumber",
+            "We haven't really spent that much time working this out. We have a basic direction and plan, but nothing concrete at this stage.",
+            "We have a pretty good understanding of the needs of the payment processes and the customers data. We have a formal plan to guide use of payment processes and data architecture.",
+            "The payment process has an Owner within the business, and they've set up performance expectations and KPIs with other areas. We've formalised our data and process in an agreed Architecture.",
+            "The payment Owner and others int the business have established clear SLAs. Our process is really well defined for both internal and external flows. We monitor this performance via a live dashboard with key payment metrics."
+          ]
+        },
+        {
+          "title": "Documentation",
+          "description": "How well are payment processes and data documented?",
+          "icon": "pencil",
+          "weight": "4",
+          "answers": [
+            "I think there is general feeling that if you don't document, no one can be blamed if it breaks",
+            "We have some documentation, but it might be a bit out of date. It's a bit unclear who is meant to update it.",
+            "We have pretty good documentation. It's an end to end document which covers the design of payment process and data to some degree. Business drivers are also covered.",
+            "We have documentation which is linked into each system, so it's easily accessible. If someone notices a problem or something missing, they are able to flag this while using either the system or documenation, which helps keep it up to date.",
+            "Our users love our documentation, and we get lots of feedback about it. We've put a lot of effort into making it as useful and detailed as we can. Wherever we can, we've tried to integrate the documentation with the live process, so you can quickly see things like volume rates, errors, and how something might work. This helps users quickly understand and resolve problems that brought them to the documentation."
+          ]
+        }
+      ],
+      "max": "136.8",
+      "min": "22.799999999999997"
+    },
+    "your-team": {
+      "tab": "Your team",
+      "slug": "your-team",
+      "title": "Your payments team",
+      "description": "What are the skills and approach of your payments team",
+      "questions": [
+        {
+          "title": "Knowledge",
+          "description": "How well does your team and organisation know the payment processes?",
+          "icon": "thought-bubble",
+          "weight": "4",
+          "answers": [
+            "We're taking baby steps. Not many people know it even exists.",
+            "Most people have at least some idea of how it works. Maybe not most - let's say some. OK maybe just me.",
+            "Most people can describe the overall flow, and know where to look or who to ask about problems. OK, lets say some people, and they know to ask me if anything goes wrong.",
+            "Most key people understand and can describe the process pretty well. They also understand how it might impact or affect other parts of the business.",
+            "I'm confident that all of the key people that do need to know about our payment process are quite aware of system detail, how it works and the impact on the rest of the business."
+          ]
+        },
+        {
+          "title": "Skills",
+          "description": "What is the skill level in your team and wider organisation when it comes to payments?",
+          "icon": "seal-question",
+          "weight": "6",
+          "answers": [
+            "Non existent",
+            "Payments are pretty much a black box. If it breaks, they ring the vendor.",
+            "People understand the basics, but some of the more complex issues are often either ignored or take ages to resolve because many people don't know how to diagnose and resolve themselves.",
+            "We have a variety of expertise levels. We have a few people who are experts, and we are training the relevant people to get the skills they need to respond to issues.",
+            "The team is very proactive, and jumps on issues because they are all fairly confident with how things work."
+          ]
+        },
+        {
+          "title": "Behavior",
+          "description": "How does the payments team handle their responsibilities around payments and payment data?",
+          "icon": "bell-concierge",
+          "weight": "8",
+          "answers": [
+            "Every day, I am surprised that customers trust us with this. If only they knew...",
+            "Most people on the team don't seem to feel payments is anything to do with them or their role.",
+            "The team does acknowledge that their job does have some remote connection to our payments process actually working properly",
+            "Most people on the team understand that if our payments process works well, they get paid and still have a job. They approach problems and resolve issues in a methodical way, and we're super happy that Henry in Accounts has stopped blaming any payment problem on Covid and seems to have developed some form of confidence in the team being able to resolve payment problems.",
+            "The team seeks continual feedback and input from everyone else in the organisation, and are very receptive to feedback. They've created a really good feedback loop, because any small issues that do come up are getting resolved very quickly."
+          ]
+        },
+        {
+          "title": "HR",
+          "description": "How does the HR policies of your organisation work for the payment team",
+          "icon": "people",
+          "weight": "3",
+          "answers": [
+            "HR thinks we do payroll",
+            "I'm pretty sure HR just thinks the payments stuff is some kind of magic trick we do at the end of each month. It certainly isn't in any job descriptions or KPIs",
+            "HR may have heard of the payments team. They regularly ask what we actually do. They also think we spend all day trading Bitcoin.",
+            "HR organises regular training and helps with skill improvements. Payment team job descriptions and KPIs are clear and articulated, and HR understands the integration of payments to the organisation.",
+            "Our hiring, development and reward systems are geared towards making sure our payment team members are working together well and achieving measurable goals, which are also payment specific."
+          ]
+        }
+      ],
+      "max": "50.400000000000006",
+      "min": "12.600000000000001"
+    },
+    "owner": {
+      "tab": "Owner",
+      "slug": "owner",
+      "title": "The owner of payments",
+      "description": "The key person responsible for the payments in your organisation",
+      "questions": [
+        {
+          "title": "Who is the owner",
+          "description": "In your organisation, is there a clear owner of the payments process?",
+          "icon": "person",
+          "weight": "8",
+          "answers": [
+            "That's really weird - the Police had the same question",
+            "Not really - accounts keep on asking about this",
+            "There was someone, but they left a few years ago.",
+            "There is a clear owner",
+            "There is a clear owner, who is a senior person in the organisation. They are able to focus on payment related issues."
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "description": "What does the payments process owner do?",
+          "icon": "circle-user",
+          "weight": "6",
+          "answers": [
+            "Great question",
+            "That's actually something we're still trying to clarify",
+            "They are the person who everyone blames when something goes wrong. So they spend a lot of their time trying to avoid being blamed.",
+            "The owner works with the team to create goals and improve the process. They are on top of all performance metrics, and make final decision on product direction and design choices.",
+            "The owner develops a strategic plan to manage the ongoing development process. They work with other people in the organisation to incorporate feedback and share progress. They are the key decision maker in any development, but consult widely to make sure decisions are well considered and pragmatic."
+          ]
+        },
+        {
+          "title": "Authority",
+          "description": "What kind of authority does the payments owner have?",
+          "icon": "gears",
+          "weight": "6",
+          "answers": [
+            "It's more of an honorary position",
+            "If we knew who it was, then I'm sure we could then work out what they can do",
+            "They need to be able to influence other team leaders, because they don't have much authority to start or pay for any projects. Any decision they try to make typically gets over ruled by someone else anyway.",
+            "The payment owner controls IT systems that support the payment process and any projects that change the process. They have some influence over resource allocation and evaluations as well as the payment process budget.",
+            "The payment process owner controls the process’s budget and exerts strong influence over resource allocation and evaluations."
+          ]
+        }
+      ],
+      "max": "35.99999999999999",
+      "min": "11.999999999999998"
+    },
+    "technology": {
+      "tab": "Technology",
+      "slug": "technology",
+      "title": "Technology and Metrics",
+      "description": "Development and technical execution, tracking performance",
+      "questions": [
+        {
+          "title": "Architecture",
+          "description": "Does your technical architecture follow any kind of standards or practices? What are they?",
+          "icon": "city",
+          "weight": "6",
+          "answers": [
+            "You might have heard of the term Reinventing the Wheel...",
+            "Our architecture is more of an informal By Mutual Agreement Between Developers style of system architecture.",
+            "Some patterns and formats used, but I think we'd be exagerating things a bit if we said there was any actual formal architecture or practices. We feel our own way and evolve over time.",
+            "We use frameworks and practices in conjunction with a formal SOAmethod and architectures. Our overall business information model is still evolving - still in it's infancy.",
+            "Service components are designed using formal methods, practices, and frameworks that promote the reuse of assets. Formal enterprise-wide business information services have been developed and deployed."
+          ]
+        },
+        {
+          "title": "Applications",
+          "description": "What does the internal application landscape look like in your organisation?",
+          "icon": "truck",
+          "weight": "6",
+          "answers": [
+            "We haven't deployed for several years",
+            "We pride ourselves on keeping old IT systems and applications well past their sunset date. Since our organisation is a notoriously slow payer, none of our vendors are willing to come back to make updates, and we're too scared to update anything. Plus IT won't allow us to download anything anyway. Not since they found out about those torrent servers Brett in Marketing was running.",
+            "Lots of legacy IT, with some integration between different applications. But honestly most apps just run on their own little islands. When we say api integration, we actually mean sticking a CSV file onto a thumb drive and walking it over. We have plans to integrate our payment applications into the wider organisation, but no one has worked out how to unlock the firewall. So that's a non starter.",
+            "Integration between applications, which are made from functional components or services which are shared in the organisation. Separation at logical layers, with common translation layers used.",
+            "A highly modular architecture, which adheres to best practice around communication of data within the enterprise. Uses enterprise service bus style approach to transfer of data within the enterprise. Tight process around security and protecting sensitive data by best practice approach. Regular audits and performance tests."
+          ]
+        },
+        {
+          "title": "Metrics",
+          "description": "How do you track, log and measure performance?",
+          "icon": "dumpster-fire",
+          "weight": "8",
+          "answers": [
+            "Since no one could really answer all the questions we kept on getting asked about performance problems, we took a group decision to remove the metrics functionality. Now all our graphs look really good and no one asks questions.",
+            "We track which parts of our payments system aren't working by complaints coming in from customers on a whiteboard. The cleaner removes it every Friday so we can start over with a clean slate.",
+            "Someone has a spreadsheet, which we update before the end of each quarter. We track key payment related data points, and send this around to stakeholders in the organisation.",
+            "Our KPI and metric scoreboard is partially automated. It tracks both payment related and company metrics where they overlap and influence each other.",
+            "Our KPI and metrics scoreboard is fully automated and receives live data. It tracks all relevant payment metrics, as well as company wide ones where there is an intersection or influence. The metrics include application throughput and errors, as well as user behaviour, infrastructure and financial data points."
+          ]
+        },
+        {
+          "title": "Using metrics",
+          "description": "How are metrics used in your organisation?",
+          "icon": "megaphone",
+          "weight": "8",
+          "answers": [
+            "Great question - no one has asked for it yet",
+            "I'm not sure management is aware. Or if they are, then maybe they are too scared to ask what the numbers mean. It's like a horror movie - if you look away, it isn't that scary.",
+            "Metrics are used to compare against benchmarks, as well as inform some business decisions. They are limited in scope, which limits how useful they are at the moment. If the data was more accurate and current, it may find more uses within the business.",
+            "Management team use these metrics as part of a team review or motivation. They are aware of any changes, and use them for day to day management of the payment process. Work to include targets and SLAs is being considered.",
+            "Management team use these metrics in reviews, as well as day to day management decisions. Targets and SLAs are designed and set regularly, and everyone is aware if we're not meeting them. Partner data is included in metrics."
+          ]
+        }
+      ],
+      "max": "67.2",
+      "min": "16.8"
+    }
   },
-  "your-team": {
-    "tab": "Your team",
-    "slug": "your-team",
-    "title": "Your payments team",
-    "description": "What are the skills and approach of your payments team",
-    "questions": [
-      {
-        "title": "Knowledge",
-        "description": "How well does your team and organisation know the payment processes?",
-        "icon": "thought-bubble",
-        "weight": "4",
-        "answers": [
-          "We're taking baby steps. Not many people know it even exists.",
-          "Most people have at least some idea of how it works. Maybe not most - let's say some. OK maybe just me.",
-          "Most people can describe the overall flow, and know where to look or who to ask about problems. OK, lets say some people, and they know to ask me if anything goes wrong.",
-          "Most key people understand and can describe the process pretty well. They also understand how it might impact or affect other parts of the business.",
-          "I'm confident that all of the key people that do need to know about our payment process are quite aware of system detail, how it works and the impact on the rest of the business."
-        ]
-      },
-      {
-        "title": "Skills",
-        "description": "What is the skill level in your team and wider organisation when it comes to payments?",
-        "icon": "seal-question",
-        "weight": "6",
-        "answers": [
-          "Non existent",
-          "Payments are pretty much a black box. If it breaks, they ring the vendor.",
-          "People understand the basics, but some of the more complex issues are often either ignored or take ages to resolve because many people don't know how to diagnose and resolve themselves.",
-          "We have a variety of expertise levels. We have a few people who are experts, and we are training the relevant people to get the skills they need to respond to issues.",
-          "The team is very proactive, and jumps on issues because they are all fairly confident with how things work."
-        ]
-      },
-      {
-        "title": "Behavior",
-        "description": "How does the payments team handle their responsibilities around payments and payment data?",
-        "icon": "bell-concierge",
-        "weight": "8",
-        "answers": [
-          "Every day, I am surprised that customers trust us with this. If only they knew...",
-          "Most people on the team don't seem to feel payments is anything to do with them or their role.",
-          "The team does acknowledge that their job does have some remote connection to our payments process actually working properly",
-          "Most people on the team understand that if our payments process works well, they get paid and still have a job. They approach problems and resolve issues in a methodical way, and we're super happy that Henry in Accounts has stopped blaming any payment problem on Covid and seems to have developed some form of confidence in the team being able to resolve payment problems.",
-          "The team seeks continual feedback and input from everyone else in the organisation, and are very receptive to feedback. They've created a really good feedback loop, because any small issues that do come up are getting resolved very quickly."
-        ]
-      },
-      {
-        "title": "HR",
-        "description": "How does the HR policies of your organisation work for the payment team",
-        "icon": "people",
-        "weight": "3",
-        "answers": [
-          "HR thinks we do payroll",
-          "I'm pretty sure HR just thinks the payments stuff is some kind of magic trick we do at the end of each month. It certainly isn't in any job descriptions or KPIs",
-          "HR may have heard of the payments team. They regularly ask what we actually do. They also think we spend all day trading Bitcoin.",
-          "HR organises regular training and helps with skill improvements. Payment team job descriptions and KPIs are clear and articulated, and HR understands the integration of payments to the organisation.",
-          "Our hiring, development and reward systems are geared towards making sure our payment team members are working together well and achieving measurable goals, which are also payment specific."
-        ]
-      }
-    ],
-    "max": "50.400000000000006",
-    "min": "12.600000000000001"
+  "privacy": {
+    "personal-information": {
+      "tab": "Personal Information",
+      "slug": "personal-information",
+      "title": "Your current state",
+      "description": "Tell us a bit about the current state of your payments process",
+      "questions": [
+        {
+          "title": "open",
+          "description": "Can you describe how your organization ensures that individuals are aware of how their personal information is being managed?",
+          "icon": "rocket-launch",
+          "weight": "5",
+          "answers": [
+            "We don't really have a plan. We just yell 'Your data is being used for marketing purposes!' as loud as we can whenever we see someone walking by our office.",
+            "We're still working on it. So far, we've got a draft email sitting in our drafts folder for a few weeks now.",
+            "We have a formal process in place for informing individuals about how their personal information is being managed, and it's followed consistently.",
+            "We not only have a formal process in place for informing individuals about how their personal information is being managed, but we also monitor and measure the effectiveness of the process.",
+            "Our organization not only has a formal process for informing individuals about how their personal information is being managed, but we continuously improve the process and measure its effectiveness against industry benchmarks."
+          ]
+        },
+        {
+          "title": "anon",
+          "description": "To what extent does your organization allow individuals to interact with it without disclosing their real identity?",
+          "icon": "money-bill",
+          "weight": "5",
+          "answers": [
+            "We'll take your information however you want to give it to us - pigeon carrier, smoke signal, you name it.",
+            "We're currently in the 'let's make up a fake name' stage of development.",
+            "We have a policy that allows individuals to interact with us anonymously, but it's not consistently enforced.",
+            "We have a well-defined policy that allows individuals to interact with us anonymously, and it's consistently enforced by our staff.",
+            "We not only have a policy that allows individuals to interact with us anonymously, but we actively encourage it. We're always looking for ways to improve our processes to make sure our customers can interact with us safely and securely."
+          ]
+        },
+        {
+          "title": "collection",
+          "description": "How does your organization determine the personal information that it collects and ensure that it is necessary for your functions or activities?",
+          "icon": "telescope",
+          "weight": "5",
+          "answers": [
+            "Well, we used to just collect everything we could get our hands on, but then we realized that wasn't very efficient. Now we have a strict 'one piece of personal information per person' policy. Just kidding, but seriously, we've developed a thorough process for identifying the information we need and ensuring it's relevant to our functions.",
+            "We don't just collect personal information willy-nilly like a kid in a candy store. We have a list of approved information types that we carefully consider before adding any new ones. It's like our own version of the periodic table of elements, but with less chemistry and more privacy.",
+            "We have a clear policy that outlines what personal information we need to collect for our functions and activities. We review and update this policy regularly to ensure that we're not collecting any unnecessary information. We're making progress!",
+            "We take our responsibility to protect personal information seriously. We have a rigorous process for determining what information we need to collect, and we only collect what is necessary for our functions and activities. We also regularly audit our processes to ensure that we're not collecting any unnecessary information.",
+            "We're always looking for ways to improve our privacy practices. We've implemented a cutting-edge system that automatically flags any personal information that we don't need to collect. We've also trained our staff to question whether they really need to collect certain information, and we reward them for finding ways to minimize the personal information we collect."
+          ]
+        },
+        {
+          "title": "dealing",
+          "description": "How does your organization handle personal information that is received without having been requested?",
+          "icon": "camera-cctv",
+          "weight": "5",
+          "answers": [
+            "Well, we used to just stick it in a drawer and forget about it, but now we have a process in place to ensure it's dealt with properly.",
+            "We treat it like an unexpected gift - we carefully unwrap it and decide whether we want to keep it or return it.",
+            "We have a well-established process for handling unsolicited personal information. Our team is trained to identify and quickly dispose of any information that we don't need. We also keep records of all unsolicited information received and our actions taken in response.",
+            "We not only have a robust process for handling unsolicited personal information, but we also have implemented measures to prevent it from coming in the first place. We regularly review and update our website and communication channels to minimize the risk of receiving unnecessary information.",
+            "We have an innovative approach to handling unsolicited personal information. We have built a system that automatically identifies and categorizes any such information received. We then analyze it to identify patterns and potential areas of improvement for our processes and communication channels."
+          ]
+        }
+      ],
+      "max": "48",
+      "min": "12"
+    },
+    "notification": {
+      "tab": "Notification",
+      "slug": "notification",
+      "title": "Your payments team",
+      "description": "What are the skills and approach of your payments team",
+      "questions": [
+        {
+          "title": "notification",
+          "description": "How does your organization notify individuals that their personal information has been collected?",
+          "icon": "paper-plane-top",
+          "weight": "5",
+          "answers": [
+            "We don't really notify anyone, we just cross our fingers and hope they don't find out!",
+            "We send an email blast to all our customers saying, 'Hey, we collected some personal information about you. Hope that's cool.'",
+            "We have a robust notification process that includes multiple touchpoints with individuals. We provide clear and concise information about the personal information we collect, why we need it, and how we use it.",
+            "We not only notify individuals when we collect their personal information, but we also provide them with regular updates on how we are using it. We believe in transparency and strive to build trust with our customers.",
+            "Our notification process is top-notch. We have developed personalized communications for each individual based on their preferences, so they receive the information in a way that is most convenient for them. We are committed to ensuring that individuals are fully informed about how we handle their personal information."
+          ]
+        },
+        {
+          "title": "disclosure",
+          "description": "How does your organization ensure that personal information is only used or disclosed for its intended purposes?",
+          "icon": "pencil",
+          "weight": "5",
+          "answers": [
+            "Well, we hope our employees read the policies and understand them, but honestly, it's hard to keep track of every little detail. We just trust them to do the right thing, most of the time.",
+            "We have a few processes in place to ensure that personal information is only accessed by authorized personnel, but we're still working on making sure everyone is on the same page. It's a work in progress, but we're getting there!",
+            "We have a thorough process for vetting any third-party organizations that we share personal information with, and we make sure to only use the information for the specific purposes that were agreed upon.",
+            "We have strict processes and controls in place to ensure that personal information is only used or disclosed for its intended purposes. We regularly review and audit these processes to ensure compliance.",
+            "We have a comprehensive set of policies and procedures in place, and we regularly review and update them to make sure that they're aligned with the latest privacy regulations. We also provide training to all employees to ensure that they understand the importance of privacy and how to protect personal information."
+          ]
+        },
+        {
+          "title": "marketing",
+          "description": "How does your organization ensure that it complies with laws relating to direct marketing when using personal information?",
+          "icon": "pencil",
+          "weight": "5",
+          "answers": [
+            "Laws? What laws? We just send out marketing emails to everyone and hope for the best.",
+            "We used to just blast everyone with our marketing messages, but then we realized that's not cool. Now we're much more targeted and strategic in our approach. Plus, we don't want to get fined. That would be a real buzzkill.",
+            "We comply with laws relating to direct marketing by including an unsubscribe link in every marketing email we send out. We also regularly clean our email list to remove inactive subscribers and update our records with any changes to contact details.",
+            "We not only comply with laws relating to direct marketing, but we also have a clear opt-in process for individuals to subscribe to our marketing communications. We regularly review and update our privacy policy to ensure it's in line with current regulations.",
+            "We have a comprehensive system in place to ensure we're complying with laws relating to direct marketing. We have a dedicated team that regularly reviews and updates our privacy policy, monitors changes to regulations, and ensures that all staff are trained in best privacy practices."
+          ]
+        }
+      ],
+      "max": "27",
+      "min": "9"
+    },
+    "cross-border": {
+      "tab": "Cross border",
+      "slug": "cross-border",
+      "title": "The owner of payments",
+      "description": "The key person responsible for the payments in your organisation",
+      "questions": [
+        {
+          "title": "disclosure",
+          "description": "How does your organization ensure that personal information is protected when it is disclosed to organizations in other countries?",
+          "icon": "pencil",
+          "weight": "5",
+          "answers": [
+            "We hope for the best and just cross our fingers. After all, isn't international intrigue what makes business exciting?",
+            "We have a team of experts who meticulously review the privacy laws of every country in the world and then play a game of rock-paper-scissors to decide which rules to follow.",
+            "We have a policy in place that requires us to only disclose personal information to organizations in other countries that have similar privacy standards to our own.",
+            "We use encryption and secure data transfer methods to protect personal information when it's disclosed to organizations in other countries. We also conduct regular privacy impact assessments and monitor compliance.",
+            "We not only comply with relevant privacy laws and regulations in other countries, but we also take a proactive approach to understand and comply with evolving privacy frameworks globally. We continuously assess and adjust our practices to ensure personal information is protected at all times."
+          ]
+        },
+        {
+          "title": "adoption",
+          "description": "How does your organization ensure that it only uses government-related identifiers when it is necessary for your functions or activities?",
+          "icon": "pencil",
+          "weight": "5",
+          "answers": [
+            "Well, we're not quite there yet. At this point, we just use whatever identifiers people give us. Passport numbers, driver's license numbers, you name it. It's like a free-for-all! Just kidding...kind of.",
+            "We've started to limit our use of government-related identifiers to only what is necessary for our functions and activities. Baby steps, right?",
+            "We have a policy in place and we take it seriously. We only use government-related identifiers when it's absolutely necessary for our functions or activities.",
+            "We not only have a policy, but we also train our employees on the importance of only using government-related identifiers when it's necessary. We have strict procedures in place to ensure compliance.",
+            "We not only have a policy, training, and procedures in place, but we also regularly review and audit our processes to ensure we are only using government-related identifiers when it's absolutely necessary. We take privacy very seriously and strive for best practices in all aspects of our operations."
+          ]
+        },
+        {
+          "title": "quality",
+          "description": "How does your organization ensure that the personal information it collects is accurate, up-to-date, and complete?",
+          "icon": "pencil",
+          "weight": "5",
+          "answers": [
+            "We make sure to double-check any information we receive with a coin toss. Heads, it's accurate; tails, it's not. We're still figuring this one out.",
+            "We have designated one of our interns to be in charge of fact-checking all personal information we collect. They have a pretty good memory, so we're confident everything is accurate.",
+            "We have established policies and procedures for updating and verifying personal information, and we regularly review and update these processes.",
+            "We use automated tools to regularly check and update personal information, and we have designated staff responsible for ensuring the accuracy of the data.",
+            "We conduct regular audits and quality assurance checks to ensure that our processes for collecting and maintaining personal information are accurate and efficient."
+          ]
+        }
+      ],
+      "max": "27",
+      "min": "9"
+    },
+    "security": {
+      "tab": "Security",
+      "slug": "security",
+      "title": "Technology and Metrics",
+      "description": "Development and technical execution, tracking performance",
+      "questions": [
+        {
+          "title": "security",
+          "description": "How does your organization ensure that personal information is protected from unauthorized access, use, disclosure, modification, or loss?",
+          "icon": "pencil",
+          "weight": "5",
+          "answers": [
+            "We rely on good karma to keep the personal information safe. Plus, our office is guarded by a mean-looking houseplant, so no one dares to mess with us!",
+            "We've invested in some antivirus software and occasionally remind our employees not to write down their passwords on sticky notes.",
+            "We have a comprehensive data security policy that outlines the measures we take to protect personal information, including encryption, access controls, and regular backups. We conduct regular security audits to identify any vulnerabilities and address them promptly.",
+            "We have a dedicated team responsible for managing data security, and we conduct regular risk assessments to identify potential threats. We use advanced security technologies, like multi-factor authentication and intrusion detection systems, to protect personal information.",
+            "We continuously monitor and improve our data security practices to stay ahead of evolving threats. We use the latest technologies and employ a range of strategies, like threat intelligence and security analytics, to proactively identify and mitigate risks. We also have a robust incident response plan in place to quickly respond to any security breaches."
+          ]
+        },
+        {
+          "title": "access",
+          "description": "How does your organization provide individuals with access to their personal information when requested?",
+          "icon": "pencil",
+          "weight": "5",
+          "answers": [
+            "We provide access to personal information upon request by playing a game of hide and seek with the data. If you find it, it's yours!",
+            "We've upgraded our system to include a search function so that you can access your personal information in just a few clicks. But be warned, it's like looking for a needle in a haystack.",
+            "We have an online portal where individuals can request access to their personal information. Our privacy officer reviews and verifies the requests before providing access. We aim to respond within 14 days of receiving the request.",
+            "We have a comprehensive privacy management system that includes a robust process for handling personal information requests. We provide individuals with secure access to their personal information through a self-service portal. Our system automatically validates and verifies the requests, and we respond within 7 days.",
+            "We have a state-of-the-art privacy management system that provides individuals with seamless access to their personal information through an AI-powered self-service portal. Our system ensures the accuracy and completeness of personal information and proactively identifies and resolves any issues. We respond to requests within 24 hours, and our system provides real-time updates on the progress of the request."
+          ]
+        },
+        {
+          "title": "correction",
+          "description": "How does your organization ensure that personal information is corrected when it is inaccurate, incomplete, or out-of-date?",
+          "icon": "pencil",
+          "weight": "5",
+          "answers": [
+            "We don't really have a system for that. We just hope that if there's a mistake, someone will let us know.",
+            "We have a form you can fill out to request a correction. It might take a while for us to get back to you, though.",
+            "We have regular processes in place to ensure personal information is accurate, complete, and up-to-date. We also have trained staff who are responsible for managing corrections to personal information.",
+            "We use automated systems to ensure that personal information is consistently accurate, complete, and up-to-date. We also have measures in place to regularly audit and monitor our records for inaccuracies.",
+            "We not only have automated systems in place to ensure the accuracy of personal information, but we also regularly conduct audits and engage in continuous improvement to ensure our processes remain effective and up-to-date."
+          ]
+        }
+      ],
+      "max": "27",
+      "min": "9"
+    }
   },
-  "owner": {
-    "tab": "Owner",
-    "slug": "owner",
-    "title": "The owner of payments",
-    "description": "The key person responsible for the payments in your organisation",
-    "questions": [
-      {
-        "title": "Who is the owner",
-        "description": "In your organisation, is there a clear owner of the payments process?",
-        "icon": "person",
-        "weight": "8",
+  "security": {
+    "organisation": {
+      "tab":	"Organisation",
+      "slug":	"organisation",
+      "title":	"Your current state",
+      "description":	"Tell us a bit about the current state of your payments process",
+      "questions": [
+        {
+        "title":	"Leadership",
+        "description":	"How does your organization ensure that a Chief Information Security Officer provides leadership and oversight of cyber security?",
+        "icon":	"rocket-launch",
+        "weight":	"5",
         "answers": [
-          "That's really weird - the Police had the same question",
-          "Not really - accounts keep on asking about this",
-          "There was someone, but they left a few years ago.",
-          "There is a clear owner",
-          "There is a clear owner, who is a senior person in the organisation. They are able to focus on payment related issues."
+          "What's a Chief Information Security Officer? Oh wait, is that the person who always complains about our passwords being too weak?",
+          "Well, we're trying to find someone who can fill that role. But we keep getting applications from people who think 'password' is a secure password.",
+          "We have a Chief Information Security Officer who is responsible for overseeing cyber security activities, and their role and responsibilities are clearly defined and documented.",
+          "We have a formal reporting structure for the Chief Information Security Officer, and their role is well-understood and integrated into our overall organizational structure.",
+          "We have a proactive approach to cyber security, with a Chief Information Security Officer who is a key member of our executive leadership team and actively involved in driving cyber security strategy and decision-making."
         ]
-      },
-      {
-        "title": "Responsibilities",
-        "description": "What does the payments process owner do?",
-        "icon": "circle-user",
-        "weight": "6",
+        },
+        {
+        "title":	"Systems",
+        "description":	"Can you provide examples of how the identity and value of systems, applications, and data are determined and documented in your organization?",
+        "icon":	"money-bill",
+        "weight":	"5",
         "answers": [
-          "Great question",
-          "That's actually something we're still trying to clarify",
-          "They are the person who everyone blames when something goes wrong. So they spend a lot of their time trying to avoid being blamed.",
-          "The owner works with the team to create goals and improve the process. They are on top of all performance metrics, and make final decision on product direction and design choices.",
-          "The owner develops a strategic plan to manage the ongoing development process. They work with other people in the organisation to incorporate feedback and share progress. They are the key decision maker in any development, but consult widely to make sure decisions are well considered and pragmatic."
+          "We just go with our gut feeling and name our systems after our favorite TV shows or characters. As for the value of our data, we estimate it based on the number of hours it would take to recreate it from scratch.",
+          "We use a highly advanced system called 'sticky notes' to document the identity and value of our systems, applications, and data. They're color-coded too, so it's easy to tell which ones are important.",
+          "We have a comprehensive inventory of our systems, applications, and data, and we've determined their value to the organization. This information is regularly reviewed and updated.",
+          "We not only have a complete inventory of our systems, applications, and data, but we also have a process in place to prioritize them based on their importance to the organization. We regularly review this process to ensure it's up to date.",
+          "We've fully integrated our inventory and prioritization process into our broader risk management framework. Our leadership team regularly reviews and approves the results, and we have an ongoing process to ensure this information stays up to date."
         ]
-      },
-      {
-        "title": "Authority",
-        "description": "What kind of authority does the payments owner have?",
-        "icon": "gears",
-        "weight": "6",
+        },
+        {
+        "title":	"Systems",
+        "description":	"How are the confidentiality, integrity, and availability requirements for systems, applications, and data determined and documented in your organization?",
+        "icon":	"telescope",
+        "weight":	"10",
         "answers": [
-          "It's more of an honorary position",
-          "If we knew who it was, then I'm sure we could then work out what they can do",
-          "They need to be able to influence other team leaders, because they don't have much authority to start or pay for any projects. Any decision they try to make typically gets over ruled by someone else anyway.",
-          "The payment owner controls IT systems that support the payment process and any projects that change the process. They have some influence over resource allocation and evaluations as well as the payment process budget.",
-          "The payment process owner controls the process’s budget and exerts strong influence over resource allocation and evaluations."
+          "We don't really determine the requirements for confidentiality, integrity, and availability. We just hope for the best and pray that nothing bad happens.",
+          "We rely on our employees to guess what the requirements are, and if they guess correctly, we document it in a sticky note.",
+          "We have a well-established process for determining the confidentiality, integrity, and availability requirements of our systems, applications, and data. We conduct regular risk assessments and document all identified threats and vulnerabilities. We also have well-defined policies and procedures for managing security risks and ensuring compliance with relevant regulations.",
+          "We not only have a comprehensive process for determining the confidentiality, integrity, and availability requirements of our systems, applications, and data, but we also continuously monitor and measure our compliance against these requirements. We regularly review and update our policies and procedures to reflect changes in the threat landscape and emerging cyber security risks.",
+          "We have a fully integrated and optimized process for determining the confidentiality, integrity, and availability requirements of our systems, applications, and data. We use advanced analytics and threat intelligence to proactively identify and mitigate potential risks. Our policies and procedures are continuously updated and refined to reflect best practices and industry standards. We also have a strong culture of cyber security awareness and education across the organization."
         ]
-      }
-    ],
-    "max": "35.99999999999999",
-    "min": "11.999999999999998"
-  },
-  "technology": {
-    "tab": "Technology",
-    "slug": "technology",
-    "title": "Technology and Metrics",
-    "description": "Development and technical execution, tracking performance",
-    "questions": [
-      {
-        "title": "Architecture",
-        "description": "Does your technical architecture follow any kind of standards or practices? What are they?",
-        "icon": "city",
-        "weight": "6",
+        },
+        {
+        "title":	"Frameworks",
+        "description":	"In what ways are security risk management processes embedded into your organization's risk management frameworks?",
+        "icon":	"camera-cctv",
+        "weight":	"10",
         "answers": [
-          "You might have heard of the term Reinventing the Wheel...",
-          "Our architecture is more of an informal By Mutual Agreement Between Developers style of system architecture.",
-          "Some patterns and formats used, but I think we'd be exagerating things a bit if we said there was any actual formal architecture or practices. We feel our own way and evolve over time.",
-          "We use frameworks and practices in conjunction with a formal SOAmethod and architectures. Our overall business information model is still evolving - still in it's infancy.",
-          "Service components are designed using formal methods, practices, and frameworks that promote the reuse of assets. Formal enterprise-wide business information services have been developed and deployed."
+          "What's a security risk management process? Oh, you mean that time we found a sticky note with a password written on it? Yeah, we stopped doing that.",
+          "We have a security team, but they're more like the A-Team. They only show up when things have already gone wrong.",
+          "Our security risk management process has been implemented and integrated into our organization's overall risk management framework. We regularly identify, assess, and prioritize security risks, and our Board of Directors receives regular reports on our security posture.",
+          "Our security risk management process is not only integrated into our overall risk management framework but also actively managed. We use automated tools and processes to continuously monitor and update our risk management plan. Our executives receive regular reports and metrics on our security risk posture and make data-driven decisions to mitigate risks.",
+          "We have optimized our security risk management process to maximize efficiency and effectiveness. Our approach is integrated with other management processes, and we use advanced data analytics and artificial intelligence to proactively identify potential risks. We continuously review and improve our risk management process to ensure we are always at the forefront of emerging threats."
         ]
-      },
-      {
-        "title": "Applications",
-        "description": "What does the internal application landscape look like in your organisation?",
-        "icon": "truck",
-        "weight": "6",
+        },
+        {
+        "title":	"Identification",
+        "description":	"What processes does your organization have in place to identify, document, manage, and accept security risks before and during the operational life of systems and applications?",
+        "icon":	"paper-plane-top",
+        "weight":	"4",
         "answers": [
-          "We haven't deployed for several years",
-          "We pride ourselves on keeping old IT systems and applications well past their sunset date. Since our organisation is a notoriously slow payer, none of our vendors are willing to come back to make updates, and we're too scared to update anything. Plus IT won't allow us to download anything anyway. Not since they found out about those torrent servers Brett in Marketing was running.",
-          "Lots of legacy IT, with some integration between different applications. But honestly most apps just run on their own little islands. When we say api integration, we actually mean sticking a CSV file onto a thumb drive and walking it over. We have plans to integrate our payment applications into the wider organisation, but no one has worked out how to unlock the firewall. So that's a non starter.",
-          "Integration between applications, which are made from functional components or services which are shared in the organisation. Separation at logical layers, with common translation layers used.",
-          "A highly modular architecture, which adheres to best practice around communication of data within the enterprise. Uses enterprise service bus style approach to transfer of data within the enterprise. Tight process around security and protecting sensitive data by best practice approach. Regular audits and performance tests."
+          "We have a 'hope for the best, prepare for the worst' approach. We identify potential security risks by closing our eyes and pointing randomly at a list of threats. We then document them by writing them down on sticky notes and placing them on our computer screens. If something bad happens, we accept it as fate.",
+          "We've upgraded from sticky notes to a spreadsheet that we keep on our shared drive. We even color-coded the risks based on severity, with red being 'the world is ending.' Our process for managing risks is to frantically try to fix them when they're pointed out to us by a colleague.",
+          "We have a formal process in place for identifying and managing security risks, but it's not always consistently followed. We use a risk register to document risks and track mitigation actions.",
+          "We have a well-defined process for risk management that's fully embedded in our organization's operations. We use a risk management framework that includes risk assessments, risk treatment plans, and ongoing monitoring and review.",
+          "Our security risk management processes are fully optimized, and we're always looking for ways to improve. We use advanced risk management techniques like scenario analysis and threat modeling to identify and mitigate risks, and we have a mature risk culture where risk management is everyone's responsibility."
         ]
-      },
-      {
-        "title": "Metrics",
-        "description": "How do you track, log and measure performance?",
-        "icon": "dumpster-fire",
-        "weight": "8",
+        }],
+    "max":	"102",
+    "min":	"20.4"
+    },
+    "systems": {
+      "tab":	"Systems",
+      "slug":	"systems",
+      "title":	"Your payments team",
+      "description":	"What are the skills and approach of your payments team",
+      "questions": [
+        {
+        "title":	"Design",
+        "description":	"Can you explain how your organization designs, deploys, maintains, and decommissions systems and applications according to their value and confidentiality, integrity, and availability requirements?",
+        "icon":	"pencil",
+        "weight":	"4",
         "answers": [
-          "Since no one could really answer all the questions we kept on getting asked about performance problems, we took a group decision to remove the metrics functionality. Now all our graphs look really good and no one asks questions.",
-          "We track which parts of our payments system aren't working by complaints coming in from customers on a whiteboard. The cleaner removes it every Friday so we can start over with a clean slate.",
-          "Someone has a spreadsheet, which we update before the end of each quarter. We track key payment related data points, and send this around to stakeholders in the organisation.",
-          "Our KPI and metric scoreboard is partially automated. It tracks both payment related and company metrics where they overlap and influence each other.",
-          "Our KPI and metrics scoreboard is fully automated and receives live data. It tracks all relevant payment metrics, as well as company wide ones where there is an intersection or influence. The metrics include application throughput and errors, as well as user behaviour, infrastructure and financial data points."
+          "Well, we used to just throw darts at a board to decide which systems to design and deploy, but we've since upgraded to a more sophisticated coin-flip method. As for maintenance, we have a strict 'out of sight, out of mind' policy, and decommissioning is usually just a matter of kicking the server until it stops working.",
+          "We design systems based on the latest memes, deploy them by throwing them out of the window and hoping for the best, maintain them by crossing our fingers, and decommission them by setting them on fire. What could go wrong?",
+          "We have a well-defined process for designing, deploying, and maintaining our systems and applications. We make sure to take into account their value and security requirements at every step of the way.",
+          "We have an automated system that helps us manage our systems and applications from start to finish. This system ensures that all of our security requirements are met before anything is deployed.",
+          "We have a highly sophisticated system for designing, deploying, maintaining, and decommissioning our systems and applications. Our system is constantly monitoring and adjusting for changes in security requirements to ensure that everything remains secure at all times."
         ]
-      },
-      {
-        "title": "Using metrics",
-        "description": "How are metrics used in your organisation?",
-        "icon": "megaphone",
-        "weight": "8",
+        },
+        {
+        "title":	"Delivery",
+        "description":	"How does your organization ensure that systems and applications are delivered and supported by trusted suppliers?",
+        "icon":	"pencil",
+        "weight":	"4",
         "answers": [
-          "Great question - no one has asked for it yet",
-          "I'm not sure management is aware. Or if they are, then maybe they are too scared to ask what the numbers mean. It's like a horror movie - if you look away, it isn't that scary.",
-          "Metrics are used to compare against benchmarks, as well as inform some business decisions. They are limited in scope, which limits how useful they are at the moment. If the data was more accurate and current, it may find more uses within the business.",
-          "Management team use these metrics as part of a team review or motivation. They are aware of any changes, and use them for day to day management of the payment process. Work to include targets and SLAs is being considered.",
-          "Management team use these metrics in reviews, as well as day to day management decisions. Targets and SLAs are designed and set regularly, and everyone is aware if we're not meeting them. Partner data is included in metrics."
+          "We don't really have a process for this, we just use our gut feeling. If the supplier seems trustworthy and gives us good vibes, we go for it. If not, we just move on to the next one. Hey, it's worked so far!",
+          "We ask for references, check online reviews, and do a quick background check on all potential suppliers. Plus, we have a 'trust-o-meter' in our office. If the needle moves too far to the 'untrustworthy' side, we move on to the next supplier.",
+          "We have a formal process for vetting and approving suppliers based on their security practices and track record. We also regularly review their compliance with our requirements.",
+          "We collect data on supplier performance and use it to evaluate their risk and identify areas for improvement. We also conduct regular audits and assessments to ensure ongoing compliance.",
+          "We have a rigorous program in place for assessing and managing supplier risk. We use advanced technologies and data analytics to continuously monitor and assess supplier performance, and we work closely with our suppliers to ensure they remain in compliance with our security standards."
         ]
-      }
-    ],
-    "max": "67.2",
-    "min": "16.8"
+        },
+        {
+        "title":	"Configuration",
+        "description":	"What steps does your organization take to configure systems and applications to reduce their attack surface?",
+        "icon":	"pencil",
+        "weight":	"6",
+        "answers": [
+          "Yeah, our approach to reducing the attack surface is basically 'cross your fingers and hope for the best.' It hasn't failed us yet!",
+          "We're taking baby steps towards better security configurations. It's like learning to walk, but with fewer skinned knees and more firewalls.",
+          "We have a set of security policies that all systems and applications must adhere to, and we regularly conduct vulnerability assessments and penetration testing to identify areas for improvement.",
+          "We use automation tools to continuously monitor and update the configurations of our systems and applications, and we have a team dedicated to analyzing and responding to any security threats.",
+          "We have a sophisticated system in place for continuously monitoring and adapting our security configurations, including leveraging machine learning and artificial intelligence to predict and prevent potential attacks."
+        ]
+        },
+        {
+        "title":	"Administration",
+        "description":	"How does your organization ensure that systems and applications are administered in a secure and accountable manner?",
+        "icon":	"pencil",
+        "weight":	"8",
+        "answers": [
+          "Well, we try to make sure that the admin password is not 'admin' and that no one shares it on a Post-it note. It's worked so far.",
+          "We have a policy that requires all admins to take a cybersecurity training course. It's only an hour long, but we think it's enough to scare them into being careful.",
+          "We have a well-defined role-based access control system in place, and all system administrators are granted only the access necessary to perform their job duties. We also implement two-factor authentication for privileged access, and all system administration activity is logged and regularly reviewed.",
+          "We have implemented advanced security analytics tools that monitor system administration activity in real-time, alerting us to any anomalous behavior. Additionally, all system administration activity is subject to continuous monitoring, and our incident response plans are regularly tested and updated.",
+          "We have implemented a DevSecOps approach to system administration, where security is integrated into every stage of the development and administration process. Our system administrators undergo regular security training, and our security processes are continually refined and improved based on data-driven insights and feedback from our security team."
+        ]
+        },
+        {
+        "title":	"Vulnerabilities",
+        "description":	"How does your organization identify and mitigate security vulnerabilities in systems and applications in a timely manner?",
+        "icon":	"pencil",
+        "weight":	"3",
+        "answers": [
+          "We have a team of highly-trained experts who tirelessly comb through our systems and applications searching for vulnerabilities. They're so good that they even found a way to hack into the coffee machine in the break room. Don't worry, we fixed it.",
+          "We've implemented a bug bounty program where we pay hackers to find vulnerabilities in our systems and applications. We figured it's cheaper than paying for a security consultant, plus the hackers get to keep the swag we send them. Win-win!",
+          "We have a comprehensive vulnerability management program that includes both automated scanning and manual testing, and we prioritize and remediate vulnerabilities based on risk.",
+          "We use a risk-based approach to vulnerability management, leveraging metrics to measure the effectiveness of our program and adjust our priorities as needed.",
+          "We have a continuous vulnerability management program that integrates with our overall security strategy, with real-time monitoring and automated response capabilities to address vulnerabilities as soon as they are detected."
+        ]
+        },
+        {
+        "title":	"Validation",
+        "description":	"What measures does your organization have in place to ensure that only trusted and supported operating systems, applications, and computer code can execute on systems?",
+        "icon":	"pencil",
+        "weight":	"8",
+        "answers": [
+          "Uh, we don't really have anything in place for that yet. We're still at the stage of hoping for the best and praying we don't get hacked. Is that bad?",
+          "We have a policy that requires all new software and applications to be approved by management before being installed. Of course, no one actually checks if the software is approved, but the policy is there!",
+          "In addition to our list of approved software, we use a software whitelisting solution to ensure that only trusted and supported operating systems, applications, and computer code can execute on our systems.",
+          "We have a comprehensive process for vetting and approving software before it can be used on our systems. We use automated tools to scan all software for vulnerabilities before it is approved.",
+          "We have implemented a zero-trust architecture, where all software is assumed to be untrusted until it is verified and approved. We use advanced threat detection and response tools to quickly identify and respond to any malicious activity."
+        ]
+        },
+        {
+        "title":	"Encryption",
+        "description":	"Can you explain how your organization encrypts data at rest and in transit between different systems?",
+        "icon":	"pencil",
+        "weight":	"6",
+        "answers": [
+          "Encryption? Oh, we're not quite there yet. We're still using Post-its to secure sensitive data.",
+          "We're working on it, but sometimes we forget to encrypt our own passwords. Oops!",
+          "We have a comprehensive encryption policy that covers both data at rest and in transit. All our systems are configured to use industry-standard encryption protocols.",
+          "We regularly monitor our systems to ensure that encryption is being used consistently and effectively. We also conduct periodic penetration testing to identify any vulnerabilities.",
+          "We've integrated our encryption processes into our broader security program, so it's not just a checkbox exercise. We're constantly evaluating new encryption technologies and refining our approach to stay ahead of emerging threats."
+        ]
+        },
+        {
+        "title":	"Communications",
+        "description":	"How does your organization ensure that data communicated between different systems is controlled and inspectable?",
+        "icon":	"pencil",
+        "weight":	"6",
+        "answers": [
+          "We don't just let our data roam free like wild animals. We keep it on a tight leash with secure communication protocols and monitoring tools. We can even see what it's saying behind our backs.",
+          "We have a 'trust but verify' policy. We trust that our systems are secure, but we also have a guy who stands behind the firewall and yells at anyone who looks suspicious.",
+          "We use more advanced tools, such as data loss prevention software, to monitor and control data communication between systems. We also have policies in place to ensure that sensitive data is not communicated outside of our network.",
+          "We have a dedicated team that constantly monitors our network for potential security threats. They use a combination of automated tools and manual inspections to ensure that data communication between systems is controlled and inspectable.",
+          "We have implemented a comprehensive data loss prevention program that includes advanced monitoring, inspection, and encryption technologies. We also conduct regular security audits and penetration testing to identify and address any vulnerabilities in our systems and processes."
+        ]
+        },
+        {
+        "title":	"Config backup",
+        "description":	"What processes does your organization have in place to back up data, applications, and configuration settings in a secure and proven manner on a regular basis?",
+        "icon":	"pencil",
+        "weight":	"6",
+        "answers": [
+          "Well, we have a guy who takes a backup tape home with him every night. Don't worry, he hasn't lost it yet!",
+          "We use a cloud-based backup service. But I'm not sure which one, let me check my notes. Oh, here it is... it's called 'Backup-y McBackupface'!",
+          "We have a formal process for backing up data and applications, and we test the backups regularly to make sure they're secure and reliable.",
+          "We not only have a formal process for backing up data and applications, but we also have automated tools to help us do it. We monitor the backups regularly and have a disaster recovery plan in place.",
+          "We don't just back up data and applications, we have a comprehensive data protection strategy that includes redundancy, encryption, and secure off-site storage. We continually review and optimize our data protection processes to ensure maximum security and availability."
+        ]
+        },
+        {
+        "title":	"Personnel",
+        "description":	"What steps does your organization take to ensure that only trusted and vetted personnel are granted access to systems, applications, and data repositories?",
+        "icon":	"pencil",
+        "weight":	"6",
+        "answers": [
+          "We rely on the honor system. We ask everyone nicely not to access anything they're not supposed to, and so far it's worked pretty well.",
+          "We ask potential employees if they're a 'good guy' or a 'bad guy' during their job interview. It's foolproof.",
+          "We have a comprehensive access control policy that outlines roles and responsibilities for granting access, and we use multi-factor authentication for all access requests. We also conduct background checks on all new employees and vendors before granting them access.",
+          "We use advanced identity and access management tools to automate the granting and revoking of user access privileges based on role and responsibility. We regularly monitor user activity to detect and respond to any unauthorized access attempts.",
+          "We have a robust identity and access management program that integrates with our HR systems to automatically grant and revoke access as employees join or leave the organization. We also have regular security awareness training for all employees and conduct regular security audits to identify and mitigate any potential risks."
+        ]
+        },
+        {
+        "title":	"Minimum access",
+        "description":	"How does your organization ensure that personnel are granted the minimum access to systems, applications, and data repositories required for their duties?",
+        "icon":	"pencil",
+        "weight":	"8",
+        "answers": [
+          "We're still working on that. Right now, everyone has access to everything. But on the bright side, we're building a strong sense of trust and camaraderie among our team.",
+          "We've created a spreadsheet that lists everyone's access levels, and we make sure to update it at least once a month. It's a bit of a headache, but it's better than nothing, right?",
+          "We have a defined access control policy that outlines the minimum access privileges required for each job function. Access requests are reviewed and approved by the data owner or their designee.",
+          "We regularly review user access rights to ensure they are still appropriate and necessary. We have also implemented user behavior monitoring to detect any unusual activity that could indicate a potential insider threat.",
+          "Our access control process is fully automated and integrated with our HR system, so access is automatically granted or revoked based on an employee's role, job function, and clearance level. We regularly conduct security awareness training for our personnel to ensure they understand their responsibilities for maintaining the confidentiality, integrity, and availability of our data."
+        ]
+        },
+        {
+        "title":	"MFA",
+        "description":	"What multiple methods does your organization use to identify and authenticate personnel to systems, applications, and data repositories?",
+        "icon":	"pencil",
+        "weight":	"8",
+        "answers": [
+          "We just use usernames and passwords, so if you forget your password, just write it on a sticky note and put it on your monitor for easy access!",
+          "We have implemented two-factor authentication, but sometimes we just let the office dog verify your identity by licking your face.",
+          "We use multi-factor authentication to identify and authenticate personnel when accessing systems or data repositories, and we've implemented a policy of least privilege to ensure that employees only have access to the data they need to do their jobs.",
+          "We have a variety of methods for identifying and authenticating personnel, including biometric authentication and smart cards. We also use a system of role-based access control to ensure that personnel only have access to the information they need to perform their specific job functions.",
+          "We use a combination of cutting-edge technologies and best practices to ensure that personnel are identified and authenticated in a secure and efficient manner. Our systems are constantly being updated and improved to stay ahead of emerging threats and to provide the best possible security for our data and systems."
+        ]
+        },
+        {
+        "title":	"Training",
+        "description":	"How does your organization provide ongoing cyber security awareness training to personnel?",
+        "icon":	"pencil",
+        "weight":	"",
+        "answers": [
+          "Well, we have a poster of a padlock on the wall in the break room, and we remind everyone not to share their passwords with anyone. Does that count?",
+          "We've upgraded to an online training module where personnel have to sit through a boring slideshow and answer some multiple-choice questions. It's like a game show, but without the prizes.",
+          "We have a dedicated training team that provides ongoing cyber security training to all employees. They use a variety of methods, such as classroom-style training, webinars, and simulated phishing exercises. We also have regular security awareness events and posters around the office.",
+          "Our training program is fully integrated into our overall security strategy. We use metrics and analytics to track employee engagement and knowledge retention. We also have a continuous improvement process in place to ensure that our training remains relevant and effective.",
+          "We take a proactive approach to cyber security training and aim to create a culture of security awareness throughout the organization. Our training program is personalized, interactive, and tailored to individual employee roles and responsibilities. We also provide incentives for employees who demonstrate exemplary security behavior and have a company-wide cyber security champion program."
+        ]
+        },
+        {
+        "title":	"Physical access",
+        "description":	"What measures does your organization have in place to restrict physical access to systems, supporting infrastructure, and facilities to authorized personnel only?",
+        "icon":	"pencil",
+        "weight":	"",
+        "answers": [
+          "We have a giant inflatable clown guarding the entrance to our facility. Nobody messes with Bingo the Clowno.",
+          "We've installed a state-of-the-art security system that includes guard dogs, laser beams, and a moat. Just kidding, we don't have a moat... yet.",
+          "In addition to physical locks and access control systems, we require all personnel to wear ID badges that grant them access to specific areas based on their roles and responsibilities. We also conduct regular security audits to ensure that all access is appropriate and authorized.",
+          "We have implemented biometric access controls that use fingerprint or facial recognition to verify the identity of authorized personnel. We also have 24/7 security monitoring and response teams that are trained to identify and respond to any suspicious activity.",
+          "We have implemented a multi-layered approach to physical security, including the use of advanced surveillance technologies, such as motion detection and intrusion detection systems. We also conduct regular penetration testing and vulnerability assessments to identify any weaknesses in our physical security measures and address them proactively."
+        ]
+        }],
+    "max":	"613.1999999999999",
+    "min":	"43.8"
+    },
+    "auditing": {
+      "tab":	"Auditing",
+      "slug":	"auditing",
+      "title":	"The owner of payments",
+      "description":	"The key person responsible for the payments in your organisation",
+      "questions": [
+        {
+        "title":	"Event logs",
+        "description":	"How does your organization collect and analyze event logs in a timely manner to detect cyber security events?",
+        "icon":	"pencil",
+        "weight":	"",
+        "answers": [
+          "We haven't really thought about that yet. We mostly rely on our IT guy's sixth sense to detect any weird activity.",
+          "We've installed some basic log collection tools and occasionally check them for anything suspicious. But we're pretty sure that most of the 'alerts' are just false positives from our boss's attempts to log into his account.",
+          "We have a clearly defined process in place for collecting and analyzing event logs, and we have a dedicated team to monitor activity and respond to any potential threats.",
+          "We collect and analyze event logs on a regular basis, using advanced tools and techniques to identify any suspicious activity. We also use metrics to track our performance in detecting and responding to cyber security events.",
+          "We use a combination of real-time monitoring, machine learning, and threat intelligence to identify potential cyber security threats before they occur. We also continuously improve our processes to stay ahead of evolving threats."
+        ]
+        },
+        {
+        "title":	"Auditing",
+        "description":	"What processes does your organization have in place to analyze cyber security events in a timely manner to identify cyber security incidents?",
+        "icon":	"pencil",
+        "weight":	"",
+        "answers": [
+          "We don't really have a process for this yet. We just wait until something breaks, and then we try to fix it. But don't worry, we're usually pretty good at putting out fires!",
+          "We have a small team of IT professionals who are responsible for monitoring our systems and applications for any unusual activity. They're like our very own cyber detectives, always on the lookout for any suspicious behaviour.",
+          "We have a formal incident response plan that includes processes for analysing cyber security events. Our team is trained in these processes and we regularly test them to ensure they are effective.",
+          "We use advanced analytics and machine learning tools to identify patterns in event logs and proactively detect potential cyber security incidents. We also regularly review our incident response processes and metrics to continuously improve our capabilities.",
+          "We have a dedicated cyber security operations centre (SOC) staffed with highly trained analysts and equipped with the latest threat intelligence tools. Our processes are fully automated and we continuously monitor and analyse event logs in real-time to identify and respond to cyber security incidents."
+        ]
+        }],
+    "max":	"0",
+    "min":	"0"
+    },
+    "incidents": {
+      "tab":	"Incidents",
+      "slug":	"incidents",
+      "title":	"Technology and Metrics",
+      "description":	"Development and technical execution, tracking performance",
+      "questions": [
+        {
+        "title":	"Incidents",
+        "description":	"How does your organization ensure that cyber security incidents are reported both internally and externally to relevant bodies in a timely manner?",
+        "icon":	"pencil",
+        "weight":	"",
+        "answers": [
+          "We're basically just hoping that any cyber security incidents will resolve themselves, like a bad case of indigestion after a questionable Bunnings hotdog.",
+          "We have a 'red phone' that only rings when there's a security incident. It's usually just the CEO's mother calling to check in, but we're ready if anything happens.",
+          "We have a formal incident management process that is well-defined and documented. Our incident response team includes representatives from different departments, and we have designated tools to collect and analyze incident data. We report major incidents to relevant external bodies as part of our regulatory requirements.",
+          "We have metrics in place to measure the effectiveness of our incident management process, including time to detect and time to respond to incidents. We have integrated threat intelligence feeds and automated incident response workflows. We report all significant incidents to relevant external bodies as part of our regulatory obligations.",
+          "We continuously review and improve our incident management process through regular table-top exercises, red teaming, and post-incident reviews. Our incident response is integrated with our overall risk management and business continuity processes. We have established strong relationships with external bodies, and we participate in industry-wide threat intelligence sharing initiatives."
+        ]
+        },
+        {
+        "title":	"Recovery",
+        "description":	"Can you explain how your organization contains, eradicates, and recovers from cyber security incidents in a timely manner?",
+        "icon":	"pencil",
+        "weight":	"",
+        "answers": [
+          "What does the Magic 8-ball say?",
+          "We've got a plan in place for cyber security incidents, but it's not exactly set in stone. It's more like a 'choose your own adventure' book.",
+          "Our incident response plan is not only well-defined, but we also have established procedures for implementing it. We regularly conduct simulations and exercises to test our response capabilities.",
+          "We not only have a robust incident response plan, but we also track incidents and their resolution to ensure we're continuously improving our response capabilities. We regularly review and update our plan based on lessons learned.",
+          "Our incident response capabilities are continuously improving based on data-driven insights and proactive measures. We have an established incident response team with dedicated roles and responsibilities, and we conduct regular threat hunting exercises to proactively detect and prevent cyber security incidents."
+        ]
+        },
+        {
+        "title":	"Continuity",
+        "description":	"What plans and processes does your organization have in place to enact business continuity and disaster recovery when required?",
+        "icon":	"pencil",
+        "weight":	"",
+        "answers": [
+          "Well, we have a few printed emergency contact lists and a flashlight in the IT closet. Does that count?",
+          "We've got a detailed plan to recover from any disaster, including floods, fires, and even a zombie apocalypse. Just don't ask us about cyber attacks yet.",
+          "We have documented plans and processes for both business continuity and disaster recovery, and we review and update them regularly. We also conduct regular tests to make sure everything works as intended.",
+          "We not only have documented plans and processes in place, but we also have dedicated personnel who are responsible for managing business continuity and disaster recovery. We conduct regular drills and exercises to ensure everyone is prepared for any potential cyber security incidents.",
+          "We have a comprehensive, integrated business continuity and disaster recovery program that's fully aligned with our overall cyber security strategy. We continually assess and refine our plans and processes based on lessons learned from previous incidents and emerging threats."
+        ]
+        }],
+    "max":	"0",
+    "min":	"0"
+    }
   }
 }

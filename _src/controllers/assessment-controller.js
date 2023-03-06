@@ -25,9 +25,10 @@ export class AssessmentController extends Controller {
   ];
 
   static values = {
-    basePath: "/online-payments/payment-maturity-assessment/",
-    colorHashes: {type: Array, default: ["dc697a", "fdc95b", "c2d7b1", "92defb", "9069f7"]},
-    sections: {type: Array, default: ["current", "your-team", "owner", "technology"]}
+    basePathPayment: "/online-payments/payment-maturity-assessment/",
+    basePathPrivacy: "/cybersecurity/privacy-maturity-assessment/",
+    basePathSecurity: "/cybersecurity/security-maturity-assessment/",
+    colorHashes: {type: Array, default: ["dc697a", "fdc95b", "c2d7b1", "92defb", "9069f7"]}
   }
 
   connect() {
@@ -62,9 +63,48 @@ export class AssessmentController extends Controller {
     return location.pathname === `${this.basePathValue}results`;
   }
 
+  get assessment() {
+    if (location.pathname.includes(this.basePathPaymentValue)) {
+      return this.assessmentData("payment", this.basePathPaymentValue, "current");
+    } else if (location.pathname.includes(this.basePathPrivacyValue)) {
+      return this.assessmentData("privacy", this.basePathPrivacyValue, "personal-information");
+    } else if (location.pathname.includes(this.basePathSecurityValue)) {
+      return this.assessmentData("security", this.basePathSecurityValue, "organisation");
+    }
+  }
+
   get answers() {
-    const answers = localStorage.getItem("answers");
+    const answers = localStorage.getItem(this.assessment.storageKey);
     return answers === 'null' || answers === null ? {} : JSON.parse(answers);
+  }
+
+  get isBasePath() {
+    return location.pathname === this.assessment.basePath;
+  }
+
+  get isSubmitPath() {
+    return location.pathname === `${this.assessment.basePath}submit`;
+  }
+
+  get isResultsPath() {
+    return location.pathname === `${this.assessment.basePath}results`;
+  }
+
+  get scoreRange() {
+    return Object.values(questions[this.assessment.slug]).map(q => ({ max: q.max, min: q.min }));
+  }
+
+  get sections() {
+    return Object.values(questions[this.assessment.slug]).map(q => q.slug);
+  }
+
+  assessmentData(type, path, section) {
+    return {
+      slug: type,
+      basePath: path,
+      storageKey: `${type}Answers`,
+      start: section
+    }
   }
 
   calculateOrRedirect() {
@@ -83,27 +123,19 @@ export class AssessmentController extends Controller {
       JSON.parse(decodeURIComponent(params.get('r')).replaceAll('&#34;', '"')) :
       this.answers;
 
-    const scoreRange = Object.keys(questions)
-      .reduce((accumulator, currentValue) => {
-        return accumulator.concat({
-          max: questions[currentValue]["max"],
-          min: questions[currentValue]["min"]
-        });
-      }, []);
-
     var scores = "";
     var colors = "";
 
     for (const [i, values] of Object.values(answers).entries()) {
-      const maxScore = scoreRange[i]["max"];
-      const minScore = scoreRange[i]["min"];
-      const range = maxScore - minScore;
+      const max = this.scoreRange[i]["max"];
+      const min = this.scoreRange[i]["min"];
+      const range = max - min;
       const scoreLevels = [
-        minScore,
-        minScore + range/5,
-        minScore + range/2,
-        maxScore - range/5,
-        maxScore
+        min,
+        min + range/5,
+        min + range/2,
+        max - range/5,
+        max
       ];
       // To calculate result: answer_number * (weight * weighting)
       const totalScore = values.reduce((accumulator, currentValue) => {
@@ -120,15 +152,15 @@ export class AssessmentController extends Controller {
         }
       }
 
-      if (location.pathname === `${this.basePathValue}submit`) {
-        scores += `${results[i]["results"][closest]["title"]},`;
+      if (location.pathname === `${this.assessment.basePath}submit`) {
+        scores += `${results[this.assessment.slug][i]["results"][closest]["title"]},`;
         colors += `${this.colorHashesValue[closest]},`;
       } else {
         this.setResult(i, closest);
       }
     }
 
-    if (location.pathname === `${this.basePathValue}submit`) {
+    if (location.pathname === `${this.assessment.basePath}submit`) {
       this.scoresInputTarget.value = scores.slice(0, -1);
       this.colorsInputTarget.value = colors.slice(0, -1);
     }
@@ -141,7 +173,7 @@ export class AssessmentController extends Controller {
   }
 
   clearAnswers() {
-    localStorage.removeItem("answers");
+    localStorage.removeItem(this.assessment.storageKey);
   }
 
   clearErrors() {
@@ -224,7 +256,7 @@ export class AssessmentController extends Controller {
   }
 
   navigateTo(href = '') {
-    location.href = `${this.basePathValue}${href}`;
+    location.href = `${this.assessment.basePath}${href}`;
   }
 
   submit() {
@@ -235,7 +267,6 @@ export class AssessmentController extends Controller {
 
     const formData = this.getFormData();
     const url = this.formTarget.action;
-    const self = this;
 
     // If a honeypot field is filled, assume it was done so by a spam bot.
     if (formData.honeypot) {
@@ -330,8 +361,8 @@ export class AssessmentController extends Controller {
     if (Object.entries(this.answers).length > 0) {
       const sections = Object.keys(this.answers);
 
-      for (const i in this.sectionsValue) {
-        const slug = this.sectionsValue[i];
+      for (const i in this.sections) {
+        const slug = this.sections[i];
 
         if (location.pathname.includes(slug) || !!sections.find(section => section === slug)) {
           this.sectionTargets[i].removeAttribute("disabled");
@@ -344,37 +375,30 @@ export class AssessmentController extends Controller {
   }
 
   setAnswer(data) {
-    // Data format: "section-slug,question-number,answer-number,answer-weight"
-    const answer = data.split(',');
-    var answers = this.answers;
+    const [sectionSlug, questionNumber, answerNumber, answerWeight] = data.split(",");
+    const answers = this.answers;
+    const questionAnswers = answers[sectionSlug] || [];
 
-    if (answers[answer[0]]) {
-      if (answers[answer[0]][answer[1] - 1]) {
-        answers[answer[0]][answer[1] - 1] = [parseInt(answer[2]), parseInt(answer[3])];
-      } else {
-        answers[answer[0]].push([parseInt(answer[2]), parseInt(answer[3])]);
-      }
-    } else {
-      answers[answer[0]] = [[parseInt(answer[2]), parseInt(answer[3])]];
-    }
+    questionAnswers[questionNumber - 1] = [parseInt(answerNumber), parseInt(answerWeight)];
+    answers[sectionSlug] = questionAnswers;
 
-    // Saved data format: {"sectionName": [["answerNumber", "answerWeightNumber"], ["answerNumber", "answerWeightNumber"]]}
-    // The answer positions in the setionName array correspond to the question number
-    localStorage.setItem("answers", JSON.stringify(answers));
+    // Saved data format: {"sectionName": [[answerNumber, answerWeightNumber], [...]]}
+    // The arrays in the setionName array are ordered by question number
+    localStorage.setItem(this.assessment.storageKey, JSON.stringify(answers));
   }
 
   setResult(sectionIndex, resultIndex) {
-    this.resultsTargets[sectionIndex].children[0].children[0].innerHTML =
-      `${results[sectionIndex]["title"]}<p class="d-sm-none"><b>Score :</b> ${results[sectionIndex]["results"][resultIndex]["title"]}</p>`;
-    this.resultsTargets[sectionIndex].children[1].children[0].innerHTML =
-      results[sectionIndex]["results"][resultIndex]["title"];
-    this.resultsTargets[sectionIndex].children[2].children[0].innerHTML =
-      results[sectionIndex]["results"][resultIndex]["description"];
+    const sectionElement = this.resultsTargets[sectionIndex];
+    const result = results[this.assessment.slug][sectionIndex]["results"][resultIndex];
+
+    sectionElement.children[0].children[0].innerHTML = `${results[this.assessment.slug][sectionIndex]["title"]}<p class="d-sm-none"><b>Score :</b> ${result["title"]}</p>`;
+    sectionElement.children[1].children[0].innerHTML = result["title"];
+    sectionElement.children[2].children[0].innerHTML = result["description"];
   }
 
   start() {
     this.clearAnswers();
-    location.href = `${this.basePathValue}current?q=1`;
+    location.href = `${this.assessment.basePath}${this.assessment.start}?q=1`;
   }
 
   validateEmail() {
