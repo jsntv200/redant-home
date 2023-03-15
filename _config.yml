@@ -46,3 +46,13 @@ exclude:
   - README.md
   - yarn.lock
   - yarn-error.log
+
+collections:
+  sections:
+    output: true
+  submissions:
+    output: true
+  results:
+    output: true
+  book_call:
+    output: true

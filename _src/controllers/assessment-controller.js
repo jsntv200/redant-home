@@ -47,12 +47,26 @@ export class AssessmentController extends Controller {
     }
   }
 
+  get assessment() {
+    let data = [];
+
+    if (location.pathname.includes(this.basePathPaymentValue)) {
+      data = ["payment", this.basePathPaymentValue, "current"];
+    } else if (location.pathname.includes(this.basePathPrivacyValue)) {
+      data = ["privacy", this.basePathPrivacyValue, "collection-and-use"];
+    } else if (location.pathname.includes(this.basePathSecurityValue)) {
+      data = ["security", this.basePathSecurityValue, "govern"];
+    }
+
+    return this.assessmentData(data);
+  }
+
   get isBasePath() {
     return location.pathname === this.basePathValue;
   }
 
   get isBookingPath() {
-    return location.pathname === `/online-payments/book-call/`;
+    return location.pathname.includes("book-call");
   }
 
   get isSubmitPath() {
@@ -63,17 +77,7 @@ export class AssessmentController extends Controller {
     return location.pathname === `${this.basePathValue}results`;
   }
 
-  get assessment() {
-    if (location.pathname.includes(this.basePathPaymentValue)) {
-      return this.assessmentData("payment", this.basePathPaymentValue, "current");
-    } else if (location.pathname.includes(this.basePathPrivacyValue)) {
-      return this.assessmentData("privacy", this.basePathPrivacyValue, "personal-information");
-    } else if (location.pathname.includes(this.basePathSecurityValue)) {
-      return this.assessmentData("security", this.basePathSecurityValue, "organisation");
-    }
-  }
-
-  get answers() {
+  get storedAnswers() {
     const answers = localStorage.getItem(this.assessment.storageKey);
     return answers === 'null' || answers === null ? {} : JSON.parse(answers);
   }
@@ -98,7 +102,7 @@ export class AssessmentController extends Controller {
     return Object.values(questions[this.assessment.slug]).map(q => q.slug);
   }
 
-  assessmentData(type, path, section) {
+  assessmentData([type, path, section]) {
     return {
       slug: type,
       basePath: path,
@@ -108,8 +112,8 @@ export class AssessmentController extends Controller {
   }
 
   calculateOrRedirect() {
-    if (Object.entries(this.answers).length > 0) {
-      this.answersInputTarget.value = JSON.stringify(this.answers);
+    if (Object.entries(this.storedAnswers).length > 0) {
+      this.answersInputTarget.value = JSON.stringify(this.storedAnswers);
       this.calculate();
     } else {
       this.navigateTo();
@@ -121,7 +125,7 @@ export class AssessmentController extends Controller {
     const weighting = 0.6;
     const answers = params.has('r') ?
       JSON.parse(decodeURIComponent(params.get('r')).replaceAll('&#34;', '"')) :
-      this.answers;
+      this.storedAnswers;
 
     var scores = "";
     var colors = "";
@@ -167,7 +171,7 @@ export class AssessmentController extends Controller {
   }
 
   checkIncomplete() {
-    if (Object.entries(this.answers).length > 0) {
+    if (Object.entries(this.storedAnswers).length > 0) {
       this.resumeTarget.classList.toggle("d-none");
     }
   }
@@ -301,9 +305,9 @@ export class AssessmentController extends Controller {
   }
 
   resume() {
-    if (Object.entries(this.answers).length > 0) {
-      const section = Object.keys(this.answers)[Object.keys(this.answers).length - 1];
-      const question = this.answers[section].length;
+    if (Object.entries(this.storedAnswers).length > 0) {
+      const section = Object.keys(this.storedAnswers)[Object.keys(this.storedAnswers).length - 1];
+      const question = this.storedAnswers[section].length;
       location.href += `/${section}?q=${question}`;
     }
   }
@@ -319,14 +323,14 @@ export class AssessmentController extends Controller {
   setActiveAnswer() {
     const section = location.pathname.split('/').reverse()[0];
 
-    if (Object.entries(this.answers).length === 0) return;
+    if (Object.entries(this.storedAnswers).length === 0) return;
 
     for (const i in this.answerTargets) {
       const target = this.answerTargets[i];
 
-      if (!this.answers[section] || !this.answers[section][i]) return;
+      if (!this.storedAnswers[section] || !this.storedAnswers[section][i]) return;
 
-      const oldAnswer = this.answers[section][i][0];
+      const oldAnswer = this.storedAnswers[section][i][0];
 
       if (!target || !oldAnswer) return;
 
@@ -348,7 +352,7 @@ export class AssessmentController extends Controller {
     this.questionSliderTarget.scrollLeft = this.questionTargets[index].offsetLeft - this.questionSliderTarget.offsetLeft;
 
     for (const i in this.questionTargets) {
-      const hasAnswer = !!this.answers[section] && !!this.answers[section][i];
+      const hasAnswer = this.storedAnswers?.[section]?.[i] ?? false;
 
       if (!hasAnswer && i > index) {
         this.questionTargets[i].setAttribute("disabled", true);
@@ -358,8 +362,8 @@ export class AssessmentController extends Controller {
   }
 
   setActiveSections() {
-    if (Object.entries(this.answers).length > 0) {
-      const sections = Object.keys(this.answers);
+    if (Object.entries(this.storedAnswers).length > 0) {
+      const sections = Object.keys(this.storedAnswers);
 
       for (const i in this.sections) {
         const slug = this.sections[i];
@@ -370,13 +374,21 @@ export class AssessmentController extends Controller {
 
           this.sectionSliderTarget.scrollLeft = this.sectionTargets[i].offsetLeft - this.sectionSliderTarget.offsetLeft;
         }
+
+        if (location.pathname.includes(slug)) {
+          this.sectionTargets[i].classList.add("border-black");
+        }
       }
+    } else {
+      this.sectionTargets[0].removeAttribute("disabled");
+      this.sectionTargets[0].classList.remove("opacity-25");
+      this.sectionTargets[0].classList.add("border-black");
     }
   }
 
   setAnswer(data) {
     const [sectionSlug, questionNumber, answerNumber, answerWeight] = data.split(",");
-    const answers = this.answers;
+    const answers = this.storedAnswers;
     const questionAnswers = answers[sectionSlug] || [];
 
     questionAnswers[questionNumber - 1] = [parseInt(answerNumber), parseInt(answerWeight)];

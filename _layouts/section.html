@@ -1,0 +1,22 @@
+---
+layout: assessment
+---
+
+<div>
+  {% include assessment/header.html %}
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card shadow rounded-4">
+            <div class="card-header bg-transparent ps-4 ps-sm-5 py-0 d-flex">
+              {% include assessment/sections.html sections = page.sections %}
+            </div>
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

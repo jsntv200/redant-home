@@ -1,10 +1,7 @@
 ---
 layout: assessment
-permalink: /online-payments/book-call/
-title: Payment maturity assessment
-description: Payment maturity assessment
-class: assessment
 ---
+
 <div>
   <div class="container py-4">
     <div class="d-flex">
@@ -23,19 +20,17 @@ class: assessment
           <div class="card shadow rounded-4">
             <div class="card-body p-2 p-sm-5 position-relative">
               <div data-assessment-target="isMobile" class="d-block d-sm-none"></div>
-              <!-- Google Calendar Appointment Scheduling begin -->
-              <iframe 
+              <iframe
                 data-assessment-target="bookingIframe"
-                src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2pI9U0sUw6yAVCoDr2UK7EXjotdvisU7Hqo6mYmKH26sbfMwcKJb-URDnKJkWdO3JVeb0qNQnD?gv=true" 
+                src="{{page.iframe_src}}"
                 class="border-0 overflow-visible"
                 width="100%"
                 height="100%"
                 frameborder="0"></iframe>
-              <!-- end Google Calendar Appointment Scheduling -->
             </div>
           </div>
         </div>
-      </div>    
+      </div>
     </div>
   </section>
 </div>
