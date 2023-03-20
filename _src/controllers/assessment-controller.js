@@ -10,9 +10,11 @@ export class AssessmentController extends Controller {
     "bookingIframe",
     "colorsInput",
     "emailInput",
+    "fill",
     "form",
     "invalidEmail",
     "isMobile",
+    "name",
     "question",
     "questionSlider",
     "response",
@@ -26,7 +28,7 @@ export class AssessmentController extends Controller {
 
   static values = {
     basePathPayment: "/online-payments/payment-maturity-assessment/",
-    basePathPrivacy: "/cybersecurity/privacy-maturity-assessment/",
+    basePathPrivacy: "/privacy/privacy-maturity-assessment/",
     basePathSecurity: "/cybersecurity/security-maturity-assessment/",
     colorHashes: {type: Array, default: ["dc697a", "fdc95b", "c2d7b1", "92defb", "9069f7"]}
   }
@@ -44,6 +46,7 @@ export class AssessmentController extends Controller {
       this.setActiveSections();
       this.setActiveQuestions();
       this.setActiveAnswer();
+      this.setProgress();
     }
   }
 
@@ -102,6 +105,11 @@ export class AssessmentController extends Controller {
     return Object.values(questions[this.assessment.slug]).map(q => q.slug);
   }
 
+  get totalQuestions() {
+    const object = Object.values(questions[this.assessment.slug]);
+    return object.reduce((accumulator, current) => accumulator + current.questions.length, 0);
+  }
+
   assessmentData([type, path, section]) {
     return {
       slug: type,
@@ -126,6 +134,10 @@ export class AssessmentController extends Controller {
     const answers = params.has('r') ?
       JSON.parse(decodeURIComponent(params.get('r')).replaceAll('&#34;', '"')) :
       this.storedAnswers;
+
+    if (params.has('name')) {
+      this.nameTarget.innerHTML = `${decodeURIComponent(params.get('name'))}: `;
+    }
 
     var scores = "";
     var colors = "";
@@ -397,6 +409,13 @@ export class AssessmentController extends Controller {
     // Saved data format: {"sectionName": [[answerNumber, answerWeightNumber], [...]]}
     // The arrays in the setionName array are ordered by question number
     localStorage.setItem(this.assessment.storageKey, JSON.stringify(answers));
+  }
+
+  setProgress() {
+    const currentQuestionInTotal = 50;
+    const percentage = (currentQuestionInTotal / this.totalQuestions) * 100;
+
+    // this.fillTarget.style.width = `${percentage}%`;
   }
 
   setResult(sectionIndex, resultIndex) {

@@ -1,9 +1,9 @@
 ---
 layout: results
-permalink: /cybersecurity/privacy-maturity-assessment/results
+permalink: /privacy/privacy-maturity-assessment/results
 type: "privacy"
-area: "cybersecurity"
-class: "assessment"
+area: "privacy"
+class: "assessment assessment-results"
 start-section: "collection-and-use"
 sitemap: false
 ---

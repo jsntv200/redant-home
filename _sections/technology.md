@@ -4,6 +4,7 @@ permalink: /online-payments/payment-maturity-assessment/technology
 class: assessment
 sitemap: false
 sections: ["current", "your-team", "owner", "technology"]
+area: "online-payments"
 ---
 
 <div class="card-body pb-0 pt-5 bg-blue-100 px-4 px-sm-5">

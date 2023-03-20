@@ -1,9 +1,10 @@
 ---
 layout: section
-permalink: /cybersecurity/privacy-maturity-assessment/protection
+permalink: /privacy/privacy-maturity-assessment/protection
 class: assessment
 sitemap: false
 sections: ["collection-and-use", "protection", "disclosure", "access-and-correction"]
+area: "privacy"
 ---
 
 <div class="card-body pb-0 pt-5 bg-blue-100 px-4 px-sm-5">

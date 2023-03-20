@@ -3,7 +3,7 @@ layout: assessment
 ---
 
 <div>
-  {% include assessment/header.html %}
+  {% include assessment/header.html area = page.area %}
   <section>
     <div class="container">
       <div class="row">
@@ -12,7 +12,7 @@ layout: assessment
             <div class="card-body py-5 px-3 p-md-5">
               <div class="d-flex justify-content-between pb-4 align-items-center">
                 <h2 class="card-title mb-0">
-                  Your {{ page.type | capitalize }} Maturity Assessment
+                  <span data-assessment-target="name"></span>{{ page.type | capitalize }} Maturity Assessment
                 </h2>
 
                 <button
@@ -25,9 +25,11 @@ layout: assessment
               <p class="card-text d-print-none">
                 Based on your answers, here are our ratings for your organisation in the four key areas. If you think you might have misread a question, don't worry you can always <a href="/{{ page.area }}/{{ page.type }}-maturity-assessment/{{ page.start-section }}?q=1" class="text-purple">run through the questions again here</a>.
               </p>
-              <p class="card-text pb-4 d-print-none">
-                If you'd like to discuss these results in a bit more detail with a payments technical specialist, please <a href="/{{ page.area }}/book-call/" class="text-purple">click here</a>.
-              </p>
+              <a
+                href="/{{ page.area }}/book-call/"
+                class="btn btn-purple rounded-pill d-print-none mb-4">
+                Book a call to discuss your results with a payments specialist
+              </a>
 
               <table
                 class="table table-borderless boder-light rounded-4 results-table bg-white rounded-3 h-100">

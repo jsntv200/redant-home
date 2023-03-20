@@ -3,7 +3,7 @@ layout: assessment
 ---
 
 <div>
-  {% include assessment/header.html %}
+  {% include assessment/header.html area = page.type %}
   <section>
     <div class="container">
       <div class="row">
@@ -105,7 +105,7 @@ layout: assessment
                 </p>
 
                 <a
-                  href="/online-payments/"
+                  href="{{ page.root_url }}"
                   class="btn btn-purple rounded-pill mt-3">
                   Go to {{ page.type }} Blog
                 </a>

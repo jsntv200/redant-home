@@ -38,6 +38,51 @@
       display: none;
     }
   }
+
+  // .progress-bar {
+  //   width: 100%;
+  //   height: 3px;
+  //   overflow: hidden;
+  // }
+
+  // .fill {
+  //   background: linear-gradient(130deg,$purple-300,$purple-300 41.07%,$magenta 76.05%);
+  //   height: 100%;
+  //   width: 0%;
+  //   transition: width 0.5s ease-in-out;
+  // }
+
+  @media only screen and (orientation:portrait) and (max-device-width: 576px) {
+    height: 100vw;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 9999;
+  }
+
+  @media only screen and (orientation:landscape) {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  // @include media-breakpoint-down(sm) {
+  //   transform: rotate(90deg);
+  //   // transform-origin: top left;
+  //   width: 100vh;
+  //   height: 100vw;
+  //   // overflow-x: hidden;
+  //   // position: absolute;
+  //   top: 100%;
+  //   left: 0;
+  // }
 }
 
 .results-table {
@@ -48,28 +93,28 @@
         background-color: #20b5e3;
         background-image:
           linear-gradient(
-            to right, 
+            to right,
             #20b5e3, #1086db
           );
       }
-  
+
       &:first-of-type {
         span {
           background-color: #16cbe1;
           background-image:
             linear-gradient(
-              to right, 
+              to right,
               #16cbe1, #20b5e3
             );
         }
       }
-  
+
       &:last-of-type {
         span {
           background-color: #1086db;
           background-image:
             linear-gradient(
-              to right, 
+              to right,
               #1086db, #1959e6
             );
         }
@@ -84,22 +129,28 @@
     margin: 0;
   }
 
-  .card-body {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
+  .assessment {
+    .card-body {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
 
-  .results-table {
-    thead {
-      th {
-        span {
-          background-color: #1086db;
+    .container {
+      max-width: 700px !important;
+    }
+
+    .results-table {
+      thead {
+        th {
+          span {
+            background-color: #1086db;
+          }
         }
       }
     }
-  }
 
-  .shadow {
-    box-shadow: none !important;
+    .shadow {
+      box-shadow: none !important;
+    }
   }
 }

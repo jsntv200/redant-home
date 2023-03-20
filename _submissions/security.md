@@ -5,5 +5,5 @@ class: assessment
 sitemap: false
 script: "https://script.google.com/macros/s/AKfycbxXy1HVs2b5YVHZYt1MYC3GCnTGRBJzITjOgx3ByeF3LOLpiPs3X-oZk0GAF9XrtM_l/exec"
 type: "Security"
-root-url: "/cybersecurity/"
+root_url: "/cybersecurity/"
 ---
