@@ -2,7 +2,8 @@
 layout: job
 slug: designer-of-awesomeness
 title: Designer of Awesomeness
-description: We’re looking for a super special designer to join our team, and work
+description: >-
+  We're looking for a super special designer to join our team, and work
   alongside Rails developers, front end developers, producers and content
   people.
 published: false
@@ -40,6 +41,6 @@ Some of the sites you’ll be working on are [12wbt.com](http://12wbt.com/tour "
 
 ## Interested?
 
-If you’re interested in this position, please don’t send in a Word doc CV. Just shoot an email to [sarah@redant.com.au](mailto:sarah@redant.com.au "sarah@redant.com.au") with an outline of the kind of mad skills you have and some links to stuff that you’ve worked on.
+If you’re interested in this position, please don’t send in a Word doc CV. Just shoot an email to [sarah@redant.com.au](mailto\:sarah@redant.com.au "sarah@redant.com.au") with an outline of the kind of mad skills you have and some links to stuff that you’ve worked on.
 
 And please – no recruiters!

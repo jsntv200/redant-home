@@ -10,7 +10,7 @@ client: 12WBT
 project_date: "2015"
 technologies:
   - Brightcove
-team_size:
+team_size: ""
 lines_of_code: ""
 images:
   - type: gallery

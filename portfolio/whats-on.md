@@ -11,7 +11,7 @@ project_date: '2013'
 technologies:
   - Ruby on Rails
   - MySQL
-team_size:
+team_size: ''
 lines_of_code: ''
 images:
   - type: gallery

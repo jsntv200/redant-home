@@ -10,7 +10,8 @@ class: digital-product-development
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h1 class="mb-4">Digital Product
+        <h1 class="mb-4">
+          Digital Product
           <span class="d-block text-red-dark">Development</span>
           <span class="d-block text-red">Workshop</span>
         </h1>
@@ -24,10 +25,7 @@ class: digital-product-development
         </p>
       </div>
       <div class="col-sm-6 d-flex justify-content-center align-items-center">
-        <img
-          class="img-responsive"
-          src="/assets/images/illustration-services-2.png"
-        />
+        <img class="img-responsive" src="/assets/images/illustration-services-2.png" />
       </div>
     </div>
   </div>
@@ -216,7 +214,6 @@ class: digital-product-development
     </div>
   </div>
 </section>
-
 
 <section id="faqs" data-ga-trigger="visibility" class="faqs default-padding">
   <div class="container ">
