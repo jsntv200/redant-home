@@ -37,6 +37,6 @@ Some of the sites we work on are:
 ### Interested?
 
 If you’re interested in this position, here is where we work out if you've actually read down this far and you are in fact human, consider yourself somewhat qualified, and speak English. Oh, and can read. Please don't send in a big Word doc CV. All that indicates is you haven't read this bit and you're probably sending that to every job ad you can find.
-OK, so we've established that you've read this far. Send [sarah@redant.com.au](mailto:sarah@redant.com.au "sarah@redant.com.au") a short email, explaining a bit about you and why you'd be a great fit. If you could include your Linkedin profile, show us your off the chart Excel skills, analytical mind and anything else that is relevant that would just be the cherry on the cupcake.
+OK, so we've established that you've read this far. Send [sarah@redant.com.au](mailto\:sarah@redant.com.au "sarah@redant.com.au") a short email, explaining a bit about you and why you'd be a great fit. If you could include your Linkedin profile, show us your off the chart Excel skills, analytical mind and anything else that is relevant that would just be the cherry on the cupcake.
 
 Finally, please no recruiters.

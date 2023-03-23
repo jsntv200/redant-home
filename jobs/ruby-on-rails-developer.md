@@ -1,9 +1,9 @@
 ---
 layout: job
 slug: ruby-on-rails-developer
-title: 'Hey Ruby Developer Yes You'
+title: Hey Ruby Developer Yes You
 description: Senior Ruby Developer
-image_small: "/assets/uploads/2014/bike.jpg"
+image_small: /assets/uploads/2014/bike.jpg
 published: false
 ---
 
@@ -64,7 +64,7 @@ Really well. Probably much better than where you are right now, but not as much 
 
 ## Interested?
 
-If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto:jobs@redant.com.au "Sarah") with an outline of the kind of projects you’ve worked on, and some insight into who you are.
+If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto\:jobs@redant.com.au "Sarah") with an outline of the kind of projects you’ve worked on, and some insight into who you are.
 
 And please – no recruiters! You guys probably don't read down this far before calling up, but really we aren't interested. If you really do have all these incredible candidates, there is this thing called the Internet that they can use to find some great cat pictures as well as this job.
 

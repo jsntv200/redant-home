@@ -2,7 +2,7 @@
 layout: job
 slug: project-manager
 title: Digital Project Manager
-image_small: "/assets/uploads/2014/skater.gif"
+image_small: /assets/uploads/2014/skater.gif
 published: false
 ---
 
@@ -46,7 +46,7 @@ This is a full time position. We’ve been around for over 18 years, and expect 
 
 ## Interested?
 
-If you’re interested, please send Sarah ([email](mailto:jobs@redant.com.au "email")) a short email with an outline of your experience and the size and type of projects you’ve worked on. Rather than a big attachment, we’d love to find out more about you and what you’re keen on. See what I did there? If you send in a big attachment it probably means you didn’t read down this far. Or you have a problem with detail. To be honest that combination probably isn’t a great fit for this position.
+If you’re interested, please send Sarah ([email](mailto\:jobs@redant.com.au "email")) a short email with an outline of your experience and the size and type of projects you’ve worked on. Rather than a big attachment, we’d love to find out more about you and what you’re keen on. See what I did there? If you send in a big attachment it probably means you didn’t read down this far. Or you have a problem with detail. To be honest that combination probably isn’t a great fit for this position.
 
 So what do we want to hear about? Probably don’t mention your Brony thing, but you might run a recipe blog or have mad drone skills - that kind of thing.
 
