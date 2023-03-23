@@ -16,7 +16,7 @@ technologies:
   - PostgreSQL
   - WAVE visually impaired testing tool as part of CI build chain
 project_date: 2015-17
-team_size:
+team_size: ""
 lines_of_code: ""
 images:
   - type: gallery

@@ -15,7 +15,7 @@ technologies:
   - Amazon Web Services (AWS)
   - Stripe Payments
   - Jira
-team_size:
+team_size: ''
 lines_of_code: ''
 images:
   - type: gallery
