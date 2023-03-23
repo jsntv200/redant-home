@@ -8,7 +8,7 @@ published: false
 
 ## Who we’re looking for - a Digital Business Analyst
 
-Hello... We’re looking for an experienced analyst to help us manage our projects. You might have gone by a few different titles - a business analyst, digital producer, project manager, or technical analyst. No matter what your title was, people regard you as “good”. You’re the person people trust to figure out the right questions to ask and actually understands things. You get stuff done.
+We’re looking for an experienced analyst to help us manage our projects. You might have gone by a few different titles - a business analyst, digital producer, project manager, or technical analyst. No matter what your title was, people regard you as “good”. You’re the person people trust to figure out the right questions to ask and actually understands things. You get stuff done.
 
 Here’s where we are at:
 
