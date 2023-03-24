@@ -56,31 +56,31 @@ Also we need to consider the actual content of the image. Usually the images use
 This gives us a matrix of 9 different scenarios (well 8 actually, because 2 of them are effectively the same). We can determine our file naming for the tests from the matrix. It looks like this:
 
 <table class="table table-bordered matrix">
-<tbody>
-<tr>
-<td></td>
-<td>File content always the same</td>
-<td>File content different between emails</td>
-<td>File content always different</td>
-</tr>
-<tr>
-<td>Filename always the same</td>
-<td class="active text-center" colspan="2">same.png</td>
-<td class="active text-center">different-always.png</td>
-</tr>
-<tr>
-<td>Filename always the same, querystring unique between emails</td>
-<td class="active text-center">same.png?r=12345</td>
-<td class="active text-center">different.png?r=12345</td>
-<td class="active text-center">different.png?r=12345&a=1</td>
-</tr>
-<tr>
-<td>Filename always unique between emails</td>
-<td class="active text-center">same-12345.png</td>
-<td class="active text-center">different-12345.png</td>
-<td class="active text-center">different-always-12345.png</td>
-</tr>
-</tbody>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>File content always the same</td>
+      <td>File content different between emails</td>
+      <td>File content always different</td>
+    </tr>
+    <tr>
+      <td>Filename always the same</td>
+      <td class="active text-center" colspan="2">same.png</td>
+      <td class="active text-center">different-always.png</td>
+    </tr>
+    <tr>
+      <td>Filename always the same, querystring unique between emails</td>
+      <td class="active text-center">same.png?r=12345</td>
+      <td class="active text-center">different.png?r=12345</td>
+      <td class="active text-center">different.png?r=12345&a=1</td>
+    </tr>
+    <tr>
+      <td>Filename always unique between emails</td>
+      <td class="active text-center">same-12345.png</td>
+      <td class="active text-center">different-12345.png</td>
+      <td class="active text-center">different-always-12345.png</td>
+    </tr>
+  </tbody>
 </table>
 
 To generate the files which need to be generated is reasonably simple, I created a short script which created a 3 by 3 grid of random colour squares. Depending on the request, the colours would either always be the same, always be the same based on a token that is unique for each email, or always be different regardless of the unique token.
@@ -88,31 +88,47 @@ To generate the files which need to be generated is reasonably simple, I created
 The result looks a bit like this:
 
 <table class="table table-bordered matrix">
-<tbody>
-<tr>
-<td></td>
-<td>File content always the same</td>
-<td>File content different between emails</td>
-<td>File content always different</td>
-</tr>
-<tr>
-<td>Filename always the same</td>
-<td class="active text-center" colspan="2"><img class="alignnone size-full wp-image-743" alt="same.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
-<td class="active text-center"><img class="alignnone size-full wp-image-739" alt="different-always.png" src="/assets/uploads/2013/gmail-different-always-1.png" width="30" height="30"></td>
-</tr>
-<tr>
-<td>Filename always the same, querystring unique between emails</td>
-<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same.png?12345" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
-<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345" src="/assets/uploads/2013/gmail-different.png" width="30" height="30"></td>
-<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different.png?r=12345&a=1" src="/assets/uploads/2013/gmail-different-always-2.png" width="30" height="30"></td>
-</tr>
-<tr>
-<td>Filename always unique between emails</td>
-<td class="active text-center"><img class="alignnone size-full wp-image-743" alt="same-12345.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30"></td>
-<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-12345.png" src="/assets/uploads/2013/gmail-different.png" width="30" height="30"></td>
-<td class="active text-center"><img class="alignnone size-full wp-image-742" alt="different-always-12345.png" src="/assets/uploads/2013/gmail-different-always-3.png" width="30" height="30"></td>
-</tr>
-</tbody>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>File content always the same</td>
+      <td>File content different between emails</td>
+      <td>File content always different</td>
+    </tr>
+    <tr>
+      <td>Filename always the same</td>
+      <td class="active text-center" colspan="2">
+        <img class="alignnone size-full wp-image-743" alt="same.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30" />
+      </td>
+      <td class="active text-center">
+        <img class="alignnone size-full wp-image-739" alt="different-always.png" src="/assets/uploads/2013/gmail-different-always-1.png" width="30" height="30" />
+      </td>
+    </tr>
+    <tr>
+      <td>Filename always the same, querystring unique between emails</td>
+      <td class="active text-center">
+        <img class="alignnone size-full wp-image-743" alt="same.png?12345" src="/assets/uploads/2013/gmail-same.png" width="30" height="30" />
+      </td>
+      <td class="active text-center">
+        <img class="alignnone size-full wp-image-742" alt="different.png?r=12345" src="/assets/uploads/2013/gmail-different.png" width="30" height="30" />
+      </td>
+      <td class="active text-center">
+        <img class="alignnone size-full wp-image-742" alt="different.png?r=12345&a=1" src="/assets/uploads/2013/gmail-different-always-2.png" width="30" height="30" />
+      </td>
+    </tr>
+    <tr>
+      <td>Filename always unique between emails</td>
+      <td class="active text-center">
+        <img class="alignnone size-full wp-image-743" alt="same-12345.png" src="/assets/uploads/2013/gmail-same.png" width="30" height="30" />
+      </td>
+      <td class="active text-center">
+        <img class="alignnone size-full wp-image-742" alt="different-12345.png" src="/assets/uploads/2013/gmail-different.png" width="30" height="30" />
+      </td>
+      <td class="active text-center">
+        <img class="alignnone size-full wp-image-742" alt="different-always-12345.png" src="/assets/uploads/2013/gmail-different-always-3.png" width="30" height="30" />
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 The left-hand column never changes its content between unique emails, the middle column should always be different for different emails, and without caching the column on the right should change on every "refresh" or open of the same email.

@@ -2,8 +2,7 @@
 layout: job
 slug: front-end-javascript-developer
 title: Senior Front Endgnr Javascript Developer
-image:
-  small: "/assets/uploads/2014/yoyo.png"
+image_small: /assets/uploads/2014/yoyo.png
 published: false
 ---
 
@@ -20,13 +19,9 @@ What we're looking for is someone that will really dig working with us. Fit in w
 How about if I explain us a bit more:
 
 1. We're not consultants. We don't take on projects for a few weeks and then hand over (all the while knowing that this elegant yet fragile code will explode on Prod). We get down and dirty, because we think that is where stuff gets really interesting. We value long term projects, because we know that by refining and iterating we can continually improve an idea.
-
 2. We all work together. To work together as a high performing team, we think meaningful conversations and interactions are important. To make great digital things, so many different parts need to come together perfectly - from UX to DevOps.
-
 3. We're not an ad agency & we don't outsource. We build. We're pretty geeky, and while we have content, UX & design people, we're undeniably technical. And to be technically good you need not only good people but excellent processes and a strong tech culture. People that care. We're not that company that seems to build things but actually gets all the work done by the offshore team in Nepal or Poland or wherever. I'm sure they're great, but I think there are better things you could be doing with your career other than baby sitting an offshore team. Personally I'd rather clean my ears with a Dremel.
-
 4. We work with nice people as our clients. Life is too short to work with dickheads.
-
 
 OK- so that was a few general things. In terms of specifics, we:
 
@@ -37,7 +32,6 @@ OK- so that was a few general things. In terms of specifics, we:
 * aim for 12 factor in all our work
 
 In terms of actual front end technology, the picture is a bit blurry right now. Everything we do is Ruby, but sometimes this is a single Rails app, and sometimes separate (JRuby API, Angular FE). But all of this is constantly evolving - we're also evaluating React and let's not even bring up testing frameworks.
-
 
 The things we make are typically large web applications, which we call [Digital Products](/digital-products/ "Digital Products"). Have a look at our [portfolio](/portfolio/ "portfolio") to get a better idea of the some of the projects we work on.
 
@@ -57,7 +51,7 @@ Really well. Probably much better than where you are right now, but not as much 
 
 ## Interested?
 
-If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto:jobs@redant.com.au "Sarah") with an outline of the kind of projects you’ve worked on, and some insight into who you are.
+If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto\:jobs@redant.com.au "Sarah") with an outline of the kind of projects you’ve worked on, and some insight into who you are.
 
 And please – no recruiters! You guys probably don't read down this far before calling up, but really we aren't interested. If you really do have all these incredible candidates, there is this thing called the Internet that they can use to find some great cat pictures as well as this job.
 

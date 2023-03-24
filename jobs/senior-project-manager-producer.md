@@ -2,8 +2,7 @@
 layout: job
 slug: senior-project-manager-producer
 title: Senior Account Manager / Project Manager / Producer
-image:
-  small: "/assets/uploads/2014/skater.gif"
+image_small: /assets/uploads/2014/skater.gif
 published: false
 ---
 
@@ -48,6 +47,6 @@ You might also wonder why I have 3 roles in the title of this ad. Weird huh? Wil
 
 ## Interested?
 
-If you’re interested, please send Sarah an [email](mailto:jobs@redant.com.au "email") with an outline of your experience and the size and type of projects you’ve worked on. Rather than a big attachment, we’d love to find out (in a short email) more about you, your thing and what you’ve been doing.
+If you’re interested, please send Sarah an [email](mailto\:jobs@redant.com.au "email") with an outline of your experience and the size and type of projects you’ve worked on. Rather than a big attachment, we’d love to find out (in a short email) more about you, your thing and what you’ve been doing.
 
 Recruiters please: I could write pretty much anything here as you probably won’t read down this far but please - don’t be that guy. We’re not interested in getting contacted by recruitment companies about this. Ever. Thank you!

@@ -16,7 +16,7 @@ image: '/assets/uploads/2012/shopify-account-comparison-chart.png'
 excerpt_short: Shopify for e-commerce - we looked into this as part of a recent assessment.
 excerpt_long:
   As part of a recent assessment for a client e-commerce solution we looked
-  into <a href="http://www.shopify.com">Shopify</a>. Part of that meant checking out
+  into Shopify. Part of that meant checking out
   their prices and finding the account level which would hit the sweet spot for the
   clients needs. In the end we didnt go with Shopify, but this price comparison of
   their accounts is pretty handy to have on hand.
@@ -46,7 +46,7 @@ We often have a requirement to build some kind of shop or ecommerce integration 
 A quick summary of the options:
 
 - **Build something** that suits requirements. Advantage is that it can fit exactly. Disadvantage is that you might have just reinvented the wheel - ecomm has been around for a while now…
-- **Build upon an existing open source shop** - taking a project like Spree and integrating this. Advantage is that you get lots of functionality out of the box, and an ability to tweak as required. No one is clipping the ticket. Disadvantage is that the more you tweak, the longer it takes in dev time \*[]{.obvious .bleeding .the .stating .for .apologies}\*.
+- **Build upon an existing open source shop** - taking a project like Spree and integrating this. Advantage is that you get lots of functionality out of the box, and an ability to tweak as required. No one is clipping the ticket. Disadvantage is that the more you tweak, the longer it takes in dev time.
 - **SAAS** - skin or theme a SAAS system like Shopfiy- advantages being the shop can be up in minutes, and no hosting to worry about. The API allows for some integration into your app. Disadvantage is that any limitations to the API limit what you can do, and you're paying per transaction- which might not suit some projects.
 - **Install something commercial** - Advantages are that you might find a tool with the exact shop functionality you want- in which case happy days. Disadvantages are that it might not fit your actual requirements
 

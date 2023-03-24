@@ -25,8 +25,8 @@ In the past 6 months, we've advertised for three different positions: a designer
 
 <table>
 <tr>
-	<td>**[37 Signals job board](http://jobs.37signals.com/**)</td>
-	<td>**[Seek.com.au](http://www.seek.com.au**)</td>
+	<td>**[37 Signals job board](http://jobs.37signals.com/)**</td>
+	<td>**[Seek.com.au](http://www.seek.com.au)**</td>
 </tr>
 <tr>
 	<td>[![step 1](/assets/uploads/2009/37s-small/1.png)](/assets/uploads/2009/37s-large/1.png)</td>

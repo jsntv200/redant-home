@@ -2,8 +2,7 @@
 layout: job
 slug: senior-ios-developer
 title: Senior iOS Developer - Swift/Objective-C
-image:
-  small: "/assets/uploads/2014/yoyo.png"
+image_small: /assets/uploads/2014/yoyo.png
 published: false
 ---
 
@@ -55,6 +54,6 @@ Really well. Probably much better than where you are right now.
 
 ## Interested?
 
-If you’re interested in this position, please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto:jobs@redant.com.au "Sarah") with an outline of the kind of projects you’ve worked on, and some insight into what makes you tick.
+If you’re interested in this position, please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto\:jobs@redant.com.au "Sarah") with an outline of the kind of projects you’ve worked on, and some insight into what makes you tick.
 
 And please – no recruiters! This is a full time position, for a carbon based person who lives in Sydney, Australia. While we really appreciate all the attention from recruiters, offshore teams and people living their Drone Dream, we’re only looking for direct applicants that live near us.

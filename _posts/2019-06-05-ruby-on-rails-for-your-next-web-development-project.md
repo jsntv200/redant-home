@@ -45,7 +45,6 @@ updated_at: 2019-06-05
     </div>
   </div>
 </section>
-
 <section class="bg-gray-light py-5 text-md">
   <div class="container">
     <div class="row">
@@ -65,7 +64,6 @@ updated_at: 2019-06-05
     </div>
   </div>
 </section>
-
 <section class="bg-white py-5 text-md">
   <div class="container">
     <div class="row">
@@ -84,7 +82,7 @@ updated_at: 2019-06-05
         </p>
       </div>
       <div class="col-sm-8 offset-sm-2 my-5">
-        <hr class="m-0">
+        <hr class="m-0" />
         <div class="section-border border-red py-5">
           <p>
             <strong>
@@ -122,7 +120,7 @@ updated_at: 2019-06-05
           </blockquote>
         </div>
         <p>
-          Ruby creator, <a href="http://www.rubyist.net/\~matz/">Yukihiro “Matz” Matsumoto</a>,
+          Ruby creator, <a href="https://matz.rubyist.net/">Yukihiro “Matz” Matsumoto</a>,
           blended parts of his favorite languages (Perl, Smalltalk, Eiffel, Ada,
           and Lisp) to form a new language that balanced functional programming
           with imperative programming.
@@ -140,7 +138,9 @@ updated_at: 2019-06-05
             object-oriented approach is most commonly demonstrated by a bit of
             code which applies an action to a number.
           </p>
-          <pre><code>5.times { print "We love Ruby -- it's outrageous!" }</code></pre>
+          <pre><code>5.times do
+  print "We love Ruby -- it's outrageous!"
+end</code></pre>
           <p>
             In many languages, numbers and other primitive types are not objects.
             Ruby follows the influence of the Smalltalk language by giving
@@ -209,7 +209,7 @@ updated_at: 2019-06-05
           This saves a lot of time when you’re sketching out an idea or concept.
         </p>
         <div class="col-sm-8 offset-sm-2 my-5">
-          <hr class="m-0">
+          <hr class="m-0" />
           <div class="section-border border-red py-5">
             <p>
               <strong>
@@ -308,7 +308,6 @@ updated_at: 2019-06-05
     </div>
   </div>
 </section>
-
 <section class="bg-gray-light py-5 text-md">
   <div class="container">
     <div class="row">
@@ -395,7 +394,6 @@ updated_at: 2019-06-05
     </div>
   </div>
 </section>
-
 <section class="bg-white py-5 text-md">
   <div class="container">
     <div class="row mb-5">
@@ -444,7 +442,6 @@ updated_at: 2019-06-05
         </p>
       </div>
     </div>
-
     <div data-controller="fake-news"></div>  
   </div>
 </section>

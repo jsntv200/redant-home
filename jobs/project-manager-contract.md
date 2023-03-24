@@ -2,8 +2,7 @@
 layout: job
 slug: project-manager-contract
 title: Account Manager / Project Manager
-image:
-  small: "/assets/uploads/2014/skater.gif"
+image_small: /assets/uploads/2014/skater.gif
 published: false
 ---
 
@@ -39,6 +38,6 @@ You might be fading away in a traditional ad agency and want to get your teeth i
 
 ## Interested?
 
-If you’re interested, please email [jobs@redant.com.au](mailto:jobs@redant.com.au "jobs@redant.com.au") with an outline of your experience and the size and type of projects you’ve worked on. Rather than a big attachment, we’d love to find out (in a short email) more about you and what you’re keen on.
+If you’re interested, please email [jobs@redant.com.au](mailto\:jobs@redant.com.au "jobs@redant.com.au") with an outline of your experience and the size and type of projects you’ve worked on. Rather than a big attachment, we’d love to find out (in a short email) more about you and what you’re keen on.
 
 Recruiters please: we’re not interested in getting contacted by recruitment companies about this. Thank you!

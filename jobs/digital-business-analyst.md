@@ -2,8 +2,7 @@
 layout: job
 slug: digital-business-analyst
 title: Digital Business Analyst
-image:
-  small: "/assets/uploads/2014/skater.gif"
+image_small: /assets/uploads/2014/skater.gif
 published: false
 ---
 
@@ -18,7 +17,7 @@ Here’s where we are at:
 3. they work together to create amazing digital products like 12WBT and PlanDo HR
 
 but *(and there is always a but)*
-4. the PMs run out of bandwidth. They get busy managing projects and scheduling, tasks start backing up
+4\. the PMs run out of bandwidth. They get busy managing projects and scheduling, tasks start backing up
 
 ### Here’s what we’re after:
 
@@ -57,6 +56,6 @@ Take a look at [redant.com.au](redant.com.au "redant.com.au") for more on what w
 
 ## Interested?
 
-If you’re interested in this position, please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto:jobs@redant.com.au "Sarah") with an outline of the kind of mad skills you have and some links to stuff that you’ve worked on.
+If you’re interested in this position, please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto\:jobs@redant.com.au "Sarah") with an outline of the kind of mad skills you have and some links to stuff that you’ve worked on.
 
 And please – no recruiters! This is a full time position, for a carbon based person who lives in Sydney, Australia. While we really appreciate applications from recruiters and people living in far off lands, we’re only looking for direct applicants that live near us.
