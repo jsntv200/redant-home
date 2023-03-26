@@ -126,4 +126,6 @@ $input-border-color: $gray-200;
 $progress-height:                   4px;
 $progress-bg:                       $gray-100;
 $progress-border-radius:            0px;
-$progress-bar-bg:                   $primary;
+$progress-bar-bg:                   $red;
+$progress-bar-animation-timing:     0s linear infinite;
+$progress-bar-transition:           width 0s ease;

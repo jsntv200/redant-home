@@ -105,9 +105,16 @@ export class AssessmentController extends Controller {
     return Object.values(questions[this.assessment.slug]).map(q => q.slug);
   }
 
+  get totalAnswers() {
+    return Object.values(this.storedAnswers).reduce((acc, curr) => {
+      if (curr) {
+        return acc + curr.length;
+      }
+    }, 0);
+  }
+
   get totalQuestions() {
-    const object = Object.values(questions[this.assessment.slug]);
-    return object.reduce((accumulator, current) => accumulator + current.questions.length, 0);
+    return Object.values(questions[this.assessment.slug]).reduce((accumulator, current) => accumulator + current.questions.length, 0);
   }
 
   assessmentData([type, path, section]) {
@@ -383,7 +390,6 @@ export class AssessmentController extends Controller {
         if (location.pathname.includes(slug) || !!sections.find(section => section === slug)) {
           this.sectionTargets[i].removeAttribute("disabled");
           this.sectionTargets[i].classList.remove("opacity-25");
-
           this.sectionSliderTarget.scrollLeft = this.sectionTargets[i].offsetLeft - this.sectionSliderTarget.offsetLeft;
         }
 
@@ -412,10 +418,9 @@ export class AssessmentController extends Controller {
   }
 
   setProgress() {
-    const currentQuestionInTotal = 50;
-    const percentage = (currentQuestionInTotal / this.totalQuestions) * 100;
-
-    // this.fillTarget.style.width = `${percentage}%`;
+    const percentage = Math.ceil((this.totalAnswers * 100) / this.totalQuestions);
+    this.fillTarget.style.width = `${percentage}%`;
+    this.fillTarget.setAttribute('aria-valuenow', `${percentage}`);
   }
 
   setResult(sectionIndex, resultIndex) {
