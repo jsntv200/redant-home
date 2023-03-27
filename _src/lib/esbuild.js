@@ -4,7 +4,6 @@ const watch = process.argv.includes("--watch");
 require("esbuild")
   .build({
     bundle: true,
-    watch: watch,
     minify: !watch,
     logLevel: "debug",
     entryPoints: ["_src/application.js"],

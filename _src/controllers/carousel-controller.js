@@ -1,5 +1,4 @@
 import { Controller } from "@hotwired/stimulus";
-import { SwiperOptions } from "swiper";
 
 import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
