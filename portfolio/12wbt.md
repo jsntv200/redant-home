@@ -2,7 +2,7 @@
 layout: project
 theme: 12wbt
 slug: 12wbt
-title: Health Fitness Saas
+title: Health Fitness SAAS
 tagline: 12 week health & fitness product
 description: >-
   Australia’s most popular health platform, with incredible growth. Nutrition,
@@ -63,7 +63,7 @@ What started life as a basic MVP is now a fully fledged lifestyle platform, with
 
 ## Here's how it works:
 
-It's all digital - no physical meals, meetings, DVDs etc. You join for $199, then set up your goals (eg: "I'd like to lose 5kg for my wedding in March"). Based on who you are and what you're trying to achieve, you can then pick from a menu of programs - weight loss, running, strength and so on. Everyone starts with 4 weeks of Pre-Season, which is all about getting prepared. Then you go into 12 successive weeks of training and nutrition. Everyone starts together at the same time, and progresses through at the same pace.
+It's all digital - no physical meals, meetings, DVDs etc. You pay to join, then set up your goals (eg: "I'd like to lose 5kg for my wedding in March"). Based on who you are and what you're trying to achieve, you can then pick from a menu of programs - weight loss, running, strength and so on. Everyone starts with 4 weeks of Pre-Season, which is all about getting prepared. Then you go into 12 successive weeks of training and nutrition. Everyone starts together at the same time, and progresses through at the same pace.
 
 We started on this way back in 2011. Back then there was a basic MVP built with a CMS, that was having some pretty significant growing pains. Which isn't unusual - a big part of MVP is working out what you don't know. We rebuilt the tech stack in Ruby on Rails over about 10 weeks, including a new payment system and a more evolved management system.
 
