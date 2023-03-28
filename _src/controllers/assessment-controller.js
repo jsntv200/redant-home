@@ -45,7 +45,7 @@ export class AssessmentController extends Controller {
       this.setActiveAnswer();
     }
   }
-  
+
   get isBasePath() {
     return location.pathname === this.basePathValue;
   }
@@ -53,11 +53,11 @@ export class AssessmentController extends Controller {
   get isBookingPath() {
     return location.pathname === `/online-payments/book-call/`;
   }
-  
+
   get isSubmitPath() {
     return location.pathname === `${this.basePathValue}submit`;
   }
-  
+
   get isResultsPath() {
     return location.pathname === `${this.basePathValue}results`;
   }
@@ -66,8 +66,8 @@ export class AssessmentController extends Controller {
     const answers = localStorage.getItem("answers");
     return answers === 'null' || answers === null ? {} : JSON.parse(answers);
   }
-  
-  calculateOrRedirect() {  
+
+  calculateOrRedirect() {
     if (Object.entries(this.answers).length > 0) {
       this.answersInputTarget.value = JSON.stringify(this.answers);
       this.calculate();
@@ -79,7 +79,7 @@ export class AssessmentController extends Controller {
   calculate() {
     const params = this.getParams();
     const weighting = 0.6;
-    const answers = params.has('r') ? 
+    const answers = params.has('r') ?
       JSON.parse(decodeURIComponent(params.get('r')).replaceAll('&#34;', '"')) :
       this.answers;
 
@@ -99,7 +99,7 @@ export class AssessmentController extends Controller {
       const minScore = scoreRange[i]["min"];
       const range = maxScore - minScore;
       const scoreLevels = [
-        minScore, 
+        minScore,
         minScore + range/5,
         minScore + range/2,
         maxScore - range/5,
@@ -139,7 +139,7 @@ export class AssessmentController extends Controller {
       this.resumeTarget.classList.toggle("d-none");
     }
   }
-  
+
   clearAnswers() {
     localStorage.removeItem("answers");
   }
@@ -193,15 +193,15 @@ export class AssessmentController extends Controller {
 
       if (element.length) {
         var formData = [];
-        
+
         for (const i in element) {
           const item = element.item(i);
-          
+
           if (item.checked || item.selected) {
             formData.push(item.value);
           }
         }
-        
+
         data[name] = formData.join(', ');
       }
     });
@@ -217,7 +217,7 @@ export class AssessmentController extends Controller {
   getParams() {
     return new URLSearchParams(location.search);
   }
-  
+
   getQuestionIndexFromUrlParams() {
     const params = this.getParams();
     return params.has('q') ? parseInt(params.get('q')) - 1 : 0;
@@ -269,7 +269,7 @@ export class AssessmentController extends Controller {
     this.bookingIframeTarget.parentElement.style.height = iframeHeight + 'px';
   }
 
-  resume() {    
+  resume() {
     if (Object.entries(this.answers).length > 0) {
       const section = Object.keys(this.answers)[Object.keys(this.answers).length - 1];
       const question = this.answers[section].length;
@@ -287,20 +287,20 @@ export class AssessmentController extends Controller {
 
   setActiveAnswer() {
     const section = location.pathname.split('/').reverse()[0];
-  
+
     if (Object.entries(this.answers).length === 0) return;
-  
+
     for (const i in this.answerTargets) {
       const target = this.answerTargets[i];
 
       if (!this.answers[section] || !this.answers[section][i]) return;
-  
+
       const oldAnswer = this.answers[section][i][0];
-      
+
       if (!target || !oldAnswer) return;
-  
+
       const element = target.children[oldAnswer - 1];
-      
+
       element.classList.toggle("border-light");
       element.classList.toggle("active-question");
     }
@@ -309,7 +309,7 @@ export class AssessmentController extends Controller {
   setActiveQuestions() {
     const index = this.getQuestionIndexFromUrlParams();
     const section = location.pathname.split('/').reverse()[0];
-  
+
     this.answerSectionTargets[index].classList.toggle("d-none");
     this.questionTargets[index].classList.toggle("border-light");
     this.questionTargets[index].classList.toggle("active");
@@ -325,11 +325,11 @@ export class AssessmentController extends Controller {
       }
     }
   }
-  
+
   setActiveSections() {
     if (Object.entries(this.answers).length > 0) {
       const sections = Object.keys(this.answers);
-    
+
       for (const i in this.sectionsValue) {
         const slug = this.sectionsValue[i];
 
@@ -364,11 +364,11 @@ export class AssessmentController extends Controller {
   }
 
   setResult(sectionIndex, resultIndex) {
-    this.resultsTargets[sectionIndex].children[0].children[0].innerHTML = 
+    this.resultsTargets[sectionIndex].children[0].children[0].innerHTML =
       `${results[sectionIndex]["title"]}<p class="d-sm-none"><b>Score :</b> ${results[sectionIndex]["results"][resultIndex]["title"]}</p>`;
-    this.resultsTargets[sectionIndex].children[1].children[0].innerHTML = 
+    this.resultsTargets[sectionIndex].children[1].children[0].innerHTML =
       results[sectionIndex]["results"][resultIndex]["title"];
-    this.resultsTargets[sectionIndex].children[2].children[0].innerHTML = 
+    this.resultsTargets[sectionIndex].children[2].children[0].innerHTML =
       results[sectionIndex]["results"][resultIndex]["description"];
   }
 
