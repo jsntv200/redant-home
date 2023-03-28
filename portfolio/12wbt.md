@@ -2,54 +2,53 @@
 layout: project
 theme: 12wbt
 slug: 12wbt
-title: Michelle Bridges 12WBT
+title: Health Fitness Saas
 tagline: 12 week health & fitness product
-description: Australia’s most popular health platform, with incredible growth. Nutrition,
+description: >-
+  Australia’s most popular health platform, with incredible growth. Nutrition,
   fitness and mindset.
-project_url: https://www.12wbt.com
+project_url: ''
 client: Michelle Bridges 12WBT
 project_date: 2011 - 2019
 team_size: 25 people
 lines_of_code: 1250k+
 technologies:
-- Ruby on Rails
-- PostgreSQL
-- AngularJS
-- Salesforce Marketing Cloud
-- Redis
-- Elasticsearch
-- Google BigQuery
-- Wordpress
-- Locomotive CMS
-- MongoDB
-- Chargify
-- Paypal
-- Facebook
-- MyFitnessPal
-- Fitbit
-- Withings
-- Brightcove
-- Online Payment Systems
+  - Ruby on Rails
+  - PostgreSQL
+  - AngularJS
+  - Salesforce Marketing Cloud
+  - Redis
+  - Elasticsearch
+  - Google BigQuery
+  - Wordpress
+  - Locomotive CMS
+  - MongoDB
+  - Chargify
+  - Paypal
+  - Facebook
+  - MyFitnessPal
+  - Fitbit
+  - Withings
+  - Brightcove
+  - Online Payment Systems
 images:
-- type: gallery
-  path: "/assets/images/projects/12wbt/12wbt-1.jpg"
-- type: gallery
-  path: "/assets/images/projects/12wbt/12wbt-2.jpg"
-- type: gallery
-  path: "/assets/images/projects/12wbt/12wbt-3.jpg"
-- type: gallery
-  path: "/assets/images/projects/12wbt/12wbt-4.jpg"
-- type: gallery
-  path: "/assets/images/projects/12wbt/12wbt-5.jpg"
-- type: mobile
-  path: "/assets/images/projects/12wbt/12wbt-hero-mobile.jpg"
-- type: desktop
-  path: "/assets/images/projects/12wbt/12wbt-hero-desktop.jpg"
-
+  - type: gallery
+    path: /assets/images/projects/12wbt/12wbt-1.jpg
+  - type: gallery
+    path: /assets/images/projects/12wbt/12wbt-2.jpg
+  - type: gallery
+    path: /assets/images/projects/12wbt/12wbt-3.jpg
+  - type: gallery
+    path: /assets/images/projects/12wbt/12wbt-4.jpg
+  - type: gallery
+    path: /assets/images/projects/12wbt/12wbt-5.jpg
+  - type: mobile
+    path: /assets/images/projects/12wbt/12wbt-hero-mobile.jpg
+  - type: desktop
+    path: /assets/images/projects/12wbt/12wbt-hero-desktop.jpg
 ---
-[12WBT.com](12wbt.com) - an extremely successful online health and fitness platform.
 
-12WBT is one of Australia's most successful and enduring health & fitness products, featuring a comprehensive fitness and nutrition program created by celebrity trainer Michelle Bridges (Biggest Loser).
+One of Australia's most successful and enduring health & fitness products, featuring a comprehensive fitness and nutrition program created by celebrity trainer.
 
 What started life as a basic MVP is now a fully fledged lifestyle platform, with thousands of active members at any one time. Members sign-up for a 3 month “round” which gives them access to a personalised weekly plan for exercise, meal planning and mindset. Members feel fully supported on their transformation journey with tailored dynamic content, including a weekly motivational video session with Michelle Bridges.
 
@@ -70,7 +69,7 @@ We started on this way back in 2011. Back then there was a basic MVP built with 
 
 One of the interesting things about working on this project is that they have a very large group of highly engaged members, each of which is on a quite personal journey. There are a lot of them, they seem to use it pretty much all the time, and they are highly passionate and involved with the product.
 
-![Member Zone](/assets/images/projects/12wbt/desktop-12wbt-4.jpg)
+![Member Zone](/assets/uploads/assets/images/projects/12wbt/desktop-12wbt-4.jpg)
 
 All of which means we get pretty immediate feedback. And if you're going to ask for feedback, you'd better be prepared to do something about it. I won't bore you with details, but one morning we pushed a new feature. It became quickly apparent that while they liked some parts, other bits (that we'd de-prioritised) were in fact required. We scrambled and got two teams (front end and back end) working on an update, which we pushed out later that afternoon. I'm glossing over a few things here, like the reason that we were able to build and release a significant update quickly was partly due to all the foundation work before - the boring stuff like an automated test suite, continuous integration, and seamless "no downtime" deploy flow.
 
@@ -84,6 +83,6 @@ You [can read a bit more about](/our-work/our-work-michelle-bridges-12wbt-build/
 * **Content system** - members sign up and get content & tools each week. As the program progresses through the 12 weeks, different features appear.
 * **Event system** - members can create events, RSVP to them, write reviews of events, and book tickets for paid events.
 * **Forum & private messaging system** - tightly integrated with the rest of the site.
-* **Help & FAQ** - tightly integrated with 3rd party <span class="caps">SAAS</span> help system.
+* **Help & FAQ** - tightly integrated with 3rd party \<span class="caps">SAAS\</span> help system.
 * **My Stats** - an interactive tool which allows members to record their weight and key measurements, plus track progress over time.
 * **Third Party integrations** - members can sync their data with third party tracking apps like Myfitnesspal, or order their shopping list directly from Woolworths via the site.
