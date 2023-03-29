@@ -1,6 +1,6 @@
 ---
 layout: results
-permalink: /cybersecurity/security-maturity-assessment/results
+permalink: /cybersecurity/cybersecurity-maturity-assessment/results
 type: "security"
 area: "cybersecurity"
 class: "assessment assessment-results"

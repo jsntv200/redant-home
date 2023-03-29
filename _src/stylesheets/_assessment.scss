@@ -51,16 +51,6 @@
     width: 0%;
     transition: width 0.5s ease-in-out;
   }
-
-  @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
 }
 
 .results-table {
@@ -102,7 +92,7 @@
 }
 
 @page {
-  size: A4;
+  size: A4 landscape;
   margin: 0;
 }
 

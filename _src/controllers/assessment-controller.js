@@ -29,7 +29,7 @@ export class AssessmentController extends Controller {
   static values = {
     basePathPayment: "/online-payments/payment-maturity-assessment/",
     basePathPrivacy: "/privacy/privacy-maturity-assessment/",
-    basePathSecurity: "/cybersecurity/security-maturity-assessment/",
+    basePathSecurity: "/cybersecurity/cybersecurity-maturity-assessment/",
     colorHashes: {type: Array, default: ["dc697a", "fdc95b", "c2d7b1", "92defb", "9069f7"]}
   }
 
@@ -289,7 +289,6 @@ export class AssessmentController extends Controller {
     }
 
     const formData = this.getFormData();
-    const url = this.formTarget.action;
 
     // If a honeypot field is filled, assume it was done so by a spam bot.
     if (formData.honeypot) {
@@ -299,8 +298,7 @@ export class AssessmentController extends Controller {
     this.submitButtonTarget.setAttribute('disabled', '');
 
     var xhr = new XMLHttpRequest();
-
-    xhr.open('POST', url);
+    xhr.open('POST', this.formTarget.action);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = () => {
       if (xhr.readyState === 4 && xhr.status === 200) {

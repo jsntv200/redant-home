@@ -1,6 +1,6 @@
 ---
 layout: section
-permalink: /cybersecurity/security-maturity-assessment/respond
+permalink: /cybersecurity/cybersecurity-maturity-assessment/respond
 class: assessment
 sitemap: false
 sections: ["govern", "protect", "detect", "respond"]

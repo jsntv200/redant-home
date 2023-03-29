@@ -270,7 +270,7 @@
       "description": "Collection and use of personal information",
       "questions": [
         {
-          "title": "collection",
+          "title": "Collection",
           "description": "How does your organization determine the personal information that it collects and ensure that it is necessary for your functions or activities?",
           "icon": "telescope",
           "weight": "5",
@@ -283,7 +283,7 @@
           ]
         },
         {
-          "title": "dealing",
+          "title": "Unsolicited",
           "description": "How does your organization handle personal information that is received without having been requested?",
           "icon": "camera-cctv",
           "weight": "5",
@@ -296,7 +296,7 @@
           ]
         },
         {
-          "title": "notification",
+          "title": "Notification",
           "description": "How does your organization notify individuals that their personal information has been collected?",
           "icon": "paper-plane-top",
           "weight": "5",
@@ -309,7 +309,7 @@
           ]
         },
         {
-          "title": "disclosure",
+          "title": "Disclosure",
           "description": "How does your organization ensure that personal information is only used or disclosed for its intended purposes?",
           "icon": "pencil",
           "weight": "5",
@@ -322,7 +322,7 @@
           ]
         },
         {
-          "title": "marketing",
+          "title": "Marketing",
           "description": "How does your organization ensure that it complies with laws relating to direct marketing when using personal information?",
           "icon": "pencil",
           "weight": "5",
@@ -345,7 +345,7 @@
       "description": "Protection of personal information",
       "questions": [
         {
-          "title": "open",
+          "title": "Management",
           "description": "Can you describe how your organization ensures that individuals are aware of how their personal information is being managed?",
           "icon": "rocket-launch",
           "weight": "5",
@@ -358,7 +358,7 @@
           ]
         },
         {
-          "title": "anon",
+          "title": "Anonymity",
           "description": "To what extent does your organization allow individuals to interact with it without disclosing their real identity?",
           "icon": "money-bill",
           "weight": "5",
@@ -371,7 +371,7 @@
           ]
         },
         {
-          "title": "quality",
+          "title": "Quality",
           "description": "How does your organization ensure that the personal information it collects is accurate, up-to-date, and complete?",
           "icon": "pencil",
           "weight": "5",
@@ -384,7 +384,7 @@
           ]
         },
         {
-          "title": "security",
+          "title": "Security",
           "description": "How does your organization ensure that personal information is protected from unauthorized access, use, disclosure, modification, or loss?",
           "icon": "pencil",
           "weight": "5",
@@ -407,7 +407,7 @@
       "description": "Disclosure of personal information",
       "questions": [
         {
-          "title": "disclosure",
+          "title": "Cross-Border",
           "description": "How does your organization ensure that personal information is protected when it is disclosed to organizations in other countries?",
           "icon": "pencil",
           "weight": "5",
@@ -420,7 +420,7 @@
           ]
         },
         {
-          "title": "adoption",
+          "title": "Government ID",
           "description": "How does your organization ensure that it only uses government-related identifiers when it is necessary for your functions or activities?",
           "icon": "pencil",
           "weight": "5",
@@ -443,7 +443,7 @@
       "description": "Access to and correction of personal information",
       "questions": [
         {
-          "title": "access",
+          "title": "Access",
           "description": "How does your organization provide individuals with access to their personal information when requested?",
           "icon": "pencil",
           "weight": "5",
@@ -456,7 +456,7 @@
           ]
         },
         {
-          "title": "correction",
+          "title": "Correction",
           "description": "How does your organization ensure that personal information is corrected when it is inaccurate, incomplete, or out-of-date?",
           "icon": "pencil",
           "weight": "5",
