@@ -119,12 +119,43 @@
       max-width: 700px !important;
     }
 
+    // .results-table {
+    //   thead {
+    //     th {
+    //       span {
+    //         background-color: #1086db;
+    //         font-size: 14px;
+    //       }
+    //     }
+    //   }
+    // }
+
     .results-table {
       thead {
         th {
-          span {
+          background-color: #20b5e3;
+          background-image:
+            linear-gradient(
+              to right,
+              #20b5e3, #1086db
+            );
+
+          &:first-of-type {
+            background-color: #16cbe1;
+            background-image:
+              linear-gradient(
+                to right,
+                #16cbe1, #20b5e3
+              );
+          }
+
+          &:last-of-type {
             background-color: #1086db;
-            font-size: 14px;
+            background-image:
+              linear-gradient(
+                to right,
+                #1086db, #1959e6
+              );
           }
         }
       }

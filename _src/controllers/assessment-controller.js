@@ -29,7 +29,7 @@ export class AssessmentController extends Controller {
   static values = {
     basePathPayment: "/online-payments/payment-maturity-assessment/",
     basePathPrivacy: "/privacy/privacy-maturity-assessment/",
-    basePathSecurity: "/cybersecurity/cybersecurity-maturity-assessment/",
+    basePathCybersecurity: "/cybersecurity/cybersecurity-maturity-assessment/",
     colorHashes: {type: Array, default: ["dc697a", "fdc95b", "c2d7b1", "92defb", "9069f7"]}
   }
 
@@ -57,8 +57,8 @@ export class AssessmentController extends Controller {
       data = ["payment", this.basePathPaymentValue, "current"];
     } else if (location.pathname.includes(this.basePathPrivacyValue)) {
       data = ["privacy", this.basePathPrivacyValue, "collection-and-use"];
-    } else if (location.pathname.includes(this.basePathSecurityValue)) {
-      data = ["security", this.basePathSecurityValue, "govern"];
+    } else if (location.pathname.includes(this.basePathCybersecurityValue)) {
+      data = ["cybersecurity", this.basePathCybersecurityValue, "govern"];
     }
 
     return this.assessmentData(data);
