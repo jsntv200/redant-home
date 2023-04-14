@@ -1,7 +1,7 @@
 ---
 layout: results
-permalink: /cybersecurity/cybersecurity-maturity-assessment/results
-type: "cybersecurity"
+permalink: /cyber-security/cyber-security-maturity-assessment/results
+type: "cyber-security"
 area: "cybersecurity"
 class: "assessment assessment-results"
 start-section: "govern"

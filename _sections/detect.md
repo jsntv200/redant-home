@@ -1,6 +1,6 @@
 ---
 layout: section
-permalink: /cybersecurity/cybersecurity-maturity-assessment/detect
+permalink: /cyber-security/cyber-security-maturity-assessment/detect
 class: assessment
 sitemap: false
 sections: ["govern", "protect", "detect", "respond"]
@@ -8,10 +8,10 @@ area: "cybersecurity"
 ---
 
 <div class="card-body pb-0 pt-5 bg-blue-100 px-4 px-sm-5">
-  <h2 class="card-title fw-semibold pb-2">{{ site.data.assessment.cybersecurity.detect.title }}</h2>
-  <p class="card-text pb-4">{{ site.data.assessment.cybersecurity.detect.description }}</p>
-  {% include assessment/questions.html section = site.data.assessment.cybersecurity.detect %}
+  <h2 class="card-title fw-semibold pb-2">{{ site.data.assessment.cyber-security.detect.title }}</h2>
+  <p class="card-text pb-4">{{ site.data.assessment.cyber-security.detect.description }}</p>
+  {% include assessment/questions.html section = site.data.assessment.cyber-security.detect %}
 </div>
 <div class="card-body pt-0 px-4 px-sm-5 pb-5">
-  {% include assessment/answers.html section = site.data.assessment.cybersecurity.detect next-section = 'respond' %}
+  {% include assessment/answers.html section = site.data.assessment.cyber-security.detect next-section = 'respond' %}
 </div>
