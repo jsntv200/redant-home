@@ -20,6 +20,7 @@ description: >
 date_published: '2023-04-13T14:00:00.000Z'
 updated_at: '2023-04-13T14:00:00.000Z'
 publisher: Red Ant
+image: /assets/uploads/Screenshot 2023-04-14 at 11.10.18 am.png
 ---
 
 Many organisations spend a lot of time evaluating cyber risks. Looking at ways to stop bad things coming in. Stopping various behaviours. Preventing information from leaking out.
@@ -43,5 +44,3 @@ We often find these changes get pushed down the development road map. Yes, every
 This failure to prioritise means these tasks never get done. Which in turn prompts users to invent workarounds to help them complete tasks - which can then create new security loopholes or flaws. A common one is one user creating multiple accounts, each with different privileges or permissions - so an admin user might have their own account, but also separate accounts specific for customers.
 
 Take a fresh look at your system or platform. Can you improve your security with better development? Are there any features that have been added (like spoofing) which open up security holes? What about things you know need to be added (like multi factor), but the team never seems to find the time to address?
-
-
