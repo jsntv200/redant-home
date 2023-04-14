@@ -12,11 +12,15 @@ description: >
 image_small: /assets/uploads/top-gun-goose.jpg
 image: /assets/uploads/top-gun-goose.jpg
 excerpt_short: >-
-  The Goose strategy - move your application out of scope as much as you can to
-  avoid complexity
+  The Goose strategy - move your application out of scope as much as you can.
+  Try to keep the really complex parts of your app behind the scenes, and only
+  expose the simple stuff which can be more easily locked down and quicker to
+  audit.
 
-  <ol> <li>Does everything need to be connected to the internet? Is there any
-  way to silo or remove this?</li>
+  <ol> 
+
+  <li>Does everything need to be connected to the internet? Is there any way to
+  silo or remove this?</li>
 
   <li> Move complex stuff out and on private network. Or only expose an API end
   point.</li>
@@ -25,7 +29,9 @@ excerpt_short: >-
   your eggs in one basket)</li>
 
   <li>Same with data - if we make a “data lake” we’ll somehow win at internet is
-  not true</li></ol>
+  not true</li>
+
+  </ol>
 excerpt_long: ''
 date_published: 2023-04-13T14:00:00.000Z
 updated_at: 2023-04-13T14:00:00.000Z
