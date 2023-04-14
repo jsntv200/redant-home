@@ -14,18 +14,23 @@ description: >
   your platform? Something that was a result of a decision made a while ago,
   that no one analysed in terms of security? In other words, maybe you (the
   product owner) *are* the security flaw.
-date_published: '2023-04-13T14:00:00.000Z'
-updated_at: '2023-04-13T14:00:00.000Z'
+date_published: 2023-04-13T14:00:00.000Z
+updated_at: 2023-04-13T14:00:00.000Z
 publisher: Red Ant
 image: /assets/uploads/Screenshot 2023-04-14 at 11.10.18 am.png
 image_small: /assets/uploads/Screenshot 2023-04-14 at 11.10.18 am.png
 excerpt_short: >-
-  Many organisations spend a lot of time evaluating cyber risks. Looking at ways
-  to stop bad things coming in. Stopping various behaviours. Preventing
-  information from leaking out. But what if the security flaw was already in
-  your platform? Something that was a result of a decision made a while ago,
-  that no one analysed in terms of security? In other words, maybe you (the
-  product owner) *are* the security flaw.
+  You can avoid being the security flaw by looking out for these issues:
+
+  1. With any issue, make sure your team doesn't just default to the fastest
+  solution. Make sure they consider the security implications, and run through
+  scenarios
+
+  2. Avoid adding user spoofing, where one user can become another - it's a bug
+  rather than a feature
+
+  3. Don't keep pushing those security fixes further down your development road
+  map
 ---
 
 Many organisations spend a lot of time evaluating cyber risks. Looking at ways to stop bad things coming in. Stopping various behaviours. Preventing information from leaking out.
