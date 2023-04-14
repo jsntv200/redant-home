@@ -10,7 +10,7 @@ author: Ben Still
 description: >
   Many organisations spend a lot of time evaluating and worrying about cyber
   risks from bad actors trying to access your systems, or valuable information
-  from leaking out. <br/>
+  from leaking out. <br />
 
   But what if the actual security flaw came about as a result of a decision you
   the Product Owner had made? One that made all the other measures somewhat
