@@ -14,17 +14,17 @@ description: >
 
   <ol> 
 
-  <li>Does everything need to be connected to the internet? Is there any way to
-  silo or remove this?</li>
+  <li>Does every part of your platform need to be connected to the internet? Is
+  there any way to silo or relocate this?</li>
 
-  <li> Move complex stuff out and on private network. Or only expose an API end
-  point.</li>
+  <li>Move complex stuff out and on private network. Limit exposure to an API
+  end point.</li>
 
   <li>Avoid tying everything together into a mega Voltron structure (aka all
   your eggs in one basket)</li>
 
-  <li>Same with data - if we make a “data lake” we’ll somehow win at internet is
-  not true</li>
+  <li>Avoid keeping hold of data longer than you actually need it for. Automate
+  the removal.</li>
 
   </ol>
 image_small: /assets/uploads/top-gun-goose.jpg
