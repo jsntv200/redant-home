@@ -66,17 +66,18 @@ The common one here is transactions - taking payments from users. Especially wit
 
 Another one is health data - even things you personally might not consider to be “sensitive health data” like weight. There are specific definitions for different regions - so if you have users in say California, you might want to get up to speed on their definitions.
 
-And the one that gets a lot of people is children’s data. It doesn't matter if you didn't  if your UI wasn’t set up to determine age, then you may be unknowingly collecting sensitive child data.
+And the one that gets a lot of people is children’s data. It doesn't matter if you didn't intentionally collect child data. If your UI wasn’t set up to determine age when the user data was collected, then you may be unknowingly collecting sensitive child data.
 
-The approach here is to move that process out, and put a solid wall between your app and that data. Taking payments as an example - although it might seem really attractive to hoard lots of data points and transactional information about your users, the “get out of scope” strategy involves moving this completely out of your system. 
+The Goose approach is to move any sensitive process out, and put a solid wall between your app and that data. Taking payments as an example: although it might seem really attractive to hoard lots of data points and transactional information about your users, the “get out of scope” strategy involves moving this completely out of your system. 
 
 Here’s how best practice looks:
 
-* Your app stores only the minimum amount of information it needs to know about that user
+* Your app stores only the **minimum** amount of information it needs to know about that user
 * Anything else, like payments, is sent to a 3rd party payments provider
-* This is all done via an iframe - no server code or javascript ever deals with it. It still blends in seamlessly with the rest of the UI
-* The payments provider api responds with a transaction ID & payment intention
-* This transaction ID can then get used to grab additional detail - like say your user hits a page that shows billing information. The app asks the payment API for summary data for transaction id 1234. Nothing is stored locally
+* If your app does need to know something sensitive about a user (eg: "are they up to date with loan payments"), then make a de-identified request to a separate, locked down API. Even better would be to ask a separate 3rd party service.
+* This is all done via an iframe - no server code or javascript ever deals with it. No "digital lint" hangs around on your server, in logs, or in tracking tools. It still blends in seamlessly with the rest of the UI
+* The payments provider API responds with a transaction ID & payment intention
+* This transaction ID can then get used to grab additional detail - like say your user hits a page that shows billing information. The app asks the payment API for summary data for transaction id 1234. Nothing is stored locally, and nothing in that request can be used to identify the user.
 
 The next stage is to look at technical architecture. Many organisations have complex apps that need to connect to the internet. Nothing amazing there. But what tends to happen is all of the complexity exists in this one big app - even if 90% is internal rather than customer facing. 
 
