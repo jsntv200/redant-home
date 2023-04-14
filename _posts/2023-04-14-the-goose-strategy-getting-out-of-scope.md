@@ -37,17 +37,17 @@ excerpt_short: >-
 
   <ol> 
 
-  <li>Does everything need to be connected to the internet? Is there any way to
-  silo or remove this?</li>
+  <li>Does every part of your platform need to be connected to the internet? Is
+  there any way to silo or relocate this?</li>
 
-  <li> Move complex stuff out and on private network. Or only expose an API end
-  point.</li>
+  <li>Move complex stuff out and on private network. Limit exposure to an API
+  end point.</li>
 
   <li>Avoid tying everything together into a mega Voltron structure (aka all
   your eggs in one basket)</li>
 
-  <li>Same with data - if we make a “data lake” we’ll somehow win at internet is
-  not true</li>
+  <li>Avoid keeping hold of data longer than you actually need it for. Automate
+  the removal.</li>
 
   </ol>
 excerpt_long: ''
@@ -58,9 +58,15 @@ publisher: Red Ant
 
 Many organisations focus on how they can protect networks and platforms. Using the analogy of a house, they are putting better locks on their doors, installing video cameras and so on. But what about another strategy- have less valuable stuff in your house, so it’s less attractive to break in to. And if there is a break in, there isn’t much to steal.
 
-This is the “Get Out of Scope” strategy. The first stage is easy - are there any processes that your platform does that involve sensitive data? The common one here is transactions - taking payments from users. Especially with older apps, we see a lot of platforms either storing transaction information or using a payment gateway in a way that leaves transaction information hanging around. 
+This is the “Get Out of Scope” strategy. The first stage is easy - are there any processes that your platform does that involve sensitive data?
 
-Another one is health data - even things you personally might not consider to be “sensitive health data” like weight. And the one that gets a lot of people is children’s data - if your UI wasn’t set up to determine age, then you may be unknowingly collecting sensitive child data.
+Spoiler alert - pretty much everyone starts off thinking they don't have any sensitive data on their platform. That they don't do payments - or at least the transaction information is somehow separate and not their responsibility. Or that step where your users need to upload a photo of their drivers license to prove ID hasn't resulted in gigabytes of sensitive data.
+
+The common one here is transactions - taking payments from users. Especially with older apps, we see a lot of platforms either storing transaction information or using a payment gateway in a way that leaves transaction information hanging around. Your development team might pinkie promise there isn't, but you'd be surprised how much of this kind of data hangs around.
+
+Another one is health data - even things you personally might not consider to be “sensitive health data” like weight. There are specific definitions for different regions - so if you have users in say California, you might want to get up to speed on their definitions.
+
+And the one that gets a lot of people is children’s data. It doesn't matter if you didn't  if your UI wasn’t set up to determine age, then you may be unknowingly collecting sensitive child data.
 
 The approach here is to move that process out, and put a solid wall between your app and that data. Taking payments as an example - although it might seem really attractive to hoard lots of data points and transactional information about your users, the “get out of scope” strategy involves moving this completely out of your system. 
 
