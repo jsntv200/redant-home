@@ -73,8 +73,8 @@ The Goose approach is to move any sensitive process out, and put a solid wall be
 Here’s how best practice looks:
 
 * Your app stores only the **minimum** amount of information it needs to know about that user
-* Anything else, like payments, is sent to a 3rd party payments provider you trust (which means you've done due diligence and reviewed their processes and setup)
-* If your app does need to know something sensitive about a user (eg: "are they up to date with loan payments"), then make a de-identified request to a separate, locked down API. Even better would be to ask a separate 3rd party service.
+* Anything else, like payments, is sent to a 3rd party payments provider **you trust** (which means you've done due diligence and reviewed their processes and setup)
+* If your app does need to know something sensitive about a user (eg: "are they up to date with loan payments?"), then make a de-identified request to a separate, locked down API. Even better would be to ask a separate, trusted 3rd party service.
 * This is all done via an iframe - no server code or javascript ever deals with it. No "digital lint" hangs around on your server, in logs, or in tracking tools. It still blends in seamlessly with the rest of the UI
 * The payments provider API responds with a transaction ID & payment intention
 * This transaction ID can then get used to grab additional detail - like say your user hits a page that shows billing information. The app asks the payment API for summary data for transaction id 1234. Nothing is stored locally, and nothing in that request can be used to identify the user.
