@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Platform Security - maybe you're the security flaw?
-permalink: /automated-testing/maybe-you're-the-security-flaw/
+permalink: /cyber-security/maybe-you're-the-security-flaw/
 type: ideas
 categories:
   - cyber-security
