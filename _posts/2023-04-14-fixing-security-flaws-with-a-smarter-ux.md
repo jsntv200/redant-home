@@ -30,9 +30,9 @@ Maybe I shouldn’t be seeing sensitive information like salary, address or medi
 
 Maybe some of your staff work from home, and this search is left up on a laptop screen during a break. A flatmate walks by, a friend drops in, or this screen comes up by accident during a Zoom meeting. Either way, suddenly that list of sensitive information is exposed.
 
-The fix is pretty straightforward. Obviously the search results page should be limited to the information that is required. Nothing sensitive. 
+The fix is pretty straightforward. Obviously the search results page should be limited to the information that is required. Avoid anything sensitive. 
 
-Example: the search query itself may be sensitive:
+**Example**: the search query itself may be sensitive:
 
 “all patients with procedures next week with unpaid bills”
 
