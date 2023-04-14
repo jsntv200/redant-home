@@ -94,8 +94,10 @@ Any data collection process (eg: signing up new customers) should also have some
 
 The point of the Goose strategy is to avoid the need for any intensive security audit by staying out of scope as much as possible. 
 
-Make yourself a small target by:
+Make your platform a small target by:
 
 1. Not touching any sensitive information. Use a 3rd party payments provider and they can worry about PCI etc
-2. Not having all your eggs in one basket. Split your technical architecture out into the bits that customers need to access via the open internet, and everything else. Share data via APIs rather than common databases.
-3. Review what data is already being stored - particularly in 3rd party tools and analytics. Get rid of what isn’t being used, and set up automated processes to automatically clean out old data.
+2. Not having all your eggs in one basket. Split your technical architecture out into the bits that customers need to access via the open internet, and everything else. 
+3. Share data internally via APIs rather than common databases. Any internet facing API should be locked down, and kept as simple as possible.
+4. Review what data is already being stored - particularly in 3rd party tools and analytics. 
+5. Get rid of what isn’t being used, and set up automated processes to automatically clean out old data.
