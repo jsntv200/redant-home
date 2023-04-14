@@ -1,0 +1,39 @@
+
+ 
+
+---
+layout: default
+permalink: /cyber-security/
+title: Cyber security from a development perspective
+description: We look at Cyber Security from a Development perspective
+
+Many security teams will start with infrastructure and networks. Probing to see how a bad actor can get in to your platform.
+
+Our take is a bit different.
+
+We think you’re just as likely to be exposed by poor software - either in how it was built or is being maintained.
+
+---
+
+<header id="section-intro" class="blog-header blog-header--agile">
+  {% include blog-nav.html active="cyber-security" %}
+
+  <div class="blog-intro">
+    <div class="container">
+      <div class="middle">
+        <div class="boom">
+          <h1 class="slash">Cyber Security</h1>
+          <hr class="dash">
+          <p>We look at Cyber Security from a Development perspective</p>
+          <p>Many security teams will start with infrastructure and networks. Probing to see how a bad actor can get in to your platform.</p>
+          <p>Our take is a bit different.</p>
+          <p>We think you’re just as likely to be exposed by poor software - either in how it was built or is being maintained.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+{% include posts-by-category.html category="cyber-security" %}
