@@ -9,6 +9,7 @@ author: Ben Still
 date_published: 2023-04-13T14:00:00.000Z
 updated_at: 2023-04-13T14:00:00.000Z
 publisher: Red Ant
+description: A common problem
 ---
 
 Here’s a really common design flaw that can cause security problems. And it’s an easy one to fix.
@@ -36,7 +37,6 @@ Example: the search query itself may be sensitive:
 “all patients with procedures next week with unpaid bills”
 
 But the results should only be a list of patient names and procedure dates. Not which procedure they are having. Not how much they owe.
-
 
 The next part of the fix is to manage access to the detail page. That’s the page with all the potentially sensitive information on it. You may want to use a permission system to restrict access to this page:
 
