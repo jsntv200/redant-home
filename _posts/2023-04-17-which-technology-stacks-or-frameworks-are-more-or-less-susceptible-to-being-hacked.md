@@ -65,4 +65,4 @@ Some frameworks have been around for a while (various C, Ruby, Java and Python f
 
 However the actual technology isn’t that critical, but rather how it has been written and maintained. A regularly updated, frequently maintained platform and a good development team will help keep your platform secure. We've seen inherently secure frameworks being completely undone by poor development practices (both actual code and process).
 
-So yes, while the technology kind of matters, it really comes down to ongoing effort and experience of your team in understanding security risks.
+So yes, while the technology stack kind of matters, it really comes down to ongoing effort and experience of your team in understanding security risks.
