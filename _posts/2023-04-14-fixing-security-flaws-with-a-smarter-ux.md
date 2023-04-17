@@ -15,6 +15,10 @@ description: >-
   approaches to address the issue
 image_small: /assets/uploads/fake4.jpg
 image: /assets/uploads/fake4.jpg
+excerpt_short: >-
+  Some security problems come about when the security of information shown isn't
+  considered during the design process. Here's an easy fix, with 4 different
+  approaches to address the issue.
 ---
 
 Here’s a really common design flaw that can cause security problems. And it’s an easy one to fix.
