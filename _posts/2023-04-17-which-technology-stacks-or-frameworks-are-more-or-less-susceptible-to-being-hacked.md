@@ -74,3 +74,5 @@ However the actual technology isn’t that critical, but rather how it has been 
 So yes, while the technology stack kind of matters, it really comes down to ongoing effort and experience of your team in understanding security risks.
 
 > “Software is a just a tool to help accomplish something for people - many programmers never understood that. Keep your eyes on the delivered value, and don’t over focus on the specifics of the tools” -- John Carmack
+
+If you're interested in getting an evaluation of your technical stack or platform, we'd be happy to assist. We can help with some strategy, review code, and we can even review your development team and processes. Except if your entire platform is in Flash. 
