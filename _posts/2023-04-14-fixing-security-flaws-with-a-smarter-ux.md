@@ -52,11 +52,11 @@ The fix is pretty straightforward. Obviously the search results page should be l
 
 In this query, we're asking for potentially sensitive health **and** financial data.
 
-The admin person's task in this case is to send out payment reminders. But to achieve this, they just need a list of people that match the criteria, rather than all of the sensitive data which makes up that query. They need to know they are having a procedure soon, but they don't need to know what (which may be sensitive). They need to know who hasn't paid their bill, but they don't need to know for how much. They don't need to know their email, personally identifying information like Date of Birth or Address, what their last payment was or any other financial or health data. 
+The admin person's task in this case is to send out payment reminders. But to achieve this, they just need a list of people that match the criteria, rather than all of the sensitive data which makes up that query. They need to know they are having a procedure soon, but they don't need to know what (which may be sensitive). They need to know who hasn't paid their bill, but they don't need to know for how much. They don't need to know personally identifying information like Email, Date of Birth or Address, what their last payment was or any other financial or health data. 
 
 ![](/assets/uploads/search-ux-2.png)
 
-There might be a separate task to email out payment reminders to these people. Again, this could be designed so the audience is defined (people who haven't paid), and then each patient is then sent an email. An admin user doesn't need to get exposed to this information - they never need to see the actual email and the sending can all happen as a background process.
+There might be a separate task to email out payment reminders to these people. Again, this could be designed so the audience is defined (people who haven't paid), and then each patient is then sent an email. An admin user doesn't need to get exposed to this information - they never need to see the actual email with payment details and the sending can all happen as a background process.
 
 The next part of the fix is to manage access to the detail page. That’s the page with probably a lot more potentially sensitive information on it. You may want to use a permission system to restrict access to this page:
 
@@ -64,13 +64,13 @@ The next part of the fix is to manage access to the detail page. That’s the pa
 
 Creating an audit trigger might also be a good idea. Each time someone clicks through to a detail page, the person doing the search and the customer ID are recorded in a log. That way if there is an issue, you can understand the scope.
 
-For a page which is relatively vanilla but with one piece of sensitive information, you can use a "click to reveal" approach. Obscure the data, and only reveal it once the user has clicked. This allows for a permission check or similar to be applied, and it also allows for a logging point to verify who saw what.
+For a page which is relatively vanilla but with one piece of sensitive information, you can use a "click to reveal" approach. Obscure the data, and only reveal it once the user has clicked. This allows for a permission check or similar to be applied, and it also allows for an audit logging point to verify who saw what.
 
-Creating an audit alert could also work. So if someone suddenly looks at lots of sensitive data screens, then an alert email is sent out.
+Creating an audit alert could also work. So if someone suddenly looks at lots of sensitive data screens, then an alert email is sent out. Similarly for doing exports or lots of printing.
 
 Within the customer list, there may be some users that are more sensitive than others. An example of this is a celebrity or a Politically Exposed Person (PEP). As part of your user onboarding process, it is best practice to check with the user to see if they are a PEP, as they are more likely to come under threat from malicious activity.
 
-Another approach is to request a reason - so ask the user why they need to see this sensitive information. This would typically take the format of a job code or ticket number.
+Another approach is to request a reason. So when the admin user arrives on a screen, they are asked to describe why they need to see this sensitive information. This might take the format of a job code or ticket number.
 
 **Don't forget the API !**\
 On a more technical note, it's also important to consider what is coming back from the API data source. So while the page from the example above may now only display ID, name and procedure, a quick inspection of the data feed could expose more sensitive information. And while you may not consider Joe from Accounts capable of writing a script to paginate through the XHR and grab your entire patient data set, the person who wrote the USB key logger hidden inside the phone charging cable Joe found and has started using probably can.
@@ -79,7 +79,7 @@ On a more technical note, it's also important to consider what is coming back fr
 
 The fix here is:
 
-1. Try to **restrict logic in the front end** (FE). So the FE should ask the API "show me patients status outstanding next 30d", rather than getting a big list of patients and data and then doing the query itself. The API should do as much query work as possible.
+1. Try to **restrict logic in the front end** (FE). So the FE should ask the API "show me patients status outstanding next 30d", rather than getting a big list of patients and data and then doing the query in the FE. Your FE Developer might disagree and say it's easier this way, to which you need to use your Jedi powers to dissuade them. The API should do as much query work as possible.
 2. There is inevitably a lag between changes to API and FE. Make sure you **allow for development time** to do this kind of "tidy up", otherwise these pieces of sensitive data can hang around in API end points. Eventually, developers assume those fields are required somewhere, and they never get removed. When the change is made, remove them (or at least make a ticket to do so).
 3. **Compare what is being shown in the FE to what is returned via the API**. There should be API documentation tools that you can use to understand this and make the comparison.
 
