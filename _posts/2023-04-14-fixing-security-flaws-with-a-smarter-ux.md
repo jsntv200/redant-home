@@ -48,7 +48,7 @@ Happily, the fix is pretty straightforward. Obviously the search results page sh
 
 **Example**: the search query itself may reveal sensitive information:
 
-“all patients with procedures this month with unpaid bills”
+***“all patients with procedures this month with unpaid bills”***
 
 In this query, we're asking for potentially sensitive health **and** financial data.
 
