@@ -13,10 +13,6 @@ image_small: "/assets/uploads/2012/milo-on-floor-small.jpg"
 image: "/assets/uploads/2012/milo-on-floor.jpg"
 excerpt_short: Solutions to simple yet common and frustrating problems. We spill the
   beans on how we do it.
-excerpt_long: What if (block) Nginx really can do it all? It's taken a little customisation
-  but we think we've found the solution to a simple yet common and frustrating problem
-  with redirects and HTTPS and HTTP connections. Plus, see a upside down picture of
-  a cute dog!
 tags: []
 time: ''
 redirect_from:

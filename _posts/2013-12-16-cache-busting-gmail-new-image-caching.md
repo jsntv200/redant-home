@@ -15,11 +15,6 @@ image: "/assets/uploads/2013/somebody-set-us-up-the-bomb.jpg"
 excerpt_short: This week, GMail announced images are on by default. If you're a marketer,
   you might have seen some posts about how exciting this is that we can now track
   emails again.
-excerpt_long: If you're a GMail user, you've probably seen an update explaining that
-  <a href="http://gmailblog.blogspot.com.au/2013/12/images-now-showing.html">images
-  are now on by default</a>. If you're a marketer, you might have seen some posts
-  saying how exciting this is that email companies can now start tracking email opens
-  again. (Un)fortunately this is a bit of wishful thinking or misinformation.
 tags: []
 time: ''
 redirect_from:

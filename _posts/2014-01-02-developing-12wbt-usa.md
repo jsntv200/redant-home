@@ -17,10 +17,6 @@ image: "/assets/uploads/2014/mish-adelaide-finale.jpg"
 excerpt_short: We've been working on building the Michelle Bridges 12WBT platform
   in Australia for several years. A shiny new US version of the platform which launched
   this week.
-excerpt_long: We've been working on building the <a href="/portfolio/12wbt/">Michelle
-  Bridges 12WBT</a> platform in Australia for several years. In that time it has grown
-  massively. For the last few months we've been busy on a shiny new US version of
-  the platform which launched this week.
 tags: []
 time: ''
 redirect_from:

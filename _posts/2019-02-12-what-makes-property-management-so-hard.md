@@ -14,9 +14,6 @@ image_small: "/assets/uploads/2019/managed.png"
 image: "/assets/uploads/2019/managed.png"
 excerpt_short: From the outside looking in, the property management business looks
   pretty simple.
-excerpt_long: From the outside looking in, the property management business looks
-  pretty simple. Turns out there are quite a few things that make it trickier than
-  you might expect.
 tags:
 - software-development
 time: ''

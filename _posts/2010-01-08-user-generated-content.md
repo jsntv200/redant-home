@@ -12,8 +12,6 @@ image_small: "/assets/uploads/2010/user-generated-content-small.png"
 image: "/assets/uploads/2010/user-generated-content-large.png"
 excerpt_short: It's always great to get some user feedback. Brett was kind enough
   to make this video about "Tails for Whales"
-excerpt_long: The "Tails for Whales" campaign was hugely popular, we were lucky enough
-  to build their website. In the video below, Brett gives some some valuable feedback.
 tags: []
 time: ''
 redirect_from:

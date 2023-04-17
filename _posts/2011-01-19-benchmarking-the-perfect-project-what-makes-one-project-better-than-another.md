@@ -14,11 +14,6 @@ image_small: "/assets/uploads/2011/benchmark-small.jpg"
 image: "/assets/uploads/2011/benchmark-large.jpg"
 excerpt_short: A few months ago, we started working with a project management coach.
   Here's what happened.
-excerpt_long: We were already awesome, but we wanted more. This time our project managers
-  were in the spotlight, we hired a project management coach to refine our processes
-  and make us and even better team. Better processes equal happy project managers,
-  and happy project managers equal relaxed devs, and relaxed devs equal great work.
-  Sounds alright doesn't it?
 tags: []
 time: 5 Mins Read
 redirect_from:

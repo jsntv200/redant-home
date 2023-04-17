@@ -15,10 +15,6 @@ image: '/assets/uploads/2012/angularjs.png'
 excerpt_short:
   Have you noticed that some of the sites you use have been getting super
   fast lately?
-excerpt_long:
-  Have you noticed that some of the sites you use have been getting super
-  fast lately? Web pages seem to respond almost too quickly. Try typing a search term
-  into Google and see how quickly the suggested results come back.
 tags: []
 time: ''
 redirect_from:

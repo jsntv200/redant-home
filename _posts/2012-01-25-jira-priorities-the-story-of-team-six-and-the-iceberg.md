@@ -13,9 +13,6 @@ keywords: Jira priorities
 image_small: "/assets/uploads/2012/jira-screenshot-small.jpg"
 image: "/assets/uploads/2012/jira-screenshot.jpg"
 excerpt_short: Seal teams, titanic sinkers and our prioritization ratings.
-excerpt_long: We use Jira to keep track of all of our tasks - without it we'd be overwhelmed
-  with the sheer volume of "stuff" you need to keep track of on a typical digital
-  project.
 tags: []
 time: 10 Mins Read
 redirect_from:

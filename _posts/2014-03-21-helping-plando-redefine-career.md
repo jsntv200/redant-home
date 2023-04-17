@@ -13,12 +13,6 @@ image: "/assets/uploads/2014/plando-wide.png"
 excerpt_short: The world of employment and careers is due for a shakeup. We've been
   helping Plando build a career management platform that we think will fundamentally
   change the careers landscape.
-excerpt_long: We've been helping Plando build a career management platform that will
-  shakeup the world of employment and careers by giving individuals the tools to manage
-  their own careers. Traditionally employees have been reliant on their employer's
-  HR practices and tools to successfully map their career path. Plando changes all
-  this. The project has been chock full of innovative ideas and code, with the whole
-  project being built on the Grape API micro-framework
 tags: []
 time: ''
 redirect_from:

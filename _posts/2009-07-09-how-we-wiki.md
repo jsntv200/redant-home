@@ -14,7 +14,6 @@ meta:
   focus_keywords: confluence
 excerpt:
 excerpt_short: Red Ant + clients + Wiki = awesome knowledge collaboration and sharing.
-excerpt_long: A Wiki is a place for storing information, it's a collaboration tool, and it's a space for sharing. Everyone's involved, no one sits on the sidelines. If something needs updating you have the power to do it, and so you should. This makes it's a pretty reliable platform for retrieving up to date knowledge. We talk about how that works with our clients in the mix too.
 published: false
 date_published: ! ' 2009-07-09'
 updated_at: 2009-07-09

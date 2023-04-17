@@ -2,7 +2,7 @@
 layout: post
 permalink: /online-payments/road-to-digital-payments-success/
 type: online-payments
-categories: 
+categories:
   - online-payments
 author: Ben Still
 tags: []
@@ -15,7 +15,6 @@ keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/where-to-start-on-the-road-to-digital-payments-success-min.png"
 image: "/assets/uploads/2023/where-to-start-on-the-road-to-digital-payments-success-min.png"
 excerpt_short: A checklist of steps to take to begin the process of integrating online payments into your business. Start small and soon, and make sure you validate your plan with key stakeholders.
-excerpt_long:
 redirect_from: []
 updated_at: 2023-02-08
 ---
@@ -34,7 +33,7 @@ Validate your assessment results with stakeholders. You’ll probably need to br
 
 **Make a rough plan, not a specification**
 
-Don’t get bogged down in trying to work everything out at the start. It can be tempting- but remember that this can be a form of procrastination. Your big document might look impressive. But like Mike Tyson said: everyone has a plan until they get punched in the face. 
+Don’t get bogged down in trying to work everything out at the start. It can be tempting- but remember that this can be a form of procrastination. Your big document might look impressive. But like Mike Tyson said: everyone has a plan until they get punched in the face.
 Try to rough out a road map, focussing on key milestones and results rather than the minutiae of how you’re going to get there.
 Put another way, none of your customers will care (or even know) if you’ve spent $10k or $10M on your payment technology. They just want to complete their transaction quickly, and not read about your organisation has just become the latest hack.
 

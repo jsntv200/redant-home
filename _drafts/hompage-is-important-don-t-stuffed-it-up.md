@@ -14,7 +14,6 @@ keywords: ''
 image_small: "/assets/uploads/2020/group-2.png"
 image: "/assets/uploads/2020/group-2.png"
 excerpt_short: ''
-excerpt_long: ''
 redirect_from:
 
 ---

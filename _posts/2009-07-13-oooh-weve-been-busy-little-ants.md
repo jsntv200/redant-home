@@ -13,10 +13,6 @@ image: '/assets/uploads/2009/troopers-large.jpg'
 excerpt_short:
   Would you like to see what we've been doing lately? From inspiring
   kids to read to launching the new Kleenex website, it's all here.
-excerpt_long:
-  We're proud of what we do, and we'd like to share that with you. It's
-  nice to know that we get to create some wonderful sites as standalones and as part
-  of bigger campaigns. Take a look at some of our recent projects at Red Ant below.
 tags: []
 time: ''
 redirect_from:

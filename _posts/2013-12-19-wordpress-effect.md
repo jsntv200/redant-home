@@ -14,13 +14,6 @@ image_small: "/assets/uploads/2013/canyon-small.jpg"
 image: "/assets/uploads/2013/canyon-small.jpg"
 excerpt_short: The growth of tools like Wordpress have had a massive impact on the
   web development market. It's created two very distinct areas with a huge gap between.
-excerpt_long: The growth of tools like Wordpress have had a massive impact on the
-  web development market. It's created two very distinct areas with a huge gap between.
-  One side are marketing sites. These have become very easy to make, and can be set
-  up now in hours rather than months. On the other side are the "digital products"
-  - sites which provide some form of utility and/or data. With these the options and
-  possibilities are endless, and if anything complexity and effort to create \*\*has
-  actually increased.
 tags: []
 time: ''
 redirect_from:

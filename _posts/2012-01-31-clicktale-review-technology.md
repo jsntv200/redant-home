@@ -15,13 +15,6 @@ image: '/assets/uploads/2012/clicktale.png'
 excerpt_short:
   It could be so good, but sadly Clicktale doesn't do everything it says
   on the box.
-excerpt_long:
-  Clicktale is a software tool which allows you to track what users are
-  doing on your website. It is used to analyse how people behave and what they do
-  on particular pages. we've used it on several projects to try to gain a better understanding
-  of how users were travelling through the site. More specifically, we were trying
-  to get a better understanding of how they were using particular pages & forms, and
-  what steps we could take to improve our conversion rate.
 tags: []
 time: ''
 redirect_from:

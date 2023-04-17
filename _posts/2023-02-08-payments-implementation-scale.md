@@ -2,7 +2,7 @@
 layout: post
 permalink: /online-payments/payments-implementation-scale/
 type: online-payments
-categories: 
+categories:
   - online-payments
 author: Ben Still
 tags: []
@@ -15,7 +15,6 @@ keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/payments-implementation-scale-min.png"
 image: "/assets/uploads/2023/payments-implementation-scale-min.png"
 excerpt_short: An explanation of the different technical approaches for implementing online payments, from a simple shop on eBay through to a more scalable and custom technical platform.
-excerpt_long:
 redirect_from: []
 updated_at: 2023-02-08
 ---
@@ -31,7 +30,7 @@ updated_at: 2023-02-08
 [SaaS platform with tightly integrated payment logic, using multiple payment solutions](#saas-platform-multiple-payment-solutions)
 
 <div id="selling-on-a-marketplace-platform"></div>
-### Selling on a marketplace platform  
+### Selling on a marketplace platform
 - eBay
 - Amazon
 
@@ -52,7 +51,7 @@ Cons
 - BigCommerce
 
 Pros
-- The majority of the work has been done; customise to suit your business 
+- The majority of the work has been done; customise to suit your business
 - Can run your store from your own domain
 - You own the relationship with your customer
 - Not competing for cart space with other sellers
@@ -76,7 +75,7 @@ Cons
 - Requires highly skilled expertise to implement and maintain (although this shouldn’t too much of a problem if you’re running a custom-built ecommerce solution).
 
 <div id="saas-product-complex-payment-logic"></div>
-### SaaS product with tightly integrated complex payment logic: 
+### SaaS product with tightly integrated complex payment logic:
 
 Custom application +
 - Stripe
@@ -84,7 +83,7 @@ Custom application +
 - BrainTree
 
 Pros
-- Payments can be deeply integrated into the customer experience   
+- Payments can be deeply integrated into the customer experience
 - Highly flexible to fit with your specific payment needs
 
 Cons
@@ -100,9 +99,9 @@ Custom platform application +
 
 Pros
 - Various payment solution can be used simultaneously to support the needs of a diverse range of platform users
-- Payments can be deeply integrated into the customer experience   
+- Payments can be deeply integrated into the customer experience
 - Highly flexible to fit with your specific payment needs
-- Ability to offer a range of payment options to customers 
+- Ability to offer a range of payment options to customers
 
 Cons
 - Changing or adding new payment gateways can be expensive, time consuming and risky

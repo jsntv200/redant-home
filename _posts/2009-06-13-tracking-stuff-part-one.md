@@ -14,7 +14,6 @@ meta:
   focus_keywords: tracking bugs
 excerpt:
 excerpt_short: Bugs, no body likes them, everyone has to deal with them. Here's how we've tried tracking ours so far.
-excerpt_long: Excel can be great for so many things, we have a go at using it to track bugs that come up within the development process. Read on to see an easy-to-digest review of how it went for us.
 published: false
 date_published: ! ' 2009-06-13'
 updated_at: 2009-06-13

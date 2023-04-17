@@ -14,11 +14,6 @@ image_small: "/assets/uploads/2013/ruby-on-rails.png"
 image: "/assets/uploads/2013/ruby-on-rails.png"
 excerpt_short: '"convention over configuration". How to improve team effectiveness
   and quality.'
-excerpt_long: Before we switched to Ruby on Rails, we had a small team working in
-  Microsoft ASP and .Net. They'd butt heads all the time over seemingly trivial stuff,
-  which had the impact of slowing us down. Once using Ruby on Rails, we started approaching
-  these issues from a "convention over configuration" perspective, which helped us
-  improve efficiency and quality. Here's a small example to illustrate how.
 tags: []
 time: ''
 redirect_from:
@@ -30,7 +25,7 @@ updated_at: 2013-04-10
 ---
 ## The problem
 
-One developer would work on a project, and establish a way of doing something - for example he might make all the database table names formatted first letter caps (CamelCase). Another developer might have a burning desire for all lowercase. Pretty soon there would be a heated and totally inane argument about which saved more bytes of data. The second developer would complain about the first one wanting to boss him around, and so on. 
+One developer would work on a project, and establish a way of doing something - for example he might make all the database table names formatted first letter caps (CamelCase). Another developer might have a burning desire for all lowercase. Pretty soon there would be a heated and totally inane argument about which saved more bytes of data. The second developer would complain about the first one wanting to boss him around, and so on.
 
 The real clangers were always when we had different developers working on different parts of a big project. We'd discover that while some parts of the code worked fine, other parts used technology that was case sensitive. Remember how one guy was using **TableName** and the other was using **tablename**? Once some part of the project becomes case sensitive, everything comes to a screeching halt.
 

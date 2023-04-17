@@ -14,9 +14,6 @@ image_small: "/assets/uploads/2013/mobile-join-small.jpg"
 image: "/assets/uploads/2013/mobile-join.jpg"
 excerpt_short: Most of our projects now have over 50% mobile traffic. So mobile strategy
   is becoming increasingly important
-excerpt_long: If you're making stuff for the web, mobile is a really big deal. Most
-  of our projects have over 50% of visits from mobile, so it's really important to
-  form and execute a mobile strategy well. Which can be hard.
 tags: []
 time: ''
 redirect_from:

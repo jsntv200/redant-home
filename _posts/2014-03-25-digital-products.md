@@ -15,11 +15,6 @@ excerpt_short:
   One of the things we focus on is developing Digital Products. These
   are websites that provide some form of utility to users - these allow people to
   "do" stuff
-excerpt_long:
-  One of the things we focus on is developing Digital Products. These
-  are websites that provide some form of utility to users - these allow people to
-  "do" stuff. Unlike a static site, which might be used for marketing a product or
-  service, these sites <strong>are themselves</strong> the product or service.
 tags: []
 time: ''
 redirect_from:

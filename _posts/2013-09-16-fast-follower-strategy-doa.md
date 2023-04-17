@@ -14,11 +14,6 @@ image_small: "/assets/uploads/2013/cat-small.jpg"
 image: "/assets/uploads/2013/cat.jpg"
 excerpt_short: Five reasons why we think your fast follower strategy might not work
   out so well.
-excerpt_long: Fast follower strategy is a term used to <a href="http://www.businessinsider.com.au/youre-better-off-being-a-fast-follower-than-an-originator-2010-10">describe
-  the strategy</a> of some companies to look at what a rival is doing and come out
-  quickly with a similar "follower" product, eventually overtaking the original product.
-  It's the flip of that equally slick sounding strategy "first mover advantage", which
-  gets used quite a bit around dotcom bubbles to justify ideas that no one needs.
 tags: []
 time: ''
 redirect_from:

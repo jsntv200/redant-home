@@ -14,10 +14,6 @@ image_small: "/assets/uploads/2009/me-and-sarah-small.jpg"
 image: "/assets/uploads/2009/me-and-sarah.jpg"
 excerpt_short: There's a bit of a design trend at the moment towards making more of
   the footer area at the bottom of your site.
-excerpt_long: There's a bit of a design trend at the moment towards making more of
-  the footer area at the bottom of your site. Rather than just having a few links
-  and a copyright statement, some sites are starting to add more elements to their
-  footer area as a way of helping users navigate.
 tags: []
 time: ''
 redirect_from:

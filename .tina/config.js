@@ -445,11 +445,6 @@ export default defineConfig({
             type: "string",
             component: "textarea",
           }, {
-            label: "excerpt_long",
-            name: "excerpt_long",
-            type: "string",
-            component: "textarea",
-          }, {
             label: "tags",
             name: "tags",
             type: "string",

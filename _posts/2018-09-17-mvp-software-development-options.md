@@ -14,12 +14,6 @@ image_small: "/assets/uploads/2018/husky-stuck-in-vent.jpg"
 image: "/assets/uploads/2018/husky-stuck-in-vent.jpg"
 excerpt_short: 'A really common scenario: you''ve had some code developed, but now
   you''re feeling a bit stuck'
-excerpt_long: 'A really common scenario: you''ve had some code developed, but now
-  you''re feeling a bit stuck. Typically:  your developer doesn''t get what you''re
-  trying to do  they are unavailable to do further work  you need to move faster  concerns
-  about the work being good enough to commercialise or scale  Don''t stress - lots
-  of people are in exactly the same situation. There are a few key decisions you need
-  to work out.'
 tags: []
 time: ''
 redirect_from:

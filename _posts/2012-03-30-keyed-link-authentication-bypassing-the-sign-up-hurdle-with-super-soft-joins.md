@@ -13,8 +13,6 @@ keywords: super soft joins
 image_small: "/assets/uploads/2012/clear-your-vision-home-small.jpg"
 image: "/assets/uploads/2012/clear-your-vision-home.jpg"
 excerpt_short: How we use super-soft joins to interact with users on personal subjects.
-excerpt_long: Sometimes engaging users can be difficult if the subject matter is intensely
-  personal. Super-soft joins helped us help people quit drugs.
 tags: []
 time: ''
 redirect_from:
