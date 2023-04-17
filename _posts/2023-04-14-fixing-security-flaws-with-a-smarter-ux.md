@@ -41,7 +41,7 @@ Maybe I shouldn’t be seeing sensitive information like salary, address or medi
 
 Maybe some of your staff work from home, and this search is left up on a laptop screen during a break. A flatmate walks by, a friend drops in, or this screen comes up by accident during a Zoom meeting. Either way, suddenly that list of sensitive information is exposed.
 
-The scope for any security work is quite broad - it needs to cover any systems and people that might be exposed to sensitive data. Obviously the broader this is, the more work involved in securing it will be.
+The scope for any security work here becomes quite broad - it needs to cover any systems and people that might be exposed to sensitive data. Obviously the broader this exposure is, the more work required to audit and then secure the platform.
 
 **The solution**\
 Happily, the fix is pretty straightforward. Obviously the search results page should be limited to the information that is required. Avoid anything sensitive. 
@@ -52,7 +52,7 @@ Happily, the fix is pretty straightforward. Obviously the search results page sh
 
 In this query, we're asking for potentially sensitive health **and** financial data.
 
-The admin person's task in this case is to send out payment reminders. But to achieve this, they just need a list of people that match the criteria, rather than all of the sensitive data which makes up that query. They need to know they are having a procedure soon, but they don't need to know what (which may be sensitive). They need to know who hasn't paid their bill, but they don't need to know for how much. They don't need to know personally identifying information like Email, Date of Birth or Address, what their last payment was or any other financial or health data. 
+The admin person's task in this case is to send out payment reminders. But to achieve this, they just need a list of people that match the criteria, rather than all of the sensitive data which makes up that query. They need to know they are having a procedure soon, but they don't need to know what (which may be sensitive). They need to know who hasn't paid their bill, but they don't need to know for how much. They don't need to know personally identifying information like Email, Date of Birth or Address, what their last payment was or any other financial or health data.
 
 ![](/assets/uploads/search-ux-2.png)
 
@@ -60,7 +60,7 @@ There might be a separate task to email out payment reminders to these people. A
 
 The next part of the fix is to manage access to the detail page. That’s the page with probably a lot more potentially sensitive information on it. You may want to use a permission system to restrict access to this page:
 
-***Example: a person can only access this patient data if they are connected to that patient (eg: they are the patient's Doctor). ***
+\*\*\*Example: a person can only access this patient data if they are connected to that patient (eg: they are the patient's Doctor). \*\*\*
 
 Creating an audit trigger might also be a good idea. Each time someone clicks through to a detail page, the person doing the search and the customer ID are recorded in a log. That way if there is an issue, you can understand the scope.
 
