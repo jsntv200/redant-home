@@ -31,6 +31,8 @@ Nothing unusual there.
 
 The issue comes about when the content in each row grows to include potentially sensitive data. And it typically happens gradually over time. The first iteration might have only had ID, firstname, lastname. But over time, to make that search page more useful, more details were added. 
 
+![](/assets/uploads/search-ux-1.png)
+
 Which is good - the software has been improved to make the search process better and more efficient. But in meeting that objective, there’s been a compromise in security. 
 
 If I type in a common search term (eg: “.com” is going to be in most email addresses), I’ll get a list of all users. Maybe the person doing this search isn’t who you expect - and they can scrape or screen shot your entire user list.
@@ -39,23 +41,30 @@ Maybe I shouldn’t be seeing sensitive information like salary, address or medi
 
 Maybe some of your staff work from home, and this search is left up on a laptop screen during a break. A flatmate walks by, a friend drops in, or this screen comes up by accident during a Zoom meeting. Either way, suddenly that list of sensitive information is exposed.
 
-![]()
+The scope for any security work is quite broad - it needs to cover any systems and people that might be exposed to sensitive data. Obviously the broader this is, the more work involved in securing it will be.
 
+**The solution**\
 The fix is pretty straightforward. Obviously the search results page should be limited to the information that is required. Avoid anything sensitive. 
 
-**Example**: the search query itself may be sensitive:
+**Example**: the search query itself may reveal sensitive information:
 
-“all patients with procedures next week with unpaid bills”
+“all patients with procedures this month with unpaid bills”
 
-But the results should only be a list of patient names and procedure dates. Not which procedure they are having. Not how much they owe.
+In this query, we're asking for potentially sensitive health **and** financial data.
+
+The admin person's task in this case is to send out payment reminders. But to achieve this, they just need a list of people that match the criteria, rather than all of the sensitive data which makes up that query. They need to know they are having a procedure soon, but they don't need to know what (which may be sensitive). They need to know who hasn't paid their bill, but they don't need to know for how much. They don't need to know their email, personally identifying information like Date of Birth or Address, what their last payment was or any other financial or health data. 
 
 ![](/assets/uploads/search-ux-2.png)
 
-The next part of the fix is to manage access to the detail page. That’s the page with all the potentially sensitive information on it. You may want to use a permission system to restrict access to this page:
+There might be a separate task to email out payment reminders to these people. Again, this could be designed so the audience is defined (people who haven't paid), and then each patient is then sent an email. An admin user doesn't need to get exposed to this information - they never need to see the actual email and the sending can all happen as a background process.
 
-Example: a person can only access this patient data if they are their patient. 
+The next part of the fix is to manage access to the detail page. That’s the page with probably a lot more potentially sensitive information on it. You may want to use a permission system to restrict access to this page:
+
+***Example: a person can only access this patient data if they are connected to that patient (eg: they are the patient's Doctor). ***
 
 Creating an audit trigger might also be a good idea. Each time someone clicks through to a detail page, the person doing the search and the customer ID are recorded in a log. That way if there is an issue, you can understand the scope.
+
+For a page which is relatively vanilla but with one piece of sensitive information, you can use a "click to reveal" approach. Obscure the data, and only reveal it once the user has clicked. This allows for a permission check or similar to be applied, and it also allows for a logging point to verify who saw what.
 
 Creating an audit alert could also work. So if someone suddenly looks at lots of sensitive data screens, then an alert email is sent out.
 
