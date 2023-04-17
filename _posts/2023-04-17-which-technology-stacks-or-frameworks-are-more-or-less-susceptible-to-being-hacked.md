@@ -26,7 +26,7 @@ The short answer is no. 
 But it’s complicated.
 
 **End of Life technologies**\
-There are some technologies that are inherently less secure and more vulnerable, but this is largely due to how old they are. Specifically, how long it’s been since last update. There are some with no upgrade path - otherwise known as “End of Life”. Flash and ASP are all examples of this. And yet I’m regularly amazed at how many systems are still working and in production!
+There are some technologies that are inherently less secure and more vulnerable, but this is largely due to how old they are. Specifically, how long it’s been since last update. There are some with no upgrade path - otherwise known as “End of Life”. Flash and "classic" ASP are all examples of this. And yet I’m regularly amazed at how many systems are still working and in production!
 
 Of course there are a lot more recent examples of technology frameworks that have reached end of life. I could make a crack here about that being about 99% of all Javascript libraries, but I won’t.
 
