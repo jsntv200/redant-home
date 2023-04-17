@@ -10,6 +10,8 @@ description: >-
   There are some technologies that are inherently less secure and more
   vulnerable, but this is largely due to how old they are. Specifically, how
   long it’s been since last update
+date_published: 2023-04-16T14:00:00.000Z
+updated_at: 2023-04-16T14:00:00.000Z
 ---
 
 We’re often asked if a particular framework or technology is more or less susceptible to being hacked than another. Or put another way, is one “more secure” than another?
@@ -57,5 +59,3 @@ In summary, yes there are some tech stacks and frameworks that are built with se
 Some frameworks have been around for a while (various C, Ruby, Java and Python flavours) that are very actively developed and have a strong security focus. There are other old frameworks such as Cold Fusion which have had anaemic developer interest and updates, while others like Flash have been shut down entirely.
 
 However the actual technology isn’t that critical, but rather how it has been written and maintained. A regularly updated, frequently maintained platform and a good development team will help keep your platform secure.
-
-
