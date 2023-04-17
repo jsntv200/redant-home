@@ -50,17 +50,19 @@ The bigger in size the code base is, the more surface area there is for vulnerab
 
 There are two gotchas here:
 
-1. Sometimes the core code base might not be that big. But then it uses a large number of software libraries for specific functionality, which increases the overall size. Some of these libraries may well be super popular, actively maintained and updated- in which case you could assume they are relatively safe. Others can be either 
-   * **out of date** - a bug or flaw has been found, and the library has been updated but your code isn’t using the current version for a variety of reasons or
-   * **Abandonware** - the library has fallen out of favour, the developer has lost interest, or been hacked so spectacularly that it has been abandoned.
-2. There may be “unused” parts of your code base, which swells overall size. This is a typical indication of a large amount of technical debt, where a change was made quickly but the developer never got around to completing the task. In this case, some code was made redundant but never removed from the code base. We’ve had occasions where this was the understanding, but then once that code was removed, functionality broke.
+1. Sometimes your core platform code base might not be that big. But then it includes a large number of software libraries for specific functionality, which increases the overall size. Some of these libraries may well be super popular, actively maintained and updated- in which case you could assume they are relatively safe. Others can be either 
+   * **Out of date** - a bug or flaw has been found, and the library has been updated but your code isn’t using the current version for a variety of reasons, or
+   * **Abandonware** - the library has fallen out of favour, the developer has lost interest, or been hacked so spectacularly that it has been abandoned and no updates exist
+2. There may be “unused” parts of your code base, which is sometimes argued shouldn't be included in a review as it isn't being used. This is a typical indication of a large amount of technical debt, where a change was made quickly but the developer never got around to completing the task. In this case, some code was made redundant but never removed from the code base. We’ve had occasions where this was the understanding, but then once that code was removed, functionality broke - which indicates that it was being used.
    It’s wise to include this “unused” code in the size calculation, because you can’t be 100% sure it isn’t still being used, or with a simple change can be reactivated.
 
 In summary, yes there are some tech stacks and frameworks that are built with security in mind. As a general rule, avoid anything that is either 
 
 * **Super new** - typically described breathlessly by junior developers who are busting to try them out as “modern” or
-* **Super old** - typically described as “legacy”. 
+* **Super old** - typically described as “legacy”
 
-Some frameworks have been around for a while (various C, Ruby, Java and Python flavours) that are very actively developed and have a strong security focus. There are other old frameworks such as Cold Fusion which have had anaemic developer interest and updates, while others like Flash have been shut down entirely.
+Some frameworks have been around for a while (various C, Ruby, Java and Python flavours) that are very actively developed and have a strong security focus out of the box. There are other old frameworks such as Cold Fusion which have had anaemic developer interest and updates, while others like Flash have been shut down entirely.
 
-However the actual technology isn’t that critical, but rather how it has been written and maintained. A regularly updated, frequently maintained platform and a good development team will help keep your platform secure.
+However the actual technology isn’t that critical, but rather how it has been written and maintained. A regularly updated, frequently maintained platform and a good development team will help keep your platform secure. We've seen inherently secure frameworks being completely undone by poor development practices (both actual code and process).
+
+So yes, while the technology kind of matters, it really comes down to ongoing effort and experience of your team in understanding security risks.
