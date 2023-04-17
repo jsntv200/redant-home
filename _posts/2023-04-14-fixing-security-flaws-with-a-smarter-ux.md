@@ -39,6 +39,8 @@ Maybe I shouldn’t be seeing sensitive information like salary, address or medi
 
 Maybe some of your staff work from home, and this search is left up on a laptop screen during a break. A flatmate walks by, a friend drops in, or this screen comes up by accident during a Zoom meeting. Either way, suddenly that list of sensitive information is exposed.
 
+![]()
+
 The fix is pretty straightforward. Obviously the search results page should be limited to the information that is required. Avoid anything sensitive. 
 
 **Example**: the search query itself may be sensitive:
@@ -46,6 +48,8 @@ The fix is pretty straightforward. Obviously the search results page should be l
 “all patients with procedures next week with unpaid bills”
 
 But the results should only be a list of patient names and procedure dates. Not which procedure they are having. Not how much they owe.
+
+![](/assets/uploads/search-ux-2.png)
 
 The next part of the fix is to manage access to the detail page. That’s the page with all the potentially sensitive information on it. You may want to use a permission system to restrict access to this page:
 
