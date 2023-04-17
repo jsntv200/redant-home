@@ -48,3 +48,5 @@ We often find these changes get pushed down the development road map. Yes, every
 This failure to prioritise means these tasks never get done. Which in turn prompts users to invent workarounds to help them complete tasks - which can then create new security loopholes or flaws. A common one is one user creating multiple accounts, each with different privileges or permissions - so an admin user might have their own account, but also separate accounts specific for customers.
 
 Take a fresh look at your system or platform. Can you improve your security with better development? Are there any features that have been added (like spoofing) which open up security holes? What about things you know need to be added (like multi factor), but the team never seems to find the time to address?
+
+If you'd like to get some new eyes over your platform, we'd be keen to help. We can review code, as well as your development team and the processes they are using to build and maintain the platform. You might find a strategy or product design workshop with us useful in terms of planning out next steps.
