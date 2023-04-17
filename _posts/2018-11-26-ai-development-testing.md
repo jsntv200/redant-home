@@ -15,8 +15,6 @@ image_small: "/assets/uploads/2018/extra_large-1498661132-cover-image-1.jpg"
 image: "/assets/uploads/2018/extra_large-1498661132-cover-image.jpg"
 excerpt_short: Testing Machine Learning or AI powered features is often trickier than
   it seems
-excerpt_long: Testing Machine Learning or AI powered features is often trickier than
-  it seems
 tags: []
 time: ''
 redirect_from:

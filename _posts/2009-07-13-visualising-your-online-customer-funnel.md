@@ -13,10 +13,6 @@ image_small: "/assets/uploads/2009/funnel-small.png"
 image: "/assets/uploads/2009/funnel-large.jpg"
 excerpt_short: Refine your user experience and create better ROI by taking an internal
   look at what happens when your customer visits your site.
-excerpt_long: Here we look at converting customers from their first visit to your
-  website to the end point at which they either purchase or become fully engaged with
-  what you're offering. By visualising this you can refine the process and create
-  a better user experience and increase your ROI.
 tags: []
 time: ''
 redirect_from:

@@ -16,12 +16,6 @@ image_small: "/assets/uploads/2014/dolphins-with-lasers-small.jpg"
 image: "/assets/uploads/2014/dolphins-with-lasers.jpg"
 excerpt_short: A common pain point when using databases like MySQL on small projects
   is a simple way of managing backups. Here is a solution we've created.
-excerpt_long: A common pain point when using <a href="http://www.mysql.com">MySQL</a>
-  <a href="https://mariadb.org">and</a> <a href="http://www.percona.com/software">friends</a>
-  is managing backups. Generally the solutions on offer are focused on huge databases
-  and are overly complex or time-consuming to setup. For small databases - like a
-  database behind a content managed website - the overhead of setting up and maintaining
-  MySQL backups can be disproportionate.
 tags: []
 time: ''
 redirect_from:

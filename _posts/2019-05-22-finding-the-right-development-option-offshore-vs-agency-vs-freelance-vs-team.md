@@ -12,7 +12,6 @@ how_bulletpoints:
 type: news
 permalink: software-development/hiring-a-web-development-team/
 excerpt_short: Finding the right developer is a challenge. 4 options to consider
-excerpt_long: Finding the right developer is a challenge. 4 options to consider
 time: ''
 author: Ben
 categories:
@@ -100,7 +99,7 @@ The next option is using a **Local Agency** like Red Ant. The first question to 
 
 Once you’ve met the team, make sure you understand how they work (agile or waterfall) and the kind of work they specialise in. Both tech stack (eg: Ruby on Rails, React, etc) as well as industry and platforms (eg: payment systems). Ask questions around estimation, testing, devops and warranty on work.
 
-`PROS:` Availability and reliability. More mature processes will mean better efficiency.  
+`PROS:` Availability and reliability. More mature processes will mean better efficiency.
 You’ll probably get what you need faster. You can sit with the team and work through issues. Better project management, clear deliverables, and ideally a guarantee on work done.
 
 Collectively they’ll probably have more experience than a freelancer or your own team. Having code peer reviewed by other senior devs avoids poor tech or architectural choices.

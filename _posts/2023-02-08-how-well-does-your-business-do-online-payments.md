@@ -2,7 +2,7 @@
 layout: post
 permalink: /online-payments/how-well-does-your-business-do-online-payments/
 type: online-payments
-categories: 
+categories:
   - online-payments
 author: Ben Still
 tags: []
@@ -15,7 +15,6 @@ keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/how-well-does-your-business-do-online-payments-min.png"
 image: "/assets/uploads/2023/how-well-does-your-business-do-online-payments-min.png"
 excerpt_short: What are the areas that we look at when analysing the maturity of your online payments process? This article explains what they are, and how they are relevant.
-excerpt_long:
 redirect_from: []
 updated_at: 2023-02-08
 ---
@@ -41,13 +40,13 @@ On the other hand, even though the bolt on approach was quick, it doesn’t nece
 
 **Security**
 
-Security is the big ticket issue with payments. One way to test if there’s a security issue is when trying to answer the question of who wears the risk if something Really Bad happens. A mature organisation is aware and understands it in pragmatic, relative terms. One early sign of immaturity is when people tell you that there is no risk, or that somehow someone else will wear it. Or that a vendor is somehow going to take the fall if something goes wrong. 
+Security is the big ticket issue with payments. One way to test if there’s a security issue is when trying to answer the question of who wears the risk if something Really Bad happens. A mature organisation is aware and understands it in pragmatic, relative terms. One early sign of immaturity is when people tell you that there is no risk, or that somehow someone else will wear it. Or that a vendor is somehow going to take the fall if something goes wrong.
 
 The follow up question is that if a problem did occur, who would be the first to pick it up - someone in the organisation or a customer?
 
 **Context**
 
-How well do people in your organisation understand needs around payment processes and customer data? At one end of the scale, the payment process and data handling might look very similar to what it was 10 or 20 years ago. People involved are set in their ways, or perhaps there are legacy systems That Can Never Be Changed. 
+How well do people in your organisation understand needs around payment processes and customer data? At one end of the scale, the payment process and data handling might look very similar to what it was 10 or 20 years ago. People involved are set in their ways, or perhaps there are legacy systems That Can Never Be Changed.
 
 At the other end is a more customer focussed approach, with needs and pain points identified and reflected in the design. Backed up by research and stakeholder input.
 
@@ -57,7 +56,7 @@ How well are these processes documented? Are there clear responsibilities and pr
 
 **Knowledge & Skills**
 
-How well does the team understand the payment process? Is it widely understood, or the domain of a select few? Has this knowledge been recorded in some kind of central area, and does everyone have access to this information? 
+How well does the team understand the payment process? Is it widely understood, or the domain of a select few? Has this knowledge been recorded in some kind of central area, and does everyone have access to this information?
 
 What about the skill level of the team when it comes to payments? Is there a program of ongoing training and learning?
 
@@ -79,10 +78,10 @@ They also need to have enough authority to make decisions and effect change. An 
 
 Most organisations have some kind of simple metric for payments - such as the cash flow for this week. More mature payment processes break this down in to a lot more detail, along with tracking the results against expected values (KPIs).
 
-But to start at the beginning, the first step is to set up some kind of monitoring, so you can start to measure different metrics. Ideally this is log based rather than just current - that way you can understand the current state but also see context (is this above or below the average or trend?). As your process matures, you can start to track leading indicators which then result in a payment metric. 
+But to start at the beginning, the first step is to set up some kind of monitoring, so you can start to measure different metrics. Ideally this is log based rather than just current - that way you can understand the current state but also see context (is this above or below the average or trend?). As your process matures, you can start to track leading indicators which then result in a payment metric.
 
 An example of your payment metric might be percent of successful transactions. But before that might be incoming traffic to your site. And before that might be google searches on specific terms. Each of these also has a negative result - for example how much traffic wasn’t coming to your site? Of the traffic that did arrive, how many of those people never got to payment? And of the payments, how many were unsuccessful?
 
-Once you have metrics, it’s also a really good idea to make these both accessible and able to be queried. So if one of your board members wants to compare results of a metric for this month and the same period last year, it should be quick and easy. 
+Once you have metrics, it’s also a really good idea to make these both accessible and able to be queried. So if one of your board members wants to compare results of a metric for this month and the same period last year, it should be quick and easy.
 
-Finally, mature organisations also have processes in place that allow them to quickly respond to metrics. This tends to make them more proactive (before the trend becomes a problem) rather than reactive (lots of customers complaining). They execute work with the clear objective of improving specific metrics, and the results can be measured. 
+Finally, mature organisations also have processes in place that allow them to quickly respond to metrics. This tends to make them more proactive (before the trend becomes a problem) rather than reactive (lots of customers complaining). They execute work with the clear objective of improving specific metrics, and the results can be measured.

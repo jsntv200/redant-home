@@ -17,9 +17,6 @@ image: "/assets/uploads/2019/why-choose-ruby.jpg"
 excerpt_short:
   The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
-excerpt_long:
-  The no nonsense guide for entrepreneurs, startups, product owners or
-  anyone that is a bit baffled about tech stack options.
 redirect_from:
 date_published: ! " 2019-06-05"
 publisher: Red Ant
@@ -442,6 +439,6 @@ end</code></pre>
         </p>
       </div>
     </div>
-    <div data-controller="fake-news"></div>  
+    <div data-controller="fake-news"></div>
   </div>
 </section>

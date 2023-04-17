@@ -14,12 +14,6 @@ keywords: shopify pricing
 image_small: '/assets/uploads/2012/shopify-account-comparison-chart-small.png'
 image: '/assets/uploads/2012/shopify-account-comparison-chart.png'
 excerpt_short: Shopify for e-commerce - we looked into this as part of a recent assessment.
-excerpt_long:
-  As part of a recent assessment for a client e-commerce solution we looked
-  into Shopify. Part of that meant checking out
-  their prices and finding the account level which would hit the sweet spot for the
-  clients needs. In the end we didnt go with Shopify, but this price comparison of
-  their accounts is pretty handy to have on hand.
 tags: []
 time: ''
 redirect_from:

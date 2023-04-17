@@ -2,7 +2,7 @@
 layout: post
 permalink: /online-payments/different-levels-of-payment-maturity/
 type: online-payments
-categories: 
+categories:
   - online-payments
 author: Ben Still
 tags: []
@@ -15,7 +15,6 @@ keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/what-are-the-different-levels-of-payment-maturity-min.png"
 image: "/assets/uploads/2023/what-are-the-different-levels-of-payment-maturity-min.png"
 excerpt_short: A summary of each of the different levels that we use to describe the relative maturity of a payments process. Starting from the very basic / starting off, through to the teams that are really cracking it.
-excerpt_long:
 redirect_from: []
 updated_at: 2023-02-08
 ---
@@ -28,7 +27,7 @@ We have 5 different levels of maturity that we use:
 5. Agile
 
 These are measured on the four different areas of a business:
-1. **Your current state** - what you have in place at the moment. 
+1. **Your current state** - what you have in place at the moment.
 2. **Your Team** - what level of skill and training do the people driving payments have?
 3. **Management** - how are decisions made and how does payments form part of management decisions
 4. **Technology** - processes and culture for how your payment process is delivered

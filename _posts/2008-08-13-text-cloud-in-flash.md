@@ -12,7 +12,6 @@ meta:
   dsq_thread_id: '479978211'
 excerpt:
 excerpt_short: Visualising a list of information in interesting ways
-excerpt_long: Visualising a list of information in interesting ways
 published: false
 date_published: ! ' 2008-08-13'
 updated_at: 2008-08-13

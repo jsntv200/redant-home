@@ -15,11 +15,6 @@ image_small: "/assets/uploads/2012/iphone-small.jpg"
 image: "/assets/uploads/2012/iphone.jpg"
 excerpt_short: Get ahead by going 'mobile first'. Let's take a look at some of the
   challenges we face when doing so.
-excerpt_long: Mobile devices are changing the way we're doing things and there are
-  many challenges along that path to integrate them with the more traditional websites
-  designed for desktop only. One way is to go 'mobile first' and get the simple stuff
-  over and done with ahead of the game. Let's take a look at some of those challenges
-  we face.
 tags: []
 time: ''
 redirect_from:

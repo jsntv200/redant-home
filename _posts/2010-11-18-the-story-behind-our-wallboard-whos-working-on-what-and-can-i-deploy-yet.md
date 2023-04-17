@@ -13,11 +13,6 @@ keywords: our wallboard
 image_small: "/assets/uploads/2010/redant-wallboard-preview-small.jpg"
 image: "/assets/uploads/2010/redant-wallboard-preview.jpg"
 excerpt_short: Whiteboards are out, wallboards are in. Also, vote for us!
-excerpt_long: Wallboards are cool, and every dev house should have one. Firstly because
-  it provides some great information that everyone can see, and secondly because they're
-  cool (did I mention that already?) and the developers get to have some fun in all
-  that free time they have with the wallboard making everything much more efficient.
-  Here's what we did with ours.
 tags: []
 time: 10 Mins Read
 redirect_from:

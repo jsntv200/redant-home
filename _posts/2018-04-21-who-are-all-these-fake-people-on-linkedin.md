@@ -11,7 +11,6 @@ keywords: ''
 image_small: "/assets/uploads/2018/linkedin2.png"
 image: "/assets/uploads/2018/linkedin2.png"
 excerpt_short: ''
-excerpt_long: ''
 tags:
 - Red-Ant-Marketing
 - LinkedIn
