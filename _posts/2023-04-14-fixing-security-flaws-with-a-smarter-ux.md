@@ -60,7 +60,7 @@ There might be a separate task to email out payment reminders to these people. A
 
 The next part of the fix is to manage access to the detail page. That’s the page with probably a lot more potentially sensitive information on it. You may want to use a permission system to restrict access to this page:
 
-\*\*\*Example: a person can only access this patient data if they are connected to that patient (eg: they are the patient's Doctor). \*\*\*
+**Example**: *a person can only access this patient data if they are connected to that patient (eg: they are the patient's Doctor). *
 
 Creating an audit trigger might also be a good idea. Each time someone clicks through to a detail page, the person doing the search and the customer ID are recorded in a log. That way if there is an issue, you can understand the scope.
 
@@ -68,7 +68,7 @@ For a page which is relatively vanilla but with one piece of sensitive informati
 
 Creating an audit alert could also work. So if someone suddenly looks at lots of sensitive data screens, then an alert email is sent out. Similarly for doing exports or lots of printing.
 
-Within the customer list, there may be some users that are more sensitive than others. An example of this is a celebrity or a Politically Exposed Person (PEP). As part of your user onboarding process, it is best practice to check with the user to see if they are a PEP, as they are more likely to come under threat from malicious activity.
+Within the customer list, there may be some users that are more sensitive than others. An example of this is a celebrity or a Politically Exposed Person (PEP). As part of your user onboarding process, it is best practice to check with the user to see if they are a PEP. Having this as a flag in your user table allows you to add some additional security or take a different process path when dealing with a PEP, as they are more likely to come under threat from malicious activity. Even if you don't have a different path, having a flag means you have the ability to add things at a later date.
 
 Another approach is to request a reason. So when the admin user arrives on a screen, they are asked to describe why they need to see this sensitive information. This might take the format of a job code or ticket number.
 
@@ -83,6 +83,6 @@ The fix here is:
 2. There is inevitably a lag between changes to API and FE. Make sure you **allow for development time** to do this kind of "tidy up", otherwise these pieces of sensitive data can hang around in API end points. Eventually, developers assume those fields are required somewhere, and they never get removed. When the change is made, remove them (or at least make a ticket to do so).
 3. **Compare what is being shown in the FE to what is returned via the API**. There should be API documentation tools that you can use to understand this and make the comparison.
 
-Regardless of which approach you take, it’s a good idea to consider the security impacts of different parts of your platform interface. If you'd like some help analysing security aspects of a platform, a code review or security analysis, we'd be happy to help. 
+Regardless of which approach you take, it’s a good idea to consider the security impacts of different parts of your platform interface. If you'd like some help analysing security aspects of a platform, a code review or security analysis, we'd be happy to help.
 
 Except if you're the guy who gave Joe that USB. We don't want to talk to you.
