@@ -73,7 +73,7 @@ Within the customer list, there may be some users that are more sensitive than o
 Another approach is to request a reason - so ask the user why they need to see this sensitive information. This would typically take the format of a job code or ticket number.
 
 **Don't forget the API !**\
-On a more technical note, it's also important to consider what is coming back from the API data source. So while the page from the example above may only display ID, name and procedure, a quick inspection of the data feed may expose more sensitive information. And while you may not consider Joe from Accounts capable of writing a script to paginate through the XHR and grab your entire patient data set, the person who wrote the USB key logger hidden inside the phone charging cable Joe found and has started using probably can.
+On a more technical note, it's also important to consider what is coming back from the API data source. So while the page from the example above may now only display ID, name and procedure, a quick inspection of the data feed could expose more sensitive information. And while you may not consider Joe from Accounts capable of writing a script to paginate through the XHR and grab your entire patient data set, the person who wrote the USB key logger hidden inside the phone charging cable Joe found and has started using probably can.
 
 The fix here is:
 
