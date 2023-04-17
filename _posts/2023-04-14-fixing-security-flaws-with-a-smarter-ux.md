@@ -78,7 +78,7 @@ On a more technical note, it's also important to consider what is coming back fr
 The fix here is:
 
 1. Try to restrict logic in the front end (FE). So the FE should ask the API "show me patients status outstanding next 30d", rather than getting a big list of patients and data and then doing the query itself. The API should do as much query work as possible.
-2. There is inevitably a lag between changes to API and FE. Make sure you allow for development time to do this kind of "tidy up", otherwise these pieces of sensitive data can hang around in API end points. Eventually, people assume those fields are required somewhere, and they never get removed.
+2. There is inevitably a lag between changes to API and FE. Make sure you allow for development time to do this kind of "tidy up", otherwise these pieces of sensitive data can hang around in API end points. Eventually, developers assume those fields are required somewhere, and they never get removed. When the change is made, remove them (or at least make a ticket to do so).
 3. Compare what is being shown in the FE to what is returned via the API. There should be API documentation tools that you can use to understand this and make the comparison.
 
 Regardless of which approach you take, it’s a good idea to consider the security impacts of different parts of your platform interface. 
