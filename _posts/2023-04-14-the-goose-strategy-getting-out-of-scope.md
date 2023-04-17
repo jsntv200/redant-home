@@ -31,9 +31,9 @@ image_small: /assets/uploads/top-gun-goose.jpg
 image: /assets/uploads/top-gun-goose.jpg
 excerpt_short: >-
   This strategy involves moving as much of your application "out of scope" as
-  much as you can. Make any security audit easier (and cheaper) by trying to
-  keep the really complex parts of your app behind the scenes, and only expose
-  the simple stuff which can be more easily locked down and quicker to audit.
+  you can. Make any security audit easier (and cheaper) by trying to keep the
+  really complex parts of your app behind the scenes, and only expose the simple
+  stuff which can be more easily locked down and quicker to audit.
 excerpt_long: ''
 date_published: 2023-04-13T14:00:00.000Z
 updated_at: 2023-04-13T14:00:00.000Z
