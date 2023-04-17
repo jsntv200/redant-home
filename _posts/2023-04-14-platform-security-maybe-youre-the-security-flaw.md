@@ -21,17 +21,10 @@ publisher: Red Ant
 image: /assets/uploads/Screenshot 2023-04-14 at 11.10.18 am.png
 image_small: /assets/uploads/Screenshot 2023-04-14 at 11.10.18 am.png
 excerpt_short: >-
-  You can avoid being the security flaw by looking out for these issues:
-
-  1. With any issue, make sure your team doesn't just default to the fastest
-  solution. Make sure they consider the security implications, and run through
-  scenarios
-
-  2. Avoid adding user spoofing, where one user can become another - it's a bug
-  rather than a feature
-
-  3. Don't keep pushing those security fixes further down your development road
-  map
+  Many organisations spend a lot of time evaluating and worrying about cyber
+  risks from hackers or information leaks. But what if the actual security flaw
+  came about as a result of a decision you the Product Owner had made? Some tips
+  to identify and avoid this.
 ---
 
 Many organisations spend a lot of time evaluating cyber risks. Looking at ways to stop bad things coming in. Stopping various behaviours. Preventing information from leaking out.
