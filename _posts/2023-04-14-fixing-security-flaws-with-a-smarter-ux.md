@@ -44,7 +44,7 @@ Maybe some of your staff work from home, and this search is left up on a laptop 
 The scope for any security work is quite broad - it needs to cover any systems and people that might be exposed to sensitive data. Obviously the broader this is, the more work involved in securing it will be.
 
 **The solution**\
-The fix is pretty straightforward. Obviously the search results page should be limited to the information that is required. Avoid anything sensitive. 
+Happily, the fix is pretty straightforward. Obviously the search results page should be limited to the information that is required. Avoid anything sensitive. 
 
 **Example**: the search query itself may reveal sensitive information:
 
