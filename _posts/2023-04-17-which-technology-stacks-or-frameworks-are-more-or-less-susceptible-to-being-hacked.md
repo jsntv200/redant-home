@@ -12,6 +12,8 @@ description: >-
   long it’s been since last update
 date_published: 2023-04-16T14:00:00.000Z
 updated_at: 2023-04-16T14:00:00.000Z
+image_small: /assets/uploads/IMG_8179.CR2.jpg
+image: /assets/uploads/IMG_8179.CR2.jpg
 ---
 
 We’re often asked if a particular framework or technology is more or less susceptible to being hacked than another. Or put another way, is one “more secure” than another?
