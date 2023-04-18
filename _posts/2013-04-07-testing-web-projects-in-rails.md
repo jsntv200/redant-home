@@ -1,27 +1,30 @@
 ---
 layout: post
 title: Testing web projects
-permalink: "/automated-testing/testing-web-projects-in-rails/"
+permalink: /automated-testing/testing-web-projects-in-rails/
 type: ideas
 categories:
-- automated-testing
-- ruby-on-rails-devops
+  - cyber-security
+  - automated-testing
+  - ruby-on-rails-devops
 author: Ben Still
-description: As web projects grow in complexity, the testing process gets more and
-  more difficult. Introducing, Automated Testing and Test Driven Development (TDD).
+description: >-
+  As web projects grow in complexity, the testing process gets more and more
+  difficult. Introducing, Automated Testing and Test Driven Development (TDD).
 keywords: automated testing web projects
-image_small: "/assets/uploads/2013/milo-closeup-small.jpg"
-image: "/assets/uploads/2013/milo-closeup-small.jpg"
-excerpt_short: One of the things we've started doing quite differently over the last
-  few years is how we test our web projects
+image_small: /assets/uploads/2013/milo-closeup-small.jpg
+image: /assets/uploads/2013/milo-closeup-small.jpg
+excerpt_short: >-
+  One of the things we've started doing quite differently over the last few
+  years is how we test our web projects
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2013-04-07'
+redirect_from: null
+date_published: 2013-04-07T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2013-04-07
-
+updated_at: 2013-04-07T00:00:00.000Z
 ---
+
 ## For testing a web project, there are four key things:
 
 1. does it work OK?
@@ -35,10 +38,10 @@ When we started out, we would make something and then someone would test that it
 
 This approach works well in a few conditions:
 
-- **Limited features** - there aren't that many of these "features" to test. The variations can be feasibly tested by someone within say an hour or so
-- **Single developer** - only one person has been working on this, so no chance that another developer will unknowingly add something which will break something else
-- **Waterfall** - the project is following a "waterfall" release process. The way that the feature should work has been extensively documented, and any changes will be in a completely separate future release
-- **Infrequent deploys** - this gets deployed to the live site once, and then won't need to get updated for a while (so we can comfortably assume nothing will change)
+* **Limited features** - there aren't that many of these "features" to test. The variations can be feasibly tested by someone within say an hour or so
+* **Single developer** - only one person has been working on this, so no chance that another developer will unknowingly add something which will break something else
+* **Waterfall** - the project is following a "waterfall" release process. The way that the feature should work has been extensively documented, and any changes will be in a completely separate future release
+* **Infrequent deploys** - this gets deployed to the live site once, and then won't need to get updated for a while (so we can comfortably assume nothing will change)
 
 As web projects grow in complexity, the testing process gets more and more difficult. Imagine the frog in the hot water - at a certain point he has a desire to jump out.
 
@@ -63,11 +66,11 @@ In a nutshell, modern web development like Ruby on Rails uses automated software
 
 **Waterfall:**
 
-Think of the feature &gt; extensively document &gt; build &gt; test by checking the doc
+Think of the feature > extensively document > build > test by checking the doc
 
 **TDD:**
 
-Think of the feature &gt; write the test(s) &gt; test fails &gt; build &gt; test passes
+Think of the feature > write the test(s) > test fails > build > test passes
 
 The basic idea is this:
 
@@ -77,8 +80,8 @@ Second: instead of a human checking everything, lets do it with code more compre
 
 Automated testing has two main flavours:
 
-- **unit tests** - check very specific things within the code. So taking our Contact Us example, it could check that fields are validating correctly and that the email address is set up OK
-- **end to end tests** - using a "headless" browser, this mimics the way a real user goes through the site - filling out fields and clicking on buttons, and then checking that the right layout and text is appearing on the thank you page.
+* **unit tests** - check very specific things within the code. So taking our Contact Us example, it could check that fields are validating correctly and that the email address is set up OK
+* **end to end tests** - using a "headless" browser, this mimics the way a real user goes through the site - filling out fields and clicking on buttons, and then checking that the right layout and text is appearing on the thank you page.
 
 We can use a combination of these to test a project. End to end is useful as they test what a real user sees, but they tend to take a relatively long time to run. As a project grows, they have a tendency to overlap (so you can be testing a log in step in several different tests).
 
