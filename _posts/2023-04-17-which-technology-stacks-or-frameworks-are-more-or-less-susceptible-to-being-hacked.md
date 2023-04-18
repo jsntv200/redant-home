@@ -12,8 +12,8 @@ description: >-
   long it’s been since last update
 date_published: 2023-04-16T14:00:00.000Z
 updated_at: 2023-04-16T14:00:00.000Z
-image_small: /assets/uploads/IMG_8179.CR2.jpg
-image: /assets/uploads/IMG_8179.CR2.jpg
+image_small: /assets/uploads/iStock-1461383901.jpg
+image: /assets/uploads/iStock-1461383901.jpg
 categories:
   - cyber-security
 publisher: Red Ant
@@ -75,4 +75,4 @@ So yes, while the technology stack kind of matters, it really comes down to ongo
 
 > “Software is a just a tool to help accomplish something for people - many programmers never understood that. Keep your eyes on the delivered value, and don’t over focus on the specifics of the tools” -- John Carmack
 
-If you're interested in getting an evaluation of your technical stack or platform, we'd be happy to assist. We can help with some strategy, review code, and we can even review your development team and processes. Except if your entire platform is in Flash. 
+If you're interested in getting an evaluation of your technical stack or platform, we'd be happy to assist. We can help with some strategy, review code, and we can even review your development team and processes. Except if your entire platform is in Flash.
