@@ -13,8 +13,8 @@ description: >-
   Some security problems come about when the security of information shown isn't
   considered during the design process. Here's an easy fix, with 4 different
   approaches to address the issue
-image_small: /assets/uploads/fake4.jpg
-image: /assets/uploads/fake4.jpg
+image_small: /assets/uploads/iStock-1191080760.jpg
+image: /assets/uploads/iStock-1191080760.jpg
 excerpt_short: >-
   Some security problems come about when the security of information shown isn't
   considered during the design process. Here's an easy fix, with 4 different
@@ -60,7 +60,7 @@ There might be a separate task to email out payment reminders to these people. A
 
 The next part of the fix is to manage access to the detail page. That’s the page with probably a lot more potentially sensitive information on it. You may want to use a permission system to restrict access to this page:
 
-**Example**: *a person can only access this patient data if they are connected to that patient (eg: they are the patient's Doctor). *
+**Example**: \*a person can only access this patient data if they are connected to that patient (eg: they are the patient's Doctor). \*
 
 Creating an audit trigger might also be a good idea. Each time someone clicks through to a detail page, the person doing the search and the customer ID are recorded in a log. That way if there is an issue, you can understand the scope.
 
