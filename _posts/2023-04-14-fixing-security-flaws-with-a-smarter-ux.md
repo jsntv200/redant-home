@@ -85,4 +85,4 @@ The fix here is:
 
 Regardless of which approach you take, it’s a good idea to consider the security impacts of different parts of your platform interface. If you'd like some help analysing security aspects of a platform, a code review or security analysis, we'd be happy to help.
 
-Except if you're the guy who gave Joe that USB. We don't want to talk to you.
+Except if you're the guy who gave Joe that USB. We don't want to help you.
