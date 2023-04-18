@@ -69,6 +69,8 @@ And the one that gets a lot of people is children’s data. It doesn't matter if
 
 The Goose approach is to move any sensitive process out, and put a solid wall between your app and that data. Taking payments as an example: although it might seem really attractive to hoard lots of data points and transactional information about your users, the “get out of scope” strategy involves moving this completely out of your system. 
 
+![](/assets/uploads/goose.png)
+
 Here’s how best practice looks:
 
 * Your app stores only the **minimum** amount of information it needs to know about that user
