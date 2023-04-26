@@ -1,7 +1,7 @@
 ---
 layout: job
 slug: senior-ruby-developer
-title: Senior Ruby Developer
+title: Senior Ruby on Rails Developer
 description: >-
   We’re looking for an experienced Ruby developer. You really know your stuff,
   and you’re looking for a great place to work on interesting projects.
@@ -20,7 +20,7 @@ We will never, ever, ever ask you to [participate in a Shabooyah roll call](http
 
 ### You
 
-You’re an experienced developer. You know your stuff. Making nice things is what you do. Pride in the craft of engineering awesome features. You give thoughtful, considered code reviews.
+You’re an experienced developer. You know your stuff. Making nice things is what you do. Pride in the craft of building awesome features. You give thoughtful, considered code reviews.
 
 Sure, you could probably do some Start Up thing. Or you could get a job with a fancy title at a Google/Salesforce/IBM etc. and find yourself [one night wearing your tie as a headband](https://www.youtube.com/watch?v=QzDHoKKdMkM). But we think you’ll probably like it more here.
 
@@ -33,7 +33,7 @@ How about if I explain us a bit more:
 
 ### Full time
 
-This is a full time position. Just in case you're planning out your side hustle. This isn't it. And no, reading that book about the 4h work week and how you have never actually worked out how to quit Vim without turning off your mac and your fiendish plan is to get some guys in Vietnam to do all your dev work is not something you should bring up in the interview. Maybe tell us ahead of time and we can avoid tears later.
+This is a full time position. Just in case you're planning out your side hustle. This isn't it. And whilst we all appreciate the passion you show after listening to that podcast about the 4h work week, and how you have big plans for Becoming A Developer while actually getting chatGPT to do the work, this is not the gig for you. 
 
 ### Is this remote or on site?
 
