@@ -10,7 +10,7 @@ summary: Looking for a great place to work on interesting projects?
 
 ### Us
 
-We’re a Ruby development agency. We’ve been around for over 25 years, with a stable, growing business. We're busy. We tend to work on larger projects, typically with a mix of Front End, Back End and DevOps tasks.
+We’re a Ruby development agency. We’ve been around for almost 30 years, with a stable, growing business. We're busy. We tend to work on larger projects, typically with a mix of Front End, Back End and DevOps tasks.
 
 Rather than work on just one projects, each of our team typically work across a number of  projects. Each person has 2-3 projects. Some of our clients are funded start-ups, but most of our work is for well-established companies with meaty problems to solve - like tricky payment flows, security and scaling.
 
