@@ -47,7 +47,7 @@ However not everyone can work from their home, so we're also able to arrange an 
 
 ### How much it pays
 
-Really well. Probably much better than where you are right now. But nowhere near as much as that recruiter swears you're actually worth. She would know, right? With all that deep deep Rails on Ruby experience, amazing contacts from all over LinkedIn, etc - she would never just make that up.
+Really well. Probably much better than where you are right now. But nowhere near as much as that recruiter swears you're actually worth. He would know, right? With all that deep deep Web3 and Rails on Ruby experience, amazing contacts from all over LinkedIn, etc etc . There is no way he would just make that up to get you to talk to him.
 
 ### Interested?
 
