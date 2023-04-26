@@ -14,15 +14,15 @@ We’re a Ruby development agency. We’ve been around for over 25 years, with a
 
 Rather than work on just one projects, each of our team typically work across a number of  projects. Each person has 2-3 projects. Some of our clients are funded start-ups, but most of our work is for well-established companies with meaty problems to solve - like tricky payment flows, security and scaling.
 
-We value quiet thinkers and creative innovation. We try to automate as much of our processes as we can, so our engineers can focus on their work rather than babysitting a deploy.
+We value quiet thinkers and creative innovation. We try to automate as much of our processes as we can, so our developers can focus on their work rather than babysitting a deploy.
 
-We will never, ever, ever ask you to [participate in a Shabooyah roll call](https://www.reddit.com/r/videos/comments/k3efwo/workplace_from_your_nightmares/ "").
+We will never, ever, ever ask you to [participate in a Shabooyah roll call](https://www.reddit.com/r/videos/comments/k3efwo/workplace_from_your_nightmares/).
 
 ### You
 
 You’re an experienced developer. You know your stuff. Making nice things is what you do. Pride in the craft of engineering awesome features. You give thoughtful, considered code reviews.
 
-Sure, you could probably do some Start Up thing. Or you could get a job with a fancy title at a Google/Salesforce/IBM etc. and find yourself [one night wearing your tie as a headband](https://www.youtube.com/watch?v=QzDHoKKdMkM ""). But we think you’ll probably like it more here.
+Sure, you could probably do some Start Up thing. Or you could get a job with a fancy title at a Google/Salesforce/IBM etc. and find yourself [one night wearing your tie as a headband](https://www.youtube.com/watch?v=QzDHoKKdMkM). But we think you’ll probably like it more here.
 
 How about if I explain us a bit more:
 
@@ -37,7 +37,7 @@ This is a full time position. Just in case you're planning out your side hustle.
 
 ### Is this remote or on site?
 
-Well, with the dreaded Rona, everything has changed. We used to all work together in a really nice, light filled office that was located in the very epicentre of HipsterLand, Surry Hills. But since early March, we've all been working from home. So we'll kit out your home office just right, and we'll Slack and Zoom away. You can work from wherever you'd like.
+Well, with the dreaded Rona, everything has changed. We used to all work together in a really nice, light filled office that was located in the very epicentre of HipsterLand, Surry Hills. But since then, we've all been working from home. So we'll kit out your home office just right, and we'll Slack and Zoom away. You can work from wherever you'd like.
 
 ### So you all work from home, but pretty soon you'll all be back in the office, right?
 
@@ -51,4 +51,4 @@ Really well. Probably much better than where you are right now. But nowhere near
 
 ### Interested?
 
-If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto\:jobs@redant.com.au "") >> jobs@redant.com.au with an outline of the kind of projects you’ve worked on, and some insight into who you are. We would love to hear from you.
+If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto:jobs@redant.com.au) >> jobs@redant.com.au with an outline of the kind of projects you’ve worked on, and some insight into who you are. We would love to hear from you.
