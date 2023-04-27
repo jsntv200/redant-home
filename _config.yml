@@ -15,6 +15,10 @@ markdown: kramdown
 
 on_demand: false
 
+msclarity:
+  dev: ""
+  prod: "gn8srwgeu9"
+
 gtm:
   dev: GTM-N3CM249
   prod: GTM-P7QNBDH
