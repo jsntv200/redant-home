@@ -16,8 +16,8 @@ markdown: kramdown
 on_demand: false
 
 msclarity:
-  dev: ""
-  prod: "gn8srwgeu9"
+  dev: "gn8srwgeu9"
+  prod: "gq7hxwmdua"
 
 gtm:
   dev: GTM-N3CM249
