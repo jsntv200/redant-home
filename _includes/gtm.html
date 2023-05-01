@@ -1,9 +1,9 @@
 <style>.async-hide { opacity: 0 !important} </style>
 
 <script>
-  var gtmId = window.location.host.includes("{{site.url_host}}")
-    ? "{{ site.gtm.prod }}"
-    : "{{ site.gtm.dev }}";
+  var gtmId = window.location.host.includes("{{site.staging_url_host}}")
+    ? "{{ site.gtm.dev }}"
+    : "{{ site.gtm.prod }}";
 
   // Google Optimize page hiding snippet
   (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;
