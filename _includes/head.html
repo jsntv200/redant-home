@@ -14,11 +14,5 @@
       document.write('<script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=default,fetch"></scr'+'ipt>')
     }
   </script>
-  {% if site.msclarity %}
-    {% include msclarity.html %}
-  {% endif %}
-
-  {% if site.gtm %}
-    {% include gtm.html %}
-  {% endif %}
+  {% include tracking.html %}
 </head>
