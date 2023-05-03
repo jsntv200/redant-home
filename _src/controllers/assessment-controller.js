@@ -58,7 +58,7 @@ export class AssessmentController extends Controller {
     } else if (location.pathname.includes(this.basePathPrivacyValue)) {
       data = ["privacy", this.basePathPrivacyValue, "collection-and-use"];
     } else if (location.pathname.includes(this.basePathCyberSecurityValue)) {
-      data = ["cybersecurity", this.basePathCyberSecurityValue, "govern"];
+      data = ["cyber-security", this.basePathCyberSecurityValue, "govern"];
     }
 
     return this.assessmentData(data);

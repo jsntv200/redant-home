@@ -3,7 +3,7 @@ layout: submit
 permalink: /privacy/privacy-maturity-assessment/submit
 class: assessment
 sitemap: false
-script: "https://script.google.com/macros/s/AKfycbz_tapDlJLquqW8V-N9cinXQ-RNhq363Op6f1lfWrc7vI5hoL1e52ImnMBBpikofQcu/exec"
+script: "https://script.google.com/macros/s/AKfycbyW4oowd4j15gGI_c_GFHYxM5KnractXyTCbLepeteIbpQuRTnpS-sSV4ZUrwwlNz4h/exec"
 type: "Privacy"
 root_url: "/privacy/"
 ---
