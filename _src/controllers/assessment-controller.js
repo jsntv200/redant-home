@@ -138,6 +138,10 @@ export class AssessmentController extends Controller {
       JSON.parse(decodeURIComponent(params.get('r')).replaceAll('&#34;', '"')) :
       this.storedAnswers;
 
+    if (!answers) {
+      this.navigateTo();
+    }
+
     if (params.has('name')) {
       this.nameTarget.innerHTML = `${decodeURIComponent(params.get('name'))}: `;
     }
@@ -146,15 +150,16 @@ export class AssessmentController extends Controller {
     var colors = "";
 
     for (const [i, values] of Object.values(answers).entries()) {
-      const max = this.scoreRange[i]["max"];
-      const min = this.scoreRange[i]["min"];
-      const range = max - min;
+      const max = Number(this.scoreRange[i]["max"]).toFixed(1);
+      const min = Number(this.scoreRange[i]["min"]).toFixed(1);
+      const range = Number(max - min).toFixed(1);
+
       const scoreLevels = [
-        min,
-        min + range/5,
-        min + range/2,
-        max - range/5,
-        max
+        Number(min),
+        Number(min) + Number(range)/5,
+        Number(min) + Number(range)/2,
+        Number(max) - Number(range)/5,
+        Number(max)
       ];
       // To calculate result: answer_number * (weight * weighting)
       const totalScore = values.reduce((accumulator, currentValue) => {
