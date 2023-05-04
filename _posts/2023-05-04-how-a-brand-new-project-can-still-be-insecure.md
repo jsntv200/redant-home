@@ -53,10 +53,10 @@ There are also the processes that support the development of the code:
 
 Finally, there is the code itself, which can be analysed with static analysis tools as well as a human review.
 
-* Complexity - does each function get achieved in a straightforward way? Or are we in [Beautiful Mind](https://gfycat.com/enlighteneddarlingcreature) territory?
-* Repetition - are functions repeated and are any functions repeated or appear elsewhere repeated?
-* Clarity - can a reasonably skilled developer understand what’s going on?
-* Mistakes - are there typos, misnamed variables, or sections of code that never actually get used?
-* “Grasp-ability” - can a reasonably skilled developer understand and start working within a reasonable time frame?
+* **Complexity** - does each function get achieved in a straightforward way? Or are we in [Beautiful Mind](https://gfycat.com/enlighteneddarlingcreature) territory?
+* **Repetition** - are functions repeated and are any functions repeated or appear elsewhere repeated?
+* **Clarity** - can a reasonably skilled developer understand what’s going on?
+* **Mistakes** - are there typos, misnamed variables, or sections of code that never actually get used?
+* **“Grasp-ability”** - can a reasonably skilled developer understand and start working within a reasonable time frame?
 
 Having secure software is somewhat of a moving target. And there isn’t a magic wand someone can wave to somehow make it “secure”. 
