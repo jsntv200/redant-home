@@ -7,9 +7,9 @@ categories:
   - cyber-security
 author: Ben Still
 description: >-
-  People often assume that if a software platform has been recently built, it
-  must be inherently secure. This certainly has a kernel of truth to it, but
-  there’s also a misplaced assumption.
+  So you've just launched your new project. It must be totally secure right? Not
+  always - there are often vulnerabilities that may reveal over time. Here's how
+  we go looking for them.
 excerpt_short: >-
   People often assume that if a software platform has been recently built, it
   must be inherently secure. This certainly has a kernel of truth to it, but
