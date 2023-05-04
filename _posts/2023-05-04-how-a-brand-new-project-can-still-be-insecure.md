@@ -17,6 +17,8 @@ excerpt_short: >-
   have many different security problems. Here's how we look for them.
 date_published: 2023-05-03T14:00:00.000Z
 publisher: Red Ant
+image_small: /assets/uploads/iStock-668575918.jpg
+image: /assets/uploads/iStock-668575918.jpg
 ---
 
 People often assume that if a software platform has been recently built, it must be inherently secure. This certainly has a kernel of truth to it, but there’s also a misplaced assumption.
