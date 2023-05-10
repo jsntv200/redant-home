@@ -2,13 +2,13 @@
 layout: project
 theme: campaign-xpress
 slug: campaign-xpress
-title: CAMPAIGNxpress
+title: Automated Ad Development and Placement in Real Estate Advertising
 tagline: A property marketing platform
-description:
-  Helps save time and money by fully automating the process of planning
-  a property campaign, creation and delivery to media. Used by industry leaders such
-  as CBRE and Ray White to manage their media planning.
-project_url: https://campaignxpress.com.au/
+description: >-
+  Helps save time and money by fully automating the process of planning a
+  property campaign, creation and delivery to media. Used by industry leaders
+  such as CBRE and Ray White to manage their media planning.
+project_url: 'https://campaignxpress.com.au/'
 client: CAMPAIGNxpress
 project_date: 2017 - now
 technologies:
