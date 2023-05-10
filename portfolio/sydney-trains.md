@@ -2,31 +2,34 @@
 layout: project
 theme: sydney-trains
 slug: sydney-trains
-title: Transport for NSW (Sydney Trains)
+title: >-
+  Visualising Change: Helping Sydney Trains Manage the Impact of Track
+  Maintenance
 tagline: Visualisation Tool to improve timetable management
-description: A data visualisation tool utilises customer data to better predict and
-  plan maintenance and other timetable changes.
+description: >-
+  A data visualisation tool utilises customer data to better predict and plan
+  maintenance and other timetable changes.
 project_url: ''
 client: Transport NSW and Veitch Lister Consulting
 project_date: 2019  - current
-team_size: "5"
+team_size: '5'
 lines_of_code: ''
 technologies:
-- ReactJS
-- Docker
-- Amazon Web Services (AWS)
-- PostgresSQL
-- Ruby on Rails
+  - ReactJS
+  - Docker
+  - Amazon Web Services (AWS)
+  - PostgresSQL
+  - Ruby on Rails
 images:
-- type: gallery
-  path: "/assets/images/projects/sydney-trains/sydney-trains-1.jpg"
-- type: gallery
-  path: "/assets/images/projects/sydney-trains/sydney-trains-2.jpg"
-- type: desktop
-  path: "/assets/images/projects/sydney-trains/sydney-trains-hero-desktop.jpg"
-  height: 450
-
+  - type: gallery
+    path: /assets/images/projects/sydney-trains/sydney-trains-1.jpg
+  - type: gallery
+    path: /assets/images/projects/sydney-trains/sydney-trains-2.jpg
+  - type: desktop
+    path: /assets/images/projects/sydney-trains/sydney-trains-hero-desktop.jpg
+    height: 450
 ---
+
 ## Project background
 
 Transport for NSW (Sydney Trains) with their partner Veitch Lister Consulting and Red Ant help smooth Sydney’s transport network everyday. The number of transport users is on the rise - up 12% since 2015. The task of optimising the transport network has never been more pressing.
@@ -45,10 +48,10 @@ With the planning in place, execution was straightforward. We created a common d
 
 ## Key Points
 
-- Using our Digital Product Development methods we were able to engage a number of stakeholders including data owners, target user groups and consultants.
-- Using our Agile Planning and Sprint Methodologies we were able to provide greater transparency and efficiency to stakeholders during the build phase.
-- Using Digital Product Development processes we were able to help our clients make meaningful calculations from enormous data sets to make reliable predictions for critical planning.
-- Building a custom tool can provide so much more flexibility while not paying for unnecessary features or expensive data analytic software subscriptions.
+* Using our Digital Product Development methods we were able to engage a number of stakeholders including data owners, target user groups and consultants.
+* Using our Agile Planning and Sprint Methodologies we were able to provide greater transparency and efficiency to stakeholders during the build phase.
+* Using Digital Product Development processes we were able to help our clients make meaningful calculations from enormous data sets to make reliable predictions for critical planning.
+* Building a custom tool can provide so much more flexibility while not paying for unnecessary features or expensive data analytic software subscriptions.
 
 ## How can we help you?
 
