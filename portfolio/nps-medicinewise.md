@@ -2,12 +2,12 @@
 layout: project
 theme: nps
 slug: nps-medicinewise
-title: NPS Medicinewise
+title: 'Boosting Efficiency and Savings: How a Headless CMS Helped NPS Medicinewise'
 tagline: A reliable online resource for drug and health information
-description:
-  Making Australia more medicine wise, through digital health and data
-  insights, health professional education and reliable health information for consumers.
-project_url: https://www.nps.org.au/
+description: >-
+  Making Australia more medicine wise, through digital health and data insights,
+  health professional education and reliable health information for consumers.
+project_url: 'https://www.nps.org.au/'
 client: NPS Medicinewise
 technologies:
   - Amazon Web Services (AWS)
@@ -16,8 +16,8 @@ technologies:
   - PostgreSQL
   - WAVE visually impaired testing tool as part of CI build chain
 project_date: 2015-17
-team_size: ""
-lines_of_code: ""
+team_size: ''
+lines_of_code: ''
 images:
   - type: gallery
     path: /assets/images/projects/nps-medicinewise/nps-medicinewise-1.jpg
@@ -47,7 +47,7 @@ A good CMS can help with some parts of this, and a good process workflow can hel
 
 Behind the scenes, the project included initiatives that would save money and increase efficiency for NPS administrators. One of the key requirements for NPS was for multiple members of the NPS team to be able to update content at the same time. We implemented a Headless CMS to provide the level of flexibility required to let multiple content editors update content at the same time, avoiding rigid publishing workflows and bottlenecks.
 
-![Scrivito editing CMS](/assets/images/projects/nps-medicinewise/scrivito-1.gif)
+![Scrivito editing CMS](/assets/uploads/assets/images/projects/nps-medicinewise/scrivito-1.gif)
 
 <div style="padding:20px;background:#eee;">
 
@@ -56,7 +56,7 @@ Behind the scenes, the project included initiatives that would save money and in
 Don't worry- this can be confusing. This type of CMS is less talked and less understood than a traditional platform style CMS (like Sitecore, WordPress or Drupal). In a nutshell, a Headless CMS is a backend only content management system that behaves like a content repository, making content accessible via a RESTful API for display on any device.
 
 Often when people are faced with a requirement:
-_"I have/want a web site with lots of content that my team can edit"_
+*"I have/want a web site with lots of content that my team can edit"*
 they start looking for the best CMS. Google that and you'll get a billion options and opinions. Some are free, while others are eye-watering-ly expensive. What about Wordpress, what about Adobe, what about SiteCore? Move past the hype, and they are all remarkably similar- you edit some content, click save, and it appears on a page.
 
 One key distinction is how they connect to other code. Wordpress, Sitecore and Adobe EM are all examples of **CMS platforms** - they are intended to be the primary technology. They suit sites where most of the pages are stuff you're editing. If you want to add functionality to say your WordPress site, you need to code that functionality so that it follows WordPress formats. Which is fine for simple things, but becomes exponentially more difficult as complexity increases.
@@ -69,7 +69,7 @@ Pick your CMS by first understanding your total requirements, then determine if 
 
 Anyway, back to the NPS project. The next phase of the project was to update the rest of quite a large existing site to also use Scrivito. This meant designing and building new templates, as well as the content team updating literally thousands of pages of content. One of the nice features is the ability to create working copies. This means anyone on a team can start working on a version of the site, and then merge their changes when they are done without overwriting other people’s changes.
 
-![Scrivito working copies](/assets/images/projects/nps-medicinewise/scrivito-working-copy.gif)
+![Scrivito working copies](/assets/uploads/assets/images/projects/nps-medicinewise/scrivito-working-copy.gif)
 
 Finally, all of this needed to get set up in a resilient manner. Part of the site relied on automated feeds, so we needed to make sure if there was an error in the feed, it would get automatically healed (in the case of a missing image or tag) or reported to a human. We used Automated Tests to make sure the code was working correctly, and finally deployed to a Kubernetes cluster on Amazon AWS.
 
