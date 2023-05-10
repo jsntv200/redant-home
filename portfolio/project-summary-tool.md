@@ -2,7 +2,9 @@
 layout: project
 theme: redant
 slug: project-summary-tool
-title: Projectt Summary Tool
+title: >-
+  Introducing Projectt: The Ultimate Budget Management Tool for Large-Scale
+  Development Projects
 tagline: A project tracking tool
 description: Projectt Summary Tool
 project_url: ''
@@ -29,7 +31,8 @@ images:
   - type: gallery
     path: /assets/images/projects/project-summary-tool/pst-5.jpg
   - type: desktop
-    path: /assets/images/projects/project-summary-tool/project-summary-tool-hero-desktop.jpg
+    path: >-
+      /assets/images/projects/project-summary-tool/project-summary-tool-hero-desktop.jpg
 ---
 
 ## Project Description
