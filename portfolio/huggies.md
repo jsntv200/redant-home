@@ -2,7 +2,7 @@
 layout: project
 theme: huggies
 slug: huggies
-title: 'Scaling Success: How We Built a Community for Over One Million Parents'
+title: 'Scaling Success: How We Built a Community for Millions of Parents'
 tagline: A place for parents to learn &amp; share
 description: >-
   Need to take your customer engagement to the next level? Take a look at how
