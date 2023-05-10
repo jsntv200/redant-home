@@ -2,11 +2,13 @@
 layout: project
 theme: move
 slug: outdoor-automated-proposal-platform
-title: Move Outdoor Advertising proposal platform
-tagline:
+title: >-
+  Automated Proposal Booking Platform for Australia's Largest Outdoor
+  Advertising Networks
+tagline: >-
   APP is an automated proposal booking platform for Australia’s largest outdoor
   advertising networks.
-description:
+description: >-
   Instead of exchanging emails and spreadsheets back and forth, media agencies
   can use the platform to request proposals
 client: Move OMA
@@ -16,20 +18,26 @@ technologies:
   - PostgreSQL
 team_size: 4 people
 lines_of_code: 450k
-project_url: https://
+project_url: 'https://'
 images:
   - type: gallery
-    path: /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-1.jpg
+    path: >-
+      /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-1.jpg
   - type: gallery
-    path: /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-2.jpg
+    path: >-
+      /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-2.jpg
   - type: gallery
-    path: /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-3.jpg
+    path: >-
+      /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-3.jpg
   - type: gallery
-    path: /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-4.jpg
+    path: >-
+      /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-4.jpg
   - type: mobile
-    path: /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-hero-mobile.jpg
+    path: >-
+      /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-hero-mobile.jpg
   - type: desktop
-    path: /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-hero-desktop.jpg
+    path: >-
+      /assets/images/projects/outdoor-automated-proposal-platform/outdoor-automated-proposal-platform-hero-desktop.jpg
 ---
 
 ## Project Description
