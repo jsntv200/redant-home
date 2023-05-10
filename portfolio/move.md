@@ -2,10 +2,12 @@
 layout: project
 theme: redant
 slug: move
-title: Automated Proposal Platform
+title: >-
+  Automated Proposal Booking Platform for Australia's Largest Outdoor
+  Advertising Networks
 tagline: An automated trading platform for outdoor media trading
 description: MOVE ATP
-project_url: http://www.oma.org.au/
+project_url: 'http://www.oma.org.au/'
 client: Outdoor Media Association
 project_date: 2017-now
 team_size: 4 people
@@ -17,10 +19,8 @@ technologies:
   - Kubernetes
   - Amazon Web Services (AWS)
 images: []
-
 lines_of_code: ''
 published: false
-
 ---
 
 From the press release:
