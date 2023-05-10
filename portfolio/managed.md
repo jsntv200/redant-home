@@ -2,10 +2,12 @@
 layout: project
 theme: managed
 slug: managed
-title: Managed
+title: >-
+  Payment-Centric Property Management: Our Journey in Creating a Seamless
+  Product Experience
 tagline: Payment and management platform
 description: A property management platform
-project_url: https://www.managedapp.com.au
+project_url: 'https://www.managedapp.com.au'
 client: Managed Platforms
 project_date: 2017-now
 team_size: 5 people
