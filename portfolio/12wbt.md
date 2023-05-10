@@ -2,7 +2,7 @@
 layout: project
 theme: 12wbt
 slug: 12wbt
-title: Health Fitness SAAS
+title: 'Scaling Up from MVP to Global SaaS: Strategies for Successful Expansion'
 tagline: 12 week health & fitness product
 description: >-
   Australia’s most popular health platform, with incredible growth. Nutrition,
