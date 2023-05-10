@@ -2,10 +2,10 @@
 layout: project
 theme: whats-on
 slug: whats-on
-title: City of Sydney What's On
+title: 'City of Sydney''s What''s On Website: A User-Centric Design Approach'
 tagline: Whats On in Sydney
 description: An events site for our local City of Sydney council.
-project_url: http://whatson.cityofsydney.nsw.gov.au
+project_url: 'http://whatson.cityofsydney.nsw.gov.au'
 client: City Of Sydney
 project_date: '2013'
 technologies:
