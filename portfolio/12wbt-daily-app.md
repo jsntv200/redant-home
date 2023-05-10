@@ -2,56 +2,58 @@
 layout: project
 theme: 12wbt
 slug: 12wbt-daily-app
-title: 12WBT Daily App
-tagline: A companion iOS app for this extremely successful online health and fitness
+title: 'Product Market Fitness: Creating a User-Centered Workout App'
+tagline: >-
+  A companion iOS app for this extremely successful online health and fitness
   platform
-description: This app is used by people doing the 12WBT program. It has workouts,
-  recipes and daily stats.
+description: >-
+  This app is used by people doing the 12WBT program. It has workouts, recipes
+  and daily stats.
 project_url: ''
 client: 12WBT
 project_date: 2015-2020
 team_size: 6 people
 lines_of_code: 30k
 technologies:
-- Swift
-- FB authentication
-- iOS Push
-- CoreData
+  - Swift
+  - FB authentication
+  - iOS Push
+  - CoreData
 subtitle: ''
 projects: []
 image: ''
 how_title: ''
 how_bulletpoints: []
 images:
-- type: gallery
-  path: "/assets/images/projects/12wbt-daily-app/12wbt-daily-app-1.jpg"
-- type: gallery
-  path: "/assets/images/projects/12wbt-daily-app/12wbt-daily-app-2.jpg"
-- type: gallery
-  path: "/assets/images/projects/12wbt-daily-app/12wbt-daily-app-3.jpg"
-- type: gallery
-  path: "/assets/images/projects/12wbt-daily-app/12wbt-daily-app-4.jpg"
-- type: gallery
-  path: "/assets/images/projects/12wbt-daily-app/12wbt-daily-app-5.jpg"
-- type: mobile
-  path: "/assets/images/projects/12wbt-daily-app/12wbt-daily-app-hero-mobile1.jpg"
-  width: 300
-  height: 534
-- type: desktop
-  path: "/assets/images/projects/12wbt-daily-app/12wbt-daily-app-hero-mobile2.jpg"
-  width: 300
-  height: 534
-
+  - type: gallery
+    path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-1.jpg
+  - type: gallery
+    path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-2.jpg
+  - type: gallery
+    path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-3.jpg
+  - type: gallery
+    path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-4.jpg
+  - type: gallery
+    path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-5.jpg
+  - type: mobile
+    path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-hero-mobile1.jpg
+    width: 300
+    height: 534
+  - type: desktop
+    path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-hero-mobile2.jpg
+    width: 300
+    height: 534
 ---
+
 You've probably heard about the wildly popular fitness program [12WBT by Michelle Bridges](/portfolio/12wbt/). You can read a bit more about [12WBT here](/portfolio/12wbt/).
 
 Lots of people start digital projects by listing an App as one of their requirements. Digging deeper, typically what they **actually** want is to connect to an audience of customers - many of which are predominantly mobile. Don't jump to the solution just yet - an App is just one way to to do this. But you need to start by addressing the core requirement - creating something that your audience of customers really want.
 
 Now 12WBT already had this- they have a very successful digital product, with lots of engaged customers. We had already developed the main product so that it was optimised for how their audience was using the product:
 
-- on their mobile phones
-- on their desktop or laptops
-- printing out parts and using that during a workout or cooking
+* on their mobile phones
+* on their desktop or laptops
+* printing out parts and using that during a workout or cooking
 
 But there were some specific user issues we needed to address for people using the product on mobile.
 
@@ -59,7 +61,7 @@ But there were some specific user issues we needed to address for people using t
 
 If you take your phone to the park, you might want to prop it up and play through a workout video while you do the workout. Except that the damn thing will keep on going to sleep if you don't touch the screen. So that's a problem.
 
-!\[Video Workouts\](/assets/images/12wbt-daily-app-mobile-screens.jpg)
+!\[Video Workouts]\(/assets/images/12wbt-daily-app-mobile-screens.jpg)
 
 Another was that with 12WBT, we do some [clever things with video workouts](/portfolio/12wbt-dynamic-video/). Part of the reason for this is to avoid forcing mobile users to download a really long 45min video - by splitting it up and reusing, we dramatically change the bandwidth profile. The problem is when you try to synch a video snippet and some audio, it works perfectly on desktop, but on mobile (depending on your connection at the time) there is slight latency which means they can get out of whack. Which can get surprisingly irritating.
 
