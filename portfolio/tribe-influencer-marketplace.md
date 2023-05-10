@@ -3,7 +3,7 @@ layout: project
 theme: tribe
 slug: tribe-influencer-marketplace
 title: >-
-  Tribe: How We Developed a Successful Platform for Marketers to Connect with
+  Tribe: How We Developed a Successful Platform for Brands to Connect with
   Creators
 tagline: An online marketplace for brands and influencers
 description: Marketing is changing.
