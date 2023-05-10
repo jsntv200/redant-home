@@ -2,10 +2,10 @@
 layout: project
 theme: tribe
 slug: tribe-influencer-marketplace
-title: Tribe Influencer Marketplace
+title: 'Tribe Influencer Marketplace: How We Developed a Successful Platform'
 tagline: An online marketplace for brands and influencers
 description: Marketing is changing.
-project_url: http://www.tribegroup.co/
+project_url: 'http://www.tribegroup.co/'
 client: Tribe Group
 project_date: 2015-2016
 technologies:
@@ -19,17 +19,23 @@ team_size: 4 people
 lines_of_code: ''
 images:
   - type: gallery
-    path: /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-1.jpg
+    path: >-
+      /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-1.jpg
   - type: gallery
-    path: /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-2.jpg
+    path: >-
+      /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-2.jpg
   - type: gallery
-    path: /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-3.jpg
+    path: >-
+      /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-3.jpg
   - type: gallery
-    path: /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-4.jpg
+    path: >-
+      /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-4.jpg
   - type: mobile
-    path: /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-hero-mobile.jpg
+    path: >-
+      /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-hero-mobile.jpg
   - type: desktop
-    path: /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-hero-desktop.jpg
+    path: >-
+      /assets/images/projects/tribe-influencer-marketplace/tribe-influencer-marketplace-hero-desktop.jpg
     height: 646
 ---
 
@@ -63,6 +69,6 @@ Anyway, the whole point of the Tribe Marketplace is to help brands connect with 
 
 In terms of the technical stuff:
 
-- Most of the heavy lifting is done by a Ruby on Rails backend, which has various APIs
-- There is a RoR front end, which is where users set up their accounts, load briefs etc
-- There are separate phone front ends (eg: iOS) that users can use to respond to briefs etc
+* Most of the heavy lifting is done by a Ruby on Rails backend, which has various APIs
+* There is a RoR front end, which is where users set up their accounts, load briefs etc
+* There are separate phone front ends (eg: iOS) that users can use to respond to briefs etc
