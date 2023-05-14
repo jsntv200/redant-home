@@ -85,7 +85,7 @@
           ]
         }
       ],
-      "max": "136.8",
+      "max": "114",
       "min": "22.799999999999997"
     },
     "your-team": {
@@ -147,7 +147,7 @@
           ]
         }
       ],
-      "max": "50.400000000000006",
+      "max": "63",
       "min": "12.600000000000001"
     },
     "owner": {
@@ -196,7 +196,7 @@
           ]
         }
       ],
-      "max": "35.99999999999999",
+      "max": "60",
       "min": "11.999999999999998"
     },
     "technology": {
@@ -258,7 +258,7 @@
           ]
         }
       ],
-      "max": "67.2",
+      "max": "84",
       "min": "16.8"
     }
   },
@@ -397,7 +397,7 @@
           ]
         }
       ],
-      "max": "60",
+      "max": "75",
       "min": "15"
     },
     "disclosure": {
@@ -433,7 +433,7 @@
           ]
         }
       ],
-      "max": "8.399999999999999",
+      "max": "21",
       "min": "4.199999999999999"
     },
     "access-and-correction": {
@@ -469,7 +469,7 @@
           ]
         }
       ],
-      "max": "15.6",
+      "max": "39",
       "min": "7.8"
     }
   },
@@ -601,7 +601,7 @@
           "weight": "8",
           "answers": [
             "Well, we try to make sure that the admin password is not 'admin' and that no one shares it on a Post-it note. It's worked so far.",
-            "We have a policy that requires all admins to take a cybersecurity training course. It's only an hour long, but we think it's enough to scare them into being careful.",
+            "We have a policy that requires all admins to take a cyber security training course. It's only an hour long, but we think it's enough to scare them into being careful.",
             "We have a well-defined role-based access control system in place, and all system administrators are granted only the access necessary to perform their job duties. We also implement two-factor authentication for privileged access, and all system administration activity is logged and regularly reviewed.",
             "We have implemented advanced security analytics tools that monitor system administration activity in real-time, alerting us to any anomalous behavior. Additionally, all system administration activity is subject to continuous monitoring, and our incident response plans are regularly tested and updated.",
             "We have implemented a DevSecOps approach to system administration, where security is integrated into every stage of the development and administration process. Our system administrators undergo regular security training, and our security processes are continually refined and improved based on data-driven insights and feedback from our security team."
@@ -738,7 +738,7 @@
           ]
         }
       ],
-      "max": "873.6000000000001",
+      "max": "312",
       "min": "62.39999999999999"
     },
     "detect": {
@@ -774,7 +774,7 @@
           ]
         }
       ],
-      "max": "13.2",
+      "max": "33",
       "min": "6.6"
     },
     "respond": {
@@ -823,7 +823,7 @@
           ]
         }
       ],
-      "max": "32.4",
+      "max": "54",
       "min": "10.8"
     }
   }
