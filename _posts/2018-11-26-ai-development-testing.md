@@ -2,34 +2,36 @@
 layout: post
 title: The hard thing about AI isn't making it - it's testing that it works
 type: news
-permalink: "/automated-testing/ai-development-testing"
+permalink: /automated-testing/ai-development-testing
 categories:
-- automated-testing
-- software-development
+  - automated-testing
+  - software-development
 author: Ben Still
-description: AI and Machine Learning are amazing technologies. But in some cases it
-  can be hard to know when they are actually working
-keywords: ai development, machine learning, automated tests
+description: >-
+  AI and Machine Learning are amazing technologies. But in some cases it can be
+  hard to know when they are actually working
+keywords: 'ai development, machine learning, automated tests'
 date: '2018-11-26T02:31:36.000+00:00'
-image_small: "/assets/uploads/2018/extra_large-1498661132-cover-image-1.jpg"
-image: "/assets/uploads/2018/extra_large-1498661132-cover-image.jpg"
-excerpt_short: Testing Machine Learning or AI powered features is often trickier than
-  it seems
+image_small: /assets/uploads/2018/extra_large-1498661132-cover-image-1.jpg
+image: /assets/uploads/2018/extra_large-1498661132-cover-image.jpg
+excerpt_short: >-
+  Testing Machine Learning or AI powered features is often trickier than it
+  seems
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2018-11-26'
+redirect_from: null
+date_published: 2018-11-26T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2018-11-26
-
+updated_at: 2018-11-26T00:00:00.000Z
 ---
+
 Before you start pitching to your investors about how amazing the world will be once you get some AI in your product, spare a thought for the engineering team behind Tay, [the Microsoft AI chatbot](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist).
 
 > Unfortunately, the conversations didn't stay playful for long. Pretty soon after Tay launched, people starting tweeting the bot with all sorts of misogynistic, racist, and Donald Trumpist remarks. And Tay — being essentially a robot parrot with an internet connection — started repeating these sentiments back to users
 
 AI/ML technology is amazing, and it's changing and evolving at a rapid pace. It's gone from a hard, obscure technology to a simple service that you can quickly integrate into your product.
 
-But it can often be quite hard to get a handle on how well it's working. Or if it is actually working at all. In a recent project, we decided to use AI to help us [choose a good rescue pet](/portfolio/real-pet-matcher/) to adopt. Basically a recommendation engine that was driven by which animals you liked or didn't.
+But it can often be quite hard to get a handle on how well it's working. Or if it is actually working at all. In a recent project, we decided to use AI to help us choose a good rescue pet to adopt. Basically a recommendation engine that was driven by which animals you liked or didn't.
 
 So if you looked at this dog
 
@@ -49,19 +51,17 @@ That all worked. The problem we hit was around recommendations. What to show you
 
 To explain: when we write code, it's good practice to also write some test code to check that. So say the feature you code is a doorbell. Your test might be:
 
-> _when I press the red button with my finger, I should hear a chime_
->
-> _when I press the side with my finger, I should not hear a chime_
+> *when I press the red button with my finger, I should hear a chimewhen I press the side with my finger, I should not hear a chime*
 
 These tests get fed into Continuous Integration, and get run each time a developer makes changes or deploys code. They can even be run in the live environment to monitor ongoing performance. That's how we can be certain that our code is working as planned.
 
 But how do you create a test to see if the recommendation you've made is the right one? We've asked the AI engine
 
-_"Hey - what should we recommend now?"_
+*"Hey - what should we recommend now?"*
 
 and the AI has replied
 
-_"42"_.
+*"42"*.
 
 It can be hard to understand if pet id#42 is in fact the right pet to show for this person or not.
 
@@ -82,7 +82,7 @@ The data set we were working with was quite different
 * the data set itself (pets available) is a few thousand. Once we apply preferences (the kind of pet you're after) and location (only show pets in shelters close to you) it gets much smaller.
 * Very difficult to set success criteria. There is no clear data about whether a user actually went on to adopt pet#42. What if they did and it didn't work out (the recommendation was bad)?
 
-The problem we faced was not knowing if our fancy AI based Machine Learning &#60; insert trendy keyword here &#62; recommendation engine was actually making any difference at all. How different were the results it recommended vs using simple random pick code?
+The problem we faced was not knowing if our fancy AI based Machine Learning \< insert trendy keyword here > recommendation engine was actually making any difference at all. How different were the results it recommended vs using simple random pick code?
 
 Before you rush out and AI all the Things, get some inspiration here
 
