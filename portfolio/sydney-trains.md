@@ -42,7 +42,7 @@ Sydney Trains needed a tool to help them visualise the impacts of changing a ser
 
 ## What we did - Digital Product Development
 
-Through a series of [Discovery Sessions](/our-approach/) we engaged with Sydney Trains and our partner Veitch Lister Consulting to understand what data was available and what decisions they needed to make as well as how to best present and interact with this information. We helped them to identify and prioritise their user stories and requirements for each sprint of development and created the [Roadmap]() for their Digital Product Development.
+Through a series of discovery sessions we engaged with Sydney Trains and our partner Veitch Lister Consulting to understand what data was available and what decisions they needed to make as well as how to best present and interact with this information. We helped them to identify and prioritise their user stories and requirements for each sprint of development and created the roadmap for their Digital Product Development.
 
 With the planning in place, execution was straightforward. We created a common data model and built an API around that so they could query a range of static and dynamic data sets combined with best in breed transport models. We built a visual front end that was engaging and could be used by the Sydney Trains service planning team.
 
