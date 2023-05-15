@@ -1,0 +1,32 @@
+---
+layout: assessment
+---
+
+<div>
+  {% include assessment/header.html area=page.area %}
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="card shadow rounded-4">
+            <div class="card-header bg-transparent ps-4 ps-sm-5 py-0 d-flex">
+              {% include assessment/sections.html sections = page.sections %}
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                data-assessment-target="fill"
+                role="progressbar"
+                style="width: 0%"
+                aria-valuenow="0"
+                aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

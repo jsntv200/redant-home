@@ -1,106 +1,320 @@
-[
-  {
-    "title": "Current",
-    "slug": "current",
-    "results": [
-      {
-        "title": "None of the above",
-        "description": "Sounds like your organisation hasn't really embraced any kind of payment process. Lots of room for improvement here. Seize the opportunity - many of your competitors are probably a lot more advanced."
-      },
-      {
-        "title": "Reliable",
-        "description": "You got a “Reliable” rating for your Current State. Sounds like your organisation is just at the start of your payments journey. Seize the opportunity to improve this - many of your competitors might be already more advanced."
-      },
-      {
-        "title": "Efficient",
-        "description": "You got an “Efficient” score for Current State, which is where many typical organisations find themselves. Not a great result, but the good news is that there are plenty of areas that can be improved, to capitalise on the investment that you've already started to make."
-      },
-      {
-        "title": "Responsive",
-        "description": "You got “Responsive” as your rating for Current State. This indicates that you have many of the features that indicate a well functioning payment ecosystem within your organisation. To improve this result, you'll need to tighten up your security, documentation and design processes."
-      },
-      {
-        "title": "Agile",
-        "description": "We gave you an “Agile” rating for Current State - well done! Looks like your organisation has embraced many of the aspects of a well functioning payment system. But as you're probably aware, this takes constant, careful effort to keep running smoothly"
-      }
-    ]
-  },
-  {
-    "title": "Your team",
-    "slug": "your-team",
-    "results": [
-      {
-        "title": "None of the above",
-        "description": "Sounds like your team isn't really along for the payments ride - you scored quite low on this section.  The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are lots of areas where things can be improved. Start planning out payments related training to help the team improve knowledge and specific skills."
-      },
-      {
-        "title": "Reliable",
-        "description": "We gave your team a “Reliable” rating for payments. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are lots of areas where things can be improved. Start planning out payments related training to help the team improve knowledge and specific skills."
-      },
-      {
-        "title": "Efficient",
-        "description": "Your team scored “Efficient”, which means there is still some way to go to get to a more mature payments ecosystem. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are lots of areas where things can be improved. Start planning out payments related training to help the team improve knowledge and specific skills."
-      },
-      {
-        "title": "Responsive",
-        "description": "Your team scored “Responsive”, which indicates that they are relatively mature in terms of dealing with payments. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are always areas where things can be improved. Continue planning out payments related training to help the team improve knowledge and specific skills."
-      },
-      {
-        "title": "Agile",
-        "description": "Your team scored “Agile”, which indicates that they are quite mature in terms of dealing with payments. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are always areas where things can be improved. Continue planning out payments related training to help the team improve knowledge and specific skills."
-      }
-    ]
-  },
-  {
-    "title": "Owner",
-    "slug": "owner",
-    "results": [
-      {
-        "title": "None of the above",
-        "description": "Sounds like you don't really have an kind of owner or management structure and responsibilities around payments. Without clear responsibilites and ownership, your organisation may struggle to reach a more mature posture. Start with some conversations about who needs to be responsible for making key decisions, and what this might involve."
-      },
-      {
-        "title": "Reliable",
-        "description": "Your results for clear management and ownership weren't great- we gave you a “Reliable” for this. Without clear responsibilites and ownership, your organisation may struggle to reach a more mature posture. Start with some conversations about who is actually responsible for making key decisions, and responsibilities around that."
-      },
-      {
-        "title": "Efficient",
-        "description": "Your results for clear management and ownership weren't great- we gave you an “Efficient” for this. Without clear responsibilites and ownership, your organisation may struggle to reach a more mature posture. Start with some conversations about who is actually responsible for making key decisions, and responsibilities around that."
-      },
-      {
-        "title": "Responsive",
-        "description": "Your results for clear management and ownership were good- we gave you an “Responsive” for this. There are still some areas that could be improved, to move towards a more agile and mature management process. Start with some analysis of scenarios and problems, ideally running regular retrospectives to understand and improve the decision making process."
-      },
-      {
-        "title": "Agile",
-        "description": "You scored well for clear management and ownership - we gave you an “Agile” for this. There are still some areas that could be improved, to move towards a more agile and mature management process. Start with some analysis of scenarios and problems, ideally running regular retrospectives to understand and improve the decision making process."
-      }
-    ]
-  },
-  {
-    "title": "Technology",
-    "slug": "technology",
-    "results": [
-      {
-        "title": "None of the above",
-        "description": "You scored poorly on this - it would seem that technology is not really the strong point of your organisation. Baby steps. Start thinking about and mapping out your payment requirements. Don't try to do everything at once, because it probably won't work. Chip off a bit at a time and progress towards continual improvement."
-      },
-      {
-        "title": "Reliable",
-        "description": "Plenty of room for improvement here - we gave you a “Reliable” rating on this. As in, you're still in the race, but if some pretty radical improvements don't happen, you might get left behind. Technology is both the actual technology stack, as well as the people behind it. Focus on improving both."
-      },
-      {
-        "title": "Efficient",
-        "description": "Plenty of room for improvement here - we gave you an “Efficient” rating on this. As in, you're still in the race, but if some pretty radical improvements don't happen, you might get left behind. Technology is both the actual technology stack, as well as the people behind it. Focus on improving both."
-      },
-      {
-        "title": "Responsive",
-        "description": "Good work- we gave you a “Responsive” for Technology. However there are still lots of areas that could be improved. Payments move and evolve incredibly quickly. So while you have a good foundation, there are plenty of areas that could be improved here."
-      },
-      {
-        "title": "Agile",
-        "description": "Great work- we gave you an “Agile” for Technology. However there are still lots of areas that could be improved. Payments move and evolve incredibly quickly. So while you have a good foundation, there are plenty of areas that could be improved here."
-      }
-    ]
-  }
-]
+{
+  "payment": [
+    {
+      "title": "Current",
+      "slug": "current",
+      "results": [
+        {
+          "title": "None of the above",
+          "description": "Sounds like your organisation hasn't really embraced any kind of payment process. Lots of room for improvement here. Seize the opportunity - many of your competitors are probably a lot more advanced."
+        },
+        {
+          "title": "Reliable",
+          "description": "You got a “Reliable” rating for your Current State. Sounds like your organisation is just at the start of your payments journey. Seize the opportunity to improve this - many of your competitors might be already more advanced."
+        },
+        {
+          "title": "Efficient",
+          "description": "You got an “Efficient” score for Current State, which is where many typical organisations find themselves. Not a great result, but the good news is that there are plenty of areas that can be improved, to capitalise on the investment that you've already started to make."
+        },
+        {
+          "title": "Responsive",
+          "description": "You got “Responsive” as your rating for Current State. This indicates that you have many of the features that indicate a well functioning payment ecosystem within your organisation. To improve this result, you'll need to tighten up your security, documentation and design processes."
+        },
+        {
+          "title": "Agile",
+          "description": "We gave you an “Agile” rating for Current State - well done! Looks like your organisation has embraced many of the aspects of a well functioning payment system. But as you're probably aware, this takes constant, careful effort to keep running smoothly"
+        }
+      ]
+    },
+    {
+      "title": "Your team",
+      "slug": "your-team",
+      "results": [
+        {
+          "title": "None of the above",
+          "description": "Sounds like your team isn't really along for the payments ride - you scored quite low on this section.  The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are lots of areas where things can be improved. Start planning out payments related training to help the team improve knowledge and specific skills."
+        },
+        {
+          "title": "Reliable",
+          "description": "We gave your team a “Reliable” rating for payments. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are lots of areas where things can be improved. Start planning out payments related training to help the team improve knowledge and specific skills."
+        },
+        {
+          "title": "Efficient",
+          "description": "Your team scored “Efficient”, which means there is still some way to go to get to a more mature payments ecosystem. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are lots of areas where things can be improved. Start planning out payments related training to help the team improve knowledge and specific skills."
+        },
+        {
+          "title": "Responsive",
+          "description": "Your team scored “Responsive”, which indicates that they are relatively mature in terms of dealing with payments. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are always areas where things can be improved. Continue planning out payments related training to help the team improve knowledge and specific skills."
+        },
+        {
+          "title": "Agile",
+          "description": "Your team scored “Agile”, which indicates that they are quite mature in terms of dealing with payments. The human aspect of a payment system is just as critical as other parts such as infrastructure and security, and there are always areas where things can be improved. Continue planning out payments related training to help the team improve knowledge and specific skills."
+        }
+      ]
+    },
+    {
+      "title": "Owner",
+      "slug": "owner",
+      "results": [
+        {
+          "title": "None of the above",
+          "description": "Sounds like you don't really have an kind of owner or management structure and responsibilities around payments. Without clear responsibilites and ownership, your organisation may struggle to reach a more mature posture. Start with some conversations about who needs to be responsible for making key decisions, and what this might involve."
+        },
+        {
+          "title": "Reliable",
+          "description": "Your results for clear management and ownership weren't great- we gave you a “Reliable” for this. Without clear responsibilites and ownership, your organisation may struggle to reach a more mature posture. Start with some conversations about who is actually responsible for making key decisions, and responsibilities around that."
+        },
+        {
+          "title": "Efficient",
+          "description": "Your results for clear management and ownership weren't great- we gave you an “Efficient” for this. Without clear responsibilites and ownership, your organisation may struggle to reach a more mature posture. Start with some conversations about who is actually responsible for making key decisions, and responsibilities around that."
+        },
+        {
+          "title": "Responsive",
+          "description": "Your results for clear management and ownership were good- we gave you an “Responsive” for this. There are still some areas that could be improved, to move towards a more agile and mature management process. Start with some analysis of scenarios and problems, ideally running regular retrospectives to understand and improve the decision making process."
+        },
+        {
+          "title": "Agile",
+          "description": "You scored well for clear management and ownership - we gave you an “Agile” for this. There are still some areas that could be improved, to move towards a more agile and mature management process. Start with some analysis of scenarios and problems, ideally running regular retrospectives to understand and improve the decision making process."
+        }
+      ]
+    },
+    {
+      "title": "Technology",
+      "slug": "technology",
+      "results": [
+        {
+          "title": "None of the above",
+          "description": "You scored poorly on this - it would seem that technology is not really the strong point of your organisation. Baby steps. Start thinking about and mapping out your payment requirements. Don't try to do everything at once, because it probably won't work. Chip off a bit at a time and progress towards continual improvement."
+        },
+        {
+          "title": "Reliable",
+          "description": "Plenty of room for improvement here - we gave you a “Reliable” rating on this. As in, you're still in the race, but if some pretty radical improvements don't happen, you might get left behind. Technology is both the actual technology stack, as well as the people behind it. Focus on improving both."
+        },
+        {
+          "title": "Efficient",
+          "description": "Plenty of room for improvement here - we gave you an “Efficient” rating on this. As in, you're still in the race, but if some pretty radical improvements don't happen, you might get left behind. Technology is both the actual technology stack, as well as the people behind it. Focus on improving both."
+        },
+        {
+          "title": "Responsive",
+          "description": "Good work- we gave you a “Responsive” for Technology. However there are still lots of areas that could be improved. Payments move and evolve incredibly quickly. So while you have a good foundation, there are plenty of areas that could be improved here."
+        },
+        {
+          "title": "Agile",
+          "description": "Great work- we gave you an “Agile” for Technology. However there are still lots of areas that could be improved. Payments move and evolve incredibly quickly. So while you have a good foundation, there are plenty of areas that could be improved here."
+        }
+      ]
+    }
+  ],
+  "privacy": [
+    {
+      "title": "Collection and Use",
+      "slug": "collection-and-use",
+      "results": [
+        {
+          "title": "Initial",
+          "description": "Based on your responses, it seems there’s little to no privacy policies or procedures in place when it comes to collecting and using personal information. You may be collecting information indiscriminately without any regard for the privacy of their customers or clients."
+        },
+        {
+          "title": "Developing",
+          "description": "Sounds like you may have some privacy policies in place, but you’re only reacting to issues or complaints as they arise. Lacking a proactive approach to managing personal information, you may not be aware of all the types of information you’re collecting or using."
+        },
+        {
+          "title": "Established",
+          "description": "You have a good understanding of the types of personal information you collect and use, and have policies in place to ensure that you’re collecting this information in a reasonable and transparent way. Procedures are in place to respond to requests for access or correction of personal information."
+        },
+        {
+          "title": "Advanced",
+          "description": "You’re going above and beyond to ensure that personal information is collected and used in a responsible and ethical manner. Strict policies and procedures are in place for collecting and using personal information, and regular reviews and updates are made to these policies to ensure you’re up-to-date with the latest privacy laws."
+        },
+        {
+          "title": "Leading",
+          "description": "Wow! You’re a leader in privacy management. You have an advanced understanding of privacy laws and regulations and a comprehensive privacy program in place. You not only collect and use personal information in a responsible way, but you also have strict procedures for handling any breaches or complaints related to privacy."
+        }
+      ]
+    },
+    {
+      "title": "Protection",
+      "slug": "protection",
+      "results": [
+        {
+          "title": "Initial",
+          "description": "Is this the first time you’ve heard of the Australian Privacy Principles? You might have some basic security measures in place, but likely not taking privacy seriously yet."
+        },
+        {
+          "title": "Developing",
+          "description": "You’ve started to take privacy seriously, but you’re still figuring things out. You might have a privacy policy and some basic security measures in place, but you’re not consistently applying them across the organisation."
+        },
+        {
+          "title": "Established",
+          "description": "You’re taking a proactive approach to privacy and have implemented a comprehensive privacy management program. You have policies and procedures in place to protect personal information and regularly review and update practices to stay compliant."
+        },
+        {
+          "title": "Advanced",
+          "description": "You have gone above and beyond to ensure the protection of personal information. You have a strong culture of privacy throughout the organisation, with privacy training for all staff, regular privacy impact assessments, and a dedicated privacy team."
+        },
+        {
+          "title": "Leading",
+          "description": "You’re a privacy champion and has made privacy a core part of your identity. You not only comply with the Australian Privacy Principles, but you also go above and beyond to protect personal information and build trust with your customers. You regularly engage with privacy advocates and are at the forefront of privacy innovation."
+        }
+      ]
+    },
+    {
+      "title": "Disclosure",
+      "slug": "disclosure",
+      "results": [
+        {
+          "title": "Initial",
+          "description": "You don't seem to have any privacy policies or procedures in place for disclosing personal information. You might not even be aware of the privacy principles or the importance of protecting personal information."
+        },
+        {
+          "title": "Developing",
+          "description": "You’re starting to take privacy seriously and have begun developing some policies and procedures around disclosing personal information. You may have some training in place for employees, but it's not yet comprehensive."
+        },
+        {
+          "title": "Established",
+          "description": "You have a solid understanding of the privacy principles and have developed policies and procedures for disclosing personal information. You’ve implemented employee training and may have appointed a privacy officer to oversee privacy-related matters."
+        },
+        {
+          "title": "Advanced",
+          "description": "You have gone above and beyond the minimum requirements for privacy protection and have implemented sophisticated technical and organisational measures for disclosing personal information. You regularly review and update your policies and procedures to ensure they're up-to-date with current privacy regulations."
+        },
+        {
+          "title": "Leading",
+          "description": "You’re a privacy champion and are considered a leader in the industry. You have implemented innovative solutions to ensure privacy protection, such as privacy impact assessments and privacy-by-design principles. You regularly share your best practices and insights with other organisations to help raise privacy standards across the board."
+        }
+      ]
+    },
+    {
+      "title": "Access and Correction",
+      "slug": "access-and-correction",
+      "results": [
+        {
+          "title": "Initial",
+          "description": "So, do you ever feel like a deer in headlights when it comes to dealing with access and correction requests? You don't really have a process in place and often just scramble to respond to requests when they come in. It's like you’re still figuring things out."
+        },
+        {
+          "title": "Developing",
+          "description": "You’re getting the hang of things. You’ve established some basic procedures for managing access and correction requests, but you’re not quite streamlined yet. There's still a bit of room for improvement, but at least you’re making progress."
+        },
+        {
+          "title": "Established",
+          "description": "You’ve really stepped up your game when it comes to managing access and correction requests. You’ve got some solid systems in place and are able to respond to requests in a timely and efficient manner. It's clear you’re taking privacy seriously."
+        },
+        {
+          "title": "Advanced",
+          "description": "You’re at the top of your game when it comes to handling access and correction requests. You have a well-oiled machine in place for managing these requests, with clearly defined processes and dedicated staff. You’re able to respond quickly and accurately to any requests that come your way."
+        },
+        {
+          "title": "Leading",
+          "description": "You’re going above and beyond when it comes to managing access and correction requests. You’re always looking for ways to improve your processes and are very proactive in addressing any privacy concerns. It's clear that you’re committed to protecting your customers' personal information and take your responsibilities very seriously."
+        }
+      ]
+    }
+  ],
+  "cyber-security": [
+    {
+      "title": "Govern",
+      "slug": "govern",
+      "results": [
+        {
+          "title": "Incomplete",
+          "description": "So, at this level, you’re is just starting out with your cyber security governance. You might have some basic policies and procedures in place, but they're not really being enforced or regularly reviewed. Cyber security isn't seen as a high priority yet."
+        },
+        {
+          "title": "Initial",
+          "description": "Okay, so now you’re starting to take cyber security governance a bit more seriously. You’ve established some clear policies and procedures, and you’re making an effort to ensure they're being followed. You might also have a designated person or team in charge of overseeing cyber security."
+        },
+        {
+          "title": "Developing",
+          "description": "At this stage, you have really started to integrate cyber security governance into your overall business strategy. You’re regularly reviewing and updating your policies and procedures, and making sure that all employees are aware of their responsibilities when it comes to cyber security. You might also be conducting regular risk assessments."
+        },
+        {
+          "title": "Managing",
+          "description": "You’re really on top of your cyber security governance. You’ve got a comprehensive set of policies and procedures in place, and are constantly reviewing and updating them based on new threats or vulnerabilities. You’re also regularly monitoring your systems and conducting in-depth risk assessments to ensure you’re staying ahead of potential threats."
+        },
+        {
+          "title": "Optimising",
+          "description": "You’re at the top level of cyber security governance maturity. At this point, your is a well-oiled machine when it comes to protecting against cyber threats. You have a culture of security throughout the entire organisation, and are constantly seeking out new ways to improve your processes to stay ahead of potential threats. You might also be participating in industry-specific information sharing and collaboration efforts to further enhance your security measures."
+        }
+      ]
+    },
+    {
+      "title": "Protect",
+      "slug": "protect",
+      "results": [
+        {
+          "title": "Incomplete",
+          "description": "You’re new to the world of cybersecurity and still figuring out the basics. You might have some firewalls and anti-virus software in place, but that's about it. Like a kid trying to build a fort out of cardboard boxes - it might keep out some of the bad guys, but it's not very effective overall."
+        },
+        {
+          "title": "Initial",
+          "description": "You’re starting to take cybersecurity seriously. You’ve upgraded your firewalls and anti-virus software, and starting to implement some basic security policies. Like a student who's starting to study for exams - you’re taking it seriously, but they still have a lot to learn."
+        },
+        {
+          "title": "Developing",
+          "description": "You’re starting to establish yourself in the world of cybersecurity. You have a well-defined security policy, and actively monitoring your systems for threats. You’re like a young professional who's just landed your first job - still learning, but taking it seriously and making progress."
+        },
+        {
+          "title": "Managing",
+          "description": "You’re a seasoned professional who's been working in cybersecurity for a while. You have a comprehensive security program in place, and are constantly monitoring and updating your systems. You’ve seen it all - you know what you’re doing and you’re good at it."
+        },
+        {
+          "title": "Optimising",
+          "description": "You have a state-of-the-art security program in place, and are always looking for ways to improve it. You’re a master of your craft - you know exactly what you’re doing and are always looking for ways to get better."
+        }
+      ]
+    },
+    {
+      "title": "Detect",
+      "slug": "detect",
+      "results": [
+        {
+          "title": "Incomplete",
+          "description": "You’re probably not very proactive about detecting cyber security threats. You may not have a dedicated team for this task, and may rely on ad-hoc measures to identify incidents as they arise."
+        },
+        {
+          "title": "Initial",
+          "description": "You have evolved to a better-defined process for detecting cyber security threats. You have identified the types of threats you need to watch out for and have established some basic protocols for identifying and reporting incidents."
+        },
+        {
+          "title": "Developing",
+          "description": "You have developed a more robust system for detecting cyber security threats. You have dedicated staff and resources to monitor your networks for signs of suspicious activity, and may use automated tools to help identify potential incidents."
+        },
+        {
+          "title": "Managing",
+          "description": "You have a well-established system for detecting cyber security threats, and regularly monitor and measure the effectiveness of your efforts. You use metrics and key performance indicators to track your progress, and regularly review and refine your processes to stay up-to-date with the latest threats."
+        },
+        {
+          "title": "Optimising",
+          "description": "You have a highly optimised system for detecting cyber security threats. You use the latest tools and techniques to identify potential incidents in real-time, and have a team of experts who are constantly monitoring their networks for signs of suspicious activity. You also regularly review and test your processes to ensure they’re effective and efficient."
+        }
+      ]
+    },
+    {
+      "title": "Respond",
+      "slug": "respond",
+      "results": [
+        {
+          "title": "Incomplete",
+          "description": "You have no formal incident response plan and are totally unprepared for a cyber attack. You might panic and scramble to contain the incident, but it's likely to spiral out of control."
+        },
+        {
+          "title": "Initial",
+          "description": "You have a basic incident response plan in place, but it's not very comprehensive or well-tested. You might be able to contain a simple attack, but more complex incidents could still cause major damage."
+        },
+        {
+          "title": "Developing",
+          "description": "You have a solid incident response plan that's been tested and refined over time. You have designated incident response teams and clear protocols for containing, investigating, and recovering from cyber attacks."
+        },
+        {
+          "title": "Managing",
+          "description": "You have a highly effective incident response program that's integrated into your overall security strategy. You’re constantly monitoring for threats and have sophisticated tools and processes in place for quickly detecting and responding to incidents."
+        },
+        {
+          "title": "Optimising",
+          "description": "You’re a cybersecurity powerhouse, with a world-class incident response program that's the envy of your peers. You have advanced threat intelligence capabilities, rapid response times, and the ability to quickly recover from any type of cyber attack. You’re constantly pushing the boundaries of what's possible in cybersecurity and are always looking for ways to improve your incident response capabilities."
+        }
+      ]
+    }
+  ]
+}

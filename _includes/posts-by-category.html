@@ -1,17 +1,109 @@
 {% assign postLimit = 20 %}
 {% assign postCount = site.categories[include.category] | size %}
 <section class="py-3 py-sm-5 container">
-  <div class="macy-container">
-    {% for post in site.categories[include.category] limit:1 %}
-      {% include post-card-wide.html %}
-    {% endfor %}
-  </div>
+  {% if include.category == "online-payments" %}
+    <div class="macy-container">
+      <div class="ga-section card mb-3">
+        <a href="/online-payments/payment-maturity-assessment" class="portfolio-tile bg-white text-black mb-0">
+          <div class="row bg-blue-200 text-white">
+            <div class="col-md-6 px-4 text-center">
+              <img src="/assets/uploads/2023/tool-min.png" class="img-responsive w-75 overflow-hidden" alt="payment maturity assessement tool">
+            </div>
 
-  <div data-controller="macy">
-    {% for post in site.categories[include.category] offset:1 limit:postLimit %}
-      {% include post-card.html %}
-    {% endfor %}
-  </div>
+            <div class="col-md-6 p-4">
+              <h2 class="h3">Payment Maturity Assessment</h2>
+
+              <p class="post-content">
+                This quick online tool will help you understand the overall maturity of the payments ecosystem within your organisation.
+              </p>
+              <p class="fw-bold">
+                Take the quiz
+                <i class="fa fa-chevron-right ms-1"></i>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div data-controller="macy">
+      {% for post in site.categories[include.category] limit:postLimit %}
+        {% include post-card.html %}
+      {% endfor %}
+    </div>
+  {% elsif include.category == "cyber-security" %}
+    <div class="macy-container">
+      <div class="ga-section card mb-3">
+        <a href="/cyber-security/cyber-security-maturity-assessment/" class="portfolio-tile bg-white text-black mb-0">
+          <div class="row bg-blue-200 text-white">
+            <div class="col-md-6 px-4 text-center">
+              <img src="/assets/uploads/2023/tool-min.png" class="img-responsive w-75 overflow-hidden" alt="cybersecurity maturity assessement tool">
+            </div>
+
+            <div class="col-md-6 p-4">
+              <h2 class="h3">Cybersecurity Maturity Assessment</h2>
+
+              <p class="post-content">
+                This quick online tool will help you understand the overall maturity of the security within your organisation.
+              </p>
+              <p class="fw-bold">
+                Take the quiz
+                <i class="fa fa-chevron-right ms-1"></i>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div data-controller="macy">
+      {% for post in site.categories[include.category] limit:postLimit %}
+        {% include post-card.html %}
+      {% endfor %}
+    </div>
+  {% elsif include.category == "privacy" %}
+    <div class="macy-container">
+      <div class="ga-section card mb-3">
+        <a href="/privacy/privacy-maturity-assessment/" class="portfolio-tile bg-white text-black mb-0">
+          <div class="row bg-blue-200 text-white">
+            <div class="col-md-6 px-4 text-center">
+              <img src="/assets/uploads/2023/tool-min.png" class="img-responsive w-75 overflow-hidden" alt="privacy maturity assessement tool">
+            </div>
+
+            <div class="col-md-6 p-4">
+              <h2 class="h3">Privacy Maturity Assessment</h2>
+
+              <p class="post-content">
+                This quick online tool will help you understand the overall maturity of the privacy ecosystem within your organisation.
+              </p>
+              <p class="fw-bold">
+                Take the quiz
+                <i class="fa fa-chevron-right ms-1"></i>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div data-controller="macy">
+      {% for post in site.categories[include.category] limit:postLimit %}
+        {% include post-card.html %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="macy-container">
+      {% for post in site.categories[include.category] limit:1 %}
+        {% include post-card-wide.html %}
+      {% endfor %}
+    </div>
+
+    <div data-controller="macy">
+      {% for post in site.categories[include.category] offset:1 limit:postLimit %}
+        {% include post-card.html %}
+      {% endfor %}
+    </div>
+  {% endif %}
 </section>
 
 {% if postCount > postLimit %}

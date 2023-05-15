@@ -1,14 +1,9 @@
 ---
 layout: assessment
-permalink: /online-payments/payment-maturity-assessment/results
-title: 
-description: 
-class: assessment
-sitemap: false
 ---
 
 <div>
-  {% include assessment/header.html %}
+  {% include assessment/header.html area = page.area %}
   <section>
     <div class="container">
       <div class="row">
@@ -17,7 +12,7 @@ sitemap: false
             <div class="card-body py-5 px-3 p-md-5">
               <div class="d-flex justify-content-between pb-4 align-items-center">
                 <h2 class="card-title mb-0">
-                  Your Payment Maturity Assessment
+                  <span data-assessment-target="name"></span>{{ page.type | capitalize }} Maturity Assessment
                 </h2>
 
                 <button
@@ -28,31 +23,33 @@ sitemap: false
               </div>
 
               <p class="card-text d-print-none">
-                Based on your answers, here are our ratings for your organisation in the four key areas. If you think you might have misread a question, don't worry you can always <a href="/online-payments/payment-maturity-assessment/current?q=1" class="text-purple">run through the questions again here</a>.
+                Based on your answers, here are our ratings for your organisation in the four key areas. If you think you might have misread a question, don't worry you can always <a href="/{{ page.type }}/{{ page.type }}-maturity-assessment/{{ page.start-section }}?q=1" class="text-purple">run through the questions again here</a>.
               </p>
-              <p class="card-text pb-4 d-print-none">
-                If you'd like to discuss these results in a bit more detail with a payments technical specialist, please <a href="/online-payments/book-call/" class="text-purple">click here</a>.
-              </p>
+              <a
+                href="/{{ page.type }}/book-call/"
+                class="btn btn-purple rounded-pill d-print-none mb-4">
+                Book a call to discuss your results with a {{ page.type | downcase }} specialist
+              </a>
 
-              <table 
+              <table
                 class="table table-borderless boder-light rounded-4 results-table bg-white rounded-3 h-100">
                 <thead>
                   <tr class="rounded-top rounded-4 text-white">
-                    <th 
+                    <th
                       class="p-1"
                       scope="col">
                       <span class="d-flex py-1 px-2 rounded-2">
                         Area
                       </span>
                     </th>
-                    <th 
+                    <th
                       class="py-1 d-none d-sm-block"
                       scope="col">
                       <span class="d-flex py-1 px-2 rounded-2">
                         Score
                       </span>
                     </th>
-                    <th 
+                    <th
                       class="p-1"
                       scope="col"
                       colspan="2">
@@ -87,11 +84,11 @@ sitemap: false
 
             <img
               class="bg-stripe d-print-none img-fluid position-absolute fixed-bottom"
-              src="/assets/images/stripe/bg.png"
+              src="/assets/images/assessment/bg.png"
             />
           </div>
         </div>
-      </div>    
+      </div>
     </div>
   </section>
 </div>

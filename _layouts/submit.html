@@ -1,14 +1,9 @@
 ---
 layout: assessment
-permalink: /online-payments/payment-maturity-assessment/submit
-title: 
-description: 
-class: assessment
-sitemap: false
 ---
 
 <div>
-  {% include assessment/header.html %}
+  {% include assessment/header.html area = page.type %}
   <section>
     <div class="container">
       <div class="row">
@@ -22,14 +17,14 @@ sitemap: false
               <p class="card-text pb-4">
                 Fill in your details below so we can crunch the numbers and present your results.
               </p>
-              
+
               <div class="row justify-content-center">
                 <div class="col-6">
-                  <form 
+                  <form
                     class="gform"
                     method="POST"
                     data-assessment-target="form"
-                    action="https://script.google.com/macros/s/AKfycby9fh4McI07HCKvpXSYEEgamQMW7k83xMnYWsGNj0I7jgcbJUaJ6KgKy6SbSWa9FX65/exec">
+                    action="{{ page.script }}">
                     <div class="form-elements">
                       <div class="mb-3">
                         <label
@@ -37,15 +32,15 @@ sitemap: false
                           class="form-label">
                           Name:
                         </label>
-                        <input 
-                          id="name" 
-                          name="name" 
+                        <input
+                          id="name"
+                          name="name"
                           class="form-control">
                       </div>
 
                       <div class="mb-3">
                         <label for="email">Email:</label>
-                        <input 
+                        <input
                           id="email"
                           name="email"
                           class="form-control"
@@ -55,42 +50,42 @@ sitemap: false
                           value=""
                           aria-describedby="emailHelp"
                           required/>
-                          <small 
-                            class="d-none text-red" 
+                          <small
+                            class="d-none text-red"
                             data-assessment-target="invalidEmail">
                             Please enter a valid email address.
                           </small>
                       </div>
 
-                      <input 
+                      <input
                         id="answers"
                         name="answers"
                         data-assessment-target="answersInput"
                         value=""
                         hidden />
 
-                      <input 
+                      <input
                         id="scores"
                         name="scores"
                         data-assessment-target="scoresInput"
                         value=""
                         hidden />
 
-                      <input 
+                      <input
                         id="colors"
                         name="colors"
                         data-assessment-target="colorsInput"
                         value=""
                         hidden />
 
-                      <input 
+                      <input
                         id="user"
                         class="d-none"
                         name="user"
                         value="" />
 
                       <div class="text-center">
-                        <button 
+                        <button
                           class="btn btn-purple rounded-pill btn-assessment-submit"
                           data-assessment-target="submitButton"
                           data-action="click->assessment#submit:prevent">
@@ -102,23 +97,23 @@ sitemap: false
                 </div>
               </div>
 
-              <div 
+              <div
                 class="d-none flex-column align-items-center"
                 data-assessment-target="response">
                 <p class="text-green text-center">
                   You will receive an email with your results!
                 </p>
 
-                <a 
-                  href="/online-payments/"
+                <a
+                  href="{{ page.root_url }}"
                   class="btn btn-purple rounded-pill mt-3">
-                  Go to Payments Blog
+                  Go to {{ page.type }} Blog
                 </a>
               </div>
             </div>
           </div>
         </div>
-      </div>    
+      </div>
     </div>
   </section>
 </div>

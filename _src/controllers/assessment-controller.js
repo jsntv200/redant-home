@@ -10,9 +10,11 @@ export class AssessmentController extends Controller {
     "bookingIframe",
     "colorsInput",
     "emailInput",
+    "fill",
     "form",
     "invalidEmail",
     "isMobile",
+    "name",
     "question",
     "questionSlider",
     "response",
@@ -25,9 +27,10 @@ export class AssessmentController extends Controller {
   ];
 
   static values = {
-    basePath: "/online-payments/payment-maturity-assessment/",
-    colorHashes: {type: Array, default: ["dc697a", "fdc95b", "c2d7b1", "92defb", "9069f7"]},
-    sections: {type: Array, default: ["current", "your-team", "owner", "technology"]}
+    basePathPayment: "/online-payments/payment-maturity-assessment/",
+    basePathPrivacy: "/privacy/privacy-maturity-assessment/",
+    basePathCyberSecurity: "/cyber-security/cyber-security-maturity-assessment/",
+    colorHashes: { type: Array, default: ["dc697a", "fdc95b", "c2d7b1", "92defb", "9069f7"] }
   }
 
   connect() {
@@ -43,15 +46,26 @@ export class AssessmentController extends Controller {
       this.setActiveSections();
       this.setActiveQuestions();
       this.setActiveAnswer();
+      this.setProgress();
     }
   }
 
-  get isBasePath() {
-    return location.pathname === this.basePathValue;
+  get assessment() {
+    let data = [];
+
+    if (location.pathname.includes(this.basePathPaymentValue)) {
+      data = ["payment", this.basePathPaymentValue, "current"];
+    } else if (location.pathname.includes(this.basePathPrivacyValue)) {
+      data = ["privacy", this.basePathPrivacyValue, "collection-and-use"];
+    } else if (location.pathname.includes(this.basePathCyberSecurityValue)) {
+      data = ["cyber-security", this.basePathCyberSecurityValue, "govern"];
+    }
+
+    return this.assessmentData(data);
   }
 
   get isBookingPath() {
-    return location.pathname === `/online-payments/book-call/`;
+    return location.pathname.includes("book-call");
   }
 
   get isSubmitPath() {
@@ -62,14 +76,55 @@ export class AssessmentController extends Controller {
     return location.pathname === `${this.basePathValue}results`;
   }
 
-  get answers() {
-    const answers = localStorage.getItem("answers");
+  get storedAnswers() {
+    const answers = localStorage.getItem(this.assessment.storageKey);
     return answers === 'null' || answers === null ? {} : JSON.parse(answers);
   }
 
+  get isBasePath() {
+    return location.pathname === this.assessment.basePath;
+  }
+
+  get isSubmitPath() {
+    return location.pathname === `${this.assessment.basePath}submit`;
+  }
+
+  get isResultsPath() {
+    return location.pathname === `${this.assessment.basePath}results`;
+  }
+
+  get scoreRange() {
+    return Object.values(questions[this.assessment.slug]).map(q => ({ max: q.max, min: q.min }));
+  }
+
+  get sections() {
+    return Object.values(questions[this.assessment.slug]).map(q => q.slug);
+  }
+
+  get totalAnswers() {
+    return Object.values(this.storedAnswers).reduce((acc, curr) => {
+      if (curr) {
+        return acc + curr.length;
+      }
+    }, 0);
+  }
+
+  get totalQuestions() {
+    return Object.values(questions[this.assessment.slug]).reduce((accumulator, current) => accumulator + current.questions.length, 0);
+  }
+
+  assessmentData([type, path, section]) {
+    return {
+      slug: type,
+      basePath: path,
+      storageKey: `${type}Answers`,
+      start: section
+    }
+  }
+
   calculateOrRedirect() {
-    if (Object.entries(this.answers).length > 0) {
-      this.answersInputTarget.value = JSON.stringify(this.answers);
+    if (Object.entries(this.storedAnswers).length > 0) {
+      this.answersInputTarget.value = JSON.stringify(this.storedAnswers);
       this.calculate();
     } else {
       this.navigateTo();
@@ -81,29 +136,30 @@ export class AssessmentController extends Controller {
     const weighting = 0.6;
     const answers = params.has('r') ?
       JSON.parse(decodeURIComponent(params.get('r')).replaceAll('&#34;', '"')) :
-      this.answers;
+      this.storedAnswers;
 
-    const scoreRange = Object.keys(questions)
-      .reduce((accumulator, currentValue) => {
-        return accumulator.concat({
-          max: questions[currentValue]["max"],
-          min: questions[currentValue]["min"]
-        });
-      }, []);
+    if (!answers) {
+      this.navigateTo();
+    }
+
+    if (params.has('name')) {
+      this.nameTarget.innerHTML = `${decodeURIComponent(params.get('name'))}: `;
+    }
 
     var scores = "";
     var colors = "";
 
     for (const [i, values] of Object.values(answers).entries()) {
-      const maxScore = scoreRange[i]["max"];
-      const minScore = scoreRange[i]["min"];
-      const range = maxScore - minScore;
+      const max = Number(this.scoreRange[i]["max"]).toFixed(1);
+      const min = Number(this.scoreRange[i]["min"]).toFixed(1);
+      const range = Number(max - min).toFixed(1);
+
       const scoreLevels = [
-        minScore,
-        minScore + range/5,
-        minScore + range/2,
-        maxScore - range/5,
-        maxScore
+        Number(min),
+        Number(min) + Number(range)/5,
+        Number(min) + Number(range)/2,
+        Number(max) - Number(range)/5,
+        Number(max)
       ];
       // To calculate result: answer_number * (weight * weighting)
       const totalScore = values.reduce((accumulator, currentValue) => {
@@ -120,28 +176,28 @@ export class AssessmentController extends Controller {
         }
       }
 
-      if (location.pathname === `${this.basePathValue}submit`) {
-        scores += `${results[i]["results"][closest]["title"]},`;
+      if (location.pathname === `${this.assessment.basePath}submit`) {
+        scores += `${results[this.assessment.slug][i]["results"][closest]["title"]},`;
         colors += `${this.colorHashesValue[closest]},`;
       } else {
         this.setResult(i, closest);
       }
     }
 
-    if (location.pathname === `${this.basePathValue}submit`) {
+    if (location.pathname === `${this.assessment.basePath}submit`) {
       this.scoresInputTarget.value = scores.slice(0, -1);
       this.colorsInputTarget.value = colors.slice(0, -1);
     }
   }
 
   checkIncomplete() {
-    if (Object.entries(this.answers).length > 0) {
+    if (Object.entries(this.storedAnswers).length > 0) {
       this.resumeTarget.classList.toggle("d-none");
     }
   }
 
   clearAnswers() {
-    localStorage.removeItem("answers");
+    localStorage.removeItem(this.assessment.storageKey);
   }
 
   clearErrors() {
@@ -224,7 +280,7 @@ export class AssessmentController extends Controller {
   }
 
   navigateTo(href = '') {
-    location.href = `${this.basePathValue}${href}`;
+    location.href = `${this.assessment.basePath}${href}`;
   }
 
   submit() {
@@ -234,8 +290,6 @@ export class AssessmentController extends Controller {
     }
 
     const formData = this.getFormData();
-    const url = this.formTarget.action;
-    const self = this;
 
     // If a honeypot field is filled, assume it was done so by a spam bot.
     if (formData.honeypot) {
@@ -245,8 +299,7 @@ export class AssessmentController extends Controller {
     this.submitButtonTarget.setAttribute('disabled', '');
 
     var xhr = new XMLHttpRequest();
-
-    xhr.open('POST', url);
+    xhr.open('POST', this.formTarget.action);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = () => {
       if (xhr.readyState === 4 && xhr.status === 200) {
@@ -270,9 +323,9 @@ export class AssessmentController extends Controller {
   }
 
   resume() {
-    if (Object.entries(this.answers).length > 0) {
-      const section = Object.keys(this.answers)[Object.keys(this.answers).length - 1];
-      const question = this.answers[section].length;
+    if (Object.entries(this.storedAnswers).length > 0) {
+      const section = Object.keys(this.storedAnswers)[Object.keys(this.storedAnswers).length - 1];
+      const question = this.storedAnswers[section].length;
       location.href += `/${section}?q=${question}`;
     }
   }
@@ -288,14 +341,14 @@ export class AssessmentController extends Controller {
   setActiveAnswer() {
     const section = location.pathname.split('/').reverse()[0];
 
-    if (Object.entries(this.answers).length === 0) return;
+    if (Object.entries(this.storedAnswers).length === 0) return;
 
     for (const i in this.answerTargets) {
       const target = this.answerTargets[i];
 
-      if (!this.answers[section] || !this.answers[section][i]) return;
+      if (!this.storedAnswers[section] || !this.storedAnswers[section][i]) return;
 
-      const oldAnswer = this.answers[section][i][0];
+      const oldAnswer = this.storedAnswers[section][i][0];
 
       if (!target || !oldAnswer) return;
 
@@ -317,7 +370,7 @@ export class AssessmentController extends Controller {
     this.questionSliderTarget.scrollLeft = this.questionTargets[index].offsetLeft - this.questionSliderTarget.offsetLeft;
 
     for (const i in this.questionTargets) {
-      const hasAnswer = !!this.answers[section] && !!this.answers[section][i];
+      const hasAnswer = this.storedAnswers?.[section]?.[i] ?? false;
 
       if (!hasAnswer && i > index) {
         this.questionTargets[i].setAttribute("disabled", true);
@@ -327,54 +380,60 @@ export class AssessmentController extends Controller {
   }
 
   setActiveSections() {
-    if (Object.entries(this.answers).length > 0) {
-      const sections = Object.keys(this.answers);
+    if (Object.entries(this.storedAnswers).length > 0) {
+      const sections = Object.keys(this.storedAnswers);
 
-      for (const i in this.sectionsValue) {
-        const slug = this.sectionsValue[i];
+      for (const i in this.sections) {
+        const slug = this.sections[i];
 
         if (location.pathname.includes(slug) || !!sections.find(section => section === slug)) {
           this.sectionTargets[i].removeAttribute("disabled");
           this.sectionTargets[i].classList.remove("opacity-25");
-
           this.sectionSliderTarget.scrollLeft = this.sectionTargets[i].offsetLeft - this.sectionSliderTarget.offsetLeft;
         }
+
+        if (location.pathname.includes(slug)) {
+          this.sectionTargets[i].classList.add("border-black");
+        }
       }
+    } else {
+      this.sectionTargets[0].removeAttribute("disabled");
+      this.sectionTargets[0].classList.remove("opacity-25");
+      this.sectionTargets[0].classList.add("border-black");
     }
   }
 
   setAnswer(data) {
-    // Data format: "section-slug,question-number,answer-number,answer-weight"
-    const answer = data.split(',');
-    var answers = this.answers;
+    const [sectionSlug, questionNumber, answerNumber, answerWeight] = data.split(",");
+    const answers = this.storedAnswers;
+    const questionAnswers = answers[sectionSlug] || [];
 
-    if (answers[answer[0]]) {
-      if (answers[answer[0]][answer[1] - 1]) {
-        answers[answer[0]][answer[1] - 1] = [parseInt(answer[2]), parseInt(answer[3])];
-      } else {
-        answers[answer[0]].push([parseInt(answer[2]), parseInt(answer[3])]);
-      }
-    } else {
-      answers[answer[0]] = [[parseInt(answer[2]), parseInt(answer[3])]];
-    }
+    questionAnswers[questionNumber - 1] = [parseInt(answerNumber), parseInt(answerWeight)];
+    answers[sectionSlug] = questionAnswers;
 
-    // Saved data format: {"sectionName": [["answerNumber", "answerWeightNumber"], ["answerNumber", "answerWeightNumber"]]}
-    // The answer positions in the setionName array correspond to the question number
-    localStorage.setItem("answers", JSON.stringify(answers));
+    // Saved data format: {"sectionName": [[answerNumber, answerWeightNumber], [...]]}
+    // The arrays in the setionName array are ordered by question number
+    localStorage.setItem(this.assessment.storageKey, JSON.stringify(answers));
+  }
+
+  setProgress() {
+    const percentage = Math.ceil((this.totalAnswers * 100) / this.totalQuestions);
+    this.fillTarget.style.width = `${percentage}%`;
+    this.fillTarget.setAttribute('aria-valuenow', `${percentage}`);
   }
 
   setResult(sectionIndex, resultIndex) {
-    this.resultsTargets[sectionIndex].children[0].children[0].innerHTML =
-      `${results[sectionIndex]["title"]}<p class="d-sm-none"><b>Score :</b> ${results[sectionIndex]["results"][resultIndex]["title"]}</p>`;
-    this.resultsTargets[sectionIndex].children[1].children[0].innerHTML =
-      results[sectionIndex]["results"][resultIndex]["title"];
-    this.resultsTargets[sectionIndex].children[2].children[0].innerHTML =
-      results[sectionIndex]["results"][resultIndex]["description"];
+    const sectionElement = this.resultsTargets[sectionIndex];
+    const result = results[this.assessment.slug][sectionIndex]["results"][resultIndex];
+
+    sectionElement.children[0].children[0].innerHTML = `${results[this.assessment.slug][sectionIndex]["title"]}<p class="d-sm-none"><b>Score :</b> ${result["title"]}</p>`;
+    sectionElement.children[1].children[0].innerHTML = result["title"];
+    sectionElement.children[2].children[0].innerHTML = result["description"];
   }
 
   start() {
     this.clearAnswers();
-    location.href = `${this.basePathValue}current?q=1`;
+    location.href = `${this.assessment.basePath}${this.assessment.start}?q=1`;
   }
 
   validateEmail() {

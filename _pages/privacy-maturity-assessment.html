@@ -1,13 +1,12 @@
 ---
 layout: assessment
-permalink: /online-payments/payment-maturity-assessment/
-title: Payment maturity assessment
-description: Payment maturity assessment
+permalink: /privacy/privacy-maturity-assessment/
+title: Privacy maturity assessment
+description: Discover the level of privacy maturity of your company with our comprehensive assessment. Our expert analysis will check if your privacy practices are in line with best practices and regulations.
 class: assessment
 ---
 <div>
-  {% include assessment/header.html %}
-
+  {% include assessment/header.html area="privacy" %}
   <section>
     <div class="container">
       <div class="row">
@@ -21,27 +20,27 @@ class: assessment
               <div class="d-flex flex-column flex-md-row align-items-md-center my-md-4">
                 <div class="d-flex flex-column w-75">
                   <h2 class="card-title pb-4">
-                    Payments Maturity Assessment tool
+                    Privacy Maturity Assessment tool
                   </h2>
-                  
+
                   <p class="card-text pb-4 mb-0">
-                    This quick online tool will help you understand the overall maturity of the payments ecosystem within your organisation.<br>
-                    Different organisations have different strengths and levels of maturity. Understanding where your organisation sits can help you plan out next steps. We look at four key areas:<br>
+                    Looking to better understand your organisation’s privacy practices? Our online Privacy Maturity Assessment tool can help! This quick and easy tool allows you to gauge the maturity of your privacy ecosystem across four key areas:<br>
                     <ol>
-                      <li>Your current state - what you have in place at the moment</li>
-                      <li>Your Team - what level of skill and training do the people driving payments have?</li>
-                      <li>Management - how are decisions made and how does payments form part of management decisions</li>
-                      <li>Technology - processes and culture for how your payment process is delivered</li>
+                      <li>Personal Information - how well do you collect, use, and manage personal information?</li>
+                      <li>Notification - are you communicating effectively with individuals about their privacy rights and how their information is being used?</li>
+                      <li>Cross Border - are you appropriately managing cross-border data flows and complying with relevant regulations?</li>
+                      <li>Security - how effectively are you protecting personal information from unauthorised access, use, and disclosure?</li>
                     </ol>
+                    Knowing where your organisation stands in these areas can help you identify areas for improvement and plan for next steps. Try our Privacy Maturity Assessment tool today!
                   </p>
-                  
-                  <small 
+
+                  <small
                     class="d-none pb-4"
                     data-assessment-target="resume">
                     You've already started this assessment but didn't finish.
-                    <a 
-                      href="#" 
-                      class="text-purple d-block btn-assessment-resume" 
+                    <a
+                      href="#"
+                      class="text-purple d-block btn-assessment-resume"
                       data-action="click->assessment#resume:prevent">
                       Click here to resume where you left off.
                     </a>
@@ -51,7 +50,7 @@ class: assessment
                     <button
                       class="btn btn-purple rounded-pill btn-assessment-start"
                       data-action="click->assessment#start">
-                      Start now 
+                      Start now
                       <i class="fa fa-chevron-right"></i>
                     </button>
                   </div>
@@ -60,19 +59,19 @@ class: assessment
                 <div class="d-none d-md-block">
                   <img
                     class="img-fluid ps-md-5 mb-4 mb-md-0"
-                    src="/assets/images/stripe/device.png"
+                    src="/assets/images/assessment/device.png"
                   />
                 </div>
               </div>
             </div>
-            
+
             <img
               class="bg-stripe img-fluid position-absolute fixed-bottom"
-              src="/assets/images/stripe/bg.png"
+              src="/assets/images/assessment/bg.png"
             />
           </div>
         </div>
-      </div>    
+      </div>
     </div>
   </section>
 </div>
