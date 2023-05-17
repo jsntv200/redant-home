@@ -7,17 +7,21 @@ categories:
   - cyber-security
 author: Ben Still
 description: >-
-  Typical security analysis looks at networks and infrastructure - the things
-  your platform runs on. And while this is definitely important, security
-  problems can often lie in the software itself. How that software connects with
-  other software or data points. How it's built, configured and maintained. 
+  Often security analysis looks at how your platform runs - the network, the
+  servers, etc. Using the analogy of a house, it’s checking that the doors &
+  windows are locked, and the walls are robust enough. But it’s still up to the
+  people that live in the house to not leave windows open or invite strangers
+  in. 
+
+
+  This is the developer layer.
+   
 image_small: /assets/uploads/diagram.png
 image: /assets/uploads/diagram.png
 excerpt_short: >-
-  Typical security analysis looks at networks and infrastructure - the things
-  your platform runs on. And while this is definitely important, security
-  problems can often lie in the software itself. How that software connects with
-  other software or data points. How it's built, configured and maintained. 
+  The easiest way to exploit your platform won’t be by dressing up in a Ninja
+  suit and breaking into your network. It will be finding a mistake or loophole
+  in your code, and taking advantage. 
 date_published: 2023-05-16T14:00:00.000Z
 publisher: Red Ant
 ---
