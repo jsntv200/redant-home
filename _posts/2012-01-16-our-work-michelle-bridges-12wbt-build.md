@@ -175,6 +175,6 @@ What we used:
 * [Assistly](http://assistly.com/) - customer service
 * [Campaign Monitor](http://campaignmonitor.com/) - emails
 * [New Relic](http://newrelic.com/) - application monitoring
-* [Browsermob](http://www.browsermob.com) - load testing and browser simulation
+* [Browsermob]() - load testing and browser simulation
 * [Brightcove](http://www.brightcove.com/) - video CDN
 * [Cachefly](http://cachefly.com/) - Content cache and delivery network (CDN)
