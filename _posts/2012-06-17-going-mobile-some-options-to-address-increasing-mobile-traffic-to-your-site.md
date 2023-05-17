@@ -24,7 +24,7 @@ publisher: Red Ant
 updated_at: 2012-06-17T00:00:00.000Z
 ---
 
-What started at 5% grew to 10% the next year, then doubled again, and now some of our sites are over 40%. Email is even more interesting - checking an email from your phone is now pretty easy, which drives the mobile vs PC rate right up. Campaign Monitor is [predicting this month (Mobile set to surpass desktop and webmail email client usage by July)]() over half of their emails will get opened on a mobile device.
+What started at 5% grew to 10% the next year, then doubled again, and now some of our sites are over 40%. Email is even more interesting - checking an email from your phone is now pretty easy, which drives the mobile vs PC rate right up. Campaign Monitor is predicting this month (Mobile set to surpass desktop and webmail email client usage by July) over half of their emails will get opened on a mobile device.
 
 So mobile traffic is getting bigger and bigger, and everyone is feeling the need to do something. But it can be a bit confusing as to what actually to do - a common reaction seems to be to build a mobile application, but this isn't necessarily the most appropriate solution.
 
