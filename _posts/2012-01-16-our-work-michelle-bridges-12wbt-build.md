@@ -1,26 +1,26 @@
 ---
 layout: post
 title: Michelle Bridges 12WBT build
-permalink: "/our-work/our-work-michelle-bridges-12wbt-build/"
+permalink: /our-work/our-work-michelle-bridges-12wbt-build/
 type: news
 categories:
-- our-work
-- digital-products
-- ruby-on-rails
+  - our-work
+  - digital-products
+  - ruby-on-rails
 author: Ben Still
 description: The initial build of the Michelle Bridges 12WBT project
 keywords: michelle bridges 12wbt
-image_small: "/assets/uploads/2012/12wbt.jpg"
-image: "/assets/uploads/2012/12wbt.jpg"
+image_small: /assets/uploads/2012/12wbt.jpg
+image: /assets/uploads/2012/12wbt.jpg
 excerpt_short: The initial build of the Michelle Bridges 12WBT project
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2012-01-16'
+redirect_from: null
+date_published: 2012-01-16T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2012-01-16
-
+updated_at: 2012-01-16T00:00:00.000Z
 ---
+
 The site has a few interesting technical challenges:
 
 * **lots of traffic** needs to handle fairly high surges of traffic, with a lot of members joining and paying by credit card at the same time
@@ -136,7 +136,7 @@ Online companies like Zappos have grown massively not because they sell cheap sh
 
 Another area that we thought was important to address was speed. This site gets quite busy, so keeping page load times as quick as possible was critical. First of all we needed to do extensive load testing to simulate high load scenarios- and there were two we were worried about:
 
-* what would happen when a gazillion people tried to sign up and pay at once? Would our background_jobs be able to process them fast enough?
+* what would happen when a gazillion people tried to sign up and pay at once? Would our background\_jobs be able to process them fast enough?
 * how would the forums feel when that horde then jumped into the forum or started a live chat?
 
 There are lots of load testing sites and software out there, but some can give misleading results. We needed to find a load testing solution that could
@@ -146,7 +146,7 @@ There are lots of load testing sites and software out there, but some can give m
 * **transactions** - we needed a tool that would allow us to have virtual users that would sign up and pay with a credit card, and then wait around to get the confirmation email. Ideally these transactions could be via Selenium scripts, as wed already created these.
 * **dynamic attributes** - we wanted our virtual users to log in with their own email & password, update avatars, and write unique posts on the forum, comments and reviews. In other words behave like real people would.
 
-We used [Browsermob](https://browsermob.com/performance-testing) to simulate this load, using dynamic Selenium scripts to describe different paths through the site. Thousands of users created accounts, paid with test credit cards, logged in and used the site - just like normal users do.
+We used Browsermob to simulate this load, using dynamic Selenium scripts to describe different paths through the site. Thousands of users created accounts, paid with test credit cards, logged in and used the site - just like normal users do.
 
 ## Performance
 
