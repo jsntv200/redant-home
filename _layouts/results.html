@@ -3,7 +3,7 @@ layout: assessment
 ---
 
 <div>
-  {% include assessment/header.html area = page.area %}
+  {% include assessment/header.html area = page.type %}
   <section>
     <div class="container">
       <div class="row">
@@ -12,7 +12,7 @@ layout: assessment
             <div class="card-body py-5 px-3 p-md-5">
               <div class="d-flex justify-content-between pb-4 align-items-center">
                 <h2 class="card-title mb-0">
-                  <span data-assessment-target="name"></span>{{ page.type | capitalize }} Maturity Assessment
+                  <span data-assessment-target="name"></span>{{ page.area }} Maturity Assessment
                 </h2>
 
                 <button
@@ -23,7 +23,7 @@ layout: assessment
               </div>
 
               <p class="card-text d-print-none">
-                Based on your answers, here are our ratings for your organisation in the four key areas. If you think you might have misread a question, don't worry you can always <a href="/{{ page.type }}/{{ page.type }}-maturity-assessment/{{ page.start-section }}?q=1" class="text-purple">run through the questions again here</a>.
+                Based on your answers, here are our ratings for your organisation in the four key areas. If you think you might have misread a question, don't worry you can always <a href="/{{ page.type }}/{{ page.area | replace: ' ', '-' | downcase }}-maturity-assessment/{{ page.start-section }}?q=1" class="text-purple">run through the questions again here</a>.
               </p>
               <a
                 href="/{{ page.type }}/book-call/"

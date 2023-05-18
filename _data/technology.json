@@ -2,7 +2,6 @@
   "order": [
     "ruby-on-rails",
     "reactjs",
-    "mysql",
     "postgresql",
     "swift",
     "angularjs",

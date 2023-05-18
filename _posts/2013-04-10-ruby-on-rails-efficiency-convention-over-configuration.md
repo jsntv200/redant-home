@@ -4,7 +4,6 @@ title: Getting more efficient with our Ruby on Rails projects
 permalink: "/ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/"
 type: ideas
 categories:
-- lean-development
 - ruby-on-rails
 author: Ben Still
 description: How we used Ruby on Rails convention over configuration to make our developers

@@ -237,6 +237,7 @@ class: digital-product-development
                   aria-controls="a1"
                   data-ga-trigger="click-faqs">
                   What we will cover in Discovery Workshop?
+                  <i class="fa-solid fa-chevron-up"></i>
                 </button>
               </h3>
             </div>
@@ -269,6 +270,7 @@ class: digital-product-development
                   aria-controls="a2"
                   data-ga-trigger="click-faqs">
                   What is a Product Roadmap?
+                  <i class="fa-solid fa-chevron-up"></i>
                 </button>
               </h3>
             </div>
@@ -291,6 +293,7 @@ class: digital-product-development
                   aria-controls="a4"
                   data-ga-trigger="click-faqs">
                   What is Sprint Plan?
+                  <i class="fa-solid fa-chevron-up"></i>
                 </button>
               </h3>
             </div>
@@ -314,6 +317,7 @@ class: digital-product-development
                   aria-controls="a5"
                   data-ga-trigger="click-faqs">
                   What is Agile Sprint Planning
+                  <i class="fa-solid fa-chevron-up"></i>
                 </button>
               </h3>
             </div>

@@ -1,8 +1,8 @@
 ---
 layout: results
 permalink: /online-payments/payment-maturity-assessment/results
-type: "payment"
-area: "online-payments"
+type: "online-payments"
+area: "Payment"
 class: "assessment assessment-results"
 start-section: "current"
 sitemap: false
