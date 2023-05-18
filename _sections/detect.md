@@ -4,7 +4,7 @@ permalink: /cyber-security/cyber-security-maturity-assessment/detect
 class: assessment
 sitemap: false
 sections: ["govern", "protect", "detect", "respond"]
-area: "cybersecurity"
+area: "cyber-security"
 ---
 
 <div class="card-body pb-0 pt-5 bg-blue-100 px-4 px-sm-5">

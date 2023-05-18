@@ -13,8 +13,6 @@ announcement_bar: false
 permalink: /:title/
 markdown: kramdown
 
-on_demand: false
-
 msclarity:
   dev: "gn8srwgeu9"
   prod: "gq7hxwmdua"

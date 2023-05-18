@@ -5,7 +5,6 @@ permalink: "/software-development/digital-agency-vs-technical/"
 type: news
 categories:
 - software-development
-- lean-development
 author: Ben Still
 description: Seems like all the cool kids are Digital Agencies these days
 keywords: Digital Agency, technical agency

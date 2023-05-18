@@ -5,7 +5,6 @@ permalink: '/digital-products/defining-a-digital-product'
 type: ideas
 categories:
   - digital-products
-  - lean-development
 author: Ben Still
 description: Defining a Digital Product
 keywords: Digital Product

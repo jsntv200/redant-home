@@ -11,18 +11,18 @@ description: >-
   servers, etc. Using the analogy of a house, it’s checking that the doors &
   windows are locked, and the walls are robust enough. But it’s still up to the
   people that live in the house to not leave windows open or invite strangers
-  in. 
+  in.
 
   <br/><br/>
 
   This is the developer layer.
-   
+
 image_small: /assets/uploads/diagram.png
 image: /assets/uploads/diagram.png
 excerpt_short: >-
   The easiest way to exploit your platform won’t be by dressing up in a Ninja
   suit and breaking into your network. It will be finding a mistake or loophole
-  in your code, and taking advantage. 
+  in your code, and taking advantage.
 date_published: 2023-05-16T14:00:00.000Z
 publisher: Red Ant
 ---
@@ -40,7 +40,7 @@ This can start with decisions made during the build phase:
 3. How were specific technical problems solved? Via libraries or with custom code? Is the solution easy to read and understand, or have we just entered a Jenga tower?
 4. Were the developers confident in their understanding of the task and related issues? Clients often worry about developer competency, but we often find it wasn’t that they couldn’t do it, but rather didn’t understand enough. Which stems from poor communication, unclear design goals, or lack of process around testing & release management.
 
-OK, so what does this have to do with cybersecurity?
+OK, so what does this have to do with cyber security?
 
 Well, the easiest way to exploit your platform won’t be by dressing up in a Ninja suit and breaking into your network. It will be finding a mistake or loophole in your code, and taking advantage. 
 

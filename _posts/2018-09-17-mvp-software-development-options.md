@@ -6,7 +6,6 @@ type: news
 categories:
 - software-development
 - strategy
-- lean-development
 author: Ben Still
 description: Feeling stuck on your MVP development process? Some options to get unstuck
 keywords: MVP development

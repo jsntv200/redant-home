@@ -17,9 +17,7 @@
       white-space: normal;
       position: relative;
 
-      &::after {
-        content: "\f106";
-        font-family: FontAwesome, sans-serif;
+      .fa-chevron-up {
         position: absolute;
         top: 50%;
         right: 0;
@@ -29,8 +27,8 @@
       &.collapsed {
         color: #343a40;
 
-        &::after {
-          content: "\f107";
+        .fa-chevron-up {
+          transform: rotate(0.5turn);
         }
       }
     }
