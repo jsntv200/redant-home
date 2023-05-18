@@ -8,12 +8,12 @@ categories:
 - ruby-on-rails-devops
 author: Ben Still
 keywords: ''
-description: As our projects have grown larger, so has the complexity of testing and
+content_sidebar: As our projects have grown larger, so has the complexity of testing and
   deploying work. We've started moving projects over to GitFlow in order to simplify
   this process, read on to see how we do it.
 image_small: "/assets/uploads/2012/github-small.jpg"
 image: "/assets/uploads/2012/github.jpg"
-excerpt_short: GitFlow is the way of the future. Find out why and how here.
+description: GitFlow is the way of the future. Find out why and how here.
 tags: []
 time: ''
 redirect_from:

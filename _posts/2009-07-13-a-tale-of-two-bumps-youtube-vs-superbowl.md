@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A tale of two bumps - Youtube vs Superbowl
+description: Is traditional broadcast advertising on its way out? The data is certainly giving us that impression.
 permalink: /ruby-on-rails/a-tale-of-two-bumps-youtube-vs-superbowl/
 type: news
 categories:
@@ -8,11 +9,7 @@ categories:
 author: Ben Still
 image_small: /assets/uploads/2009/alexa.png
 image: /assets/uploads/2009/alexa.png
-meta:
-  dsq_thread_id: '610081084'
-  focus_keywords: youtube vs superbowl
-excerpt:
-excerpt_short: Is traditional broadcast advertising on its way out? The data is certainly giving us that impression.
+content_sidebar: Is traditional broadcast advertising on its way out? The data is certainly giving us that impression.
 published: false
 date_published: ! ' 2009-07-13'
 updated_at: 2009-07-13

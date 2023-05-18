@@ -7,12 +7,12 @@ categories:
 - how-we-do
 - tool-reviews
 author: Sam Bauers
-description: Google's new image caching mechanism in Gmail is an email marketer's
+content_sidebar: Google's new image caching mechanism in Gmail is an email marketer's
   nightmare come true. Here's how to keep tracking your email opens in Gmail.
 keywords: Gmail, Google Mail, image cache, cache busting, email marketing
 image_small: "/assets/uploads/2013/somebody-set-us-up-the-bomb-small.jpg"
 image: "/assets/uploads/2013/somebody-set-us-up-the-bomb.jpg"
-excerpt_short: This week, GMail announced images are on by default. If you're a marketer,
+description: This week, GMail announced images are on by default. If you're a marketer,
   you might have seen some posts about how exciting this is that we can now track
   emails again.
 tags: []

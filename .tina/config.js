@@ -413,7 +413,7 @@ export default defineConfig({
             list: true,
             ui: {
               description:
-                "Example categories: our-work; ruby-on-rails; red-ant-stuff; strategy; how-we-do; design; automated-testing; ruby-on-rails-devops; mobile; agile; digital-products; tool-reviews; pjax; marketing; software-development;",
+                "Example categories: our-work; ruby-on-rails; red-ant-stuff; strategy; how-we-do; design; automated-testing; ruby-on-rails-devops; mobile; digital-products; tool-reviews; pjax; marketing; software-development;",
             },
           }, {
             label: "author *required",
@@ -427,6 +427,9 @@ export default defineConfig({
             name: "description",
             label: "description *required",
             component: "textarea",
+            ui: {
+              description: "Appears on index menus & meta desc",
+            },
           }, {
             type: "string",
             name: "keywords",
@@ -440,10 +443,9 @@ export default defineConfig({
             name: "image",
             label: "image",
           }, {
-            label: "excerpt_short",
-            name: "excerpt_short",
-            type: "string",
-            component: "textarea",
+            type: 'rich-text',
+            label: 'content_sidebar',
+            name: 'content_sidebar',
           }, {
             label: "tags",
             name: "tags",

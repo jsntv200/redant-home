@@ -2,8 +2,7 @@
 layout: post
 title: 'Hiring a web development team you''ll love'
 subtitle: We've integrated many different types of payment systems
-description: 'Working out the best way to resource the development of your project
-  can be hard. It''s super competitive, and can be hard to compare apples with apples.'
+content_sidebar: Finding the right developer is a challenge. 4 options to consider
 slug: online-payment-systems
 projects: []
 how_title: Online Payment System integration
@@ -11,7 +10,8 @@ how_bulletpoints:
 - Online systems can range from simple to complex
 type: news
 permalink: software-development/hiring-a-web-development-team/
-excerpt_short: Finding the right developer is a challenge. 4 options to consider
+description: 'Working out the best way to resource the development of your project
+  can be hard. It''s super competitive, and can be hard to compare apples with apples.'
 time: ''
 author: Ben
 categories:

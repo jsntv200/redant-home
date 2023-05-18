@@ -6,11 +6,11 @@ type: news
 categories:
 - software-development
 author: Ben Still
-description: Seems like all the cool kids are Digital Agencies these days
+content_sidebar: Seems like all the cool kids are Digital Agencies these days
 keywords: Digital Agency, technical agency
 image_small: "/assets/uploads/2013/somebody-set-us-up-the-bomb.jpg"
 image: "/assets/uploads/2013/somebody-set-us-up-the-bomb-small.jpg"
-excerpt_short: Digital agency vs a Technical Agency
+description: Digital agency vs a Technical Agency
 tags: []
 time: ''
 redirect_from:

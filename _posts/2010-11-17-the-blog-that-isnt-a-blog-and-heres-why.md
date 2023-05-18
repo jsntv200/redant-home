@@ -6,12 +6,12 @@ type: news
 categories:
 - our-work
 author: Ben Still
-description: We've recently launched a new blog feature on the Huggies site. But it's
+content_sidebar: We've recently launched a new blog feature on the Huggies site. But it's
   a blog with a difference.
 keywords: huggies blog
 image_small: "/assets/uploads/2010/huggies-blogs-1-small.jpg"
 image: "/assets/uploads/2010/huggies-blogs-1.jpg"
-excerpt_short: We've recently launched a new blog feature on the Huggies site. But
+description: We've recently launched a new blog feature on the Huggies site. But
   it's a blog with a difference.
 tags: []
 time: ''

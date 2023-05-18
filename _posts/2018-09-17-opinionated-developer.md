@@ -7,12 +7,12 @@ categories:
 - our-work
 - red-ant-stuff
 author: Ben Still
-description: Execution matters. There are plenty of great ideas, but you need an experienced
+content_sidebar: Execution matters. There are plenty of great ideas, but you need an experienced
   and opinionated development team to help you execute
 keywords: ''
 image_small: "/assets/uploads/2012/milo-on-floor.jpg"
 image: "/assets/uploads/2012/milo-on-floor-small.jpg"
-excerpt_short: Execution matters. Your development team matters.
+description: Execution matters. Your development team matters.
 tags: []
 time: ''
 redirect_from:

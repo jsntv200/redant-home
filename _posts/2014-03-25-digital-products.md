@@ -6,11 +6,11 @@ type: ideas
 categories:
   - digital-products
 author: Ben Still
-description: Defining a Digital Product
+content_sidebar: Defining a Digital Product
 keywords: Digital Product
 image_small: '/assets/uploads/2014/digital-product-small.jpg'
 image: '/assets/uploads/2014/digital-product.jpg'
-excerpt_short:
+description:
   One of the things we focus on is developing Digital Products. These
   are websites that provide some form of utility to users - these allow people to
   "do" stuff

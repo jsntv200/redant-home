@@ -6,7 +6,7 @@ type: news
 categories:
   - cyber-security
 author: Ben Still
-description: >-
+content_sidebar: >-
   Often security analysis looks at how your platform runs - the network, the
   servers, etc. Using the analogy of a house, it’s checking that the doors &
   windows are locked, and the walls are robust enough. But it’s still up to the
@@ -19,7 +19,7 @@ description: >-
 
 image_small: /assets/uploads/diagram.png
 image: /assets/uploads/diagram.png
-excerpt_short: >-
+description: >-
   The easiest way to exploit your platform won’t be by dressing up in a Ninja
   suit and breaking into your network. It will be finding a mistake or loophole
   in your code, and taking advantage.

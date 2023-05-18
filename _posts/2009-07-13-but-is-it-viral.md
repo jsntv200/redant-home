@@ -8,12 +8,8 @@ categories:
 author: Ben Still
 image_small: /assets/uploads/2009/viral-small.png
 image: /assets/uploads/2009/viral-large.jpg
-meta:
-  dsq_thread_id: '497268647'
-  keywords: viral marketing
-  description: doing it right. We analyse 2 website that are using viral as part of their big push for consumer love and affection.
-excerpt:
-excerpt_short: Viral - doing it right. We analyse 2 website that are using viral as part of their big push for consumer love and affection.
+description: Doing it right. We analyse 2 website that are using viral as part of their big push for consumer love and affection.
+content_sidebar: Viral - doing it right. We analyse 2 website that are using viral as part of their big push for consumer love and affection.
 published: false
 date_published: ! ' 2009-07-13'
 updated_at: 2009-07-13

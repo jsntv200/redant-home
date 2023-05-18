@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Interface friction on job sites
+description: How many steps do you really need to take to put a job ad up?
 permalink: /how-we-do/interface-friction-on-job-sites/
 type: ideas
 categories:
@@ -9,10 +10,7 @@ categories:
 author: Ben Still
 image_small: /assets/uploads/2009/ui-friction-small.jpg
 image: /assets/uploads/2009/ui-friction.jpg
-meta:
-  dsq_thread_id: '485220609'
-excerpt:
-excerpt_short: How many steps do you really need to take to put a job ad up?
+content_sidebar: How many steps do you really need to take to put a job ad up?
 published: false
 date_published: ! ' 2009-06-13'
 updated_at: 2009-06-13

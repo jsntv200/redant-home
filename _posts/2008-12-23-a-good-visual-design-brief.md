@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A good visual design brief
+description: A well written brief is all sorts of good. We explain why and what to consider when writing your own.
 permalink: /our-work/a-good-visual-design-brief/
 type: ideas
 categories:
@@ -10,10 +11,7 @@ categories:
 author: Ben Still
 image_small: /assets/uploads/2008/brief-small.jpg
 image: /assets/uploads/2008/brief-large.jpg
-meta:
-  dsq_thread_id: '480001859'
-excerpt:
-excerpt_short: A well written brief is all sorts of good. We explain why and what to consider when writing your own.
+content_sidebar: A well written brief is all sorts of good. We explain why and what to consider when writing your own.
 published: false
 date_published: ! ' 2008-12-23'
 updated_at: 2008-12-23

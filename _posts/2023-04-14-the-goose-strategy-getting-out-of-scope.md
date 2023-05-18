@@ -6,7 +6,7 @@ type: ideas
 categories:
   - cyber-security
 author: Ben Still
-description: >
+content_sidebar: >
   The Goose strategy - move your application out of scope as much as you can.
   Try to keep the really complex parts of your app behind the scenes, and only
   expose the simple stuff which can be more easily locked down and quicker to
@@ -29,27 +29,11 @@ description: >
   </ol>
 image_small: /assets/uploads/top-gun-goose.jpg
 image: /assets/uploads/top-gun-goose.jpg
-excerpt_short: >-
+description: >-
   The Goose strategy - move your application out of scope as much as you can.
   Try to keep the really complex parts of your app behind the scenes, and only
   expose the simple stuff which can be more easily locked down and quicker to
   audit.
-
-  <ol>
-
-  <li>Does every part of your platform need to be connected to the internet? Is
-  there any way to silo or relocate this?</li>
-
-  <li>Move complex stuff out and on private network. Limit exposure to an API
-  end point.</li>
-
-  <li>Avoid tying everything together into a mega Voltron structure (aka all
-  your eggs in one basket)</li>
-
-  <li>Avoid keeping hold of data longer than you actually need it for. Automate
-  the removal.</li>
-
-  </ol>
 date_published: 2023-04-13T14:00:00.000Z
 updated_at: 2023-04-13T14:00:00.000Z
 publisher: Red Ant

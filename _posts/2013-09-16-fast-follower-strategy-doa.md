@@ -7,12 +7,12 @@ categories:
 - strategy
 - mobile
 author: Ben Still
-description: Fast follower is a strategy used to replicate successful products. Here
+content_sidebar: Fast follower is a strategy used to replicate successful products. Here
   are 5 reasons why it might not work out, based on our experience.
 keywords: fast follower
 image_small: "/assets/uploads/2013/cat-small.jpg"
 image: "/assets/uploads/2013/cat.jpg"
-excerpt_short: Five reasons why we think your fast follower strategy might not work
+description: Five reasons why we think your fast follower strategy might not work
   out so well.
 tags: []
 time: ''

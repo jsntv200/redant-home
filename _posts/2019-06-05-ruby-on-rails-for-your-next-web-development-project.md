@@ -8,13 +8,13 @@ author: Ben Still
 tags: []
 time: 15 Mins Read
 title: Why choose Ruby on Rails?
-description:
+content_sidebar:
   The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
 keywords: ""
 image_small: "/assets/uploads/2019/why-choose-ruby.jpg"
 image: "/assets/uploads/2019/why-choose-ruby.jpg"
-excerpt_short:
+description:
   The no nonsense guide for entrepreneurs, startups, product owners or
   anyone that is a bit baffled about tech stack options.
 redirect_from:

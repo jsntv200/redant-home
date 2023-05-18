@@ -6,12 +6,12 @@ type: ideas
 categories:
 - automated-testing
 author: Ben Still
-description: A quick outline of how we're using Jenkins and the Pipeline view to visualise
+content_sidebar: A quick outline of how we're using Jenkins and the Pipeline view to visualise
   where our builds are up to
 keywords: ''
 image_small: "/assets/uploads/2012/jenkins-pipeline-start-small.png"
 image: "/assets/uploads/2012/jenkins-pipeline-start.png"
-excerpt_short: How we build relational trust; our integrated testing pipeline
+description: How we build relational trust; our integrated testing pipeline
 tags: []
 time: ''
 redirect_from:

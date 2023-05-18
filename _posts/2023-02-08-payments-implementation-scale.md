@@ -14,7 +14,7 @@ description: An explanation of the different technical approaches for implementi
 keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/payments-implementation-scale-min.png"
 image: "/assets/uploads/2023/payments-implementation-scale-min.png"
-excerpt_short: An explanation of the different technical approaches for implementing online payments, from a simple shop on eBay through to a more scalable and custom technical platform.
+content_sidebar: An explanation of the different technical approaches for implementing online payments, from a simple shop on eBay through to a more scalable and custom technical platform.
 redirect_from: []
 updated_at: 2023-02-08
 ---

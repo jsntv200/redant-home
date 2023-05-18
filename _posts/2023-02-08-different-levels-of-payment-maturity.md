@@ -10,11 +10,11 @@ time: 5 Mins Read
 date_published: ! ' 2023-02-08'
 publisher: Red Ant
 title: What are the different levels of payment maturity?
-description: A summary of each of the different levels that we use to describe the relative maturity of a payments process. Starting from the very basic / starting off, through to the teams that are really cracking it.
+content_sidebar: A summary of each of the different levels that we use to describe the relative maturity of a payments process. Starting from the very basic / starting off, through to the teams that are really cracking it.
 keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/what-are-the-different-levels-of-payment-maturity-min.png"
 image: "/assets/uploads/2023/what-are-the-different-levels-of-payment-maturity-min.png"
-excerpt_short: A summary of each of the different levels that we use to describe the relative maturity of a payments process. Starting from the very basic / starting off, through to the teams that are really cracking it.
+description: A summary of each of the different levels that we use to describe the relative maturity of a payments process. Starting from the very basic / starting off, through to the teams that are really cracking it.
 redirect_from: []
 updated_at: 2023-02-08
 ---

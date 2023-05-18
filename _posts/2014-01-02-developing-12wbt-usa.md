@@ -8,13 +8,13 @@ categories:
 - ruby-on-rails
 - digital-products
 author: Ben Still
-description: We've been working on building the Michelle Bridges 12WBT platform in
+content_sidebar: We've been working on building the Michelle Bridges 12WBT platform in
   Australia for several years. For the last few months we've been busy on a new, US
   version of the platform which launched this week.
 keywords: 12wbt
 image_small: "/assets/uploads/2014/mish-adelaide-finale-small.jpg"
 image: "/assets/uploads/2014/mish-adelaide-finale.jpg"
-excerpt_short: We've been working on building the Michelle Bridges 12WBT platform
+description: We've been working on building the Michelle Bridges 12WBT platform
   in Australia for several years. A shiny new US version of the platform which launched
   this week.
 tags: []

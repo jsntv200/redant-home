@@ -10,7 +10,7 @@ description: Take a look at some of our recent projects at Red Ant.
 keywords: Red Ant projects
 image_small: '/assets/uploads/2009/troopers-small.jpg'
 image: '/assets/uploads/2009/troopers-large.jpg'
-excerpt_short:
+content_sidebar:
   Would you like to see what we've been doing lately? From inspiring
   kids to read to launching the new Kleenex website, it's all here.
 tags: []

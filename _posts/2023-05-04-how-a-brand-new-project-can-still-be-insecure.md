@@ -10,7 +10,7 @@ description: >-
   So you've just launched your new project. It must be totally secure right? Not
   always - there are often vulnerabilities that may reveal over time. Here's how
   we go looking for them.
-excerpt_short: >-
+content_sidebar: >-
   People often assume that if a software platform has been recently built, it
   must be inherently secure. This certainly has a kernel of truth to it, but
   there’s also a misplaced assumption. In fact, a brand new code release can
@@ -25,7 +25,7 @@ People often assume that if a software platform has been recently built, it must
 
 The kernel of truth is that most new software tools, when they are released, haven’t been compromised or had significant flaws exposed. Because they are new. So that very latest release of an SQL database or web server is most likely to pass muster from a risk analysis scan. It’s unlikely that any compromises have already been identified and published for that specific version.
 
-OK great, but what about the code itself? 
+OK great, but what about the code itself?
 
 There are many points during a build where decisions are made that can impact security. There are architectural decisions that can reveal vulnerabilities at a later stage. Or how about that last minute compromise that helped meet the deadline, but ended up leaving some sensitive credentials in a queue log file?
 
@@ -52,7 +52,7 @@ There are also the processes that support the development of the code:
 * How are requirements defined, and how is feedback and refinements communicated?
 * Was / is there a defined release process to move code to testing, staging and production environments? Or is it more of an "anything goes" / "we'll see how we feel on the day" kind of scene?
 * On a scale where zero is someone occasionally tests a feature, through to 10 where every feature has an automated test defined first, and then code is written until it passes (TDD), where does this project sit?
-* Are tests a part of the deploy process? 
+* Are tests a part of the deploy process?
 * Are there vulnerability checks as an automated part of the deploy process?
 * Are monitoring tools used to evaluate post deployment of changes?
 

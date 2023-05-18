@@ -7,14 +7,14 @@ categories:
   - our-work
   - ruby-on-rails
 author: Ben Still
-description:
+content_sidebar:
   The ever-so-popular Tails for Whales website has been selected as an
   honoree for the Webby Awards and we coudn't be more excited. Here's a video showing
   you what's possible when great minds and awesome skills come together.
 keywords: tails for whales webby awards
 image_small: '/assets/uploads/2010/whale-small.jpg'
 image: '/assets/uploads/2010/whales-large.jpg'
-excerpt_short:
+description:
   The Tails for Whales site has been selected as an honoree for the Webby
   Awards.
 tags: []

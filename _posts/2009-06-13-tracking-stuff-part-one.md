@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tracking stuff - part one
+description: Bugs, no body likes them, everyone has to deal with them. Here's how we've tried tracking ours so far.
 permalink: /ruby-on-rails/tracking-stuff-part-one/
 type: ideas
 categories:
@@ -9,11 +10,7 @@ categories:
 author: Ben Still
 image_small: /assets/uploads/2009/track-small.jpg
 image: /assets/uploads/2009/track-large.jpg
-meta:
-  dsq_thread_id: '631372738'
-  focus_keywords: tracking bugs
-excerpt:
-excerpt_short: Bugs, no body likes them, everyone has to deal with them. Here's how we've tried tracking ours so far.
+content_sidebar: Bugs, no body likes them, everyone has to deal with them. Here's how we've tried tracking ours so far.
 published: false
 date_published: ! ' 2009-06-13'
 updated_at: 2009-06-13

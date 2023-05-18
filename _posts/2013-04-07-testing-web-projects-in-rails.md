@@ -8,13 +8,13 @@ categories:
   - automated-testing
   - ruby-on-rails-devops
 author: Ben Still
-description: >-
+content_sidebar: >-
   As web projects grow in complexity, the testing process gets more and more
   difficult. Introducing, Automated Testing and Test Driven Development (TDD).
 keywords: automated testing web projects
 image_small: /assets/uploads/2013/milo-closeup-small.jpg
 image: /assets/uploads/2013/milo-closeup-small.jpg
-excerpt_short: >-
+description: >-
   One of the things we've started doing quite differently over the last few
   years is how we test our web projects
 tags: []

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: We've been busy ants
+description: We've been busy little ants over the last few months
 permalink: /our-work/weve-been-busy-ants/
 type: news
 categories:
@@ -10,8 +11,7 @@ image_small: /assets/uploads/2008/ant-small.jpg
 image: /assets/uploads/2008/ant-large.jpg
 meta:
   dsq_thread_id: '524834144'
-excerpt:
-excerpt_short: We've been busy little ants over the last few months
+content_sidebar: We've been busy little ants over the last few months
 published: false
 date_published: ! ' 2008-08-13'
 updated_at: 2008-08-13

@@ -7,12 +7,12 @@ categories:
 - strategy
 - ruby-on-rails
 author: Ben Still
-description: The growth of WordPress has turned the web development market on its
+content_sidebar: The growth of WordPress has turned the web development market on its
   head. But does this apply to all web development?
 keywords: wordpress
 image_small: "/assets/uploads/2013/canyon-small.jpg"
 image: "/assets/uploads/2013/canyon-small.jpg"
-excerpt_short: The growth of tools like Wordpress have had a massive impact on the
+description: The growth of tools like Wordpress have had a massive impact on the
   web development market. It's created two very distinct areas with a huge gap between.
 tags: []
 time: ''

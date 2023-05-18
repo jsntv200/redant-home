@@ -7,12 +7,12 @@ categories:
 - mobile
 - strategy
 author: Ben Still
-description: If you're making stuff for the web, mobile is a really big deal. It's
+content_sidebar: If you're making stuff for the web, mobile is a really big deal. It's
   really important to form and execute a mobile strategy well. Which can be hard.
 keywords: mobile app
 image_small: "/assets/uploads/2013/mobile-join-small.jpg"
 image: "/assets/uploads/2013/mobile-join.jpg"
-excerpt_short: Most of our projects now have over 50% mobile traffic. So mobile strategy
+description: Most of our projects now have over 50% mobile traffic. So mobile strategy
   is becoming increasingly important
 tags: []
 time: ''

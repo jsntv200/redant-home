@@ -15,7 +15,7 @@ description: >-
   approaches to address the issue
 image_small: /assets/uploads/iStock-1191080760.jpg
 image: /assets/uploads/iStock-1191080760.jpg
-excerpt_short: >-
+content_sidebar: >-
   Some security problems come about when the security of information shown isn't
   considered during the design process. Here's an easy fix, with 4 different
   approaches to address the issue.

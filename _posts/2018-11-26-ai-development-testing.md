@@ -7,14 +7,14 @@ categories:
   - automated-testing
   - software-development
 author: Ben Still
-description: >-
+content_sidebar: >-
   AI and Machine Learning are amazing technologies. But in some cases it can be
   hard to know when they are actually working
 keywords: 'ai development, machine learning, automated tests'
 date: '2018-11-26T02:31:36.000+00:00'
 image_small: /assets/uploads/2018/extra_large-1498661132-cover-image-1.jpg
 image: /assets/uploads/2018/extra_large-1498661132-cover-image.jpg
-excerpt_short: >-
+description: >-
   Testing Machine Learning or AI powered features is often trickier than it
   seems
 tags: []

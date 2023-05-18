@@ -6,11 +6,11 @@ type: news
 categories:
   - our-work
 author: Ben Still
-description: I have this friend. Let's call him Wayne. He works in advertising.
+content_sidebar: I have this friend. Let's call him Wayne. He works in advertising.
 keywords: Digital Awards
 image_small: '/assets/uploads/2018/test-image.jpg'
 image: '/assets/uploads/2018/test-image.jpg'
-excerpt_short: I have this friend. Let's call him Wayne. He works in advertising.
+description: I have this friend. Let's call him Wayne. He works in advertising.
 tags: []
 time: ''
 redirect_from:

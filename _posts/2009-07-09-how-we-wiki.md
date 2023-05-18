@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How we Wiki
+decription: Red Ant + clients + Wiki = awesome knowledge collaboration and sharing.
 permalink: /agile/how-we-wiki/
 type: ideas
 categories:
@@ -9,11 +10,7 @@ categories:
 author: Ben Still
 image_small: /assets/uploads/2009/wiki-wiki-small.jpg
 image: /assets/uploads/2009/wiki-wiki-big.jpg
-meta:
-  dsq_thread_id: '485952994'
-  focus_keywords: confluence
-excerpt:
-excerpt_short: Red Ant + clients + Wiki = awesome knowledge collaboration and sharing.
+content_sidebar: Red Ant + clients + Wiki = awesome knowledge collaboration and sharing.
 published: false
 date_published: ! ' 2009-07-09'
 updated_at: 2009-07-09
