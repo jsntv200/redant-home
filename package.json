@@ -1,12 +1,14 @@
 {
   "name": "redant-home",
-  "version": "2.0.0",
-  "description": "Red Ant Website.",
+  "version": "3.0.0",
+  "description": "Red Ant Website",
   "main": "assets/javascript/index.js",
   "license": "UNLICENSED",
   "scripts": {
     "build": "node _src/lib/esbuild.js",
-    "dev": "yarn tinacms dev -c 'bundle exec jekyll serve --livereload --trace'"
+    "dev": "yarn tinacms dev -c 'bundle exec jekyll serve --livereload --trace'",
+    "local:dev": "bundle exec jekyll serve --livereload --trace",
+    "css": "yarn tailwindcss -i ./_src/application.tailwind.css -o ./_site/assets/application.tailwind.css --watch"
   },
   "dependencies": {
     "@hotwired/stimulus": "3.2.1",
@@ -20,6 +22,7 @@
     "stimulus-reveal-controller": "4.1.0",
     "stimulus-scroll-to": "4.1.0",
     "swiper": "9.3.1",
+    "tailwindcss": "^3.3.2",
     "tinacms": "^1.5.3"
   }
 }
