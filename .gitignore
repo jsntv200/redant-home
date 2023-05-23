@@ -6,3 +6,4 @@
 *.bak
 _site
 node_modules
+_src/stylesheets/application.tailwind.css
