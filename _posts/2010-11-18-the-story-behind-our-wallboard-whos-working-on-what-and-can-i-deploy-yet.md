@@ -7,12 +7,12 @@ categories:
 - agile
 - red-ant-stuff
 author: Jesse Noble
-description: The story behind our Wallboard. Who's working on what, and can I deploy
+content_sidebar: The story behind our Wallboard. Who's working on what, and can I deploy
   yet?
 keywords: our wallboard
 image_small: "/assets/uploads/2010/redant-wallboard-preview-small.jpg"
 image: "/assets/uploads/2010/redant-wallboard-preview.jpg"
-excerpt_short: Whiteboards are out, wallboards are in. Also, vote for us!
+description: Whiteboards are out, wallboards are in. Also, vote for us!
 tags: []
 time: 10 Mins Read
 redirect_from:

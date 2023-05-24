@@ -23,9 +23,9 @@
               {{ content }}
             </div>
             <div class="col-md-4 order-1 order-sm-2">
-              {% if page.description.size > 1 %}
+              {% if page.content_sidebar.size > 1 %}
               <div class="post-detail-container section-border">
-                <p>{{ page.description }}</p>
+                <p>{{ page.content_sidebar }}</p>
               </div>
               {% endif %}
               {% include gallery.html images=page.images slug=page.slug %}

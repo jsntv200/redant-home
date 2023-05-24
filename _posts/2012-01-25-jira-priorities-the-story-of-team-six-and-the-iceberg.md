@@ -7,12 +7,12 @@ categories:
 - agile
 - software-development
 author: Ben Still
-description: Find out how we use Jira priorities at Red Ant to manage development
+content_sidebar: Find out how we use Jira priorities at Red Ant to manage development
   workflows and make sure nobody gets hurt.
 keywords: Jira priorities
 image_small: "/assets/uploads/2012/jira-screenshot-small.jpg"
 image: "/assets/uploads/2012/jira-screenshot.jpg"
-excerpt_short: Seal teams, titanic sinkers and our prioritization ratings.
+description: Seal teams, titanic sinkers and our prioritization ratings.
 tags: []
 time: 10 Mins Read
 redirect_from:

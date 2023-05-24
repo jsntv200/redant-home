@@ -6,12 +6,12 @@ type: ideas
 categories:
 - ruby-on-rails
 author: Ben Still
-description: How we used Ruby on Rails convention over configuration to make our developers
+content_sidebar: How we used Ruby on Rails convention over configuration to make our developers
   more efficient and improve quality
 keywords: ruby on rails efficient
 image_small: "/assets/uploads/2013/ruby-on-rails.png"
 image: "/assets/uploads/2013/ruby-on-rails.png"
-excerpt_short: '"convention over configuration". How to improve team effectiveness
+description: '"convention over configuration". How to improve team effectiveness
   and quality.'
 tags: []
 time: ''

@@ -7,12 +7,12 @@ categories:
 - software-development
 - strategy
 author: Ben Still
-description: Feeling stuck on your MVP development process? Some options to get unstuck
+content_sidebar: Feeling stuck on your MVP development process? Some options to get unstuck
 keywords: MVP development
 image_small: "/assets/uploads/2018/husky-stuck-in-vent.jpg"
 image: "/assets/uploads/2018/husky-stuck-in-vent.jpg"
-excerpt_short: 'A really common scenario: you''ve had some code developed, but now
-  you''re feeling a bit stuck'
+description: "A really common scenario: you've had some code developed, but now
+  you're feeling a bit stuck"
 tags: []
 time: ''
 redirect_from:

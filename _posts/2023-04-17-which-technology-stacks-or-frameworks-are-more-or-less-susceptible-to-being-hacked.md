@@ -6,7 +6,7 @@ title: >-
 permalink: /cyber-security/which-tech-stacks-are-more-likely-to-be-hacked/
 type: news
 author: Ben Still
-description: >-
+content_sidebar: >-
   There are some technologies that are inherently less secure and more
   vulnerable, but this is largely due to how old they are. Specifically, how
   long it’s been since last update
@@ -17,7 +17,7 @@ image: /assets/uploads/iStock-1461383901.jpg
 categories:
   - cyber-security
 publisher: Red Ant
-excerpt_short: >-
+description: >-
   We’re often asked if a particular framework or technology is more or less
   susceptible to being hacked than another. Or put another way, is one “more
   secure” than another? While the technology stack kind of matters, it really

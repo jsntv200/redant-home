@@ -14,7 +14,7 @@ description: What are the areas that we look at when analysing the maturity of y
 keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/how-well-does-your-business-do-online-payments-min.png"
 image: "/assets/uploads/2023/how-well-does-your-business-do-online-payments-min.png"
-excerpt_short: What are the areas that we look at when analysing the maturity of your online payments process? This article explains what they are, and how they are relevant.
+content_sidebar: What are the areas that we look at when analysing the maturity of your online payments process? This article explains what they are, and how they are relevant.
 redirect_from: []
 updated_at: 2023-02-08
 ---

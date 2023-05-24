@@ -8,11 +8,11 @@ categories:
   - ruby-on-rails
   - ruby-on-rails-devops
 author: Ben Still
-description: Why we use Ruby on Rails
+content_sidebar: Why we use Ruby on Rails
 keywords: ruby on rails
 image_small: '/assets/uploads/2009/ruby-on-rails.png'
 image: '/assets/uploads/2009/ruby-on-rails.png'
-excerpt_short:
+description:
   We do a lot of work with a programming language called Ruby on Rails.
   This is why.
 tags: []

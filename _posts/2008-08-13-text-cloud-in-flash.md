@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Text Cloud in Flash
+description: Visualising a list of information in interesting ways
 permalink: /our-work/text-cloud-in-flash/
 type: ideas
 categories:
@@ -8,10 +9,7 @@ categories:
 author: Ben Still
 image_small: /assets/uploads/2008/radiant-admin-465x311.png
 image: /assets/uploads/2008/radiant-admin.png
-meta:
-  dsq_thread_id: '479978211'
-excerpt:
-excerpt_short: Visualising a list of information in interesting ways
+content_sidebar: Visualising a list of information in interesting ways
 published: false
 date_published: ! ' 2008-08-13'
 updated_at: 2008-08-13

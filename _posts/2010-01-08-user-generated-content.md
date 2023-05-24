@@ -6,11 +6,11 @@ type: ideas
 categories:
 - our-work
 author: Ben Still
-description: User generated content
+content_sidebar: User generated content
 keywords: User generated content
 image_small: "/assets/uploads/2010/user-generated-content-small.png"
 image: "/assets/uploads/2010/user-generated-content-large.png"
-excerpt_short: It's always great to get some user feedback. Brett was kind enough
+description: It's always great to get some user feedback. Brett was kind enough
   to make this video about "Tails for Whales"
 tags: []
 time: ''

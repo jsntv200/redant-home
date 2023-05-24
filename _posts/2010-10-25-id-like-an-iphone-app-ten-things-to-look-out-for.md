@@ -8,11 +8,11 @@ categories:
 - software-development
 - strategy
 author: Ben Still
-description: considerations for your iphone app design brief
+content_sidebar: Considerations for your iphone app design brief
 keywords: iphone app design brief
 image_small: "/assets/uploads/2010/iphone-app-small.jpg"
 image: "/assets/uploads/2010/iphone-app.jpg"
-excerpt_short: 'Ten quick tips: considerations for your iphone app design brief'
+description: 'Ten quick tips: considerations for your iphone app design brief'
 tags: []
 time: ''
 redirect_from:

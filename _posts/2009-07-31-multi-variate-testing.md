@@ -8,13 +8,13 @@ categories:
 - how-we-do
 - ruby-on-rails
 author: Ben Still
-description: Lately, we've been doing quite a bit of work on sites which involve multi-variate
+content_sidebar: Lately, we've been doing quite a bit of work on sites which involve multi-variate
   (MV) testing. Its quite interesting, but hard to explain. In a nutshell, MV testing
   means testing lots of little changes or variations to a web site to see what works.
 keywords: multi variate testing
 image_small: "/assets/uploads/2009/peter-small.jpg"
 image: "/assets/uploads/2009/peter.jpg"
-excerpt_short: Lately, we've been doing quite a bit of work on sites which involve
+description: Lately, we've been doing quite a bit of work on sites which involve
   multi-variate (MV) testing
 tags: []
 time: ''

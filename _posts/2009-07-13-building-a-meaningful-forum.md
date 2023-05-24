@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building a meaningful forum
+description: Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
 permalink: /ruby-on-rails/building-a-meaningful-forum/
 type: ideas
 categories:
@@ -9,11 +10,7 @@ categories:
 author: Ben Still
 image_small: /assets/uploads/2009/forum-small.png
 image: /assets/uploads/2009/forum-large.png
-meta:
-  dsq_thread_id: '522891991'
-  focus_keywords: meaningful forum
-excerpt:
-excerpt_short: Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
+content_sidebar: Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
 published: false
 date_published: ! ' 2009-07-13'
 updated_at: 2009-07-13

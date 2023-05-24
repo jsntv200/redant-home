@@ -8,13 +8,13 @@ categories:
 - tool-reviews
 - ruby-on-rails-devops
 author: Sam Bauers
-description: Introducing a simple tool for backing up small MySQL databases to Subversion.
+content_sidebar: Introducing a simple tool for backing up small MySQL databases to Subversion.
   The open source script MySQL SVN Backup. Now featuring dolphins with lasers.
 keywords: Subversion, MySQL, backup, MySQL backup, small database backup, dolphin
   with lasers
 image_small: "/assets/uploads/2014/dolphins-with-lasers-small.jpg"
 image: "/assets/uploads/2014/dolphins-with-lasers.jpg"
-excerpt_short: A common pain point when using databases like MySQL on small projects
+description: A common pain point when using databases like MySQL on small projects
   is a simple way of managing backups. Here is a solution we've created.
 tags: []
 time: ''

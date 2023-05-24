@@ -6,11 +6,11 @@ type: ideas
 categories:
 - marketing
 author: Ben Still
-description: Who are all these fake people on LinkedIn?
+content_sidebar: Who are all these fake people on LinkedIn?
 keywords: ''
 image_small: "/assets/uploads/2018/linkedin2.png"
 image: "/assets/uploads/2018/linkedin2.png"
-excerpt_short: ''
+description: 'Who are all these fake people on LinkedIn?'
 tags:
 - Red-Ant-Marketing
 - LinkedIn

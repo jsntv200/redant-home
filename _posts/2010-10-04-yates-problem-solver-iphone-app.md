@@ -7,11 +7,11 @@ categories:
 - mobile
 - our-work
 author: Ben Still
-description: Yates Problem Solver iPhone App
+content_sidebar: Yates Problem Solver iPhone App
 keywords: yates problem solver app
 image_small: "/assets/uploads/2010/yates-problem-solver-app-small.jpg"
 image: "/assets/uploads/2010/yates-problem-solver-app.jpg"
-excerpt_short: We take you through our great new iPhone app designed to help solve
+description: We take you through our great new iPhone app designed to help solve
   those common garden problems.
 tags: []
 time: ''

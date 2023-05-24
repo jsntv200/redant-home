@@ -8,12 +8,8 @@ categories:
 author: Ben Still
 image_small: /assets/uploads/2008/kap-uts-design-award.jpg
 image: /assets/uploads/2008/kap-uts-design-award.jpg
-meta:
-  dsq_thread_id: '520515549'
-  keywords: Red Ant creative award at UTS
-  description: We're sponsoring an award at the design school of University of Technology, Sydney.
-excerpt:
-excerpt_short: We're sponsoring an award at the design school of University of Technology, Sydney.
+description: We're sponsoring an award at the design school of University of Technology, Sydney.
+content_sidebar: We're sponsoring an award at the design school of University of Technology, Sydney.
 published: true
 date_published: ! ' 2008-07-13'
 updated_at: 2008-07-13

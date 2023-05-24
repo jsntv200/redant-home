@@ -8,11 +8,11 @@ categories:
   - digital-products
   - ruby-on-rails
 author: Ben Still
-description: The initial build of the Michelle Bridges 12WBT project
+content_sidebar: The initial build of the Michelle Bridges 12WBT project
 keywords: michelle bridges 12wbt
 image_small: /assets/uploads/2012/12wbt.jpg
 image: /assets/uploads/2012/12wbt.jpg
-excerpt_short: The initial build of the Michelle Bridges 12WBT project
+description: The initial build of the Michelle Bridges 12WBT project
 tags: []
 time: ''
 redirect_from: null

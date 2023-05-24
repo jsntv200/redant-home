@@ -8,12 +8,12 @@ categories:
 - agile
 - strategy
 author: Ben Still
-description: An example of when you think you know what you're buying, but end up
+content_sidebar: An example of when you think you know what you're buying, but end up
   with something quite different.
 keywords: ecommerce
 image_small: "/assets/uploads/2013/danger-small.jpg"
 image: "/assets/uploads/2013/danger.jpg"
-excerpt_short: Ever bought something online that wasn't what you thought it was?
+description: Ever bought something online that wasn't what you thought it was?
 
 tags: []
 time: 5 Mins Read

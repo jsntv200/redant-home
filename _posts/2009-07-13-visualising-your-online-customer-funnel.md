@@ -7,11 +7,11 @@ categories:
 - strategy
 - marketing
 author: Ben Still
-description: Online visualisation of your customer funnel
+content_sidebar: Online visualisation of your customer funnel
 keywords: ''
 image_small: "/assets/uploads/2009/funnel-small.png"
 image: "/assets/uploads/2009/funnel-large.jpg"
-excerpt_short: Refine your user experience and create better ROI by taking an internal
+description: Refine your user experience and create better ROI by taking an internal
   look at what happens when your customer visits your site.
 tags: []
 time: ''

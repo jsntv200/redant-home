@@ -7,12 +7,12 @@ categories:
 - agile
 - our-work
 author: Jesse Noble
-description: A few months ago, we started working with a project management coach.
+content_sidebar: A few months ago, we started working with a project management coach.
   Here's what happened.
 keywords: project management benchmarking
 image_small: "/assets/uploads/2011/benchmark-small.jpg"
 image: "/assets/uploads/2011/benchmark-large.jpg"
-excerpt_short: A few months ago, we started working with a project management coach.
+description: A few months ago, we started working with a project management coach.
   Here's what happened.
 tags: []
 time: 5 Mins Read

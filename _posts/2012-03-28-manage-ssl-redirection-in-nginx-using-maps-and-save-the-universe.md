@@ -6,12 +6,12 @@ type: ideas
 categories:
 - ruby-on-rails-devops
 author: Sam Bauers
-description: A simple tutorial showing how to manage a large list of rewrite rules
+content_sidebar: A simple tutorial showing how to manage a large list of rewrite rules
   to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.
 keywords: nginx ssl redirection
 image_small: "/assets/uploads/2012/milo-on-floor-small.jpg"
 image: "/assets/uploads/2012/milo-on-floor.jpg"
-excerpt_short: Solutions to simple yet common and frustrating problems. We spill the
+description: Solutions to simple yet common and frustrating problems. We spill the
   beans on how we do it.
 tags: []
 time: ''

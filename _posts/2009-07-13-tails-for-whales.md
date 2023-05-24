@@ -7,12 +7,12 @@ categories:
 - our-work
 - ruby-on-rails
 author: Ben Still
-description: Tails was whales has been a huge success, and we've loved working on
+content_sidebar: Tails was whales has been a huge success, and we've loved working on
   it. And now we're making it even better.
 keywords: tails for whales
 image_small: "/assets/uploads/2009/tails-whales-small.png"
 image: "/assets/uploads/2009/tails-whales-big.png"
-excerpt_short: Tails was whales has been a huge success, and we've loved working on
+description: Tails was whales has been a huge success, and we've loved working on
   it. And now we're making it even better.
 tags: []
 time: ''

@@ -7,12 +7,12 @@ categories:
 - how-we-do
 - strategy
 author: Sam Bauers
-description: When your users are unlikely to want to provide their email address to
+content_sidebar: When your users are unlikely to want to provide their email address to
   sign-up to your website, "Super-soft joins" may be right for you.
 keywords: super soft joins
 image_small: "/assets/uploads/2012/clear-your-vision-home-small.jpg"
 image: "/assets/uploads/2012/clear-your-vision-home.jpg"
-excerpt_short: How we use super-soft joins to interact with users on personal subjects.
+description: How we use super-soft joins to interact with users on personal subjects.
 tags: []
 time: ''
 redirect_from:
