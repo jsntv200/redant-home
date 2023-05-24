@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     "./_book_call/*.md",
@@ -15,7 +17,14 @@ module.exports = {
     "./technology/*.md"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'red': '#FF2A00',
+      },
+      fontFamily: {
+        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   plugins: [],
 }
