@@ -38,10 +38,9 @@ images:
 
 This project is a software platform that helps automate the process of developing and placing advertising for the real estate industry. Like many things, this all seems quite simple from the outside, but it's actually quite involved. There is the workflow of getting photography through to a trackable ad placement that needs to run in multiple publications (both print and online). Then you need to manage costs, who needs artwork when, and what the market exposure is.
 
-The product was developed as ["dogfood" project](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) - which is a 
+The product was developed as ["dogfood" project](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) - which is means the software was created and used internally, before being rolled out to paying customers. It's a good approach to 
 
-CAMPAIGNxpress was originally created by Sydney agency Metropolis, who are property marketing specialists. Initially they were looking to license a software solution to streamline their advertising and media agency operations. With both consumer and marketing budgets shifting toward digital, they realised that the needs of our own advertising agencies and partners could no longer be met by existing software solutions. They listened to customer feedback, and built our own solution to meet campaign management needs.
+1.  define requirements quickly - building what your team actually uses, rather than what a focus group might say they want
+2. get to a "launch ready" project efficiently - sometimes a project might start as a Minimum Viable Product, but be a bit \<ahem> underwhelming. This may discourage initial users, who instead of being champions become hard to win back. By making sure your internal team is happy to use, you're more likely to have a product that is ready to have commercial users
 
-Today many leading brands are enjoying the benefits. CAMPAIGNxpress is a standalone company and employs a senior team of technology, marketing and advertising specialists.
-
-We're very proud to be working with this innovative company to build out even more of their fantastic digital product.
+In this case, the existing products didn't fit the requirements of the internal team. So this project was developed to address a clearly defined and understood gap.
