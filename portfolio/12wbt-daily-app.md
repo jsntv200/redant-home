@@ -45,7 +45,7 @@ images:
     height: 534
 ---
 
-You've probably heard about the wildly popular fitness program [12WBT by Michelle Bridges](/portfolio/12wbt/). You can read a bit more about [12WBT here](/portfolio/12wbt/).
+This project was developing a relatively complex app as part of a Health & Fitness program. You can read a bit more about [the health and fitness project here](/portfolio/12wbt/).
 
 Lots of people start digital projects by listing an App as one of their requirements. Digging deeper, typically what they **actually** want is to connect to an audience of customers - many of which are predominantly mobile. Don't jump to the solution just yet - an App is just one way to to do this. But you need to start by addressing the core requirement - creating something that your audience of customers really want.
 
