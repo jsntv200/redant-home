@@ -6,8 +6,8 @@ title: Automated Ad Development and Placement in Real Estate Advertising
 tagline: A property marketing platform
 description: >-
   Helps save time and money by fully automating the process of planning a
-  property campaign, creation and delivery to media. Used by industry leaders
-  such as CBRE and Ray White to manage their media planning.
+  property campaign, creation and delivery to media. Used by industry leaders to
+  manage their media planning.
 project_url: 'https://campaignxpress.com.au/'
 client: CAMPAIGNxpress
 project_date: 2017 - now
@@ -36,7 +36,9 @@ images:
 
 ## Project Description
 
-Campaignxpress is a software platform that helps automate the process of developing and placing advertising for the real estate industry. Like many things, this all seems quite simple from the outside, but it's actually quite involved. There is the workflow of getting photography through to a trackable ad placement that needs to run in multiple publications (both print and online). Then you need to manage costs, who needs artwork when, and what the market exposure is.
+This project is a software platform that helps automate the process of developing and placing advertising for the real estate industry. Like many things, this all seems quite simple from the outside, but it's actually quite involved. There is the workflow of getting photography through to a trackable ad placement that needs to run in multiple publications (both print and online). Then you need to manage costs, who needs artwork when, and what the market exposure is.
+
+The product was developed as ["dogfood" project](https://en.wikipedia.org/wiki/Eating_your_own_dog_food) - which is a 
 
 CAMPAIGNxpress was originally created by Sydney agency Metropolis, who are property marketing specialists. Initially they were looking to license a software solution to streamline their advertising and media agency operations. With both consumer and marketing budgets shifting toward digital, they realised that the needs of our own advertising agencies and partners could no longer be met by existing software solutions. They listened to customer feedback, and built our own solution to meet campaign management needs.
 
