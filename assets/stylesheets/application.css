@@ -4,3 +4,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.typewriter-cursor:after {
+  display: inline-block;
+  position: relative;
+  content: "";
+  height: 58px;
+  width: 4px;
+  margin-left: 4px;
+  margin-right: -8px;
+  margin-bottom: -8px;
+  animation: blinkingBackground 900ms infinite;
+}
+
+@keyframes blinkingBackground {
+  0% { background-color: transparent; }
+  30% { background-color: #fff; }
+  70% { background-color: #fff; }
+  100% { background-color: transparent; }
+}

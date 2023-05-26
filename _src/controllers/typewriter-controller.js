@@ -6,13 +6,12 @@ export class TypewriterController extends Controller {
 
   connect() {
     // TODO maybe longer to give words time to connect
-    setTimeout(this.locateChildWordControllers.bind(this), 100);
+    setTimeout(this.locateChildWordControllers.bind(this), 200);
 
     this.wordIndex = 0;
     this.stepCounter = 0;
 
-    this.element.addEventListener("mouseenter", this.onMouseEnter.bind(this));
-    this.element.addEventListener("mouseleave", this.onMouseLeave.bind(this));
+    this.start();
   }
 
   disconnect() {
@@ -24,12 +23,10 @@ export class TypewriterController extends Controller {
     this.randomisedWords = random(this.wordControllers);
   }
 
-  onMouseEnter(event) {
-    event.preventDefault();
+  start() {
     this.clearResetTimeout();
-
     // step through counter until it reaches a trigger threshold (500ms)
-    this.stepInterval = setInterval(this.step.bind(this), 100);
+    this.stepInterval = setInterval(this.step.bind(this), 200);
   }
 
   onMouseLeave(event) {
@@ -41,7 +38,6 @@ export class TypewriterController extends Controller {
   }
 
   step() {
-    //console.log('step', this.stepCounter);
     this.clearResetTimeout();
 
     this.stepCounter++;

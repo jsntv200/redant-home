@@ -129,23 +129,6 @@ body {
 }
 /* ------------------------------------------ */
 
-.slidedown-container {
-  background-color: $gray-500;
-  bottom: 0;
-  color: $white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: $layout-max-width;
-  min-height: $slide-footer-height;
-  position: fixed;
-  width: 100%;
-
-  a {
-    color: $white;
-  }
-}
-
 .table-services {
   .column-20 {
     width: 20%;

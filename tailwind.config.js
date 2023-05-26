@@ -19,7 +19,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'red': '#FF2A00',
+        'blue': {
+          100: '#00ADCE',
+          200: '#008BA6',
+        },
+        'light-grey': '#BFBFBF',
+        'purple': {
+          100: '#635BFF',
+          200: '#5951E5',
+        },
+        'red': {
+          100: '#FF2A00',
+          200: '#E52500',
+        }
       },
       fontFamily: {
         sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
@@ -28,4 +40,3 @@ module.exports = {
   },
   plugins: [],
 }
-

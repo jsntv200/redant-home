@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="{{ page.class }} bg-black">
-    <div class="main-layout default-layout">
-      {% include nav.html %}
-      {{ content }}
-      {% include footer.html %}
-      {% include slidedown-container.html %}
-    </div>
+  <body class="{{ page.class }} bg-black text-white">
+    <!-- <div class="main-layout default-layout"></div> -->
+    {% include nav.html %}
+    {{ content }}
+    {% include footer.html %}
+    {% include scripts.html %}
+    {% include hire-us.html %}
   </body>
 </html>
