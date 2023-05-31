@@ -14,12 +14,14 @@ client: Transport NSW and Veitch Lister Consulting
 project_date: 2019  - current
 team_size: '5'
 lines_of_code: ''
-technologies:
+technology_tags:
   - ReactJS
   - Docker
   - Amazon Web Services (AWS)
   - PostgresSQL
   - Ruby on Rails
+industry_vertical_tags: []
+service_tags: []
 images:
   - type: gallery
     path: /assets/images/projects/sydney-trains/sydney-trains-1.jpg

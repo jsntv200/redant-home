@@ -11,12 +11,14 @@ client: Matrix Education
 project_date: January 2019 - now
 team_size: 5 people
 lines_of_code: 25,000+
-technologies:
+technology_tags:
   - Ruby on Rails
   - ReactJS
   - CSS
   - HTML
   - Stripe Payments
+industry_vertical_tags: []
+service_tags: []
 published: false
 images:
   - type: gallery

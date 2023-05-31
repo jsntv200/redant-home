@@ -10,13 +10,15 @@ description: Marketing is changing.
 project_url: 'http://www.tribegroup.co/'
 client: Tribe Group
 project_date: 2015-2016
-technologies:
+technology_tags:
   - Ruby on Rails
   - PostgreSQL
   - Swift
   - Sendgrid
   - Social API integrations
   - Stripe Payments
+industry_vertical_tags: []
+service_tags: []
 team_size: 4 people
 lines_of_code: ''
 images:

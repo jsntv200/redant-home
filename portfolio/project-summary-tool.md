@@ -10,13 +10,15 @@ description: Projectt Summary Tool
 project_url: ''
 client: Internal tool
 project_date: 2017-now
-technologies:
+technology_tags:
   - Ruby on Rails
   - Postgres
   - Kubernetes
   - Amazon Web Services (AWS)
   - Stripe Payments
   - Jira
+industry_vertical_tags: []
+service_tags: []
 team_size: ''
 lines_of_code: ''
 images:

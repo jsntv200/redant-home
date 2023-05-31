@@ -11,11 +11,13 @@ project_url: 'https://www.beautyheaven.com.au'
 client: Beauty Heaven
 project_date: 2007 - 2013
 team_size: 4 people
-technologies:
+technology_tags:
   - Ruby on Rails
   - MySQL
   - Radiant CMS
   - Salesforce Marketing Cloud
+industry_vertical_tags: []
+service_tags: []
 lines_of_code: '3000'
 redirect_from:
   - /portfolio/beautyheaven-beautorium/www.beautyheaven.com.au

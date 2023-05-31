@@ -9,12 +9,14 @@ description: >-
   health professional education and reliable health information for consumers.
 project_url: 'https://www.nps.org.au/'
 client: NPS Medicinewise
-technologies:
+technology_tags:
   - Amazon Web Services (AWS)
   - Ruby on Rails
   - Scrivito CMS
   - PostgreSQL
   - WAVE visually impaired testing tool as part of CI build chain
+industry_vertical_tags: []
+service_tags: []
 project_date: 2015-17
 team_size: ''
 lines_of_code: ''

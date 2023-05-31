@@ -10,8 +10,10 @@ client: Beauty Heaven
 project_date: 2007 - 2013
 team_size: 2 people
 lines_of_code: 10k
-technologies:
+technology_tags:
   - Ruby on Rails
+industry_vertical_tags: []
+service_tags: []
 images:
   - type: gallery
     title: Member Offer page (Desktop)

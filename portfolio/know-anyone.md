@@ -10,7 +10,9 @@ tagline: ''
 description: ''
 client: ''
 lines_of_code: ''
-technologies: []
+technology_tags: []
+industry_vertical_tags: []
+service_tags: []
 images:
 - type: mobile
   path: "/assets/images/projects/know-anyone/know-anyone-mobile.jpg"

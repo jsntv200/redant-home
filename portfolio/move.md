@@ -11,13 +11,15 @@ project_url: 'http://www.oma.org.au/'
 client: Outdoor Media Association
 project_date: 2017-now
 team_size: 4 people
-technologies:
+technology_tags:
   - lastic Search
   - Sidekiq
   - PostgeSQL
   - Ruby on Rails
   - Kubernetes
   - Amazon Web Services (AWS)
+industry_vertical_tags: []
+service_tags: []
 images: []
 lines_of_code: ''
 published: false

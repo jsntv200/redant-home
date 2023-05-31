@@ -11,7 +11,7 @@ description: >-
 project_url: 'https://campaignxpress.com.au/'
 client: CAMPAIGNxpress
 project_date: 2017 - now
-technologies:
+technology_tags:
   - Kubernetes
   - Amazon Web Services (AWS)
   - Ruby on Rails
@@ -23,6 +23,8 @@ technologies:
   - DocuSign
   - Paypal
   - Paperclip
+industry_vertical_tags: []
+service_tags: []
 team_size: 4 people
 technolog: []
 lines_of_code: 450k+

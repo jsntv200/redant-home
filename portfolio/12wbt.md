@@ -12,7 +12,7 @@ client: Michelle Bridges 12WBT
 project_date: 2011 - 2019
 team_size: 25 people
 lines_of_code: 1250k+
-technologies:
+technology_tags:
   - Ruby on Rails
   - PostgreSQL
   - AngularJS
@@ -31,6 +31,8 @@ technologies:
   - Withings
   - Brightcove
   - Online Payment Systems
+industry_vertical_tags: []
+service_tags: []
 images:
   - type: gallery
     path: /assets/images/projects/12wbt/12wbt-1.jpg

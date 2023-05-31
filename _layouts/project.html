@@ -52,11 +52,11 @@
                       <strong>Lines of code:</strong> {{ page.lines_of_code }}
                     </li>
                   {% endif %}
-                  {% if page.technologies.size > 1 %}
+                  {% if page.technology_tags.size > 1 %}
                     <li>
                       <strong>Key technology:</strong>
-                      {% for technology in page.technologies %}
-                        {% assign techPage = site.pages | where: 'title', page.technologies[forloop.index0] %}
+                      {% for technology in page.technology_tags %}
+                        {% assign techPage = site.pages | where: 'title', page.technology_tags[forloop.index0] %}
                         {% if techPage.size > 0 %}
                           <a href="{{ techPage[0].url }}">{{ technology }}</a>,
                         {% else %}

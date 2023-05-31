@@ -28,22 +28,26 @@ export default defineConfig({
           {
             type: "string",
             name: "layout",
-            label: "layout *required",
+            label: "layout",
+            required: true,
             ui: {
               defaultItem: "job",
             },
           }, {
             type: "string",
             name: "slug",
-            label: "slug *required",
+            label: "slug",
+            required: true,
           }, {
             type: "string",
             name: "title",
-            label: "title *required",
+            label: "title",
+            required: true,
           }, {
             type: "string",
             name: "description",
-            label: "description *required",
+            label: "description",
+            required: true,
             component: "textarea",
           }, {
             type: "string",
@@ -79,14 +83,17 @@ export default defineConfig({
           {
             type: "string",
             name: "layout",
-            label: "layout *required",
-            config: {
-              defaultItem: "project",
+            label: "layout",
+            required: true,
+            options: ["post", "project", "technology", "job"],
+            ui: {
+              description: "Determines which layout this content will use.",
             },
           }, {
             type: "string",
             name: "theme",
-            label: "theme *required",
+            label: "theme",
+            required: true,
             options: [
               {
                 value: "12wbt",
@@ -349,11 +356,19 @@ export default defineConfig({
             label: "lines_of_code",
           }, {
             type: "string",
-            name: "technologies",
-            label: "technologies",
+            name: "technology_tags",
+            label: "technology_tags (Currently used strings: Ruby on Rails, Radiant CMS, Kubernetes, PostgreSQL, Salesforce Marketing Cloud, Stripe Payments, AngularJS, Brightcove, Postgres, Sidekiq, Swift, Wordpress, Amazon Web Services (AWS), Chargify, Comfy CMS, Elasticsearch, Facebook, Fastly, Google BigQuery, Locomotive CMS, Memcached, Paperclip, Paypal, ReactJS, Redis, SendGrid, Shopify, ABC / VFX signs API integration, Angular JS, Zai, Carrierwave, Channel Advisor price data, Cloudinary, CoreData, Delayed Job, DocuSign, FB Authentication, FB authentication, Facebook Messenger, Facebook authentication, Fitbit, Google Machine Learning, Grape API, Grape Ruby API, Indesign Server, MoneyTech, MongoDB, MyDesktop API integration, MyFitnessPal, Node server, Omniauth, PHP, Rack API, Reactful, Refile, Salesforce Predictive Intelligence, Scrivito CMS, Sendgrid, Social API integrations (Twitter, FB, Instagram), Tableau, Vue.js, Vzaar, WAVE (visually impaired testing tool) as part of CI build chain, Websockets, Wistia, Wit.ai API, Withings, YesMail, iOS Push, Docker, Heroku, Projectt, Twilio, Jira)",
             list: true,
-            description:
-              "Currently used strings: Ruby on Rails, Radiant CMS, Kubernetes, PostgreSQL, Salesforce Marketing Cloud, Stripe Payments, AngularJS, Brightcove, Postgres, Sidekiq, Swift, Wordpress, Amazon Web Services (AWS), Chargify, Comfy CMS, Elasticsearch, Facebook, Fastly, Google BigQuery, Locomotive CMS, Memcached, Paperclip, Paypal, ReactJS, Redis, SendGrid, Shopify, ABC / VFX signs API integration, Angular JS, Zai, Carrierwave, Channel Advisor price data, Cloudinary, CoreData, Delayed Job, DocuSign, FB Authentication, FB authentication, Facebook Messenger, Facebook authentication, Fitbit, Google Machine Learning, Grape API, Grape Ruby API, Indesign Server, MoneyTech, MongoDB, MyDesktop API integration, MyFitnessPal, Node server, Omniauth, PHP, Rack API, Reactful, Refile, Salesforce Predictive Intelligence, Scrivito CMS, Sendgrid, Social API integrations (Twitter, FB, Instagram), Tableau, Vue.js, Vzaar, WAVE (visually impaired testing tool) as part of CI build chain, Websockets, Wistia, Wit.ai API, Withings, YesMail, iOS Push, Docker, Heroku, Projectt, Twilio, Jira",
+          } , {
+            type: "string",
+            name: "industry_vertical_tags",
+            label: "industry_vertical_tags (Currently used strings: Ecommerce, Ed Tech/education,	Government,	Transport,	Health & Fitness,	Adtech & Media,	Consumer Goods,	Pet Tech,	Property & Real Estate,	IoT,	Fintech,	Forex,	CRM)",
+            list: true,
+          } , {
+            type: "string",
+            name: "service_tags",
+            label: "service_tags (Currently used strings: UX Design, Code Review,	Dev-Ops	Payments,	Product Development, Support & Maintenance)",
+            list: true,
           }, {
             label: "Body",
             name: "body",
@@ -378,24 +393,28 @@ export default defineConfig({
         format: "md",
         fields: [
           {
-            label: "layout *required",
+            label: "layout",
             name: "layout",
             type: "string",
+            required: true,
             ui: {
               defaultItem: "post",
             },
           }, {
-            label: "title *required",
+            label: "title",
             name: "title",
             type: "string",
+            required: true,
           }, {
-            label: "permalink *required",
+            label: "permalink",
             name: "permalink",
             type: "string",
+            required: true,
           }, {
-            label: "type *required",
+            label: "type",
             name: "type",
             type: "string",
+            required: true,
             options: [
               {
                 value: "news",
@@ -416,16 +435,18 @@ export default defineConfig({
                 "Example categories: our-work; ruby-on-rails; red-ant-stuff; strategy; how-we-do; design; automated-testing; ruby-on-rails-devops; mobile; digital-products; tool-reviews; pjax; marketing; software-development;",
             },
           }, {
-            label: "author *required",
+            label: "author",
             name: "author",
             type: "string",
+            required: true,
             ui: {
               defaultItem: "Ben Still",
             },
           }, {
             type: "string",
             name: "description",
-            label: "description *required",
+            label: "description",
+            required: true,
             component: "textarea",
             ui: {
               description: "Appears on index menus & meta desc",
@@ -467,25 +488,28 @@ export default defineConfig({
             type: "string",
             list: true,
           }, {
-            label: "date_published *required",
+            label: "date_published",
             name: "date_published",
             type: "datetime",
+            required: true,
             ui: {
               description: "Post creation date",
               dateFormat: "YYYY MM DD",
             },
           }, {
-            label: "updated_at *required",
+            label: "updated_at",
             name: "updated_at",
             type: "datetime",
+            required: true,
             ui: {
               description: "If the post has been updated, set this date",
               dateFormat: "YYYY MM DD",
             },
           }, {
-            label: "publisher *required",
+            label: "publisher",
             name: "publisher",
             type: "string",
+            required: true,
             ui: {
               defaultItem: "Red Ant",
             },
@@ -505,19 +529,22 @@ export default defineConfig({
         fields: [
           {
             type: "string",
-            label: "layout *required",
+            label: "layout",
             name: "layout",
+            required: true,
             ui: {
               defaultItem: "service",
             },
           }, {
             type: "string",
             name: "title",
-            label: "title *required",
+            label: "title",
+            required: true,
           }, {
             type: "string",
             name: "subtitle_1",
-            label: "subtitle_1 *required",
+            label: "subtitle_1",
+            required: true,
             component: "textarea",
           }, {
             type: "string",
@@ -527,11 +554,13 @@ export default defineConfig({
           }, {
             type: "string",
             name: "cta_button_title",
-            label: "cta_button_title *required",
+            label: "cta_button_title",
+            required: true,
           }, {
             type: "string",
             name: "service_title",
-            label: "service_title *required",
+            label: "service_title",
+            required: true,
           }, {
             type: "string",
             name: "service_bulletpoints",
@@ -540,7 +569,8 @@ export default defineConfig({
           }, {
             type: "string",
             name: "time",
-            label: "time *required",
+            label: "time",
+            required: true,
           }, {
             type: "string",
             name: "cost",
@@ -548,7 +578,8 @@ export default defineConfig({
           }, {
             type: "string",
             name: "description",
-            label: "description *required",
+            label: "description",
+            required: true,
             component: "textarea",
           }, {
             type: "string",
@@ -587,14 +618,16 @@ export default defineConfig({
           {
             type: "string",
             name: "layout",
-            label: "layout *required",
+            label: "layout",
+            required: true,
             ui: {
               defaultItem: "technology",
             },
           }, {
             type: "string",
             name: "category",
-            label: "category *required",
+            label: "category",
+            required: true,
             options: ["Languages", "Payments", "Hosting", "Integrations"],
             ui: {
               description: "Determines which category section this item falls under in the technology listing page",
@@ -602,7 +635,8 @@ export default defineConfig({
           }, {
             type: "string",
             name: "type",
-            label: "type *required",
+            label: "type",
+            required: true,
             ui: {
               description: "Determines which subcategory this item belongs to in the technology list",
             },
@@ -610,15 +644,18 @@ export default defineConfig({
           }, {
             type: "string",
             name: "title",
-            label: "title *required",
+            label: "title",
+            required: true,
           }, {
             type: "string",
             name: "subtitle",
-            label: "subtitle *required",
+            label: "subtitle",
+            required: true,
           }, {
             type: "string",
             name: "description",
-            label: "description *required",
+            label: "description",
+            required: true,
             component: "textarea",
           }, {
             type: "string",
@@ -655,7 +692,8 @@ export default defineConfig({
           }, {
             type: "string",
             name: "how_title",
-            label: "how_title *required",
+            label: "how_title",
+            required: true,
           }, {
             type: "string",
             name: "how_bulletpoints",

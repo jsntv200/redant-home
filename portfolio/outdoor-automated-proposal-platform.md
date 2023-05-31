@@ -13,9 +13,11 @@ description: >-
   can use the platform to request proposals
 client: Move OMA
 project_date: 2017-now
-technologies:
+technology_tags:
   - Ruby on Rails
   - PostgreSQL
+industry_vertical_tags: []
+service_tags: []
 team_size: 4 people
 lines_of_code: 450k
 project_url: 'https://'

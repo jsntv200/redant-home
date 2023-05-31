@@ -11,12 +11,14 @@ description: >-
 project_url: 'http://www.yates.com.au'
 client: Orica
 project_date: 2005 - 2020
-technologies:
+technology_tags:
   - Ruby on Rails
   - MySQL
   - Radiant CMS
   - Memcached
   - Shopify
+industry_vertical_tags: []
+service_tags: []
 team_size: '3'
 lines_of_code: ''
 images:
