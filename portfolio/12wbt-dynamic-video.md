@@ -8,8 +8,10 @@ description: Find a pocket personal trainer
 project_url: 'https://www.12wbt.com'
 client: 12WBT
 project_date: '2015'
-technologies:
+technology_tags:
   - Brightcove
+industry_vertical_tags: []
+service_tags: []
 team_size: ''
 lines_of_code: ''
 images:

@@ -10,7 +10,9 @@ tagline: Restructuring the recipe data
 description: ''
 client: 12WBT
 lines_of_code: ''
-technologies: []
+technology_tags: []
+industry_vertical_tags: []
+service_tags: []
 images:
   - type: gallery
     path: '/assets/uploads/2019/12wbt-recipes-1.jpg'
@@ -36,7 +38,7 @@ A single block of content with an image as part of the page layout, with ingredi
    ![](/assets/uploads/2019/12wbt-recipes-img-2.jpg)
    Content content content content content content content content content content content content content content content.
 
-2. **Not scalable**  
+2. **Not scalable**
    ![](/assets/uploads/2019/12wbt-recipes-img-3.jpg)
    Content content content content content content content content content content content content content content content.
 
@@ -46,7 +48,7 @@ A single block of content with an image as part of the page layout, with ingredi
 
 **What we did**
 
-1. **Splitting up recipe data**  
+1. **Splitting up recipe data**
    ![](/assets/uploads/2019/database.png)
    One central source for all ingredients
 
@@ -56,23 +58,23 @@ A single block of content with an image as part of the page layout, with ingredi
 
 3. **Add metadata**
    ![](/assets/uploads/2019/12wbt-recipes-img-6.jpg)
-   Preparation time  
-   Is this a quick and easy?  
-   Type of meal  
-   Can it be frozen?  
+   Preparation time
+   Is this a quick and easy?
+   Type of meal
+   Can it be frozen?
    Will it work as a leftover?
 
-4. **Update cooking method**  
+4. **Update cooking method**
    ![](/assets/uploads/2019/12wbt-recipes-img-7.jpg)
    The method describes how to make the recipe. It refers to ingredients without describing sizes. The name of each ingredient can be localised if required.
 
 5. **Live shopping integration**
    ![](/assets/uploads/2019/12wbt-recipes-img-8.jpg)
-   The vegetarian version  
-   The gluten free version  
+   The vegetarian version
+   The gluten free version
    The quick & easy version
 
-**The result**  
+**The result**
 ![](/assets/uploads/2019/12wbt-recipes-hero.jpg)
 
 **Belefit for members**

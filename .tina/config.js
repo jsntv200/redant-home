@@ -349,11 +349,19 @@ export default defineConfig({
             label: "lines_of_code",
           }, {
             type: "string",
-            name: "technologies",
-            label: "technologies",
+            name: "technology_tags",
+            label: "technology_tags (Currently used strings: Ruby on Rails, Radiant CMS, Kubernetes, PostgreSQL, Salesforce Marketing Cloud, Stripe Payments, AngularJS, Brightcove, Postgres, Sidekiq, Swift, Wordpress, Amazon Web Services (AWS), Chargify, Comfy CMS, Elasticsearch, Facebook, Fastly, Google BigQuery, Locomotive CMS, Memcached, Paperclip, Paypal, ReactJS, Redis, SendGrid, Shopify, ABC / VFX signs API integration, Angular JS, Zai, Carrierwave, Channel Advisor price data, Cloudinary, CoreData, Delayed Job, DocuSign, FB Authentication, FB authentication, Facebook Messenger, Facebook authentication, Fitbit, Google Machine Learning, Grape API, Grape Ruby API, Indesign Server, MoneyTech, MongoDB, MyDesktop API integration, MyFitnessPal, Node server, Omniauth, PHP, Rack API, Reactful, Refile, Salesforce Predictive Intelligence, Scrivito CMS, Sendgrid, Social API integrations (Twitter, FB, Instagram), Tableau, Vue.js, Vzaar, WAVE (visually impaired testing tool) as part of CI build chain, Websockets, Wistia, Wit.ai API, Withings, YesMail, iOS Push, Docker, Heroku, Projectt, Twilio, Jira)",
             list: true,
-            description:
-              "Currently used strings: Ruby on Rails, Radiant CMS, Kubernetes, PostgreSQL, Salesforce Marketing Cloud, Stripe Payments, AngularJS, Brightcove, Postgres, Sidekiq, Swift, Wordpress, Amazon Web Services (AWS), Chargify, Comfy CMS, Elasticsearch, Facebook, Fastly, Google BigQuery, Locomotive CMS, Memcached, Paperclip, Paypal, ReactJS, Redis, SendGrid, Shopify, ABC / VFX signs API integration, Angular JS, Zai, Carrierwave, Channel Advisor price data, Cloudinary, CoreData, Delayed Job, DocuSign, FB Authentication, FB authentication, Facebook Messenger, Facebook authentication, Fitbit, Google Machine Learning, Grape API, Grape Ruby API, Indesign Server, MoneyTech, MongoDB, MyDesktop API integration, MyFitnessPal, Node server, Omniauth, PHP, Rack API, Reactful, Refile, Salesforce Predictive Intelligence, Scrivito CMS, Sendgrid, Social API integrations (Twitter, FB, Instagram), Tableau, Vue.js, Vzaar, WAVE (visually impaired testing tool) as part of CI build chain, Websockets, Wistia, Wit.ai API, Withings, YesMail, iOS Push, Docker, Heroku, Projectt, Twilio, Jira",
+          } , {
+            type: "string",
+            name: "industry_vertical_tags",
+            label: "industry_vertical_tags (Currently used strings: Ecommerce, Ed Tech/education,	Government,	Transport,	Health & Fitness,	Adtech & Media,	Consumer Goods,	Pet Tech,	Property & Real Estate,	IoT,	Fintech,	Forex,	CRM)",
+            list: true,
+          } , {
+            type: "string",
+            name: "service_tags",
+            label: "service_tags (Currently used strings: UX Design, Code Review,	Dev-Ops	Payments,	Product Development, Support & Maintenance)",
+            list: true,
           }, {
             label: "Body",
             name: "body",

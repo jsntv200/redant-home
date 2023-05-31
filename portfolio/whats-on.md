@@ -8,9 +8,11 @@ description: An events site for our local City of Sydney council.
 project_url: 'http://whatson.cityofsydney.nsw.gov.au'
 client: City Of Sydney
 project_date: '2013'
-technologies:
+technology_tags:
   - Ruby on Rails
   - MySQL
+industry_vertical_tags: []
+service_tags: []
 team_size: ''
 lines_of_code: ''
 images:

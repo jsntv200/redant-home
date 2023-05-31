@@ -12,7 +12,7 @@ client: Managed Platforms
 project_date: 2017-now
 team_size: 5 people
 lines_of_code: 400k+
-technologies:
+technology_tags:
   - Kubernetes
   - Amazon Web Services (AWS)
   - Sendgrid
@@ -23,6 +23,8 @@ technologies:
   - MoneyTech
   - ReactJS
   - Refile
+industry_vertical_tags: []
+service_tags: []
 images:
   - type: mobile
     path: /assets/images/projects/managed/managed-hero-mobile.jpg

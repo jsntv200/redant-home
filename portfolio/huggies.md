@@ -12,7 +12,7 @@ description: >-
 project_url: 'https://www.huggies.com.au'
 client: Kimberly Clark
 project_date: 2005-2022
-technologies:
+technology_tags:
   - Ruby on Rails
   - MySQL
   - Comfy CMS
@@ -30,6 +30,8 @@ technologies:
   - Reactful
   - 'Channel Advisor price data '
   - Facebook authentication
+industry_vertical_tags: []
+service_tags: []
 team_size: 12 people
 lines_of_code: ''
 images:

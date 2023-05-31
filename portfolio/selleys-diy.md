@@ -10,11 +10,13 @@ description: >-
 project_url: 'http://www.selleys.com.au/'
 client: Orica
 project_date: 2012-2021
-technologies:
+technology_tags:
   - Ruby on Rails
   - MySQL
   - Radiant CMS
   - Paperclip
+industry_vertical_tags: []
+service_tags: []
 team_size: 2 people
 lines_of_code: ''
 images:

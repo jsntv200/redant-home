@@ -8,12 +8,14 @@ description: Bondivet
 project_url: 'https://bondivet.com'
 client: Vexo Media
 project_date: 2015-2021
-technologies:
+technology_tags:
   - Ruby on Rails
   - PostgreSQL
   - Sendgrid
   - Fastly
   - Wistia
+industry_vertical_tags: []
+service_tags: []
 team_size: 4 people
 lines_of_code: ''
 images:

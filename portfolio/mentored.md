@@ -9,12 +9,14 @@ project_url: 'https://www.mentored.com.au'
 client: The Mentor Platform
 project_date: 2017-2018
 team_size: 4 people
-technologies:
+technology_tags:
   - Ruby on Rails
   - Postgres
   - Kubernetes
   - Amazon Web Services (AWS)
   - Stripe Payments
+industry_vertical_tags: []
+service_tags: []
 lines_of_code: ''
 images:
   - type: mobile

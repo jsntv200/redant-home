@@ -14,11 +14,13 @@ client: 12WBT
 project_date: 2015-2020
 team_size: 6 people
 lines_of_code: 30k
-technologies:
+technology_tags:
   - Swift
   - FB authentication
   - iOS Push
   - CoreData
+industry_vertical_tags: []
+service_tags: []
 subtitle: ''
 projects: []
 image: ''
