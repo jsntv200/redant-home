@@ -4,5 +4,14 @@ permalink: /blog/
 title: Blog - Ruby on Rails Sydney - Red Ant
 ---
 
-<h1>Blog</h1>
-{% include posts.html %}
+<div class="absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
+  <div class="relative">
+    {% include svg/lines-8.svg %}
+  </div>
+</div>
+
+<div class="max-w-screen-2xl mx-auto py-[100px]">
+  {% include title-panel.html title="Blog" %}
+
+  {% include posts.html %}
+</div>

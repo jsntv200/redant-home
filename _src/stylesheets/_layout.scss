@@ -67,7 +67,7 @@ body {
     > section,
     > footer,
     > .container,
-    > .bg-gray-light {
+    > .bg-gray-100 {
       z-index: 2;
       position: relative;
     }
@@ -78,7 +78,7 @@ body {
       background-color: $white;
     }
 
-    > .bg-gray-light {
+    > .bg-gray-100 {
       background-color: $gray-100;
     }
   }

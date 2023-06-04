@@ -10,19 +10,10 @@ export class TypewriterWordController extends Controller {
     this.altIndex = 0; // start with alt word at this index
 
     this.element.classList.toggle('relative', true);
-
-    // testing
-    this.element.addEventListener("click", this.onClick.bind(this));
   }
 
   disconnect() {
     this.clearTypeInterval();
-  }
-
-  // testing
-  onClick(event) {
-    event.preventDefault();
-    this.startAnimation();
   }
 
   startAnimation() {

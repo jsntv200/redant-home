@@ -1,10 +1,13 @@
-<section class="py-5 container">
-  <div data-controller="macy">
-    {% assign posts = site.posts | sort: 'updated_at' | reverse %}
-    {% for post in posts %}
-      {% unless include.type != nil or include.type == post.type %}
-        {% include post-card.html %}
-      {% endunless %}
-    {% endfor %}
-  </div>
-</section>
+<div class="grid grid-cols-3 gap-[40px] mx-auto">
+  {% assign posts = site.posts | sort: 'updated_at' | reverse %}
+  {% for post in posts %}
+    {% unless include.type != nil or include.type == post.type %}
+      {% include card.html
+        url=post.url
+        image=post.image_small
+        title=post.title
+        color="cyan-100"
+        content=post.description %}
+    {% endunless %}
+  {% endfor %}
+</div>

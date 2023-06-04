@@ -10,6 +10,19 @@ export class NavController extends Controller {
   connect() {
     if (!this.items) return;
     this.toggleActive();
+    window.addEventListener('scroll', this.handleScroll.bind(this));
+  }
+
+  disconnect() {
+    window.removeEventListener('scroll', this.handleScroll.bind(this));
+  }
+
+  handleScroll() {
+    if (window.pageYOffset > 0) {
+      this.element.classList.add('bg-black');
+    } else {
+      this.element.classList.remove('bg-black');
+    }
   }
 
   toggleActive() {

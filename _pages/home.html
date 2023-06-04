@@ -4,7 +4,6 @@ permalink: /
 title: Sydney Ruby on Rails Technical Agency
 description: Red Ant is a Sydney Technical Agency. We create & build exceptional digital products. These live as web sites, in mobile apps, and in social networks.
 class: homepage
-tailwind: true
 redirect_from:
   - /on-demand/
   - /on-demand/design-ux/
@@ -90,10 +89,10 @@ redirect_from:
     <div class="lg:w-1/2 relative">
       <div class="absolute flex justify-center h-full w-full">
         <div
-          class="absolute inset-0 -z-10 bg-blue-100/[0.25] mx-auto w-3/4"
+          class="absolute inset-0 -z-10 bg-cyan-100/[0.25] mx-auto w-3/4"
           aria-hidden="true">
-          <div class="absolute bottom-7 right-7 h-[200px] w-[200px] rounded-full border-[6px] border-blue-100/[0.1] items-center justify-center hidden md:flex">
-            <i class="fa-light fa-hammer text-blue-100/[0.1] w-[100px] h-[92px]"></i>
+          <div class="absolute bottom-7 right-7 h-[200px] w-[200px] rounded-full border-[6px] border-cyan-100/[0.1] items-center justify-center hidden md:flex">
+            <i class="fa-light fa-hammer text-cyan-100/[0.1] w-[100px] h-[92px]"></i>
           </div>
         </div>
       </div>
@@ -101,14 +100,14 @@ redirect_from:
         <h5 class="mb-2 text-xl font-bold">Custom development</h5>
         <hr class="bg-white opacity-40 mt-8 mb-6">
         <h3 class="mb-3 text-4xl font-bold">
-          We <span class="text-blue-100">design & build</span> custom digital platforms
+          We <span class="text-cyan-100">design & build</span> custom digital platforms
         </h3>
-        <p class="text-lg mt-5 mb-8 text-light-grey">
+        <p class="text-lg mt-5 mb-8 text-gray-100">
           We're different to System Integrators and Security Analysts. We look at vour systems trom a developer perspective - your team, processes and technology.
         </p>
         <a
           href="/free-initial-consult-code-review/"
-          class="rounded-md bg-blue-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-200">
+          class="rounded-md bg-cyan-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-cyan-200">
           Get started
         </a>
       </div>
@@ -129,7 +128,7 @@ redirect_from:
         <h3 class="mb-3 text-4xl font-bold">
           We <span class="text-red-100">improve security</span> from a development perspective
         </h3>
-        <p class="text-lg mt-5 mb-8 text-light-grey">
+        <p class="text-lg mt-5 mb-8 text-gray-100">
           We're different to System Integrators and Security Analysts. We look at vour systems trom a developer perspective - your team, processes and technology.
         </p>
         <a
@@ -142,36 +141,21 @@ redirect_from:
   </div>
 </div>
 
-<div class="bg-white/10 mt-[200px] py-9 text-center">
+<div class="bg-gray-200 mt-[200px] py-9 text-center">
   <h5 class="text-xl font-bold mb-[18px]">Learn from the Optus hack</h5>
   <h3 class="text-4xl font-bold text-red-100">
     How can I tell if my software code base is actually secure?
   </h3>
 </div>
 
-<div class="my-[200px] text-center">
-  <div class="max-w-screen-2xl mx-auto">
-    <h2 class="text-5xl font-bold mb-[18px]">These companies trust us</h2>
-    <h3 class="text-lg text-light-grey">
-      For more than 20 years, we've had the pleasure of working with many startups, brands and large companies.
-    </h3>
-    <div id="relative m-0 h-4 w-8">
-      <img
-        class="absolute left-0 transition-opacity duration-1000 ease-in-out"
-        src="/assets/images/clients/ray-white.png" />
-      <!-- <img
-        class="absolute left-0 transition-opacity duration-1000 ease-in-out"
-        src="/assets/images/clients/transport-sydney-trains.png" /> -->
-    </div>
-  </div>
-</div>
+{% include companies.html %}
 
 <div class="bg-purple-100/25 py-9">
   <div class="max-w-screen-2xl mx-auto flex items-center">
     <div class="w-[173px]">
       {% include svg/stripe-partner-badge.svg %}
     </div>
-    <p class="ps-4 my-0 text-light-grey">
+    <p class="ps-4 my-0 text-gray-100">
       As a Stripe consulting partner, Red Ant’s team of Certified Stripe Architects and Certified Stripe Developers can help with advice, implementation, deployment, or managed services for your Stripe solution.
       <a
         href="/technology/stripe-payments/"
@@ -194,40 +178,57 @@ redirect_from:
 
   <div class="max-w-screen-2xl mx-auto relative isolate px-6 pt-14 lg:px-8">
     <h2 class="text-5xl font-bold mt-[200px] mb-[88px] text-center">Featured work</h2>
-    <!-- <div class="svg-wrapper">
-      {% assign featured = site.pages | where: "slug", "managed" | first %}
-      {% include svg/preview-right.svg title="Managed App" images=featured.images %}
-    </div> -->
     <div class="flex">
       <div class="absolute flex justify-center h-full w-full">
         <div
-          class="absolute inset-0 -z-10 bg-purple-100/[0.25] mx-auto w-3/4"
+          class="absolute inset-0 -z-10 bg-managed-100/[0.25] mx-auto w-3/4"
           aria-hidden="true">
         </div>
       </div>
 
       <div class="lg:w-1/2 relative mt-24">
-        <div class="rounded-md bg-gray-200 w-[640px] h-[700px]">
+        <div class="rounded-md bg-gray-100 w-[640px] h-[700px] overflow-hidden">
+          <div class="flex justify-center p-2">
+            <div class="absolute flex left-2">
+              <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
+              <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
+              <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
+            </div>
+            <div class="rounded-md h-5 w-80 bg-white flex justify-center items-center"></div>
+          </div>
+          <div class="relative flex align-middle">
+            <img
+              class="absolute object-cover"
+              src="/assets/images/projects/managed/property-platform-desktop.jpg"
+              alt="Porperty platform desktop">
+          </div>
+        </div>
+
+        <!-- <div class="rounded-md bg-gray-200 w-[640px] h-[700px]">
           <div class="flex p-2">
             <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
             <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
             <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
             <div class="rounded-md h-5 w-80 bg-white"></div>
+            <img
+              class="object-cover mt-2 mb-1 mx-1"
+              src="/assets/images/managed/property-platform-desktop.jpg"
+              alt="Ruby on Rails">
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="lg:w-1/2 relative mt-24">
         <div class="px-6 py-[74px]">
-          <h3 class="mb-3 text-4xl font-bold text-purple-100">Managed</h3>
+          <h3 class="mb-3 text-4xl font-bold text-managed-100">Managed</h3>
           <hr class="bg-white opacity-40 mt-8 mb-6">
           <h5 class="mb-2 text-xl font-bold">A payment and management platform for rental property</h5>
-          <p class="text-lg mt-5 mb-8 text-light-grey">
+          <p class="text-lg mt-5 mb-8 text-gray-100">
             Significantly changes and improves the way a Property Manager works when managing a portfolio of rental properties. Solves issues around trust funds, eliminates fraud, improves the speed and resolves a lot of problems that a PM faces - freeing them up to be more strategic.
           </p>
           <a
             href="/portfolio/managed/"
-            class="rounded-md bg-purple-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-purple-200">
+            class="rounded-md bg-managed-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-managed-200">
             More details
           </a>
         </div>
@@ -262,8 +263,6 @@ redirect_from:
         </div>
 
         <div class="svg-wrapper">
-          {% assign featured = site.pages | where: "slug", "12wbt" | first %} {%
-            include svg/preview-right.svg title="12wbt" images=featured.images %}
         </div>
       </div>
     </div>
@@ -297,9 +296,6 @@ redirect_from:
         </div>
 
         <div class="svg-wrapper">
-          {% assign featured = site.pages | where: "slug", "huggies" | first %}
-          {% include svg/preview-right.svg title="Huggies"
-          images=featured.images %}
         </div>
       </div>
     </div>
@@ -307,7 +303,7 @@ redirect_from:
 
 <div
   id="section-ruby-on-rails"
-  class="bg-white/10 mt-[200px] py-10">
+  class="bg-gray-200 mt-[450px] py-10">
   <div class="max-w-screen-2xl flex flex-col md:flex-row mx-auto relative isolate px-6 pt-14 lg:px-8">
     <div class="">
       <h2 class="text-5xl font-bold mb-[18px]">
@@ -317,7 +313,7 @@ redirect_from:
       <h5 class="mb-2 text-xl font-bold">
         The efficient way to build modern digital products.
       </h5>
-      <p class="text-light-grey">
+      <p class="text-gray-100">
         An Open source web framework Ruby on Rails makes designing and building modern web sites and digital products <a href="/ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/" class="hover:underline text-red-100">more efficient</a>. Ruby on Rails is a popular choice for building modern, interactive web sites and apps.
       </p>
       <!-- <div id="more-about-rails" class="collapse">
@@ -379,13 +375,15 @@ redirect_from:
       </div>
     </div>
 
-  <div class="max-w-screen-2xl mx-auto relative isolate px-6 pt-14 lg:px-8">
-    <div class="flex justify-between align-middle">
-      <h2 class="text-5xl font-bold mb-[18px]">Popular blog posts</h2>
+  <div class="max-w-screen-2xl mx-auto relative isolate px-6 pt-14 lg:px-8 lg:py-[200px]">
+    <div class="flex justify-between align-middle items-center mb-[88px]">
+      <h2 class="text-5xl font-bold mb-[18px]">
+        Popular blog posts
+      </h2>
 
       <a
         href="/blog/"
-        class="rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-200">
+        class="rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
         View all
       </a>
     </div>

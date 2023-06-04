@@ -1,0 +1,60 @@
+<div class="py-24">
+  <div class="max-w-screen-2xl flex flex-col md:flex-row mx-auto relative isolate pt-14">
+    <div class="lg:w-3/4">
+      <h2 class="text-5xl font-bold mb-[30px]">
+        {{ include.title }}
+      </h2>
+
+      {% if include.description %}
+        <p class="text-[2.25rem]">
+          {{ include.description }}
+        </p>
+      {% endif %}
+
+      {% if include.subtitle %}
+        <h5 class="mt-[100px] mb-[10px] text-xl font-bold">
+          {{ include.subtitle }}
+        </h5>
+      {% endif %}
+
+      {% if include.content %}
+        <p class="mt-[20px] text-gray-100 mb-4">
+          {{ include.content }}
+        </p>
+      {% endif %}
+
+      <div class="mt-10">
+        {% if include.cta-1-link %}
+          <a
+            href="{{ include.cta-1-link }}"
+            class="cursor-pointer rounded-md bg-red-100 px-3.5 py-3 mr-4 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
+            {{ include.cta-1-label }}
+          </a>
+        {% endif %}
+
+        {% if include.cta-2-link %}
+          <a
+            href="{{ include.cta-2-link }}"
+            class="cursor-pointer rounded-md bg-red-100 px-3.5 py-3 mr-4 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
+            {{ include.cta-2-label }}
+          </a>
+        {% endif %}
+
+        {% if include.cta-intercom-label %}
+          <a class="cursor-pointer intercom-launcher rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
+            {{ include.cta-intercom-label }}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if include.image %}
+      <div class="lg:w-1/4">
+        <img
+          class="object-cover"
+          src="{{ include.image }}"
+          alt="{{ include.image-alt }}">
+      </div>
+    {% endif %}
+  </div>
+</div>

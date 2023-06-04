@@ -42,7 +42,7 @@ updated_at: 2019-06-05
     </div>
   </div>
 </section>
-<section class="bg-gray-light py-5 text-md">
+<section class="bg-gray-100 py-5 text-md">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -125,7 +125,7 @@ updated_at: 2019-06-05
         <h2 class="mt-5 mb-4">
           What are the features that make Ruby attractive to developers?
         </h2>
-        <div class="bg-gray-light rounded p-4">
+        <div class="bg-gray-100 rounded p-4">
           <h5>1. Everything can be an object</h5>
           <p>
             In Ruby, everything is an object. Every bit of information and code
@@ -147,7 +147,7 @@ end</code></pre>
         </div>
       </div>
       <div class="col-sm-6 mt-4">
-        <div class="bg-gray-light rounded p-4 h-100">
+        <div class="bg-gray-100 rounded p-4 h-100">
           <h5>2. Flexibility</h5>
           <p>
             Ruby is seen as a flexible language, since it allows its users to
@@ -158,7 +158,7 @@ end</code></pre>
         </div>
       </div>
       <div class="col-sm-6 mt-4">
-        <div class="bg-gray-light rounded p-4">
+        <div class="bg-gray-100 rounded p-4">
           <h5>3. Blocks</h5>
           <p>
             Ruby’s block are also seen as a source of great flexibility. A
@@ -305,7 +305,7 @@ end</code></pre>
     </div>
   </div>
 </section>
-<section class="bg-gray-light py-5 text-md">
+<section class="bg-gray-100 py-5 text-md">
   <div class="container">
     <div class="row">
       <div class="col-12">

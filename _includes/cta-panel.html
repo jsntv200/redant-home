@@ -1,20 +1,22 @@
-<section
-  id="cta-panel"
-  data-ga-trigger="visibility"
-  class="section default-padding"
->
-  <div class="container">
-    <div class="row">
-      <div class="col text-center">
-        <p class="h1">Ready to get started?</p>
-        <p class="my-5 subheading">Let's start a conversation</p>
-        <a
-          class="btn btn-lg btn-primary rounded-pill intercom-launcher"
-          ga-trigger="click"
-        >
-          Contact Us
-        </a>
+<div>
+  <div class="relative">
+    <div
+      class="absolute inset-0 top-0 left-0 -z-10 overflow-hidden"
+      aria-hidden="true">
+      <div class="relative">
+        {% include svg/lines-9.svg %}
       </div>
     </div>
+
+  <div class="max-w-screen-lg mx-auto relative isolate pt-14 lg:py-[200px] text-center">
+    <h2 class="text-6xl font-bold mb-[30px]">
+      {{ include.title }}
+    </h2>
+
+    <p class="mb-[50px] text-2xl">{{ include.content }}</p>
+
+    <a class="cursor-pointer intercom-launcher rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
+      {{ include.button-label}}
+    </a>
   </div>
-</section>
+</div>

@@ -6,7 +6,7 @@ slug: digital-product-development
 class: digital-product-development
 ---
 
-<header id="section-workshop-hero" class="section hero bg-gray-light default-padding">
+<header id="section-workshop-hero" class="section hero bg-gray-100 default-padding">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
