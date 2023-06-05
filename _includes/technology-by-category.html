@@ -4,13 +4,14 @@
     {% assign pages = site.pages | where: 'slug', slug | where: 'category', include.category %}
     {% for page in pages %}
       {% include card.html
-        url=page.url
-        image=page.image
-        title=page.title
-        title-color="red-100"
+        content=page.listing_description
         description=page.type
         hr="true"
-        content=page.listing_description %}
+        image=page.image
+        image-rounded="true"
+        text-color="red-100"
+        title=page.title
+        url=page.url %}
       {% if index == 3 %}
         <div class="w-full"></div>
       {% endif %}

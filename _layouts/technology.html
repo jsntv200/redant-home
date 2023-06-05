@@ -18,34 +18,37 @@ layout: default
 
     <div class="grid grid-cols-3 gap-[20px] mx-auto">
       {% include card.html
-        icon="fa-pen-ruler"
-        color="red-100"
-        subtitle="New Builds"
         content="We create, design and build new apps and platforms. We can help
         you design for scale, as well as strategy or product support as
         you need it. We'll take responsibility for delivering your
         project.We create, design and build new apps and platforms. We
         can help you design for scale, as well as strategy or product
         support as you need it. We'll take responsibility for delivering
-        your project." %}
+        your project."
+        icon="fa-pen-ruler"
+        icon-color="red-100"
+        subtitle="New Builds"
+        text-color="red-100" %}
 
       {% include card.html
-        icon="fa-code"
-        color="red-100"
-        subtitle="Existing Apps"
         content="We can also take over an existing project. Often companies need
         a bit more experience, developer resourcing, or help in
         completing certain features before they launch. Or you might
-        need more development tasks done to your existing platform." %}
+        need more development tasks done to your existing platform."
+        icon="fa-code"
+        icon-color="red-100"
+        subtitle="Existing Apps"
+        text-color="red-100" %}
 
       {% include card.html
-        icon="fa-object-group"
-        color="red-100"
-        subtitle="Devops and Platform Support"
         content="We also provide a comprehensive Devops and Platform Support
         service. We'll take on responsibility for monitoring and
         providing technical support as part of an ongoing plan that we
-        can design with you." %}
+        can design with you."
+        icon="fa-object-group"
+        icon-color="red-100"
+        subtitle="Devops and Platform Support"
+        text-color="red-100" %}
     </div>
   </div>
 </div>
@@ -60,49 +63,18 @@ layout: default
         {% assign pages = site.pages | where:'slug', slug %}
         {% for page in pages %}
           {% assign image = page.images | where: "type", "desktop" | first %}
-          {% include card.html
-            url=page.dir
+          {% include card-with-backdrop.html
+            content=page.description
+            hr="true"
             image=page.image
+            subtitle=page.tagline
             title=page.title
             title-color=""
-            hr="true"
-            subtitle=page.tagline
-            content=page.description %}
+            url=page.dir %}
         {% endfor %}
       {% endfor %}
     </div>
   </div>
-
-  <section class="default-padding">
-    <div class="container">
-      <h2 class="mb-5">
-        Some of our {{ page.title }} projects
-      </h2>
-      <div
-        data-controller="macy"
-        data-macy-columns-lg-value="2"
-        data-macy-columns-md-value="1">
-        {% for slug in page.projects %}
-          {% assign pages = site.pages | where: 'slug', slug %}
-          {% for page in pages %}
-            <div id="section-card-{{ page.title | downcase | replace: ' ', '-' }}" class="ga-section card mb-1">
-              <a href="{{ page.dir }}" class="portfolio-tile bg-gray bg-{{ page.theme }} text-black">
-                <div class="content mb-2">
-                  <h2 class="text-{{ page.theme }}">{{ page.title }}</h2>
-                  <p class="my-4 subheading-small">{{ page.tagline }}</p>
-                  <p class="technology-description">{{ page.description }}</p>
-                </div>
-                <div class="svg-container">
-                  <div class="svg-wrapper">
-                  </div>
-                </div>
-              </a>
-            </div>
-          {% endfor %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
 {% endif %}
 
 {% include companies.html %}

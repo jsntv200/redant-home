@@ -1,52 +1,28 @@
-{% if include.bg-narrow %}
-  <div class="flex">
-    <div class="absolute flex justify-center h-full w-full">
-      <div
-        class="absolute inset-0 -z-10 bg-{{ include.bg-color }}/[0.25] mx-auto w-3/4"
-        aria-hidden="true">
-      </div>
-    </div>
-{% elsif include.bg-color %}
-  <div class="flex bg-{{ include.bg-color }}/[0.25]">
+{% if include.url %}
+  <a
+    href="{{ include.url }}"
+    class="{{ include.class-container }}">
+{% else %}
+  <div class="{{ include.class-container }}">
 {% endif %}
 
-  {% if include.url %}
-    <a
-      href="{{ include.url }}"
-  {% else %}
-  <div
+  {% if include.image and include.image-rounded %}
+    <img
+      class="w-[200px] h-[200px] mb-8 rounded-full"
+      src="{{ include.image }}"
+      alt="{{ include.title }} image"/>
+  {% elsif include.image %}
+    <img
+      class="w-full h-[320px] mb-8"
+      src="{{ include.image }}"
+      alt="{{ include.title }} image"/>
+  {% elsif include.icon %}
+    <div class="w-[100px] h-[100px] rounded-full border-[4px] border-{{ include.icon-color }} items-center justify-center hidden md:flex p-10 mb-5">
+      <i class="fa-light {{ include.icon }} text-{{ include.icon-color }} w-[52px] h-[52px]"></i>
+    </div>
   {% endif %}
-    class="{{ include.class }}">
-    {% if include.image and include.is-portfolio %}
-      <div class="rounded-md bg-gray-100 w-full h-[340px] overflow-hidden">
-        <div class="flex justify-center p-2">
-          <div class="absolute flex left-2">
-            <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
-            <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
-            <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
-          </div>
-          <div class="rounded-md h-5 w-80 bg-white flex justify-center items-center"></div>
-        </div>
-        <div class="relative flex align-middle">
-          <img
-            class="absolute object-cover"
-            src="{{ include.image }}"
-            alt="{{ include.title }} image"/>
-        </div>
-      </div>
-    {% elsif include.image %}
-      <img
-        class="w-full h-[320px] mb-8"
-        src="{{ include.image }}"
-        alt="{{ include.title }} image"/>
-    {% endif %}
 
-    {% if include.icon %}
-      <div class="w-[100px] h-[100px] rounded-full border-[4px] border-{{ include.text-color }} items-center justify-center hidden md:flex p-10 mb-5">
-        <i class="fa-light {{ include.icon }} text-{{ include.text-color }} w-[52px] h-[52px]"></i>
-      </div>
-    {% endif %}
-
+  <div class="{{ include.class-content }}">
     {% if include.title %}
       <h5 class="mb-1.5 text-2xl font-semibold text-{{ include.text-color }}">
         {{ include.title }}
@@ -72,9 +48,9 @@
     <p class="text-gray-100">
       {{ include.content }}
     </p>
-  {% if include.url %}
-    </a>
-  {% else %}
-    </div>
-  {% endif %}
-</div>
+  </div>
+{% if include.url %}
+  </a>
+{% else %}
+  </div>
+{% endif %}

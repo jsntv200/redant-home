@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="{{ page.class }}">
-    <div class="main-layout default-layout" data-controller="assessment">
+  <body class="{{ page.class }} bg-black text-white flex flex-col min-h-screen">
+    <div class="flex-grow" data-controller="assessment">
       {{ content }}
     </div>
+    {% include scripts.html %}
   </body>
 </html>
