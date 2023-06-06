@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="{{ page.class }} bg-black text-white flex flex-col min-h-screen">
+    <div class="flex-grow pt-[100px]">
+      {% include tailwind/nav.html %}
+      {{ content }}
+    </div>
+    <div class="mt-auto">
+      {% include tailwind/footer.html %}
+      {% include tailwind/hire-us.html %}
+    </div>
+    {% include scripts.html %}
+  </body>
+</html>

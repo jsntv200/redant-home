@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+{% include title-panel.html
+  title=page.title
+  subtitle=page.subtitle
+  content=page.description
+  cta-1-link="/free-initial-consult-code-review/"
+  cta-1-label="Free initial consult"
+  cta-2-link="/ruby-on-rails-code-review/"
+  cta-2-label="Get started"
+  image=page.image %}
+
+<div class="bg-red-100/[0.25]">
+  <div class="max-w-screen-2xl mx-auto py-[100px]">
+    <h2 class="text-5xl font-bold mb-[50px]">How we can help</h2>
+
+    <div class="grid grid-cols-3 gap-[20px] mx-auto">
+      {% include card.html
+        content="We create, design and build new apps and platforms. We can help
+        you design for scale, as well as strategy or product support as
+        you need it. We'll take responsibility for delivering your
+        project.We create, design and build new apps and platforms. We
+        can help you design for scale, as well as strategy or product
+        support as you need it. We'll take responsibility for delivering
+        your project."
+        icon="fa-pen-ruler"
+        icon-color="red-100"
+        subtitle="New Builds"
+        text-color="red-100" %}
+
+      {% include card.html
+        content="We can also take over an existing project. Often companies need
+        a bit more experience, developer resourcing, or help in
+        completing certain features before they launch. Or you might
+        need more development tasks done to your existing platform."
+        icon="fa-code"
+        icon-color="red-100"
+        subtitle="Existing Apps"
+        text-color="red-100" %}
+
+      {% include card.html
+        content="We also provide a comprehensive Devops and Platform Support
+        service. We'll take on responsibility for monitoring and
+        providing technical support as part of an ongoing plan that we
+        can design with you."
+        icon="fa-object-group"
+        icon-color="red-100"
+        subtitle="Devops and Platform Support"
+        text-color="red-100" %}
+    </div>
+  </div>
+</div>
+
+{% assign count = page.projects | size %}
+{% if count > 0 %}
+  <div class="max-w-screen-2xl grid grid-cols-3 gap-[20px] mx-auto">
+    <div class="max-w-screen-2xl mx-auto py-[100px]">
+      <h2 class="text-5xl font-bold mb-[50px]">Some of our {{ page.title }} projects</h2>
+
+      {% for slug in site.data.portfolio.order %}
+        {% assign pages = site.pages | where:'slug', slug %}
+        {% for page in pages %}
+          {% assign image = page.images | where: "type", "desktop" | first %}
+          {% include card-with-backdrop.html
+            content=page.description
+            hr="true"
+            image=page.image
+            subtitle=page.tagline
+            text-color="red-100"
+            title=page.title
+            url=page.dir %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+{% include companies.html %}

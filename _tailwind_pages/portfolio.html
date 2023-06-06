@@ -1,0 +1,34 @@
+---
+layout: default
+permalink: /portfolio/
+title: "Ruby on Rails Applications for Web and Mobile : See Our Showcase of Innovative and Scalable Solutions"
+description: It isn’t just good design, or a good user experience.  Great digital products come about when these blend together.
+---
+
+<div class="absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
+  <div class="relative">
+    {% include svg/lines-5.svg %}
+  </div>
+</div>
+
+{% include title-panel.html
+  title="Portfolio" %}
+
+<div class="max-w-screen-2xl grid grid-cols-3 gap-[20px] mx-auto">
+  {% for slug in site.data.portfolio.order %}
+    {% assign pages = site.pages | where:'slug', slug %}
+    {% for page in pages %}
+      {% assign image = page.images | where: "type", "desktop" | first %}
+      {% include card.html
+        url=page.dir
+        image=page.image
+        title=page.title
+        subtitle=page.tagline
+        content=page.description
+        color=page.theme
+        bg-narrow="true"
+        is-portfolio="true"
+        hr="true" %}
+    {% endfor %}
+  {% endfor %}
+</div>

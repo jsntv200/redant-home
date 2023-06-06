@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="{{ page.class }} bg-black text-white flex flex-col min-h-screen">
-    <div class="flex-grow pt-[100px]">
+  <body class="{{ page.class }}">
+    <div class="main-layout default-layout">
       {% include nav.html %}
       {{ content }}
-    </div>
-    <div class="mt-auto">
       {% include footer.html %}
-      {% include hire-us.html %}
+      {% include slidedown-container.html %}
     </div>
-    {% include scripts.html %}
   </body>
 </html>

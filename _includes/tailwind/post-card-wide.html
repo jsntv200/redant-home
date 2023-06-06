@@ -1,0 +1,20 @@
+<a
+  href="{{ post.url }}"
+  class="flex flex-col items-center border-b-[1px] border-white/40 md:flex-row hover:border-red-100 py-10">
+  {% if post.image_small %}
+    <img
+      class="object-cover w-full h-auto min-h-full md:h-60 md:w-[440px]"
+      src="{{post.image_small}}"
+      alt="{{ post.title }} image">
+  {% endif %}
+  <div class="flex flex-col justify-between p-4 leading-normal">
+    <h5 class="mb-2 text-2xl font-bold tracking-tight text-red-100">
+      {{ post.title }}
+    </h5>
+    {% if post.description %}
+      <p class="mb-3 text-gray-100">
+        {{ post.description }}
+      </p>
+    {% endif %}
+  </div>
+</a>

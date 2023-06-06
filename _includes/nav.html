@@ -1,94 +1,108 @@
-{% if site.announcement_bar == true %}
-  <div class="bg-black fixed text-white text-center p-2">
-    <strong>A new way of working with us!</strong>
-    Access our team on demand to help you scale.
-    <a href="/" class="fw-bold ms-2">More info</a>
-  </div>
-{% endif %}
+<div
+  data-controller="nav reveal normalise-height"
+  data-reveal-hidden-class="open"
+  data-action="normalise:height->nav#setHeight">
+  <div class="nav-container" data-normalise-height-target="item">
+    {% if site.announcement_bar == true %}
+      <div class="bg-dark text-white text-center p-2">
+        <strong>A new way of working with us!</strong>
+        Low monthly fixed cost. Access our team on demand to help you scale.
+        <a href="/" class="fw-bold ms-2">More info</a>
+      </div>
+    {% endif %}
+    {% if page.nav == 'navbar-aos' %}
+    <nav
+      class="navbar nav-overlay"
+      data-aos-anchor=".navbar-aos"
+      data-aos="navbar-aos"
+      data-aos-anchor-placement="bottom-bottom"
+      data-reveal-target="item"
+    >
+    {% else %}
+    <nav class="navbar nav-overlay" data-reveal-target="item">
+    {% endif %}
+      <div class="container">
+        <div class="d-flex flex-column">
+          <div class="d-flex justify-content-between">
+            <a href="/" class="navbar-brand">
+              <img
+                class="logo"
+                src="/assets/images/logo.svg"
+                alt="Red Ant logo"
+              />
+            </a>
+            <div class="d-flex justify-content-end align-items-center w-100">
+              <div class="d-none d-lg-block">
+                <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                    <a href="/get-started/" data-nav-target="item" class="nav-link">
+                      Get started
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/about/" data-nav-target="item" class="nav-link">
+                      About us
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/portfolio/" data-nav-target="item" class="nav-link">
+                      Portfolio
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/technology/" data-nav-target="item" class="nav-link">
+                      Technology
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/blog/" data-nav-target="item" class="nav-link">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/contact-us/" data-nav-target="item" class="nav-link">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <button
+                type="button"
+                class="btn btn-link d-block d-lg-none nav-toggle-icon"
+                data-action="click->reveal#toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<nav
-  class="fixed w-full z-20 top-0 left-0 ease-linear duration-200"
-  data-controller="nav">
-  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4 text-white border-b border-gray-100/40 h-[100px]">
-    <a
-      href="/"
-      class="flex items-center">
-      <img
-        src="/assets/images/logo-since.svg"
-        class="mr-3"
-        alt="Red Ant logo" />
-    </a>
-    <button
-      data-collapse-toggle="navbar-default"
-      type="button"
-      class="inline-flex items-center p-2 ml-3 text-sm lg:hidden"
-      aria-controls="navbar-default"
-      aria-expanded="false">
-      <span class="sr-only">Open menu</span>
-      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-    </button>
-    <div
-      class="hidden w-full lg:block lg:w-auto"
-      id="navbar-default">
-      <ul class="flex flex-col p-4 lg:p-0 mt-4 border-y border-y-gray-600 bg-black lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-transparent">
-        <li>
-          <!-- aria-current="page" -->
-          <a
-            href="/services/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
-            data-nav-target="item">
-            Services
-          </a>
-        </li>
-        <li>
-          <a
-            href="/cyber-security/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
-            data-nav-target="item">
-            Cyber security
-          </a>
-        </li>
-        <li>
-          <a
-            href="/portfolio/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
-            data-nav-target="item">
-            Portfolio
-          </a>
-        </li>
-        <li>
-          <a
-            href="/about/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
-            data-nav-target="item">
-            About us
-          </a>
-        </li>
-        <li>
-          <a
-            href="/technology/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
-            data-nav-target="item">
-            Technology
-          </a>
-        </li>
-        <li>
-          <a
-            href="/blog/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
-            data-nav-target="item">
-            Blog
-          </a>
-        </li>
-        <li>
-          <a
-            href="/contact-us/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
-            data-nav-target="item">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </div>
+      <div class="container nav-links mx-4 mx-md-auto">
+        <ul class="links">
+          <li>
+            <a href="/" data-nav-target="item">Home</a>
+          </li>
+          <li>
+            <a href="/get-started/" data-nav-target="item">Get started</a>
+          </li>
+          <li>
+            <a href="/about/" data-nav-target="item">About us</a>
+          </li>
+          <li>
+            <a href="/portfolio/" data-nav-target="item">Portfolio</a>
+          </li>
+          <li>
+            <a href="/technology/" data-nav-target="item">Technology</a>
+          </li>
+          <li>
+            <a href="/blog/" data-nav-target="item">Blog</a>
+          </li>
+          <li>
+            <a href="/contact-us/" data-nav-target="item">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
-</nav>
+</div>

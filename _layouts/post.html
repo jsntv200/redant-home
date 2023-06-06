@@ -1,41 +1,42 @@
----
-layout: default
----
-
-<div class="max-w-screen-2xl mx-auto pb-[100px]">
-  {% include blog-nav.html %}
-  {% include breadcrumbs.html %}
-  {% include title-panel.html title=page.title title-color="blue-100" %}
-
-  <div class="grid grid-cols-2 gap-[40px] mx-auto"></div>
-
-</div>
-
-
-        <h1 class="pb-2">{{ page.title }}</h1>
-        <hr class="dash" />
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-8 order-2 order-sm-1">
-        <img
-          class="img-fluid mb-4"
-          src="{{ page.image }}"
-          alt="{{ page.title }}"
-        />
-        {{ content }}
-      </div>
-      <div class="col-md-4 order-1 order-sm-2">
-        {% if page.content_sidebar.size > 1 %}
-        <div class="post-detail-container section-border">
-          <p>{{ page.content_sidebar }}</p>
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="{{ page.class }}">
+    <div class="main-layout">
+      {% include nav.html %}
+      <section class="post-content pt-3 pb-5 text-md">
+        <div class="container">
+          <div class="row mb-sm-4">
+            <div class="col-12">
+              <div class="mb-3 pb-sm-5">{% include breadcrumbs.html %}</div>
+              <h1 class="pb-2">{{ page.title }}</h1>
+              <hr class="dash" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 order-2 order-sm-1">
+              <img
+                class="img-fluid mb-4"
+                src="{{ page.image }}"
+                alt="{{ page.title }}"
+              />
+              {{ content }}
+            </div>
+            <div class="col-md-4 order-1 order-sm-2">
+              {% if page.content_sidebar.size > 1 %}
+              <div class="post-detail-container section-border">
+                <p>{{ page.content_sidebar }}</p>
+              </div>
+              {% endif %}
+              {% include gallery.html images=page.images slug=page.slug %}
+            </div>
+          </div>
         </div>
-        {% endif %}
-        {% include gallery.html images=page.images slug=page.slug %}
-      </div>
+      </section>
+      <section class="pb-5 d-none d-sm-block">
+        <div class="container" data-controller="fake-news"></div>
+      </section>
+      {% include footer.html %}
     </div>
-  </div>
-</section>
-<section class="pb-5 d-none d-sm-block">
-  <div class="container" data-controller="fake-news"></div>
-</section>
+  </body>
+</html>
