@@ -13,7 +13,7 @@
       alt="{{ include.title }} image"/>
   {% elsif include.image %}
     <img
-      class="w-full h-[320px] mb-8"
+      class="w-full h-[320px] object-cover"
       src="{{ include.image }}"
       alt="{{ include.title }} image"/>
   {% elsif include.icon %}
@@ -40,7 +40,7 @@
     {% endif %}
 
     {% if include.subtitle %}
-      <p class="text-xl font-bold mb-4">
+      <p class="text-xl font-bold mb-4 text-{{ include.text-color }}">
         {{include.subtitle}}
       </p>
     {% endif %}

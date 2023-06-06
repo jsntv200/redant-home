@@ -1,12 +1,13 @@
 ---
-layout: blog
+layout: default
 ---
 
-{% include breadcrumbs.html %}
+<div class="max-w-screen-2xl mx-auto pb-[100px]">
+  {% include blog-nav.html %}
+  {% include breadcrumbs.html %}
+  {% include title-panel.html title=page.title title-color="blue-100" %}
 
-{% include title-panel.html title=page.title %}
-
-<div class="max-w-screen-2xl mx-auto py-[100px]">
+  <div class="grid grid-cols-2 gap-[40px] mx-auto"></div>
 
 </div>
 
