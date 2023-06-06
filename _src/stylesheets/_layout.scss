@@ -67,7 +67,7 @@ body {
     > section,
     > footer,
     > .container,
-    > .bg-gray-100 {
+    > .bg-gray-light {
       z-index: 2;
       position: relative;
     }
@@ -78,7 +78,7 @@ body {
       background-color: $white;
     }
 
-    > .bg-gray-100 {
+    > .bg-gray-light {
       background-color: $gray-100;
     }
   }
@@ -128,6 +128,23 @@ body {
   font-weight: 600!important;
 }
 /* ------------------------------------------ */
+
+.slidedown-container {
+  background-color: $gray-500;
+  bottom: 0;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: $layout-max-width;
+  min-height: $slide-footer-height;
+  position: fixed;
+  width: 100%;
+
+  a {
+    color: $white;
+  }
+}
 
 .table-services {
   .column-20 {

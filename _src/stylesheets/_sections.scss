@@ -215,6 +215,19 @@ section {
   background-size: contain;
 }
 
+.cta-panel {
+  background-color: #353933;
+  background-image: url("/assets/images/services/digital-workshop/bg-cta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  h2,
+  p {
+    color: #fff;
+  }
+}
+
 .assessment {
   .main-layout {
     background-color: $blue-100;

@@ -5,30 +5,38 @@ title: "Red Ant Portfolio of Innovative Ruby on Rails Solutions"
 description: Great digital experiences are a product of design and technical expertise.
 ---
 
-<div class="absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
-  <div class="relative">
-    {% include svg/lines-5.svg %}
+<section id="section-portfolio-list" class="bg-portfolio-list">
+  <div class="container">
+    <h1 class="default-padding">Portfolio</h1>
+    <div
+      data-controller="macy"
+      data-macy-columns-lg-value="2"
+      data-macy-columns-md-value="1">
+      {% for slug in site.data.portfolio.order %}
+        {% assign pages = site.pages | where:'slug', slug %}
+        {% for page in pages %}
+          <div
+            id="section-card-{{ page.title | downcase | replace: ' ', '-' }}"
+            class="ga-section card mb-1"
+          >
+            <a
+              href="{{ page.dir }}"
+              class="portfolio-tile bg-gray bg-{{ page.theme }} text-black"
+            >
+              <div class="content mb-2">
+                <h2 class="text-{{ page.theme }}">{{ page.title }}</h2>
+                <p class="my-4 tagline">{{ page.tagline }}</p>
+                <p>{{ page.description }}</p>
+              </div>
+              <div class="svg-container">
+                <div class="svg-wrapper">
+                  {% include svg/preview-left.svg title=page.title images=page.images %}
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      {% endfor %}
+    </div>
   </div>
-</div>
-
-{% include title-panel.html
-  title="Portfolio" %}
-
-<div class="max-w-screen-2xl grid grid-cols-3 gap-[20px] mx-auto">
-  {% for slug in site.data.portfolio.order %}
-    {% assign pages = site.pages | where:'slug', slug %}
-    {% for page in pages %}
-      {% assign image = page.images | where: "type", "desktop" | first %}
-      {% include card.html
-        url=page.dir
-        image=page.image
-        title=page.title
-        subtitle=page.tagline
-        content=page.description
-        color=page.theme
-        bg-narrow="true"
-        is-portfolio="true"
-        hr="true" %}
-    {% endfor %}
-  {% endfor %}
-</div>
+</section>

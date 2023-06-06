@@ -7,11 +7,11 @@
         {% assign next-question-number = forloop.index | plus: 1 %}
         {% assign next-question-url = include.section.slug | append: "?q=" | append: next-question-number %}
       {% endif %}
-      <div
-        class="d-none"
+      <div 
+        class="d-none" 
         data-assessment-target="answerSection">
         <p class="py-4 fw-semibold fs-5">{{ question.description }}</p>
-        <div
+        <div 
           class="row flex-column"
           data-assessment-target="answer">
           {% for answer in question.answers %}
