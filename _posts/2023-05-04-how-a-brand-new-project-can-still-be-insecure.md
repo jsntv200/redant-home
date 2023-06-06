@@ -10,7 +10,7 @@ description: >-
   So you've just launched your new project. It must be totally secure right? Not
   always - there are often vulnerabilities that may reveal over time. Here's how
   we go looking for them.
-content_sidebar: >-
+content_sidebar: >
   People often assume that if a software platform has been recently built, it
   must be inherently secure. This certainly has a kernel of truth to it, but
   there’s also a misplaced assumption. In fact, a brand new code release can
@@ -19,6 +19,7 @@ date_published: 2023-05-03T14:00:00.000Z
 publisher: Red Ant
 image_small: /assets/uploads/iStock-668575918.jpg
 image: /assets/uploads/iStock-668575918.jpg
+updated_at: 2023-05-03T14:00:00.000Z
 ---
 
 People often assume that if a software platform has been recently built, it must be inherently secure. This certainly has a kernel of truth to it, but there’s also a misplaced assumption.
