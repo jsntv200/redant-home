@@ -1,27 +1,29 @@
 ---
 layout: post
 title: Getting more efficient with our Ruby on Rails projects
-permalink: "/ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/"
+permalink: /ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/
 type: ideas
 categories:
-- ruby-on-rails
+  - ruby-on-rails
 author: Ben Still
-content_sidebar: How we used Ruby on Rails convention over configuration to make our developers
+content_sidebar: >
+  How we used Ruby on Rails convention over configuration to make our developers
   more efficient and improve quality
 keywords: ruby on rails efficient
-image_small: "/assets/uploads/2013/ruby-on-rails.png"
-image: "/assets/uploads/2013/ruby-on-rails.png"
-description: '"convention over configuration". How to improve team effectiveness
-  and quality.'
+image_small: /assets/uploads/ruby.jpg
+image: /assets/uploads/ruby.jpg
+description: >-
+  "convention over configuration". How to improve team effectiveness and
+  quality.
 tags: []
 time: ''
 redirect_from:
-- /lean-development/ruby-on-rails-efficiency-convention-over-configuration/
-date_published: ! ' 2013-04-10'
+  - /lean-development/ruby-on-rails-efficiency-convention-over-configuration/
+date_published: 2013-04-10T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2013-04-10
-
+updated_at: 2013-04-10T00:00:00.000Z
 ---
+
 ## The problem
 
 One developer would work on a project, and establish a way of doing something - for example he might make all the database table names formatted first letter caps (CamelCase). Another developer might have a burning desire for all lowercase. Pretty soon there would be a heated and totally inane argument about which saved more bytes of data. The second developer would complain about the first one wanting to boss him around, and so on.
