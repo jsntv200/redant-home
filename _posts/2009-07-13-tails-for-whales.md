@@ -1,27 +1,29 @@
 ---
 layout: post
 title: Tails for Whales
-permalink: "/ruby-on-rails/tails-for-whales/"
+permalink: /ruby-on-rails/tails-for-whales/
 type: news
 categories:
-- our-work
-- ruby-on-rails
+  - our-work
+  - ruby-on-rails
 author: Ben Still
-content_sidebar: Tails was whales has been a huge success, and we've loved working on
-  it. And now we're making it even better.
+content_sidebar: >
+  Tails was whales has been a huge success, and we've loved working on it. And
+  now we're making it even better.
 keywords: tails for whales
-image_small: "/assets/uploads/2009/tails-whales-small.png"
-image: "/assets/uploads/2009/tails-whales-big.png"
-description: Tails was whales has been a huge success, and we've loved working on
-  it. And now we're making it even better.
+image_small: /assets/uploads/Tails-for-Whales.jpg
+image: /assets/uploads/Tails-for-Whales.jpg
+description: >-
+  Tails was whales has been a huge success, and we've loved working on it. And
+  now we're making it even better.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2009-07-13'
+redirect_from: null
+date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2009-07-13
-
+updated_at: 2009-07-13T00:00:00.000Z
 ---
+
 We've finally launched an update to the 551 project- you can check out [the sparkly new goodness here](http://tailsforwhales.org).
 
 Basically, each year Japan sends all these boats down to the Southern Ocean to hunt for whales. Last year they got 551, hence the name of the project. Fingers crossed that this year the number will be much lower, but the only way that is going to happen is if we all hassle, hassle, and hassle some more.
