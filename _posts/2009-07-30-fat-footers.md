@@ -12,7 +12,7 @@ content_sidebar: >
   We've had some mixed results.
 keywords: website footer design
 image_small: /assets/uploads/fat-footer-bigfoot.jpg
-image: ''
+image: /assets/uploads/fat-footer-bigfoot2.jpg
 description: >-
   There's a bit of a design trend at the moment towards making more of the
   footer area at the bottom of your site.
