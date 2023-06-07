@@ -1,30 +1,30 @@
 ---
 layout: post
 title: Have you noticed how fast some sites are these days?
-permalink: '/pjax/asynchronous-javascript-frameworks-like-angular-js/'
+permalink: /pjax/asynchronous-javascript-frameworks-like-angular-js/
 type: ideas
 categories:
   - pjax
 author: Ben Still
-content_sidebar:
+content_sidebar: >
   Have you noticed that some sites are insanely fast these days? The new
-  generation of Javascript Frameworks are powering a new change in the way pages work.
+  generation of Javascript Frameworks are powering a new change in the way pages
+  work.
 keywords: fast asynchronous javascript frameworks
-image_small: '/assets/uploads/2012/google-angular-small.png'
-image: '/assets/uploads/2012/angularjs.png'
-description:
-  Have you noticed that some of the sites you use have been getting super
-  fast lately?
+image_small: /assets/uploads/angular.jpg
+image: /assets/uploads/angular.jpg
+description: >-
+  Have you noticed that some of the sites you use have been getting super fast
+  lately?
 tags: []
 time: ''
 redirect_from:
   - /pjax
   - /pjax/
   - pjax/
-date_published: ! ' 2012-12-19'
+date_published: 2012-12-19T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2012-12-19
-
+updated_at: 2012-12-19T00:00:00.000Z
 ---
 
 The technology behind all this are the new Javascript frameworks, with names like Angular, Ember, Spine, Knockout, Derby and Meteor. We've decided to go with [AngularJS (AngularJS)](http://angularjs.org/), which is a Google project.
@@ -49,7 +49,7 @@ Jquery Mobile: **4 s**
 
 Angular: **450 ms**
 
-_(Mum: if you’re reading this, 450ms is 0.45 seconds – about the reaction time a driver needs to brake when driving)_
+*(Mum: if you’re reading this, 450ms is 0.45 seconds – about the reaction time a driver needs to brake when driving)*
 
 ## Why bother with all of this?
 
