@@ -1,29 +1,30 @@
 ---
 layout: post
 title: Snapshot of our latest work
-permalink: "/our-work/snapshot-of-our-latest-work/"
+permalink: /our-work/snapshot-of-our-latest-work/
 type: news
 categories:
-- our-work
-- ruby-on-rails
-- ecommerce
+  - our-work
+  - ruby-on-rails
+  - ecommerce
 author: Ben Still
-content_sidebar: Here are a few of the projects that have been keeping us busy lately.
-  I really should get around to putting them in to our portfolio, but the army of
-  little fairies that live in our server that do all our work (well, the hard stuff
+content_sidebar: >
+  Here are a few of the projects that have been keeping us busy lately. I really
+  should get around to putting them in to our portfolio, but the army of little
+  fairies that live in our server that do all our work (well, the hard stuff
   anyway) have been a bit slack lately.
 keywords: latest work
-image_small: "/assets/uploads/2009/redant-office-300x200.jpg"
-image: "/assets/uploads/2009/redant-office-1000x600.jpg"
+image_small: /assets/uploads/2010/redant-office.jpg
+image: /assets/uploads/2010/redant-office.jpg
 description: Here are a few of the projects that have been keeping us busy lately
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2009-07-13'
+redirect_from: null
+date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2009-07-13
-
+updated_at: 2009-07-13T00:00:00.000Z
 ---
+
 ## Beauty Heaven
 
 Beauty Heaven is the leading independent Beauty site in Australia, and we're thrilled to be working with them. The site has a thriving membership, who continually add content and reviews to the site. They have a really neat loyalty system, where members get points the more they participate on the site- writing reviews of products, comments, and forum postings. They review various beauty products, and have a crack team of users to that road test various things.
