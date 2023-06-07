@@ -1,28 +1,30 @@
 ---
 layout: post
 title: Visualising your online customer funnel
-permalink: "/strategy/visualising-your-online-customer-funnel/"
+permalink: /strategy/visualising-your-online-customer-funnel/
 type: ideas
 categories:
-- strategy
-- marketing
+  - strategy
+  - marketing
 author: Ben Still
-content_sidebar: Online visualisation of your customer funnel
+content_sidebar: |
+  Online visualisation of your customer funnel
 keywords: ''
-image_small: "/assets/uploads/2009/funnel-small.png"
-image: "/assets/uploads/2009/funnel-large.jpg"
-description: Refine your user experience and create better ROI by taking an internal
-  look at what happens when your customer visits your site.
+image_small: /assets/uploads/visualising-your-online-customer-funnel.jpg
+image: /assets/uploads/visualising-your-online-customer-funnel.jpg
+description: >-
+  Refine your user experience and create better ROI by taking an internal look
+  at what happens when your customer visits your site.
 tags: []
 time: ''
 redirect_from:
-- /blog/visualising-your-online-customer-funnel/
-- /blog/visualising-your-online-customer-funnel
-date_published: ! ' 2009-07-13'
+  - /blog/visualising-your-online-customer-funnel/
+  - /blog/visualising-your-online-customer-funnel
+date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2009-07-13
-
+updated_at: 2009-07-13T00:00:00.000Z
 ---
+
 One of the ways that you can track customer interaction is through a conversion funnel approach, which will be familiar to anyone with a sales background. Coming in at the top of the funnel you have new customers. In the sales model, you communicate with them in various ways by sending them brochures and proposals, and in turn they express an increased interest in your offering. At the bottom of the funnel are the customers that actually commit to your offering. The whole point is to measure how many people you convert from newbies to customers - your conversion ratio.
 
 #### Measuring your funnel online
@@ -47,6 +49,6 @@ One of the big challenges is communicating what this customer funnel looks like,
 
 Here is how we've explained it as an overview:
 
-_(Flash removed)_
+*(Flash removed)*
 
-_image credit:_ [_Scott Ableman_](https://www.flickr.com/photos/ableman/)
+*image credit:* *[Scott Ableman](https://www.flickr.com/photos/ableman/)*
