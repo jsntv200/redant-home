@@ -1,26 +1,27 @@
 ---
 layout: post
 title: The problem with great startup ideas is that everyone has one
-permalink: "/red-ant-stuff/opinionated-developer/"
+permalink: /red-ant-stuff/opinionated-developer/
 type: news
 categories:
-- our-work
-- red-ant-stuff
+  - our-work
+  - red-ant-stuff
 author: Ben Still
-content_sidebar: Execution matters. There are plenty of great ideas, but you need an experienced
-  and opinionated development team to help you execute
+content_sidebar: >
+  Execution matters. There are plenty of great ideas, but you need an
+  experienced and opinionated development team to help you execute
 keywords: ''
-image_small: "/assets/uploads/2012/milo-on-floor.jpg"
-image: "/assets/uploads/2012/milo-on-floor-small.jpg"
+image_small: /assets/uploads/ideas.jpg
+image: /assets/uploads/ideas.jpg
 description: Execution matters. Your development team matters.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2018-09-17'
+redirect_from: null
+date_published: 2018-09-17T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2018-09-17
-
+updated_at: 2018-09-17T00:00:00.000Z
 ---
+
 I had one of those unfortunate meetings the other day. The kind that leaves you pondering the Big Questions, like "why am I even here?". Is Australia some weird backwater where developers are the serfs?
 
 My day started bad. I should have just turned around. I was on my commute in, and the guy next to me was having an Unavoidably Loud Conversation. Basically, he ran some kind of Fintech financial outfit, and he was having some software developed. This week his plan was to sack the current development team (they didn't know this yet), and replace them with an offshore group. Because the offshore guys "would just shut up and get on with it".
