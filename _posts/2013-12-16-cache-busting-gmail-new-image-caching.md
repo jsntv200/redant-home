@@ -1,28 +1,30 @@
 ---
 layout: post
 title: Cache busting Gmail's new image caching
-permalink: "/how-we-do/cache-busting-gmail-new-image-caching/"
+permalink: /how-we-do/cache-busting-gmail-new-image-caching/
 type: ideas
 categories:
-- how-we-do
-- tool-reviews
+  - how-we-do
+  - tool-reviews
 author: Sam Bauers
-content_sidebar: Google's new image caching mechanism in Gmail is an email marketer's
-  nightmare come true. Here's how to keep tracking your email opens in Gmail.
-keywords: Gmail, Google Mail, image cache, cache busting, email marketing
-image_small: "/assets/uploads/2013/somebody-set-us-up-the-bomb-small.jpg"
-image: "/assets/uploads/2013/somebody-set-us-up-the-bomb.jpg"
-description: This week, GMail announced images are on by default. If you're a marketer,
-  you might have seen some posts about how exciting this is that we can now track
+content_sidebar: >
+  Google's new image caching mechanism in Gmail is an email marketer's nightmare
+  come true. Here's how to keep tracking your email opens in Gmail.
+keywords: 'Gmail, Google Mail, image cache, cache busting, email marketing'
+image_small: /assets/uploads/cache-busting-gmail-new-image-caching.jpg
+image: /assets/uploads/cache-busting-gmail-new-image-caching.jpg
+description: >-
+  This week, GMail announced images are on by default. If you're a marketer, you
+  might have seen some posts about how exciting this is that we can now track
   emails again.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2013-12-16'
+redirect_from: null
+date_published: 2013-12-16T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2013-12-16
-
+updated_at: 2013-12-16T00:00:00.000Z
 ---
+
 The basic story is that Google will now cache all images in HTML email on their own servers, instead of having your email load the images from the original source. This is great for speed and reliability, and also means as a marketer you can send images as part of your email communication. But it **breaks** tracking.
 
 A common practice in email marketing is to place "tracking" images inside html emails in order to measure who opened which email when. A very important piece of information, which can be used both legitimately and nefariously. Google sunk this practice by turning images off by default. [Ars Technica has a good write up of the implications (Ars Technica: Gmail blows up e-mail marketing by caching all images on Google servers)](http://arstechnica.com/information-technology/2013/12/gmail-blows-up-e-mail-marketing-by-caching-all-images-on-google-servers/) for email marketers (and illegitimate spammers). But it doesn't try to answer any questions about how the image caching works, and how to get around it.
@@ -142,7 +144,7 @@ Those were the files of the form:
 
 * same.png?r=12345
 * different.png?r=12345
-* different.png?r=12345&a=1
+* different.png?r=12345\&a=1
 
 ## Results in a nutshell
 
