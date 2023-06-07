@@ -1,25 +1,24 @@
 ---
 layout: post
 title: Oooh we've been busy little ants…
-permalink: '/our-work/oooh-weve-been-busy-little-ants/'
+permalink: /our-work/oooh-weve-been-busy-little-ants/
 type: news
 categories:
   - our-work
 author: Ben Still
 description: Take a look at some of our recent projects at Red Ant.
 keywords: Red Ant projects
-image_small: '/assets/uploads/2009/troopers-small.jpg'
-image: '/assets/uploads/2009/troopers-large.jpg'
-content_sidebar:
-  Would you like to see what we've been doing lately? From inspiring
-  kids to read to launching the new Kleenex website, it's all here.
+image_small: /assets/uploads/2009/ants.jpg
+image: /assets/uploads/2009/ants.jpg
+content_sidebar: >
+  Would you like to see what we've been doing lately? From inspiring kids to
+  read to launching the new Kleenex website, it's all here.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2009-07-13'
+redirect_from: null
+date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2009-07-13
-
+updated_at: 2009-07-13T00:00:00.000Z
 ---
 
 We've been super busy over the last month or so, counting down the days to our [APEC lockdown](http://www.theaustralian.news.com.au/story/0,,22145672-28737,00.html). We're going to stock up on coffee big time just in case George decides he likes it here and chooses to [stay a bit longer](http://www.smh.com.au/news/national/bush-may-stay-in-town-longer/2007/08/09/1186530533168.html).
@@ -46,7 +45,7 @@ We created a new visual design and site layout to highlight the company's most i
 
 #### Huggies Jeans for Genes
 
-![[Huggies](/assets/uploads/2009/aug-update-huggies.jpg)
+!\[[Huggies](/assets/uploads/2009/aug-update-huggies.jpg)
 
 We added some denim bling to the header area as part of Huggies support of Jeans for Genes day. We also developed a new photo upload tool that allows members to upload photos of their children wearing jeans. This is a reusable tool that will be used in other photo based competitions, and includes an extensive image moderation application.
 
@@ -76,10 +75,10 @@ A new extranet application for KC Professional, which contains sales material an
 
 #### Oxfam Trailwalker
 
-[![Trailwalker](/assets/uploads/2009/aug-update-trailwalker.jpg)
+\[![Trailwalker](/assets/uploads/2009/aug-update-trailwalker.jpg)
 
 The Melbourne walk has come and gone, and just a few more sleeps until the Sydney event. This is a .net project that we've been working on with the Oxfam team.
 
 [Visit the site](http://www2.oxfam.org.au/trailwalker/Sydney)
 
-_image credit: Myrrh Ahn_
+*image credit: Myrrh Ahn*
