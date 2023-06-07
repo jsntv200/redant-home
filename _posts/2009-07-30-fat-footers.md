@@ -1,35 +1,37 @@
 ---
 layout: post
 title: Fat footers - should they include a sitemap
-permalink: "/how-we-do/fat-footers/"
+permalink: /how-we-do/fat-footers/
 type: ideas
 categories:
-- how-we-do
-- design
+  - how-we-do
+  - design
 author: Ben Still
-content_sidebar: In several recent projects, we've experimented with extending the footer
-  area. We've had some mixed results.
+content_sidebar: >
+  In several recent projects, we've experimented with extending the footer area.
+  We've had some mixed results.
 keywords: website footer design
-image_small: "/assets/uploads/2009/me-and-sarah-small.jpg"
-image: "/assets/uploads/2009/me-and-sarah.jpg"
-description: There's a bit of a design trend at the moment towards making more of
-  the footer area at the bottom of your site.
+image_small: /assets/uploads/fat-footer-bigfoot.jpg
+image: ''
+description: >-
+  There's a bit of a design trend at the moment towards making more of the
+  footer area at the bottom of your site.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2009-07-30'
+redirect_from: null
+date_published: 2009-07-30T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2009-07-30
-
+updated_at: 2009-07-30T00:00:00.000Z
 ---
+
 In several recent projects, we've experimented with extending the footer area. We've had some mixed results. It certainly seems like a good idea- the theory being that the user scrolls to the bottom of the page and gets a prompt or call to action to go to another page. There is a good summary of why on [Web Designers Wall (Benefits of Placing a Sitemap in the Footer)](http://www.webdesignerwall.com/trends/modern-sitemap-and-footer/) that I've summarised here:
 
-- Engage user click and visit duration - theory being that the footer would be the last thing they see on the page
-- Lazy users who can't find the sitemap can just go to the bottom of the page
-- Promote specific links
-- Save user's time- allow them to quickly jump from page to page.
-- Save them a click - no need to click to sitemap
-- Enhance layout design (aka - I have no content but want to fill up my web page)
+* Engage user click and visit duration - theory being that the footer would be the last thing they see on the page
+* Lazy users who can't find the sitemap can just go to the bottom of the page
+* Promote specific links
+* Save user's time- allow them to quickly jump from page to page.
+* Save them a click - no need to click to sitemap
+* Enhance layout design (aka - I have no content but want to fill up my web page)
 
 I've been curious about the impacts of this element, as I've had a few discussions with people about whether they work, and if a typical user would ever really scroll to the bottom of the page to see it. Because I'm really in to that kind of thing and get my rocks off with a good graph, we've been tracking some metrics around how people use these footers. This isn't an exhaustive study of the interweb, just our experience on a handful of relatively popular sites that we've worked on.
 
@@ -45,11 +47,11 @@ One of the reasons that we thought using a large footer was a Good Thing was SEO
 
 Based on advice from a variety of SEO agencies that we've worked with on projects (rather than SEO heresay written in forums and on toilet walls):
 
-- While it's generally a good idea to link from one page to the next to promote internal linking
-- its not so great to have every page linking to every other page (or at the least, lots of pages). It dilutes the meaning of those links.
-- While a search spider can use the footer links to index your site
-- you can achieve this by including a link to your sitemap, plus using a valid sitemap.xml file.
-- Having lots of links makes you look more spammy to a spider - above a certain amount you start looking more like a link farm and less like a useful content site. And spammy = Bad.
+* While it's generally a good idea to link from one page to the next to promote internal linking
+* its not so great to have every page linking to every other page (or at the least, lots of pages). It dilutes the meaning of those links.
+* While a search spider can use the footer links to index your site
+* you can achieve this by including a link to your sitemap, plus using a valid sitemap.xml file.
+* Having lots of links makes you look more spammy to a spider - above a certain amount you start looking more like a link farm and less like a useful content site. And spammy = Bad.
 
 Another reason we liked a big footer was that it made it easier for users. It turns out **this isn't always the case either**.
 
