@@ -1,27 +1,30 @@
 ---
 layout: post
 title: The WordPress Effect
-permalink: "/strategy/wordpress-effect/"
+permalink: /strategy/wordpress-effect/
 type: ideas
 categories:
-- strategy
-- ruby-on-rails
+  - strategy
+  - ruby-on-rails
 author: Ben Still
-content_sidebar: The growth of WordPress has turned the web development market on its
-  head. But does this apply to all web development?
+content_sidebar: >
+  The growth of WordPress has turned the web development market on its head. But
+  does this apply to all web development?
 keywords: wordpress
-image_small: "/assets/uploads/2013/canyon-small.jpg"
-image: "/assets/uploads/2013/canyon-small.jpg"
-description: The growth of tools like Wordpress have had a massive impact on the
-  web development market. It's created two very distinct areas with a huge gap between.
+image_small: /assets/uploads/wordpress-effect.jpg
+image: /assets/uploads/wordpress-effect.jpg
+description: >-
+  The growth of tools like Wordpress have had a massive impact on the web
+  development market. It's created two very distinct areas with a huge gap
+  between.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2013-12-19'
+redirect_from: null
+date_published: 2013-12-19T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2013-12-19
-
+updated_at: 2013-12-19T00:00:00.000Z
 ---
+
 ## On one side are the Marketers
 
 Not so long ago, getting a well designed marketing web site which allowed you to manage content would take a few months and cost say $40k or even $400k. This would involve some design and planning, content, and then the technical build - ending up with a site where you could manage content and add new pages.
