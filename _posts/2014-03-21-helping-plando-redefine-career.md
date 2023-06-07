@@ -1,29 +1,31 @@
 ---
 layout: post
 title: What we've been working on- Helping PlanDo redefine career
-permalink: "/our-work/redefining-digital-dash dash-with-plan-do/"
+permalink: /our-work/redefining-digital-dash dash-with-plan-do/
 type: news
 categories:
-- digital-products
-- our-work
+  - digital-products
+  - our-work
 author: Sam Bauers
 keywords: ''
-image_small: "/assets/uploads/2014/plando-small.png"
-image: "/assets/uploads/2014/plando-wide.png"
-description: The world of employment and careers is due for a shakeup. We've been
-  helping Plando build a career management platform that we think will fundamentally
+image_small: /assets/uploads/2014/plando.jpg
+image: /assets/uploads/2014/plando.jpg
+description: >-
+  The world of employment and careers is due for a shakeup. We've been helping
+  Plando build a career management platform that we think will fundamentally
   change the careers landscape.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2014-01-02'
-content_sidebar: The world of employment and careers is due for a shakeup. We have been
-  helping Plando build a career management platform that we think will fundamentally
+redirect_from: null
+date_published: 2014-01-02T00:00:00.000Z
+content_sidebar: >
+  The world of employment and careers is due for a shakeup. We have been helping
+  Plando build a career management platform that we think will fundamentally
   change the careers landscape.
 publisher: Red Ant
-updated_at: 2014-01-02
-
+updated_at: 2014-01-02T00:00:00.000Z
 ---
+
 PlanDo are accommodating for and promoting the shift in the professional workplace towards career mobility by building a platform which will allow for individuals to manage their own careers. That means that instead of an employee being reliant on their employer's HR practices and tools, they will be able to take control of their performance review cycles and independently map out their career path both within an organisation and beyond.
 
 You can [join the waiting list for an account on the PlanDo website](http://plando.com)
