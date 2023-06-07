@@ -1,27 +1,29 @@
 ---
 layout: post
 title: Fast follower strategy DOA?
-permalink: "/strategy/fast-follower-strategy-doa/"
+permalink: /strategy/fast-follower-strategy-doa/
 type: ideas
 categories:
-- strategy
-- mobile
+  - strategy
+  - mobile
 author: Ben Still
-content_sidebar: Fast follower is a strategy used to replicate successful products. Here
-  are 5 reasons why it might not work out, based on our experience.
+content_sidebar: >
+  Fast follower is a strategy used to replicate successful products. Here are 5
+  reasons why it might not work out, based on our experience.
 keywords: fast follower
-image_small: "/assets/uploads/2013/cat-small.jpg"
-image: "/assets/uploads/2013/cat.jpg"
-description: Five reasons why we think your fast follower strategy might not work
-  out so well.
+image_small: /assets/uploads/fast-follower-strategy-doa.jpg
+image: /assets/uploads/fast-follower-strategy-doa.jpg
+description: >-
+  Five reasons why we think your fast follower strategy might not work out so
+  well.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2013-09-16'
+redirect_from: null
+date_published: 2013-09-16T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2013-09-16
-
+updated_at: 2013-09-16T00:00:00.000Z
 ---
+
 There's an [interesting discussion by Hunter Walk](http://hunterwalk.com/2013/09/09/has-mobile-killed-the-fast-follower-strategy-sure-looks-that-way/) about fast follower strategy and whether mobile has been instrumental in killing it off. He outlines four reasons (which are mobile iOS centric) that make the whole fast follower approach a bit redundant.
 
 As someone with experience both in making the thing that other companies want to copy, as well as being regularly asked to make copies of existing things, *I don't think this is just a mobile issue*.
@@ -56,7 +58,7 @@ If you've had the idea, how many other people are working on the same fast follo
 
 [![you are not alone](/assets/uploads/2013/cat.jpg)](/assets/uploads/2013/cat.jpg)
 
-**Groupon** launched. Six different companies asked us to build a Groupon clone (which we didn't end up doing). Three of those went live, and I think only one is kind of hanging in there. The market has a way of sorting this stuff out. Google [groupon clone](https://www.google.com.au/search?&q=groupon+clone) to see just how many different types of clones you can buy now. Weve had similar requests for Gilt, Airbnb, Airtasker and others.
+**Groupon** launched. Six different companies asked us to build a Groupon clone (which we didn't end up doing). Three of those went live, and I think only one is kind of hanging in there. The market has a way of sorting this stuff out. Google [groupon clone](https://www.google.com.au/search?\&q=groupon+clone) to see just how many different types of clones you can buy now. Weve had similar requests for Gilt, Airbnb, Airtasker and others.
 
 [**12WBT** launched (Michelle Bridges 12 Week Body Transformation)](/portfolio/12wbt/). Its been very successful. It keeps our team very busy. Copies seem to pop up all the time, some last and some fizzle pretty quickly (10 week body transformation anyone?).
 
