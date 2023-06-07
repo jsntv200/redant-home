@@ -1,30 +1,31 @@
 ---
 layout: post
-title: 'Hiring a web development team you''ll love'
+title: Hiring a web development team you'll love
 subtitle: We've integrated many different types of payment systems
-content_sidebar: Finding the right developer is a challenge. 4 options to consider
+content_sidebar: |
+  Finding the right developer is a challenge. 4 options to consider
 slug: online-payment-systems
 projects: []
 how_title: Online Payment System integration
 how_bulletpoints:
-- Online systems can range from simple to complex
+  - Online systems can range from simple to complex
 type: news
 permalink: software-development/hiring-a-web-development-team/
-description: 'Working out the best way to resource the development of your project
-  can be hard. It''s super competitive, and can be hard to compare apples with apples.'
+description: >-
+  Working out the best way to resource the development of your project can be
+  hard. It's super competitive, and can be hard to compare apples with apples.
 time: ''
 author: Ben
 categories:
-- software-development
+  - software-development
 tags: []
 keywords: ''
-image_small: "/assets/uploads/2019/crowd.jpg"
-image: "/assets/uploads/2019/crowd.jpg"
-redirect_from:
-date_published: ! ' 2019-05-22'
+image_small: /assets/uploads/hiring-a-web-development-team.jpg
+image: /assets/uploads/hiring-a-web-development-team.jpg
+redirect_from: null
+date_published: 2019-05-22T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2019-05-22
-
+updated_at: 2019-05-22T00:00:00.000Z
 ---
 
 Designing and building new ideas out as apps and platforms has become a massive industry. Whether you’re a startup with a great idea, or an established company, everyone is looking for good development talent.
@@ -38,7 +39,7 @@ There are four basic options to consider:
 
 It can be easy to be a bit overwhelmed - how do you make the right call? You’ll no doubt run into people that have had both positive and negative experiences with each of these. There is no “right” here- and it will change as your business evolves.
 
-> _OK - so you’re probably thinking that at the end of this article, I’m going to cleverly explain why using a Local Agency is the best option, because of X,Y and Z. But I’m not. Because it might not be, for your business. And this is a complex decision._
+> *OK - so you’re probably thinking that at the end of this article, I’m going to cleverly explain why using a Local Agency is the best option, because of X,Y and Z. But I’m not. Because it might not be, for your business. And this is a complex decision.*
 
 ## First question - What do you really need from a web development team?
 
@@ -56,7 +57,7 @@ Once you’re solid on that, you need to find your developers.
 
 Remember - you’re getting what you pay for. This is something which is often misunderstood. If you spent $X on a freelancer rather than $XX on an agency, you probably got less. You didn’t get anything cheaper - you got less development.
 
----
+***
 
 <div id="anchor-1">
 <h2> Option 1. Choose a Freelancer</h2>
@@ -71,13 +72,13 @@ As long as you manage costs and deliverables carefully, this can be a good optio
 
 `CONS:` You might get frustrated when your guy/gal gets busy, takes a full time job, or goes off travelling. You might get irritated with poor planning and project management. Or lack of testing. Or you might belatedly realise their work wasn’t as good as you were hoping. And now every developer you talk to wants to start again from scratch.
 
----
+***
 
 <div id="anchor-2">
 <h2>Option 2. Choose an Offshore Team</h2>
 </div>
 
-Using an **Offshore** team is another option. Let’s be totally honest here- the key driver for this is cost. But finding a good, reliable offshore team is tricky. Yes, you probably got that email from the guy in Vietnam/Ukraine/China/Philippines offering you senior devs at \$5 an hour. That isn’t research and no they didn’t single you out - even my Mum gets those emails.
+Using an **Offshore** team is another option. Let’s be totally honest here- the key driver for this is cost. But finding a good, reliable offshore team is tricky. Yes, you probably got that email from the guy in Vietnam/Ukraine/China/Philippines offering you senior devs at $5 an hour. That isn’t research and no they didn’t single you out - even my Mum gets those emails.
 
 `PROS:` Cost & availability
 
@@ -85,9 +86,9 @@ Using an **Offshore** team is another option. Let’s be totally honest here- th
 
 Your users won’t care what you paid per hour - they just want this feature to work properly. If you’ve spent half your budget and limited progress, you’ve spent half your budget. There is no Startup Fairy issuing refunds.
 
-The other reality check is the globalised nature of tech. Imagine a Rock Star developer living in one of the above countries. Surely Google/Amazon/Atlassian would be far more attractive than sticking around at \$5 an hour. So the reality is you’re probably working with the B or C team here. But how would you know?
+The other reality check is the globalised nature of tech. Imagine a Rock Star developer living in one of the above countries. Surely Google/Amazon/Atlassian would be far more attractive than sticking around at $5 an hour. So the reality is you’re probably working with the B or C team here. But how would you know?
 
----
+***
 
 <div id="anchor-3">
 
@@ -108,7 +109,7 @@ Collectively they’ll probably have more experience than a freelancer or your o
 
 The cost of offshore vs local can hard to evaluate - the local agency might do in a day what the offshore team finally get right in a week. Or the other way around.
 
----
+***
 
 <div id="anchor-4">
 
@@ -133,4 +134,4 @@ You'll need to be patient, and have enough runway to make this work.
 
 \###Need advice?
 
-We're happy to discuss your development goals and options with you. Book in for a[ free Initial Consult](https://redant.com.au/free-initial-consult-code-review/ 'Free Initial Consult ') or [Code Review](https://redant.com.au/ruby-on-rails-code-review/ 'Code Review ') to discuss your options.
+We're happy to discuss your development goals and options with you. Book in for a[ free Initial Consult](https://redant.com.au/free-initial-consult-code-review/ "Free Initial Consult ") or [Code Review](https://redant.com.au/ruby-on-rails-code-review/ "Code Review ") to discuss your options.
