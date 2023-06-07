@@ -1,26 +1,29 @@
 ---
 layout: post
-title: Manage SSL redirection in Nginx using maps, and save the universe
-permalink: "/ruby-on-rails-devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/"
+title: 'Manage SSL redirection in Nginx using maps, and save the universe'
+permalink: >-
+  /ruby-on-rails-devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/
 type: ideas
 categories:
-- ruby-on-rails-devops
+  - ruby-on-rails-devops
 author: Sam Bauers
-content_sidebar: A simple tutorial showing how to manage a large list of rewrite rules
-  to enforce SSL/HTTPS or PLAIN/HTTP in Nginx.
+content_sidebar: >
+  A simple tutorial showing how to manage a large list of rewrite rules to
+  enforce SSL/HTTPS or PLAIN/HTTP in Nginx.
 keywords: nginx ssl redirection
-image_small: "/assets/uploads/2012/milo-on-floor-small.jpg"
-image: "/assets/uploads/2012/milo-on-floor.jpg"
-description: Solutions to simple yet common and frustrating problems. We spill the
-  beans on how we do it.
+image_small: /assets/uploads/nginx.jpg
+image: /assets/uploads/nginx.jpg
+description: >-
+  Solutions to simple yet common and frustrating problems. We spill the beans on
+  how we do it.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2012-03-28'
+redirect_from: null
+date_published: 2012-03-28T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2012-03-28
-
+updated_at: 2012-03-28T00:00:00.000Z
 ---
+
 ## The problem
 
 We need to be able to enforce SSL connections (HTTPS) on some URLs. We also need to be able to enforce PLAIN connections (HTTP) on others. Further, there are some URLs which we want to just stay with whatever protocol they were requested on so they won't redirect at all.
@@ -127,6 +130,6 @@ In the second `if` block we simply redirect to the preferred protocol if it does
 
 If you aren't behind a load balancer, but use a single server block listening on port 80 and 443 for HTTP and HTTPS traffic, you can probably use a similar method, substituting `$http_x_forwarded_proto` with `$scheme`.
 
-If you have a big map, then you may hit Nginx's memory limit for map hashes. This can be increased using the directives [map_hash_max_size (Nginx HttpMapModule map_hash_max_size)](http://wiki.nginx.org/HttpMapModule#map_hash_max_size) and [map_hash_bucket_size (Nginx HttpMapModule map_hash_bucket_size)](http://wiki.nginx.org/HttpMapModule#map_hash_bucket_size). In any case, Nginx will tell you what's up when you try to restart it.
+If you have a big map, then you may hit Nginx's memory limit for map hashes. This can be increased using the directives [map\_hash\_max\_size (Nginx HttpMapModule map\_hash\_max\_size)](http://wiki.nginx.org/HttpMapModule#map_hash_max_size) and [map\_hash\_bucket\_size (Nginx HttpMapModule map\_hash\_bucket\_size)](http://wiki.nginx.org/HttpMapModule#map_hash_bucket_size). In any case, Nginx will tell you what's up when you try to restart it.
 
 If you have any questions specific to your setup, or any suggestions for improving these methods then drop a comment here.
