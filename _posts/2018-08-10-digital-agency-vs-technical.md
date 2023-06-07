@@ -1,24 +1,25 @@
 ---
 layout: post
 title: Digital agency vs a Technical Agency
-permalink: "/software-development/digital-agency-vs-technical/"
+permalink: /software-development/digital-agency-vs-technical/
 type: news
 categories:
-- software-development
+  - software-development
 author: Ben Still
-content_sidebar: Seems like all the cool kids are Digital Agencies these days
-keywords: Digital Agency, technical agency
-image_small: "/assets/uploads/2013/somebody-set-us-up-the-bomb.jpg"
-image: "/assets/uploads/2013/somebody-set-us-up-the-bomb-small.jpg"
+content_sidebar: |
+  Seems like all the cool kids are Digital Agencies these days
+keywords: 'Digital Agency, technical agency'
+image_small: /assets/uploads/digital-agency-vs-technical.jpg
+image: /assets/uploads/digital-agency-vs-technical.jpg
 description: Digital agency vs a Technical Agency
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2018-08-10'
+redirect_from: null
+date_published: 2018-08-10T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2018-08-10
-
+updated_at: 2018-08-10T00:00:00.000Z
 ---
+
 Dear Mum,
 
 I know you still don't understand what I do. After all these years. And I really appreciate that you took the time to explain to your Book Club what you think I do and ask them. And even though they told you it sounds like we are a Digital Agency —- we're not.
