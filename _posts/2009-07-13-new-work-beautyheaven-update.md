@@ -1,29 +1,31 @@
 ---
 layout: post
 title: New work on Beautyheaven update
-permalink: "/our-work/new-work-beautyheaven-update/"
+permalink: /our-work/new-work-beautyheaven-update/
 type: news
 categories:
-- our-work
-- ruby-on-rails
+  - our-work
+  - ruby-on-rails
 author: Ben Still
-content_sidebar: One of our long-term client, Beauty Heaven, has let us make some snazzy
-  new updates to their super popular website. Think faster, higher and that sort of
+content_sidebar: >
+  One of our long-term client, Beauty Heaven, has let us make some snazzy new
+  updates to their super popular website. Think faster, higher and that sort of
   stuff.
 keywords: beautyheaven ruby on rails
-image_small: "/assets/uploads/2009/beautyheaven-small.png"
-image: "/assets/uploads/2009/beautyheaven-redesigned-home-page.png"
-description: The latest release of Beauty Heaven is part of a number of changes
-  that we've been making to the site to improve functionality and performance - faster,
+image_small: /assets/uploads/2009/beauty-heaven-site.jpg
+image: /assets/uploads/2009/beauty-heaven-site.jpg
+description: >-
+  The latest release of Beauty Heaven is part of a number of changes that we've
+  been making to the site to improve functionality and performance - faster,
   higher and that sort of stuff.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2009-07-13'
+redirect_from: null
+date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2009-07-13
-
+updated_at: 2009-07-13T00:00:00.000Z
 ---
+
 Beauty Heaven is the leading independent Beauty site in Australia, and we're thrilled to be working with them. The site has a thriving membership, who continually add content and reviews to the site. They have a really neat-o loyalty system, where members get points the more they participate on the site- writing reviews of products, comments, and forum postings. Members review beauty products, and there is a crack team of users to that road test various lotions and potions.
 
 This is the latest release is part of a number of changes that we've been making to the site to improve functionality and performance- faster, higher and that sort of stuff.
