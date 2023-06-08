@@ -1,26 +1,27 @@
 ---
 layout: post
 title: 10 ways to improve your phone app development brief
-permalink: "/mobile/id-like-an-iphone-app-ten-things-to-look-out-for/"
+permalink: /mobile/id-like-an-iphone-app-ten-things-to-look-out-for/
 type: ideas
 categories:
-- mobile
-- software-development
-- strategy
+  - mobile
+  - software-development
+  - strategy
 author: Ben Still
-content_sidebar: Considerations for your iphone app design brief
+content_sidebar: |
+  Considerations for your iphone app design brief
 keywords: iphone app design brief
-image_small: "/assets/uploads/2010/iphone-app-small.jpg"
-image: "/assets/uploads/2010/iphone-app.jpg"
+image_small: /assets/uploads/imporve-mobile-brief-1.jpg
+image: /assets/uploads/imporve-mobile-brief-2.jpg
 description: 'Ten quick tips: considerations for your iphone app design brief'
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2010-10-25'
+redirect_from: null
+date_published: 2010-10-25T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2010-10-15
-
+updated_at: 2010-10-15T00:00:00.000Z
 ---
+
 There are lots of things to consider when making a native mobile app like an iPhone app. Here are ten tips for your iPhone app design or development brief that will hopefully make things a bit easier. Don't worry- this can be quite a perplexing thing to brief, with lots of different technologies and solutions.
 
 ## 1. Don't just make an iPhone version of a web page
@@ -47,9 +48,9 @@ This isn't TV, and there aren't thousands of people waiting for your app to appe
 
 When an app appears in the store, the publishers details are also shown, along with any other apps by that publisher. You probably want to be the publisher rather than the developer. Why?
 
-- if you publish another app, it is a good way of showing your users what else is available
-- you probably don't want to show apps for other companies that your developer has made
-- leverage your brand - people might be coming in from your site, so make sure there is a connection there
+* if you publish another app, it is a good way of showing your users what else is available
+* you probably don't want to show apps for other companies that your developer has made
+* leverage your brand - people might be coming in from your site, so make sure there is a connection there
 
 If you'd like to be the publisher, you need to set up your own publisher account. Make sure the account owner is fairly tech savvy, as there can only be one account owner and they'll need to be familiar with the process.
 
