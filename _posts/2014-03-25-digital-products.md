@@ -1,35 +1,36 @@
 ---
 layout: post
 title: Defining a Digital Product
-permalink: '/digital-products/defining-a-digital-product'
+permalink: /digital-products/defining-a-digital-product
 type: ideas
 categories:
   - digital-products
 author: Ben Still
-content_sidebar: Defining a Digital Product
+content_sidebar: |
+  Defining a Digital Product
 keywords: Digital Product
-image_small: '/assets/uploads/2014/digital-product-small.jpg'
-image: '/assets/uploads/2014/digital-product.jpg'
-description:
-  One of the things we focus on is developing Digital Products. These
-  are websites that provide some form of utility to users - these allow people to
+image_small: /assets/uploads/defining-a-digital-product-1.jpg
+image: /assets/uploads/defining-a-digital-product-2.jpg
+description: >-
+  One of the things we focus on is developing Digital Products. These are
+  websites that provide some form of utility to users - these allow people to
   "do" stuff
 tags: []
 time: ''
 redirect_from:
   - /digital-product
   - /digital-products/
-date_published: ! ' 2014-03-25'
+date_published: 2014-03-25T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2014-03-25
+updated_at: 2014-03-25T00:00:00.000Z
 ---
 
 A static site usually consists of a number of pages, which might have a CMS to allow you to edit content and make new pages. Each page is essentially static - each visitor gets the same content. Sure, there might be some multivariate testing running over the top so some visitors get different messages, but the core experience is the same.
 
 A Digital Product is different in a number of ways. First, they provide utility to the user - to store information, learn new things, or interact with others. Second, the pages tend to be fairly dynamic, customising the experience and content based on that user. To give an example:
 
-- **Facebook** - all members log in and get the same page. But that page changes radically between members depending on who their friends are and what they've done.
-- **12WBT** - all members get delicious recipes. But the recipe I see as a female wanting to lose weight will be different to the one you might see as a male on a strength program. Your weekly nutrition and exercise plan is completely different, as is your shopping list, the videos you see, etc.
+* **Facebook** - all members log in and get the same page. But that page changes radically between members depending on who their friends are and what they've done.
+* **12WBT** - all members get delicious recipes. But the recipe I see as a female wanting to lose weight will be different to the one you might see as a male on a strength program. Your weekly nutrition and exercise plan is completely different, as is your shopping list, the videos you see, etc.
 
 A static site can be relatively straightforward to build, with a wide variety of tools available ranging from popular ones like Wordpress or Drupal, through to more enterprise options like Sitecore or Adobe CQ.
 
@@ -43,19 +44,19 @@ Each feature takes planning and effort to create. Some of these features need to
 
 One option is to create a big static site, and try to fill that with lots of interesting content. And that is a great solution for in some/many instances. But there are several reasons to go further and develop a Digital Product instead:
 
-- **The web site is the Product.** This is what you're selling (even if you're not charging members for it). If this experience isn't compelling, engaging and of interest, you probably won't get many members. And you'll need strong features to do that. Depending on marketing efforts you may well get lots of visitors, but if you want them to hang around you may need to provide that elusive utility.
-- **Make your users love you** - useful features will increase utility provided to users. Which they'll love, and will increase both word of mouth recommendation and retention - they'll be more likely to come back.
-- **Barrier to competition** - if you're considering investing time and effort to build a site, consider how easy or hard it would be for someone else to see your idea and do exactly the same. Tools like Wordpress are free and can be set up in minutes. Creating lots of really sticky features takes time to plan and build.
-- **Scale**: with a static site, the pathway to growth is to just keep on adding more pages. But say you have twice as many pages, are you actually providing twice as much value? Moving to a Digital Product approach creates pathways to scale and growth. For example you might want to start doing more advanced member segmentation or split up your idea into different types or levels of program.
+* **The web site is the Product.** This is what you're selling (even if you're not charging members for it). If this experience isn't compelling, engaging and of interest, you probably won't get many members. And you'll need strong features to do that. Depending on marketing efforts you may well get lots of visitors, but if you want them to hang around you may need to provide that elusive utility.
+* **Make your users love you** - useful features will increase utility provided to users. Which they'll love, and will increase both word of mouth recommendation and retention - they'll be more likely to come back.
+* **Barrier to competition** - if you're considering investing time and effort to build a site, consider how easy or hard it would be for someone else to see your idea and do exactly the same. Tools like Wordpress are free and can be set up in minutes. Creating lots of really sticky features takes time to plan and build.
+* **Scale**: with a static site, the pathway to growth is to just keep on adding more pages. But say you have twice as many pages, are you actually providing twice as much value? Moving to a Digital Product approach creates pathways to scale and growth. For example you might want to start doing more advanced member segmentation or split up your idea into different types or levels of program.
 
 ### Why not just build it in Wordpress?
 
 The advantage of tools like Wordpress (and there are others like Drupal, Joomla and Expression Engine) is that they allow a site to be built relatively quickly with key functionality already in place:
 
-- creating and editing page content
-- publishing videos
-- log in for members
-- payment system to become a member
+* creating and editing page content
+* publishing videos
+* log in for members
+* payment system to become a member
 
 Building these sites also doesn't require a particularly high level of technical expertise.
 
