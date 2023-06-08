@@ -1,27 +1,29 @@
 ---
 layout: post
-title: If my customers mainly use mobile devices, should I be building a phone app?
-permalink: "/mobile/mobile-apps-vs-mobile-site/"
+title: 'If my customers mainly use mobile devices, should I be building a phone app?'
+permalink: /mobile/mobile-apps-vs-mobile-site/
 type: ideas
 categories:
-- mobile
-- strategy
+  - mobile
+  - strategy
 author: Ben Still
-content_sidebar: If you're making stuff for the web, mobile is a really big deal. It's
-  really important to form and execute a mobile strategy well. Which can be hard.
+content_sidebar: >
+  If you're making stuff for the web, mobile is a really big deal. It's really
+  important to form and execute a mobile strategy well. Which can be hard.
 keywords: mobile app
-image_small: "/assets/uploads/2013/mobile-join-small.jpg"
-image: "/assets/uploads/2013/mobile-join.jpg"
-description: Most of our projects now have over 50% mobile traffic. So mobile strategy
-  is becoming increasingly important
+image_small: /assets/uploads/huggies-mobile-1.jpg
+image: /assets/uploads/huggies-mobile-2.jpg
+description: >-
+  Most of our projects now have over 50% mobile traffic. So mobile strategy is
+  becoming increasingly important
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2013-09-17'
+redirect_from: null
+date_published: 2013-09-17T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2013-09-17
-
+updated_at: 2013-09-17T00:00:00.000Z
 ---
+
 Like many complex things, it can suffer from being over simplified. Doing mobile well can occasionally get simplified to make a mobile App and get it listed in the App store - tick. Make the site responsive - tick. But what are the drawbacks or compromises? Are they really the best options?
 
 In my experience this simplification can stem from two factors. The first is a misunderstanding about the differences between an App and a mobile site. The second is what I call the Digital Marketing Bucket List of having an App.
@@ -40,7 +42,7 @@ Some people just expect that there is an App available. And there is definitely 
 
 If the icon on their home screen is what theyre after- great news: that takes about 10 min to set up. If they really want an App, take some time to research exactly what they'd like in it vs what you might already have available. You might find that they're asking for features you don't provide. So delivering those features via the App Store or via carrier pigeon is kind of irrelevant- you need to do some product planning.
 
-[![tom_selleck_01](/assets/uploads/2013/tom_selleck_01-small.jpg)](/assets/uploads/2013/tom_selleck_01.jpg)
+[![tom\_selleck\_01](/assets/uploads/2013/tom_selleck_01-small.jpg)](/assets/uploads/2013/tom_selleck_01.jpg)
 
 Dont get me wrong- \*\*creating a mobile App can be a perfect strategic fit. But taking a look at many of the current apps created by brands and products to support their product/service, it is puzzling as to why they just didnt make a really good mobile web site.
 
