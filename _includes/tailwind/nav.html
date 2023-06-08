@@ -1,24 +1,24 @@
 {% if site.announcement_bar == true %}
   <div class="bg-black fixed text-white text-center p-2">
-    <strong>A new way of working with us!</strong>
-    Access our team on demand to help you scale.
-    <a href="/" class="fw-bold ms-2">More info</a>
+    <strong>Bold text:</strong>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    <a href="/" class="text-bold ml-2">More info</a>
   </div>
 {% endif %}
 
 <nav
-  class="fixed w-full z-20 top-0 left-0 ease-linear duration-200"
+  class="fixed w-full z-20 top-0 left-0"
   data-controller="nav"
   data-nav-scroll-animation-value="true">
-  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4 text-white border-b border-gray-100/40 h-[100px]">
+  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto py-8 px-4 lg:p-0 text-white border-b border-gray-100/40 h-[100px]">
     <a
       href="/"
       class="flex items-center">
       <img
         src="/assets/images/logo-since.svg"
-        class="mr-3"
         alt="Red Ant logo" />
     </a>
+
     <button
       data-collapse-toggle="navbar-default"
       type="button"
@@ -26,37 +26,65 @@
       aria-controls="navbar-default"
       aria-expanded="false">
       <span class="sr-only">Open menu</span>
-      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+      </svg>
     </button>
+
     <div
       class="hidden w-full lg:block lg:w-auto"
       id="navbar-default">
-      <ul class="flex flex-col p-4 lg:p-0 mt-4 border-y border-y-gray-600 bg-black lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-transparent">
+      <ul class="flex flex-col p-4 lg:p-0 border-y border-y-gray-200 bg-black md:border-0 lg:flex-row lg:space-x-8 lg:bg-transparent absolute md:relative w-full left-0 top-[99px] lg:top-0">
         <li class="nav-item">
-          <a href="/get-started/" data-nav-target="item" class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0">
+          <a
+            href="/get-started/"
+            data-nav-target="item"
+            class="block py-4 px-4 hover:text-red-100 lg:p-0">
             Get started
           </a>
         </li>
+
         <li class="nav-item">
-          <a href="/about/" data-nav-target="item" class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0">
+          <a
+            href="/about/"
+            data-nav-target="item"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0">
             About us
           </a>
         </li>
+
         <li class="nav-item">
-          <a href="/portfolio/" data-nav-target="item" class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0">
+          <a
+            href="/portfolio/"
+            data-nav-target="item"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0">
             Portfolio
           </a>
         </li>
+
         <li class="nav-item">
-          <a href="/technology/" data-nav-target="item" class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0">
+          <a
+            href="/technology/"
+            data-nav-target="item"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0">
             Technology
           </a>
         </li>
+
         <li class="nav-item">
-          <a href="/blog/" data-nav-target="item" class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0">Blog</a>
+          <a
+            href="/blog/"
+            data-nav-target="item"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0">
+            Blog
+          </a>
         </li>
+
         <li class="nav-item">
-          <a href="/contact-us/" data-nav-target="item" class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0">
+          <a
+            href="/contact-us/"
+            data-nav-target="item"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0">
             Contact
           </a>
         </li>
@@ -65,7 +93,7 @@
         <!-- <li>
           <a
             href="/services/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0"
             data-nav-target="item">
             Services
           </a>
@@ -73,7 +101,7 @@
         <li>
           <a
             href="/cyber-security/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0"
             data-nav-target="item">
             Cyber security
           </a>
@@ -81,7 +109,7 @@
         <li>
           <a
             href="/portfolio/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0"
             data-nav-target="item">
             Portfolio
           </a>
@@ -89,7 +117,7 @@
         <li>
           <a
             href="/about/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0"
             data-nav-target="item">
             About us
           </a>
@@ -97,7 +125,7 @@
         <li>
           <a
             href="/technology/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0"
             data-nav-target="item">
             Technology
           </a>
@@ -105,7 +133,7 @@
         <li>
           <a
             href="/blog/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0"
             data-nav-target="item">
             Blog
           </a>
@@ -113,7 +141,7 @@
         <li>
           <a
             href="/contact-us/"
-            class="block py-2 pl-3 pr-4 font-semibold text-2xl hover:text-red-100 lg:text-lg lg:border-0 lg:p-0"
+            class="block py-3 pl-3 pr-4 hover:text-red-100 lg:p-0"
             data-nav-target="item">
             Contact
           </a>

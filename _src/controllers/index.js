@@ -4,9 +4,8 @@ window.Stimulus = Application.start();
 import Reveal from "stimulus-reveal-controller";
 Stimulus.register("reveal", Reveal);
 
-import ScrollTo from "stimulus-scroll-to";
-Stimulus.register("scroll-to", ScrollTo);
-
+import ReadMore from 'stimulus-read-more';
+Stimulus.register("read-more", ReadMore);
 
 import { AssessmentController } from "./assessment-controller";
 Stimulus.register("assessment", AssessmentController);

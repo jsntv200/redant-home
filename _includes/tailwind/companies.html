@@ -1,58 +1,149 @@
-<div class="my-[200px] text-center">
-  <div class="max-w-screen-2xl mx-auto">
-    <h2 class="text-5xl font-bold mb-[18px]">These companies trust us</h2>
+<!--
+  content
+  title
+ -->
+<div class="my-[100px] md:my-[200px] text-center">
+  <div class="max-w-screen-lg mx-auto">
+    <h2 class="text-3xl md:text-5xl font-bold mb-[18px]">{{ include.title }}</h2>
+
     <h3 class="text-lg text-gray-100">
-      For more than 20 years, we've had the pleasure of working with many startups, brands and large companies.
+      {{ include.content }}
     </h3>
-    <div class="relative m-0 h-[20px] w-8">
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/accr.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/boq.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/campaignxpress.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/endeavour.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/kc.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/managed.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/mediaworks.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/mup.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/pacefarm.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/pearsons.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/qms.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/raywhite.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/sibotest.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/smata.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/sydneytrains.png" />
-      <img
-        class="absolute left-0 transition-opacity duration-500 ease-in-out"
-        src="/assets/images/clients/thegrantshub.png" />
+
+    <div
+      class="overflow-hidden mt-14"
+      data-controller="carousel"
+      data-randomise-count-value="6"
+      data-carousel-options-value='{
+        "autoplay": true,
+        "centeredSlidesBounds": true,
+        "loop": true,
+        "slidesPerView": 2,
+        "spaceBetween": 30,
+        "speed": 750,
+        "breakpoints": {
+          "640": {
+            "slidesPerView": 4,
+            "spaceBetween": 70
+          }
+        }
+      }'
+    >
+      <div
+        class="flex flex-row align-middle"
+        data-carousel-target="container">
+        <img
+          alt="ACCR"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/accr.png" />
+
+        <img
+          alt="BOQ"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/boq.png" />
+
+        <img
+          alt="Campaign Express"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/campaignxpress.png" />
+
+        <img
+          alt="Endeavour"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/endeavour.png" />
+
+        <img
+          alt="Kimberley Clark"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/kc.png" />
+
+        <img
+          alt="Managed"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/managed.png" />
+
+        <img
+          alt="Mediaworks"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/mediaworks.png" />
+
+        <img
+          alt="MUP"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/mup.png" />
+
+        <img
+          alt="Pacefarm"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/pacefarm.png" />
+
+        <img
+          alt="Pearsons"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/pearsons.png" />
+
+        <img
+          alt="QMS"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/qms.png" />
+
+        <img
+          alt="Ray White"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/raywhite.png" />
+
+        <img
+          alt="Sibotest"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/sibotest.png" />
+
+        <img
+          alt="SMATA"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/smata.png" />
+
+        <img
+          alt="Sydney Trains"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/sydneytrains.png" />
+
+        <img
+          alt="The Grants Hub"
+          class="w-20"
+          data-carousel-target="item"
+          data-randomise-target="item"
+          src="/assets/images/clients/thegrantshub.png" />
+      </div>
     </div>
   </div>
 </div>
