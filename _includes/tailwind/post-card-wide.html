@@ -1,16 +1,18 @@
 <a
   href="{{ post.url }}"
-  class="group/item flex flex-col items-center border-b-[1px] border-white/40 md:flex-row py-10">
+  class="group/item flex flex-col items-center md:flex-row border-b-[1px] border-white/40 py-10">
   {% if post.image_small %}
-    <div class="w-full h-[200px] md:h-60 md:w-[440px] overflow-hidden">
-      <img
-        class="object-cover"
-        src="{{post.image_small}}"
-        alt="{{ post.title }} image">
+    <div class="w-full md:w-1/4 overflow-hidden">
+      <div class="h-[200px] md:h-[250px] md:max-h-[250px] w-full">
+        <img
+          class="object-cover min-w-full h-full"
+          src="{{ post.image_small }}"
+          alt="{{ post.title }} image">
+      </div>
     </div>
   {% endif %}
-  <div class="justify-between p-4 leading-normal">
-    <h5 class="mb-2 text-2xl font-bold tracking-tight text-red-100 group-hover/item:text-red-200">
+  <div class="w-full md:w-3/4 flex flex-col justify-between md:pl-4 leading-normal">
+    <h5 class="mb-2 text-2xl font-bold tracking-tight text-red-100 group-hover:item:text-red-200">
       {{ post.title }}
     </h5>
     {% if post.description %}
@@ -20,3 +22,4 @@
     {% endif %}
   </div>
 </a>
+

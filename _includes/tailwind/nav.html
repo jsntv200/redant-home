@@ -10,7 +10,7 @@
   class="fixed w-full z-20 top-0 left-0"
   data-controller="nav"
   data-nav-scroll-animation-value="true">
-  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto py-8 px-4 lg:p-0 text-white border-b border-gray-100/40 h-[100px]">
+  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto py-3 md:py-8 px-6 lg:py-0 xl:p-0 text-white border-b border-gray-100/40 h-16 md:h-[100px]">
     <a
       href="/"
       class="flex items-center">
@@ -34,17 +34,26 @@
     <div
       class="hidden w-full lg:block lg:w-auto"
       id="navbar-default">
-      <ul class="flex flex-col p-4 lg:p-0 border-y border-y-gray-200 bg-black md:border-0 lg:flex-row lg:space-x-8 lg:bg-transparent absolute md:relative w-full left-0 top-[99px] lg:top-0">
-        <li class="nav-item">
+      <ul class="flex flex-col p-4 lg:p-0 border-y border-y-gray-200 bg-black md:border-0 lg:flex-row lg:space-x-8 lg:bg-transparent absolute md:relative w-full left-0 top-16 lg:top-0">
+        <li>
           <a
             href="/get-started/"
-            data-nav-target="item"
-            class="block py-4 px-4 hover:text-red-100 lg:p-0">
+            class="block py-4 px-4 hover:text-red-100 lg:p-0"
+            data-nav-target="item">
             Get started
           </a>
         </li>
 
-        <li class="nav-item">
+        <li>
+          <a
+            href="/cyber-security/"
+            class="block py-4 px-4 hover:text-red-100 lg:p-0"
+            data-nav-target="item">
+            Cyber security
+          </a>
+        </li>
+
+        <li>
           <a
             href="/about/"
             data-nav-target="item"
@@ -53,7 +62,7 @@
           </a>
         </li>
 
-        <li class="nav-item">
+        <li>
           <a
             href="/portfolio/"
             data-nav-target="item"
@@ -62,7 +71,7 @@
           </a>
         </li>
 
-        <li class="nav-item">
+        <li>
           <a
             href="/technology/"
             data-nav-target="item"
@@ -71,7 +80,7 @@
           </a>
         </li>
 
-        <li class="nav-item">
+        <li>
           <a
             href="/blog/"
             data-nav-target="item"
@@ -80,7 +89,7 @@
           </a>
         </li>
 
-        <li class="nav-item">
+        <li>
           <a
             href="/contact-us/"
             data-nav-target="item"

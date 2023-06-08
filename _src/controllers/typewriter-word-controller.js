@@ -28,7 +28,7 @@ export class TypewriterWordController extends Controller {
     // add delay to allow the text to finish transitioning to red
     // before adding the slower transition to black
     setTimeout(() => {
-      this.element.classList.toggle('transition-color duration-1500 ease-in-out', true);
+      this.element.classList.toggle('transition-color', 'duration-1500', 'ease-in-out', true);
     }, 500);
 
     this.clearTypeInterval();
@@ -51,7 +51,7 @@ export class TypewriterWordController extends Controller {
 
     // remove slow transition so next black to red is fast
     setTimeout(() => {
-      this.element.classList.toggle('transition-color duration-1500 ease-in-out', false);
+      this.element.classList.toggle('transition-color', 'duration-1500', 'ease-in-out', false);
     }, 2000);
   }
 

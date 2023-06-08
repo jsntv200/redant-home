@@ -15,10 +15,6 @@
   margin-right: -8px;
   margin-bottom: -8px;
   animation: blinkingBackground 900ms infinite;
-
-  @media (min-width: theme('screens.md')) {
-    height: 58px;
-  }
 }
 
 @keyframes blinkingBackground {
@@ -28,11 +24,17 @@
   100% { background-color: transparent; }
 }
 
+@media (min-width: theme('screens.md')) {
+  .typewriter-cursor:after {
+    height: 58px;
+  }
+}
+
 .ruby-content {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: var(--read-more-line-clamp, 2);
+  -webkit-line-clamp: var(--read-more-line-clamp, 3);
 }
 
 .card-red .bg-opaque {

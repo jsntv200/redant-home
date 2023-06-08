@@ -25,9 +25,9 @@ export class NavController extends Controller {
 
   handleScroll() {
     if (window.pageYOffset > 0) {
-      this.element.classList.add('backdrop-blur-lg');
+      this.element.classList.add('backdrop-blur-lg', 'bg-black/40');
     } else {
-      this.element.classList.remove('backdrop-blur-lg');
+      this.element.classList.remove('backdrop-blur-lg', 'bg-black/40');
     }
   }
 
