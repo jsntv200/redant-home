@@ -7,12 +7,12 @@ type: ideas
 categories:
   - mobile
 author: Ben Still
-content_sidebar: >-
+content_sidebar: >
   Here are four approaches for improving mobile experience on your site. These
   aren't exclusive, our recommendation is to adopt all four if you can.
 keywords: responsive mobile experience
-image_small: /assets/uploads/2012/traffic-small.jpg
-image: /assets/uploads/2012/traffic.jpg
+image_small: /assets/uploads/going-mobile-1.jpg
+image: /assets/uploads/going-mobile-2.jpg
 description: >-
   Mobile traffic is growing crazy like. If you're addressing this already by
   thinking about a mobile aspect of your website, great! If not, read on…
