@@ -34,8 +34,6 @@ We already use [Nginx maps (Nginx HttpMapModule)](http://wiki.nginx.org/HttpMapM
 
 Yes, I'm looking at **you** .NET developers.
 
-<img src="/assets/uploads/2012/milo-on-floor.jpg" alt="Red Ant office doggo" width="610" height="457" />
-
 The wiki page on [Nginx maps (Nginx HttpMapModule)](http://wiki.nginx.org/HttpMapModule) gives a basic example of using a map to redirect request URLs to new locations. But that is no good for us, because we explicitly want to redirect only if the protocol is not our preferred one. We also only want to redirect to the same URL, albeit over a different protocol. A basic map like that will send our client into a redirect loop. We would need two separate maps and that kind of takes us back to square one. There is also potentially a problem with making matches too broad in separate maps and causing redirect loops again, whereas a single map will match only one value. Using one map we can also take advantage of the map default. It's complicated, so just trust me **separate maps = do not want!**
 
 ## The solution
