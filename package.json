@@ -17,6 +17,7 @@
     "esbuild": "^0.17.14",
     "esbuild-sass-plugin": "^2.3.3",
     "macy": "2.5.1",
+    "rellax": "^1.12.1",
     "stimulus-read-more": "^4.1.0",
     "stimulus-reveal-controller": "4.1.0",
     "swiper": "9.3.1",

@@ -3,8 +3,8 @@ import { random } from "../utils";
 import { getChildControllers } from "../utils/selectors";
 
 export class TypewriterController extends Controller {
-
   connect() {
+    if (location.pathname !== "/") return;
     // TODO maybe longer to give words time to connect
     setTimeout(this.locateChildWordControllers.bind(this), 200);
 
