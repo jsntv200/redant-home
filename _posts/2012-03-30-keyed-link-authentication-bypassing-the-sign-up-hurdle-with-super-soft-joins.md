@@ -1,29 +1,29 @@
 ---
 layout: post
 title: Bypassing the sign up hurdle with super-soft joins
-permalink: "/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/"
+permalink: >-
+  /how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
 type: ideas
 categories:
-- how-we-do
-- strategy
+  - how-we-do
+  - strategy
 author: Sam Bauers
-content_sidebar: When your users are unlikely to want to provide their email address to
-  sign-up to your website, "Super-soft joins" may be right for you.
+content_sidebar: >
+  When your users are unlikely to want to provide their email address to sign-up
+  to your website, "Super-soft joins" may be right for you.
 keywords: super soft joins
-image_small: "/assets/uploads/2012/clear-your-vision-home-small.jpg"
-image: "/assets/uploads/2012/clear-your-vision-home.jpg"
+image_small: /assets/uploads/2012/clear-your-vision-home-small.jpg
+image: /assets/uploads/2012/clear-your-vision-home.jpg
 description: How we use super-soft joins to interact with users on personal subjects.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2012-03-30'
+redirect_from: null
+date_published: 2012-03-30T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2012-03-30
-
+updated_at: 2012-03-30T00:00:00.000Z
 ---
-Red Ant client [NCPIC (National Cannabis Prevention and Information Centre)](http://ncpic.org.au/) has been pushing the boundaries of web-based psychological interventions for the past four to five years. Their latest intervention program [Clear Your Vision](http://clearyourvision.org.au/) had a few hurdles it had to overcome when it came to translating it to the web.
 
-![Clear Your Vision homepage screenshot](/assets/uploads/2012/clear-your-vision-home.jpg)
+Red Ant client [NCPIC (National Cannabis Prevention and Information Centre)](http://ncpic.org.au/) has been pushing the boundaries of web-based psychological interventions for the past four to five years. Their latest intervention program [Clear Your Vision](http://clearyourvision.org.au/) had a few hurdles it had to overcome when it came to translating it to the web.
 
 The intervention is aimed at young people, generally of high school age, and the topic we are wanting them to engage in is their own drug use, specifically their cannabis use. Obviously a web site belonging to a government funded agency that is offering a place to chronicle a person's drug use activity is not a place where we are going to easily get people to provide their email address.
 
