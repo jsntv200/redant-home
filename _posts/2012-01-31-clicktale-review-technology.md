@@ -1,27 +1,26 @@
 ---
 layout: post
 title: Clicktale Review - how the technology works and why it didn't for us
-permalink: '/tool-reviews/clicktale-review-technology/'
+permalink: /tool-reviews/clicktale-review-technology/
 type: news
 categories:
   - tool-reviews
 author: Ben Still
-content_sidebar:
-  Clicktale review which looks at how the technology works and some real
-  world issues that you might face when implementing Clicktale
+content_sidebar: >
+  Clicktale review which looks at how the technology works and some real world
+  issues that you might face when implementing Clicktale
 keywords: Clicktale review
-image_small: '/assets/uploads/2012/clicktale-small.png'
-image: '/assets/uploads/2012/clicktale.png'
-description:
-  It could be so good, but sadly Clicktale doesn't do everything it says
-  on the box.
+image_small: /assets/uploads/Heatmap.png
+image: /assets/uploads/Heatmap-2.png
+description: >-
+  It could be so good, but sadly Clicktale doesn't do everything it says on the
+  box.
 tags: []
 time: ''
-redirect_from:
-date_published: ! ' 2012-01-31'
+redirect_from: null
+date_published: 2012-01-31T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2012-01-31
-
+updated_at: 2012-01-31T00:00:00.000Z
 ---
 
 This Clicktale review is completely independent. We've used it on several projects where we wanted to better understand user interactions. In doing this we had a chance to look at both the way it collects data and how it reports this information. We've also had the opportunity to compare the results against other other software tracking tools, as well as other approaches to the same task such as physical eye tracking. We started using Clicktale based on many of the positive reviews we'd read, but on further investigation many of these were paid reviews (via affiliate commission).
@@ -49,6 +48,7 @@ Here's a simple example, using the [Twitter join form](https://twitter.com/signu
 This is (in my humble opinion) a pretty nice join form. It gives lots of clear feedback and helpful suggestions. The form uses Ajax to check if that username is available or in the right format, plus comes up with some helpful suggestions. In this example user tries a few and then chooses one of the suggested names.
 
 This is how the same user behaviour on this form would look like via Clicktale. Note the absence of any kind of prompts or help text, and the pauses while the user reads the validation message (which isn't visible).
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PocHJYNAR7s?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen layout="responsive"></iframe>
 
 If you were viewing this playback to get a sense of how the form was being used, you might conclude that the user is having real trouble with filling it in. Not only that, but none of the prompts are appearing and the form looks totally broken. Have we tested in all browsers? Is this a problem that occurs under load? What is this user doing differently to all our test results?
@@ -63,14 +63,14 @@ There are a few problems with this approach, but the primary one is that **the s
 
 A few of the ways it can be different:
 
-- **Prompts or hints:** if your site has forms with validation or prompts using javascript, these won't appear (so like we did, you'll think something has broken for that user when you see the replay)
-- **Conditional fields:** (eg: if I have children, ask how many) if the form shows or hides questions based on what you've filled in this will seem like the logic doesn't work
-- **Menus:** your site might use menus that expand out from the top of the page. These won't appear since they use javascript, and your user will look like they are clicking on whatever is directly below the top of the page- which can be misleading.
-- **AJAX:** if the form uses Ajax to check something (eg: test if that username already exists), this won't appear. So the user might be seeing a message, but when you're looking over their shoulder with Clicktale, all you'll see is a mysterious blank space and a pause. Or possibly a completely different screen.
-- **Prefilling some fields:** if your form is prefilled based on information from a previous screen, this just won't appear. In the [Twitter example](http://twitter.com) , the user fills out name and email on the first page, and then goes to a signup page. Via Clicktale youll get the impression that somehow a user is able to submit the signup page without adding name and email
-- **POST forms:** a form can use either POST or GET. POST is generally used for sensitive information like name, email etc, but Clicktale can only use GET. Clicktales (very lean) help document most helpfully suggests as a way of resolving this to simply convert your forms to GET (at which point I was thinking of a word beginning with F that I could tell them to put after get).
-- **Multiple step forms:** you might have your form split over several pages, and POST information from one page to the next. This is pretty common, but it seems to completely confuse Clicktale and mouse tracking data from one page will appear on another
-- **Cookies:** if your process uses cookies or session information, this won't come through. Clicktale will show you a cookie-less version, which might be radically different to what your user was served.
+* **Prompts or hints:** if your site has forms with validation or prompts using javascript, these won't appear (so like we did, you'll think something has broken for that user when you see the replay)
+* **Conditional fields:** (eg: if I have children, ask how many) if the form shows or hides questions based on what you've filled in this will seem like the logic doesn't work
+* **Menus:** your site might use menus that expand out from the top of the page. These won't appear since they use javascript, and your user will look like they are clicking on whatever is directly below the top of the page- which can be misleading.
+* **AJAX:** if the form uses Ajax to check something (eg: test if that username already exists), this won't appear. So the user might be seeing a message, but when you're looking over their shoulder with Clicktale, all you'll see is a mysterious blank space and a pause. Or possibly a completely different screen.
+* **Prefilling some fields:** if your form is prefilled based on information from a previous screen, this just won't appear. In the [Twitter example](http://twitter.com) , the user fills out name and email on the first page, and then goes to a signup page. Via Clicktale youll get the impression that somehow a user is able to submit the signup page without adding name and email
+* **POST forms:** a form can use either POST or GET. POST is generally used for sensitive information like name, email etc, but Clicktale can only use GET. Clicktales (very lean) help document most helpfully suggests as a way of resolving this to simply convert your forms to GET (at which point I was thinking of a word beginning with F that I could tell them to put after get).
+* **Multiple step forms:** you might have your form split over several pages, and POST information from one page to the next. This is pretty common, but it seems to completely confuse Clicktale and mouse tracking data from one page will appear on another
+* **Cookies:** if your process uses cookies or session information, this won't come through. Clicktale will show you a cookie-less version, which might be radically different to what your user was served.
 
 None of these are particularly obscure or unusual elements for a web site to have- in fact I'd be surprised if most sites other than a basic static brochureware site wouldn't use at least a few of these.
 
@@ -104,18 +104,18 @@ Ironically an instance where a user would look at where their mouse is would be 
 
 Other issues we hit:
 
-- **privacy:** this is essentially a [key stroke logger](http://en.wikipedia.org/wiki/Keystroke_logging). Yes, the same thing that evil hackers use to discover peoples passwords. Every key stroke is captured and stored in Clicktale. There is an option to hide data like credit cards, but from what we've been able to gather this doesn't mean it isn't collected, only that it can be hidden during playback. The data is still sent and stored. If people can buy things or submit sensitive information on your site, then it is worth understanding the implications of tracking and storing this kind of information (more [information on PCI here](http://chargify.com/blog/what-you-need-to-know-about-pci/) ). At the very least you should adjust your site privacy policy and make sure you are covered- your lawyer may well have a hissy fit when you explain that all customer data is being copied to some 3rd party server.
-- **speed:** remember that every additional tag you add slows your site down. Some tags are faster (eg: Google Analytics) than others. If you think asynch solves this you're not getting the problem. Not only does it fire off some javascript each time, Clicktale has the added bonus of then triggering a bot visit. If speed is important, avoid sticking these tags everywhere.
-- **averages which aren't:** depending on the budget you've allocated, Clicktale will only record a certain number of visits a day. Once this runs out, the results won't appear in your report. So if you're trying to look at average behaviour, time of day may influence your findings.
-- **tracking where people click:** there are lots of tools out there that do this pretty well. Google Analytics anyone?
+* **privacy:** this is essentially a [key stroke logger](http://en.wikipedia.org/wiki/Keystroke_logging). Yes, the same thing that evil hackers use to discover peoples passwords. Every key stroke is captured and stored in Clicktale. There is an option to hide data like credit cards, but from what we've been able to gather this doesn't mean it isn't collected, only that it can be hidden during playback. The data is still sent and stored. If people can buy things or submit sensitive information on your site, then it is worth understanding the implications of tracking and storing this kind of information (more [information on PCI here](http://chargify.com/blog/what-you-need-to-know-about-pci/) ). At the very least you should adjust your site privacy policy and make sure you are covered- your lawyer may well have a hissy fit when you explain that all customer data is being copied to some 3rd party server.
+* **speed:** remember that every additional tag you add slows your site down. Some tags are faster (eg: Google Analytics) than others. If you think asynch solves this you're not getting the problem. Not only does it fire off some javascript each time, Clicktale has the added bonus of then triggering a bot visit. If speed is important, avoid sticking these tags everywhere.
+* **averages which aren't:** depending on the budget you've allocated, Clicktale will only record a certain number of visits a day. Once this runs out, the results won't appear in your report. So if you're trying to look at average behaviour, time of day may influence your findings.
+* **tracking where people click:** there are lots of tools out there that do this pretty well. Google Analytics anyone?
 
 At the end of the day, Clicktale wasn't really a great fit. Were trying a more pragmatic approach - solve real problems rather than using a tool to find problems. Some examples:
 
-- using **Event tracking** in Google Analytics to track behaviour in the areas that were interested in (a much lighter approach, tracking what we're specifically interested in rather than the shotgun approach of recording everything)
-- develop scenarios or hypotheses for what a problem might be, and then ways we could work out if it actually is occurring (looking at logs and New Relic)
-- if we see some people are having trouble with a particular the password reset, use events in GAnalytics to track frequency and evaluate that.
-- **Is there a pattern** that a user in trouble might follow, eg: I've tried to buy the same item 5 times. When this happens maybe we could be more helpful and trigger a can we help? message or email to get more information? Or at least help the user feel that someone is there to help them.
-- use physical user testing and eye tracking to understand what people are doing and where they are looking
+* using **Event tracking** in Google Analytics to track behaviour in the areas that were interested in (a much lighter approach, tracking what we're specifically interested in rather than the shotgun approach of recording everything)
+* develop scenarios or hypotheses for what a problem might be, and then ways we could work out if it actually is occurring (looking at logs and New Relic)
+* if we see some people are having trouble with a particular the password reset, use events in GAnalytics to track frequency and evaluate that.
+* **Is there a pattern** that a user in trouble might follow, eg: I've tried to buy the same item 5 times. When this happens maybe we could be more helpful and trigger a can we help? message or email to get more information? Or at least help the user feel that someone is there to help them.
+* use physical user testing and eye tracking to understand what people are doing and where they are looking
 
 ## Update
 
@@ -127,14 +127,14 @@ And to be fair it seems this criticism can be applied to many of the "alternativ
 
 Here's the core problem:
 
-- products like Clicktale are sold by very effective and pushy sales people. They'll tell you anything. Many blogs you'll read with so called reviews are getting affiliate payments. So you're hardly getting an independent review.
-- products like Clicktale are bought by marketers and web site owners desperate for a product like this to improve performance.
-- the Clicktale implementation then gets passed on to a developer, who is then stuck trying to explain what these reports actually mean. If you're reading this far chances are you're that guy/girl. - The Clicktale documentation often makes their many product faults the developers problem. They should have a plain english explanation of the implications of sending sensitive information to their service. Be up front about the risks of disabling security to allow snooping. Explain what PCI compliance is and the responsibilities.
+* products like Clicktale are sold by very effective and pushy sales people. They'll tell you anything. Many blogs you'll read with so called reviews are getting affiliate payments. So you're hardly getting an independent review.
+* products like Clicktale are bought by marketers and web site owners desperate for a product like this to improve performance.
+* the Clicktale implementation then gets passed on to a developer, who is then stuck trying to explain what these reports actually mean. If you're reading this far chances are you're that guy/girl. - The Clicktale documentation often makes their many product faults the developers problem. They should have a plain english explanation of the implications of sending sensitive information to their service. Be up front about the risks of disabling security to allow snooping. Explain what PCI compliance is and the responsibilities.
 
 Here's what you can do:
 
-- share this review - I hope it makes at least some sense
-- give Clicktale feedback about your concerns or questions
-- see if you can do real user testing instead. The Tobii eye tracker system is very nice. Or just sit and watch some users
-- there are lots of other systems like Snowplow or Kissmetrics that might better suit requirements
-- write your own review!
+* share this review - I hope it makes at least some sense
+* give Clicktale feedback about your concerns or questions
+* see if you can do real user testing instead. The Tobii eye tracker system is very nice. Or just sit and watch some users
+* there are lots of other systems like Snowplow or Kissmetrics that might better suit requirements
+* write your own review!
