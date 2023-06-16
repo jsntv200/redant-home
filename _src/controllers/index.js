@@ -7,6 +7,9 @@ Stimulus.register("reveal", Reveal);
 import ReadMore from 'stimulus-read-more';
 Stimulus.register("read-more", ReadMore);
 
+import { AosController } from "./aos-controller";
+Stimulus.register("aos", AosController);
+
 import { AssessmentController } from "./assessment-controller";
 Stimulus.register("assessment", AssessmentController);
 
@@ -33,6 +36,9 @@ Stimulus.register("nav", NavController);
 
 import { RandomiseController } from "./randomise-controller";
 Stimulus.register("randomise", RandomiseController);
+
+import { RellaxController } from "./rellax-controller";
+Stimulus.register("rellax", RellaxController);
 
 import { TypewriterController } from "./typewriter-controller";
 Stimulus.register("typewriter", TypewriterController);
