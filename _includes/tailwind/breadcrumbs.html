@@ -12,7 +12,7 @@
         <li aria-current="page">
           <div class="flex items-center">
             /
-            <span class="ml-1 text-sm font-medium text-red-100 md:ml-2">
+            <span class="ml-1 text-sm font-medium text-red-50 md:ml-2">
               {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
             </span>
           </div>
@@ -24,7 +24,7 @@
             /
             <a
               href="{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}"
-              class="ml-1 text-sm font-medium text-red-100 md:ml-2 hover:text-white hover:underline">
+              class="ml-1 text-sm font-medium text-red-50 md:ml-2 hover:text-white hover:underline">
               {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
             </a>
           </div>
