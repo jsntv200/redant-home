@@ -76,7 +76,7 @@
 }
 
 .card-managed .text {
-  @apply text-managed-100;
+  @apply text-managed-50;
 }
 
 .card-managed .button {
@@ -89,7 +89,7 @@
 }
 
 .card-12wbt .text {
-  @apply text-12wbt-100;
+  @apply text-12wbt-50;
 }
 
 .card-12wbt .button {
@@ -106,7 +106,7 @@
 }
 
 .card-huggies .text {
-  @apply text-huggies-100;
+  @apply text-huggies-50;
 }
 
 .card-huggies .button {
