@@ -27,6 +27,7 @@ defaults:
       sitemap: false
 
 plugins:
+  - jekyll-postcss
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
@@ -53,3 +54,6 @@ collections:
     output: true
   book_call:
     output: true
+
+postcss:
+  cache: false

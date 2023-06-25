@@ -1,0 +1,15 @@
+<div class="grid grid-cols-3 gap-[40px] mx-auto">
+  {% assign posts = site.posts | sort: 'updated_at' | reverse %}
+  {% for post in posts %}
+    {% unless include.type != nil or include.type == post.type %}
+      {% include card.html
+        class-container="bg-cyan-100/[0.25]"
+        class-content="p-5"
+        content=post.description
+        image=post.image_small
+        subtitle=post.title
+        text-color="cyan-100"
+        url=post.url %}
+    {% endunless %}
+  {% endfor %}
+</div>

@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: default-2
 permalink: /
 title: Sydney Ruby on Rails Technical Agency
 description: Red Ant is a Sydney Technical Agency. We create & build exceptional digital products. These live as web sites, in mobile apps, and in social networks.
-class: homepage
+tailwind: true
 redirect_from:
   - /on-demand/
   - /on-demand/design-ux/
@@ -20,314 +20,244 @@ redirect_from:
   - /on-demand/thank-you/ux-ios
 ---
 
-<header
-  id="section-intro"
-  class="ga-section section-hero d-flex align-items-center bg-gray-light"
->
-  <div class="container">
-    <div class="row">
-      <div class="col-12 hero-image w-100"></div>
+<div
+  class="absolute inset-0 -z-10 overflow-hidden"
+  aria-hidden="true">
+  <div class="relative scale-150 lg:scale-100">
+    {% include svg/lines-1.svg %}
+  </div>
+</div>
+
+<div class="max-w-screen-2xl mx-auto relative isolate px-6 pt-14 lg:px-8 mb-[100px] md:mb-[200px]">
+  <div class="flex flex-col mb-[40px] md:mb-0">
+    <div class="flex flex-col order-last items-center md:items-end md:order-first">
+      <div class="mb-3 w-[138px]">
+        {% include svg/stripe-partner-badge.svg %}
+      </div>
+      <p class="text-center text-gray-400 text-[13px]">Certified developer<br/>& architect</p>
     </div>
 
-    <div class="row justify-content-center text-center">
-      <div class="col-md-8">
-        <h1>
-          We design &amp; build
-          <span class="d-inline d-lg-block">custom digital platforms.</span>
+    <div class="mx-auto max-w-6xl py-24 md:py-56">
+      <div
+        class="text-center min-h-[240px]"
+        data-controller="typewriter">
+        <h1 class="text-3xl font-bold tracking-tight text-white md:text-6xl">
+          <span>We</span>
+          <span
+            data-controller="typewriter-word"
+            data-typewriter-word-alt-value='["create","develop","engineer"]'>
+            build
+          </span>
+          <span
+            data-controller="typewriter-word"
+            data-typewriter-word-alt-value='["intelligent, "]'>
+            secure,
+          </span>
+          <span
+            data-controller="typewriter-word"
+            data-typewriter-word-alt-value='["highly available"]'>
+            scalable
+          </span>
+          <span
+            data-controller="typewriter-word"
+            data-typewriter-word-alt-value='["digital"]'>
+            software
+          </span>
+          <span
+            data-controller="typewriter-word"
+            data-typewriter-word-alt-value='["code & operations."]'>
+            platforms & products.
+          </span>
+          <span
+            data-controller="typewriter-word"
+            data-typewriter-word-alt-value='["We can build"]'>
+            Build with us
+          </span>
+          <span>or we can</span>
+          <span
+            data-controller="typewriter-word"
+            data-typewriter-word-alt-value='["help","review"]'>
+            advise on
+          </span>
+          <span>your existing</span>
+          <span
+            data-controller="typewriter-word"
+            data-typewriter-word-alt-value='["team.","tech stack.","approach."]'>
+            technology.
+          </span>
         </h1>
       </div>
-
-      <div class="col-md-12 mt-2">
-        <p class="subheading">
-          We’re a Sydney-based technical agency that works on Digital Product
-          Design, User Experience, Development and DevOps for very successful
-          businesses for over 20 years.
-        </p>
-      </div>
-
-      <div class="mt-3 mb-4">
-        <a
-          class="btn btn-lg btn-primary rounded-pill me-1"
-          href="/free-initial-consult-code-review/"
-        >
-          Free initial consult
-        </a>
-
-        <a
-          class="btn btn-lg btn-outline-primary rounded-pill bg-white border-2 ms-1"
-          href="/get-started/"
-        >
-          Get started
-        </a>
-      </div>
-    </div>
-
-    <div class="row pt-3">
-      <div class="col-md-4 px-3 px-sm-2 mb-3 mb-sm-0">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title text-green mb-0 h5">
-              We <span>Advise</span>
-            </h2>
-            <hr class="dash dash-green" />
-            <p class="card-text pt-3">
-              We can give you advice and a blueprint for how to proceed for the
-              rest of your project. Best practices, the right tools, and some
-              technology options. We also do specific reviews such as
-              <a href="/ruby-on-rails-code-review/">code reviews</a>, product
-              design, security and process.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 px-3 px-sm-2 mb-3 mb-sm-0">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title text-red mb-0 h5">We <span>Assist</span></h2>
-            <hr class="dash" />
-            <p class="card-text pt-3">
-              We can be your Technical Lead. We'll help you manage your
-              technical team. Via a dedicated Slack, we can answer their
-              questions, review daily code changes and keep your project on
-              track. We'll also monitor security, performance and output.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 px-3 px-sm-2 mb-3 mb-sm-0">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title text-orange mb-0 h5">We <span>Do</span></h2>
-            <hr class="dash dash-orange" />
-            <p class="card-text pt-3">
-              We'll scope, design and build your project, using our engineers.
-              We'll manage everything from infrastructure to security to
-              operations, and help you run a successful business.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-12">
-        <p class="text-center subheading my-5">
-          Our team of designers, developers and strategists will help you build
-          a better platform or product. We use Open Source technology (<a
-            href="/technology/ruby-on-rails/"
-            >Ruby on Rails</a
-          >, <a href="/technology/reactJS/">React</a>) that are proven to be
-          robust in high performing apps and websites.
-        </p>
-      </div>
-    </div>
-  </div>
-</header>
-
-<section class="bg-white">
-  <div class="section-stripe-partner container pt-5">
-    <div class="row">
-      <div class="col-12">
-        <div class="d-flex flex-column flex-sm-row align-items-center rounded-4 bg-gray-light p-3">
-          <div class="pb-3 pb-sm-0">
-            {% include svg/stripe-partner-badge.svg %}
-          </div>
-          <p class="ps-4 my-0">
-            As a Stripe consulting partner, Red Ant’s team of Certified Stripe Architects and Certified Stripe Developers can help with advice, implementation, deployment, or managed services for your Stripe solution. <a href="/technology/stripe-payments/">Stripe payment processing solutions with Red Ant.</a>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-{% include section-companies.html %}
-
-<section id="section-stuff-we-made" class="ga-section">
-  <div class="bg-managed content mt-0">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <h2 class="text-managed h3">Managed</h2>
-          <p class="py-3 subheading" data-aos="fade-right" data-aos-once="true">
-            A payment and management platform for rental property
-          </p>
-          <p data-aos="fade-right" data-aos-once="true" data-aos-delay="100">
-            Significantly changes and improves the way a Property Manager works
-            when managing a portfolio of rental properties. Solves issues around
-            Trust funds, eliminates fraud, improves the speed and resolves a lot
-            of problems that a PM faces - freeing them up to be more strategic.
-          </p>
-          <a
-            href="/portfolio/managed/"
-            class="text-managed"
-            data-aos="fade-right"
-            data-aos-once="true"
-            data-aos-delay="200"
-          >
-            More details.
-          </a>
-        </div>
-
-        <div class="svg-wrapper">
-          {% assign featured = site.pages | where: "slug", "managed" | first %}
-          {% include svg/preview-right.svg title="Managed App"
-          images=featured.images %}
-        </div>
-      </div>
     </div>
   </div>
 
-  <div class="bg-12wbt content">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <h3 class="text-12wbt h3">Michelle Bridges 12WBT</h3>
-          <p class="py-3 subheading" data-aos="fade-right" data-aos-once="true">
-            A health and fitness product
-          </p>
-          <p data-aos="fade-right" data-aos-once="true" data-aos-delay="100">
-            A digital product in the health and fitness area which has been
-            incredibly popular, changing thousands of lives. Every second person
-            we meet seems to either be doing it or know someone that is a raving
-            fan.
-          </p>
-          <a
-            href="/portfolio/12wbt/"
-            class="text-12wbt"
-            data-aos="fade-right"
-            data-aos-once="true"
-            data-aos-delay="200"
-          >
-            More details.
-          </a>
-        </div>
+  <div class="flex flex-col md:flex-row">
+    {% include tailwind/card-home.html
+      content="We're different to System Integrators and Security Analysts. We look at vour systems trom a developer perspective - your team, processes and technology."
+      icon="fa-hammer"
+      label="Custom development"
+      style="card-cyan"
+      title="We <span class='text-cyan-100'>design & build</span> custom digital platforms"
+      url="/get-started/" %}
 
-        <div class="svg-wrapper">
-          {% assign featured = site.pages | where: "slug", "12wbt" | first %} {%
-            include svg/preview-right.svg title="12wbt" images=featured.images %}
-        </div>
+    {% include tailwind/card-home.html
+      content="We're different to System Integrators and Security Analysts. We look at vour systems trom a developer perspective - your team, processes and technology."
+      icon="fa-shield-halved"
+      label="Cyber security & Privacy"
+      style="card-red"
+      title="We <span class='text-[#FF5533]'>improve security</span> from a development perspective"
+      url="/cyber-security-development-perspective/" %}
+  </div>
+</div>
+
+{% include tailwind/alert-panel.html %}
+
+{% include tailwind/companies.html
+  title="These companies trust us"
+  content="For more than 20 years, we've had the pleasure of working with many startups, brands and large companies." %}
+
+<div class="bg-purple-100/25 py-9">
+  <div class="max-w-screen-2xl mx-auto flex items-center flex-col lg:flex-row px-6 2xl:px-0">
+    <div class="w-[173px] h-[41px] mb-8 lg:mb-0 flex">
+      <div class="grow">
+        {% include svg/stripe-partner-badge.svg %}
       </div>
+    </div>
+    <p class="lg:pl-4 my-0 text-gray-100">
+      As a Stripe consulting partner, Red Ant’s team of Certified Stripe Architects and Certified Stripe Developers can help with advice, implementation, deployment, or managed services for your Stripe solution.
+      <a
+        href="/technology/stripe-payments/"
+        class="text-purple-50 hover:underline brightness-110">
+        Stripe payment processing solutions with Red Ant.
+      </a>
+    </p>
+  </div>
+</div>
+
+<div>
+  <div class="relative">
+    <div
+      class="absolute inset-0 top-0 left-0 -z-10 overflow-hidden"
+      aria-hidden="true">
+      <div class="relative">
+        {% include svg/lines-2.svg %}
+      </div>
+    </div>
+
+  <div class="max-w-screen-2xl mx-auto relative isolate px-6 pt-14 2xl:px-0">
+    <h2 class="text-3xl md:text-5xl font-bold mt-[100px] mb-14 md:mt-[200px] md:mb-[88px] text-center">Featured work</h2>
+    <div class="flex flex-col">
+      {% include tailwind/portfolio-item.html
+        content="Significantly changes and improves the way a Property Manager works when managing a portfolio of rental properties. Solves issues around trust funds, eliminates fraud, improves the speed and resolves a lot of problems that a PM faces - freeing them up to be more strategic."
+        slug="managed"
+        style="card-managed"
+        subtitle="A payment and management platform for rental property"
+        title="Managed"
+        url="/portfolio/managed/" %}
+
+      {% include tailwind/portfolio-item.html
+        content="A digital product in the health and fitness area which has been incredibly popular, changing thousands of lives. Every second person we meet seems to either be doing it or know someone that is a raving fan."
+        flip=true
+        slug="12wbt"
+        style="card-12wbt"
+        subtitle="A health and fitness product"
+        title="Michelle Bridges 12WBT"
+        url="/portfolio/12wbt/" %}
+
+      {% include tailwind/portfolio-item.html
+        content="Yes, Huggies like in the nappies you put on babies. Try searching for anything baby or child related, and you’ll probably end up on a Huggies page. So much more than a brand site for Nappies – everything you need to know if you’re the proud owner of a 0-5 year old, or if you’re pregnant. Close to half the Mums in Australia are members, so we must be doing something right."
+        slug="huggies"
+        style="card-huggies"
+        subtitle="A place for parents to learn &amp; share"
+        title="Huggies"
+        url="/portfolio/huggies/" %}
     </div>
   </div>
+</div>
 
-  <div class="bg-huggies content">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <h3 class="text-huggies">Huggies</h3>
-          <p class="py-3 subheading" data-aos="fade-right" data-aos-once="true">
-            A place for parents to learn &amp; share
+<div class="bg-gray-200 mt-[90px] lg:mt-[140px] py-14 lg:pt-[100px] lg:pb-10 px-6 2xl:px-0">
+  <div class="max-w-screen-2xl flex flex-col lg:flex-row mx-auto relative isolate px-6 pt-14 lg:px-8">
+    <div class="lg:w-3/5">
+      <h2 class="text-3xl lg:text-5xl font-bold mb-[18px]">
+        Ruby on Rails
+      </h2>
+
+      <hr class="bg-white/40 h-[2px] mt-8 mb-6">
+
+      <h5 class="mb-2 text-xl font-bold">
+        The efficient way to build modern digital products.
+      </h5>
+
+      <div
+        data-controller="read-more"
+        data-read-more-more-text-value="Read more"
+        data-read-more-less-text-value="Read less">
+        <div
+          class="ruby-content text-gray-100"
+          data-read-more-target="content">
+          <p>
+            An Open source web framework Ruby on Rails makes designing and building modern web sites and digital products <a href="/ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/" class="hover:underline text-red-50">more efficient</a>. Ruby on Rails is a popular choice for building modern, interactive web sites and apps.
+            <br />
+            <br />
+            Ruby on Rails speeds up many of the simple tasks, and allows for extremely rapid creation of prototypes and working code. It also uses “best practice” by default, so you’re not relying on the whim of a particular developer. Of course, having a smart developer is critical, and Rails allows them to translate ideas and concepts quickly and efficiently.
+            <br />
+            <br />
+            Working in an Agile fashion, we can create code that can then be reviewed that day. We might be heading in the right direction, or it might need to behave differently. Rapid change and evolution is a good thing. Using Ruby on Rails facilitates this.
+            <br />
+            <br />
+            Ruby on Rails also helps us create very high quality code. Each part of code has <a href="/automated-testing/testing-web-projects-in-rails/" class="hover:underline text-red-50">a series of Automated Tests</a>. These perform checks to make sure that feature is working as it should. These get run every time a change is made. By doing this, we know that one change hasn’t broken something else. As soon as anything breaks or changes, our Continuous Integration server lets us know and the code is fixed.
           </p>
-          <p data-aos="fade-right" data-aos-once="true" data-aos-delay="100">
-            Yes, Huggies like in the nappies you put on babies. Try searching
-            for anything baby or child related, and you’ll probably end up on a
-            Huggies page. So much more than a brand site for Nappies –
-            everything you need to know if you’re the proud owner of a 0-5 year
-            old, or if you’re pregnant. Close to half the Mums in Australia are
-            members, so we must be doing something right.
-          </p>
-          <a
-            href="/portfolio/huggies/"
-            class="text-huggies"
-            data-aos="fade-right"
-            data-aos-once="true"
-            data-aos-delay="200"
-          >
-            More details.
-          </a>
         </div>
 
-        <div class="svg-wrapper">
-          {% assign featured = site.pages | where: "slug", "huggies" | first %}
-          {% include svg/preview-right.svg title="Huggies"
-          images=featured.images %}
-        </div>
+        <button
+          class="rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white hover:bg-red-200 mt-8"
+          data-action="read-more#toggle">
+          Read more
+        </button>
       </div>
     </div>
-  </div>
-</section>
 
-<section
-  id="section-ruby-on-rails"
-  class="ga-section default-padding section-rails"
->
-  <div class="container py-5 py-sm-0">
-    <div class="row mt-4">
-      <div class="col-md-4">
-        <div class="ruby" data-aos="fade-right" data-aos-once="true"></div>
-      </div>
-
-      <div class="col-md-8">
-        <h3 class="mb-2 h3">Ruby on Rails</h3>
-        <p class="subheading mb-4">
-          The efficient way to build modern digital products.
-        </p>
-        <p>
-          An Open source web framework Ruby on Rails makes designing and
-          building modern web sites and digital products
-          <a
-            href="/ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/"
-            >more efficient</a
-          >. Ruby on Rails is a popular choice for building modern, interactive
-          web sites and apps.
-        </p>
-        <div class="collapse-group">
-          <div id="more-about-rails" class="collapse">
-            <p>
-              Ruby on Rails speeds up many of the simple tasks, and allows for
-              extremely rapid creation of prototypes and working code. It also
-              uses “best practice” by default, so you’re not relying on the whim
-              of a particular developer. Of course, having a smart developer is
-              critical, and Rails allows them to translate ideas and concepts
-              quickly and efficiently.
-            </p>
-            <p>
-              Working in an Agile fashion, we can create code that can then be
-              reviewed that day. We might be heading in the right direction, or
-              it might need to behave differently. Rapid change and evolution is
-              a good thing. Using Ruby on Rails facilitates this.
-            </p>
-            <p>
-              Ruby on Rails also helps us create very high quality code. Each
-              part of code has
-              <a href="/automated-testing/testing-web-projects-in-rails/"
-                >a series of Automated Tests</a
-              >. These perform checks to make sure that feature is working as it
-              should. These get run every time a change is made. By doing this,
-              we know that one change hasn’t broken something else. As soon as
-              anything breaks or changes, our Continuous Integration server lets
-              us know and the code is fixed.
-            </p>
-          </div>
-          <a
-            href="#section-ruby-on-rails"
-            class="btn btn-link btn-red p-0"
-            data-bs-toggle="collapse"
-            data-bs-target="#more-about-rails"
-            data-controller="scroll-to">
-            Read more.
-          </a>
-        </div>
-      </div>
-    </div>
+    <img
+      class="object-contain -mt-[180px] z-10 order-first lg:order-last md:w-1/2 md:mx-auto lg:w-2/5 "
+      src="/assets/images/ruby-on-rails.svg"
+      alt="Ruby on Rails">
   </div>
-</section>
+</div>
 
-<section id="section-blog" class="ga-section bg-gray-light default-padding">
-  <div class="container">
-    <div class="row mb-5 justify-content-between">
-      <div class="col">
-        <h2 class="h3">Popular blog posts</h2>
-      </div>
-      <div class="col text-end">
-        <a href="/blog/" class="more">View all</a>
+<div>
+  <div class="relative">
+    <div
+      class="absolute inset-0 top-0 left-0 -z-10 overflow-hidden"
+      aria-hidden="true">
+      <div class="relative">
+        {% include svg/lines-3.svg %}
       </div>
     </div>
-    <div data-controller="macy">
-      {% for post in site.posts limit:3 %} {% unless include.type != nil or
-      include.type == post.type %} {% include post-card.html %} {% endunless %}
-      {% endfor %}
+
+  <div class="max-w-screen-2xl mx-auto relative isolate px-6 py-14 2xl:px-0 lg:py-[200px]">
+    <div class="flex justify-between align-middle items-center mb-[50px] md:mb-[100px]">
+      <h2 class="text-3xl md:text-5xl font-bold">
+        Popular blog posts
+      </h2>
+
+      <a
+        href="/blog/"
+        class="rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-200 hidden md:block">
+        View all
+      </a>
     </div>
+
+    <hr class="bg-white/40 h-[2px]" />
+
+    {% for post in site.posts limit:3 %}
+      {% unless include.type != nil or include.type == post.type %}
+        {% include tailwind/post-card-wide.html %}
+      {% endunless %}
+    {% endfor %}
+
+    <a
+      href="/blog/"
+      class="rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-200 inline-block mt-14 md:hidden">
+      View all
+    </a>
   </div>
-</section>
+</div>
