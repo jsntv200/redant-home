@@ -75,6 +75,6 @@ export class TypewriterController extends Controller {
   }
 
   get wordControllers() {
-    return getChildControllers(this, 'typewriter-word');
+    return getChildControllers(this, "typewriter-word");
   }
 }

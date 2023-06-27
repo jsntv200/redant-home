@@ -4,7 +4,7 @@ window.Stimulus = Application.start();
 import Reveal from "stimulus-reveal-controller";
 Stimulus.register("reveal", Reveal);
 
-import ReadMore from 'stimulus-read-more';
+import ReadMore from "stimulus-read-more";
 Stimulus.register("read-more", ReadMore);
 
 import { AosController } from "./aos-controller";

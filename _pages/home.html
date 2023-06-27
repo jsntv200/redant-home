@@ -1,9 +1,8 @@
 ---
-layout: default-2
+layout: v2-default
 permalink: /
 title: Sydney Ruby on Rails Technical Agency
 description: Red Ant is a Sydney Technical Agency. We create & build exceptional digital products. These live as web sites, in mobile apps, and in social networks.
-tailwind: true
 redirect_from:
   - /on-demand/
   - /on-demand/design-ux/
@@ -20,13 +19,7 @@ redirect_from:
   - /on-demand/thank-you/ux-ios
 ---
 
-<div
-  class="absolute inset-0 -z-10 overflow-hidden"
-  aria-hidden="true">
-  <div class="relative scale-150 lg:scale-100">
-    {% include svg/lines-1.svg %}
-  </div>
-</div>
+{% include v2/background-image.html file="svg/lines-1.svg" %}
 
 <div class="max-w-screen-2xl mx-auto relative isolate px-6 pt-14 lg:px-8 mb-[100px] md:mb-[200px]">
   <div class="flex flex-col mb-[40px] md:mb-0">
@@ -91,7 +84,7 @@ redirect_from:
   </div>
 
   <div class="flex flex-col md:flex-row">
-    {% include tailwind/card-home.html
+    {% include v2/card-home.html
       content="We're different to System Integrators and Security Analysts. We look at vour systems trom a developer perspective - your team, processes and technology."
       icon="fa-hammer"
       label="Custom development"
@@ -99,7 +92,7 @@ redirect_from:
       title="We <span class='text-cyan-100'>design & build</span> custom digital platforms"
       url="/get-started/" %}
 
-    {% include tailwind/card-home.html
+    {% include v2/card-home.html
       content="We're different to System Integrators and Security Analysts. We look at vour systems trom a developer perspective - your team, processes and technology."
       icon="fa-shield-halved"
       label="Cyber security & Privacy"
@@ -109,9 +102,9 @@ redirect_from:
   </div>
 </div>
 
-{% include tailwind/alert-panel.html %}
+{% include v2/alert-panel.html %}
 
-{% include tailwind/companies.html
+{% include v2/companies.html
   title="These companies trust us"
   content="For more than 20 years, we've had the pleasure of working with many startups, brands and large companies." %}
 
@@ -146,7 +139,7 @@ redirect_from:
   <div class="max-w-screen-2xl mx-auto relative isolate px-6 pt-14 2xl:px-0">
     <h2 class="text-3xl md:text-5xl font-bold mt-[100px] mb-14 md:mt-[200px] md:mb-[88px] text-center">Featured work</h2>
     <div class="flex flex-col">
-      {% include tailwind/portfolio-item.html
+      {% include v2/portfolio-item.html
         content="Significantly changes and improves the way a Property Manager works when managing a portfolio of rental properties. Solves issues around trust funds, eliminates fraud, improves the speed and resolves a lot of problems that a PM faces - freeing them up to be more strategic."
         slug="managed"
         style="card-managed"
@@ -154,7 +147,7 @@ redirect_from:
         title="Managed"
         url="/portfolio/managed/" %}
 
-      {% include tailwind/portfolio-item.html
+      {% include v2/portfolio-item.html
         content="A digital product in the health and fitness area which has been incredibly popular, changing thousands of lives. Every second person we meet seems to either be doing it or know someone that is a raving fan."
         flip=true
         slug="12wbt"
@@ -163,7 +156,7 @@ redirect_from:
         title="Michelle Bridges 12WBT"
         url="/portfolio/12wbt/" %}
 
-      {% include tailwind/portfolio-item.html
+      {% include v2/portfolio-item.html
         content="Yes, Huggies like in the nappies you put on babies. Try searching for anything baby or child related, and you’ll probably end up on a Huggies page. So much more than a brand site for Nappies – everything you need to know if you’re the proud owner of a 0-5 year old, or if you’re pregnant. Close to half the Mums in Australia are members, so we must be doing something right."
         slug="huggies"
         style="card-huggies"
@@ -250,7 +243,7 @@ redirect_from:
 
     {% for post in site.posts limit:3 %}
       {% unless include.type != nil or include.type == post.type %}
-        {% include tailwind/post-card-wide.html %}
+        {% include v2/post-card-wide.html %}
       {% endunless %}
     {% endfor %}
 

@@ -13,21 +13,21 @@ export class NavController extends Controller {
     this.toggleActive();
 
     if (this.scrollAnimationValue === "true") {
-      window.addEventListener('scroll', this.handleScroll.bind(this));
+      window.addEventListener("scroll", this.handleScroll.bind(this));
     }
   }
 
   disconnect() {
     if (this.scrollAnimationValue === "true") {
-      window.removeEventListener('scroll', this.handleScroll.bind(this));
+      window.removeEventListener("scroll", this.handleScroll.bind(this));
     }
   }
 
   handleScroll() {
     if (window.pageYOffset > 0) {
-      this.element.classList.add('backdrop-blur-lg', 'bg-black/40');
+      this.element.classList.add("backdrop-blur-lg", "bg-black/40");
     } else {
-      this.element.classList.remove('backdrop-blur-lg', 'bg-black/40');
+      this.element.classList.remove("backdrop-blur-lg", "bg-black/40");
     }
   }
 
