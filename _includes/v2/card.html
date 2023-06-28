@@ -1,9 +1,22 @@
+<!--
+  class-container
+  content
+  description
+  hr
+  icon
+  image
+  image-rounded
+  subtitle
+  text-color
+  title
+  url
+-->
 {% if include.url %}
   <a
     href="{{ include.url }}"
-    class="{{ include.class-container }}">
+    class="{{ include.class-container }} mb-5">
 {% else %}
-  <div class="{{ include.class-container }}">
+  <div class="{{ include.class-container }} mb-5">
 {% endif %}
 
   {% if include.image and include.image-rounded %}
@@ -24,7 +37,7 @@
 
   <div class="{{ include.class-content }}">
     {% if include.title %}
-      <h5 class="mb-1.5 text-2xl font-semibold text-{{ include.text-color }}">
+      <h5 class="mb-1.5 text-2xl font-semibold {{ include.text-color }}">
         {{ include.title }}
       </h5>
     {% endif %}
@@ -40,7 +53,7 @@
     {% endif %}
 
     {% if include.subtitle %}
-      <p class="text-xl font-bold mb-4 text-{{ include.text-color }}">
+      <p class="text-xl font-bold mb-4 {{ include.text-color }}">
         {{include.subtitle}}
       </p>
     {% endif %}
@@ -49,6 +62,7 @@
       {{ include.content }}
     </p>
   </div>
+
 {% if include.url %}
   </a>
 {% else %}

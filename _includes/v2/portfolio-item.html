@@ -11,8 +11,8 @@
     </div>
   </div>
 
-  <div class="flex flex-col md:flex-row preview md:py-24">
-    <div class="w-full lg:w-1/2 relative {% if include.flip %}order-2{% endif %}">
+  <div class="preview flex flex-col md:flex-row md:py-24">
+    <div class="w-full lg:w-1/2 relative {% if include.flip %}md:order-2{% endif %}">
       <div class="h-full flex flex-col justify-center">
         {% if image-desktop %}
           <div class="md:pl-10">

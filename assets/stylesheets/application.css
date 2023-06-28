@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.async-hide {
+  @apply opacity-0;
+}
+
 .typewriter-cursor:after {
   display: inline-block;
   position: relative;
@@ -31,7 +35,6 @@
 }
 
 .ruby-content {
-  overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: var(--read-more-line-clamp, 3);
@@ -94,10 +97,6 @@
 
 .card-12wbt .button {
   @apply bg-12wbt-100 hover:bg-12wbt-200;
-}
-
-.card-12wbt .preview {
-  @apply order-2;
 }
 /* ------------------------------------------ */
 /* ------------------------------------------ */

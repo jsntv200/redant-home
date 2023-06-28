@@ -1,21 +1,16 @@
-<div class="max-w-screen-2xl grid grid-cols-3 gap-[20px] mx-auto">
-  {% assign index = 1 %}
+<div class="max-w-screen-2xl grid grid-cols-1 md:grid-cols-3 gap-[40px] mx-auto px-6 pt-14 lg:px-8">
   {% for slug in site.data.technology.order %}
     {% assign pages = site.pages | where: 'slug', slug | where: 'category', include.category %}
     {% for page in pages %}
-      {% include card.html
+      {% include v2/card.html
         content=page.listing_description
         description=page.type
         hr="true"
         image=page.image
         image-rounded="true"
-        text-color="red-100"
+        text-color="text-red-50"
         title=page.title
         url=page.url %}
-      {% if index == 3 %}
-        <div class="w-full"></div>
-      {% endif %}
-      {% assign index = index | plus: 1 %}
     {% endfor %}
   {% endfor %}
 </div>
