@@ -1,5 +1,5 @@
 ---
-layout: technology
+layout: v2-technology
 category: Integrations
 type: Integration
 title: Twilio

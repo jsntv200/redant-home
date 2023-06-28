@@ -1,0 +1,18 @@
+<div class="{{ include.class-wrapper }}">
+  <div class="rounded-md bg-gray-50 w-full h-[350px] {{ include.class-lg-height }} overflow-hidden">
+    <div class="flex justify-center p-2">
+      <div class="absolute flex left-2 md:left-12">
+        <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
+        <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
+        <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
+      </div>
+      <div class="rounded-md h-5 w-36 md:w-44 lg:w-80 bg-white flex justify-center items-center"></div>
+    </div>
+    <div class="relative flex align-middle">
+      <img
+        class="absolute object-cover"
+        src="{{ include.path }}"
+        alt="{{ include.title }} desktop layout">
+    </div>
+  </div>
+</div>

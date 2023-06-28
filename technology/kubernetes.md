@@ -1,5 +1,5 @@
 ---
-layout: technology
+layout: v2-technology
 category:
 type: Technology
 title: Kubernetes

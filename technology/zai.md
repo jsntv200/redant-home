@@ -1,5 +1,5 @@
 ---
-layout: technology
+layout: v2-technology
 category: Payments
 type: Integration
 title: Zai Payments

@@ -1,5 +1,5 @@
 ---
-layout: technology
+layout: v2-technology
 category: Hosting
 type: Technology
 title: Docker

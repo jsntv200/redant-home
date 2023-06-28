@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: v2-default
 ---
 
-{% include title-panel.html
+{% include v2/background-image.html file="svg/lines-7.svg" %}
+
+{% include v2/title-panel.html
   title=page.title
   subtitle=page.subtitle
   content=page.description
@@ -13,11 +15,11 @@ layout: default
   image=page.image %}
 
 <div class="bg-red-100/[0.25]">
-  <div class="max-w-screen-2xl mx-auto py-[100px]">
+  <div class="max-w-screen-2xl mx-auto py-[100px] px-6 pt-14 lg:px-8">
     <h2 class="text-5xl font-bold mb-[50px]">How we can help</h2>
 
-    <div class="grid grid-cols-3 gap-[20px] mx-auto">
-      {% include card.html
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px] mx-auto">
+      {% include v2/card.html
         content="We create, design and build new apps and platforms. We can help
         you design for scale, as well as strategy or product support as
         you need it. We'll take responsibility for delivering your
@@ -30,7 +32,7 @@ layout: default
         subtitle="New Builds"
         text-color="red-100" %}
 
-      {% include card.html
+      {% include v2/card.html
         content="We can also take over an existing project. Often companies need
         a bit more experience, developer resourcing, or help in
         completing certain features before they launch. Or you might
@@ -40,7 +42,7 @@ layout: default
         subtitle="Existing Apps"
         text-color="red-100" %}
 
-      {% include card.html
+      {% include v2/card.html
         content="We also provide a comprehensive Devops and Platform Support
         service. We'll take on responsibility for monitoring and
         providing technical support as part of an ongoing plan that we
@@ -55,20 +57,21 @@ layout: default
 
 {% assign count = page.projects | size %}
 {% if count > 0 %}
-  <div class="max-w-screen-2xl grid grid-cols-3 gap-[20px] mx-auto">
-    <div class="max-w-screen-2xl mx-auto py-[100px]">
-      <h2 class="text-5xl font-bold mb-[50px]">Some of our {{ page.title }} projects</h2>
-
+  <div class="max-w-screen-2xl mx-auto px-6 pt-14 lg:px-8 py-[100px]">
+    <h2 class="text-5xl font-bold mb-[50px]">Some of our {{ page.title }} projects</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[40px]">
       {% for slug in site.data.portfolio.order %}
         {% assign pages = site.pages | where:'slug', slug %}
         {% for page in pages %}
           {% assign image = page.images | where: "type", "desktop" | first %}
-          {% include card-with-backdrop.html
+          {% include v2/card-with-backdrop.html
+            bg-color=page.theme
             content=page.description
             hr="true"
-            image=page.image
-            subtitle=page.tagline
-            text-color="red-100"
+            is-portfolio=true
+            image=image.path
+            subtitle=page.subtitle
+            color=page.theme
             title=page.title
             url=page.dir %}
         {% endfor %}
@@ -77,4 +80,6 @@ layout: default
   </div>
 {% endif %}
 
-{% include companies.html %}
+{% include v2/companies.html
+  title="These companies trust us"
+  content="For more than 20 years, we've had the pleasure of working with many startups, brands and large companies." %}
