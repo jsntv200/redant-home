@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   {% include v2/head.html %}
-  <body class="{{ page.class }} bg-black text-white flex flex-col min-h-screen">
+  <body class="bg-black text-white flex flex-col min-h-screen">
     <div class="flex-grow pt-16 md:pt-[100px]" data-controller="aos">
       {% include v2/nav.html %}
+      {% if page.is_blog %}
+        {% include blog-nav.html %}
+      {% endif %}
       {{ content }}
     </div>
     <div class="mt-auto">

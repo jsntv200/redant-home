@@ -1,5 +1,5 @@
 ---
-layout: v2-technology
+layout: v2-technology-detail
 category: Hosting
 type: Integration
 title: Heroku
