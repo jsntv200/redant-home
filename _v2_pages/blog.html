@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: v2-default
+is_blog: true
 permalink: /blog/
 title: Blog - Ruby on Rails Sydney - Red Ant
 ---
@@ -11,7 +12,6 @@ title: Blog - Ruby on Rails Sydney - Red Ant
 </div> -->
 
 <div class="max-w-screen-2xl mx-auto pb-[100px]">
-  {% include blog-nav.html %}
-  {% include title-panel.html title="Blog" %}
-  {% include posts.html %}
+  {% include v2/title-panel.html title="Blog" %}
+  {% include v2/posts.html %}
 </div>
