@@ -187,6 +187,8 @@ module.exports = {
     },{
       pattern: /border-(red|cyan)-(100|100\/10)/,
     },{
+      pattern: /from-(12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|petmatcher|placeos|plando|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|voome|whats-on|yates)-100\/25/,
+    },{
       pattern: /text-(red|cyan|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|petmatcher|placeos|plando|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|voome|whats-on|yates)-(50|100)/,
       variants: ['hover'],
     },{

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: 12wbt
 slug: 12wbt-dynamic-video
 title: How We Scaled Video Content Delivery for Individualised Workouts

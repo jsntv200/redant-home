@@ -1,0 +1,33 @@
+---
+layout: v2-default
+---
+
+{% include v2/background-image.html
+  color=page.theme
+  file="svg/lines-5.svg" %}
+
+{% assign image-desktop = page.images | where: "type", "desktop" | first %}
+{% assign image-mobile = page.images | where: "type", "mobile" | first %}
+
+<div class="max-w-screen-lg mx-auto py-[50px] md:py-[100px] px-6 lg:px-8">
+  <div class="flex justify-center">
+    {% include v2/portfolio/previews.html
+      image-desktop = image-desktop
+      image-mobile = image-mobile
+      title = include.title %}
+  </div>
+
+  <h2 class="text-5xl font-bold mb-[30px] text-{{ include.title-color }} my-[50px] md:mt-[100px]">
+    {{ page.title }}
+  </h2>
+
+  <hr class="bg-gray-100/40 mb-[50px]"></hr>
+
+  <div class="markdown">
+    {{ content }}
+  </div>
+</div>
+
+<div class="max-w-screen-2xl mx-auto relative isolate px-6 pb-[50px] 2xl:px-0 lg:pb-[100px]">
+  {% include v2/related-panel.html %}
+</div>

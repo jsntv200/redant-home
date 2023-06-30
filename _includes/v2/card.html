@@ -1,5 +1,4 @@
 <!--
-  class-container
   content
   description
   hr
@@ -10,13 +9,14 @@
   text-color
   title
   url
+  wrapper-class
 -->
 {% if include.url %}
   <a
     href="{{ include.url }}"
-    class="{{ include.class-container }} mb-5">
+    class="{{ include.wrapper-class }} mb-5">
 {% else %}
-  <div class="{{ include.class-container }} mb-5">
+  <div class="{{ include.wrapper-class }} mb-5">
 {% endif %}
 
   {% if include.image and include.image-rounded %}
@@ -26,7 +26,7 @@
       alt="{{ include.title }} image"/>
   {% elsif include.image %}
     <img
-      class="w-full h-[320px] object-cover"
+      class="w-full h-auto md:h-[320px] object-cover mb-8"
       src="{{ include.image }}"
       alt="{{ include.title }} image"/>
   {% elsif include.icon %}

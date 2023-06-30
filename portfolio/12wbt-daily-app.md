@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: 12wbt
 slug: 12wbt-daily-app
 title: 'Product Market Fitness: Creating a User-Centered Workout App'

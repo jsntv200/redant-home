@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: redant
 slug: project-summary-tool
 title: >-

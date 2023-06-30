@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: matrix-education
 slug: matrix-education
 title: Matrix Education

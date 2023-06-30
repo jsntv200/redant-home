@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: 12wbt
 project_url: https://www.12wbt.com
 project_date: 2013 -

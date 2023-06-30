@@ -1,9 +1,9 @@
 {% if include.url %}
   <a
     href="{{ include.url }}"
-    class="{{ include.class-container }}">
+    class="{{ include.wrapper-class }}">
 {% else %}
-  <div class="{{ include.class-container }}">
+  <div class="{{ include.wrapper-class }}">
 {% endif %}
 
   {% if include.image and include.image-rounded %}

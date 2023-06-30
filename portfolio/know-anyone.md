@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: know-anyone
 project_url: https://knowanyone.com/
 project_date: 2019 - 2020

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: the-grants-hub
 project_url: https://
 project_date: "2021"

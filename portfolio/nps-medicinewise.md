@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: nps
 slug: nps-medicinewise
 title: 'Boosting Efficiency and Savings: How a Headless CMS Helped NPS Medicinewise'
@@ -51,7 +51,7 @@ Behind the scenes, the project included initiatives that would save money and in
 
 ![Scrivito editing CMS](/assets/uploads/assets/images/projects/nps-medicinewise/scrivito-1.gif)
 
-<div style="padding:20px;background:#eee;">
+<div style="padding:20px;background:#191919;">
 
 ## Hang on - what is a Headless CMS?
 

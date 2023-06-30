@@ -9,6 +9,39 @@
   @apply opacity-0;
 }
 
+.markdown a {
+  @apply text-red-50;
+  @apply underline;
+}
+
+.markdown .alert {
+  @apply pl-5;
+  @apply py-5;
+}
+
+.markdown h2 {
+  @apply text-lg;
+  @apply font-semibold;
+  @apply mt-5;
+}
+
+.markdown ol {
+  @apply list-decimal;
+  @apply pl-5;
+  @apply py-5;
+}
+
+.markdown p {
+  @apply text-gray-100;
+  @apply py-4;
+}
+
+.markdown ul {
+  @apply list-disc;
+  @apply pl-5;
+  @apply py-5;
+}
+
 .typewriter-cursor:after {
   display: inline-block;
   position: relative;

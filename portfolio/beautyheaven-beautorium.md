@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: beautyheaven
 slug: beautyheaven-beautorium
 title: Beautyheaven Beautorium Loyalty store
