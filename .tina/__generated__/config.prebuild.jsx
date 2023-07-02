@@ -93,7 +93,7 @@ var config_default = defineConfig({
             name: "layout",
             label: "layout",
             required: true,
-            options: ["post", "project", "technology", "job"],
+            options: ["post", "v2-project-detail", "v2-technology-detail", "job"],
             ui: {
               description: "Determines which layout this content will use."
             }

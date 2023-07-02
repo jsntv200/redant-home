@@ -1,10 +1,13 @@
 import { Controller } from "@hotwired/stimulus";
 
 export class NavController extends Controller {
-  static targets = ["item"];
+  static targets = [
+    "item",
+    "wrapper",
+  ];
 
   static values = {
-    activeClass: { type: String, default: "active" },
+    activeClass: { type: String, default: "text-red-50" },
     scrollAnimation: { type: String, default: "false" },
   };
 
@@ -24,10 +27,10 @@ export class NavController extends Controller {
   }
 
   handleScroll() {
-    if (window.pageYOffset > 0) {
-      this.element.classList.add("backdrop-blur-lg", "bg-black/40");
+    if (window.scrollY > 0) {
+      this.wrappers.forEach((el) => el.classList.add("backdrop-blur-lg", "bg-black/40"));
     } else {
-      this.element.classList.remove("backdrop-blur-lg", "bg-black/40");
+      this.wrappers.forEach((el) => el.classList.remove("backdrop-blur-lg", "bg-black/40"));
     }
   }
 
@@ -43,14 +46,6 @@ export class NavController extends Controller {
     link.classList.add(this.activeClass);
   }
 
-  setHeight(event) {
-    const { height } = event.detail || {};
-
-    if (height) {
-      this.element.style.height = `${height}px`;
-    }
-  }
-
   toggleActive() {
     this.items
       .filter(this.isActive.bind(this))
@@ -63,5 +58,9 @@ export class NavController extends Controller {
 
   get items() {
     return this.itemTargets;
+  }
+
+  get wrappers() {
+    return this.wrapperTargets;
   }
 }

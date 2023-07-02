@@ -1,72 +1,103 @@
-<div class="flex overflow-x-auto py-6 border-b border-gray-100/40">
-  <a
-    href="/blog/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/blog/' %}text-red-50 underline{% endif %}">
-    Blog Home
-  </a>
-  <a
-    href="/design/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/design/' %}text-red-50{% endif %}">
-    Design
-  </a>
-  <a
-    href="/marketing/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/marketing/' %}text-red-50{% endif %}">
-    Marketing
-  </a>
-  <a
-    href="/mobile/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/mobile/' %}text-red-50{% endif %}">
-    Mobile
-  </a>
-  <a
-    href="/our-work/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/our-work/' %}text-red-50{% endif %}">
-    Our Work
-  </a>
-  <a
-    href="/red-ant-stuff/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/red-ant-stuff/' %}text-red-50{% endif %}">
-    Red Ant
-  </a>
-  <a
-    href="/ruby-on-rails-devops/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/ruby-on-rails-devops/' %}text-red-50{% endif %}">
-    Devops
-  </a>
-  <a
-    href="/ruby-on-rails/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/ruby-on-rails/' %}text-red-50{% endif %}">
-    Ruby on Rails
-  </a>
-  <a
-    href="/software-development/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/software-development/' %}text-red-50{% endif %}">
-    Software Dev
-  </a>
-  <a
-    href="/strategy/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/strategy/' %}text-red-50{% endif %}">
-    Strategy
-  </a>
-  <a
-    href="/tool-reviews/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/tool-reviews/' %}text-red-50{% endif %}">
-    Tools
-  </a>
-  <a
-    href="/online-payments/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/online-payments/' %}text-red-50{% endif %}">
-    Online Payments
-  </a>
-  <a
-    href="/cyber-security/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/cyber-security/' %}text-red-50{% endif %}">
-    Cyber Security
-  </a>
-  <a
-    href="/privacy/"
-    class="mr-7 hover:underline hover:text-red-50 {% if page.permalink == '/privacy/' %}text-red-50{% endif %} d-none">
-    Privacy
-  </a>
-</div>
+<nav
+  class="fixed w-full z-20 top-16 md:top-[100px] left-0"
+  data-nav-target="wrapper">
+  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto py-3 md:py-8 px-6 lg:py-0 2xl:p-0 text-white border-b border-gray-100/40 h-16 md:h-[70px]">
+    <a
+      href="/blog/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Blog Home
+    </a>
+
+    <a
+      href="/blog/design/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/design/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Design
+    </a>
+
+    <a
+      href="/blog/marketing/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/marketing/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Marketing
+    </a>
+
+    <a
+      href="/blog/mobile/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/mobile/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Mobile
+    </a>
+
+    <a
+      href="/blog/our-work/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/our-work/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Our Work
+    </a>
+
+    <a
+      href="/blog/red-ant-stuff/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/red-ant-stuff/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Red Ant
+    </a>
+
+    <a
+      href="/blog/ruby-on-rails-devops/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/ruby-on-rails-devops/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Devops
+    </a>
+
+    <a
+      href="/blog/ruby-on-rails/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/ruby-on-rails/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Ruby on Rails
+    </a>
+
+    <a
+      href="/blog/software-development/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/software-development/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Software Dev
+    </a>
+
+    <a
+      href="/blog/strategy/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/strategy/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Strategy
+    </a>
+
+    <a
+      href="/blog/tool-reviews/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/tool-reviews/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Tools
+    </a>
+
+    <a
+      href="/blog/online-payments/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/online-payments/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Online Payments
+    </a>
+
+    <a
+      href="/blog/cyber-security/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/cyber-security/' %}text-red-50{% endif %}"
+      data-nav-target="item">
+      Cyber Security
+    </a>
+
+    <a
+      href="/blog/privacy/"
+      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/privacy/' %}text-red-50{% endif %} hidden"
+      data-nav-target="item">
+      Privacy
+    </a>
+  </div>
+</nav>

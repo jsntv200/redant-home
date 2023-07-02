@@ -1,26 +1,24 @@
 ---
-layout: blog
-permalink: /mobile/
+layout: v2-blog-list
+is_blog: true
+permalink: /blog/mobile/
+type: mobile
 title: Mobile
 description: At Red Ant, we have a “mobile first” approach to projects.
-keywords: mobile
+redirect_from:
+  - /mobile
 ---
 
-<h1 class="mb-4">Mobile</h1>
-<p class="subheading">
-  We take a “mobile first” approach to projects. Mobile technology moves quickly
+{% include v2/title-panel.html
+  content="We take a “mobile first” approach to projects. Mobile technology moves quickly
   and the number of different devices is growing. Users’ expectation of
   flawless, continuous service has never been higher.
-</p>
-<p class="subheading">
+  <br /><br />
   To deal with this, we have been developing a mobile testing framework that
   allows us to test our work across a number of different devices automatically.
   A fresh version of the site is published, and then each of the target devices
   runs through a series of end-to-end browser tests using virtual users.
-</p>
-<p class="subheading">
+  <br /><br />
   This testing framework allows us to quickly identify issues and manage an
-  ever-growing list of supported devices.
-</p>
-
-{% include posts-by-category.html category="mobile" %}
+  ever-growing list of supported devices."
+  title="Mobile" %}

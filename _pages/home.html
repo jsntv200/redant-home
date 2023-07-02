@@ -240,7 +240,11 @@ redirect_from:
 
     {% for post in site.posts limit:3 %}
       {% unless include.type != nil or include.type == post.type %}
-        {% include v2/post-card-wide.html %}
+        {% include v2/post-card-wide.html
+          description = post.description
+          image_small = post.image_small
+          title = post.title
+          url = post.url %}
       {% endunless %}
     {% endfor %}
 

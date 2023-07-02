@@ -1,0 +1,39 @@
+---
+layout: v2-default
+---
+
+{% include v2/background-image.html file="svg/lines-9.svg" %}
+
+{{ content }}
+
+<div class="max-w-screen-2xl mx-auto pb-[100px] px-6 pt-14 lg:px-8">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[40px] mx-auto">
+    {% assign posts = site.posts | sort: 'updated_at' | reverse %}
+
+    {% if page.type %}
+      {% for post in site.categories[page.type] %}
+        {% include v2/card.html
+          class-content="p-5"
+          content=post.description
+          image=post.image_small
+          subtitle=post.title
+          text-color="text-cyan-100"
+          url=post.url
+          wrapper-class="bg-cyan-100/[0.25]" %}
+      {% endfor %}
+    {% else %}
+      {% for post in posts %}
+        {% unless include.type != nil or include.type == post.type %}
+          {% include v2/card.html
+            class-content="p-5"
+            content=post.description
+            image=post.image_small
+            subtitle=post.title
+            text-color="text-cyan-100"
+            url=post.url
+            wrapper-class="bg-cyan-100/[0.25]" %}
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>

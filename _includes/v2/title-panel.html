@@ -10,8 +10,9 @@
   subtitle
   title
   title-color
+  wrapper-class
  -->
-<div class="py-24">
+<div class="py-24 {{ include.wrapper-class }}">
   <div class="max-w-screen-2xl flex flex-col md:flex-row mx-auto relative isolate px-6 pt-14 lg:px-8">
     <div class="lg:w-3/5 flex flex-col justify-center">
       {% if include.title %}

@@ -3,10 +3,14 @@
   {% include v2/head.html %}
   <body class="bg-black text-white flex flex-col min-h-screen">
     <div class="flex-grow pt-16 md:pt-[100px]" data-controller="aos">
-      {% include v2/nav.html %}
-      {% if page.is_blog %}
-        {% include blog-nav.html %}
-      {% endif %}
+      <div
+        data-controller="nav"
+        data-nav-scroll-animation-value="true">
+        {% include v2/nav.html %}
+        {% if page.is_blog %}
+          {% include v2/blog-nav.html %}
+        {% endif %}
+      </div>
       {{ content }}
     </div>
     <div class="mt-auto">
