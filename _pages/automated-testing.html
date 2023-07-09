@@ -1,0 +1,38 @@
+---
+layout: default
+permalink: /automated-testing/
+title: Automated testing of Ruby on Rails development
+description: We use an automated testing process to check our work. These scripts are then run via Continuous Integration to ensure that any new work doesn't break existing features.
+---
+
+<header id="section-intro" class="blog-header blog-header--agile">
+  {% include blog-nav.html active="automated-testing" %}
+
+  <div class="blog-intro">
+    <div class="container">
+      <div class="middle">
+        <div class="boom">
+          <h1 class="slash">automated testing</h1>
+          <hr class="dash">
+          <p>We use an automated testing process to check our work. These scripts are then run via Continuous Integration to ensure that any new work doesn't break existing features.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="py-4">
+  <div class="container content">
+    <p></p>
+    <p>When testing a web project, we check for four key things:</p>
+    <ol>
+      <li>Does it work correctly?</li>
+      <li>Does it look right?</li>
+      <li>Is everything else still working?</li>
+      <li>Are there any security holes?</li>
+    </ol>
+    <p>Each time a developer makes a change, it is sent to the lead developer for peer review. Once approved it is added to the code repository, which triggers a series of automated tests to check against all of the above criteria. By carefully describing how the site should function and then testing those functions, any issues are immediately picked up and resolved.</p><hr>
+  </div>
+</section>
+
+{% include posts-by-category.html category="automated-testing" %}

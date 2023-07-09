@@ -7,14 +7,18 @@ description: It isn’t just good design, or a good user experience.  Great digi
 
 {% include v2/background-image.html file="svg/lines-5.svg" %}
 
-{% include v2/title-panel.html
-  title="Portfolio" %}
+{% include v2/title-panel.html title="Portfolio" %}
 
 <div class="max-w-screen-2xl grid grid-cols-1 md:grid-cols-3 gap-[40px] mx-auto px-6 pt-14 lg:px-8 mb-24">
   {% for slug in site.data.portfolio.order %}
     {% assign pages = site.pages | where:'slug', slug %}
     {% for page in pages %}
       {% assign image = page.images | where: "type", "desktop" | first %}
+
+      {% if image == nil %}
+        {% assign image = page.images | where: "type", "mobile" | first %}
+      {% endif %}
+
       {% include v2/card-with-backdrop.html
         bg-color=page.theme
         content=page.description

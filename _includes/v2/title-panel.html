@@ -1,4 +1,4 @@
-<!-- Options:
+{% comment %}
   content
   cta-1-link
   cta-1-label
@@ -11,12 +11,16 @@
   title
   title-color
   wrapper-class
- -->
+{% endcomment %}
+
 <div class="py-24 {{ include.wrapper-class }}">
   <div class="max-w-screen-2xl flex flex-col md:flex-row mx-auto relative isolate px-6 pt-14 lg:px-8">
     <div class="lg:w-3/5 flex flex-col justify-center">
       {% if include.title %}
-        <h2 class="text-5xl font-bold mb-[30px] text-{{ include.title-color }}">
+        {% if include.description or include.subtitle or include.content %}
+          {% assign margin-class = "mb-[30px]" %}
+        {% endif %}
+        <h2 class="text-5xl font-bold {{ margin-class }} text-{{ include.title-color }}">
           {{ include.title }}
         </h2>
       {% endif %}
@@ -39,29 +43,31 @@
         </p>
       {% endif %}
 
-      <div class="mt-10">
-        {% if include.cta-1-link %}
-          <a
-            href="{{ include.cta-1-link }}"
-            class="cursor-pointer rounded-md bg-red-100 px-3.5 py-3 mr-4 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
-            {{ include.cta-1-label }}
-          </a>
-        {% endif %}
+      {% if include.cta-1-link or include.cta-2-link or include.cta-intercom-label %}
+        <div class="mt-10">
+          {% if include.cta-1-link %}
+            <a
+              href="{{ include.cta-1-link }}"
+              class="cursor-pointer rounded-md bg-red-100 px-3.5 py-3 mr-4 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
+              {{ include.cta-1-label }}
+            </a>
+          {% endif %}
 
-        {% if include.cta-2-link %}
-          <a
-            href="{{ include.cta-2-link }}"
-            class="cursor-pointer rounded-md bg-red-100 px-3.5 py-3 mr-4 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
-            {{ include.cta-2-label }}
-          </a>
-        {% endif %}
+          {% if include.cta-2-link %}
+            <a
+              href="{{ include.cta-2-link }}"
+              class="cursor-pointer rounded-md bg-red-100 px-3.5 py-3 mr-4 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
+              {{ include.cta-2-label }}
+            </a>
+          {% endif %}
 
-        {% if include.cta-intercom-label %}
-          <a class="cursor-pointer intercom-launcher rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
-            {{ include.cta-intercom-label }}
-          </a>
-        {% endif %}
-      </div>
+          {% if include.cta-intercom-label %}
+            <a class="cursor-pointer intercom-launcher rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
+              {{ include.cta-intercom-label }}
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
     </div>
 
     {% if include.image %}

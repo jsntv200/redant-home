@@ -41,10 +41,6 @@ images:
     path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-hero-mobile1.jpg
     width: 300
     height: 534
-  - type: desktop
-    path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-hero-mobile2.jpg
-    width: 300
-    height: 534
 ---
 
 This project was developing a relatively complex app as part of a Health & Fitness program. You can read a bit more about [the health and fitness project here](/portfolio/12wbt/).

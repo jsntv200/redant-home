@@ -14,14 +14,15 @@ layout: v2-default
     {% include v2/portfolio/previews.html
       image-desktop = image-desktop
       image-mobile = image-mobile
+      is-portfolio-page = true
       title = include.title %}
   </div>
 
-  <h2 class="text-5xl font-bold mb-[30px] text-{{ include.title-color }} my-[50px] md:mt-[100px]">
+  <h2 class="text-3xl md:text-5xl font-bold mb-[50px] text-{{ include.title-color }} my-[50px] md:mt-[100px]">
     {{ page.title }}
   </h2>
 
-  <hr class="bg-gray-100/40 mb-[50px]"></hr>
+  <hr class="bg-gray-100/40 h-[2px] mb-[50px]"></hr>
 
   <div class="markdown">
     {{ content }}

@@ -1,7 +1,21 @@
+{% comment %}
+  class-md-height
+  class-wrapper
+  is-portfolio-page
+  path
+  title
+{% endcomment %}
+
+{% if include.is-portfolio-page %}
+  {% assign class-left-margin = "md:left-44" %}
+{% elsif include.class-md-height %}
+  {% assign class-left-margin = "md:left-12" %}
+{% endif %}
+
 <div class="{{ include.class-wrapper }}">
-  <div class="rounded-md bg-gray-50 w-full h-[350px] {{ include.class-lg-height }} overflow-hidden">
+  <div class="rounded-md bg-gray-50 h-[350px] overflow-hidden {{ include.class-md-height }}">
     <div class="flex justify-center p-2">
-      <div class="absolute flex left-2 md:left-12">
+      <div class="absolute flex left-2 {{ class-left-margin }}">
         <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
         <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
         <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>

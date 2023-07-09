@@ -1,10 +1,12 @@
-<!--
+{% comment %}
   bg-color
   content
   subtitle
   title
   color
-  url -->
+  url
+{% endcomment %}
+
 <div class="flex relative">
   <div class="absolute flex justify-center h-full w-full -z-10">
     <div
@@ -15,9 +17,11 @@
 
   <a href="{{ include.url }}">
     {% if include.image and include.is-portfolio %}
-      {% include v2/portfolio/desktop-view.html
-        title=include.title
-        path=include.image %}
+      <div class="-mb-7">
+        {% include v2/portfolio/desktop-view.html
+          title=include.title
+          path=include.image %}
+      </div>
     {% elsif include.image %}
       <img
         class="w-full h-[320px] mb-8"

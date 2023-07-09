@@ -1,10 +1,12 @@
-<!--
+{% comment %}
   content
   flip
   slug
   subtitle
   title
-  url -->
+  url
+{% endcomment %}
+
 {% assign project = site.pages | where: "slug", include.slug | first %}
 {% assign image-desktop = project.images | where: "type", "desktop" | first %}
 {% assign image-mobile = project.images | where: "type", "mobile" | first %}
