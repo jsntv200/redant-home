@@ -12,7 +12,7 @@
 
 <div class="grid grid-cols-2 md:grid-cols-4 gap-[40px]">
   {% assign pages = site.pages | where: 'layout', "v2-technology-detail" %}
-  {% assign count = 1 %}
+  {% assign count = 0 %}
   {% for page in pages %}
     {% for slug in page.projects %}
       {% if slug == include.slug %}
@@ -27,12 +27,12 @@
       {% endif %}
     {% endfor %}
 
-    {% if count == 4 %}
+    {% if count == 3 %}
       {% break %}
     {% endif %}
   {% endfor %}
 
-  {% if count  1 %}
+  {% if count == 0 %}
     {% for page in pages limit:4 %}
       {% include v2/card.html
         description=page.type
