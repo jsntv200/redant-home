@@ -1,3 +1,7 @@
+{% comment %}
+  slug
+{% endcomment %}
+
 <hr class="bg-white/40 h-[2px]" />
 
 <div class="flex justify-between align-middle items-center my-[50px] md:my-[100px]">
@@ -8,12 +12,34 @@
 
 <div class="grid grid-cols-2 md:grid-cols-4 gap-[40px]">
   {% assign pages = site.pages | where: 'layout', "v2-technology-detail" %}
-  {% for page in pages limit:4 %}
-    {% include v2/card.html
-      description=page.type
-      image=page.image
-      text-color="text-red-50"
-      title=page.title
-      url=page.url %}
+  {% assign count = 1 %}
+  {% for page in pages %}
+    {% for slug in page.projects %}
+      {% if slug == include.slug %}
+        {% include v2/card.html
+          description=page.type
+          image=page.image
+          text-color="text-red-50"
+          title=page.title
+          url=page.url %}
+
+        {% assign count = count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+
+    {% if count == 4 %}
+      {% break %}
+    {% endif %}
   {% endfor %}
+
+  {% if count  1 %}
+    {% for page in pages limit:4 %}
+      {% include v2/card.html
+        description=page.type
+        image=page.image
+        text-color="text-red-50"
+        title=page.title
+        url=page.url %}
+    {% endfor %}
+  {% endif %}
 </div>
