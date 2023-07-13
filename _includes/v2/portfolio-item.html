@@ -9,7 +9,7 @@
 
 {% assign project = site.pages | where: "slug", include.slug | first %}
 {% assign image-desktop = project.images | where: "type", "desktop" | first %}
-{% assign image-mobile = project.images | where: "type", "mobile" | first %}
+{% assign images-mobile = project.images | where: "type", "mobile" %}
 
 <div class="w-full relative mb-[50px] md:mb-[100px]">
   <div class="absolute flex justify-center h-full w-full -z-10">
@@ -23,7 +23,7 @@
     {% include v2/portfolio/previews.html
       flip = include.flip
       image-desktop = image-desktop
-      image-mobile = image-mobile
+      images-mobile = images-mobile
       title = include.title
       wrapper-class="lg:w-1/2" %}
 

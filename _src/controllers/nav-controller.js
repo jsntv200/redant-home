@@ -28,9 +28,13 @@ export class NavController extends Controller {
 
   handleScroll() {
     if (window.scrollY > 0) {
-      this.wrappers.forEach((el) => el.classList.add("backdrop-blur-lg", "bg-black/40"));
+      for (const el of this.wrappers) {
+        el.classList.add("backdrop-blur-lg", "bg-black/40");
+      }
     } else {
-      this.wrappers.forEach((el) => el.classList.remove("backdrop-blur-lg", "bg-black/40"));
+      for (const el of this.wrappers) {
+        el.classList.remove("backdrop-blur-lg", "bg-black/40");
+      }
     }
   }
 

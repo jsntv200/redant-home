@@ -7,22 +7,71 @@ layout: v2-default
   file="svg/lines-5.svg" %}
 
 {% assign image-desktop = page.images | where: "type", "desktop" | first %}
-{% assign image-mobile = page.images | where: "type", "mobile" | first %}
+{% assign images-mobile = page.images | where: "type", "mobile" %}
 
 <div class="max-w-screen-lg mx-auto py-[50px] md:py-[100px] px-6 lg:px-20">
+  <h2 class="text-3xl md:text-5xl font-bold mb-7 md:mb-20 text-{{ include.title-color }}">
+    {{ page.title }}
+  </h2>
+
   <div class="flex justify-center">
     {% include v2/portfolio/previews.html
       image-desktop = image-desktop
-      image-mobile = image-mobile
+      images-mobile = images-mobile
       is-portfolio-page = true
       title = include.title %}
   </div>
 
-  <h2 class="text-3xl md:text-5xl font-bold mb-[50px] text-{{ include.title-color }} my-[50px] md:mt-[100px]">
-    {{ page.title }}
-  </h2>
+  <hr class="bg-gray-100/40 h-[2px] mt-10 mb-5 md:mt-20 md:mb-8"></hr>
 
-  <hr class="bg-gray-100/40 h-[2px] mb-[50px]"></hr>
+  <ul class="flex flex-col lg:flex-row justify-between text-gray-100">
+    {% if page.client.size > 1 %}
+      <li><strong class="text-white">Client:</strong> {{ page.client }}</li>
+    {% endif %}
+
+    {% if page.project_date.size > 1 %}
+      <li><strong class="text-white">Date:</strong> {{ page.project_date }}</li>
+    {% endif %}
+
+    {% if page.project_url.size > 1 %}
+      <li>
+        <strong class="text-white">Project URL:</strong>
+        <a
+          href="{{ page.project_url }}"
+          class="hover:underline text-red-50">
+          {{ page.project_url }}
+        </a>
+      </li>
+    {% endif %}
+
+    {% if page.team_size.size > 1 %}
+      <li><strong class="text-white">Team Size:</strong> {{ page.team_size }}</li>
+    {% endif %}
+
+    {% if page.lines_of_code.size > 1 %}
+      <li>
+        <strong class="text-white">Lines of code:</strong> {{ page.lines_of_code }}
+      </li>
+    {% endif %}
+  </ul>
+
+  {% if page.technology_tags.size > 1 %}
+    <p class="text-gray-100">
+      <strong class="text-white">Key technology:</strong>
+      {% for technology in page.technology_tags %}
+        {% assign techPage = site.pages | where: 'title', page.technology_tags[forloop.index0] %}
+        {% if techPage.size > 0 %}
+          <a
+            href="{{ techPage[0].url }}"
+            class="hover:underline text-red-50">{{ technology }}</a>,
+        {% else %}
+          {{ technology }},
+        {% endif %}
+      {% endfor %}
+    </p>
+  {% endif %}
+
+  <hr class="bg-gray-100/40 h-[2px] mt-5 mb-6 md:mt-8 md:mb-11"></hr>
 
   <div class="markdown">
     {{ content }}

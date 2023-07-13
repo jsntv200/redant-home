@@ -5,7 +5,6 @@ module.exports = {
     "./_book_call/*.md",
     "./_includes/**/*.html",
     "./_layouts/*.html",
-    "./_pages/*.{html, md}",
     "./_pages/**/*.{html, md}",
     "./_posts/*.md",
     "./_results/*.md",
@@ -173,6 +172,9 @@ module.exports = {
           50: '#8cc63f',
           100: '#8cc63f',
         },
+      },
+      dropShadow: {
+        '3xl': '0 35px 35px rgba(0, 0, 0, 0.40)',
       },
       fontFamily: {
         sans: ["Montserrat", ...defaultTheme.fontFamily.sans],

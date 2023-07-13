@@ -17,7 +17,7 @@ technology_tags:
   - WAVE visually impaired testing tool as part of CI build chain
 industry_vertical_tags: []
 service_tags: []
-project_date: 2015-17
+project_date: 2015-2017
 team_size: ''
 lines_of_code: ''
 images:
@@ -51,22 +51,27 @@ Behind the scenes, the project included initiatives that would save money and in
 
 ![Scrivito editing CMS](/assets/images/projects/nps-medicinewise/scrivito-1.gif)
 
-<div style="padding:20px;background:#191919;">
+<div class="p-5 bg-gray-200">
 
-## Hang on - what is a Headless CMS?
+<h2>Hang on - what is a Headless CMS?</h2>
 
+<p>
 Don't worry- this can be confusing. This type of CMS is less talked and less understood than a traditional platform style CMS (like Sitecore, WordPress or Drupal). In a nutshell, a Headless CMS is a backend only content management system that behaves like a content repository, making content accessible via a RESTful API for display on any device.
-
+</p>
+<p>
 Often when people are faced with a requirement:
-*"I have/want a web site with lots of content that my team can edit"*
+<i>"I have/want a web site with lots of content that my team can edit"</i>
 they start looking for the best CMS. Google that and you'll get a billion options and opinions. Some are free, while others are eye-watering-ly expensive. What about Wordpress, what about Adobe, what about SiteCore? Move past the hype, and they are all remarkably similar- you edit some content, click save, and it appears on a page.
-
-One key distinction is how they connect to other code. Wordpress, Sitecore and Adobe EM are all examples of **CMS platforms** - they are intended to be the primary technology. They suit sites where most of the pages are stuff you're editing. If you want to add functionality to say your WordPress site, you need to code that functionality so that it follows WordPress formats. Which is fine for simple things, but becomes exponentially more difficult as complexity increases.
-
-There is another type of CMS, sometimes called <i>Headless CMS</i>. Examples being [Scrivito](https://scrivito.com/features "Scrivito") and [Contentful](https://www.contentful.com/ "Contentful"). These are a bit more flexible (and we are big fans). You develop your code to do whatever it needs to do, and then sprinkle some CMS on pages or blocks of content as required.
-
-Pick your CMS by first understanding your total requirements, then determine if you need a platform or headless CMS. If anyone uses buzz words like "personalisation" as a reason for a particular CMS (I'm looking at you, Adobe and Sitecore), stop and think about exactly what is the problem you're trying to solve. Perhaps [dynamic content for each user](/portfolio/12wbt-dynamic-video/ "dynamic content for each user") is what you're actually after.
-
+</p>
+<p>
+One key distinction is how they connect to other code. Wordpress, Sitecore and Adobe EM are all examples of <b>CMS platforms</b> - they are intended to be the primary technology. They suit sites where most of the pages are stuff you're editing. If you want to add functionality to say your WordPress site, you need to code that functionality so that it follows WordPress formats. Which is fine for simple things, but becomes exponentially more difficult as complexity increases.
+</p>
+<p>
+There is another type of CMS, sometimes called <i>Headless CMS</i>. Examples being a <a href="https://scrivito.com/features" target="_blank">Scrivito</a> and <a href="https://www.contentful.com/" target="_blank">Contentful</a>. These are a bit more flexible (and we are big fans). You develop your code to do whatever it needs to do, and then sprinkle some CMS on pages or blocks of content as required.
+</p>
+<p>
+Pick your CMS by first understanding your total requirements, then determine if you need a platform or headless CMS. If anyone uses buzz words like "personalisation" as a reason for a particular CMS (I'm looking at you, Adobe and Sitecore), stop and think about exactly what is the problem you're trying to solve. Perhaps <a href="/portfolio/12wbt-dynamic-video/">dynamic content for each user</a> is what you're actually after.
+</p>
 </div>
 
 Anyway, back to the NPS project. The next phase of the project was to update the rest of quite a large existing site to also use Scrivito. This meant designing and building new templates, as well as the content team updating literally thousands of pages of content. One of the nice features is the ability to create working copies. This means anyone on a team can start working on a version of the site, and then merge their changes when they are done without overwriting other people’s changes.

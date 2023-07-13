@@ -17,8 +17,7 @@ export class TypewriterWordController extends Controller {
   }
 
   startAnimation() {
-    this.element.classList.toggle("text-red-50", true);
-    this.element.classList.toggle("typewriter-cursor", true);
+    this.element.classList.toggle("text-red-50", "typewriter-cursor", true);
 
     // start typing after a small delay so the highlight colour and cursor are visible
     setTimeout(this.start.bind(this), 500);
@@ -45,8 +44,7 @@ export class TypewriterWordController extends Controller {
 
     // fade red to black
     setTimeout(() => {
-      this.element.classList.toggle("text-red-50", false);
-      this.element.classList.toggle("typewriter-cursor", false);
+      this.element.classList.toggle("text-red-50", "typewriter-cursor", false);
     }, 1000);
 
     // remove slow transition so next black to red is fast
