@@ -14,7 +14,15 @@ layout: v2-default
   cta-2-label="Get started"
   image=page.image %}
 
-<div class="bg-red-100/[0.25]">
+<div class="max-w-screen-2xl mx-auto px-6 lg:px-8">
+  <div class="lg:w-3/5 pb-[50px] md:pb-[100px]">
+    <hr class="bg-gray-100/40 h-[2px] mb-6 md:mb-11"></hr>
+
+    <div class="markdown">{{ content }}</div>
+  </div>
+</div>
+
+<div class="bg-red-100/[0.15]">
   <div class="max-w-screen-2xl mx-auto py-[50px] md:py-[100px] px-6 lg:px-8">
     <h2 class="text-3xl lg:text-5xl font-bold mb-[50px]">How we can help</h2>
 
@@ -56,6 +64,7 @@ layout: v2-default
 </div>
 
 {% assign count = page.projects | size %}
+
 {% if count > 0 %}
   <div class="max-w-screen-2xl mx-auto px-6 pt-14 lg:px-8 py-[100px]">
     <h2 class="text-3xl lg:text-5xl font-bold my-[50px] md:my-[100px]">Some of our {{ page.title }} projects</h2>
@@ -64,6 +73,11 @@ layout: v2-default
         {% assign pages = site.pages | where:'slug', slug %}
         {% for page in pages %}
           {% assign image = page.images | where: "type", "desktop" | first %}
+
+          {% if image == nil %}
+            {% assign image = page.images | where: "type", "mobile" | first %}
+          {% endif %}
+
           {% include v2/card-with-backdrop.html
             bg-color=page.theme
             content=page.description

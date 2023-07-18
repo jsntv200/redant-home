@@ -7,7 +7,7 @@
 {% endcomment %}
 
 {% if include.is_blog %}
-  {% assign background = "bg-cyan-100/[0.25]" %}
+  {% assign background = "bg-cyan-100/[0.15]" %}
   {% assign border = "" %}
   {% assign text-class = "text-cyan-100 group-hover:item:text-cyan-200" %}
 {% else %}
@@ -15,6 +15,7 @@
   {% assign border = "border-b-[1px] border-white/40" %}
   {% assign text-class = "text-red-50 group-hover:item:text-red-200" %}
 {% endif %}
+
 <a
   href="{{ include.url }}"
   class="group/item flex flex-col items-center md:flex-row {{ border }} {{ background }}">
