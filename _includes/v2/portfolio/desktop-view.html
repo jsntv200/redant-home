@@ -1,0 +1,32 @@
+{% comment %}
+  class-md-height
+  class-wrapper
+  is-portfolio-page
+  path
+  title
+{% endcomment %}
+
+{% if include.is-portfolio-page %}
+  {% assign class-left-margin = "md:left-44" %}
+{% elsif include.class-md-height %}
+  {% assign class-left-margin = "md:left-12" %}
+{% endif %}
+
+<div class="{{ include.class-wrapper }}">
+  <div class="rounded-md bg-gray-50 h-[350px] overflow-hidden {{ include.class-md-height }}">
+    <div class="flex justify-center p-2">
+      <div class="absolute flex left-2 {{ class-left-margin }}">
+        <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
+        <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
+        <div class="rounded-full mt-1 mr-2 h-3 w-3 bg-white"></div>
+      </div>
+      <div class="rounded-md h-5 w-36 md:w-44 lg:w-80 bg-white flex justify-center items-center"></div>
+    </div>
+    <div class="relative flex align-middle">
+      <img
+        class="absolute object-cover"
+        src="{{ include.path }}"
+        alt="{{ include.title }} desktop layout">
+    </div>
+  </div>
+</div>

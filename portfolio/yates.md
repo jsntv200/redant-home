@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: yates
 slug: yates
 title: 'Blossoming with Yates: Our Web Development for a Leading Garden Care Brand'

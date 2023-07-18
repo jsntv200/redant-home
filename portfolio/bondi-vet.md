@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: bondi-vet
 slug: bondi-vet
 title: 'Tailored Treats: Personalised Video and Blog Content for Pet Owners'

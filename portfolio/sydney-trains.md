@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: sydney-trains
 slug: sydney-trains
 title: >-

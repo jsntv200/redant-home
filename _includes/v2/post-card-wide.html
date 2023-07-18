@@ -1,0 +1,43 @@
+{% comment %}
+  description
+  image_small
+  is_blog
+  title
+  url
+{% endcomment %}
+
+{% if include.is_blog %}
+  {% assign background = "bg-cyan-100/[0.15]" %}
+  {% assign border = "" %}
+  {% assign text-class = "text-cyan-100 group-hover:item:text-cyan-200" %}
+{% else %}
+  {% assign background = "py-10" %}
+  {% assign border = "border-b-[1px] border-white/40" %}
+  {% assign text-class = "text-red-50 group-hover:item:text-red-200" %}
+{% endif %}
+
+<a
+  href="{{ include.url }}"
+  class="group/item flex flex-col items-center md:flex-row {{ border }} {{ background }}">
+  {% if include.image_small %}
+    <div class="w-full md:w-1/4 overflow-hidden mb-4 md:mb-0">
+      <div class="h-[200px] md:h-[250px] md:max-h-[250px] w-full">
+        <img
+          class="object-cover min-w-full h-full"
+          src="{{ include.image_small }}"
+          alt="{{ include.title }} image">
+      </div>
+    </div>
+  {% endif %}
+  <div class="w-full md:w-3/4 flex flex-col justify-between md:pl-4 leading-normal">
+    <h5 class="mb-2 text-2xl font-bold tracking-tight {{ text-class }}">
+      {{ include.title }}
+    </h5>
+    {% if include.description %}
+      <p class="mb-3 text-gray-100">
+        {{ include.description }}
+      </p>
+    {% endif %}
+  </div>
+</a>
+

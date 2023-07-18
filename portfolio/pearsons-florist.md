@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: pearsons-florist
 project_url: https://www.pearsonsflorist.com.au/
 project_date: "2020"

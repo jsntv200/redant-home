@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: 12wbt
 slug: 12wbt
 title: 'Scaling Up from MVP to Global SaaS: Strategies for Successful Expansion'
@@ -71,7 +71,7 @@ We started on this way back in 2011. Back then there was a basic MVP built with 
 
 One of the interesting things about working on this project is that they have a very large group of highly engaged members, each of which is on a quite personal journey. There are a lot of them, they seem to use it pretty much all the time, and they are highly passionate and involved with the product.
 
-![Member Zone](/assets/uploads/assets/images/projects/12wbt/desktop-12wbt-4.jpg)
+![Member Zone](/assets/images/projects/12wbt/desktop-12wbt-4.jpg)
 
 All of which means we get pretty immediate feedback. And if you're going to ask for feedback, you'd better be prepared to do something about it. I won't bore you with details, but one morning we pushed a new feature. It became quickly apparent that while they liked some parts, other bits (that we'd de-prioritised) were in fact required. We scrambled and got two teams (front end and back end) working on an update, which we pushed out later that afternoon. I'm glossing over a few things here, like the reason that we were able to build and release a significant update quickly was partly due to all the foundation work before - the boring stuff like an automated test suite, continuous integration, and seamless "no downtime" deploy flow.
 

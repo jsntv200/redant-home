@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: pearsons-school-of-floristry
 project_url: https://pearsonsschool.com.au/
 project_date: "2019"

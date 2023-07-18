@@ -1,0 +1,16 @@
+<div class="max-w-screen-2xl grid grid-cols-1 md:grid-cols-3 gap-[40px] mx-auto px-6 lg:px-8">
+  {% for slug in site.data.technology.order %}
+    {% assign pages = site.pages | where: 'slug', slug | where: 'category', include.category %}
+    {% for page in pages %}
+      {% include v2/card.html
+        content=page.listing_description
+        description=page.type
+        hr="true"
+        image=page.image
+        image-rounded="true"
+        text-color="text-red-50"
+        title=page.title
+        url=page.url %}
+    {% endfor %}
+  {% endfor %}
+</div>

@@ -1,0 +1,59 @@
+{% comment %}
+  flip
+  image-desktop
+  images-mobile
+  is-portfolio-page
+  title
+  wrapper-class
+{% endcomment %}
+
+<div class="w-full {{ include.wrapper-class }} relative {% if include.flip %}md:order-2{% endif %}">
+  <div class="h-full flex flex-col justify-center">
+    {% if include.is-portfolio-page and include.images-mobile != empty %}
+      {% assign class-wrapper = "md:pl-40" %}
+      {% assign class-mobile-height = "md:h-fit" %}
+    {% elsif include.is-portfolio-page and include.image-desktop and include.images-mobile == empty %}
+      {% assign class-wrapper = "md:px-10" %}
+      {% assign class-mobile-height = "md:h-[480px]" %}
+    {% elsif include.images-mobile != empty %}
+      {% assign class-wrapper = "md:pl-10" %}
+      {% assign class-mobile-height = "md:h-[480px]" %}
+    {% endif %}
+
+    {% if include.image-desktop %}
+      {% include v2/portfolio/desktop-view.html
+        class-wrapper = class-wrapper
+        class-md-height = "md:h-[700px]"
+        is-portfolio-page = include.is-portfolio-page
+        path = include.image-desktop.path
+        title = include.title %}
+    {% endif %}
+
+    {% if include.image-desktop and include.is-portfolio-page %}
+      {% assign class-position = "hidden absolute bottom-0" %}
+    {% elsif include.image-desktop %}
+      {% assign class-position = "hidden absolute top-28" %}
+    {% else %}
+      {% assign class-position = "relative mx-2 md:mx-6" %}
+      {% assign mobile-wrapper-class = "flex justify-center" %}
+    {% endif %}
+
+    {% if include.images-mobile != empty %}
+      {% if include.is-portfolio-page %}
+        {% assign max-previews = 2 %}
+      {% else %}
+        {% assign max-previews = 1 %}
+      {% endif %}
+
+      <div class="{{ mobile-wrapper-class }}">
+        {% for image in images-mobile limit max-previews %}
+          {% include v2/portfolio/mobile-view.html
+            class-mobile-height = class-mobile-height
+            class-position = class-position
+            path = image.path
+            title = include.title %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: technology
+layout: v2-technology-detail
 category: Hosting
 type: Integration
 title: Amazon Web Services (AWS)

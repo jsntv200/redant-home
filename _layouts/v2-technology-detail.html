@@ -1,0 +1,103 @@
+---
+layout: v2-default
+---
+
+{% include v2/background-image.html file="svg/lines-7.svg" %}
+
+{% include v2/title-panel.html
+  title=page.title
+  subtitle=page.subtitle
+  content=page.description
+  cta-1-link="/free-initial-consult-code-review/"
+  cta-1-label="Free initial consult"
+  cta-2-link="/ruby-on-rails-code-review/"
+  cta-2-label="Get started"
+  image=page.image %}
+
+<div class="max-w-screen-2xl mx-auto px-6 lg:px-8">
+  <div class="lg:w-3/5 pb-[50px] md:pb-[100px]">
+    <hr class="bg-gray-100/40 h-[2px] mb-6 md:mb-11"></hr>
+
+    <div class="markdown">{{ content }}</div>
+  </div>
+</div>
+
+<div class="bg-red-100/[0.15]">
+  <div class="max-w-screen-2xl mx-auto py-[50px] md:py-[100px] px-6 lg:px-8">
+    <h2 class="text-3xl lg:text-5xl font-bold mb-[50px]">How we can help</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px] mx-auto">
+      {% include v2/card.html
+        content="We create, design and build new apps and platforms. We can help
+        you design for scale, as well as strategy or product support as
+        you need it. We'll take responsibility for delivering your
+        project.We create, design and build new apps and platforms. We
+        can help you design for scale, as well as strategy or product
+        support as you need it. We'll take responsibility for delivering
+        your project."
+        icon="fa-hammer"
+        icon-color="red-100"
+        subtitle="New Builds"
+        text-color="red-100" %}
+
+      {% include v2/card.html
+        content="We can also take over an existing project. Often companies need
+        a bit more experience, developer resourcing, or help in
+        completing certain features before they launch. Or you might
+        need more development tasks done to your existing platform."
+        icon="fa-window-maximize"
+        icon-color="red-100"
+        subtitle="Existing Apps"
+        text-color="red-100" %}
+
+      {% include v2/card.html
+        content="We also provide a comprehensive Devops and Platform Support
+        service. We'll take on responsibility for monitoring and
+        providing technical support as part of an ongoing plan that we
+        can design with you."
+        icon="fa-screwdriver-wrench"
+        icon-color="red-100"
+        subtitle="Devops and Platform Support"
+        text-color="red-100" %}
+    </div>
+  </div>
+</div>
+
+{% assign count = page.projects | size %}
+
+{% if count > 0 %}
+  <div class="max-w-screen-2xl mx-auto px-6 pt-14 lg:px-8 py-[100px]">
+    <h2 class="text-3xl lg:text-5xl font-bold my-[50px] md:my-[100px]">Some of our {{ page.title }} projects</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[40px]">
+      {% for slug in site.data.portfolio.order %}
+        {% assign pages = site.pages | where:'slug', slug %}
+        {% for page in pages %}
+          {% assign image = page.images | where: "type", "desktop" | first %}
+
+          {% if image == nil %}
+            {% assign image = page.images | where: "type", "mobile" | first %}
+          {% endif %}
+
+          {% include v2/card-with-backdrop.html
+            bg-color=page.theme
+            content=page.description
+            hr="true"
+            is-portfolio=true
+            image=image.path
+            subtitle=page.subtitle
+            color=page.theme
+            title=page.title
+            url=page.dir %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+<div class="max-w-screen-2xl mx-auto px-6 lg:px-8">
+  <hr class="bg-gray-100/40 h-[2px] mb-[50px]"></hr>
+</div>
+
+{% include v2/companies.html
+  title="These companies trust us"
+  content="For more than 20 years, we've had the pleasure of working with many startups, brands and large companies." %}

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: beautyheaven
 slug: beautyheaven
 title: Optimising Platform Performance for Ad Revenue and Data Monetisation

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: 12wbt
 slug: 12wbt-daily-app
 title: 'Product Market Fitness: Creating a User-Centered Workout App'
@@ -41,7 +41,7 @@ images:
     path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-hero-mobile1.jpg
     width: 300
     height: 534
-  - type: desktop
+  - type: mobile
     path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-hero-mobile2.jpg
     width: 300
     height: 534

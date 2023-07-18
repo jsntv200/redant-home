@@ -9,7 +9,7 @@ export class TypewriterWordController extends Controller {
     this.altValue = [this.element.innerText].concat(this.altValue); // insert orig word and shuffle alt words
     this.altIndex = 0; // start with alt word at this index
 
-    this.element.classList.toggle('relative', true);
+    this.element.classList.toggle("relative", true);
   }
 
   disconnect() {
@@ -17,8 +17,7 @@ export class TypewriterWordController extends Controller {
   }
 
   startAnimation() {
-    this.element.classList.toggle('text-red-50', true);
-    this.element.classList.toggle('typewriter-cursor', true);
+    this.element.classList.toggle("text-red-50", "typewriter-cursor", true);
 
     // start typing after a small delay so the highlight colour and cursor are visible
     setTimeout(this.start.bind(this), 500);
@@ -28,7 +27,7 @@ export class TypewriterWordController extends Controller {
     // add delay to allow the text to finish transitioning to red
     // before adding the slower transition to black
     setTimeout(() => {
-      this.element.classList.toggle('transition-color', 'duration-1500', 'ease-in-out', true);
+      this.element.classList.toggle("transition", "duration-1500", "ease-in-out", true);
     }, 500);
 
     this.clearTypeInterval();
@@ -43,15 +42,14 @@ export class TypewriterWordController extends Controller {
   finish() {
     this.clearTypeInterval();
 
-    // fade red to black
+    // fade red to white
     setTimeout(() => {
-      this.element.classList.toggle('text-red-50', false);
-      this.element.classList.toggle('typewriter-cursor', false);
+      this.element.classList.toggle("text-white", "typewriter-cursor", false);
     }, 1000);
 
     // remove slow transition so next black to red is fast
     setTimeout(() => {
-      this.element.classList.toggle('transition-color', 'duration-1500', 'ease-in-out', false);
+      this.element.classList.toggle("transition", "duration-1500", "ease-in-out", false);
     }, 2000);
   }
 

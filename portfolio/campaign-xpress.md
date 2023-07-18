@@ -1,5 +1,5 @@
 ---
-layout: project
+layout:  v2-portfolio-detail
 theme: campaign-xpress
 slug: campaign-xpress
 title: Automated Ad Development and Placement in Real Estate Advertising
