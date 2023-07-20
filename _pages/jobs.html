@@ -1,68 +1,47 @@
 ---
-layout: default
+layout: v2-default
 permalink: /jobs/
 title: Jobs and Careers at Red Ant
 description: At Red Ant we are always on a look out for a good fit to this family. If you are liviing in Sdyney, a Ruby and Rails developer, a JavaScript developer or just like to get to know us better. Red Ant would very much like to hear from you.
 ---
 
-<header
-  id="section-intro"
-  class="ga-section bg-gray-light default-padding bg-portfolio-list"
->
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 py-3">
-        <h1 class="mb-3">Working at Red Ant</h1>
-        <p>Red Ant is a diverse workplace in Surry Hills, Sydney.</p>
-      </div>
-    </div>
-  </div>
-</header>
+{% include v2/background-image.html file="svg/lines-6.svg" %}
 
-<section
-  id="section-jobs"
-  class="ga-section section-border default-padding pt-5"
->
-  <div class="container">
-    <div class="row">
-      <div class="col mb-5">
-        <h2>Available Jobs:</h2>
-      </div>
-    </div>
-    <div class="row mb-3">
-      {% for slug in site.data.jobs.order %} {% assign pages = site.pages |
-      where:'slug', slug %} {% for page in pages %}
-      <div class="col-12 mb-4">
-        <div class="card">
-          <h4>{{ page.title }}</h4>
-          <p>{{ page.summary }}</p>
-          <a href="/jobs/{{ page.slug }}/">Read more</a>
-        </div>
-      </div>
-      {% endfor %} {% endfor %}
-    </div>
-  </div>
-</section>
+{% include v2/title-panel.html
+  title="Working at Red Ant"
+  content="<p class='mb-4'>
+    We’re a leading technical agency in Sydney, Australia. This page should
+    tell you all you need to know about us and more. To start with, we have a
+    core team of 35 – a mix of developers, designers and project managers. For
+    technology, we use
+    <a class='text-red-50 hover:underline' href='/technology/ruby-on-rails/'>Ruby on Rails</a> and
+    <a class='text-red-50 hover:underline' href='/technology/reactJS/'>ReactJS</a>. We apply the
+    <a class='text-red-50 hover:underline' href='/blog/agile/'>Agile project methodology</a>.
+  </p>
+  We’ve been around for a while (+18y) and in that time have worked on a
+  wide variety of projects. Picking up quite a bit of know how and
+  experience along the way. We specialise in creating and building Digital Products." %}
 
-<section
-  id="section-office"
-  class="ga-section mb-0 bg-gray-light default-padding"
->
-  <div class="container mb-5">
-    <h3 class="mb-4">Red Ant</h3>
-    <p>
-      We’re a leading technical agency in Sydney, Australia. This page should
-      tell you all you need to know about us and more. To start with, we have a
-      core team of 35 – a mix of developers, designers and project managers. For
-      technology, we use
-      <a href="/technology/ruby-on-rails/">Ruby on Rails</a> and
-      <a href="/technology/reactJS/">ReactJS</a>. We apply the
-      <a href="/agile/">Agile project methodology</a>.
-    </p>
-    <p>
-      We’ve been around for a while (+18y) and in that time have worked on a
-      wide variety of projects. Picking up quite a bit of know how and
-      experience along the way. We specialise in creating and building Digital Products.
-    </p>
-  </div>
-</section>
+<div class="max-w-screen-2xl mx-auto relative isolate pb-10 px-6 lg:px-8 ">
+  <hr class="bg-white/40 h-[2px] mb-8">
+
+  <h2 class="text-2xl font-bold mb-10">Available Jobs:</h2>
+
+  {% for slug in site.data.jobs.order %}
+    {% assign pages = site.pages | where:'slug', slug %}
+
+    {% for page in pages %}
+      <div class="mb-6">
+        <h4 class="text-lg font-bold">{{ page.title }}</h4>
+        <p>{{ page.summary }}</p>
+        <a
+          class="text-red-50 hover:underline"
+          href="/jobs/{{ page.slug }}/">
+          Read more
+        </a>
+      </div>
+    {% endfor %}
+  {% endfor %}
+
+  <hr class="bg-white/40 h-[2px] mt-8">
+</div>

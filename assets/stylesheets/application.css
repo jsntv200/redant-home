@@ -29,17 +29,19 @@
   @apply list-decimal;
   @apply pl-5;
   @apply py-5;
+  @apply text-gray-100;
 }
 
 .markdown p {
-  @apply text-gray-100;
   @apply py-4;
+  @apply text-gray-100;
 }
 
 .markdown ul {
   @apply list-disc;
   @apply pl-5;
   @apply py-5;
+  @apply text-gray-100;
 }
 
 .typewriter-cursor:after {

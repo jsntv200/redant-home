@@ -1,0 +1,19 @@
+---
+layout: v2-default
+---
+
+{% include v2/background-image.html file = "svg/lines-1.svg" %}
+
+<div class="max-w-screen-lg mx-auto px-6 lg:px-10">
+  {% include v2/title-panel.html
+    title = page.title
+    description = page.summary %}
+</div>
+
+<div class="max-w-screen-lg mx-auto pb-[50px] md:pb-[100px] px-6 lg:px-20">
+  <hr class="bg-gray-100/40 h-[2px] mb-6 md:mb-11"></hr>
+
+  <div class="markdown">
+    {{ content }}
+  </div>
+</div>

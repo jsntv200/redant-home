@@ -1,5 +1,5 @@
 ---
-layout: job
+layout: v2-job-detail
 slug: senior-ruby-developer
 title: Senior Ruby on Rails Developer
 description: >-
@@ -8,7 +8,7 @@ description: >-
 summary: Looking for a great place to work on interesting projects?
 ---
 
-### Us
+## Us
 
 We’re a Ruby development agency. We’ve been around for almost 30 years, with a stable, growing business. We're busy. We tend to work on larger projects, typically with a mix of Front End, Back End and DevOps tasks.
 
@@ -18,7 +18,7 @@ We value quiet thinkers and creative innovation. We try to automate as much of o
 
 We will never, ever, ever ask you to [participate in a Shabooyah roll call](https://www.reddit.com/r/videos/comments/k3efwo/workplace_from_your_nightmares/).
 
-### You
+## You
 
 You’re an experienced developer. You know your stuff. Making nice things is what you do. Pride in the craft of building awesome features. You give thoughtful, considered code reviews.
 
@@ -31,24 +31,24 @@ How about if I explain us a bit more:
 3. **We’re not an ad agency & we don’t outsource.** We build. We’re pretty geeky, and while we have UX & design people, we’re undeniably technical. And to be technically good you need not only good people but excellent processes and a strong tech culture. People that care. We’re not that company that seems to build things but actually gets all the work done by the offshore team in Nepal or Poland or wherever. I’m sure those guys are great, but I think there are better things you could be doing with your career other than baby sitting an offshore team. Personally I’d rather watch the entire Wiggles back catalogue on loop.
 4. **We work with nice people** as our clients. Life is too short to work with dickheads, and it goes both ways.
 
-### Full time
+## Full time
 
-This is a full time position. Just in case you're planning out your side hustle. This isn't it. And whilst we all appreciate the passion you show after listening to that podcast about the 4h work week, and how you have big plans for Becoming A Developer while actually getting chatGPT to do the work, this is not the gig for you. 
+This is a full time position. Just in case you're planning out your side hustle. This isn't it. And whilst we all appreciate the passion you show after listening to that podcast about the 4h work week, and how you have big plans for Becoming A Developer while actually getting chatGPT to do the work, this is not the gig for you.
 
-### Is this remote or on site?
+## Is this remote or on site?
 
 Well, with the dreaded Rona, everything has changed. We used to all work together in a really nice, light filled office that was located in the very epicentre of HipsterLand, Surry Hills. But since then, we've all been working from home. So we'll kit out your home office just right, and we'll Slack and Zoom away. You can work from wherever you'd like.
 
-### So you all work from home, but pretty soon you'll all be back in the office, right?
+## So you all work from home, but pretty soon you'll all be back in the office, right?
 
 Nup. We're pretty tight operationally. We track what people are working on, how well they're progressing, and how happy they are with their work. Since we changed to work from home, our productivity is way up, sick leave is way down, the teams happy and we're pretty busy. So we're good.
 
 However not everyone can work from their home, so we're also able to arrange an office if that works better for you.
 
-### How much it pays
+## How much it pays
 
 Really well. Probably much better than where you are right now. But nowhere near as much as that recruiter swears you're actually worth. He would know, right? With all that deep deep Web3 and Rails on Ruby experience, amazing contacts from all over LinkedIn, etc etc . There is no way he would just make that up to get you to talk to him.
 
-### Interested?
+## Interested?
 
 If you’re interested in this position, pro tip: please don’t send in a huge Word doc CV. Just shoot an email to [Sarah](mailto:jobs@redant.com.au) >> jobs@redant.com.au with an outline of the kind of projects you’ve worked on, and some insight into who you are. We would love to hear from you.
