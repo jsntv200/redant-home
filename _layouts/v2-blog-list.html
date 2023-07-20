@@ -2,7 +2,7 @@
 layout: v2-default
 ---
 
-{% include v2/background-image.html file="svg/lines-9.svg" %}
+{% include v2/background-image.html file="svg/lines-7.svg" %}
 
 {{ content }}
 
@@ -13,25 +13,27 @@ layout: v2-default
     {% if page.type %}
       {% for post in site.categories[page.type] %}
         {% include v2/card.html
-          class-content="p-5"
-          content=post.description
-          image=post.image_small
-          subtitle=post.title
-          text-color="text-cyan-100"
-          url=post.url
-          wrapper-class="bg-cyan-100/[0.25]" %}
+          class-content = "p-5"
+          content = post.description
+          image = post.image_small
+          image-height-class = "md:h-[320px]"
+          subtitle = post.title
+          text-color = "text-cyan-100"
+          url = post.url
+          wrapper-class = "bg-cyan-100/[0.15]" %}
       {% endfor %}
     {% else %}
       {% for post in posts %}
         {% unless include.type != nil or include.type == post.type %}
           {% include v2/card.html
-            class-content="p-5"
-            content=post.description
-            image=post.image_small
-            subtitle=post.title
-            text-color="text-cyan-100"
-            url=post.url
-            wrapper-class="bg-cyan-100/[0.25]" %}
+            class-content = "p-5"
+            content = post.description
+            image = post.image_small
+            image-height-class = "md:h-[320px]"
+            subtitle = post.title
+            text-color = "text-cyan-100"
+            url = post.url
+            wrapper-class = "bg-cyan-100/[0.15]" %}
         {% endunless %}
       {% endfor %}
     {% endif %}

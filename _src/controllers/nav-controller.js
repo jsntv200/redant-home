@@ -2,7 +2,9 @@ import { Controller } from "@hotwired/stimulus";
 
 export class NavController extends Controller {
   static targets = [
+    "indicator",
     "item",
+    "itemWrapper",
     "wrapper",
   ];
 
@@ -17,6 +19,10 @@ export class NavController extends Controller {
 
     if (this.scrollAnimationValue === "true") {
       window.addEventListener("scroll", this.handleScroll.bind(this));
+    }
+
+    if (this.itemWrapperTarget && this.itemWrapperTarget.scrollWidth > window.innerWidth) {
+      this.indicatorTarget.classList.remove("hidden");
     }
   }
 
