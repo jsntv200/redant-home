@@ -4,22 +4,22 @@ layout: v2-default
 
 {% include v2/background-image.html file="svg/lines-7.svg" %}
 
-{% include v2/title-panel.html
-  title=page.title
-  subtitle=page.subtitle
-  content=page.description
-  cta-1-link="/free-initial-consult-code-review/"
-  cta-1-label="Free initial consult"
-  cta-2-link="/ruby-on-rails-code-review/"
-  cta-2-label="Get started"
-  image=page.image %}
+<div class="max-w-screen-lg mx-auto lg:px-12">
+  {% include v2/title-panel.html
+    title = page.title
+    subtitle = page.subtitle
+    content = page.description
+    cta-1-link = "/free-initial-consult-code-review/"
+    cta-1-label = "Free initial consult"
+    cta-2-link = "/ruby-on-rails-code-review/"
+    cta-2-label = "Get started"
+    image = page.image %}
+</div>
 
-<div class="max-w-screen-2xl mx-auto px-6 lg:px-8">
-  <div class="lg:w-3/5 pb-[50px] md:pb-[100px]">
-    <hr class="bg-gray-100/40 h-[2px] mb-6 md:mb-11"></hr>
+<div class="max-w-screen-lg mx-auto pb-[50px] md:pb-[100px] px-6 lg:px-20">
+  <hr class="bg-gray-100/40 h-[2px] mb-6 md:mb-11"></hr>
 
-    <div class="markdown">{{ content }}</div>
-  </div>
+  <div class="markdown">{{ content }}</div>
 </div>
 
 <div class="bg-red-100/[0.15]">

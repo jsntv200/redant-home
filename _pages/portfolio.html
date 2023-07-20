@@ -9,7 +9,7 @@ description: It isn’t just good design, or a good user experience.  Great digi
 
 {% include v2/title-panel.html title="Portfolio" %}
 
-<div class="max-w-screen-2xl grid grid-cols-1 md:grid-cols-3 gap-[40px] mx-auto px-6 pt-14 lg:px-8 mb-24">
+<div class="max-w-screen-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px] mx-auto px-6 lg:px-8 mb-24">
   {% for slug in site.data.portfolio.order %}
     {% assign pages = site.pages | where:'slug', slug %}
     {% for page in pages %}
