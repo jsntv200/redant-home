@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Cyber Security from a Development perspective
-permalink: /cyber-security/cyber-security-from-a-development-perspective/
+permalink: blog/cyber-security/cyber-security-from-a-development-perspective/
 type: news
 categories:
   - cyber-security
@@ -23,6 +24,7 @@ description: >-
 date_published: 2023-05-16T14:00:00.000Z
 publisher: Red Ant
 updated_at: 2023-05-16T14:00:00.000Z
+redirect_from: /cyber-security/cyber-security-from-a-development-perspective/
 ---
 
 Typical security analysis looks at networks and infrastructure - the things your platform runs on. And while this is definitely important, security problems can often lie in the software itself. How that software connects with other software or data points. How it's built, configured and maintained. 

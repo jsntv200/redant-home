@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Cache busting Gmail's new image caching
-permalink: /how-we-do/cache-busting-gmail-new-image-caching/
+permalink: blog/how-we-do/cache-busting-gmail-new-image-caching/
 type: ideas
 categories:
   - how-we-do
@@ -19,7 +20,7 @@ description: >-
   emails again.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /how-we-do/cache-busting-gmail-new-image-caching/
 date_published: 2013-12-16T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2013-12-16T00:00:00.000Z

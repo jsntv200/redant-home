@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Benchmarking the perfect project - what makes a better project
-permalink: >-
-  /our-work/benchmarking-the-perfect-project-what-makes-one-project-better-than-another/
+permalink: blog/our-work/benchmarking-the-perfect-project-what-makes-one-project-better-than-another/
 type: ideas
 categories:
   - agile
@@ -19,7 +19,7 @@ description: >-
   what happened.
 tags: []
 time: 5 Mins Read
-redirect_from: null
+redirect_from: /our-work/benchmarking-the-perfect-project-what-makes-one-project-better-than-another/
 date_published: 2011-01-19T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2011-01-19T00:00:00.000Z

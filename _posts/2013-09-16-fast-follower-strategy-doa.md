@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Fast follower strategy DOA?
-permalink: /strategy/fast-follower-strategy-doa/
+permalink: blog/strategy/fast-follower-strategy-doa/
 type: ideas
 categories:
   - strategy
@@ -18,7 +19,7 @@ description: >-
   well.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /strategy/fast-follower-strategy-doa/
 date_published: 2013-09-16T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2013-09-16T00:00:00.000Z

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Webby awards honoree for tails for whales
-permalink: /ruby-on-rails/webby-awards-honoree-for-tails-for-whales/
+permalink: blog/ruby-on-rails/webby-awards-honoree-for-tails-for-whales/
 type: news
 categories:
   - our-work
@@ -19,7 +20,7 @@ description: >-
   Awards.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /ruby-on-rails/webby-awards-honoree-for-tails-for-whales/
 date_published: 2010-05-18T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2010-05-18T00:00:00.000Z

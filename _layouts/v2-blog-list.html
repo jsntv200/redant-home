@@ -7,7 +7,7 @@ layout: v2-default
 {{ content }}
 
 <div class="max-w-screen-2xl mx-auto pb-24 px-6 pt-14 lg:px-8">
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[40px] mx-auto">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mx-auto">
     {% assign posts = site.posts | sort: 'updated_at' | reverse %}
 
     {% if page.type %}

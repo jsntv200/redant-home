@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: What we've been working on- Helping PlanDo redefine career
-permalink: /our-work/redefining-digital-dash dash-with-plan-do/
+permalink: blog/our-work/redefining-digital-dash dash-with-plan-do/
 type: news
 categories:
   - digital-products
@@ -16,7 +17,7 @@ description: >-
   change the careers landscape.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /our-work/redefining-digital-dash dash-with-plan-do/
 date_published: 2014-01-02T00:00:00.000Z
 content_sidebar: >
   The world of employment and careers is due for a shakeup. We have been helping

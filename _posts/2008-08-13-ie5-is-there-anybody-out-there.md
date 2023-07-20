@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: ie5 - is there anybody out there?
-permalink: /our-work/ie5-is-there-anybody-out-there/
+permalink: blog/our-work/ie5-is-there-anybody-out-there/
 type: ideas
 categories:
   - ruby-on-rails

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Fat footers - should they include a sitemap
-permalink: /how-we-do/fat-footers/
+permalink: blog/how-we-do/fat-footers/
 type: ideas
 categories:
   - how-we-do
@@ -18,7 +19,7 @@ description: >-
   footer area at the bottom of your site.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /how-we-do/fat-footers/
 date_published: 2009-07-30T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2009-07-30T00:00:00.000Z

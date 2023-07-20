@@ -1,6 +1,7 @@
 ---
-layout: post
-permalink: /online-payments/different-levels-of-payment-maturity/
+layout: v2-blog-detail
+is_blog: true
+permalink: blog/online-payments/different-levels-of-payment-maturity/
 type: online-payments
 categories:
   - online-payments
@@ -15,7 +16,7 @@ keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/what-are-the-different-levels-of-payment-maturity-min.png"
 image: "/assets/uploads/2023/what-are-the-different-levels-of-payment-maturity-min.png"
 description: A summary of each of the different levels that we use to describe the relative maturity of a payments process. Starting from the very basic / starting off, through to the teams that are really cracking it.
-redirect_from: []
+redirect_from: /online-payments/different-levels-of-payment-maturity/
 updated_at: 2023-02-08
 ---
 

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: But is it viral?
-permalink: /strategy/but-is-it-viral/
+permalink: blog/strategy/but-is-it-viral/
 type: ideas
 categories:
   - strategy

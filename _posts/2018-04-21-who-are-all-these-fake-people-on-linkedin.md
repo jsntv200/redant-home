@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Who are all these fake people on LinkedIn?
-permalink: "/marketing/who-are-all-these-fake-people-on-linkedin/"
+permalink: "blog/marketing/who-are-all-these-fake-people-on-linkedin/"
 type: ideas
 categories:
 - marketing
@@ -15,7 +16,7 @@ tags:
 - Red-Ant-Marketing
 - LinkedIn
 time: ''
-redirect_from:
+redirect_from: /marketing/who-are-all-these-fake-people-on-linkedin/
 date_published: ! ' 2018-04-21'
 publisher: Red Ant
 updated_at: 2018-04-21

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Multi-variate testing
-permalink: /how-we-do/multi-variate-AB-testing/
+permalink: blog/how-we-do/multi-variate-AB-testing/
 type: ideas
 categories:
   - automated-testing
@@ -21,7 +22,7 @@ description: >-
   multi-variate (MV) testing
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /how-we-do/multi-variate-AB-testing/
 date_published: 2009-07-31T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2009-07-31T00:00:00.000Z

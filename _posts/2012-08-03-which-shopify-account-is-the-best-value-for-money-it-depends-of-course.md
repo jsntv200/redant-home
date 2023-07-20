@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Which Shopify account is the best value for money?
-permalink: >-
-  /tool-reviews/which-shopify-account-is-the-best-value-for-money-it-depends-of-course/
+permalink: blog/tool-reviews/which-shopify-account-is-the-best-value-for-money-it-depends-of-course/
 type: ideas
 categories:
   - ecommerce
@@ -17,7 +17,7 @@ image: /assets/uploads/2012/shopify-account-comparison-chart.png
 description: Shopify for e-commerce - we looked into this as part of a recent assessment.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /tool-reviews/which-shopify-account-is-the-best-value-for-money-it-depends-of-course/
 date_published: 2012-08-03T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-08-03T00:00:00.000Z

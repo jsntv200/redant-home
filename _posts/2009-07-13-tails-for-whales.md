@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Tails for Whales
-permalink: /ruby-on-rails/tails-for-whales/
+permalink: blog/ruby-on-rails/tails-for-whales/
 type: news
 categories:
   - our-work
@@ -18,7 +19,7 @@ description: >-
   now we're making it even better.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /ruby-on-rails/tails-for-whales/
 date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2009-07-13T00:00:00.000Z

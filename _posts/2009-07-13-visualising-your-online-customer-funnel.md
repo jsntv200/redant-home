@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Visualising your online customer funnel
-permalink: /strategy/visualising-your-online-customer-funnel/
+permalink: blog/strategy/visualising-your-online-customer-funnel/
 type: ideas
 categories:
   - strategy
@@ -20,6 +21,7 @@ time: ''
 redirect_from:
   - /blog/visualising-your-online-customer-funnel/
   - /blog/visualising-your-online-customer-funnel
+  - /strategy/visualising-your-online-customer-funnel/
 date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2009-07-13T00:00:00.000Z

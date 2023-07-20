@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: 'If my customers mainly use mobile devices, should I be building a phone app?'
-permalink: /mobile/mobile-apps-vs-mobile-site/
+permalink: blog/mobile/mobile-apps-vs-mobile-site/
 type: ideas
 categories:
   - mobile
@@ -18,7 +19,7 @@ description: >-
   becoming increasingly important
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /mobile/mobile-apps-vs-mobile-site/
 date_published: 2013-09-17T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2013-09-17T00:00:00.000Z

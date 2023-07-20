@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Digital agency vs a Technical Agency
-permalink: /software-development/digital-agency-vs-technical/
+permalink: blog/software-development/digital-agency-vs-technical/
 type: news
 categories:
   - software-development
@@ -14,7 +15,7 @@ image: /assets/uploads/digital-agency-vs-technical.jpg
 description: Digital agency vs a Technical Agency
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /software-development/digital-agency-vs-technical/
 date_published: 2018-08-10T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-08-10T00:00:00.000Z

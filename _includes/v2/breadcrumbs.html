@@ -1,35 +1,23 @@
-<nav class="flex mt-10" aria-label="Breadcrumb">
-  <ol class="inline-flex items-center space-x-1 md:space-x-3">
-    <li class="inline-flex items-center">
+<div id="breadcrumbs" class="text-capitalize mt-sm-5">
+  {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+
+  <a
+    class="text-red-50 hover:underline"
+    href="/">
+    Home
+  </a>
+
+  {% for crumb in crumbs offset: 1 %}
+    {% if forloop.last %}
+     / {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+    {% else %}
+      {% assign crumb_limit = forloop.index | plus: 1 %}
+      /
       <a
-        href="/"
-        class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
-        Home
+        class="text-red-50 hover:underline"
+        href="{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">
+        {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
       </a>
-    </li>
-    {% for crumb in crumbs offset: 1 %}
-      {% if forloop.last %}
-        <li aria-current="page">
-          <div class="flex items-center">
-            /
-            <span class="ml-1 text-sm font-medium text-red-50 md:ml-2">
-              {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
-            </span>
-          </div>
-        </li>
-      {% else %}
-        {% assign crumb_limit = forloop.index | plus: 1 %}
-        <li>
-          <div class="flex items-center">
-            /
-            <a
-              href="{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}"
-              class="ml-1 text-sm font-medium text-red-50 md:ml-2 hover:text-white hover:underline">
-              {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
-            </a>
-          </div>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ol>
-</nav>
+    {% endif %}
+  {% endfor %}
+</div>

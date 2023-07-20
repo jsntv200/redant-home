@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: What makes property management so hard?
 type: news
-permalink: "/software-development/what-makes-property-management-so-hard"
+permalink: "blog/software-development/what-makes-property-management-so-hard"
 categories:
 - software-development
 author: Ben Still
@@ -17,7 +18,7 @@ description: From the outside looking in, the property management business looks
 tags:
 - software-development
 time: ''
-redirect_from:
+redirect_from: /software-development/what-makes-property-management-so-hard
 date_published: ! ' 2019-02-12'
 publisher: Red Ant
 updated_at: 2019-02-12

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: 10 ways to improve your phone app development brief
-permalink: /mobile/id-like-an-iphone-app-ten-things-to-look-out-for/
+permalink: blog/mobile/id-like-an-iphone-app-ten-things-to-look-out-for/
 type: ideas
 categories:
   - mobile
@@ -16,7 +17,7 @@ image: /assets/uploads/imporve-mobile-brief-2.jpg
 description: 'Ten quick tips: considerations for your iphone app design brief'
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /mobile/id-like-an-iphone-app-ten-things-to-look-out-for/
 date_published: 2010-10-25T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2010-10-15T00:00:00.000Z

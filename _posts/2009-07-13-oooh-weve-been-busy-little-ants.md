@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Oooh we've been busy little ants…
-permalink: /our-work/oooh-weve-been-busy-little-ants/
+permalink: blog/our-work/oooh-weve-been-busy-little-ants/
 type: news
 categories:
   - our-work
@@ -15,7 +16,7 @@ content_sidebar: >
   read to launching the new Kleenex website, it's all here.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /our-work/oooh-weve-been-busy-little-ants/
 date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2009-07-13T00:00:00.000Z

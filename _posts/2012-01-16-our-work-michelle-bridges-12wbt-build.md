@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Michelle Bridges 12WBT build
-permalink: /our-work/our-work-michelle-bridges-12wbt-build/
+permalink: blog/our-work/our-work-michelle-bridges-12wbt-build/
 type: news
 categories:
   - our-work
@@ -16,7 +17,7 @@ image: /assets/uploads/2012/build.jpg
 description: The initial build of the Michelle Bridges 12WBT project
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /our-work/our-work-michelle-bridges-12wbt-build/
 date_published: 2012-01-16T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-01-16T00:00:00.000Z

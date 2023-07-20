@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Going Mobile
-permalink: >-
-  /mobile/going-mobile-some-options-to-address-increasing-mobile-traffic-to-your-site/
+permalink: blog/mobile/going-mobile-some-options-to-address-increasing-mobile-traffic-to-your-site/
 type: ideas
 categories:
   - mobile
@@ -18,7 +18,7 @@ description: >-
   thinking about a mobile aspect of your website, great! If not, read on…
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /mobile/going-mobile-some-options-to-address-increasing-mobile-traffic-to-your-site/
 date_published: 2012-06-17T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-06-17T00:00:00.000Z

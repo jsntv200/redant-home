@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Have you noticed how fast some sites are these days?
-permalink: /pjax/asynchronous-javascript-frameworks-like-angular-js/
+permalink: blog/pjax/asynchronous-javascript-frameworks-like-angular-js/
 type: ideas
 categories:
   - pjax
@@ -22,6 +23,7 @@ redirect_from:
   - /pjax
   - /pjax/
   - pjax/
+  - /pjax/asynchronous-javascript-frameworks-like-angular-js/
 date_published: 2012-12-19T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-12-19T00:00:00.000Z

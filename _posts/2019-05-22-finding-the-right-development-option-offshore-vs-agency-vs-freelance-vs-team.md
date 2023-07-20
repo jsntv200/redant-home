@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Hiring a web development team you'll love
 subtitle: We've integrated many different types of payment systems
 content_sidebar: |
@@ -7,19 +8,19 @@ content_sidebar: |
 slug: online-payment-systems
 projects: []
 type: news
-permalink: software-development/hiring-a-web-development-team/
+permalink: blog/software-development/hiring-a-web-development-team/
 description: >-
   Working out the best way to resource the development of your project can be
   hard. It's super competitive, and can be hard to compare apples with apples.
 time: ''
-author: Ben
+author: Ben Still
 categories:
   - software-development
 tags: []
 keywords: ''
 image_small: /assets/uploads/hiring-a-web-development-team.jpg
 image: /assets/uploads/hiring-a-web-development-team.jpg
-redirect_from: null
+redirect_from: /software-development/hiring-a-web-development-team/
 date_published: 2019-05-22T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2019-05-22T00:00:00.000Z

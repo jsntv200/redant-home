@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Platform Security - maybe you're the security flaw?
-permalink: /cyber-security/maybe-you're-the-security-flaw/
+permalink: blog/cyber-security/maybe-you're-the-security-flaw/
 type: ideas
 categories:
   - cyber-security
@@ -25,6 +26,7 @@ description: >-
   risks from hackers or information leaks. But what if the actual security flaw
   came about as a result of a decision you the Product Owner had made? Some tips
   to identify and avoid this.
+redirect_from: /cyber-security/maybe-you're-the-security-flaw/
 ---
 
 Many organisations spend a lot of time evaluating cyber risks. Looking at ways to stop bad things coming in. Stopping various behaviours. Preventing information from leaking out.

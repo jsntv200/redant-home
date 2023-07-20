@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Getting more efficient with our Ruby on Rails projects
-permalink: /ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/
+permalink: blog/ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/
 type: ideas
 categories:
   - ruby-on-rails
@@ -19,6 +20,7 @@ tags: []
 time: ''
 redirect_from:
   - /lean-development/ruby-on-rails-efficiency-convention-over-configuration/
+  - /ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/
 date_published: 2013-04-10T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2013-04-10T00:00:00.000Z

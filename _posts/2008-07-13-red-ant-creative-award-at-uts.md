@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Red Ant creative award at UTS
-permalink: /red-ant-stuff/red-ant-creative-award-at-uts/
+permalink: blog/red-ant-stuff/red-ant-creative-award-at-uts/
 type: news
 categories:
   - our-work
@@ -12,6 +13,7 @@ description: We're sponsoring an award at the design school of University of Tec
 content_sidebar: We're sponsoring an award at the design school of University of Technology, Sydney.
 published: true
 date_published: ! ' 2008-07-13'
+redirect_from: /red-ant-stuff/red-ant-creative-award-at-uts/
 updated_at: 2008-07-13
 
 ---

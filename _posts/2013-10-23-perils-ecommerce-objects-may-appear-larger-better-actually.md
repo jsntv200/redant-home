@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: The perils of ecommerce and how objects may appear larger and better
-permalink: "/strategy/perils-ecommerce-objects-may-appear-larger-better-actually/"
+permalink: "blog/strategy/perils-ecommerce-objects-may-appear-larger-better-actually/"
 type: ideas
 categories:
 - ecommerce
@@ -17,7 +18,7 @@ description: Ever bought something online that wasn't what you thought it was?
 
 tags: []
 time: 5 Mins Read
-redirect_from:
+redirect_from: /strategy/perils-ecommerce-objects-may-appear-larger-better-actually/
 date_published: ! ' 2013-10-23'
 publisher: Red Ant
 updated_at: 2013-10-23

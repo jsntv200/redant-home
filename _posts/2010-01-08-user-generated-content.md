@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: User generated content
-permalink: "/our-work/user-generated-content/"
+permalink: "blog/our-work/user-generated-content/"
 type: ideas
 categories:
 - our-work
