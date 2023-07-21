@@ -31,7 +31,7 @@ We practice Agile, so this isn’t about writing humungous spec docs. The key is
 * We have a blend of frontend and backend developers, designers and project managers that work in an Agile environment
 * Interesting projects, building large web apps that support a large number of users. These can throw up challenging problems, like handling lots of payments, concurrency, tweaking performance and taming unicorns
 
-The things we make are typically large web applications, which we call "digital products" (a bit more [detail here](/digital-products/ "detail here")).
+The things we make are typically large web applications, which we call "digital products" (a bit more [detail here](/blog/digital-products/ "detail here")).
 
 Have a look at our [portfolio](/portfolio/ "portfolio") to get a better idea of the some of the projects we've worked on.
 
@@ -50,7 +50,7 @@ This is a full time position. We’ve been around for over 18 years, and expect 
 ## About Red Ant
 
 We’re a leading technical agency in Sydney, Australia. This page should tell you all you need to know about us and more. To start with, we have a core team of 35 – a mix of developers, designers and project managers. For technology, we use [Ruby on Rails](/ruby-on-rails/ "Ruby on Rails") and [AngularJS](/pjax/ "AngularJS"). We apply the [AngularJS](/pjax/ "AngularJS").
-We’ve been around for a while (+18y) and in that time have worked on a wide variety of projects. Picking up quite a bit of know how and experience along the way. We specialise in creating and building [Digital Products](/digital-products/ "Digital Products").
+We’ve been around for a while (+18y) and in that time have worked on a wide variety of projects. Picking up quite a bit of know how and experience along the way. We specialise in creating and building [Digital Products](/blog/digital-products/ "Digital Products").
 
 Take a look at [redant.com.au](redant.com.au "redant.com.au") for more on what we do.
 

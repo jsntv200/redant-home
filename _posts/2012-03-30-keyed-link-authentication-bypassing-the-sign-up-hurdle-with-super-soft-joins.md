@@ -2,7 +2,7 @@
 layout: v2-blog-detail
 is_blog: true
 title: Bypassing the sign up hurdle with super-soft joins
-permalink: blog/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
+permalink: blog/blog/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
 type: ideas
 categories:
   - how-we-do
@@ -17,7 +17,7 @@ image: /assets/uploads/2012/clear-your-vision-home.jpg
 description: How we use super-soft joins to interact with users on personal subjects.
 tags: []
 time: ''
-redirect_from: /how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
+redirect_from: /blog/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
 date_published: 2012-03-30T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-03-30T00:00:00.000Z
