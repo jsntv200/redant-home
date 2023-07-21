@@ -167,7 +167,11 @@ tailwind: true
     <hr class="bg-white/40 h-[2px]" />
 
     {% for post in site.categories['cyber-security'] limit:2 %}
-      {% include v2/post-card-wide.html %}
+      {% include v2/post-card-wide.html
+        description = post.description
+        image_small = post.image_small
+        title = post.title
+        url = post.url %}
     {% endfor %}
 
     <a
