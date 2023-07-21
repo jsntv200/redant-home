@@ -1,179 +1,137 @@
 ---
-layout: default
+layout: v2-default
 permalink: /about/
 title: Everything About the Ruby Developers in Sydney Australia
 description: We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.
 author: Ben Still
 ---
 
-<header id="section-intro" class="bg-gray-light bg-about default-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="mb-4">About Red Ant</h1>
-        <p class="subheading">
-          We’re a cross functional technical agency of Developers, Digital
-          Program Managers and Designers in Sydney, Australia.
-        </p>
-        <p class="subheading">
-          We create custom digital platforms and apps in Open Source software -
-          we specialise in
-          <a href="/technology/ruby-on-rails/">Ruby on Rails</a> and
-          <a href="/technology/reactJS/">React</a>.
-        </p>
-        <p class="subheading">
-          We’ve been creating digital websites and products for over 22 years
-          and in that time have worked on a wide variety of projects. Along the
-          way, we’ve picked up quite a bit of know how and experience.
-        </p>
-      </div>
-    </div>
-  </div>
-</header>
+{% include v2/background-image.html file="svg/lines-1.svg" %}
 
-<section
-  id="section-core-skills"
-  class="default-padding"
-  data-ga-trigger="visibility"
->
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <p class="h2 text-start text-md-center mb-5">Core skills</p>
-      </div>
-    </div>
-    <div class="row align-items-center pb-4">
-      <div class="col-8 offset-md-0 col-md-6 order-md-2 px-4 py-sm-4 py-lg-0 text-center">
-        <img
-          class="img-fluid"
-          src="/assets/images/illustration-about-1.png"
-          alt="Digital Product Design and Digital Road Mapping"
-        />
-      </div>
-      <div class="col-md-6">
-        <h2 class="mb-4 mt-3 text-red h3">
-          Digital Product Design and Digital Road Mapping
-        </h2>
-        <p>
-          Many of our clients have an idea for their digital product but need
+{% include v2/title-panel.html
+  title="About"
+  description="
+  <span class='block mb-4'>
+  We’re a cross functional technical agency of Developers, Digital Program Managers and Designers in Sydney, Australia.
+  </span>
+  <span class='block mb-4'>
+  We create custom digital platforms and apps in Open Source software - we specialise in <a href='/technology/ruby-on-rails/' class='underline text-red-50 hover:text-red-200'>Ruby on Rails</a> and <a href='/technology/reactJS/' class='underline text-red-50 hover:text-red-200'>React</a>.
+  </span>
+  We’ve been creating digital websites and products for over 22 years and in that time have worked on a wide variety of projects. Along the way, we’ve picked up quite a bit of know how and experience." %}
+
+<div class="bg-red-100/[0.15]">
+  <div class="max-w-screen-2xl mx-auto pb-12 md:pb-[100px] px-6 pt-14 lg:px-8">
+    <h2 class="text-3xl md:text-5xl font-bold mb-12">Core Skills</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-[40px] mx-auto">
+      <div>
+        {% include v2/card.html
+          class="pb-12 mb-12 border-b-[1px] border-white/40"
+          content="Many of our clients have an idea for their digital product but need
           help to refine their dreams into actionable project plans. We’ll help
           you understand how to take your ideas and problems and create
           something truly unique. We can help you define your development goals,
           organise them into a logical sequence and determine how long it will
           take. We can help you work out how many resources are needed and what
-          budget you’ll need and when.
-        </p>
+          budget you’ll need and when."
+          icon-class="fa-pen-ruler text-red-100"
+          icon-wrapper-class="border-red-100"
+          subtitle="Digital Product Design and Digital Road Mapping" %}
+        <hr class="bg-white/40 h-[2px] my-12">
       </div>
-    </div>
-    <div class="row align-items-center py-4">
-      <div class="col-8 col-md-6 px-4 py-sm-4 py-lg-0 text-center">
-        <img
-          class="img-fluid"
-          src="/assets/images/illustration-about-2.png"
-          alt="Technical development"
-        />
-      </div>
-      <div class="col-md-6">
-        <h2 class="mb-4 text-red mt-3 h3">Technical Development</h2>
-        <p>
-          Our team of developers are experienced in building complex Platforms
+
+      <div>
+        {% include v2/card.html
+          class="pb-12 mb-12 border-b-[1px] border-white/40"
+          content="Our team of developers are experienced in building complex Platforms
           and Digital Products. From Minimum Viable Products (MVPs) to complex
           e-Commerce Platforms our team is ready to build your stable and tested
           code base. We specialise in Open Source technologies such as Angular
           and Ruby on Rails. Using Open Source development allows you to build
           more features faster and develop a unique product that suits your
-          business systems and outpaces competitors.
-        </p>
+          business systems and outpaces competitors."
+          icon-class="fa-code text-red-100"
+          icon-wrapper-class="border-red-100"
+          subtitle="Technical Development" %}
+        <hr class="bg-white/40 h-[2px] my-12">
       </div>
-    </div>
-    <div class="row align-items-center py-4">
-      <div class="col-8 col-md-6 order-md-2 px-4 py-sm-4 py-lg-0 text-center">
-        <img
-          class="img-fluid"
-          src="/assets/images/illustration-about-3.png"
-          alt="User Interface and User Experience Design"
-        />
-      </div>
-      <div class="col-md-6">
-        <h2 class="mb-4 text-red mt-3 h3">
-          User Interface and User Experience Design
-        </h2>
-        <p>
-          Whether it’s a compelling online customer experience or an easy to use
+
+      <div>
+        {% include v2/card.html
+          class="pb-12 mb-12 border-b-[1px] border-white/40"
+          content="Whether it’s a compelling online customer experience or an easy to use
           interface for admin teams, our team of designers and front end
-          developers create user experiences that simply work.
-        </p>
+          developers create user experiences that simply work."
+          icon-class="fa-object-group text-red-100"
+          icon-wrapper-class="border-red-100"
+          subtitle="User Interface and User Experience Design" %}
+        <hr class="bg-white/40 h-[2px] my-12">
       </div>
-    </div>
-    <div class="row align-items-center pt-4">
-      <div class="col-8 col-md-6 px-4 py-sm-4 py-lg-0 text-center">
-        <img
-          class="img-fluid"
-          src="/assets/images/illustration-about-4.png"
-          alt="Ecommerce"
-        />
-      </div>
-      <div class="col-md-6">
-        <h2 class="mb-4 text-red mt-3 h3">Ecommerce</h2>
-        <p>
-          We create Software as a Service (Saas) platforms that use data in
+
+      <div>
+        {% include v2/card.html
+          class="pb-12 mb-12 border-b-[1px] border-white/40"
+          content="We create Software as a Service (Saas) platforms that use data in
           powerful ways to deliver true customer value. We integrate simple and
-          complex payment systems depending on your customer and business needs.
-        </p>
+          complex payment systems depending on your customer and business needs."
+          icon-class="fa-cart-shopping text-red-100"
+          icon-wrapper-class="border-red-100"
+          subtitle="Ecommerce" %}
+        <hr class="bg-white/40 h-[2px] my-12">
+      </div>
+
+      <div>
+        {% include v2/card.html
+          class="pb-12 mb-12 border-b-[1px] border-white/40"
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          icon-class="fa-shield-halved text-red-100"
+          icon-wrapper-class="border-red-100"
+          subtitle="Cyber Security" %}
+        <hr class="bg-white/40 h-[2px] my-12">
       </div>
     </div>
   </div>
-</section>
+</div>
 
-<section
-  id="section-work-reasons"
-  class="text-md default-padding about-reasons bg-orange-100"
->
-  <div class="container">
-    <div class="row">
-      <div class="col-12 mb-3">
-        <h2 class="text-orange h3">Why you should work with us?</h2>
-      </div>
-      <div class="col-md-6">
-        <p class="mb-4">
-          In house Sydney Based Development - we work closely with our clients
-          on the same timezone and in the same language
-        </p>
-        <p>
-          Transparent project tracking with our purpose built system - know
-          what’s happening on your project day by day
-        </p>
-      </div>
-      <div class="col-md-6">
-        <p class="mb-4">
-          Highly experienced team - having delivered hundreds of successful
-          products the team have the tools and experience to get it done faster
-        </p>
-        <p>
-          Automated testing delivering stable and reliable development
-        </p>
-      </div>
+{% include v2/companies.html
+  title="These companies trust us"
+  content="For more than 20 years, we've had the pleasure of working with many startups, brands and large companies." %}
+
+<div class="bg-cyan-100/[0.15]">
+  <div class="max-w-screen-2xl mx-auto py-12 md:py-[100px] px-6 lg:px-8">
+    <h2 class="text-3xl md:text-5xl font-bold mb-12 text-center">
+      Why should you work with us?
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[40px] mx-auto">
+      {% include v2/card.html
+        content="In house Sydney Based Development - we work closely with our clients on the same timezone and in the same language "
+        icon-class="fa-earth-oceania text-cyan-100"
+        icon-wrapper-class="mx-auto border-cyan-100"
+        wrapper-class="text-center" %}
+
+      {% include v2/card.html
+        content="Highly experienced team - having delivered hundreds of successful products the team have the tools and experience to get it done faster"
+        icon-class="fa-star text-cyan-100"
+        icon-wrapper-class="mx-auto border-cyan-100"
+        wrapper-class="text-center" %}
+
+      {% include v2/card.html
+        content="Transparent project tracking with our purpose built system - know what’s happening on your project day by day"
+        icon-class="fa-display-chart-up-circle-dollar text-cyan-100"
+        icon-wrapper-class="mx-auto border-cyan-100"
+        wrapper-class="text-center" %}
+
+      {% include v2/card.html
+        content="Automated testing delivering stable and reliable development"
+        icon-class="fa-robot text-cyan-100"
+        icon-wrapper-class="mx-auto border-cyan-100"
+        wrapper-class="text-center" %}
     </div>
   </div>
-</section>
+</div>
 
-{% include section-companies.html %}
-
-<section class="bg-gray-light default-padding">
-  <div class="container py-5">
-    <div class="text-center">
-      <p class="h1">Let's Build Something Awesome</p>
-      <p class="py-3 subheading">
-        If you’re ready to get started, take a look at our Code Review and
-        Digital Product Workshops. Or if you want to talk to someone about your
-        project ...call us now.
-      </p>
-      <a
-        class="btn btn-lg btn-primary rounded-pill d-block d-sm-inline mx-2 mb-2 mb-sm-0"
-        href="tel:+61292678300"
-      >
-        Get in touch with us</a
-      >
-    </div>
-  </div>
-</section>
+{% include v2/cta-panel.html
+  button-label="Request a call back"
+  content="If you’re ready to get started, take a look at our Code Review and Digital Product Workshops. Or if you want to talk to someone about your project ...call us now."
+  title="Let's Build Something Awesome" %}

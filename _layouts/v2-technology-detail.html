@@ -4,22 +4,22 @@ layout: v2-default
 
 {% include v2/background-image.html file="svg/lines-7.svg" %}
 
-{% include v2/title-panel.html
-  title=page.title
-  subtitle=page.subtitle
-  content=page.description
-  cta-1-link="/free-initial-consult-code-review/"
-  cta-1-label="Free initial consult"
-  cta-2-link="/ruby-on-rails-code-review/"
-  cta-2-label="Get started"
-  image=page.image %}
+<div class="max-w-screen-lg mx-auto lg:px-12">
+  {% include v2/title-panel.html
+    title = page.title
+    subtitle = page.subtitle
+    content = page.description
+    cta-1-link = "/free-initial-consult-code-review/"
+    cta-1-label = "Free initial consult"
+    cta-2-link = "/ruby-on-rails-code-review/"
+    cta-2-label = "Get started"
+    image = page.image %}
+</div>
 
-<div class="max-w-screen-2xl mx-auto px-6 lg:px-8">
-  <div class="lg:w-3/5 pb-[50px] md:pb-[100px]">
-    <hr class="bg-gray-100/40 h-[2px] mb-6 md:mb-11"></hr>
+<div class="max-w-screen-lg mx-auto pb-[50px] md:pb-[100px] px-6 lg:px-20">
+  <hr class="bg-gray-100/40 h-[2px] mb-6 md:mb-11"></hr>
 
-    <div class="markdown">{{ content }}</div>
-  </div>
+  <div class="markdown">{{ content }}</div>
 </div>
 
 <div class="bg-red-100/[0.15]">
@@ -35,8 +35,8 @@ layout: v2-default
         can help you design for scale, as well as strategy or product
         support as you need it. We'll take responsibility for delivering
         your project."
-        icon="fa-hammer"
-        icon-color="red-100"
+        icon-class="fa-hammer text-red-100"
+        icon-wrapper-class="border-red-100"
         subtitle="New Builds"
         text-color="red-100" %}
 
@@ -45,8 +45,8 @@ layout: v2-default
         a bit more experience, developer resourcing, or help in
         completing certain features before they launch. Or you might
         need more development tasks done to your existing platform."
-        icon="fa-window-maximize"
-        icon-color="red-100"
+        icon-class="fa-window-maximize text-red-100"
+        icon-wrapper-class="border-red-100"
         subtitle="Existing Apps"
         text-color="red-100" %}
 
@@ -55,8 +55,8 @@ layout: v2-default
         service. We'll take on responsibility for monitoring and
         providing technical support as part of an ongoing plan that we
         can design with you."
-        icon="fa-screwdriver-wrench"
-        icon-color="red-100"
+        icon-class="fa-screwdriver-wrench text-red-100"
+        icon-wrapper-class="border-red-100"
         subtitle="Devops and Platform Support"
         text-color="red-100" %}
     </div>
