@@ -11,7 +11,7 @@
 {% assign image-desktop = project.images | where: "type", "desktop" | first %}
 {% assign images-mobile = project.images | where: "type", "mobile" %}
 
-<div class="w-full relative mb-[50px] md:mb-[100px]">
+<div class="w-full relative mb-12 md:mb-24">
   <div class="absolute flex justify-center h-full w-full -z-10">
     <div
       class="absolute inset-0 -z-10 mx-auto w-3/4 bg-{{ include.slug }}-100/25"
