@@ -120,17 +120,9 @@ module.exports = {
           50: '#658F80',
           100: '#658F80',
         },
-        'petmatcher': {
-          50: '#84c722',
-          100: '#84c722',
-        },
         'placeos': {
           50: '#c92366',
           100: '#c92366',
-        },
-        'plando': {
-          50: '#e68600',
-          100: '#e68600',
         },
         'raywhite': {
           50: '#ffe512',
@@ -160,10 +152,6 @@ module.exports = {
           50: '#b0f',
           100: '#b0f',
         },
-        'voome': {
-          50: '#00ffa8',
-          100: '#00ffa8',
-        },
         'whats-on': {
           50: '#f7d42e',
           100: '#f7d42e',
@@ -186,13 +174,13 @@ module.exports = {
       pattern: /bg-(red|cyan|12wbt|managed|huggies)-(100|200)/,
       variants: ['hover'],
     },{
-      pattern: /bg-(red|cyan|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|petmatcher|placeos|plando|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|voome|whats-on|yates)-100\/25/,
+      pattern: /bg-(red|cyan|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|placeos|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|whats-on|yates)-100\/25/,
     },{
       pattern: /border-(red|cyan)-(100|100\/10)/,
     },{
-      pattern: /from-(12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|petmatcher|placeos|plando|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|voome|whats-on|yates)-100\/25/,
+      pattern: /from-(12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|placeos|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|whats-on|yates)-100\/25/,
     },{
-      pattern: /text-(red|cyan|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|petmatcher|placeos|plando|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|voome|whats-on|yates)-(50|100)/,
+      pattern: /text-(red|cyan|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|placeos|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|whats-on|yates)-(50|100)/,
       variants: ['hover'],
     },{
       pattern: /text-(red|cyan)-100\/10/,

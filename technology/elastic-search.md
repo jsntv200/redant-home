@@ -9,8 +9,6 @@ listing_description: Elasticsearch is a distributed, search and analytics engine
 slug: elastic-search
 projects:
 - 12wbt
-- voome-weekly
-- voome-programs
 image: '/assets/uploads/2019/elasticsearch.png'
 how_title:
 how_bulletpoints:

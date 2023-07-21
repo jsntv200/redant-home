@@ -11,7 +11,6 @@ projects:
   - managed
   - mentored
   - nps-medicinewise
-  - real-pet-matcher
   - campaign-xpress
   - momentum
   - move
