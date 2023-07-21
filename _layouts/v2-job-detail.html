@@ -4,16 +4,20 @@ layout: v2-default
 
 {% include v2/background-image.html file = "svg/lines-1.svg" %}
 
-<div class="max-w-screen-lg mx-auto px-6 lg:px-10">
-  {% include v2/title-panel.html
-    title = page.title
-    description = page.summary %}
-</div>
+<div class="py-24">
+  <div class="max-w-screen-lg mx-auto px-6 lg:px-10">
+    <h2 class="leading-tight md:leading-tight text-3xl md:text-5xl font-bold">
+      {{ page.title }}
+    </h2>
 
-<div class="max-w-screen-lg mx-auto pb-[50px] md:pb-[100px] px-6 lg:px-20">
-  <hr class="bg-gray-100/40 h-[2px] mb-6 md:mb-11"></hr>
+    <p class="mt-7 text-2xl md:text-3xl pb-24">
+      {{ page.summary }}
+    </p>
 
-  <div class="markdown">
-    {{ content }}
+    <hr class="bg-gray-100/40 h-[2px] mb-6 md:mb-11"></hr>
+
+    <div class="markdown">
+      {{ content }}
+    </div>
   </div>
 </div>
