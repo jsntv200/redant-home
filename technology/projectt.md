@@ -9,7 +9,5 @@ listing_description: Projectt is our Program Management tool that allows us to b
 slug: projectt
 projects:
 image: '/assets/uploads/2019/projectt.png'
-how_title:
-how_bulletpoints:
 redirect_from:
 ---

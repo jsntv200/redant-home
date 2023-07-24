@@ -736,18 +736,6 @@ var config_default = defineConfig({
           },
           {
             type: "string",
-            name: "how_title",
-            label: "how_title",
-            required: true
-          },
-          {
-            type: "string",
-            name: "how_bulletpoints",
-            label: "how_bulletpoints",
-            list: true
-          },
-          {
-            type: "string",
             label: "redirect_from",
             name: "redirect_from",
             list: true

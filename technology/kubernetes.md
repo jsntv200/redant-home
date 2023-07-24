@@ -16,7 +16,5 @@ projects:
   - move
   - project-summary-tool
 image: '/assets/uploads/2019/kubernetes.png'
-how_title:
-how_bulletpoints:
 redirect_from:
 ---

@@ -9,7 +9,5 @@ listing_description: Twilio provides a cloud based customer contact management s
 slug: twilio
 projects:
 image: '/assets/uploads/2019/twilio.png'
-how_title:
-how_bulletpoints:
 redirect_from:
 ---

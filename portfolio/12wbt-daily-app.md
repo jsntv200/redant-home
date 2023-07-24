@@ -24,8 +24,6 @@ service_tags: []
 subtitle: ''
 projects: []
 image: ''
-how_title: ''
-how_bulletpoints: []
 images:
   - type: gallery
     path: /assets/images/projects/12wbt-daily-app/12wbt-daily-app-1.jpg

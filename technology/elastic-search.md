@@ -10,7 +10,5 @@ slug: elastic-search
 projects:
 - 12wbt
 image: '/assets/uploads/2019/elasticsearch.png'
-how_title:
-how_bulletpoints:
 redirect_from:
 ---

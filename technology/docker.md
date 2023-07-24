@@ -9,7 +9,5 @@ listing_description: Docker provides a fast and secure system of containers to d
 slug: docker
 projects:
 image: '/assets/uploads/2019/docker.png'
-how_title:
-how_bulletpoints:
 redirect_from:
 ---

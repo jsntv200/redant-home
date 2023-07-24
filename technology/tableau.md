@@ -9,7 +9,5 @@ listing_description: Tableau is business intelligence software that helps people
 slug: tableau
 projects:
 image: '/assets/uploads/2019/tableau.png'
-how_title:
-how_bulletpoints:
 redirect_from:
 ---

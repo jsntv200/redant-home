@@ -9,7 +9,5 @@ listing_description: Heroku provides powerful hosting and database services base
 slug: heroku
 projects:
 image: '/assets/uploads/2019/heroku.png'
-how_title:
-how_bulletpoints:
 redirect_from:
 ---
