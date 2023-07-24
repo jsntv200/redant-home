@@ -51,12 +51,6 @@ export class FakeNewsController extends Controller {
         link: "/portfolio/12wbt/",
       },
       {
-        title: "Weird but true: How these Celebs look today",
-        subtitle: "Unbelievable but true",
-        image: "/assets/images/fakenews/fake2.jpg",
-        link: "/portfolio/real-pet-matcher/",
-      },
-      {
         title: "Every Australian born after 1905 should read this",
         subtitle: "Tax for life",
         image: "/assets/images/fakenews/fake3.jpg",
@@ -67,12 +61,6 @@ export class FakeNewsController extends Controller {
         subtitle: "Parenting tips",
         image: "/assets/images/fakenews/fake4.jpg",
         link: "/portfolio/huggies/",
-      },
-      {
-        title: "See who has been checking you out on Facebook",
-        subtitle: "Modern Life",
-        image: "/assets/images/fakenews/fake5.jpg",
-        link: "/portfolio/plando/",
       },
       {
         title:
@@ -92,12 +80,6 @@ export class FakeNewsController extends Controller {
         subtitle: "OMG",
         image: "/assets/images/fakenews/fake8.jpg",
         link: "/portfolio/project-summary-tool/",
-      },
-      {
-        title: "You'll Never Believe What She Did Next!",
-        subtitle: "OMG",
-        image: "/assets/images/fakenews/fake9.jpg",
-        link: "/portfolio/voome-weekly/",
       },
     ];
   }

@@ -8,7 +8,6 @@ description: Salesforce Marketing Cloud is a powerful messaging platform that ca
 listing_description: 'Salesforce Marketing Cloud allows you to listen and engage with customers across: email, social, web, and mobile. Salesforce allows you to automate and manage every campaign, publish content, analyse results, and optimise. Salesforce Marketing Cloud provides a great range of marketing options to design and automate customer journeys. We can help you to design and implement a solution to fit your business goals and integrate with your website.'
 slug: salesforce-marketing-cloud
 projects:
-  - voome-weekly
   - beautyheaven
   - 12wbt
   - huggies

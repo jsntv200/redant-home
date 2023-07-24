@@ -13,7 +13,6 @@ projects:
   - mentored
   - nps-medicinewise
   - outdoor-automated-proposal-platform
-  - real-pet-matcher
   - selleys-diy
   - tribe-influencer-marketplace
   - yates
@@ -33,8 +32,6 @@ projects:
   - project-summary-tool
   - ray-white-accelerate
   - rotacota
-  - voome-weekly
-  - voome-programs
 image: '/assets/uploads/2019/rails.png'
 how_title: Ruby developers
 how_bulletpoints:
