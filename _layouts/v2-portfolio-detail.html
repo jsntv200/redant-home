@@ -9,7 +9,7 @@ layout: v2-default
 {% assign image-desktop = page.images | where: "type", "desktop" | first %}
 {% assign images-mobile = page.images | where: "type", "mobile" %}
 
-<div class="max-w-screen-lg mx-auto py-[50px] md:py-[100px] px-6 lg:px-20">
+<div class="max-w-screen-lg mx-auto py-12 md:py-24 px-6 lg:px-20">
   <h2 class="leading-tight md:leading-tight text-3xl md:text-5xl font-bold mb-7 md:mb-20 text-{{ include.title-color }}">
     {{ page.title }}
   </h2>
@@ -78,6 +78,6 @@ layout: v2-default
   </div>
 </div>
 
-<div class="max-w-screen-2xl mx-auto relative isolate px-6 pb-[50px] 2xl:px-0 lg:pb-[100px]">
+<div class="max-w-screen-2xl mx-auto relative isolate px-6 pb-12 2xl:px-0 lg:pb-24">
 {% include v2/related-panel.html slug = page.slug %}
 </div>

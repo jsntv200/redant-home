@@ -1,8 +1,7 @@
 // .tina/config.js
 import { defineConfig } from "tinacms";
-var branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "master";
 var config_default = defineConfig({
-  branch,
+  branch: "tinacms",
   clientId: process.env.TINA_PUBLIC_CLIENT_ID,
   // Get this from tina.io
   token: process.env.TINA_PUBLIC_TOKEN,
@@ -189,14 +188,6 @@ var config_default = defineConfig({
                 label: "placeos"
               },
               {
-                value: "plando",
-                label: "plando"
-              },
-              {
-                value: "petmatcher",
-                label: "petmatcher"
-              },
-              {
                 value: "sellers-diy",
                 label: "sellers-diy"
               },
@@ -215,10 +206,6 @@ var config_default = defineConfig({
               {
                 value: "tribe",
                 label: "tribe"
-              },
-              {
-                value: "voome",
-                label: "voome"
               },
               {
                 value: "whatson",
@@ -313,10 +300,6 @@ var config_default = defineConfig({
               {
                 value: "Move OMA",
                 label: "Move OMA"
-              },
-              {
-                value: "PlanDo",
-                label: "PlanDo"
               },
               {
                 value: "Internal tool",

@@ -10,7 +10,6 @@ slug: swift
 projects:
   - 12wbt-daily-app
   - tribe-influencer-marketplace
-  - voome-weekly
 image: '/assets/uploads/2019/swift.png'
 how_title: Native iOS development
 how_bulletpoints:

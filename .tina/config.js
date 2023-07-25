@@ -177,14 +177,6 @@ export default defineConfig({
                 label: "placeos",
               },
               {
-                value: "plando",
-                label: "plando",
-              },
-              {
-                value: "petmatcher",
-                label: "petmatcher",
-              },
-              {
                 value: "sellers-diy",
                 label: "sellers-diy",
               },
@@ -203,10 +195,6 @@ export default defineConfig({
               {
                 value: "tribe",
                 label: "tribe",
-              },
-              {
-                value: "voome",
-                label: "voome",
               },
               {
                 value: "whatson",
@@ -295,10 +283,6 @@ export default defineConfig({
               {
                 value: "Move OMA",
                 label: "Move OMA",
-              },
-              {
-                value: "PlanDo",
-                label: "PlanDo",
               },
               {
                 value: "Internal tool",

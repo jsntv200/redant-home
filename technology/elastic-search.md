@@ -21,9 +21,6 @@ projects:
   - voome-weekly
   - voome-programs
 image: /assets/uploads/2019/elasticsearch.png
-how_title: how
-how_bulletpoints:
-  - ''
 redirect_from: null
 ---
 
