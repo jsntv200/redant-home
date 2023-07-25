@@ -9,9 +9,9 @@ description: >-
 published: false
 ---
 
-Permanent Full Time Role 
+Permanent Full Time Role
 
-* We’re looking for a designophile
+* We’re looking for a designophile!
 * Develop your UX and problem solving skills
 * Interact with clients and product owners
 
