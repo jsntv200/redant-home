@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Setting Jira priorities - Team Six and The Iceberg
-permalink: "/software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/"
+permalink: "blog/software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/"
 type: ideas
 categories:
 - agile
@@ -15,7 +16,7 @@ image: "/assets/uploads/2012/jira-screenshot.jpg"
 description: Seal teams, titanic sinkers and our prioritization ratings.
 tags: []
 time: 10 Mins Read
-redirect_from:
+redirect_from: /software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/
 date_published: ! ' 2012-01-25'
 publisher: Red Ant
 updated_at: 2012-01-25

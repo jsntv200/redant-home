@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: The story behind our Wallboard
-permalink: "/red-ant-stuff/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/"
+permalink: "blog/red-ant-stuff/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/"
 type: news
 categories:
 - agile
@@ -17,8 +18,8 @@ tags: []
 time: 10 Mins Read
 redirect_from:
 - /agile/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
-- /blog/the-story-behind-our-wallboard
-- blog/the-story-behind-our-wallboard/
+- /blog/the-story-behind-our-wallboard/
+- /red-ant-stuff/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
 date_published: ! ' 2010-11-18'
 publisher: Red Ant
 updated_at: 2010-11-18

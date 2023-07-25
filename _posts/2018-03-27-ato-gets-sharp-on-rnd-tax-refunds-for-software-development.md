@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: ATO gets sharp on R&D Tax refunds for software development
-permalink: /marketing/ato-gets-sharp-on-rnd-tax-refunds-for-software-development/
+permalink: blog/marketing/ato-gets-sharp-on-rnd-tax-refunds-for-software-development/
 type: news
 categories:
   - marketing
@@ -21,7 +22,7 @@ tags:
   - Startup
   - Red-Ant-Marketing
 time: ''
-redirect_from: null
+redirect_from: /marketing/ato-gets-sharp-on-rnd-tax-refunds-for-software-development/
 date_published: 2018-03-27T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-03-27T00:00:00.000Z

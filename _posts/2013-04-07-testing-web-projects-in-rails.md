@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Testing web projects
-permalink: /automated-testing/testing-web-projects-in-rails/
+permalink: blog/automated-testing/testing-web-projects-in-rails/
 type: ideas
 categories:
   - cyber-security
@@ -19,7 +20,7 @@ description: >-
   years is how we test our web projects
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /automated-testing/testing-web-projects-in-rails/
 date_published: 2013-04-07T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2013-04-07T00:00:00.000Z

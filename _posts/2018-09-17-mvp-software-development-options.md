@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Feeling a bit stuck on your MVP development?
-permalink: /software-development/mvp-software-development-options/
+permalink: blog/software-development/mvp-software-development-options/
 type: news
 categories:
   - software-development
@@ -17,7 +18,7 @@ description: >-
   feeling a bit stuck
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /software-development/mvp-software-development-options/
 date_published: 2018-09-17T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-09-17T00:00:00.000Z

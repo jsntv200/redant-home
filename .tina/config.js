@@ -82,7 +82,7 @@ export default defineConfig({
             name: "layout",
             label: "layout",
             required: true,
-            options: ["post", "v2-project-detail", "v2-technology-detail", "job"],
+            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "job"],
             ui: {
               description: "Determines which layout this content will use.",
             },

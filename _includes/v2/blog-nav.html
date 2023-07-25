@@ -1,103 +1,113 @@
 <nav
   class="fixed w-full z-20 top-16 md:top-24 left-0"
   data-nav-target="wrapper">
-  <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto py-3 md:py-8 px-6 lg:py-0 2xl:p-0 text-white border-b border-gray-100/40 h-16 md:h-[70px]">
+  <div
+    class="relative max-w-screen-2xl flex items-center mx-auto py-3 md:py-8 px-6 lg:py-0 2xl:p-0 text-white border-b border-gray-100/40 h-16 md:h-[70px] overflow-x-scroll"
+    data-nav-target="itemWrapper">
     <a
       href="/blog/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Blog Home
     </a>
 
     <a
       href="/blog/design/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/design/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/design/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Design
     </a>
 
     <a
       href="/blog/marketing/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/marketing/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/marketing/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Marketing
     </a>
 
     <a
       href="/blog/mobile/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/mobile/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/mobile/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Mobile
     </a>
 
     <a
       href="/blog/our-work/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/our-work/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/our-work/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Our Work
     </a>
 
     <a
       href="/blog/red-ant-stuff/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/red-ant-stuff/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/red-ant-stuff/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Red Ant
     </a>
 
     <a
       href="/blog/ruby-on-rails-devops/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/ruby-on-rails-devops/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/ruby-on-rails-devops/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Devops
     </a>
 
     <a
       href="/blog/ruby-on-rails/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/ruby-on-rails/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/ruby-on-rails/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Ruby on Rails
     </a>
 
     <a
       href="/blog/software-development/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/software-development/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/software-development/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Software Dev
     </a>
 
     <a
       href="/blog/strategy/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/strategy/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/strategy/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Strategy
     </a>
 
     <a
       href="/blog/tool-reviews/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/tool-reviews/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/tool-reviews/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Tools
     </a>
 
     <a
       href="/blog/online-payments/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/online-payments/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/online-payments/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Online Payments
     </a>
 
     <a
       href="/blog/cyber-security/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/cyber-security/' %}text-red-50{% endif %}"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/cyber-security/' %}text-red-50{% endif %}"
       data-nav-target="item">
       Cyber Security
     </a>
 
     <a
       href="/blog/privacy/"
-      class="mr-7 hover:text-red-50 {% if page.permalink == '/blog/privacy/' %}text-red-50{% endif %} hidden"
+      class="flex-none mr-7 hover:text-red-50 {% if page.permalink == '/blog/privacy/' %}text-red-50{% endif %} hidden"
       data-nav-target="item">
       Privacy
     </a>
+
+    <div
+      class="absolute right-0 z-30 bg-gradient-to-r from-transparent to-black/95 h-full w-20 hidden"
+      data-nav-target="indicator">
+      <div class="flex justify-center w-full h-full mt-5">
+        <i class='fa fa-chevron-right text-cyan-100 text-2xl'></i>
+      </div>
+    </div>
   </div>
 </nav>

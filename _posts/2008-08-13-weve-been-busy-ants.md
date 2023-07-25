@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: We've been busy ants
 description: We've been busy little ants over the last few months
-permalink: /our-work/weve-been-busy-ants/
+permalink: blog/our-work/weve-been-busy-ants/
 type: news
 categories:
   - our-work

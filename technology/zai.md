@@ -11,6 +11,5 @@ projects:
   - managed
 image: '/assets/uploads/2022/zai.png'
 redirect_from:
-  - /technology/assembly
   - /technology/assembly/
 ---

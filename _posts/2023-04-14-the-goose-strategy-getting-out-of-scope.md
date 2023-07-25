@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: 'The Goose Strategy: Getting Out Of Scope'
-permalink: /cyber-security/goose-getting-out-of-scope/
+permalink: blog/cyber-security/goose-getting-out-of-scope/
 type: ideas
 categories:
   - cyber-security
@@ -37,6 +38,7 @@ description: >-
 date_published: 2023-04-13T14:00:00.000Z
 updated_at: 2023-04-13T14:00:00.000Z
 publisher: Red Ant
+redirect_from: /cyber-security/goose-getting-out-of-scope/
 ---
 
 Many organisations focus on how they can protect networks and platforms. Using the analogy of a house, they are putting better locks on their doors, installing video cameras and so on. But this is a different approach- have less valuable stuff in your house, so it’s less attractive to break in to. And if there is a break in, there isn’t much to steal.

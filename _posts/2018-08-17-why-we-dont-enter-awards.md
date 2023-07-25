@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Why we don't enter awards… And why I irritate Wayne.
-permalink: '/red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/'
+permalink: 'blog/red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/'
 type: news
 categories:
   - our-work
@@ -13,7 +14,7 @@ image: '/assets/uploads/2018/test-image.jpg'
 description: I have this friend. Let's call him Wayne. He works in advertising.
 tags: []
 time: ''
-redirect_from:
+redirect_from: /red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/
 date_published: ! ' 2018-08-17'
 publisher: Red Ant
 updated_at: 2018-08-17

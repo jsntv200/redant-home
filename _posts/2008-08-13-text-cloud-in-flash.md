@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Text Cloud in Flash
 description: Visualising a list of information in interesting ways
-permalink: /our-work/text-cloud-in-flash/
+permalink: blog/our-work/text-cloud-in-flash/
 type: ideas
 categories:
   - our-work

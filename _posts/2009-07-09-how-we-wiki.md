@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: How we Wiki
 decription: Red Ant + clients + Wiki = awesome knowledge collaboration and sharing.
-permalink: /agile/how-we-wiki/
+permalink: blog/agile/how-we-wiki/
 type: ideas
 categories:
   - how-we-do

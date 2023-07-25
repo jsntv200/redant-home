@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: We've finally made it - from bucket to bokashi to 3 compost bins
-permalink: "/red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/"
+permalink: "blog/red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/"
 type: news
 categories:
 - red-ant-stuff
@@ -14,7 +15,7 @@ image: "/assets/uploads/2012/compost-bin.jpg"
 description: 'Green offices of the present future: office composting.'
 tags: []
 time: ''
-redirect_from:
+redirect_from: /red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/
 date_published: ! ' 2012-08-30'
 publisher: Red Ant
 updated_at: 2012-08-30

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Mobile first - 5 key constraints on mobile devices
-permalink: /mobile/mobile-first-5-key-constraints/
+permalink: blog/mobile/mobile-first-5-key-constraints/
 type: ideas
 categories:
   - strategy
@@ -19,7 +20,7 @@ description: >-
   we face when doing so.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /mobile/mobile-first-5-key-constraints/
 date_published: 2012-10-04T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-10-04T00:00:00.000Z

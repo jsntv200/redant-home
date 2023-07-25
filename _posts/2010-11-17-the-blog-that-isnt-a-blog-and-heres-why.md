@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: The blog that isn't a blog - and here's why
-permalink: "/our-work/the-blog-that-isnt-a-blog-and-heres-why/"
+permalink: "blog/our-work/the-blog-that-isnt-a-blog-and-heres-why/"
 type: news
 categories:
 - our-work
@@ -15,7 +16,7 @@ description: We've recently launched a new blog feature on the Huggies site. But
   it's a blog with a difference.
 tags: []
 time: ''
-redirect_from:
+redirect_from: /our-work/the-blog-that-isnt-a-blog-and-heres-why/
 date_published: ! ' 2010-11-17'
 publisher: Red Ant
 updated_at: 2010-11-17

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: The WordPress Effect
-permalink: /strategy/wordpress-effect/
+permalink: blog/strategy/wordpress-effect/
 type: ideas
 categories:
   - strategy
@@ -19,7 +20,7 @@ description: >-
   between.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /strategy/wordpress-effect/
 date_published: 2013-12-19T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2013-12-19T00:00:00.000Z

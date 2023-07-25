@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: The problem with great startup ideas is that everyone has one
-permalink: /red-ant-stuff/opinionated-developer/
+permalink: blog/red-ant-stuff/opinionated-developer/
 type: news
 categories:
   - our-work
@@ -16,7 +17,7 @@ image: /assets/uploads/ideas.jpg
 description: Execution matters. Your development team matters.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /red-ant-stuff/opinionated-developer/
 date_published: 2018-09-17T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-09-17T00:00:00.000Z

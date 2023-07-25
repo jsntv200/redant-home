@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Clicktale Review - how the technology works and why it didn't for us
-permalink: /tool-reviews/clicktale-review-technology/
+permalink: blog/tool-reviews/clicktale-review-technology/
 type: news
 categories:
   - tool-reviews
@@ -17,7 +18,7 @@ description: >-
   box.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /tool-reviews/clicktale-review-technology/
 date_published: 2012-01-31T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-01-31T00:00:00.000Z

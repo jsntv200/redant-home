@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Why we use Ruby on Rails
-permalink: '/ruby-on-rails/why-we-use-ruby-on-rails/'
+permalink: 'blog/ruby-on-rails/why-we-use-ruby-on-rails/'
 type: ideas
 categories:
   - how-we-do
@@ -19,8 +20,8 @@ tags: []
 time: ''
 redirect_from:
   - /blog/why-we-use-ruby-on-rails/
-  - /blog/why-we-use-ruby-on-rails
   - /blog/text-cloud-in-flash/
+  - /ruby-on-rails/why-we-use-ruby-on-rails/
 date_published: ! ' 2009-08-02'
 publisher: Red Ant
 updated_at: 2009-08-02

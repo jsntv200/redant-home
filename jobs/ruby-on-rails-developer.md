@@ -38,7 +38,7 @@ OK- so that was a few general things. In terms of specifics, we:
 
 In terms of actual front end technology, the picture is a bit blurry right now. Everything we do is Ruby, but sometimes this is a single Rails app, and sometimes separate (JRuby API, Angular FE). But all of this is constantly evolving - we're also evaluating React and let's not even bring up testing frameworks.
 
-The things we make are typically large web applications, which we call [Digital Products](/digital-products/ "Digital Products"). Have a look at our [portfolio](/portfolio/ "portfolio") to get a better idea of the some of the projects we work on.
+The things we make are typically large web applications, which we call [Digital Products](/blog/digital-products/ "Digital Products"). Have a look at our [portfolio](/portfolio/ "portfolio") to get a better idea of the some of the projects we work on.
 
 ## Full time
 

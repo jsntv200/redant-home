@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Sign up forms are tricky to do well
-permalink: /ruby-on-rails/sign-up-forms-are-tricky-to-do-well/
+permalink: blog/ruby-on-rails/sign-up-forms-are-tricky-to-do-well/
 type: ideas
 categories:
   - how-we-do

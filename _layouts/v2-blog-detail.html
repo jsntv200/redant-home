@@ -1,0 +1,59 @@
+---
+layout: v2-default
+---
+
+{% include v2/background-image.html color="cyan" %}
+
+<div class="max-w-screen-2xl mx-auto pb-[100px] px-6 pt-24 lg:px-8">
+  {% include v2/breadcrumbs.html %}
+
+  <h2 class="text-3xl md:text-5xl font-bold pt-10 pb-12 text-cyan-100">
+    {{ page.title }}
+  </h2>
+
+  <div class="grid grid-cols-3 md:gap-10">
+    <div class="col-span-3 md:col-span-2">
+      <hr class="bg-gray-100/40 h-[2px] mb-12"></hr>
+
+      <img
+        class="mb-4 object-cover w-full"
+        src="{{ page.image }}"
+        alt="{{ page.title }}"
+      />
+
+      <div class="markdown">
+        {{ content }}
+      </div>
+    </div>
+
+    <div class="col-span-3 md:col-span-1 order-first md:order-last">
+      <hr class="bg-gray-100/40 h-[2px] mb-12"></hr>
+
+      {% if page.content_sidebar.size > 1 %}
+        <p class="text-2xl md:text-3xl">
+          {{ page.content_sidebar }}
+        </p>
+      {% endif %}
+
+      <hr class="bg-gray-100/40 h-[2px] mt-12"></hr>
+
+      <div class="flex my-4 text-gray-100">
+        {% if page.author %}
+          <p>{{ page.author }}</p>
+        {% endif %}
+
+        {% if page.author and page.updated_at %}
+          <p class="px-2">-</p>
+        {% endif %}
+
+        {% if page.updated_at %}
+          <p>{{ page.updated_at | date: "%d %b %Y" }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="max-w-screen-2xl mx-auto relative isolate px-6 pb-[50px] 2xl:px-0 lg:pb-[100px]">
+{% include v2/related-panel.html slug = page.slug %}
+</div>

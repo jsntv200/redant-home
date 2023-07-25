@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: A look inside our Jenkins Pipeline - how we make reliable stuff
-permalink: "/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/"
+permalink: "blog/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/"
 type: ideas
 categories:
 - automated-testing
@@ -14,7 +15,7 @@ image: "/assets/uploads/2012/jenkins-pipeline-start.png"
 description: How we build relational trust; our integrated testing pipeline
 tags: []
 time: ''
-redirect_from:
+redirect_from: /automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/
 date_published: ! ' 2012-02-28'
 publisher: Red Ant
 updated_at: 2012-02-28

@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: The hard thing about AI isn't making it - it's testing that it works
 type: news
-permalink: /automated-testing/ai-development-testing
+permalink: blog/automated-testing/ai-development-testing
 categories:
   - automated-testing
   - software-development
@@ -19,7 +20,7 @@ description: >-
   seems
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /automated-testing/ai-development-testing/
 date_published: 2018-11-26T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-11-26T00:00:00.000Z

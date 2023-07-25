@@ -2,7 +2,7 @@
 layout: v2-default
 ---
 
-{% include v2/background-image.html file="svg/lines-7.svg" %}
+{% include v2/background-image.html file = "svg/lines-7.svg" %}
 
 <div class="max-w-screen-lg mx-auto lg:px-12">
   {% include v2/title-panel.html
@@ -68,7 +68,7 @@ layout: v2-default
 {% if count > 0 %}
   <div class="max-w-screen-2xl mx-auto px-6 pt-14 lg:px-8 py-24">
     <h2 class="text-3xl lg:text-5xl font-bold my-12 md:my-24">Some of our {{ page.title }} projects</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[40px]">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
       {% for slug in site.data.portfolio.order %}
         {% assign pages = site.pages | where:'slug', slug %}
         {% for page in pages %}

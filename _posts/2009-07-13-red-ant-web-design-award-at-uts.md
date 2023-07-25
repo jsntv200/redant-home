@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Red Ant web design award at UTS
-permalink: '/red-ant-stuff/red-ant-web-design-award-at-uts/'
+permalink: 'blog/red-ant-stuff/red-ant-web-design-award-at-uts/'
 type: news
 categories:
   - red-ant-stuff
@@ -19,7 +20,7 @@ description:
   to this one, and many more!
 tags: []
 time: ''
-redirect_from:
+redirect_from: /red-ant-stuff/red-ant-web-design-award-at-uts/
 date_published: ! ' 2009-07-13'
 publisher: Red Ant
 updated_at: 2009-07-13

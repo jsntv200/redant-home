@@ -20,7 +20,7 @@ industry_vertical_tags: []
 service_tags: []
 lines_of_code: '3000'
 redirect_from:
-  - /portfolio/beautyheaven-beautorium/www.beautyheaven.com.au
+  - /portfolio/beautyheaven-beautorium/www.beautyheaven.com.au/
 images:
   - type: gallery
     path: /assets/images/projects/beautyheaven/beautyheaven-1.jpg

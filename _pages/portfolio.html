@@ -5,11 +5,11 @@ title: "Ruby on Rails Applications for Web and Mobile : See Our Showcase of Inno
 description: It isn’t just good design, or a good user experience.  Great digital products come about when these blend together.
 ---
 
-{% include v2/background-image.html file="svg/lines-5.svg" %}
+{% include v2/background-image.html file = "svg/lines-5.svg" %}
 
-{% include v2/title-panel.html title="Portfolio" %}
+{% include v2/title-panel.html title = "Portfolio" %}
 
-<div class="max-w-screen-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[40px] mx-auto px-6 lg:px-8 mb-24">
+<div class="max-w-screen-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto px-6 lg:px-8 mb-24">
   {% for slug in site.data.portfolio.order %}
     {% assign pages = site.pages | where:'slug', slug %}
     {% for page in pages %}

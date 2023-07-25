@@ -1,6 +1,7 @@
 ---
-layout: post
-permalink: "/strategy/how-much-should-I-spend/"
+layout: v2-blog-detail
+is_blog: true
+permalink: "blog/strategy/how-much-should-I-spend/"
 type: ideas
 categories:
 - strategy
@@ -20,6 +21,7 @@ image: "/assets/uploads/2020/Desktop-1.png"
 description: Building a SaaS platform isn’t a modular commodity with a fixed price.
 redirect_from:
   - /strategy/what-is-the-right-budget-for-my-website/
+  - /strategy/how-much-should-I-spend/
 updated_at: 2020-02-27
 
 ---

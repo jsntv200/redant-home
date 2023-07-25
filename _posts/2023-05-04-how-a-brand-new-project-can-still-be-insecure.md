@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: How a brand new project can still be insecure
-permalink: /cyber-security/brand-new-code-but-bad-sad-face-emoji/
+permalink: blog/cyber-security/brand-new-code-but-bad-sad-face-emoji/
 type: ideas
 categories:
   - cyber-security
@@ -20,6 +21,7 @@ publisher: Red Ant
 image_small: /assets/uploads/iStock-668575918.jpg
 image: /assets/uploads/iStock-668575918.jpg
 updated_at: 2023-05-03T14:00:00.000Z
+redirect_from: /cyber-security/brand-new-code-but-bad-sad-face-emoji/
 ---
 
 People often assume that if a software platform has been recently built, it must be inherently secure. This certainly has a kernel of truth to it, but there’s also a misplaced assumption.

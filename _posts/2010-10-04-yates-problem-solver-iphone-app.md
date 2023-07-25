@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Yates Problem Solver iPhone App
-permalink: /our-work/yates-problem-solver-iphone-app/
+permalink: blog/our-work/yates-problem-solver-iphone-app/
 type: news
 categories:
   - mobile
@@ -17,7 +18,7 @@ description: >-
   common garden problems.
 tags: []
 time: ''
-redirect_from: null
+redirect_from: /our-work/yates-problem-solver-iphone-app/
 date_published: 2010-10-04T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2010-10-04T00:00:00.000Z

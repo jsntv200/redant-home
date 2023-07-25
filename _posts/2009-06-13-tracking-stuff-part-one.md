@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: Tracking stuff - part one
 description: Bugs, no body likes them, everyone has to deal with them. Here's how we've tried tracking ours so far.
-permalink: /ruby-on-rails/tracking-stuff-part-one/
+permalink: blog/ruby-on-rails/tracking-stuff-part-one/
 type: ideas
 categories:
   - how-we-do

@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: v2-blog-detail
+is_blog: true
 title: What we've been working on- Developing 12WBT for the USA
-permalink: "/our-work/developing-12wbt-usa/"
+permalink: "blog/our-work/developing-12wbt-usa/"
 type: news
 categories:
 - our-work
@@ -19,7 +20,7 @@ description: We've been working on building the Michelle Bridges 12WBT platform
   this week.
 tags: []
 time: ''
-redirect_from:
+redirect_from: /our-work/developing-12wbt-usa/
 date_published: ! ' 2014-01-02'
 publisher: Red Ant
 updated_at: 2014-01-02

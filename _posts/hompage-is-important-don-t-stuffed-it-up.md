@@ -1,6 +1,7 @@
 ---
-layout: post
-permalink: "/"
+layout: v2-blog-detail
+is_blog: true
+permalink: "blog/"
 type: news
 categories: []
 author: Ben Still
@@ -15,6 +16,7 @@ image_small: "/assets/uploads/2020/group-2.png"
 image: "/assets/uploads/2020/group-2.png"
 content_sidebar: "How to optimize your homepage in the mobile era"
 redirect_from:
+published: false
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

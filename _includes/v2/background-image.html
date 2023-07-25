@@ -4,12 +4,15 @@
 {% endcomment %}
 
 <div
-  class="absolute inset-0 -z-10 overflow-hidden"
+  class="absolute inset-0 -z-10 overflow-x-hidden"
   aria-hidden="true">
   {% if include.color %}
     <div class="absolute bg-gradient-to-b from-{{ include.color }}-100/25 from-60% w-full h-[400px] md:h-[600px] z-20"></div>
   {% endif %}
-  <div class="relative z-10">
-    {% include {{ include.file }} %}
-  </div>
+
+  {% if include.file %}
+    <div class="relative z-10">
+      {% include {{ include.file }} %}
+    </div>
+  {% endif %}
 </div>
