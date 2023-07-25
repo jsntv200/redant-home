@@ -10,11 +10,6 @@ slug: reactjs
 projects:
   - managed
 image: '/assets/uploads/2019/reactjs.png'
-how_title: ReactJS
-how_bulletpoints:
-  - React solves many of the problems developers face when creating large, modern apps
-  - Backed by Facebook and a large open source community
-  - A developer can push to web, iOS and Android with the one set of code
 redirect_from:
 ---
 

@@ -33,11 +33,6 @@ projects:
   - ray-white-accelerate
   - rotacota
 image: '/assets/uploads/2019/rails.png'
-how_title: Ruby developers
-how_bulletpoints:
-  - We’ve got a ton of Ruby on Rails experience
-  - Ruby on Rails is a very reliable and flexible framework
-  - Ruby can also be integrated with other APIs and frameworks such as React and Angular
 redirect_from:
 ---
 

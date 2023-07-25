@@ -10,8 +10,6 @@ slug: jira
 projects:
   - project-summary-tool
 image: /assets/uploads/jira-1.png
-how_title: Jira
-how_bulletpoints: null
 redirect_from: null
 ---
 

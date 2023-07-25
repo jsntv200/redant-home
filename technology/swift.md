@@ -11,11 +11,6 @@ projects:
   - 12wbt-daily-app
   - tribe-influencer-marketplace
 image: '/assets/uploads/2019/swift.png'
-how_title: Native iOS development
-how_bulletpoints:
-  - We’ve got solid native iOS platform development experience
-  - Language focused on performance and promoting bug-free code
-  - Huge market exposure on the Apple App Store
 redirect_from:
 ---
 

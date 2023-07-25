@@ -12,12 +12,6 @@ projects:
   - 12wbt
   - huggies
 image: '/assets/uploads/2019/salesforce.png'
-how_title: Salesforce Marketing Cloud Integration
-how_bulletpoints:
-  - Using tools like Predictive Intelligence
-  - Building SFMC Data Extensions and Filters
-  - API and data ingestion
-  - Salesforce Marketing Cloud technical integration
 redirect_from:
 ---
 

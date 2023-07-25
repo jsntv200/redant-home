@@ -14,8 +14,6 @@ projects:
 - momentum
 - project-summary-tool
 image: "/assets/uploads/2019/stripe.png"
-how_title: Stripe Payments
-how_bulletpoints: []
 image_hero: "/assets/uploads/2022/stripe-hero.png"
 redirect_from:
 
