@@ -7,9 +7,8 @@ description: At Red Ant we are always on a look out for a good fit to this famil
 
 {% include v2/background-image.html file="svg/lines-6.svg" %}
 
-{% include v2/title-panel.html
-  title="Working at Red Ant"
-  content="<p class='mb-4'>
+{% capture markup %}
+  <p class='mb-4'>
     We’re a leading technical agency in Sydney, Australia. This page should
     tell you all you need to know about us and more. To start with, we have a
     core team of 35 – a mix of developers, designers and project managers. For
@@ -18,9 +17,14 @@ description: At Red Ant we are always on a look out for a good fit to this famil
     <a class='text-red-50 hover:underline' href='/technology/reactJS/'>ReactJS</a>. We apply the
     <a class='text-red-50 hover:underline' href='/blog/agile/'>Agile project methodology</a>.
   </p>
-  We’ve been around for a while (+18y) and in that time have worked on a
-  wide variety of projects. Picking up quite a bit of know how and
-  experience along the way. We specialise in creating and building Digital Products." %}
+  <p>
+    We’ve been around for a while (+18y) and in that time have worked on a wide variety of projects. Picking up quite a bit of know how and experience along the way. We specialise in creating and building Digital Products.
+  </p>
+{% endcapture %}
+
+{% include v2/title-panel.html
+  title = "Working at Red Ant"
+  content = markup %}
 
 <div class="max-w-screen-2xl mx-auto relative isolate pb-10 px-6 lg:px-8 ">
   <hr class="bg-white/40 h-[2px] mb-8">
