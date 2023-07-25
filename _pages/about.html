@@ -8,16 +8,21 @@ author: Ben Still
 
 {% include v2/background-image.html file="svg/lines-1.svg" %}
 
+{% capture markup %}
+  <p class='block mb-4'>
+    We’re a cross functional technical agency of Developers, Digital Program Managers and Designers in Sydney, Australia.
+  </p>
+  <p class='block mb-4'>
+    We create custom digital platforms and apps in Open Source software - we specialise in <a href='/technology/ruby-on-rails/' class='underline text-red-50 hover:text-red-200'>Ruby on Rails</a> and <a href='/technology/reactJS/' class='underline text-red-50 hover:text-red-200'>React</a>.
+  </p>
+  <p>
+    We’ve been creating digital websites and products for over 22 years and in that time have worked on a wide variety of projects. Along the way, we’ve picked up quite a bit of know how and experience.
+  </p>
+{% endcapture %}
+
 {% include v2/title-panel.html
-  title="About"
-  description="
-  <span class='block mb-4'>
-  We’re a cross functional technical agency of Developers, Digital Program Managers and Designers in Sydney, Australia.
-  </span>
-  <span class='block mb-4'>
-  We create custom digital platforms and apps in Open Source software - we specialise in <a href='/technology/ruby-on-rails/' class='underline text-red-50 hover:text-red-200'>Ruby on Rails</a> and <a href='/technology/reactJS/' class='underline text-red-50 hover:text-red-200'>React</a>.
-  </span>
-  We’ve been creating digital websites and products for over 22 years and in that time have worked on a wide variety of projects. Along the way, we’ve picked up quite a bit of know how and experience." %}
+  title = "About"
+  description = markup %}
 
 <div class="bg-red-100/[0.15]">
   <div class="max-w-screen-2xl mx-auto pb-12 md:pb-24 px-6 pt-14 lg:px-8">

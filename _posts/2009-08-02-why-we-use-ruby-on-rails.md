@@ -20,7 +20,6 @@ tags: []
 time: ''
 redirect_from:
   - /blog/why-we-use-ruby-on-rails/
-  - /blog/why-we-use-ruby-on-rails
   - /blog/text-cloud-in-flash/
   - /ruby-on-rails/why-we-use-ruby-on-rails/
 date_published: ! ' 2009-08-02'

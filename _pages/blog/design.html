@@ -6,19 +6,24 @@ type: design
 title: Design of interactive software platforms
 description: Design
 redirect_from:
-  - /design
+  - /design/
 ---
 
-{% include v2/title-panel.html
-  content="
+{% capture markup %}
   <p class='mb-4'>
-  Design and UX is a key part of what we do. It works best as an integral part
-  of the overall process.
+    Design and UX is a key part of what we do. It works best as an integral part
+    of the overall process.
   </p>
-  You've probably got an idea of where you'd like to get to. Typically this
-  might be a commercial version of your MVP. Something good enough to pay for."
-  title="Design"
-  wrapper-class="pb-0" %}
+  <p>
+    You've probably got an idea of where you'd like to get to. Typically this
+    might be a commercial version of your MVP. Something good enough to pay for.
+  </p>
+{% endcapture %}
+
+{% include v2/title-panel.html
+  content = markdown
+  title = "Design"
+  wrapper-class = "pb-0" %}
 
 <div class="max-w-screen-2xl flex flex-col mx-auto relative isolate px-6 lg:px-8 text-gray-100 mb-24">
   <h5 class="text-xl font-bold pb-10">

@@ -20,9 +20,7 @@ description: >-
 tags: []
 time: ''
 redirect_from:
-  - /pjax
   - /pjax/
-  - pjax/
   - /pjax/asynchronous-javascript-frameworks-like-angular-js/
 date_published: 2012-12-19T00:00:00.000Z
 publisher: Red Ant

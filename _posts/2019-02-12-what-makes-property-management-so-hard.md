@@ -18,7 +18,7 @@ description: From the outside looking in, the property management business looks
 tags:
 - software-development
 time: ''
-redirect_from: /software-development/what-makes-property-management-so-hard
+redirect_from: /software-development/what-makes-property-management-so-hard/
 date_published: ! ' 2019-02-12'
 publisher: Red Ant
 updated_at: 2019-02-12

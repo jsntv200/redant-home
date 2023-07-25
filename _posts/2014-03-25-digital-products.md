@@ -19,7 +19,7 @@ description: >-
 tags: []
 time: ''
 redirect_from:
-  - /digital-product
+  - /digital-product/
   - /digital-products/
   - /digital-products/defining-a-digital-product
 date_published: 2014-03-25T00:00:00.000Z

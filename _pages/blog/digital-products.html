@@ -5,13 +5,12 @@ permalink: /blog/digital-products/
 title: Digital Products
 description: Creating Digital Products
 redirect_from:
-  - /products
+  - /products/
   - /digital-products/
 sitemap: false
 ---
 
-{% include v2/title-panel.html
-  content="
+{% capture markup %}
   <p class='mb-4'>
     One of the things we focus on is developing Digital Products. These
     are websites that provide some form of utility to users - these
@@ -54,12 +53,16 @@ sitemap: false
     variety of tools available ranging from popular ones like Wordpress or
     Drupal, through to more enterprise options like Sitecore or Adobe CQ.
   </p>
-  <p class='mb-4'>
+  <p>
     Digital product development is generally more involved, due to higher
     technical complexity. The focus is more on the user experience and providing
     that utility. Technical problems like caching and site speed become trickier
     - speeding up a static site is generally pretty straightforward, but a page
     that is different for each user is an entirely different challenge.
-  </p>"
-  title="Creating Digital Products"
-  wrapper-class="pb-0" %}
+  </p>
+{% endcapture %}
+
+{% include v2/title-panel.html
+  content = markdown
+  title = "Creating Digital Products"
+  wrapper-class = "pb-0" %}

@@ -7,24 +7,35 @@ title: Privacy
 description: How mature is your online privacy process? We've created a quick online tool to help you understand where your organisation sits relative to others.
 sitemap: false
 redirect_from:
-  - /privacy
+  - /privacy/
 ---
 
-{% include v2/title-panel.html
-  content="
+{% capture markup %}
   <p class='mb-4'>
-  Assessing your organisation’s privacy practices is key to improving them. Our privacy management assessment tool helps you understand your current position so you can plan your next steps for implementing privacy measures tailored to your business’s needs.
+    Assessing your organisation’s privacy practices is key to improving them. Our privacy management assessment tool helps you understand your current position so you can plan your next steps for implementing privacy measures tailored to your business’s needs.
   </p>
-  If you're seeking guidance on how to improve privacy practices in your organisation, we can help with tips on where to begin and various options for implementing better privacy practices."
-  title="Privacy" %}
+  <p>
+    If you're seeking guidance on how to improve privacy practices in your organisation, we can help with tips on where to begin and various options for implementing better privacy practices.
+  </p>
+{% endcapture %}
+
+{% include v2/title-panel.html
+  content =  markup
+  title = "Privacy" %}
+
+{% capture markup %}
+  <p class='mb-4'>
+    This quick online tool will help you understand the overall maturity of the privacy ecosystem within your organisation.
+  </p>
+
+  <div class="flex align-middle text-cyan-100 hover:text-cyan-200">
+    Take the quiz<i class='fa fa-chevron-right m-1'></i>
+  </div>
+{% endcapture %}
 
 <div class="max-w-screen-2xl mx-auto px-6 lg:px-8">
   {% include v2/post-card-wide.html
-    description = "
-    <p class='mb-4'>
-    This quick online tool will help you understand the overall maturity of the privacy ecosystem within your organisation.
-    </p>
-    Take the quiz<i class='fa fa-chevron-right ml-1'></i>"
+    description = markup
     image_small = "/assets/uploads/2023/tool-min.png"
     is_blog = true
     title = "Privacy Maturity Assessment"

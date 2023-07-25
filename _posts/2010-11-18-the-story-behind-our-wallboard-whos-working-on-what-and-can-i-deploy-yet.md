@@ -18,8 +18,7 @@ tags: []
 time: 10 Mins Read
 redirect_from:
 - /agile/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
-- /blog/the-story-behind-our-wallboard
-- blog/the-story-behind-our-wallboard/
+- /blog/the-story-behind-our-wallboard/
 - /red-ant-stuff/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
 date_published: ! ' 2010-11-18'
 publisher: Red Ant

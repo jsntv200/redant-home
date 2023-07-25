@@ -20,7 +20,6 @@ tags: []
 time: ''
 redirect_from:
   - /blog/visualising-your-online-customer-funnel/
-  - /blog/visualising-your-online-customer-funnel
   - /strategy/visualising-your-online-customer-funnel/
 date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant

@@ -20,7 +20,7 @@ description: >-
   seems
 tags: []
 time: ''
-redirect_from: /automated-testing/ai-development-testing
+redirect_from: /automated-testing/ai-development-testing/
 date_published: 2018-11-26T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-11-26T00:00:00.000Z
