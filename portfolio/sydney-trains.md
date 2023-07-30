@@ -57,4 +57,4 @@ With the planning in place, execution was straightforward. We created a common d
 
 ## How can we help you?
 
-If you need help to make use of your data or provide better projections or visualisations of data contact us for a [free initial consult](/free-initial-consult-code-review/).
+If you need help to make use of your data or provide better projections or visualisations of data contact us for a [free initial consult](/contact-us/).

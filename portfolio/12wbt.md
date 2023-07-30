@@ -88,6 +88,6 @@ You [can read a bit more about](/our-work/our-work-michelle-bridges-12wbt-build/
 * **Content system** - members sign up and get content & tools each week. As the program progresses through the 12 weeks, different features appear.
 * **Event system** - members can create events, RSVP to them, write reviews of events, and book tickets for paid events.
 * **Forum & private messaging system** - tightly integrated with the rest of the site.
-* **Help & FAQ** - tightly integrated with 3rd party \<span class="caps">SAAS\</span> help system.
+* **Help & FAQ** - tightly integrated with 3rd party SAAS help system.
 * **My Stats** - an interactive tool which allows members to record their weight and key measurements, plus track progress over time.
 * **Third Party integrations** - members can sync their data with third party tracking apps like Myfitnesspal, or order their shopping list directly from Woolworths via the site.

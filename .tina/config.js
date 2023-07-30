@@ -233,11 +233,6 @@ export default defineConfig({
             label: "title",
           }, {
             type: "string",
-            name: "tagline",
-            label: "tagline",
-            component: "textarea",
-          }, {
-            type: "string",
             name: "description",
             label: "description",
             component: "textarea",
@@ -449,10 +444,6 @@ export default defineConfig({
               description: "Appears on index menus & meta desc",
             },
           }, {
-            type: "string",
-            name: "keywords",
-            label: "keywords",
-          }, {
             type: "image",
             name: "image_small",
             label: "image_small",
@@ -617,6 +608,42 @@ export default defineConfig({
             name: "body",
             isBody: true,
             type: "rich-text",
+          }, {
+            label: "column_1_image",
+            name: "column_1_image",
+            type: "image",
+          }, {
+            label: "column_1_description",
+            name: "column_1_description",
+            type: "rich-text",
+          }, {
+            label: "column_1_title",
+            name: "column_1_title",
+            type: "string",
+          }, {
+            label: "column_2_image",
+            name: "column_2_image",
+            type: "image",
+          }, {
+            label: "column_2_description",
+            name: "column_2_description",
+            type: "rich-text",
+          }, {
+            label: "column_2_title",
+            name: "column_2_title",
+            type: "string",
+          }, {
+            label: "column_3_image",
+            name: "column_3_image",
+            type: "image",
+          }, {
+            label: "column_3_description",
+            name: "column_3_description",
+            type: "rich-text",
+          }, {
+            label: "column_3_title",
+            name: "column_3_title",
+            type: "string",
           },
         ],
       },

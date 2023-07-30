@@ -1,11 +1,12 @@
 {% comment %}
   content
+  content-class
   description
   hr
   icon-class
   icon-wrapper-class
   image
-  image-height-class
+  image-class
   image-rounded
   subtitle
   text-color
@@ -24,21 +25,21 @@
 
   {% if include.image and include.image-rounded %}
     <img
-      class="w-[200px] h-[200px] mb-8 rounded-full"
+      class="w-52 h-52 mb-8 rounded-full"
       src="{{ include.image }}"
       alt="{{ include.title }} image"/>
   {% elsif include.image %}
     <img
-      class="w-full h-auto object-cover {{ include.image-height-class }}"
+      class="w-full h-auto object-cover {{ include.image-class }}"
       src="{{ include.image }}"
       alt="{{ include.title }} image"/>
   {% elsif include.icon-class %}
-    <div class="w-24 h-24 rounded-full border-[4px] items-center flex justify-center p-10 mb-5 {{ include.icon-wrapper-class }}">
-      <i class="fa-light {{ include.icon-class }} w-[52px] h-[52px]"></i>
+    <div class="w-24 h-24 rounded-full border-4 items-center flex justify-center mb-5 {{ include.icon-wrapper-class }}">
+      <i class="fa-light {{ include.icon-class }} w-14 h-14"></i>
     </div>
   {% endif %}
 
-  <div class="{{ include.class-content }}">
+  <div class="{{ include.content-class }}">
     {% if include.title %}
       <h5 class="mb-1.5 text-2xl font-semibold {{ include.text-color }}">
         {{ include.title }}
@@ -52,7 +53,7 @@
     {% endif %}
 
     {% if include.hr %}
-      <hr class="bg-gray-100/40 h-[2px] my-[25px]"></hr>
+      <hr class="bg-gray-100/40 h-[2px] my-6"></hr>
     {% endif %}
 
     {% if include.subtitle %}

@@ -178,7 +178,7 @@ module.exports = {
     },{
       pattern: /border-(red|cyan)-(100|100\/10)/,
     },{
-      pattern: /from-(cyan|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|placeos|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|whats-on|yates)-100\/25/,
+      pattern: /from-(red|cyan|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|placeos|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|whats-on|yates)-100\/25/,
     },{
       pattern: /text-(red|cyan|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|placeos|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|whats-on|yates)-(50|100)/,
       variants: ['hover'],

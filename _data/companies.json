@@ -1,0 +1,66 @@
+[
+  {
+    "title": "ACCR",
+    "path": "/assets/images/clients/accr.png"
+  },
+  {
+    "title": "BOQ",
+    "path": "/assets/images/clients/boq.png"
+  },
+  {
+    "title": "Campaign Express",
+    "path": "/assets/images/clients/campaignxpress.png"
+  },
+  {
+    "title": "Endeavour",
+    "path": "/assets/images/clients/endeavour.png"
+  },
+  {
+    "title": "Kimberley Clark",
+    "path": "/assets/images/clients/kc.png"
+  },
+  {
+    "title": "Managed",
+    "path": "/assets/images/clients/managed.png"
+  },
+  {
+    "title": "Mediaworks",
+    "path": "/assets/images/clients/mediaworks.png"
+  },
+  {
+    "title": "MUP",
+    "path": "/assets/images/clients/mup.png"
+  },
+  {
+    "title": "Pacefarm",
+    "path": "/assets/images/clients/pacefarm.png"
+  },
+  {
+    "title": "Pearsons",
+    "path": "/assets/images/clients/pearsons.png"
+  },
+  {
+    "title": "QMS",
+    "path": "/assets/images/clients/qms.png"
+  },
+  {
+    "title": "Ray White",
+    "path": "/assets/images/clients/raywhite.png"
+  },
+  {
+    "title": "Sibotest",
+    "path": "/assets/images/clients/sibotest.png"
+  },
+  {
+    "title": "SMATA",
+    "path": "/assets/images/clients/smata.png"
+  },
+  {
+    "title": "Sydney Trains",
+    "path": "/assets/images/clients/sydneytrains.png"
+  },
+  {
+    "title": "The Grants Hub",
+    "path": "/assets/images/clients/thegrantshub.png"
+  }
+]

@@ -135,4 +135,4 @@ You'll need to be patient, and have enough runway to make this work.
 
 \###Need advice?
 
-We're happy to discuss your development goals and options with you. Book in for a[ free Initial Consult](https://redant.com.au/free-initial-consult-code-review/ "Free Initial Consult ") or [Code Review](https://redant.com.au/ruby-on-rails-code-review/ "Code Review ") to discuss your options.
+We're happy to discuss your development goals and options with you. Book in for a[ free Initial Consult](https://redant.com.au/services/code-review/ "Free Initial Consult ") or [Code Review](https://redant.com.au/services/code-review/ "Code Review ") to discuss your options.

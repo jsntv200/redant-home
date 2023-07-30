@@ -12,7 +12,7 @@
   {% assign text-class = "text-cyan-100 group-hover:item:text-cyan-200" %}
 {% else %}
   {% assign background = "py-10" %}
-  {% assign border = "border-b-[1px] border-white/40" %}
+  {% assign border = "border-b-1 border-white/40" %}
   {% assign text-class = "text-red-50 group-hover:item:text-red-200" %}
 {% endif %}
 
@@ -21,7 +21,7 @@
   class="group/item flex flex-col items-center md:flex-row {{ border }} {{ background }}">
   {% if include.image_small %}
     <div class="w-full md:w-1/4 overflow-hidden mb-4 md:mb-0">
-      <div class="h-[200px] md:h-[250px] md:max-h-[250px] w-full">
+      <div class="h-52 md:h-64 md:max-h-64 w-full">
         <img
           class="object-cover min-w-full h-full"
           src="{{ include.image_small }}"

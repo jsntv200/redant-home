@@ -379,9 +379,9 @@ end</code></pre>
   You're probably wondering if Ruby is right for your project. While
   there are many good reasons to choose Ruby it will ultimately depend
   on your specific goals and resources. If you're just getting started
-  why not book in for a <a href="https://redant.com.au/free-initial-consult-code-review/" title="https://redant.com.au/free-initial-consult-code-review/">free initial consultation</a> to talk about your plans. If
+  why not book in for a <a href="https://redant.com.au/contact-us" title="https://redant.com.au/contact-us">free initial consultation</a> to talk about your plans. If
   you already have an existing website, book in for a
-  <a href="https://redant.com.au/ruby-on-rails-code-review/" title="https://redant.com.au/ruby-on-rails-code-review/">code review</a>
+  <a href="https://redant.com.au/services/code-review/" title="https://redant.com.au/services/code-review/">code review</a>
   to explore the strengths and options for your existing development.
   Helping start ups and existing companies understand their development
   options is what we do best.

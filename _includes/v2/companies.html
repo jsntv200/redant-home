@@ -33,117 +33,14 @@
       <div
         class="flex flex-row align-middle"
         data-carousel-target="container">
-        <img
-          alt="ACCR"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/accr.png" />
-
-        <img
-          alt="BOQ"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/boq.png" />
-
-        <img
-          alt="Campaign Express"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/campaignxpress.png" />
-
-        <img
-          alt="Endeavour"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/endeavour.png" />
-
-        <img
-          alt="Kimberley Clark"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/kc.png" />
-
-        <img
-          alt="Managed"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/managed.png" />
-
-        <img
-          alt="Mediaworks"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/mediaworks.png" />
-
-        <img
-          alt="MUP"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/mup.png" />
-
-        <img
-          alt="Pacefarm"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/pacefarm.png" />
-
-        <img
-          alt="Pearsons"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/pearsons.png" />
-
-        <img
-          alt="QMS"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/qms.png" />
-
-        <img
-          alt="Ray White"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/raywhite.png" />
-
-        <img
-          alt="Sibotest"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/sibotest.png" />
-
-        <img
-          alt="SMATA"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/smata.png" />
-
-        <img
-          alt="Sydney Trains"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/sydneytrains.png" />
-
-        <img
-          alt="The Grants Hub"
-          class="w-20"
-          data-carousel-target="item"
-          data-randomise-target="item"
-          src="/assets/images/clients/thegrantshub.png" />
+        {% for item in site.data.companies %}
+          <img
+            alt="{{ item.title }}"
+            class="w-20"
+            data-carousel-target="item"
+            data-randomise-target="item"
+            src="{{ item.path }}" />
+        {% endfor %}
       </div>
     </div>
   </div>

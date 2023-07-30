@@ -1,0 +1,41 @@
+---
+layout: v2-default
+permalink: /services/
+title: Services
+description: Take your digital development to the next level. Our team of designers, developers and strategists are ready to help you build a better platform or product.
+redirect_from: /get-started/
+---
+
+{% include v2/background-image.html file = "svg/lines-4.svg" %}
+
+{% capture markup %}
+  <p class='block mb-4'>
+    Take your digital development to the next level. Our team of designers, developers and strategists are ready to help you build a better platform or product. Uncover the opportunities of your digital product with our package of advisory services.
+  </p>
+  <p class='block mb-4'>
+    We can help you to understand your existing code base and help you make pragmatic technical choices to go forward.
+  </p>
+  <p>
+    We can also help fast track your development journey by focusing on features that matter and develop an actionable sprint plan to help you get it all done faster.
+  </p>
+{% endcapture %}
+
+{% include v2/title-panel.html
+  title = "Services"
+  description = markup %}
+
+<div class="max-w-screen-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto px-6 lg:px-8 mb-24">
+  {% for title in site.data.services %}
+    {% assign page = site.pages | where: 'layout', "v2-service-detail" | where: 'title', title | first %}
+
+    {% assign icon-class = page.icon %}
+
+    {% include v2/card-with-backdrop.html
+      bg-color = "red"
+      content = page.description
+      hr = "true"
+      icon-class = icon-class
+      title = page.title
+      url = page.dir %}
+  {% endfor %}
+</div>
