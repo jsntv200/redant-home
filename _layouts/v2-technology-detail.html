@@ -9,9 +9,9 @@ layout: v2-default
     title = page.title
     subtitle = page.subtitle
     content = page.description
-    cta-1-link = "/free-initial-consult-code-review/"
+    cta-1-link = "/contact-us/"
     cta-1-label = "Free initial consult"
-    cta-2-link = "/ruby-on-rails-code-review/"
+    cta-2-link = "/services/code-review/"
     cta-2-label = "Get started"
     image = page.image %}
 </div>
@@ -24,75 +24,85 @@ layout: v2-default
 
 <div class="bg-red-100/[0.15]">
   <div class="max-w-screen-2xl mx-auto py-12 md:py-24 px-6 lg:px-8">
-    <h2 class="text-3xl lg:text-5xl font-bold mb-12">How we can help</h2>
+    <h2 class="text-3xl lg:text-5xl font-bold mb-12">
+      How we can help
+    </h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto">
       {% include v2/card.html
-        content="We create, design and build new apps and platforms. We can help
+        content = "We create, design and build new apps and platforms. We can help
         you design for scale, as well as strategy or product support as
         you need it. We'll take responsibility for delivering your
         project.We create, design and build new apps and platforms. We
         can help you design for scale, as well as strategy or product
         support as you need it. We'll take responsibility for delivering
         your project."
-        icon-class="fa-hammer text-red-100"
-        icon-wrapper-class="border-red-100"
-        subtitle="New Builds"
-        text-color="red-100" %}
+        icon-class = "fa-hammer text-red-100"
+        icon-wrapper-class = "border-red-100"
+        subtitle = "New Builds"
+        text-color = "red-100" %}
 
       {% include v2/card.html
-        content="We can also take over an existing project. Often companies need
+        content = "We can also take over an existing project. Often companies need
         a bit more experience, developer resourcing, or help in
         completing certain features before they launch. Or you might
         need more development tasks done to your existing platform."
-        icon-class="fa-window-maximize text-red-100"
-        icon-wrapper-class="border-red-100"
-        subtitle="Existing Apps"
-        text-color="red-100" %}
+        icon-class = "fa-window-maximize text-red-100"
+        icon-wrapper-class = "border-red-100"
+        subtitle = "Existing Apps"
+        text-color = "red-100" %}
 
       {% include v2/card.html
-        content="We also provide a comprehensive Devops and Platform Support
+        content = "We also provide a comprehensive Devops and Platform Support
         service. We'll take on responsibility for monitoring and
         providing technical support as part of an ongoing plan that we
         can design with you."
-        icon-class="fa-screwdriver-wrench text-red-100"
-        icon-wrapper-class="border-red-100"
-        subtitle="Devops and Platform Support"
-        text-color="red-100" %}
+        icon-class = "fa-screwdriver-wrench text-red-100"
+        icon-wrapper-class = "border-red-100"
+        subtitle = "Devops and Platform Support"
+        text-color = "red-100" %}
     </div>
   </div>
 </div>
 
-{% assign count = page.projects | size %}
+<div class="max-w-screen-2xl mx-auto px-6 pt-14 lg:px-8 py-24">
+  <h2 class="text-3xl lg:text-5xl font-bold my-12 md:my-24">
+    Some of our {{ page.title }} projects
+  </h2>
 
-{% if count > 0 %}
-  <div class="max-w-screen-2xl mx-auto px-6 pt-14 lg:px-8 py-24">
-    <h2 class="text-3xl lg:text-5xl font-bold my-12 md:my-24">Some of our {{ page.title }} projects</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
-      {% for slug in site.data.portfolio.order %}
-        {% assign pages = site.pages | where:'slug', slug %}
-        {% for page in pages %}
-          {% assign image = page.images | where: "type", "desktop" | first %}
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+    {% for portfolio-slug in site.data.portfolio.order %}
+      {% assign portfolio-page = site.pages | where: 'slug', portfolio-slug | first %}
+
+      {% for technology in portfolio-page.technology_tags %}
+        {% assign technology-slug = technology | downcase | replace: " ", "-" %}
+
+        {% assign technology-page = site.pages | where: 'slug', technology-slug | first %}
+
+        {% if technology-page %}
+          {% assign image = portfolio-page.images | where: "type", "desktop" | first %}
 
           {% if image == nil %}
-            {% assign image = page.images | where: "type", "mobile" | first %}
+            {% assign image = portfolio-page.images | where: "type", "mobile" | first %}
           {% endif %}
 
           {% include v2/card-with-backdrop.html
-            bg-color=page.theme
-            content=page.description
-            hr="true"
-            is-portfolio=true
-            image=image.path
-            subtitle=page.subtitle
-            color=page.theme
-            title=page.title
-            url=page.dir %}
-        {% endfor %}
+            bg-color = portfolio-page.theme
+            content = portfolio-page.description
+            hr = "true"
+            is-portfolio = true
+            image = image.path
+            subtitle = portfolio-page.subtitle
+            color = portfolio-page.theme
+            title = portfolio-page.title
+            url = portfolio-page.dir %}
+
+          {% break %}
+        {% endif %}
       {% endfor %}
-    </div>
+    {% endfor %}
   </div>
-{% endif %}
+</div>
 
 <div class="max-w-screen-2xl mx-auto px-6 lg:px-8">
   <hr class="bg-gray-100/40 h-[2px] mb-12"></hr>
