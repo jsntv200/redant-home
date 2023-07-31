@@ -544,41 +544,6 @@ export default defineConfig({
             required: true,
           }, {
             type: "string",
-            name: "subtitle_1",
-            label: "subtitle_1",
-            required: true,
-            component: "textarea",
-          }, {
-            type: "string",
-            name: "subtitle_2",
-            label: "subtitle_2",
-            component: "textarea",
-          }, {
-            type: "string",
-            name: "cta_button_title",
-            label: "cta_button_title",
-            required: true,
-          }, {
-            type: "string",
-            name: "service_title",
-            label: "service_title",
-            required: true,
-          }, {
-            type: "string",
-            name: "service_bulletpoints",
-            label: "service_bulletpoints",
-            list: true,
-          }, {
-            type: "string",
-            name: "time",
-            label: "time",
-            required: true,
-          }, {
-            type: "string",
-            name: "cost",
-            label: "cost",
-          }, {
-            type: "string",
             name: "description",
             label: "description",
             required: true,
@@ -591,17 +556,6 @@ export default defineConfig({
             label: "redirect_from",
             name: "redirect_from",
             type: "string",
-            list: true,
-          }, {
-            type: "string",
-            name: "bulletpoints",
-            label: "bulletpoints",
-            list: true,
-          }, {
-            type: "string",
-            name: "projects",
-            label: "projects",
-            description: "Project slugs",
             list: true,
           }, {
             label: "Body",
