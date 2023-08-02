@@ -77,9 +77,7 @@ layout: v2-default
       {% for technology in portfolio-page.technology_tags %}
         {% assign technology-slug = technology | downcase | replace: " ", "-" %}
 
-        {% assign technology-page = site.pages | where: 'slug', technology-slug | first %}
-
-        {% if technology-page %}
+        {% if technology-slug == page.slug %}
           {% assign image = portfolio-page.images | where: "type", "desktop" | first %}
 
           {% if image == nil %}
@@ -96,8 +94,6 @@ layout: v2-default
             color = portfolio-page.theme
             title = portfolio-page.title
             url = portfolio-page.dir %}
-
-          {% break %}
         {% endif %}
       {% endfor %}
     {% endfor %}
