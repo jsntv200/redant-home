@@ -713,15 +713,6 @@ var config_default = defineConfig({
             label: "slug"
           },
           {
-            type: "string",
-            name: "projects",
-            label: "projects",
-            list: true,
-            config: {
-              description: "Project slugs"
-            }
-          },
-          {
             type: "image",
             name: "image",
             label: "image"
