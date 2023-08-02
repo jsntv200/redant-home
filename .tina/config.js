@@ -651,14 +651,6 @@ export default defineConfig({
             name: "slug",
             label: "slug",
           }, {
-            type: "string",
-            name: "projects",
-            label: "projects",
-            list: true,
-            config: {
-              description: "Project slugs",
-            },
-          }, {
             type: "image",
             name: "image",
             label: "image",

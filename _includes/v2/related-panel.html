@@ -1,5 +1,5 @@
 {% comment %}
-  slug
+  technologies
 {% endcomment %}
 
 <hr class="bg-white/40 h-[2px]" />
@@ -11,35 +11,48 @@
 </div>
 
 <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
-  {% assign pages = site.pages | where: 'layout', "v2-technology-detail" %}
-  {% assign count = 0 %}
-  {% for page in pages %}
-    {% for slug in page.projects %}
-      {% if slug == include.slug %}
+  {% if include.technologies %}
+    {% assign count = 0 %}
+
+    {% for technology in include.technologies %}
+      {% assign slug = technology | downcase | replace: " ", "-" %}
+      {% assign page = site.pages | where: 'slug', slug | first %}
+
+      {% if page %}
         {% include v2/card.html
-          description=page.type
-          image=page.image
-          text-color="text-red-50"
-          title=page.title
-          url=page.url %}
+          description = page.type
+          image = page.image
+          text-color = "text-red-50"
+          title = page.title
+          url = page.url %}
 
         {% assign count = count | plus: 1 %}
       {% endif %}
+
+      {% if count == 3 %}
+        {% break %}
+      {% endif %}
     {% endfor %}
+  {% else %}
+    {% assign count = 0 %}
 
-    {% if count == 3 %}
-      {% break %}
-    {% endif %}
-  {% endfor %}
+    {% for slug in site.data.technology.order %}
+      {% assign page = site.pages | where: 'slug', slug | first %}
 
-  {% if count == 0 %}
-    {% for page in pages limit:4 %}
-      {% include v2/card.html
-        description=page.type
-        image=page.image
-        text-color="text-red-50"
-        title=page.title
-        url=page.url %}
+      {% if page %}
+        {% include v2/card.html
+          description = page.type
+          image = page.image
+          text-color = "text-red-50"
+          title = page.title
+          url = page.url %}
+
+        {% assign count = count | plus: 1 %}
+      {% endif %}
+
+      {% if count == 4 %}
+        {% break %}
+      {% endif %}
     {% endfor %}
   {% endif %}
 </div>

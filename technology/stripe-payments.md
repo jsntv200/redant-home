@@ -7,12 +7,6 @@ subtitle: We’re Stripe Payments integration Experts
 description: Red Ant is a leading, Australian based team of Ruby on Rails Developers. We’ve worked with hundreds of companies and startups to integrate their apps with Stripe Payments.
 listing_description: Red Ant is a Certified Stripe Partner, which means we’ve been through additional Stripe training and certification. It also means we have expertise in the various Stripe products and how to best integrate them into your application.<br />I’m sure you may run into many development teams that can say “yeah, we use Stripe”. And that’s true - Stripe is very widely used, it’s really easy to set up, and it works well. For a simple payment flow.<br />But as your needs grow, and you probably need to talk to a Certified developer to take advantage of some of the more advanced functionality and products that Stripe offers, a good understanding of the different products and how they fit with your objectives becomes more important.
 slug: stripe-payments
-projects:
-- matrix-education
-- mentored
-- tribe-influencer-marketplace
-- momentum
-- project-summary-tool
 image: "/assets/uploads/2019/stripe.png"
 image_hero: "/assets/uploads/2022/stripe-hero.png"
 redirect_from:

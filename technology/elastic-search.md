@@ -11,22 +11,18 @@ description: >-
 listing_description: >
   Elasticsearch is a distributed, search and analytics engine that centrally
   stores your data so you can search, index, and analyze data of all shapes and
-  sizes.  
+  sizes.
 
   You can go far beyond simple data retrieval and aggregate information to
-  discover trends and patterns in your data. 
-slug: elastic-search
-projects:
-  - 12wbt
-  - voome-weekly
-  - voome-programs
+  discover trends and patterns in your data.
+slug: elasticsearch
 image: /assets/uploads/2019/elasticsearch.png
 redirect_from: null
 ---
 
-Elasticsearch is a distributed, search and analytics engine that centrally stores your data so you can search, index, and analyze data of all shapes and sizes.  
+Elasticsearch is a distributed, search and analytics engine that centrally stores your data so you can search, index, and analyze data of all shapes and sizes.
 
-You can go far beyond simple data retrieval and aggregate information to discover trends and patterns in your data. 
+You can go far beyond simple data retrieval and aggregate information to discover trends and patterns in your data.
 
 Red Ant has used Elasticsearch in many applications and can help identify how it can be used on both public and private applications.
 
