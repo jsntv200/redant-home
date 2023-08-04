@@ -1,5 +1,5 @@
 ---
-layout: results
+layout: v2-assessment-results
 permalink: /privacy/privacy-maturity-assessment/results
 type: "privacy"
 area: "Privacy"

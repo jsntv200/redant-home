@@ -9,12 +9,20 @@
   @apply opacity-0;
 }
 
+.fill {
+  @apply bg-purple-50;
+  @apply h-full;
+  width: 0%;
+}
+
 .markdown a {
   @apply text-red-50;
   @apply underline;
 }
 
-.markdown .alert {
+.markdown .alert,
+.markdown ol,
+.markdown ul {
   @apply pl-5;
   @apply py-5;
 }
@@ -27,8 +35,6 @@
 
 .markdown ol {
   @apply list-decimal;
-  @apply pl-5;
-  @apply py-5;
   @apply text-gray-100;
 }
 
@@ -39,20 +45,44 @@
 
 .markdown ul {
   @apply list-disc;
-  @apply pl-5;
-  @apply py-5;
   @apply text-gray-100;
 }
 
+.ruby-content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--read-more-line-clamp, 3);
+}
+
+.selected-section p:before,
+.selected-question p:before {
+  content: "";
+  @apply absolute;
+  @apply bottom-0;
+  @apply w-full;
+  @apply left-0;
+  height: 3px;
+  @apply rounded-sm;
+  @apply z-50;
+}
+
+.selected-section p:before {
+  @apply bg-neutral-700;
+}
+
+.selected-question p:before {
+  @apply bg-purple-50;
+}
+
 .typewriter-cursor:after {
-  display: inline-block;
-  position: relative;
+  @apply inline-block;
+  @apply relative;
   content: "";
   height: 34px;
-  width: 4px;
-  margin-left: 4px;
-  margin-right: -8px;
-  margin-bottom: -8px;
+  @apply w-1;
+  @apply ml-1;
+  @apply -mr-2;
+  @apply -mb-2;
   animation: blinkingBackground 900ms infinite;
 }
 
@@ -69,8 +99,27 @@
   }
 }
 
-.ruby-content {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: var(--read-more-line-clamp, 3);
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .main-layout.default-layout {
+    padding-bottom: 0px !important;
+  }
+
+  .assessment .assessment-header {
+    display: block;
+    margin: none !important;
+    padding: none !important;
+  }
+
+  .assessment .container {
+    max-width: 700px !important;
+  }
 }

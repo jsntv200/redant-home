@@ -1,30 +1,37 @@
-<div class="card-body px-0">
-  <div class="d-flex flex-column">
-    {% for question in include.section.questions %}
-      {% if forloop.last == true %}
-        {% assign next-question-url = include.next-section %}
-      {% else %}
-        {% assign next-question-number = forloop.index | plus: 1 %}
-        {% assign next-question-url = include.section.slug | append: "?q=" | append: next-question-number %}
-      {% endif %}
-      <div 
-        class="d-none" 
-        data-assessment-target="answerSection">
-        <p class="py-4 fw-semibold fs-5">{{ question.description }}</p>
-        <div 
-          class="row flex-column"
-          data-assessment-target="answer">
-          {% for answer in question.answers %}
-            <button
-              class="answer d-flex btn btn-link text-decoration-none w-100 rounded-4 bg-blue-100 p-3 mb-3 text-black border border-light text-start"
-              data-action="click->assessment#select"
-              data-assessment-answer-param="{{ include.section.slug }},{{ forloop.parentloop.index }},{{ forloop.index }},{{ question.weight }}"
-              data-assessment-href-param="{{ next-question-url }}">
-              {{ answer }}
-            </button>
-          {% endfor %}
-        </div>
+{% if page.area == "cyber-security" %}
+  {% assign hover-class = "hover:bg-red-50/20 hover:border-red-50 hover:text-red-50" %}
+{% elsif page.area == "privacy %}
+  {% assign hover-class = "hover:bg-amber-400/20 hover:border-amber-400 hover:text-amber-400" %}
+{% else %}
+  {% assign hover-class = "hover:bg-red-50/20 hover:border-red-50 hover:text-red-50" %}
+{% endif %}
+
+<div class="flex flex-col">
+  {% for question in include.section.questions %}
+    {% if forloop.last == true %}
+      {% assign next-question-url = include.next-section %}
+    {% else %}
+      {% assign next-question-number = forloop.index | plus: 1 %}
+      {% assign next-question-url = include.section.slug | append: "?q=" | append: next-question-number %}
+    {% endif %}
+
+    <div
+      class="hidden"
+      data-assessment-target="answerSection">
+      <p class="py-8 text-xl font-bold">{{ question.description }}</p>
+      <div
+        class="flex flex-col"
+        data-assessment-target="answer">
+        {% for answer in question.answers %}
+          <button
+            class="flex w-full rounded-xl bg-black p-3 mb-3 border-[1px] border-neutral-800 {{ hover-class}}"
+            data-action="click->assessment#select"
+            data-assessment-answer-param="{{ include.section.slug }},{{ forloop.parentloop.index }},{{ forloop.index }},{{ question.weight }}"
+            data-assessment-href-param="{{ next-question-url }}">
+            {{ answer }}
+          </button>
+        {% endfor %}
       </div>
-    {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
 </div>

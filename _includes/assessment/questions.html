@@ -1,19 +1,17 @@
 <div
-  class="row tabs"
+  class="flex"
   data-assessment-target="questionSlider">
-  <div class="d-flex">
-    {% for question in include.section.questions %}
-      <div class="col-auto me-3">
-        <button
-          data-action="click->assessment#select"
-          data-assessment-href-param="{{ include.section.slug }}?q={{ forloop.index }}"
-          class="btn btn-link text-black p-0"
-          data-assessment-target="question">
-          <p class="m-0 pb-3 lh-1 d-flex align-items-center position-relative">
-            {{ question.title }}
-          </p>
-        </button>
-      </div>
-    {% endfor %}
-  </div>
+  {% for question in include.section.questions %}
+    <div class="mr-3">
+      <button
+        data-action="click->assessment#select"
+        data-assessment-href-param="{{ include.section.slug }}?q={{ forloop.index }}"
+        class="text-white p-0"
+        data-assessment-target="question">
+        <p class="m-0 pb-3 flex align-middle relative hover:underline">
+          {{ question.title }}
+        </p>
+      </button>
+    </div>
+  {% endfor %}
 </div>

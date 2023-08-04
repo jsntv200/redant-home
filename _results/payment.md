@@ -1,5 +1,5 @@
 ---
-layout: results
+layout: v2-assessment-results
 permalink: /online-payments/payment-maturity-assessment/results
 type: "online-payments"
 area: "Payment"

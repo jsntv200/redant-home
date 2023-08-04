@@ -192,7 +192,7 @@ export class AssessmentController extends Controller {
 
   checkIncomplete() {
     if (Object.entries(this.storedAnswers).length > 0) {
-      this.resumeTarget.classList.toggle("d-none");
+      this.resumeTarget.classList.toggle("hidden");
     }
   }
 
@@ -201,7 +201,7 @@ export class AssessmentController extends Controller {
   }
 
   clearErrors() {
-    this.invalidEmailTarget.classList.add("d-none");
+    this.invalidEmailTarget.classList.add("hidden");
   }
 
   diff(x, y) {
@@ -285,7 +285,7 @@ export class AssessmentController extends Controller {
 
   submit() {
     if (this.validateEmail() === false) {
-      this.invalidEmailTarget.classList.toggle("d-none");
+      this.invalidEmailTarget.classList.toggle("hidden");
       return false;
     }
 
@@ -304,8 +304,8 @@ export class AssessmentController extends Controller {
     xhr.onreadystatechange = () => {
       if (xhr.readyState === 4 && xhr.status === 200) {
         this.formTarget.reset();
-        this.formTarget.classList.toggle("d-none");
-        this.responseTarget.classList.replace("d-none", "d-flex");
+        this.formTarget.classList.toggle("hidden");
+        this.responseTarget.classList.replace("hidden", "flex");
       }
     };
 
@@ -354,8 +354,13 @@ export class AssessmentController extends Controller {
 
       const element = target.children[oldAnswer - 1];
 
-      element.classList.toggle("border-light");
-      element.classList.toggle("active-question");
+      if (this.assessment.slug === "cyber-security") {
+        element.classList.add("bg-amber-400/20", "border-amber-400", "text-amber-400");
+      } else if (this.assessment.slug === "privacy") {
+        element.classList.add("bg-red-50/20", "border-red-50", "text-red-50");
+      } else {
+        element.classList.add("bg-purple-50/20", "border-purple-50", "text-purple-50");
+      }
     }
   }
 
@@ -363,10 +368,9 @@ export class AssessmentController extends Controller {
     const index = this.getQuestionIndexFromUrlParams();
     const section = location.pathname.split('/').reverse()[0];
 
-    this.answerSectionTargets[index].classList.toggle("d-none");
-    this.questionTargets[index].classList.toggle("border-light");
-    this.questionTargets[index].classList.toggle("active");
-    this.questionTargets[index].parentElement.classList.toggle("border-gradient");
+    this.answerSectionTargets[index].classList.toggle("hidden");
+    this.questionTargets[index].classList.toggle("font-bold");
+    this.questionTargets[index].parentElement.classList.toggle("selected-question");
     this.questionSliderTarget.scrollLeft = this.questionTargets[index].offsetLeft - this.questionSliderTarget.offsetLeft;
 
     for (const i in this.questionTargets) {
@@ -393,13 +397,13 @@ export class AssessmentController extends Controller {
         }
 
         if (location.pathname.includes(slug)) {
-          this.sectionTargets[i].classList.add("border-black");
+          this.sectionTargets[i].classList.add("selected-section");
         }
       }
     } else {
       this.sectionTargets[0].removeAttribute("disabled");
       this.sectionTargets[0].classList.remove("opacity-25");
-      this.sectionTargets[0].classList.add("border-black");
+      this.sectionTargets[0].classList.add("selected-section");
     }
   }
 
@@ -426,7 +430,7 @@ export class AssessmentController extends Controller {
     const sectionElement = this.resultsTargets[sectionIndex];
     const result = results[this.assessment.slug][sectionIndex]["results"][resultIndex];
 
-    sectionElement.children[0].children[0].innerHTML = `${results[this.assessment.slug][sectionIndex]["title"]}<p class="d-sm-none"><b>Score :</b> ${result["title"]}</p>`;
+    sectionElement.children[0].children[0].innerHTML = `${results[this.assessment.slug][sectionIndex]["title"]}<p class="md:hidden"><b>Score :</b> ${result["title"]}</p>`;
     sectionElement.children[1].children[0].innerHTML = result["title"];
     sectionElement.children[2].children[0].innerHTML = result["description"];
   }

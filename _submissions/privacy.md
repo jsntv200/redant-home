@@ -1,5 +1,5 @@
 ---
-layout: submit
+layout: v2-assessment-submit
 permalink: /privacy/privacy-maturity-assessment/submit
 class: assessment
 sitemap: false
