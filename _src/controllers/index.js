@@ -16,21 +16,6 @@ Stimulus.register("assessment", AssessmentController);
 import { Carousel } from "./carousel-controller";
 Stimulus.register("carousel", Carousel);
 
-import { FakeNewsController } from "./fake-news-controller";
-Stimulus.register("fake-news", FakeNewsController);
-
-import { Image } from "./image-controller";
-Stimulus.register("image", Image);
-
-import { NormaliseHeightController } from "./normalise-height-controller";
-Stimulus.register("normalise-height", NormaliseHeightController);
-
-import { MacyController } from "./macy-controller";
-Stimulus.register("macy", MacyController);
-
-import { ModalCarouselController } from "./modal-carousel-controller";
-Stimulus.register("modal-carousel", ModalCarouselController);
-
 import { NavController } from "./nav-controller";
 Stimulus.register("nav", NavController);
 
