@@ -22,5 +22,5 @@ area: "online-payments"
 </div>
 
 <div class="px-6 md:px-10 pb-5">
-  {% include assessment/answers.html section = site.data.assessment.payment.technology next-section = 'submit' %}
+  {% include assessment/answers.html area = "online-payments" section = site.data.assessment.payment.technology next-section = 'submit' %}
 </div>

@@ -1,0 +1,21 @@
+---
+layout: v2-assessment
+---
+
+{% include v2/background-image.html file = "svg/lines-3.svg" %}
+
+<div class="max-w-screen-lg mx-auto">
+  {% include assessment/header.html area = page.type %}
+
+  <div class="rounded-xl bg-white p-10 overflow-hidden relative print:px-0 print:pt-5">
+    <div data-assessment-target="isMobile" class="block sm:hidden"></div>
+
+    <iframe
+      data-assessment-target="bookingIframe"
+      src="{{page.iframe_src}}"
+      class="overflow-visible"
+      width="100%"
+      height="100%"
+      frameborder="0"></iframe>
+  </div>
+</div>

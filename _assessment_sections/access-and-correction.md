@@ -17,7 +17,7 @@ area: "privacy"
       {{ site.data.assessment.privacy.access-and-correction.description }}
     </p>
 
-    {% include assessment/questions.html section = site.data.assessment.privacy.access-and-correction %}
+    {% include assessment/questions.html area = "privacy" section = site.data.assessment.privacy.access-and-correction %}
   </div>
 </div>
 

@@ -46,13 +46,13 @@ exclude:
   - yarn-error.log
 
 collections:
-  sections:
+  assessment_sections:
     output: true
-  submissions:
+  assessment_submissions:
     output: true
-  results:
+  assessment_results:
     output: true
-  book_call:
+  assessment_book_call:
     output: true
 
 postcss:

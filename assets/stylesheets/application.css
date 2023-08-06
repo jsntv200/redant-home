@@ -70,8 +70,16 @@
   @apply bg-neutral-700;
 }
 
-.selected-question p:before {
+.selected-question p.online-payments:before {
   @apply bg-purple-50;
+}
+
+.selected-question p.privacy:before {
+  @apply bg-amber-400;
+}
+
+.selected-question p.cyber-security:before {
+  @apply bg-red-100;
 }
 
 .typewriter-cursor:after {

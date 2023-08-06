@@ -8,7 +8,7 @@ area: "cyber-security"
 ---
 
 <div class="bg-black">
-  <div class="pt-10 px-6 md:px-10 border-b-[1px] border-b-purple-50">
+  <div class="pt-10 px-6 md:px-10 border-b-[1px] border-b-red-100">
     <h2 class="text-3xl font-semibold pb-2">
       {{ site.data.assessment.cyber-security.respond.title }}
     </h2>
@@ -22,5 +22,5 @@ area: "cyber-security"
 </div>
 
 <div class="px-6 md:px-10 pb-5">
-  {% include assessment/answers.html section = site.data.assessment.cyber-security.respond next-section = 'submit' %}
+  {% include assessment/answers.html area = "cyber-security" section = site.data.assessment.cyber-security.respond next-section = 'submit' %}
 </div>

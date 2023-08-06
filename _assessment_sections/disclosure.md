@@ -22,5 +22,5 @@ area: "privacy"
 </div>
 
 <div class="px-6 md:px-10 pb-5">
-  {% include assessment/answers.html section = site.data.assessment.privacy.disclosure next-section = 'access-and-correction' %}
+  {% include assessment/answers.html area = "privacy" section = site.data.assessment.privacy.disclosure next-section = 'access-and-correction' %}
 </div>

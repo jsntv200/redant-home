@@ -1,5 +1,5 @@
 ---
-layout: book-call
+layout: v2-assessment-book-call
 permalink: /online-payments/book-call/
 title: Book a call
 class: assessment

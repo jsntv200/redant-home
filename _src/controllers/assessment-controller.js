@@ -355,9 +355,9 @@ export class AssessmentController extends Controller {
       const element = target.children[oldAnswer - 1];
 
       if (this.assessment.slug === "cyber-security") {
-        element.classList.add("bg-amber-400/20", "border-amber-400", "text-amber-400");
-      } else if (this.assessment.slug === "privacy") {
         element.classList.add("bg-red-50/20", "border-red-50", "text-red-50");
+      } else if (this.assessment.slug === "privacy") {
+        element.classList.add("!bg-amber-400/20", "!border-amber-400", "text-amber-400");
       } else {
         element.classList.add("bg-purple-50/20", "border-purple-50", "text-purple-50");
       }
