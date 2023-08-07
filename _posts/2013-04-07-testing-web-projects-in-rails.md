@@ -20,7 +20,8 @@ description: >-
   years is how we test our web projects
 tags: []
 time: ''
-redirect_from: /automated-testing/testing-web-projects-in-rails/
+redirect_from:
+  - /automated-testing/testing-web-projects-in-rails/
 date_published: 2013-04-07T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2013-04-07T00:00:00.000Z

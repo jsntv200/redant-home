@@ -18,7 +18,8 @@ description: >-
   common garden problems.
 tags: []
 time: ''
-redirect_from: /our-work/yates-problem-solver-iphone-app/
+redirect_from:
+  - /our-work/yates-problem-solver-iphone-app/
 date_published: 2010-10-04T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2010-10-04T00:00:00.000Z

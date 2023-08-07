@@ -16,7 +16,8 @@ content_sidebar: >
   read to launching the new Kleenex website, it's all here.
 tags: []
 time: ''
-redirect_from: /our-work/oooh-weve-been-busy-little-ants/
+redirect_from:
+  - /our-work/oooh-weve-been-busy-little-ants/
 date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2009-07-13T00:00:00.000Z

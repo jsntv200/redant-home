@@ -16,7 +16,8 @@ image: "/assets/uploads/2012/jira-screenshot.jpg"
 description: Seal teams, titanic sinkers and our prioritization ratings.
 tags: []
 time: 10 Mins Read
-redirect_from: /software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/
+redirect_from:
+  - /software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/
 date_published: ! ' 2012-01-25'
 publisher: Red Ant
 updated_at: 2012-01-25

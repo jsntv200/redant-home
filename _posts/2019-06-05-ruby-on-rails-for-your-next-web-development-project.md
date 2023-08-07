@@ -21,7 +21,8 @@ description:
 date_published: ! " 2019-06-05"
 publisher: Red Ant
 updated_at: 2019-06-05
-redirect_from: /software-development/ruby-on-rails-for-your-web-development/
+redirect_from:
+  - /software-development/ruby-on-rails-for-your-web-development/
 ---
 
 

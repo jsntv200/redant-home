@@ -20,7 +20,8 @@ tags: []
 keywords: ''
 image_small: /assets/uploads/hiring-a-web-development-team.jpg
 image: /assets/uploads/hiring-a-web-development-team.jpg
-redirect_from: /software-development/hiring-a-web-development-team/
+redirect_from:
+  - /software-development/hiring-a-web-development-team/
 date_published: 2019-05-22T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2019-05-22T00:00:00.000Z

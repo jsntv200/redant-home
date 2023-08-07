@@ -20,7 +20,8 @@ description: We've been working on building the Michelle Bridges 12WBT platform
   this week.
 tags: []
 time: ''
-redirect_from: /our-work/developing-12wbt-usa/
+redirect_from:
+  - /our-work/developing-12wbt-usa/
 date_published: ! ' 2014-01-02'
 publisher: Red Ant
 updated_at: 2014-01-02

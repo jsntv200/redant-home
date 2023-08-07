@@ -19,7 +19,8 @@ description: >-
   becoming increasingly important
 tags: []
 time: ''
-redirect_from: /mobile/mobile-apps-vs-mobile-site/
+redirect_from:
+  - /mobile/mobile-apps-vs-mobile-site/
 date_published: 2013-09-17T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2013-09-17T00:00:00.000Z

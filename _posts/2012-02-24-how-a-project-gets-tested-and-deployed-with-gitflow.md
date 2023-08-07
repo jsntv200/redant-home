@@ -17,7 +17,8 @@ image: "/assets/uploads/2012/github.jpg"
 description: GitFlow is the way of the future. Find out why and how here.
 tags: []
 time: ''
-redirect_from: /ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/
+redirect_from:
+  - /ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/
 date_published: ! ' 2012-02-24'
 publisher: Red Ant
 updated_at: 2012-02-24

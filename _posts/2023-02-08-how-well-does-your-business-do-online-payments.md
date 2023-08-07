@@ -16,7 +16,8 @@ keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/how-well-does-your-business-do-online-payments-min.png"
 image: "/assets/uploads/2023/how-well-does-your-business-do-online-payments-min.png"
 content_sidebar: What are the areas that we look at when analysing the maturity of your online payments process? This article explains what they are, and how they are relevant.
-redirect_from: /online-payments/how-well-does-your-business-do-online-payments/
+redirect_from:
+  - /online-payments/how-well-does-your-business-do-online-payments/
 updated_at: 2023-02-08
 ---
 

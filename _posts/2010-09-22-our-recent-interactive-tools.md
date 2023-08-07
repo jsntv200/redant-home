@@ -19,7 +19,8 @@ description:
   all green? Well now you can do all that from the comfort of your living room!
 tags: []
 time: ''
-redirect_from: /ruby-on-rails/our-recent-interactive-tools/
+redirect_from:
+  - /ruby-on-rails/our-recent-interactive-tools/
 date_published: ! ' 2010-09-22'
 publisher: Red Ant
 updated_at: 2010-09-22

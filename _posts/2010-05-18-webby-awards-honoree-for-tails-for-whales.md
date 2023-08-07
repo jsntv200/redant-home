@@ -20,7 +20,8 @@ description: >-
   Awards.
 tags: []
 time: ''
-redirect_from: /ruby-on-rails/webby-awards-honoree-for-tails-for-whales/
+redirect_from:
+  - /ruby-on-rails/webby-awards-honoree-for-tails-for-whales/
 date_published: 2010-05-18T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2010-05-18T00:00:00.000Z

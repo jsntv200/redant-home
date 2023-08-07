@@ -17,7 +17,8 @@ image: /assets/uploads/2012/build.jpg
 description: The initial build of the Michelle Bridges 12WBT project
 tags: []
 time: ''
-redirect_from: /our-work/our-work-michelle-bridges-12wbt-build/
+redirect_from:
+  - /our-work/our-work-michelle-bridges-12wbt-build/
 date_published: 2012-01-16T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-01-16T00:00:00.000Z

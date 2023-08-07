@@ -19,7 +19,8 @@ description: >-
   now we're making it even better.
 tags: []
 time: ''
-redirect_from: /ruby-on-rails/tails-for-whales/
+redirect_from:
+  - /ruby-on-rails/tails-for-whales/
 date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2009-07-13T00:00:00.000Z
