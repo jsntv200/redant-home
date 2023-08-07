@@ -15,7 +15,8 @@ image: "/assets/uploads/2012/jenkins-pipeline-start.png"
 description: How we build relational trust; our integrated testing pipeline
 tags: []
 time: ''
-redirect_from: /automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/
+redirect_from:
+  - /automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/
 date_published: ! ' 2012-02-28'
 publisher: Red Ant
 updated_at: 2012-02-28

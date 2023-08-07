@@ -17,7 +17,8 @@ image: /assets/uploads/ideas.jpg
 description: Execution matters. Your development team matters.
 tags: []
 time: ''
-redirect_from: /red-ant-stuff/opinionated-developer/
+redirect_from:
+  - /red-ant-stuff/opinionated-developer/
 date_published: 2018-09-17T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-09-17T00:00:00.000Z

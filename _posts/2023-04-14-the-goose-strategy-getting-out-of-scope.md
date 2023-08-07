@@ -38,7 +38,8 @@ description: >-
 date_published: 2023-04-13T14:00:00.000Z
 updated_at: 2023-04-13T14:00:00.000Z
 publisher: Red Ant
-redirect_from: /cyber-security/goose-getting-out-of-scope/
+redirect_from:
+  - /cyber-security/goose-getting-out-of-scope/
 ---
 
 Many organisations focus on how they can protect networks and platforms. Using the analogy of a house, they are putting better locks on their doors, installing video cameras and so on. But this is a different approach- have less valuable stuff in your house, so it’s less attractive to break in to. And if there is a break in, there isn’t much to steal.

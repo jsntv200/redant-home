@@ -18,7 +18,8 @@ description: >-
   box.
 tags: []
 time: ''
-redirect_from: /tool-reviews/clicktale-review-technology/
+redirect_from:
+  - /tool-reviews/clicktale-review-technology/
 date_published: 2012-01-31T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-01-31T00:00:00.000Z

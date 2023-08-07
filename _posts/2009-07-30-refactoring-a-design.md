@@ -17,7 +17,8 @@ description: We've recently spent some time adding some new features to a site t
   we built a while back.
 tags: []
 time: ''
-redirect_from: /ruby-on-rails/refactoring-a-design/
+redirect_from:
+  - /ruby-on-rails/refactoring-a-design/
 date_published: ! ' 2009-07-30'
 publisher: Red Ant
 updated_at: 2009-07-30

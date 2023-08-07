@@ -16,7 +16,8 @@ description: We've recently launched a new blog feature on the Huggies site. But
   it's a blog with a difference.
 tags: []
 time: ''
-redirect_from: /our-work/the-blog-that-isnt-a-blog-and-heres-why/
+redirect_from:
+  - /our-work/the-blog-that-isnt-a-blog-and-heres-why/
 date_published: ! ' 2010-11-17'
 publisher: Red Ant
 updated_at: 2010-11-17

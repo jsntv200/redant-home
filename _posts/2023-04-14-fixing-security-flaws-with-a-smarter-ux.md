@@ -20,7 +20,8 @@ content_sidebar: >-
   Some security problems come about when the security of information shown isn't
   considered during the design process. Here's an easy fix, with 4 different
   approaches to address the issue.
-redirect_from: /cyber-security/fixing-security-flaws-with-a-smarter-ux/
+redirect_from:
+  - /cyber-security/fixing-security-flaws-with-a-smarter-ux/
 ---
 
 Here’s a really common design flaw that can cause security problems. And it’s an easy one to fix.

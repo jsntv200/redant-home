@@ -23,12 +23,18 @@ export default defineConfig({
         format: "md",
         fields: [
           {
+            label: "published",
+            name: "published",
+            type: "boolean",
+            required: true,
+          }, {
             type: "string",
             name: "layout",
             label: "layout",
             required: true,
+            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail"],
             ui: {
-              defaultItem: "job",
+              description: "Determines which layout this content will use.",
             },
           }, {
             type: "string",
@@ -78,11 +84,16 @@ export default defineConfig({
         format: "md",
         fields: [
           {
+            label: "published",
+            name: "published",
+            type: "boolean",
+            required: true,
+          }, {
             type: "string",
             name: "layout",
             label: "layout",
             required: true,
-            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "job"],
+            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail"],
             ui: {
               description: "Determines which layout this content will use.",
             },
@@ -374,6 +385,11 @@ export default defineConfig({
         format: "md",
         fields: [
           {
+            label: "published",
+            name: "published",
+            type: "boolean",
+            required: true,
+          }, {
             label: "layout",
             name: "layout",
             type: "string",
@@ -499,6 +515,15 @@ export default defineConfig({
             name: "body",
             isBody: true,
             type: "rich-text",
+          }, {
+            label: "is_blog",
+            name: "is_blog",
+            type: "boolean",
+            required: true,
+            ui: {
+              defaultItem: true,
+              description: "Do not change this value - should always be true. Used for front end templating.",
+            },
           },
         ],
       },
@@ -509,6 +534,11 @@ export default defineConfig({
         format: "md",
         fields: [
           {
+            label: "published",
+            name: "published",
+            type: "boolean",
+            required: true,
+          }, {
             type: "string",
             label: "layout",
             name: "layout",
@@ -597,6 +627,11 @@ export default defineConfig({
         format: "md",
         fields: [
           {
+            label: "published",
+            name: "published",
+            type: "boolean",
+            required: true,
+          }, {
             type: "string",
             name: "layout",
             label: "layout",

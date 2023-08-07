@@ -14,7 +14,8 @@ image: '/assets/uploads/2018/test-image.jpg'
 description: I have this friend. Let's call him Wayne. He works in advertising.
 tags: []
 time: ''
-redirect_from: /red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/
+redirect_from:
+  - /red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/
 date_published: ! ' 2018-08-17'
 publisher: Red Ant
 updated_at: 2018-08-17

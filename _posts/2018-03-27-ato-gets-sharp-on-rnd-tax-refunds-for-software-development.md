@@ -22,7 +22,8 @@ tags:
   - Startup
   - Red-Ant-Marketing
 time: ''
-redirect_from: /marketing/ato-gets-sharp-on-rnd-tax-refunds-for-software-development/
+redirect_from:
+  - /marketing/ato-gets-sharp-on-rnd-tax-refunds-for-software-development/
 date_published: 2018-03-27T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-03-27T00:00:00.000Z

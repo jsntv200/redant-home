@@ -19,7 +19,8 @@ description: >-
   footer area at the bottom of your site.
 tags: []
 time: ''
-redirect_from: /blog/how-we-do/fat-footers/
+redirect_from:
+  - /blog/how-we-do/fat-footers/
 date_published: 2009-07-30T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2009-07-30T00:00:00.000Z

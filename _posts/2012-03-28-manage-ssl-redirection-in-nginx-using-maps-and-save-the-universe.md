@@ -18,7 +18,8 @@ description: >-
   how we do it.
 tags: []
 time: ''
-redirect_from: /ruby-on-rails-devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/
+redirect_from:
+  - /ruby-on-rails-devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/
 date_published: 2012-03-28T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-03-28T00:00:00.000Z

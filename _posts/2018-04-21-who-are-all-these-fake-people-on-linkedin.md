@@ -16,7 +16,8 @@ tags:
 - Red-Ant-Marketing
 - LinkedIn
 time: ''
-redirect_from: /marketing/who-are-all-these-fake-people-on-linkedin/
+redirect_from:
+  - /marketing/who-are-all-these-fake-people-on-linkedin/
 date_published: ! ' 2018-04-21'
 publisher: Red Ant
 updated_at: 2018-04-21

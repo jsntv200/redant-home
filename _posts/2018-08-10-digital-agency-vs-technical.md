@@ -15,7 +15,8 @@ image: /assets/uploads/digital-agency-vs-technical.jpg
 description: Digital agency vs a Technical Agency
 tags: []
 time: ''
-redirect_from: /software-development/digital-agency-vs-technical/
+redirect_from:
+  - /software-development/digital-agency-vs-technical/
 date_published: 2018-08-10T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-08-10T00:00:00.000Z

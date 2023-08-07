@@ -26,7 +26,8 @@ description: >-
   risks from hackers or information leaks. But what if the actual security flaw
   came about as a result of a decision you the Product Owner had made? Some tips
   to identify and avoid this.
-redirect_from: /cyber-security/maybe-you're-the-security-flaw/
+redirect_from:
+  - /cyber-security/maybe-you're-the-security-flaw/
 ---
 
 Many organisations spend a lot of time evaluating cyber risks. Looking at ways to stop bad things coming in. Stopping various behaviours. Preventing information from leaking out.

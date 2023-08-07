@@ -18,7 +18,8 @@ description: >-
   feeling a bit stuck
 tags: []
 time: ''
-redirect_from: /software-development/mvp-software-development-options/
+redirect_from:
+  - /software-development/mvp-software-development-options/
 date_published: 2018-09-17T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-09-17T00:00:00.000Z

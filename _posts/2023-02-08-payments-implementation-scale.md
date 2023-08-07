@@ -16,7 +16,8 @@ keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/payments-implementation-scale-min.png"
 image: "/assets/uploads/2023/payments-implementation-scale-min.png"
 content_sidebar: An explanation of the different technical approaches for implementing online payments, from a simple shop on eBay through to a more scalable and custom technical platform.
-redirect_from: /online-payments/payments-implementation-scale/
+redirect_from:
+  - /online-payments/payments-implementation-scale/
 updated_at: 2023-02-08
 ---
 

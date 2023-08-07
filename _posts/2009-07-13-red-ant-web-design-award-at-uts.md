@@ -20,7 +20,8 @@ description:
   to this one, and many more!
 tags: []
 time: ''
-redirect_from: /red-ant-stuff/red-ant-web-design-award-at-uts/
+redirect_from:
+  - /red-ant-stuff/red-ant-web-design-award-at-uts/
 date_published: ! ' 2009-07-13'
 publisher: Red Ant
 updated_at: 2009-07-13

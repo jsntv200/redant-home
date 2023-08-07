@@ -20,7 +20,8 @@ description: >-
   we face when doing so.
 tags: []
 time: ''
-redirect_from: /mobile/mobile-first-5-key-constraints/
+redirect_from:
+  - /mobile/mobile-first-5-key-constraints/
 date_published: 2012-10-04T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-10-04T00:00:00.000Z
