@@ -21,7 +21,7 @@ export class NavController extends Controller {
       window.addEventListener("scroll", this.handleScroll.bind(this));
     }
 
-    if (this.itemWrapperTarget && this.itemWrapperTarget.scrollWidth > window.innerWidth) {
+    if (location.pathname.includes("/blog/") && this.itemWrapperTarget.scrollWidth > window.innerWidth) {
       this.indicatorTarget.classList.remove("hidden");
     }
   }
