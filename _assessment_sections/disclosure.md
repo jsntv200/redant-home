@@ -13,7 +13,7 @@ area: "privacy"
       {{ site.data.assessment.privacy.disclosure.title }}
     </h2>
 
-    <p class="pb-8 text-gray-100">
+    <p class="mb-8 text-gray-100">
       {{ site.data.assessment.privacy.disclosure.description }}
     </p>
 

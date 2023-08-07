@@ -13,7 +13,7 @@ area: "online-payments"
       {{ site.data.assessment.payment.your-team.title }}
     </h2>
 
-    <p class="pb-8 text-gray-100">
+    <p class="mb-8 text-gray-100">
       {{ site.data.assessment.payment.your-team.description }}
     </p>
 

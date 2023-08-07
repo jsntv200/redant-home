@@ -13,7 +13,7 @@ area: "cyber-security"
       {{ site.data.assessment.cyber-security.respond.title }}
     </h2>
 
-    <p class="pb-8 text-gray-100">
+    <p class="mb-8 text-gray-100">
       {{ site.data.assessment.cyber-security.respond.description }}
     </p>
 

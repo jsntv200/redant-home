@@ -2,15 +2,15 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
-    "./_book_call/*.md",
+    "./_assessment_book_call/*.md",
+    "./_assessment_results/*.md",
+    "./_assessment_sections/*.md",
+    "./_assessment_submissions/*.md",
     "./_includes/**/*.html",
     "./_layouts/*.html",
     "./_pages/**/*.{html, md}",
     "./_posts/*.md",
-    "./_results/*.md",
-    "./_sections/*.md",
     "./_src/**/*.{js,css}",
-    "./_submissions/*.md",
     "./jobs/*.md",
     "./portfolio/*.md",
     "./services/*.md",

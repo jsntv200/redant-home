@@ -24,7 +24,7 @@
         data-assessment-target="answer">
         {% for answer in question.answers %}
           <button
-            class="flex w-full rounded-xl bg-black p-3 mb-3 border-[1px] border-neutral-800 {{ hover-class}}"
+            class="flex w-full rounded-xl bg-black p-3 mb-3 border-[1px] border-neutral-800 text-left {{ hover-class }}"
             data-action="click->assessment#select"
             data-assessment-answer-param="{{ include.section.slug }},{{ forloop.parentloop.index }},{{ forloop.index }},{{ question.weight }}"
             data-assessment-href-param="{{ next-question-url }}">

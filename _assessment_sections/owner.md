@@ -13,7 +13,7 @@ area: "online-payments"
       {{ site.data.assessment.payment.owner.title }}
     </h2>
 
-    <p class="pb-8 text-gray-100">
+    <p class="mb-8 text-gray-100">
       {{ site.data.assessment.payment.owner.description }}
     </p>
     {% include assessment/questions.html area = "online-payments" section = site.data.assessment.payment.owner %}
