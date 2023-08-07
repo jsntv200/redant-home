@@ -1,5 +1,5 @@
 ---
-layout:  v2-portfolio-detail
+layout: v2-portfolio-detail
 theme: redant
 slug: project-summary-tool
 title: >-
@@ -11,6 +11,7 @@ project_url: ''
 client: Internal tool
 project_date: 2017-now
 technology_tags:
+  - Projectt
   - Ruby on Rails
   - Postgres
   - Kubernetes
