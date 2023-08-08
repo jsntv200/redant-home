@@ -656,10 +656,6 @@ export default defineConfig({
             label: "cta_button_label",
             name: "cta_button_label",
             type: "string",
-          }, {
-            label: "cta_bottom_text",
-            name: "cta_bottom_text",
-            type: "rich-text",
           },
         ],
       },
