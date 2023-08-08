@@ -9,8 +9,9 @@ layout: v2-default
 <div class="max-w-screen-lg mx-auto lg:px-12">
   {% include v2/title-panel.html
     title = page.title
-    description = page.description
-    cta-1-link = "/"
+    description = page.subtitle
+    sub-description = page.description
+    cta-1-link = "/contact-us/"
     cta-1-label = "Let's start now"
     icon-class = page.icon %}
 </div>
@@ -18,35 +19,46 @@ layout: v2-default
 <div class="max-w-screen-lg mx-auto pb-12 md:pb-24 px-6 lg:px-20">
   <hr class="bg-gray-100/40 h-[2px] mb-6 md:mb-11"></hr>
 
-  <div class="markdown">{{ content }}</div>
+  <h2 class="text-3xl lg:text-4xl font-bold mt-24 mb-16">
+    {{ page.section_1_title }}
+  </h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 mx-auto">
+    {% for item in page.section_1_list %}
+      {% include v2/card-numbered.html
+        text = item.text
+        title = item.title
+        number = forloop.index %}
+    {% endfor %}
+  </div>
 </div>
 
 <div class="bg-red-100/[0.15]">
   <div class="max-w-screen-2xl mx-auto py-12 md:py-24 px-6 lg:px-8">
-    <h2 class="text-3xl lg:text-5xl font-bold mb-12 text-center">
-      How it works
+    <h2 class="text-3xl lg:text-4xl font-bold mb-16 text-center">
+      {{ page.section_2_title }}
     </h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mx-auto">
-      {% include v2/card.html
-        content = page.column_1_description
-        content-class = "text-center"
-        image = page.column_1_image
-        subtitle = page.column_1_title %}
-
-      {% include v2/card.html
-        content = page.column_2_description
-        content-class = "text-center"
-        image = page.column_2_image
-        subtitle = page.column_2_title %}
-
-      {% include v2/card.html
-        content = page.column_3_description
-        content-class = "text-center"
-        image = page.column_3_image
-        subtitle = page.column_3_title %}
+      {% for item in page.section_2_list %}
+        {% include v2/card-numbered.html
+          text = item.text
+          title = item.title
+          number = forloop.index %}
+      {% endfor %}
     </div>
   </div>
+</div>
+
+{% include v2/cta-panel.html
+  bottom-text = page.cta_bottom_text
+  button-label = page.cta_button_label
+  class-wrapper = "lg:pt-48 lg:pb-24"
+  description = page.cta_description
+  title = page.cta_title %}
+
+<div class="max-w-screen-lg mx-auto lg:px-12">
+  <hr class="bg-white/40 h-[2px]"></hr>
 </div>
 
 {% include v2/companies.html
@@ -54,8 +66,3 @@ layout: v2-default
   content="Our clients." %}
 
 {% include v2/testimonials.html %}
-
-{% include v2/cta-panel.html
-  button-label="Contact us"
-  content="Let's start a conversation."
-  title="Ready to get started?" %}
