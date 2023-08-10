@@ -6,8 +6,7 @@ permalink: >-
   blog/software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/
 type: ideas
 categories:
-  - agile
-  - software-development
+  - digital-products
 author: Ben Still
 content_sidebar: >
   Find out how we use Jira priorities at Red Ant to manage development workflows
