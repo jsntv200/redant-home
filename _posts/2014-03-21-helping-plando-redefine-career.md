@@ -25,7 +25,7 @@ content_sidebar: >
   change the careers landscape.
 publisher: Red Ant
 updated_at: 2014-01-02T00:00:00.000Z
-published: true
+published: false
 ---
 
 PlanDo are accommodating for and promoting the shift in the professional workplace towards career mobility by building a platform which will allow for individuals to manage their own careers. That means that instead of an employee being reliant on their employer's HR practices and tools, they will be able to take control of their performance review cycles and independently map out their career path both within an organisation and beyond.
