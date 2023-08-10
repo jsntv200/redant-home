@@ -5,7 +5,8 @@ title: Digital agency vs a Technical Agency
 permalink: blog/software-development/digital-agency-vs-technical/
 type: news
 categories:
-  - software-development
+  - digital-products
+  - strategy
 author: Ben Still
 content_sidebar: |
   Seems like all the cool kids are Digital Agencies these days
@@ -20,6 +21,7 @@ redirect_from:
 date_published: 2018-08-10T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-08-10T00:00:00.000Z
+published: true
 ---
 
 Dear Mum,
