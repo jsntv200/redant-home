@@ -2,27 +2,30 @@
 layout: v2-blog-detail
 is_blog: true
 title: Setting Jira priorities - Team Six and The Iceberg
-permalink: "blog/software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/"
+permalink: >-
+  blog/software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/
 type: ideas
 categories:
-- agile
-- software-development
+  - agile
+  - software-development
 author: Ben Still
-content_sidebar: Find out how we use Jira priorities at Red Ant to manage development
-  workflows and make sure nobody gets hurt.
+content_sidebar: >
+  Find out how we use Jira priorities at Red Ant to manage development workflows
+  and make sure nobody gets hurt.
 keywords: Jira priorities
-image_small: "/assets/uploads/2012/jira-screenshot-small.jpg"
-image: "/assets/uploads/2012/jira-screenshot.jpg"
-description: Seal teams, titanic sinkers and our prioritization ratings.
+image_small: /assets/uploads/2012/jira-screenshot-small.jpg
+image: /assets/uploads/2012/jira-screenshot.jpg
+description: 'Seal teams, titanic sinkers and our prioritization ratings.'
 tags: []
 time: 10 Mins Read
 redirect_from:
   - /software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/
-date_published: ! ' 2012-01-25'
+date_published: 2012-01-25T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2012-01-25
-
+updated_at: 2012-01-25T00:00:00.000Z
+published: true
 ---
+
 We use [Jira](https://www.atlassian.com/software/jira) to keep track of all of our tasks - without it wed be overwhelmed with the sheer volume of stuff you need to keep track of on a typical project. For each of our projects, the client can email in issues to our team via a project email address. These emails don't come directly to us - first they're processed by Jira, which then transforms them into an issue in Jira. One of our Project Managers then picks this up, clarifying the task if necessary, and then assigns it to the right team or person.
 
 Part of this clarification is **assigning a priority**. Sure - we know that some people would like everything to be drop everything OMG high priority (they also enjoy the caps lock key). But it helps to be a bit objective - so that the super important stuff stands out from the normal important stuff.
@@ -33,19 +36,17 @@ We've tried a number of different priorities - here's what works for us and what
 
 ![Low priority](/assets/uploads/2012/panda.png)
 
----
+***
 
 Usually assigned to a task where something isn't working or needs to get updated. There is a workaround but it would make a users day to get this fixed.
-
 
 ## Normal (Default)
 
 ![Normal](/assets/uploads/2012/panda.png)
 
----
+***
 
 This is our default priority, and covers most things. Each task also gets a time estimate, so the developer can gauge relative size between one task and the next.
-
 
 ## High priority
 
