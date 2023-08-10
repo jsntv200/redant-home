@@ -5,6 +5,7 @@ title: 'If my customers mainly use mobile devices, should I be building a phone 
 permalink: blog/mobile/mobile-apps-vs-mobile-site/
 type: ideas
 categories:
+  - digital-products
   - mobile
   - strategy
 author: Ben Still
@@ -24,6 +25,7 @@ redirect_from:
 date_published: 2013-09-17T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2013-09-17T00:00:00.000Z
+published: true
 ---
 
 Like many complex things, it can suffer from being over simplified. Doing mobile well can occasionally get simplified to make a mobile App and get it listed in the App store - tick. Make the site responsive - tick. But what are the drawbacks or compromises? Are they really the best options?
