@@ -25,7 +25,7 @@ redirect_from:
 date_published: 2011-01-19T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2011-01-19T00:00:00.000Z
-published: true
+published: false
 ---
 
 A few months ago, we started working with a project management coach.
