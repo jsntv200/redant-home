@@ -2,29 +2,33 @@
 layout: v2-blog-detail
 is_blog: true
 title: The story behind our Wallboard
-permalink: "blog/red-ant-stuff/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/"
+permalink: >-
+  blog/red-ant-stuff/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
 type: news
 categories:
-- agile
-- red-ant-stuff
+  - agile
+  - red-ant-stuff
 author: Jesse Noble
-content_sidebar: The story behind our Wallboard. Who's working on what, and can I deploy
-  yet?
+content_sidebar: |
+  The story behind our Wallboard. Who's working on what, and can I deploy yet?
 keywords: our wallboard
-image_small: "/assets/uploads/2010/redant-wallboard-preview-small.jpg"
-image: "/assets/uploads/2010/redant-wallboard-preview.jpg"
-description: Whiteboards are out, wallboards are in. Also, vote for us!
+image_small: /assets/uploads/2010/redant-wallboard-preview-small.jpg
+image: /assets/uploads/2010/redant-wallboard-preview.jpg
+description: 'Whiteboards are out, wallboards are in. Also, vote for us!'
 tags: []
 time: 10 Mins Read
 redirect_from:
-- /agile/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
-- /blog/the-story-behind-our-wallboard/
-- /red-ant-stuff/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
-date_published: ! ' 2010-11-18'
+  - >-
+    /agile/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
+  - /blog/the-story-behind-our-wallboard/
+  - >-
+    /red-ant-stuff/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
+date_published: 2010-11-18T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2010-11-18
-
+updated_at: 2010-11-18T00:00:00.000Z
+published: true
 ---
+
 ![Red Ant Wallboard](/assets/uploads/2010/redant-wallboard-preview.jpg)
 
 **click on this image to get a bigger version**
