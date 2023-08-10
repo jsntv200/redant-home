@@ -6,8 +6,6 @@ permalink: >-
   blog/ruby-on-rails-devops/backing-up-mysql-into-subversion-using-mysql-svn-backup/
 type: ideas
 categories:
-  - how-we-do
-  - tool-reviews
   - ruby-on-rails-devops
 author: Sam Bauers
 content_sidebar: >
