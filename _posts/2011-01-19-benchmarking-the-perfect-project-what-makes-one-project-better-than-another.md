@@ -6,7 +6,6 @@ permalink: >-
   blog/our-work/benchmarking-the-perfect-project-what-makes-one-project-better-than-another/
 type: ideas
 categories:
-  - agile
   - our-work
 author: Jesse Noble
 content_sidebar: >
