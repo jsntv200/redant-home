@@ -6,7 +6,7 @@ type: news
 permalink: blog/automated-testing/ai-development-testing
 categories:
   - ruby-on-rails
-  - strategy
+  - digital-products
 author: Ben Still
 content_sidebar: >
   AI and Machine Learning are amazing technologies. But in some cases it can be
