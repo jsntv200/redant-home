@@ -26,7 +26,7 @@ redirect_from:
 date_published: 2010-11-18T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2010-11-18T00:00:00.000Z
-published: true
+published: false
 ---
 
 ![Red Ant Wallboard](/assets/uploads/2010/redant-wallboard-preview.jpg)
