@@ -6,6 +6,7 @@ permalink: >-
   blog/software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/
 type: ideas
 categories:
+  - ruby-on-rails
   - digital-products
 author: Ben Still
 content_sidebar: >
