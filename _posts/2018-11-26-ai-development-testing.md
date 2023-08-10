@@ -5,10 +5,10 @@ title: The hard thing about AI isn't making it - it's testing that it works
 type: news
 permalink: blog/automated-testing/ai-development-testing
 categories:
-  - automated-testing
-  - software-development
+  - ruby-on-rails
+  - strategy
 author: Ben Still
-content_sidebar: >-
+content_sidebar: >
   AI and Machine Learning are amazing technologies. But in some cases it can be
   hard to know when they are actually working
 keywords: 'ai development, machine learning, automated tests'
@@ -25,6 +25,7 @@ redirect_from:
 date_published: 2018-11-26T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-11-26T00:00:00.000Z
+published: true
 ---
 
 Before you start pitching to your investors about how amazing the world will be once you get some AI in your product, spare a thought for the engineering team behind Tay, [the Microsoft AI chatbot](https://www.theverge.com/2016/3/24/11297050/tay-microsoft-chatbot-racist).
