@@ -5,7 +5,6 @@ title: Tails for Whales
 permalink: blog/ruby-on-rails/tails-for-whales/
 type: news
 categories:
-  - our-work
   - ruby-on-rails
 author: Ben Still
 content_sidebar: >
@@ -24,6 +23,7 @@ redirect_from:
 date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2009-07-13T00:00:00.000Z
+published: true
 ---
 
 We've finally launched an update to the 551 project- you can check out [the sparkly new goodness here](http://tailsforwhales.org).
