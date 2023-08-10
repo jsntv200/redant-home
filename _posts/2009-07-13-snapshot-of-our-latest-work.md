@@ -5,7 +5,6 @@ title: Snapshot of our latest work
 permalink: blog/our-work/snapshot-of-our-latest-work/
 type: news
 categories:
-  - our-work
   - ruby-on-rails
   - ecommerce
 author: Ben Still
@@ -25,6 +24,7 @@ redirect_from:
 date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2009-07-13T00:00:00.000Z
+published: true
 ---
 
 ## Beauty Heaven
