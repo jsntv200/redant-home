@@ -5,8 +5,8 @@ title: 10 ways to improve your phone app development brief
 permalink: blog/mobile/id-like-an-iphone-app-ten-things-to-look-out-for/
 type: ideas
 categories:
+  - digital-products
   - mobile
-  - software-development
   - strategy
 author: Ben Still
 content_sidebar: |
@@ -22,6 +22,7 @@ redirect_from:
 date_published: 2010-10-25T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2010-10-15T00:00:00.000Z
+published: true
 ---
 
 There are lots of things to consider when making a native mobile app like an iPhone app. Here are ten tips for your iPhone app design or development brief that will hopefully make things a bit easier. Don't worry- this can be quite a perplexing thing to brief, with lots of different technologies and solutions.
