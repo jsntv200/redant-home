@@ -5,8 +5,8 @@ title: Visualising your online customer funnel
 permalink: blog/strategy/visualising-your-online-customer-funnel/
 type: ideas
 categories:
+  - digital-products
   - strategy
-  - marketing
 author: Ben Still
 content_sidebar: |
   Online visualisation of your customer funnel
@@ -24,6 +24,7 @@ redirect_from:
 date_published: 2009-07-13T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2009-07-13T00:00:00.000Z
+published: true
 ---
 
 One of the ways that you can track customer interaction is through a conversion funnel approach, which will be familiar to anyone with a sales background. Coming in at the top of the funnel you have new customers. In the sales model, you communicate with them in various ways by sending them brochures and proposals, and in turn they express an increased interest in your offering. At the bottom of the funnel are the customers that actually commit to your offering. The whole point is to measure how many people you convert from newbies to customers - your conversion ratio.
