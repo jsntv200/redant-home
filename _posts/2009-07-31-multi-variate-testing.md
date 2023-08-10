@@ -5,6 +5,7 @@ title: Multi-variate testing
 permalink: blog/blog/how-we-do/multi-variate-AB-testing/
 type: ideas
 categories:
+  - marketing
   - design
   - ruby-on-rails
 author: Ben Still
