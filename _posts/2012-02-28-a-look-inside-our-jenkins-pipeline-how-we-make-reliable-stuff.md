@@ -23,7 +23,7 @@ redirect_from:
 date_published: 2012-02-28T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-02-28T00:00:00.000Z
-published: true
+published: false
 ---
 
 It works like this: all of our team our beavering away making stuff. As soon as a developer finishes working on something, they commit their work to Github (which is where we save our work). The gotcha is that sometimes that thing they were working on then breaks someone else's code. Or something which was working is no longer working as planned. Ideally wed like to find out about this as soon as possible.
