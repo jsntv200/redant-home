@@ -22,6 +22,7 @@ redirect_from:
 date_published: 2012-01-16T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-01-16T00:00:00.000Z
+published: true
 ---
 
 The site has a few interesting technical challenges:
