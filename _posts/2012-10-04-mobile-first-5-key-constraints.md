@@ -5,6 +5,7 @@ title: Mobile first - 5 key constraints on mobile devices
 permalink: blog/mobile/mobile-first-5-key-constraints/
 type: ideas
 categories:
+  - digital-products
   - strategy
   - mobile
 author: Ben Still
@@ -25,6 +26,7 @@ redirect_from:
 date_published: 2012-10-04T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-10-04T00:00:00.000Z
+published: true
 ---
 
 No, this isn't as simple as adding a responsive layout (simple being the operative word there). Responsive is great since it will work across a number of devices (tip: resize your browser while you're reading this to see responsive in action). A separate mobile site is also good way of delivering mobile views of existing content, plus giving the option of customising (so taking advantage of better geo-location for example). Or you might want to take a mix of the two (use responsive for some, and a separate m.site to deliver a super fast version)
