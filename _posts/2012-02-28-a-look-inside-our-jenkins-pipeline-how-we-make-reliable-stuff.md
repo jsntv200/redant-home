@@ -2,26 +2,30 @@
 layout: v2-blog-detail
 is_blog: true
 title: A look inside our Jenkins Pipeline - how we make reliable stuff
-permalink: "blog/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/"
+permalink: >-
+  blog/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/
 type: ideas
 categories:
-- automated-testing
+  - automated-testing
 author: Ben Still
-content_sidebar: A quick outline of how we're using Jenkins and the Pipeline view to visualise
+content_sidebar: >
+  A quick outline of how we're using Jenkins and the Pipeline view to visualise
   where our builds are up to
 keywords: ''
-image_small: "/assets/uploads/2012/jenkins-pipeline-start-small.png"
-image: "/assets/uploads/2012/jenkins-pipeline-start.png"
+image_small: /assets/uploads/2012/jenkins-pipeline-start-small.png
+image: /assets/uploads/2012/jenkins-pipeline-start.png
 description: How we build relational trust; our integrated testing pipeline
 tags: []
 time: ''
 redirect_from:
-  - /automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/
-date_published: ! ' 2012-02-28'
+  - >-
+    /automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/
+date_published: 2012-02-28T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2012-02-28
-
+updated_at: 2012-02-28T00:00:00.000Z
+published: true
 ---
+
 It works like this: all of our team our beavering away making stuff. As soon as a developer finishes working on something, they commit their work to Github (which is where we save our work). The gotcha is that sometimes that thing they were working on then breaks someone else's code. Or something which was working is no longer working as planned. Ideally wed like to find out about this as soon as possible.
 
 Jenkins sees a change has been made, and then grabs that version of the project, builds a completely new version of the site and content, and then starts running some automated tests. These tests make sure that each of the parts of the project work properly. Once everything passes, it gets a green light and Jenkins publishes this version of the code to a server (so us humans can take a look).
