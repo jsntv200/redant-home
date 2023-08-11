@@ -6,8 +6,6 @@ description: A well written brief is all sorts of good. We explain why and what 
 permalink: blog/our-work/a-good-visual-design-brief/
 type: ideas
 categories:
-  - our-work
-  - how-we-do
   - ruby-on-rails
 author: Ben Still
 image_small: /assets/uploads/2008/brief-small.jpg

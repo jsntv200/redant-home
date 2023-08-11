@@ -5,7 +5,6 @@ title: Michelle Bridges 12WBT build
 permalink: blog/our-work/our-work-michelle-bridges-12wbt-build/
 type: news
 categories:
-  - our-work
   - digital-products
   - ruby-on-rails
 author: Ben Still

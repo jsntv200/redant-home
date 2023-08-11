@@ -5,7 +5,6 @@ title: Sign up forms are tricky to do well
 permalink: blog/ruby-on-rails/sign-up-forms-are-tricky-to-do-well/
 type: ideas
 categories:
-  - how-we-do
   - ruby-on-rails
 author: Ben Still
 image_small: /assets/uploads/2009/sing-up-header-small.jpg

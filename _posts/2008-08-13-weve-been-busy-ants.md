@@ -6,7 +6,6 @@ description: We've been busy little ants over the last few months
 permalink: blog/our-work/weve-been-busy-ants/
 type: news
 categories:
-  - our-work
 author: Ben Still
 image_small: /assets/uploads/2008/ant-small.jpg
 image: /assets/uploads/2008/ant-large.jpg

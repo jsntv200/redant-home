@@ -88,6 +88,6 @@ This isn't really a priority, but something that can be flipped on for any issue
 
 Occasionally we'll have a situation where a feature or a bug issue needs to get finished and deployed before anything else. Say two developers are working on a project, they'll need to co-ordinate so that the blocker goes up with everything else.
 
-The deploy blocker comes up on our [interactive wallboard](/agile/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/) so everyone is aware. Our Capistrano deployment process also won't allow anything to be deployed to the Production servers until this issue is closed.
+The deploy blocker comes up on our interactive wallboard so everyone is aware. Our Capistrano deployment process also won't allow anything to be deployed to the Production servers until this issue is closed.
 
 [Icons from Cuberto](https://www.deviantart.com/cuberto-ru)

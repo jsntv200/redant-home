@@ -10,7 +10,7 @@ published: false
 
 * Work on large, consumer focused web projects
 * Experienced PM / Account Manager
-* Ruby on Rails using [Agile methodology](/agile/ "Agile methodology")
+* Ruby on Rails using Agile methodology
 * Start July 2015
 
 ## First, a bit about us

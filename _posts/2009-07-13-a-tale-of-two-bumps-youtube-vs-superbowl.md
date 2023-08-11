@@ -6,7 +6,6 @@ description: Is traditional broadcast advertising on its way out? The data is ce
 permalink: blog/ruby-on-rails/a-tale-of-two-bumps-youtube-vs-superbowl/
 type: news
 categories:
-  - how-we-do
 author: Ben Still
 image_small: /assets/uploads/2009/alexa.png
 image: /assets/uploads/2009/alexa.png

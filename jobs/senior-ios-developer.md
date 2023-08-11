@@ -29,7 +29,7 @@ Ideally you'll be passionate about:
 Here’s what we can offer:
 
 * A tight team that appreciates quality. You’ll probably learn lots of things, and hopefully you’ll be able to teach us some stuff.
-* We’re a mix of developers, designers and project managers. We work in an [agile](/Agile/ "agile") environment, on some interesting projects.
+* We’re a mix of developers, designers and project managers. We work in an agile environment, on some interesting projects.
 * We work in teams across several clients. Each client typically has several projects running.
 * We have some interesting projects, building big web apps that support a large number of users. These can throw up challenging problems, like load, handling lots of payments, concurrency, tweaking performance and taming cache unicorns.
 * Flying toasters.

@@ -6,8 +6,6 @@ decription: Red Ant + clients + Wiki = awesome knowledge collaboration and shari
 permalink: blog/agile/how-we-wiki/
 type: ideas
 categories:
-  - how-we-do
-  - agile
 author: Ben Still
 image_small: /assets/uploads/2009/wiki-wiki-small.jpg
 image: /assets/uploads/2009/wiki-wiki-big.jpg

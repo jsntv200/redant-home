@@ -19,7 +19,6 @@ description: >-
   From the outside looking in, the property management business looks pretty
   simple.
 tags:
-  - software-development
 time: ''
 redirect_from:
   - /software-development/what-makes-property-management-so-hard/

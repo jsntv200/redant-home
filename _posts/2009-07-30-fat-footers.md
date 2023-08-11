@@ -5,7 +5,6 @@ title: Fat footers - should they include a sitemap
 permalink: blog/blog/how-we-do/fat-footers/
 type: ideas
 categories:
-  - how-we-do
   - design
 author: Ben Still
 content_sidebar: >

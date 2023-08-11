@@ -5,7 +5,6 @@ title: What we've been working on- Developing 12WBT for the USA
 permalink: blog/our-work/developing-12wbt-usa/
 type: news
 categories:
-  - our-work
   - ruby-on-rails
   - digital-products
 author: Ben Still

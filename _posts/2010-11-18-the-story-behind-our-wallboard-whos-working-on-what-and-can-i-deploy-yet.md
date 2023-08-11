@@ -6,8 +6,6 @@ permalink: >-
   blog/red-ant-stuff/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
 type: news
 categories:
-  - agile
-  - red-ant-stuff
 author: Jesse Noble
 content_sidebar: |
   The story behind our Wallboard. Who's working on what, and can I deploy yet?

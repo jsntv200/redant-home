@@ -10,7 +10,7 @@ published: false
 
 * Work with us on shaping and delivering complex web projects
 * Experienced PM / Account Manager / Producer
-* Ruby on Rails using [Agile methodology](/agile/ "Agile methodology")
+* Ruby on Rails using Agile methodology
 
 ## First, a bit about us
 

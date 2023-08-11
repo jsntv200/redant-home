@@ -6,7 +6,6 @@ permalink: >-
   blog/our-work/benchmarking-the-perfect-project-what-makes-one-project-better-than-another/
 type: ideas
 categories:
-  - our-work
 author: Jesse Noble
 content_sidebar: >
   A few months ago, we started working with a project management coach. Here's

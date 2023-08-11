@@ -6,7 +6,6 @@ permalink: blog/cyber-security/maybe-you're-the-security-flaw/
 type: ideas
 categories:
   - cyber-security
-  - automated-testing
 author: Ben Still
 content_sidebar: >
   Many organisations spend a lot of time evaluating and worrying about cyber

@@ -6,7 +6,6 @@ description: Visualising a list of information in interesting ways
 permalink: blog/our-work/text-cloud-in-flash/
 type: ideas
 categories:
-  - our-work
 author: Ben Still
 image_small: /assets/uploads/2008/radiant-admin-465x311.png
 image: /assets/uploads/2008/radiant-admin.png

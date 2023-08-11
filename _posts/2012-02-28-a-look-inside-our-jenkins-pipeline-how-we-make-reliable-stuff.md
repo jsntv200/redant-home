@@ -6,7 +6,6 @@ permalink: >-
   blog/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/
 type: ideas
 categories:
-  - automated-testing
 author: Ben Still
 content_sidebar: >
   A quick outline of how we're using Jenkins and the Pipeline view to visualise

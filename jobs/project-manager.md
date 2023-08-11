@@ -18,7 +18,7 @@ You’ll need to be pretty geeky, because there is a lot of technology which mov
 
 Red Ant is a leading technical agency. We’re building digital products and platforms that excite and delight users. And deliver the goods.
 
-Our office is in a large warehouse in Surry Hills, Sydney (and no, we don’t all have beards and ride fixie bikes). Our core team of 30 is very experienced, working on large scale, high traffic projects. We use technologies like [Ruby on Rails](/ruby-on-rails/ "Ruby on Rails") and [AngularJS](/pjax/ "AngularJS"). We apply the [Agile project methodology](/agile/ "Agile project methodology").
+Our office is in a large warehouse in Surry Hills, Sydney (and no, we don’t all have beards and ride fixie bikes). Our core team of 30 is very experienced, working on large scale, high traffic projects. We use technologies like [Ruby on Rails](/ruby-on-rails/ "Ruby on Rails") and [AngularJS](/pjax/ "AngularJS"). We apply the Agile project methodology.
 
 We specialise in building [Digital Products](/blog/digital-products/ "Digital Products") - sites and apps that allow users to "do" something and perform some kind of utility. We work with our clients to develop these - starting with the initial idea and then building on this over successive iterations. A typical project spans several years.
 

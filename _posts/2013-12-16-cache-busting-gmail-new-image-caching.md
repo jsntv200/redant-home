@@ -5,7 +5,6 @@ title: Cache busting Gmail's new image caching
 permalink: blog/blog/how-we-do/cache-busting-gmail-new-image-caching/
 type: ideas
 categories:
-  - how-we-do
   - tool-reviews
 author: Sam Bauers
 content_sidebar: >

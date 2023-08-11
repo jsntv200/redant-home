@@ -6,7 +6,6 @@ permalink: >-
   blog/red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/
 type: news
 categories:
-  - red-ant-stuff
 author: Ben Still
 content_sidebar: >
   A whirlwind tale of Red Ant's journey through the wonderful world of

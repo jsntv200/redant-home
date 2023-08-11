@@ -6,7 +6,6 @@ description: Thought goes into building a good solid forum, especially one with 
 permalink: blog/ruby-on-rails/building-a-meaningful-forum/
 type: ideas
 categories:
-  - our-work
   - ruby-on-rails
 author: Ben Still
 image_small: /assets/uploads/2009/forum-small.png

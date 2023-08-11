@@ -5,7 +5,6 @@ title: Who are all these fake people on LinkedIn?
 permalink: blog/marketing/who-are-all-these-fake-people-on-linkedin/
 type: ideas
 categories:
-  - marketing
 author: Ben Still
 content_sidebar: |
   Who are all these fake people on LinkedIn?

@@ -5,7 +5,6 @@ title: User generated content
 permalink: "blog/our-work/user-generated-content/"
 type: ideas
 categories:
-- our-work
 author: Ben Still
 content_sidebar: User generated content
 keywords: User generated content
