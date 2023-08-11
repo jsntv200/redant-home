@@ -2,29 +2,33 @@
 layout: v2-blog-detail
 is_blog: true
 title: What makes property management so hard?
-type: news
-permalink: "blog/software-development/what-makes-property-management-so-hard"
+type: ideas
+permalink: blog/software-development/what-makes-property-management-so-hard
 categories:
-- software-development
+  - strategy
+  - online-payments
 author: Ben Still
-content_sidebar: From the outside looking in, the property management business looks pretty
+content_sidebar: >
+  From the outside looking in, the property management business looks pretty
   simple.
-keywords: property management, payments
+keywords: 'property management, payments'
 date: '2019-02-12T02:31:36.000+00:00'
-image_small: "/assets/uploads/2019/managed.png"
-image: "/assets/uploads/2019/managed.png"
-description: From the outside looking in, the property management business looks
-  pretty simple.
+image_small: /assets/uploads/2019/managed.png
+image: /assets/uploads/2019/managed.png
+description: >-
+  From the outside looking in, the property management business looks pretty
+  simple.
 tags:
-- software-development
+  - software-development
 time: ''
 redirect_from:
   - /software-development/what-makes-property-management-so-hard/
-date_published: ! ' 2019-02-12'
+date_published: 2019-02-12T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2019-02-12
-
+updated_at: 2019-02-12T00:00:00.000Z
+published: true
 ---
+
 Before we started working on the [Managed Platform](/portfolio/managed/), I’d made some assumptions about how Property Management works. In a nutshell, my impression was that things were pretty basic. Easy, even.
 
 Here’s how I thought it worked: A tenant signs a lease, and then sets up regular rent payments. These payments regularly flow like clockwork to the owner’s bank account. The property manager gets paid a fee, they sort out the occasional maintenance task and everything is pretty simple and sweet.

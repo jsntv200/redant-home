@@ -2,36 +2,37 @@
 layout: v2-blog-detail
 is_blog: true
 title: How a project gets tested and deployed with GitFlow
-permalink: "blog/ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/"
+permalink: blog/ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/
 type: ideas
 categories:
-- automated-testing
-- ruby-on-rails-devops
+  - ruby-on-rails-devops
 author: Ben Still
 keywords: ''
-content_sidebar: As our projects have grown larger, so has the complexity of testing and
-  deploying work. We've started moving projects over to GitFlow in order to simplify
-  this process, read on to see how we do it.
-image_small: "/assets/uploads/2012/github-small.jpg"
-image: "/assets/uploads/2012/github.jpg"
+content_sidebar: >
+  As our projects have grown larger, so has the complexity of testing and
+  deploying work. We've started moving projects over to GitFlow in order to
+  simplify this process, read on to see how we do it.
+image_small: /assets/uploads/2012/github-small.jpg
+image: /assets/uploads/2012/github.jpg
 description: GitFlow is the way of the future. Find out why and how here.
 tags: []
 time: ''
 redirect_from:
   - /ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/
-date_published: ! ' 2012-02-24'
+date_published: 2012-02-24T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2012-02-24
-
+updated_at: 2012-02-24T00:00:00.000Z
+published: true
 ---
+
 How we manage our test and deploy workflow has changed massively over the years. Many moons ago we started off with no tests, manual publishing and not much of a workflow. We've gradually changed this as weve started making bigger sites with more complex requirements.
 
 We still check things manually in a browser, but most of the heavy lifting is done via automated tests to check each aspect of the site. Once weve published a new version, it's hard not to have a poke around to make sure everything is there- but we're really relying on an automated deploy process to move that from the developers desktop, through staging and on to the production server.
 
 It seems that development workflow is something that varies quite a lot between different companies or teams. Part of this is the size of projects they work on, and part of it is cultural.
 
-- **size of project** - for a small static site made by a single developer, a complex workflow might be overkill. As a project grows and gets more people, things can start to get overlooked or broken pretty quickly. People get bogged down in the mundane and detailed steps of getting code onto a server. Days are lost, mistakes are made, everyone gets grumpy.
-- **cultural (otherwise known as do you give a f-k?)** - how can I put this diplomatically some teams seem to be more focused on getting things done quickly, or place more emphasis on how something looks rather than how it behaves. This can be a cultural thing- adjusting people and workflow that might have worked well in a traditional advertising agency (for example) can be difficult. Everyone needs to have a strong desire to make nice things well, and **do it** well.
+* **size of project** - for a small static site made by a single developer, a complex workflow might be overkill. As a project grows and gets more people, things can start to get overlooked or broken pretty quickly. People get bogged down in the mundane and detailed steps of getting code onto a server. Days are lost, mistakes are made, everyone gets grumpy.
+* **cultural (otherwise known as do you give a f-k?)** - how can I put this diplomatically some teams seem to be more focused on getting things done quickly, or place more emphasis on how something looks rather than how it behaves. This can be a cultural thing- adjusting people and workflow that might have worked well in a traditional advertising agency (for example) can be difficult. Everyone needs to have a strong desire to make nice things well, and **do it** well.
 
 We've invested quite a bit in improving our workflow, so that we get very high reliability and confidence. Its meant taking people out of the equation and trying to automate each step. It also means that when we do hit a problem, we keep on tweaking the process to avoid a repeat. We're now able to continually push up new work to the live site as it gets done.
 

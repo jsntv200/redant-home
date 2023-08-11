@@ -15,7 +15,8 @@ description: >-
 time: ''
 author: Ben Still
 categories:
-  - software-development
+  - ruby-on-rails
+  - strategy
 tags: []
 keywords: ''
 image_small: /assets/uploads/hiring-a-web-development-team.jpg
@@ -25,6 +26,7 @@ redirect_from:
 date_published: 2019-05-22T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2019-05-22T00:00:00.000Z
+published: true
 ---
 
 Designing and building new ideas out as apps and platforms has become a massive industry. Whether you’re a startup with a great idea, or an established company, everyone is looking for good development talent.

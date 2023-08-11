@@ -1,30 +1,34 @@
 ---
 layout: v2-blog-detail
 is_blog: true
-permalink: "blog/strategy/how-much-should-I-spend/"
+permalink: blog/strategy/how-much-should-I-spend/
 type: ideas
 categories:
-- strategy
+  - digital-products
+  - strategy
 author: Ben Still
 tags: []
 time: 5 Mins Read
-date_published: ! ' 2020-02-27'
+date_published: 2020-02-27T00:00:00.000Z
 publisher: Red Ant
 title: How much should I spend on my website?
-content_sidebar: Building a SaaS platform isn’t a modular commodity with a fixed price.
-  It requires a much deeper understanding of initial and ongoing engineering costs
-  to make sure you have enough funds to stay in the game. Here we discuss how to calculate
-  your tech break even and understand how far your funding runway really is.
-keywords: Budget, SaaS platform
-image_small: "/assets/uploads/2020/Desktop.png"
-image: "/assets/uploads/2020/Desktop-1.png"
+content_sidebar: >
+  Building a SaaS platform isn’t a modular commodity with a fixed price. It
+  requires a much deeper understanding of initial and ongoing engineering costs
+  to make sure you have enough funds to stay in the game. Here we discuss how to
+  calculate your tech break even and understand how far your funding runway
+  really is.
+keywords: 'Budget, SaaS platform'
+image_small: /assets/uploads/2020/Desktop.png
+image: /assets/uploads/2020/Desktop-1.png
 description: Building a SaaS platform isn’t a modular commodity with a fixed price.
 redirect_from:
   - /strategy/what-is-the-right-budget-for-my-website/
   - /strategy/how-much-should-I-spend/
-updated_at: 2020-02-27
-
+updated_at: 2020-02-27T00:00:00.000Z
+published: true
 ---
+
 Building technology isn’t a modular commodity - something with a fixed price that you can buy just like you buy a grocery item. Some tech is - for example creating a public “this is what we do” Wordpress site. **Get 5 quotes and they’ll all be roughly in line. Get 5 quotes for building a SaaS platform and they’ll be all over the place.**
 
 The cost of building a technology product - like a SaaS platform - is largely driven by engineering hours required. And working out how much of these you need is a “piece of string” problem. The more effort, the more you’ll get. But how much is enough?

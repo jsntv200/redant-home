@@ -2,28 +2,30 @@
 layout: v2-blog-detail
 is_blog: true
 title: Refactoring a design
-permalink: "blog/ruby-on-rails/refactoring-a-design/"
+permalink: blog/ruby-on-rails/refactoring-a-design/
 type: ideas
 categories:
-- ruby-on-rails
-- design
+  - design
 author: Ben Still
-content_sidebar: We've recently spent some time adding some new features to a site that
-  we built a while back.
+content_sidebar: >
+  We've recently spent some time adding some new features to a site that we
+  built a while back.
 keywords: refactoring
-image_small: "/assets/uploads/2009/refactor-small.jpg"
-image: "/assets/uploads/2009/refactor-large.jpg"
-description: We've recently spent some time adding some new features to a site that
-  we built a while back.
+image_small: /assets/uploads/2009/refactor-small.jpg
+image: /assets/uploads/2009/refactor-large.jpg
+description: >-
+  We've recently spent some time adding some new features to a site that we
+  built a while back.
 tags: []
 time: ''
 redirect_from:
   - /ruby-on-rails/refactoring-a-design/
-date_published: ! ' 2009-07-30'
+date_published: 2009-07-30T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2009-07-30
-
+updated_at: 2009-07-30T00:00:00.000Z
+published: true
 ---
+
 I won't bore you with all the various tweaks and changes, but one page in particular was interesting in terms of refactoring a design. The page was a product menu. It lists several product groups and the products within each. Each product menu has between two and seven groups of products.
 
 Need to cut to the chase? Here is our original version (Content Management System), which we redesigned it to be faster and more useful. You can [play with the new version here](http://yates.co.nz/products/fertilising/).
@@ -42,10 +44,10 @@ Each product area has a drop down list, which shows a set of product names that 
 
 This design worked well if:
 
-- you knew the exact name of what you were looking for (so you could find it in the list)
-- you could find the item easiest via an alphabetical ordering
-- once you'd selected a product, you didn't want to jump to another
-- the product area blurbs were helpful for you in your search
+* you knew the exact name of what you were looking for (so you could find it in the list)
+* you could find the item easiest via an alphabetical ordering
+* once you'd selected a product, you didn't want to jump to another
+* the product area blurbs were helpful for you in your search
 
 #### Refactoring
 
@@ -53,10 +55,10 @@ It's not that there was anything that wrong with the original layout. The design
 
 However, we all thought there were a few ways that we could improve the page, and make it more **useful**:
 
-- **we dropped the text summary** to get back some space
-- **arranged each area in a vertical list** rather than a grid. Each item expands to show all the products within. Clicking on another product area collapses the first.
-- **used thumbnails** of each product as a visual aid.
-- **increased the size of the mouse click hit area** to make it easier to click on a specific product (the previous select list made it easy to choose one product too high/low if you weren't careful with your mouse)
+* **we dropped the text summary** to get back some space
+* **arranged each area in a vertical list** rather than a grid. Each item expands to show all the products within. Clicking on another product area collapses the first.
+* **used thumbnails** of each product as a visual aid.
+* **increased the size of the mouse click hit area** to make it easier to click on a specific product (the previous select list made it easy to choose one product too high/low if you weren't careful with your mouse)
 
 Here is the revised design, and you can [play with it here](http://yates.co.nz/products/fertilising/)
 
@@ -72,11 +74,11 @@ Another thing that we didn't realise during the initial design phase was how pro
 
 The design process for a web site works well when iterations or design cycles are allowed/encouraged to occur. For us, this means avoiding waterfalls- where one person or team does a bit, then passes it on to the next. Tasks progress from one stage to the next in one direction- rarely going back upstream. For web sites, they often look like this:
 
-- one person makes a wireframe UI
-- who passes it on to another to get it signed off by the client
-- and then on a designer to photoshop
-- then on to an HTML person to cut
-- and then somehow squeeze it into a CMS or web app
+* one person makes a wireframe UI
+* who passes it on to another to get it signed off by the client
+* and then on a designer to photoshop
+* then on to an HTML person to cut
+* and then somehow squeeze it into a CMS or web app
 
 Since someone has diligently been getting signoffs at critical points, there is little opportunity or motivation for someone towards the end to redress issues- in fact it often becomes progressively harder (that's already been signed off). You'll end up with exactly what you asked for, but it might not be the most satisfying process or final result.
 

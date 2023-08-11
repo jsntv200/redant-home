@@ -2,30 +2,30 @@
 layout: v2-blog-detail
 is_blog: true
 title: Why we use Ruby on Rails
-permalink: 'blog/ruby-on-rails/why-we-use-ruby-on-rails/'
+permalink: blog/ruby-on-rails/why-we-use-ruby-on-rails/
 type: ideas
 categories:
-  - how-we-do
   - ruby-on-rails
   - ruby-on-rails-devops
 author: Ben Still
-content_sidebar: Why we use Ruby on Rails
+content_sidebar: |
+  Why we use Ruby on Rails
 keywords: ruby on rails
-image_small: '/assets/uploads/2009/ruby-on-rails.png'
-image: '/assets/uploads/2009/ruby-on-rails.png'
-description:
-  We do a lot of work with a programming language called Ruby on Rails.
-  This is why.
+image_small: /assets/uploads/2009/ruby-on-rails.png
+image: /assets/uploads/2009/ruby-on-rails.png
+description: >-
+  We do a lot of work with a programming language called Ruby on Rails. This is
+  why.
 tags: []
 time: ''
 redirect_from:
   - /blog/why-we-use-ruby-on-rails/
   - /blog/text-cloud-in-flash/
   - /ruby-on-rails/why-we-use-ruby-on-rails/
-date_published: ! ' 2009-08-02'
+date_published: 2009-08-02T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2009-08-02
-
+updated_at: 2009-08-02T00:00:00.000Z
+published: true
 ---
 
 Heres my summary of what Rails is and why we use it.
@@ -62,7 +62,7 @@ This is usually petty stuff, like using underscores rather than dashes or renami
 
 Rails has this thing called convention over configuration, which avoids all the peeing. Rather than starting from scratch, there are all these conventions that make a lot of sense. Say I was making a list of these blog posts that you're reading now. The list would be called posts. Each item on my list would be a post.
 
-Make sense? Not BlogPost, blog_item or myblog89-entry. This saves time in simple ways- like once you see post, you can assume it belongs to posts.
+Make sense? Not BlogPost, blog\_item or myblog89-entry. This saves time in simple ways- like once you see post, you can assume it belongs to posts.
 
 ### 4. Model View Controller
 

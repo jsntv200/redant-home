@@ -6,7 +6,6 @@ permalink: blog/automated-testing/testing-web-projects-in-rails/
 type: ideas
 categories:
   - cyber-security
-  - automated-testing
   - ruby-on-rails-devops
 author: Ben Still
 content_sidebar: >
@@ -25,6 +24,7 @@ redirect_from:
 date_published: 2013-04-07T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2013-04-07T00:00:00.000Z
+published: true
 ---
 
 ## For testing a web project, there are four key things:

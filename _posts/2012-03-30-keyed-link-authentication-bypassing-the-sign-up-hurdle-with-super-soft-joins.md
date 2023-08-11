@@ -2,11 +2,12 @@
 layout: v2-blog-detail
 is_blog: true
 title: Bypassing the sign up hurdle with super-soft joins
-permalink: blog/blog/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
+permalink: >-
+  blog/blog/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
 type: ideas
 categories:
-  - how-we-do
-  - strategy
+  - privacy
+  - digital-products
 author: Sam Bauers
 content_sidebar: >
   When your users are unlikely to want to provide their email address to sign-up
@@ -18,10 +19,12 @@ description: How we use super-soft joins to interact with users on personal subj
 tags: []
 time: ''
 redirect_from:
-  - /blog/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
+  - >-
+    /blog/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
 date_published: 2012-03-30T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-03-30T00:00:00.000Z
+published: true
 ---
 
 Red Ant client [NCPIC (National Cannabis Prevention and Information Centre)](http://ncpic.org.au/) has been pushing the boundaries of web-based psychological interventions for the past four to five years. Their latest intervention program [Clear Your Vision](http://clearyourvision.org.au/) had a few hurdles it had to overcome when it came to translating it to the web.

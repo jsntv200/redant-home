@@ -2,28 +2,28 @@
 layout: v2-blog-detail
 is_blog: true
 title: Our recent interactive tools
-permalink: 'blog/ruby-on-rails/our-recent-interactive-tools/'
+permalink: blog/ruby-on-rails/our-recent-interactive-tools/
 type: news
 categories:
-  - our-work
   - ruby-on-rails
 author: Ben Still
-content_sidebar:
-  Who doesn't like to be out in the sun, gardening and getting your fingers
-  all green? Well now you can do all that from the comfort of your living room!
+content_sidebar: >
+  Who doesn't like to be out in the sun, gardening and getting your fingers all
+  green? Well now you can do all that from the comfort of your living room!
 keywords: our recent interactive tools
-image_small: '/assets/uploads/2010/huggies-baby-room-2-small.jpg'
-image: '/assets/uploads/2010/yates-virtual-garden-2.jpg'
-description:
-  Who doesn't like to be out in the sun, gardening and getting your fingers
-  all green? Well now you can do all that from the comfort of your living room!
+image_small: /assets/uploads/2010/huggies-baby-room-2-small.jpg
+image: /assets/uploads/2010/yates-virtual-garden-2.jpg
+description: >-
+  Who doesn't like to be out in the sun, gardening and getting your fingers all
+  green? Well now you can do all that from the comfort of your living room!
 tags: []
 time: ''
 redirect_from:
   - /ruby-on-rails/our-recent-interactive-tools/
-date_published: ! ' 2010-09-22'
+date_published: 2010-09-22T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2010-09-22
+updated_at: 2010-09-22T00:00:00.000Z
+published: false
 ---
 
 #### Yates Virtual Garden

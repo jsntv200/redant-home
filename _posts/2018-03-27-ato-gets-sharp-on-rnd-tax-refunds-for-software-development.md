@@ -5,7 +5,6 @@ title: ATO gets sharp on R&D Tax refunds for software development
 permalink: blog/marketing/ato-gets-sharp-on-rnd-tax-refunds-for-software-development/
 type: news
 categories:
-  - marketing
   - strategy
 author: Ben Still
 content_sidebar: >
@@ -27,6 +26,7 @@ redirect_from:
 date_published: 2018-03-27T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-03-27T00:00:00.000Z
+published: true
 ---
 
 The Australian Tax Office has signalled changes to the R\&D Tax incentive for software development — which really goes to the heart of what it means to be technically innovative.

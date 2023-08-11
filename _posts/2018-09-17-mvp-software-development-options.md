@@ -5,7 +5,7 @@ title: Feeling a bit stuck on your MVP development?
 permalink: blog/software-development/mvp-software-development-options/
 type: news
 categories:
-  - software-development
+  - digital-products
   - strategy
 author: Ben Still
 content_sidebar: |
@@ -23,6 +23,7 @@ redirect_from:
 date_published: 2018-09-17T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-09-17T00:00:00.000Z
+published: true
 ---
 
 A really common scenario: you've had some code developed, but now you're feeling a bit stuck. Typically:

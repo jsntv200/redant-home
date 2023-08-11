@@ -1,30 +1,30 @@
 ---
 layout: v2-blog-detail
 is_blog: true
-permalink: "blog/software-development/ruby-on-rails-for-your-web-development"
+permalink: blog/software-development/ruby-on-rails-for-your-web-development
 type: news
 categories:
-  - software-development
+  - ruby-on-rails
 author: Ben Still
 tags: []
 time: 15 Mins Read
 title: Why choose Ruby on Rails?
-content_sidebar:
-  The no nonsense guide for entrepreneurs, startups, product owners or
-  anyone that is a bit baffled about tech stack options.
-keywords: ""
-image_small: "/assets/uploads/2019/why-choose-ruby.jpg"
-image: "/assets/uploads/2019/why-choose-ruby.jpg"
-description:
-  The no nonsense guide for entrepreneurs, startups, product owners or
-  anyone that is a bit baffled about tech stack options.
-date_published: ! " 2019-06-05"
+content_sidebar: >
+  The no nonsense guide for entrepreneurs, startups, product owners or anyone
+  that is a bit baffled about tech stack options.
+keywords: ''
+image_small: /assets/uploads/2019/why-choose-ruby.jpg
+image: /assets/uploads/2019/why-choose-ruby.jpg
+description: >-
+  The no nonsense guide for entrepreneurs, startups, product owners or anyone
+  that is a bit baffled about tech stack options.
+date_published: 2019-06-05T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2019-06-05
+updated_at: 2019-06-05T00:00:00.000Z
 redirect_from:
   - /software-development/ruby-on-rails-for-your-web-development/
+published: true
 ---
-
 
 <p>
   <strong>
@@ -98,7 +98,6 @@ redirect_from:
 <h2 class="mt-5 mb-4">
   What are the features that make Ruby attractive to developers?
 </h2>
-
 
 <h5>1. Everything can be an object</h5>
 <p>
@@ -344,7 +343,6 @@ end</code></pre>
     in React or similar.
   </li>
 </ul>
-
 
 <h3><strong>Ruby on Rails</strong> release history</h3>
 <p>

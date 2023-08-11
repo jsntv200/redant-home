@@ -2,26 +2,30 @@
 layout: v2-blog-detail
 is_blog: true
 title: We've finally made it - from bucket to bokashi to 3 compost bins
-permalink: "blog/red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/"
+permalink: >-
+  blog/red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/
 type: news
 categories:
-- red-ant-stuff
+  - red-ant-stuff
 author: Ben Still
-content_sidebar: A whirlwind tale of Red Ant's journey through the wonderful world of
+content_sidebar: >
+  A whirlwind tale of Red Ant's journey through the wonderful world of
   composting.
 keywords: compost bins
-image_small: "/assets/uploads/2012/compost-bin-small.jpg"
-image: "/assets/uploads/2012/compost-bin.jpg"
+image_small: /assets/uploads/2012/compost-bin-small.jpg
+image: /assets/uploads/2012/compost-bin.jpg
 description: 'Green offices of the present future: office composting.'
 tags: []
 time: ''
 redirect_from:
-  - /red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/
-date_published: ! ' 2012-08-30'
+  - >-
+    /red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/
+date_published: 2012-08-30T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2012-08-30
-
+updated_at: 2012-08-30T00:00:00.000Z
+published: false
 ---
+
 We've just bought our second compost bin, to sit alongside our existing bin and worm farm.
 
 To put this in perspective, some history. Like most good things, it starts with coffee.

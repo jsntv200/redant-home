@@ -2,23 +2,25 @@
 layout: v2-blog-detail
 is_blog: true
 title: Why we don't enter awards… And why I irritate Wayne.
-permalink: 'blog/red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/'
+permalink: blog/red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/
 type: news
 categories:
-  - our-work
+  - strategy
 author: Ben Still
-content_sidebar: I have this friend. Let's call him Wayne. He works in advertising.
+content_sidebar: |
+  I have this friend. Let's call him Wayne. He works in advertising.
 keywords: Digital Awards
-image_small: '/assets/uploads/2018/test-image.jpg'
-image: '/assets/uploads/2018/test-image.jpg'
+image_small: /assets/uploads/2018/test-image.jpg
+image: /assets/uploads/2018/test-image.jpg
 description: I have this friend. Let's call him Wayne. He works in advertising.
 tags: []
 time: ''
 redirect_from:
   - /red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/
-date_published: ! ' 2018-08-17'
+date_published: 2018-08-17T00:00:00.000Z
 publisher: Red Ant
-updated_at: 2018-08-17
+updated_at: 2018-08-17T00:00:00.000Z
+published: true
 ---
 
 Why we don't enter awards… And why I irritate Wayne. I have this friend. Let's call him Wayne. He works in advertising. I don't think I'm being unkind if I were to describe him as being a bit preoccupied with status. Obsessed would be more accurate.

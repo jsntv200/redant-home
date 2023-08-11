@@ -5,8 +5,7 @@ title: The problem with great startup ideas is that everyone has one
 permalink: blog/red-ant-stuff/opinionated-developer/
 type: news
 categories:
-  - our-work
-  - red-ant-stuff
+  - strategy
 author: Ben Still
 content_sidebar: >
   Execution matters. There are plenty of great ideas, but you need an
@@ -22,6 +21,7 @@ redirect_from:
 date_published: 2018-09-17T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2018-09-17T00:00:00.000Z
+published: true
 ---
 
 I had one of those unfortunate meetings the other day. The kind that leaves you pondering the Big Questions, like "why am I even here?". Is Australia some weird backwater where developers are the serfs?
