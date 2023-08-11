@@ -1,7 +1,7 @@
 // .tina/config.js
 import { defineConfig } from "tinacms";
 var config_default = defineConfig({
-  branch: "tinacms",
+  branch: "master",
   clientId: process.env.TINA_PUBLIC_CLIENT_ID,
   // Get this from tina.io
   token: process.env.TINA_PUBLIC_TOKEN,
