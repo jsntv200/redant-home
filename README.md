@@ -49,22 +49,16 @@ TinaCMS config for collections and settings are located in the `.tina` folder.
 
 Files uploaded through TinaCMS are set to go into the `/assets/uploads` folder.
 
-Because the master branch is protected, Tina can’t commit directly to the master branch. Instead, changes made in the Tina admin go into the `tinacms` branch.
-
-The process for deploying content updates is:
-* Make changes in Tina admin
-* In github open a PR from the tinacms branch against the master branch
-* Get a code review
-* Merge to master so it gets deployed to production
+Changes in the TinaCMS admin get committed directly into the `master` branch.
 
 ## Release / Deploy
 
-# Production
+### Production
 
 A github workflow will compile and deploy to `gh_pages` when updates are pushed to `master`.
 
 Ensure that the CNAME file has the correct domain name when deploying to production and staging.
 
-# Staging
+### Staging
 
 To deploy to staging, you'll need to push from your local to the [master branch on the redant-home-staging repository](https://github.com/red-ant/redant-home-staging/)
