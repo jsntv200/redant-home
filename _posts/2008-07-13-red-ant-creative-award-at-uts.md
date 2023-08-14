@@ -2,7 +2,7 @@
 layout: v2-blog-detail
 is_blog: true
 title: Red Ant creative award at UTS
-permalink: blog/red-ant-stuff/red-ant-creative-award-at-uts/
+permalink: blog/design/red-ant-creative-award-at-uts/
 type: news
 categories:
   - design

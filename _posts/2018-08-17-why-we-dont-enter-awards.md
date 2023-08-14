@@ -2,7 +2,7 @@
 layout: v2-blog-detail
 is_blog: true
 title: Why we don't enter awards… And why I irritate Wayne.
-permalink: blog/red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/
+permalink: blog/strategy/why-we-dont-enter-awards-and-why-i-irritate-wayne/
 type: news
 categories:
   - strategy

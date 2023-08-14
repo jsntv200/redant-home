@@ -2,7 +2,7 @@
 layout: v2-blog-detail
 is_blog: true
 title: Red Ant web design award at UTS
-permalink: 'blog/red-ant-stuff/red-ant-web-design-award-at-uts/'
+permalink: 'blog/design/red-ant-web-design-award-at-uts/'
 type: news
 categories:
   - design
