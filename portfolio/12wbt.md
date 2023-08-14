@@ -33,6 +33,8 @@ technology_tags:
   - Online Payment Systems
 industry_vertical_tags: []
 service_tags: []
+redirect_from:
+  - /blog/our-work/our-work-michelle-bridges-12wbt-build/
 images:
   - type: gallery
     path: /assets/images/projects/12wbt/12wbt-1.jpg
