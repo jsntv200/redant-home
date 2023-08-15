@@ -8,7 +8,7 @@ description: >-
   satisfaction. Embrace the power of seamless payment solutions and take your
   business to new heights of success.
 listing_description: >-
-  Red Ant  Payment Integration Services are tailored to simplify and optimise
+  Red Ant Payment Integration Services are tailored to simplify and optimise
   your payment processes, enabling secure transactions and increasing customer
   satisfaction. Embrace the power of seamless payment solutions and take your
   business to new heights of success.
@@ -30,6 +30,13 @@ cta_description: >
 cta_button_label: >-
   Contact us today to start your journey of payment excellence and customer
   satisfaction!
+section_1_list:
+  - title: Customised Payment Solutions
+    text: >-
+      We understand that each business has unique payment needs. Our experts
+      work closely with you to develop customised payment solutions that
+      perfectly align with your specific requirements.
 ---
+
 
 
