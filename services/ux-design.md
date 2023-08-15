@@ -28,6 +28,11 @@ cta_button_label: >-
   Contact us today and witness the transformative power of exceptional UX
   design. Your users deserve nothing less!
 section_1_list:
+  - title: Data-Driven Insights
+    text: >-
+      Our decisions are backed by data. We leverage user research and analytics
+      to make informed design choices, optimising your product's performance and
+      user engagement.
   - title: Seamless Functionality
     text: >-
       Beyond aesthetics, our designs prioritise functionality. We ensure that
@@ -44,6 +49,7 @@ section_1_list:
       intuitive, user-friendly interfaces that delight your audience and enhance
       their interactions with your brand.
 ---
+
 
 
 
