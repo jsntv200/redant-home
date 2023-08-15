@@ -60,8 +60,10 @@ section_2_list:
     text: >-
       Embrace Agile methodologies to efficiently manage product development,
       enabling you to adapt to changing requirements and deliver faster.
-  - title: New item
-    text: ''
+  - title: Market Analysis and Launch Strategies
+    text: >-
+      Explore market analysis techniques and create effective launch strategies
+      to ensure your product gains the traction it deserves.
 cta_title: Join Us and Empower Your Digital Product Development Journey!
 cta_description: >
   Don't miss this opportunity to take your digital product development skills to
@@ -69,6 +71,7 @@ cta_description: >
   team with the knowledge, tools, and confidence to build outstanding digital
   products that captivate your users.
 ---
+
 
 
 
