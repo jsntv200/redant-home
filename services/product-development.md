@@ -2,15 +2,15 @@
 layout: v2-service-detail
 title: Product Development
 description: >-
-  Welcome to Red Ant Digital Product Development – your gateway to transforming
-  innovative ideas into cutting-edge digital solutions! Are you ready to embark
-  on a journey of creativity and collaboration?
-listing_description: Unleash Your Potential with a Red Ant Digital Product Development!
+  Welcome to the Red Ant Digital Product Development Workshop – your gateway to
+  transforming innovative ideas into cutting-edge digital solutions! Are you
+  ready to embark on a journey of creativity and collaboration?
+listing_description: Unleash Your Potential with a Red Ant Digital Product Development Workshop!
 slug: product-development
 icon: fa-hammer
 published: false
 subtitle: Product Development
-section_1_title: Why Choose Red Ant for Product Development?
+section_1_title: Why Choose the Red Ant Product Development Workshop?
 section_1_list:
   - title: Expert-Led Guidance
     text: >-
@@ -42,7 +42,7 @@ section_1_list:
       Gain access to a toolbox of practical techniques, methodologies, and
       frameworks that you can immediately implement in your digital product
       development endeavours.
-section_2_title: Our Product Development Process
+section_2_title: What You'll Learn
 section_2_list:
   - title: Idea Exploration
     text: >-
@@ -70,7 +70,11 @@ cta_description: >
   the next level. Book our transformative workshop and equip yourself and your
   team with the knowledge, tools, and confidence to build outstanding digital
   products that captivate your users.
+cta_button_label: >-
+  Contact us today to embark on an immersive and enlightening digital product
+  development experience. Let's shape the future of digital products together!
 ---
+
 
 
 
