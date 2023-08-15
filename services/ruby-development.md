@@ -28,8 +28,11 @@ section_1_list:
       No two web projects are alike. Our Ruby Development Services are designed
       to cater to your unique requirements, whether you need a full-stack web
       application, an API, or a robust e-commerce platform.
-  - title: New item
-    text: ''
+  - title: Ruby on Rails Prowess
+    text: >-
+      Our mastery extends beyond Ruby to Ruby on Rails, the powerful web
+      application framework. We leverage Rails to streamline your development
+      process and deliver projects faster without compromising quality.
   - title: New item
     text: ''
   - title: New item
@@ -57,6 +60,7 @@ cta_description: >
   web development like never before.
 cta_button_label: Contact us now and let's create web solutions that captivate and excel!
 ---
+
 
 
 
