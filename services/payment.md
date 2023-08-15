@@ -31,12 +31,18 @@ cta_button_label: >-
   Contact us today to start your journey of payment excellence and customer
   satisfaction!
 section_1_list:
+  - title: Enhanced Customer Convenience
+    text: >-
+      Delight your customers with smooth and user-friendly payment experiences.
+      Our integrations ensure quick and hassle-free transactions, enhancing
+      customer satisfaction and loyalty.
   - title: Customised Payment Solutions
     text: >-
       We understand that each business has unique payment needs. Our experts
       work closely with you to develop customised payment solutions that
       perfectly align with your specific requirements.
 ---
+
 
 
 
