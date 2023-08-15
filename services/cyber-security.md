@@ -2,11 +2,10 @@
 layout: v2-service-detail
 title: Cyber Security
 description: >-
-  Welcome to the realm of secure application development! Red Ant AppSec
-  Services are meticulously crafted to fortify your applications against
-  potential threats and vulnerabilities. With a focus on proactive security
-  measures, we ensure your applications are shielded from cyber risks, providing
-  you with peace of mind and a robust digital presence.
+  Red Ant AppSec Services are meticulously crafted to fortify your applications
+  against potential threats and vulnerabilities. With a focus on proactive
+  security measures, we ensure your applications are shielded from cyber risks,
+  providing you with peace of mind and a robust digital presence.
 listing_description: >-
   Red Ant AppSec Services are meticulously crafted to fortify your applications
   against potential threats and vulnerabilities.
@@ -50,4 +49,5 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
