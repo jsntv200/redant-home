@@ -31,6 +31,11 @@ cta_button_label: >-
   Contact us today to start your journey of payment excellence and customer
   satisfaction!
 section_1_list:
+  - title: Security and Compliance
+    text: >-
+      Security is our top priority. Our Payment Integration Services comply with
+      industry standards and utilise advanced security measures, ensuring your
+      customers' data is always protected.
   - title: Wide Range of Payment Gateways
     text: >-
       We integrate a diverse range of payment gateways (including
@@ -48,6 +53,7 @@ section_1_list:
       work closely with you to develop customised payment solutions that
       perfectly align with your specific requirements.
 ---
+
 
 
 
