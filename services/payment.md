@@ -57,6 +57,11 @@ section_1_list:
       work closely with you to develop customised payment solutions that
       perfectly align with your specific requirements.
 section_2_list:
+  - title: Testing and Validation
+    text: >-
+      Rigorous testing is conducted to ensure the payment process works
+      flawlessly. We validate every transaction to guarantee accuracy and
+      reliability.
   - title: Seamless Integration
     text: >-
       Our experienced developers seamlessly integrate the selected payment
@@ -71,6 +76,7 @@ section_2_list:
       We work closely with you to understand your business objectives and
       payment needs, ensuring the right integration approach is adopted.
 ---
+
 
 
 
