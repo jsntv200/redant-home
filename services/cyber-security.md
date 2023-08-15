@@ -46,8 +46,11 @@ section_2_list:
     text: >-
       We perform a thorough assessment of your application's architecture and
       codebase to uncover vulnerabilities and potential risks.
-  - title: New item
-    text: ''
+  - title: Customised Strategy
+    text: >-
+      Based on the assessment, we design a tailored application security
+      strategy that addresses your app's unique challenges and integrates
+      advanced security measures.
   - title: New item
     text: ''
   - title: New item
@@ -66,6 +69,7 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
 
 
