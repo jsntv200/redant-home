@@ -6,7 +6,7 @@ description: >-
 listing_description: >
   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ab animi sapiente eum distinctio accusantium voluptatem tenetur officiis ratione numquam expedita corrupti, modi ullam? Assumenda amet in error quia maiores.
 slug: dev-ops
-icon: fa-hammer
-
+icon: fa-gear-complex-code
+published: false
 ---
 

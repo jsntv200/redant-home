@@ -26,16 +26,18 @@ redirect_from: /get-started/
 
 <div class="max-w-screen-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto px-6 lg:px-8 mb-24">
   {% for title in site.data.services %}
-    {% assign page = site.pages | where: 'layout', "v2-service-detail" | where: 'title', title | first %}
+    {% assign page = site.pages | where: 'layout', "v2-service-detail" | where: 'published', true | where: 'title', title | first %}
 
     {% assign icon-class = page.icon %}
 
-    {% include v2/card-with-backdrop.html
-      bg-color = "red"
-      content = page.listing_description
-      hr = "true"
-      icon-class = icon-class
-      title = page.title
-      url = page.dir %}
+    {% if page %}
+      {% include v2/card-with-backdrop.html
+        bg-color = "red"
+        content = page.listing_description
+        hr = "true"
+        icon-class = icon-class
+        title = page.title
+        url = page.dir %}
+      {% endif %}
   {% endfor %}
 </div>
