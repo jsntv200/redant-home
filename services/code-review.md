@@ -22,11 +22,18 @@ redirect_from:
 subtitle: Elevate Your Code with the Red Ant Expert Code Review Service
 section_1_title: Why Choose Our Code Review Service?
 section_1_list:
+  - title: Quality Assurance
+    text: >-
+      Every line of code matters. Our rigorous code review process ensures that
+      your software is thoroughly examined for bugs, vulnerabilities, and
+      performance issues, guaranteeing a polished final product.
   - title: Unmatched Expertise
     text: >-
       Our team of experienced developers brings a wealth of knowledge across
       various programming languages and technologies. Benefit from insights and
       best practices that only seasoned professionals can provide.
 cta_description: ''
+section_2_title: How Our Code Review Service Works
 ---
+
 
