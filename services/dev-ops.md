@@ -70,8 +70,18 @@ section_2_list:
       We analyse your existing development and operations processes to identify
       areas for improvement. Together, we develop a tailored DevOps strategy
       aligned with your business objectives.
-cta_description: ''
+cta_description: >
+  Unlock the full potential of your software development process with our DevOps
+  Services. Streamline your workflows, accelerate releases, and achieve
+  unparalleled efficiency and collaboration.
+
+
+  Ready to revolutionise your development process? Partner with Red Ant to
+  experience the DevOps advantage.
+cta_title: Experience the DevOps Advantage Today!
+cta_button_label: Contact us now to begin your journey of continuous innovation and success!
 ---
+
 
 
 
