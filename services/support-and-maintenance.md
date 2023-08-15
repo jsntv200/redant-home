@@ -59,6 +59,10 @@ section_1_list:
       security assessments and updates to keep your applications resilient
       against threats and compliant with industry standards.
 section_2_list:
+  - title: Continuous Improvement
+    text: >-
+      We constantly assess and optimise your applications for peak performance,
+      leveraging data-driven insights and user feedback.
   - title: Issue Resolution
     text: >-
       Should any issues arise, our responsive support team is at your service to
@@ -77,6 +81,7 @@ section_2_list:
       We conduct a thorough analysis of your applications to understand their
       architecture, dependencies, and potential areas of improvement.
 ---
+
 
 
 
