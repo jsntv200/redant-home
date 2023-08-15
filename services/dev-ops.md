@@ -8,11 +8,8 @@ description: >-
   teams. Embrace the power of DevOps and take your organisation to new heights
   of productivity and innovation.
 listing_description: >-
-  Welcome to a world of efficient and seamless software development! Our DevOps
-  Services are designed to optimise your development process, accelerate
-  deployments, and enhance collaboration between your development and operations
-  teams. Embrace the power of DevOps and take your organisation to new heights
-  of productivity and innovation.
+  Designed to optimise your development process, accelerate deployments, and
+  enhance collaboration between your development and operations teams.
 slug: devops
 icon: fa-gear-complex-code
 published: true
@@ -82,6 +79,7 @@ cta_title: Experience the DevOps Advantage Today!
 cta_button_label: Contact us now to begin your journey of continuous innovation and success!
 subtitle: Streamline Your Development Process with Red Ant DevOps Services
 ---
+
 
 
 
