@@ -51,8 +51,11 @@ section_2_list:
       Based on the assessment, we design a tailored application security
       strategy that addresses your app's unique challenges and integrates
       advanced security measures.
-  - title: New item
-    text: ''
+  - title: Implementation
+    text: >-
+      Our experts implement a range of security solutions, including code
+      reviews, vulnerability scanning, and secure coding practices, to fortify
+      your application's defences.
   - title: New item
     text: ''
   - title: New item
@@ -69,6 +72,7 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
 
 
