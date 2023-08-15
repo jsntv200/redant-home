@@ -66,13 +66,17 @@ section_2_list:
       Based on the assessment, we design a data privacy strategy tailored to
       your organisation's needs, incorporating security measures and compliance
       protocols.
-  - title: New item
-    text: ''
+  - title: Implementation
+    text: >-
+      Our experts implement robust data privacy measures, including encryption,
+      access controls, and data classification, to ensure your data is shielded
+      at every stage of its lifecycle.
   - title: New item
     text: ''
   - title: New item
     text: ''
 ---
+
 
 
 
