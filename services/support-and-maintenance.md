@@ -33,6 +33,11 @@ cta_button_label: >-
   Contact us today to commence your journey of digital excellence and peace of
   mind!
 section_1_list:
+  - title: Security Enhancement
+    text: >-
+      We prioritise the security of your applications. Our team performs regular
+      security assessments and updates to keep your applications resilient
+      against threats and compliant with industry standards.
   - title: Scalable Support
     text: >-
       As your business grows, your applications need to scale accordingly. Our
@@ -54,6 +59,7 @@ section_1_list:
       health and reliability of your applications, minimising downtime and
       ensuring uninterrupted business operations.
 ---
+
 
 
 
