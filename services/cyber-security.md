@@ -7,8 +7,9 @@ description: >-
   security measures, we ensure your applications are shielded from cyber risks,
   providing you with peace of mind and a robust digital presence.
 listing_description: >-
-  Red Ant AppSec services are meticulously crafted to fortify your applications
-  against potential threats and vulnerabilities.
+  Red Ant AppSec services fortify your applications against potential threats
+  and vulnerabilities, providing you with peace of mind and a robust digital
+  presence.
 slug: cyber-security
 icon: fa-lock
 published: true
@@ -78,6 +79,7 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
 
 
