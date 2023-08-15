@@ -20,8 +20,11 @@ section_1_list:
       Our team of application security experts provides a comprehensive shield
       for your software applications. From code reviews to penetration testing,
       we employ a multi-layered approach to ensure the robustness of your apps.
-  - title: New item
-    text: ''
+  - title: Tailored Defences
+    text: >-
+      Recognising that every application is unique, we design custom security
+      strategies that pinpoint vulnerabilities specific to your app and align
+      with your business goals.
   - title: New item
     text: ''
   - title: New item
@@ -52,6 +55,7 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
 
 
