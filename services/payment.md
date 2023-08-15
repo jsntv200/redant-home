@@ -31,6 +31,12 @@ cta_button_label: >-
   Contact us today to start your journey of payment excellence and customer
   satisfaction!
 section_1_list:
+  - title: Wide Range of Payment Gateways
+    text: >-
+      We integrate a diverse range of payment gateways (including
+      [Stripe](/technology/stripe-payments/) and [Zai](/technology/zai/) to
+      accommodate your customers' preferences. From credit cards and digital
+      wallets to bank transfers, we have you covered.
   - title: Enhanced Customer Convenience
     text: >-
       Delight your customers with smooth and user-friendly payment experiences.
@@ -42,6 +48,7 @@ section_1_list:
       work closely with you to develop customised payment solutions that
       perfectly align with your specific requirements.
 ---
+
 
 
 
