@@ -25,8 +25,11 @@ section_1_list:
       Recognising that every application is unique, we design custom security
       strategies that pinpoint vulnerabilities specific to your app and align
       with your business goals.
-  - title: New item
-    text: ''
+  - title: Proactive Threat Mitigation
+    text: >-
+      We deploy advanced tools and methodologies to proactively identify and
+      neutralise potential security risks, preventing them from exploiting
+      vulnerabilities.
   - title: New item
     text: ''
   - title: New item
@@ -55,6 +58,7 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
 
 
