@@ -23,8 +23,11 @@ section_1_list:
       experience with the language. We stay up-to-date with the latest trends
       and best practices, ensuring your web development is always at the
       forefront of innovation.
-  - title: New item
-    text: ''
+  - title: Customised Solutions
+    text: >-
+      No two web projects are alike. Our Ruby Development Services are designed
+      to cater to your unique requirements, whether you need a full-stack web
+      application, an API, or a robust e-commerce platform.
   - title: New item
     text: ''
   - title: New item
@@ -54,5 +57,6 @@ cta_description: >
   web development like never before.
 cta_button_label: Contact us now and let's create web solutions that captivate and excel!
 ---
+
 
 
