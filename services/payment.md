@@ -14,7 +14,7 @@ listing_description: >-
   business to new heights of success.
 slug: payments
 icon: fa-credit-card-front
-published: false
+published: true
 subtitle: Seamless Transactions with Red Ant Payment Integration Services
 section_1_title: Why Choose Red Ant Payment Integration Services?
 section_2_title: Our Payment Integration Process
@@ -81,6 +81,7 @@ section_2_list:
       We work closely with you to understand your business objectives and
       payment needs, ensuring the right integration approach is adopted.
 ---
+
 
 
 
