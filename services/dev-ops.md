@@ -45,6 +45,11 @@ section_1_list:
       integrated, and ready for deployment.
 section_2_title: Our DevOps Process
 section_2_list:
+  - title: Continuous Monitoring
+    text: >-
+      Proactively monitor your applications and infrastructure. Our DevOps
+      experts ensure your systems are optimised for performance and reliability,
+      providing real-time insights into your environment.
   - title: Infrastructure as Code (IaC)
     text: >-
       Embrace IaC principles to manage and provision your infrastructure
@@ -62,6 +67,7 @@ section_2_list:
       aligned with your business objectives.
 cta_description: ''
 ---
+
 
 
 
