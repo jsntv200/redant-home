@@ -7,7 +7,6 @@ type: ideas
 categories:
   - blog
   - ecommerce
-  - tool-reviews
 author: Sam Bauers
 content_sidebar: >
   In which we find out which Shopify account hits the pricing sweet spot based
