@@ -14,7 +14,7 @@ listing_description: >-
   maintenance to keep your digital assets at their peak performance.
 slug: support-and-maintenance
 icon: fa-wrench
-published: false
+published: true
 subtitle: >-
   Safeguard Your Digital Success with Red Ant Application Support and
   Maintenance Services
@@ -59,28 +59,29 @@ section_1_list:
       security assessments and updates to keep your applications resilient
       against threats and compliant with industry standards.
 section_2_list:
-  - title: Continuous Improvement
+  - title: Analysis and Assessment
     text: >-
-      We constantly assess and optimise your applications for peak performance,
-      leveraging data-driven insights and user feedback.
+      We conduct a thorough analysis of your applications to understand their
+      architecture, dependencies, and potential areas of improvement.
+  - title: Proactive Monitoring
+    text: >-
+      Our team implements advanced monitoring tools to track application
+      performance, detect anomalies, and ensure optimal user experiences.
+  - title: Timely Updates
+    text: >-
+      We manage regular updates, patches, and enhancements to keep your
+      applications up-to-date and compatible with the latest technologies.
   - title: Issue Resolution
     text: >-
       Should any issues arise, our responsive support team is at your service to
       diagnose and resolve problems promptly, minimising disruption to your
       operations.
-  - title: Timely Updates
+  - title: Continuous Improvement
     text: >-
-      We manage regular updates, patches, and enhancements to keep your
-      applications up-to-date and compatible with the latest technologies.
-  - title: Proactive Monitoring
-    text: >-
-      Our team implements advanced monitoring tools to track application
-      performance, detect anomalies, and ensure optimal user experiences.
-  - title: Analysis and Assessment
-    text: >-
-      We conduct a thorough analysis of your applications to understand their
-      architecture, dependencies, and potential areas of improvement.
+      We constantly assess and optimise your applications for peak performance,
+      leveraging data-driven insights and user feedback.
 ---
+
 
 
 
