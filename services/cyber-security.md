@@ -35,8 +35,11 @@ section_1_list:
       In the face of a security incident, our rapid response team is primed to
       take action, swiftly containing and resolving issues to minimise
       disruptions and protect your reputation.
-  - title: New item
-    text: ''
+  - title: Regulatory Compliance
+    text: >-
+      Staying compliant with industry standards and regulations is paramount.
+      Our solutions ensure your applications adhere to the latest security and
+      data protection requirements.
 section_2_title: 'Our AppSec Process:'
 section_2_list:
   - title: New item
@@ -61,6 +64,7 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
 
 
