@@ -2,12 +2,52 @@
 layout: v2-service-detail
 title: Cyber Security
 description: >-
-  Just like checking your own health, it is useful to get your code reviewed and checked out by a different set of eyes. We can give you a better idea of the good and the bad, and help you understand technical debt.
-  We'll perform an expert review of your code for security issues, performance problems and a quality analysis. You’ll get a good idea of how your code benchmarks against industry standards.
-listing_description: >
-  Just like checking your own health, it is useful to get your code reviewed and checked out by a different set of eyes. We can give you a better idea of the good and the bad, and help you understand technical debt.
-  We'll perform an expert review of your code for security issues, performance problems and a quality analysis. You’ll get a good idea of how your code benchmarks against industry standards.
+  Welcome to the realm of secure application development! Red Ant AppSec
+  Services are meticulously crafted to fortify your applications against
+  potential threats and vulnerabilities. With a focus on proactive security
+  measures, we ensure your applications are shielded from cyber risks, providing
+  you with peace of mind and a robust digital presence.
+listing_description: >-
+  Red Ant AppSec Services are meticulously crafted to fortify your applications
+  against potential threats and vulnerabilities.
 slug: cyber-security
 icon: fa-lock
 published: false
+subtitle: Fortifying Your Applications with Red Ant AppSec Services
+section_1_title: Why Choose Red Ant AppSec Services?
+section_1_list:
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+section_2_title: 'Our AppSec Process:'
+section_2_list:
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+cta_title: Secure Your App's Integrity Today with Red Ant!
+cta_description: >
+  Empower your applications with Red Ant AppSec Solutions. Guard against cyber
+  threats, protect your sensitive data, and maintain customer trust.
+
+
+  Ready to fortify your application security? Partner with Red Ant to experience
+  a new level of AppSec excellence. 
+cta_button_label: >-
+  Contact us now to begin your journey of secure application development and
+  digital resilience!
 ---
+
