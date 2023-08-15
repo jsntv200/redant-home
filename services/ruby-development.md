@@ -65,8 +65,11 @@ section_2_list:
       Rigorous testing is conducted to ensure that your web application
       functions flawlessly across various devices and browsers, providing users
       with a seamless experience.
-  - title: New item
-    text: ''
+  - title: Deployment and Support
+    text: >-
+      We handle the entire deployment process, ensuring your web application
+      goes live smoothly. Our support team remains on standby, ready to address
+      any post-launch queries or issues.
 cta_title: Experience the Power of Ruby Today!
 cta_description: >
   Unlock the true potential of your web development projects with Red Ant Ruby
@@ -78,6 +81,7 @@ cta_description: >
   web development like never before.
 cta_button_label: Contact us now and let's create web solutions that captivate and excel!
 ---
+
 
 
 
