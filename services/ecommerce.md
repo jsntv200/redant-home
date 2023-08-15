@@ -7,12 +7,11 @@ description: >-
   Whether you're starting from scratch or seeking to enhance your existing
   platform, our expert team is here to craft a seamless and scalable ecommerce
   solution tailored to your business needs.
-listing_description: >
-  Welcome to the future of online retail! Red Ant Ecommerce Solutions is your
-  gateway to creating a powerful, user-friendly, and profitable online store.
-  Whether you're starting from scratch or seeking to enhance your existing
-  platform, our expert team is here to craft a seamless and scalable ecommerce
-  solution tailored to your business needs.
+listing_description: >-
+  Your gateway to creating a powerful, user-friendly, and profitable online
+  store. Whether you're starting from scratch or seeking to enhance your
+  existing platform, our expert team is here to craft a seamless and scalable
+  ecommerce solution tailored to your business needs.
 subtitle: Unleash Your Online Store's Potential with Red Ant Ecommerce Solutions
 slug: ecommerce
 icon: fa-cart-shopping
@@ -80,6 +79,9 @@ cta_description: >
 
   Ready to elevate your ecommerce experience? Partner with Red Ant to build an
   online store that stands out."
-cta_button_label: Contact us now And let's create an ecommerce solution that drives success and growth!
+cta_button_label: >-
+  Contact us now And let's create an ecommerce solution that drives success and
+  growth!
 published: true
 ---
+
