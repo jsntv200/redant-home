@@ -30,5 +30,31 @@ cta_description: >
 cta_button_label: >-
   Contact us now and embark on a journey of security and trust-building that
   will set your organisation apart!
+section_1_list:
+  - title: Expert Data Guardianship
+    text: >-
+      Our dedicated team of data privacy experts is committed to ensuring the
+      security and confidentiality of your data. We employ best practices and
+      cutting-edge technologies to keep your information safe from threats.
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+section_2_list:
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
 ---
+
 
