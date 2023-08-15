@@ -8,7 +8,7 @@ description: >-
 listing_description: Unleash Your Potential with a Red Ant Digital Product Development Workshop!
 slug: product-development
 icon: fa-hammer
-published: false
+published: true
 subtitle: Product Development
 section_1_title: Why Choose the Red Ant Product Development Workshop?
 section_1_list:
