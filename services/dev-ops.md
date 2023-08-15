@@ -45,6 +45,11 @@ section_1_list:
       integrated, and ready for deployment.
 section_2_title: Our DevOps Process
 section_2_list:
+  - title: Security and Compliance
+    text: >-
+      Security is our priority. Our DevOps practices integrate security measures
+      throughout the development lifecycle, ensuring your applications are
+      protected against threats and compliant with industry standards.
   - title: Continuous Monitoring
     text: >-
       Proactively monitor your applications and infrastructure. Our DevOps
@@ -67,6 +72,7 @@ section_2_list:
       aligned with your business objectives.
 cta_description: ''
 ---
+
 
 
 
