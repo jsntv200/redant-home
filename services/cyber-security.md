@@ -56,8 +56,11 @@ section_2_list:
       Our experts implement a range of security solutions, including code
       reviews, vulnerability scanning, and secure coding practices, to fortify
       your application's defences.
-  - title: New item
-    text: ''
+  - title: Ongoing Monitoring
+    text: >-
+      Real-time monitoring tools are deployed to detect and respond to emerging
+      threats, ensuring your application remains resilient in the face of
+      evolving cyber risks.
   - title: New item
     text: ''
 cta_title: Secure Your App's Integrity Today with Red Ant!
@@ -72,6 +75,7 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
 
 
