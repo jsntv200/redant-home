@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Oooh we've been busy little ants…
-permalink: blog/our-work/oooh-weve-been-busy-little-ants/
+permalink: /:categories/oooh-weve-been-busy-little-ants/
 type: news
 categories:
+  - blog
 author: Ben Still
 description: Take a look at some of our recent projects at Red Ant.
 keywords: Red Ant projects

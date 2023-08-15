@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: Michelle Bridges 12WBT build
-permalink: blog/our-work/our-work-michelle-bridges-12wbt-build/
+permalink: /:categories/our-work-michelle-bridges-12wbt-build/
 type: news
 categories:
-  - digital-products
+  - blog
+  - products
   - ruby-on-rails
 author: Ben Still
 content_sidebar: |

@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Webby awards honoree for tails for whales
-permalink: blog/ruby-on-rails/webby-awards-honoree-for-tails-for-whales/
+permalink: /:categories/webby-awards-honoree-for-tails-for-whales/
 type: news
 categories:
+  - blog
   - ruby-on-rails
 author: Ben Still
 content_sidebar: >

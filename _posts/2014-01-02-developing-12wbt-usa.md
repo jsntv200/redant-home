@@ -2,11 +2,12 @@
 layout: v2-blog-detail
 is_blog: true
 title: What we've been working on- Developing 12WBT for the USA
-permalink: blog/our-work/developing-12wbt-usa/
+permalink: /:categories/developing-12wbt-usa/
 type: news
 categories:
+  - blog
   - ruby-on-rails
-  - digital-products
+  - products
 author: Ben Still
 content_sidebar: >
   We've been working on building the Michelle Bridges 12WBT platform in

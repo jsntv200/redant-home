@@ -3,7 +3,8 @@ layout: v2-blog-detail
 is_blog: true
 permalink: "blog/"
 type: news
-categories: []
+categories:
+  - blog
 author: Ben Still
 tags: []
 time: 5 Mins Read

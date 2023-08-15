@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Platform Security - maybe you're the security flaw?
-permalink: blog/cyber-security/maybe-you're-the-security-flaw/
+permalink: /:categories/maybe-you're-the-security-flaw/
 type: ideas
 categories:
+  - blog
   - cyber-security
 author: Ben Still
 content_sidebar: >

@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: 'The Goose Strategy: Getting Out Of Scope'
-permalink: blog/cyber-security/goose-getting-out-of-scope/
+permalink: /:categories/goose-getting-out-of-scope/
 type: ideas
 categories:
+  - blog
   - cyber-security
 author: Ben Still
 content_sidebar: >

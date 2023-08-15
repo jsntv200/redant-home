@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Snapshot of our latest work
-permalink: blog/our-work/snapshot-of-our-latest-work/
+permalink: /:categories/snapshot-of-our-latest-work/
 type: news
 categories:
+  - blog
   - ruby-on-rails
   - ecommerce
 author: Ben Still

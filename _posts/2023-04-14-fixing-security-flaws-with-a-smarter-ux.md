@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Fixing security flaws with a smarter UX
-permalink: blog/cyber-security/fixing-security-flaws-with-a-smarter-ux/
+permalink: /:categories/fixing-security-flaws-with-a-smarter-ux/
 type: ideas
 categories:
+  - blog
   - cyber-security
 author: Ben Still
 date_published: 2023-04-13T14:00:00.000Z

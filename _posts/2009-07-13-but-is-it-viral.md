@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: But is it viral?
-permalink: blog/strategy/but-is-it-viral/
+permalink: /:categories/but-is-it-viral/
 type: ideas
 categories:
+  - blog
   - strategy
 author: Ben Still
 image_small: /assets/uploads/2009/viral-small.png

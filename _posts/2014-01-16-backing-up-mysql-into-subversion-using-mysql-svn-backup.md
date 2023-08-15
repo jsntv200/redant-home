@@ -2,11 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: MySQL SVN Backup- A simple solution for small databases
-permalink: >-
-  blog/ruby-on-rails-devops/backing-up-mysql-into-subversion-using-mysql-svn-backup/
+permalink: /:categories/backing-up-mysql-into-subversion-using-mysql-svn-backup/
 type: ideas
 categories:
-  - ruby-on-rails-devops
+  - blog
+  - devops
 author: Sam Bauers
 content_sidebar: >
   Introducing a simple tool for backing up small MySQL databases to Subversion.
@@ -23,7 +23,7 @@ tags: []
 time: ''
 redirect_from:
   - >-
-    /ruby-on-rails-devops/backing-up-mysql-into-subversion-using-mysql-svn-backup/
+    /devops/backing-up-mysql-into-subversion-using-mysql-svn-backup/
 date_published: 2014-01-16T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2014-01-16T00:00:00.000Z

@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Who are all these fake people on LinkedIn?
-permalink: blog/marketing/who-are-all-these-fake-people-on-linkedin/
+permalink: /:categories/who-are-all-these-fake-people-on-linkedin/
 type: ideas
 categories:
+  - blog
 author: Ben Still
 content_sidebar: |
   Who are all these fake people on LinkedIn?

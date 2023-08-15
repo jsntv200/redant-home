@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: How a brand new project can still be insecure
-permalink: blog/cyber-security/brand-new-code-but-bad-sad-face-emoji/
+permalink: /:categories/brand-new-code-but-bad-sad-face-emoji/
 type: ideas
 categories:
+  - blog
   - cyber-security
 author: Ben Still
 description: >-

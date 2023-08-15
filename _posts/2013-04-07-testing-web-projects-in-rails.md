@@ -2,11 +2,12 @@
 layout: v2-blog-detail
 is_blog: true
 title: Testing web projects
-permalink: blog/automated-testing/testing-web-projects-in-rails/
+permalink: /:categories/testing-web-projects-in-rails/
 type: ideas
 categories:
+  - blog
   - cyber-security
-  - ruby-on-rails-devops
+  - devops
 author: Ben Still
 content_sidebar: >
   As web projects grow in complexity, the testing process gets more and more
@@ -89,4 +90,4 @@ We can use a combination of these to test a project. End to end is useful as the
 
 Ideally the test suite runs as quickly as possible. This means that the Developer gets immediate feedback, so they can work faster. If they need to wait an hour for the tests to run, they are often off onto something else. Getting feedback quickly means they know that what they've just done has broken something else.
 
-Apart from testing to see if something is looking and working OK, we can also test for vulnerabilities. Has this new field on the Contact Us form introduced a loophole that can be exploited? As part of our tests, we use Brakeman to [test for Rails security vulnerabilities (Vulnerability scanning - checking code every time before it gets deployed)](/automated-testing/ruby-on-rails-devops/vulnerability-scanning-ruby-on-rails/).
+Apart from testing to see if something is looking and working OK, we can also test for vulnerabilities. Has this new field on the Contact Us form introduced a loophole that can be exploited? As part of our tests, we use Brakeman to [test for Rails security vulnerabilities (Vulnerability scanning - checking code every time before it gets deployed)](/automated-testing/devops/vulnerability-scanning-ruby-on-rails/).

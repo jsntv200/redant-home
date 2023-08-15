@@ -1,10 +1,11 @@
 ---
 layout: v2-blog-detail
 is_blog: true
-permalink: blog/online-payments/how-well-does-your-business-do-online-payments/
-type: online-payments
+permalink: /:categories/how-well-does-your-business-do-payments/
+type: payments
 categories:
-  - online-payments
+  - blog
+  - payments
 author: Ben Still
 tags: []
 time: 5 Mins Read
@@ -13,11 +14,11 @@ publisher: Red Ant
 title: How well does your business do online payments
 description: What are the areas that we look at when analysing the maturity of your online payments process? This article explains what they are, and how they are relevant.
 keywords: Online payments, digital payments
-image_small: "/assets/uploads/2023/how-well-does-your-business-do-online-payments-min.png"
-image: "/assets/uploads/2023/how-well-does-your-business-do-online-payments-min.png"
+image_small: "/assets/uploads/2023/how-well-does-your-business-do-payments-min.png"
+image: "/assets/uploads/2023/how-well-does-your-business-do-payments-min.png"
 content_sidebar: What are the areas that we look at when analysing the maturity of your online payments process? This article explains what they are, and how they are relevant.
 redirect_from:
-  - /online-payments/how-well-does-your-business-do-online-payments/
+  - /payments/how-well-does-your-business-do-payments/
 updated_at: 2023-02-08
 ---
 

@@ -2,10 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Benchmarking the perfect project - what makes a better project
-permalink: >-
-  blog/our-work/benchmarking-the-perfect-project-what-makes-one-project-better-than-another/
+permalink: /:categories/benchmarking-the-perfect-project-what-makes-one-project-better-than-another/
 type: ideas
 categories:
+  - blog
 author: Jesse Noble
 content_sidebar: >
   A few months ago, we started working with a project management coach. Here's

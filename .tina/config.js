@@ -403,14 +403,20 @@ export default defineConfig({
             name: "permalink",
             type: "string",
             required: true,
+            ui: {
+              defaultItem: "/:categories/",
+              description:
+                "Needs to contain '/:categories/' before the permalink slug",
+            },
           }, {
             label: "categories",
             name: "categories",
             type: "string",
             list: true,
             ui: {
+              defaultItem: "blog",
               description:
-                "Example categories: ruby-on-rails; strategy; design; ruby-on-rails-devops; mobile; digital-products; privacy; cyber-security; online-payments;",
+                "Needs 'blog' as a category. ruby-on-rails, strategy, design, devops, mobile, products, privacy, cyber-security, payments",
             },
           }, {
             label: "author",

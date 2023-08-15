@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Clicktale Review - how the technology works and why it didn't for us
-permalink: blog/tool-reviews/clicktale-review-technology/
+permalink: /:categories/clicktale-review-technology/
 type: news
 categories:
+  - blog
   - tool-reviews
 author: Ben Still
 content_sidebar: >

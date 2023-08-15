@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: Visualising your online customer funnel
-permalink: blog/strategy/visualising-your-online-customer-funnel/
+permalink: /:categories/visualising-your-online-customer-funnel/
 type: ideas
 categories:
-  - digital-products
+  - blog
+  - products
   - strategy
 author: Ben Still
 content_sidebar: |

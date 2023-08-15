@@ -2,10 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Have you noticed how fast some sites are these days?
-permalink: blog/pjax/asynchronous-javascript-frameworks-like-angular-js/
+permalink: /:categories/asynchronous-javascript-frameworks-like-angular-js/
 type: ideas
 categories:
-  - pjax
+  - blog
 author: Ben Still
 content_sidebar: >
   Have you noticed that some sites are insanely fast these days? The new

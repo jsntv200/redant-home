@@ -3,9 +3,10 @@ layout: v2-blog-detail
 is_blog: true
 title: How we Wiki
 decription: Red Ant + clients + Wiki = awesome knowledge collaboration and sharing.
-permalink: blog/agile/how-we-wiki/
+permalink: /:category/how-we-wiki/
 type: ideas
 categories:
+  - blog
 author: Ben Still
 image_small: /assets/uploads/2009/wiki-wiki-small.jpg
 image: /assets/uploads/2009/wiki-wiki-big.jpg

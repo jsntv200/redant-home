@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: New work on Beautyheaven update
-permalink: blog/our-work/new-work-beautyheaven-update/
+permalink: /:categories/new-work-beautyheaven-update/
 type: news
 categories:
+  - blog
   - ruby-on-rails
 author: Ben Still
 content_sidebar: >

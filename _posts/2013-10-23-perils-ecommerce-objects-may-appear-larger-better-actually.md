@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: The perils of ecommerce and how objects may appear larger and better
-permalink: blog/strategy/perils-ecommerce-objects-may-appear-larger-better-actually/
+permalink: /:categories/perils-ecommerce-objects-may-appear-larger-better-actually/
 type: ideas
 categories:
-  - digital-products
+  - blog
+  - products
   - strategy
 author: Ben Still
 content_sidebar: >

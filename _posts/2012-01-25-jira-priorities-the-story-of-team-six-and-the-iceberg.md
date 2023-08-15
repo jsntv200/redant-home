@@ -2,12 +2,12 @@
 layout: v2-blog-detail
 is_blog: true
 title: Setting Jira priorities - Team Six and The Iceberg
-permalink: >-
-  blog/software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/
+permalink: /:categories/jira-priorities-the-story-of-team-six-and-the-iceberg/
 type: ideas
 categories:
+  - blog
   - ruby-on-rails
-  - digital-products
+  - products
 author: Ben Still
 content_sidebar: >
   Find out how we use Jira priorities at Red Ant to manage development workflows

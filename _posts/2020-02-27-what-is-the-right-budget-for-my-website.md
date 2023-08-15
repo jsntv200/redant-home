@@ -1,10 +1,11 @@
 ---
 layout: v2-blog-detail
 is_blog: true
-permalink: blog/strategy/how-much-should-I-spend/
+permalink: /:categories/how-much-should-I-spend/
 type: ideas
 categories:
-  - digital-products
+  - blog
+  - products
   - strategy
 author: Ben Still
 tags: []

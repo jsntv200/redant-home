@@ -2,11 +2,12 @@
 layout: v2-blog-detail
 is_blog: true
 title: Why we use Ruby on Rails
-permalink: blog/ruby-on-rails/why-we-use-ruby-on-rails/
+permalink: /:categories/why-we-use-ruby-on-rails/
 type: ideas
 categories:
+  - blog
   - ruby-on-rails
-  - ruby-on-rails-devops
+  - devops
 author: Ben Still
 content_sidebar: |
   Why we use Ruby on Rails

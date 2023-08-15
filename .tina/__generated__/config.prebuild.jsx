@@ -428,7 +428,11 @@ var config_default = defineConfig({
             label: "permalink",
             name: "permalink",
             type: "string",
-            required: true
+            required: true,
+            ui: {
+              defaultItem: "/:categories/",
+              description: "Needs to contain '/:categories/' before the permalink slug"
+            }
           },
           {
             label: "categories",
@@ -436,7 +440,8 @@ var config_default = defineConfig({
             type: "string",
             list: true,
             ui: {
-              description: "Example categories: ruby-on-rails; strategy; design; ruby-on-rails-devops; mobile; digital-products; privacy; cyber-security; online-payments;"
+              defaultItem: "blog",
+              description: "Needs 'blog' as a category. ruby-on-rails, strategy, design, devops, mobile, products, privacy, cyber-security, payments"
             }
           },
           {

@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: Fast follower strategy DOA?
-permalink: blog/strategy/fast-follower-strategy-doa/
+permalink: /:categories/fast-follower-strategy-doa/
 type: ideas
 categories:
-  - digital-products
+  - blog
+  - products
   - strategy
   - mobile
 author: Ben Still

@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Red Ant web design award at UTS
-permalink: 'blog/design/red-ant-web-design-award-at-uts/'
+permalink: /:categories/red-ant-web-design-award-at-uts/
 type: news
 categories:
+  - blog
   - design
 author: Ben Still
 content_sidebar:

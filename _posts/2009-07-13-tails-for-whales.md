@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Tails for Whales
-permalink: blog/ruby-on-rails/tails-for-whales/
+permalink: /:categories/tails-for-whales/
 type: news
 categories:
+  - blog
   - ruby-on-rails
 author: Ben Still
 content_sidebar: >

@@ -1,10 +1,11 @@
 ---
 layout: v2-blog-detail
 is_blog: true
-permalink: blog/online-payments/payments-case-study/
-type: online-payments
+permalink: /:categories/payments-case-study/
+type: payments
 categories:
-  - online-payments
+  - blog
+  - payments
 author: Ben Still
 tags: []
 time: 5 Mins Read
@@ -17,7 +18,7 @@ image_small: "/assets/uploads/2023/payments-case-study-min.png"
 image: "/assets/uploads/2023/payments-case-study-min.png"
 content_sidebar: A case study on a company that explores two options for implementing online payments, and how the results of each of those can impact company business performance going forward
 redirect_from:
-  - /online-payments/payments-case-study/
+  - /payments/payments-case-study/
 updated_at: 2023-02-08
 ---
 

@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Cache busting Gmail's new image caching
-permalink: blog/blog/how-we-do/cache-busting-gmail-new-image-caching/
+permalink: /:categories/cache-busting-gmail-new-image-caching/
 type: ideas
 categories:
+  - blog
   - tool-reviews
 author: Sam Bauers
 content_sidebar: >

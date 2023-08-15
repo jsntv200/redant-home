@@ -3,9 +3,10 @@ layout: v2-blog-detail
 is_blog: true
 title: A good visual design brief
 description: A well written brief is all sorts of good. We explain why and what to consider when writing your own.
-permalink: blog/our-work/a-good-visual-design-brief/
+permalink: /:categories/a-good-visual-design-brief/
 type: ideas
 categories:
+  - blog
   - ruby-on-rails
 author: Ben Still
 image_small: /assets/uploads/2008/brief-small.jpg
