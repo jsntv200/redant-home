@@ -22,6 +22,11 @@ redirect_from:
 subtitle: Elevate Your Code with the Red Ant Expert Code Review Service
 section_1_title: Why Choose Our Code Review Service?
 section_1_list:
+  - title: Optimised Performance
+    text: >
+      Unlock hidden potential within your codebase. Our experts identify
+      bottlenecks, inefficiencies, and opportunities for optimisation, leading
+      to enhanced performance and smoother user experiences.
   - title: Quality Assurance
     text: >-
       Every line of code matters. Our rigorous code review process ensures that
@@ -35,5 +40,6 @@ section_1_list:
 cta_description: ''
 section_2_title: How Our Code Review Service Works
 ---
+
 
 
