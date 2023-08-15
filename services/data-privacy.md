@@ -61,8 +61,11 @@ section_2_list:
     text: >-
       We conduct a comprehensive assessment of your data landscape to identify
       vulnerabilities, potential risks, and compliance gaps.
-  - title: New item
-    text: ''
+  - title: Strategy Development
+    text: >-
+      Based on the assessment, we design a data privacy strategy tailored to
+      your organisation's needs, incorporating security measures and compliance
+      protocols.
   - title: New item
     text: ''
   - title: New item
@@ -70,6 +73,7 @@ section_2_list:
   - title: New item
     text: ''
 ---
+
 
 
 
