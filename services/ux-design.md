@@ -49,6 +49,10 @@ section_1_list:
       intuitive, user-friendly interfaces that delight your audience and enhance
       their interactions with your brand.
 section_2_list:
+  - title: Interaction Design
+    text: >-
+      Design meaningful and intuitive interactions that keep users engaged and
+      guide them seamlessly through your product.
   - title: Visual Design
     text: >-
       Craft stunning visuals that capture your brand essence and evoke the
@@ -62,6 +66,7 @@ section_2_list:
       Dive deep into your users' needs, behaviours, and preferences to create
       designs that resonate.
 ---
+
 
 
 
