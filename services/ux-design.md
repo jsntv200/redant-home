@@ -49,6 +49,10 @@ section_1_list:
       intuitive, user-friendly interfaces that delight your audience and enhance
       their interactions with your brand.
 section_2_list:
+  - title: Visual Design
+    text: >-
+      Craft stunning visuals that capture your brand essence and evoke the
+      desired emotional response from users.
   - title: Wireframing and Prototyping
     text: >-
       Visualise the user journey through wireframes and prototypes, ensuring a
@@ -58,6 +62,7 @@ section_2_list:
       Dive deep into your users' needs, behaviours, and preferences to create
       designs that resonate.
 ---
+
 
 
 
