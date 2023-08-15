@@ -71,11 +71,15 @@ section_2_list:
       Our experts implement robust data privacy measures, including encryption,
       access controls, and data classification, to ensure your data is shielded
       at every stage of its lifecycle.
-  - title: New item
-    text: ''
+  - title: Monitoring and Maintenance
+    text: >-
+      Continuous monitoring and regular audits are conducted to detect and
+      address any emerging threats or vulnerabilities, ensuring your data
+      privacy strategy remains effective.
   - title: New item
     text: ''
 ---
+
 
 
 
