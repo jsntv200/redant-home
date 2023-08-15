@@ -10,4 +10,6 @@ listing_description: >
 slug: code-review
 icon: fa-display-code
 published: false
+redirect_from:
+  - /free-initial-consult-code-review/
 ---
