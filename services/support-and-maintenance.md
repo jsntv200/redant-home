@@ -33,12 +33,18 @@ cta_button_label: >-
   Contact us today to commence your journey of digital excellence and peace of
   mind!
 section_1_list:
+  - title: Tailored Solutions
+    text: >-
+      We understand that no two applications are alike. Red Ant services are
+      customised to suit your unique requirements, whether you need occasional
+      assistance or ongoing support.
   - title: Continuous Reliability
     text: >-
       Our team of experienced professionals is dedicated to maintaining the
       health and reliability of your applications, minimising downtime and
       ensuring uninterrupted business operations.
 ---
+
 
 
 
