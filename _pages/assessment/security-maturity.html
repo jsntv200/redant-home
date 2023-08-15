@@ -1,0 +1,70 @@
+---
+layout: v2-assessment
+permalink: /cyber-security/cyber-security-maturity-assessment/
+title: Cyber Security maturity assessment
+description: Our comprehensive security maturity assessment will help your business gauge its level of data cyber security maturity. Our expert analysis will check if your business is protected against cyber threats.
+class: assessment
+---
+
+{% include v2/background-image.html file = "svg/lines-3.svg" %}
+
+<div class="max-w-screen-lg mx-auto px-6 lg:px-0">
+  {% include assessment/header.html area = "privacy" %}
+  <div class="rounded-xl bg-neutral-900/90 p-10 overflow-hidden relative">
+    <p class="text-red-100 mb-8 text-xs">5 minute quiz</p>
+
+    <div class="flex">
+      <div class="w-full md:w-3/5 z-10">
+        <h2 class="text-3xl md:text-5xl font-bold mb-7">
+          Cyber Security Maturity Assessment tool
+        </h2>
+
+        <p class="mb-5 text-gray-100">
+          Looking to evaluate the maturity of your organisation's security ecosystem?<br />
+          Our Cyber Security Maturity Assessment tool can help you do just that!<br />
+          With this quick and easy online tool, you'll be able to identify where your organisation stands in terms of security maturity. This understanding can then help you plan your next steps and make informed decisions.<br />
+          Our tool takes into account four key areas:
+        </p>
+
+        <ol class="list-decimal pl-5 text-gray-100 mb-8">
+          <li>Organisation - We examine how well your organisation's security policies, procedures, and culture are developed and implemented.</li>
+          <li>Systems - We evaluate the strength of your organisation's technical security measures, including access controls, encryption, and network security.</li>
+          <li>Auditing - We assess your organisation's security monitoring, logging, and reporting practices.</li>
+          <li>Incidents - We consider your organisation's response to security incidents, including incident management and recovery.</li>
+        </ol>
+
+        <p class="mb-5 text-gray-100">
+          By providing a clear picture of your organisation's cyber security maturity, our tool can help you identify areas for improvement and ensure that your security strategy is effective and up-to-date.
+        </p>
+
+        <p
+        class="hidden mb-8 text-gray-100"
+        data-assessment-target="resume">
+          You've already started this assessment but didn't finish.
+          <a
+            href="#"
+            class="text-red-50 hover:underline hover:text-red-100"
+            data-action="click->assessment#resume:prevent">
+            Click here to resume where you left off.
+          </a>
+        </p>
+
+        <button
+          class="rounded-md px-3.5 py-3 text-sm font-semibold text-white bg-red-50 hover:bg-red-100"
+          data-action="click->assessment#start">
+          Start now
+          <i class="fa fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="absolute md:relative w-2/5 right-0">
+        <div class="rounded-full w-[490px] h-[490px] bg-gradient-to-b from-[#F00000]/60 to-[#5F0000]/60 flex align-middle items-center justify-center">
+          <i class="fa-solid fa-lock-keyhole text-black text-[13rem]"></i>
+        </div>
+        <div class="rounded-full w-[230px] h-[230px] bg-gradient-to-b from-yellow-500/30 to-amber-950/30 flex align-middle items-center justify-center -mt-20 -ml-12">
+          <i class="fa-sharp fa-solid fa-shield-halved text-black text-8xl"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,20 +1,18 @@
-<div
-  class="tabs"
+<nav
+  class="flex px-6 md:px-10 border-b-[1px] border-b-neutral-800 "
   data-assessment-target="sectionSlider">
-  <div class="d-flex">
-    {% for section in page.sections %}
-      <div class="col-auto me-3">
-        <button
-          class="btn btn-link text-black fs-6 fw-bold p-0 border-0 text-decoration-none opacity-25"
-          data-action="click->assessment#select"
-          data-assessment-href-param="{{ section }}?q=1"
-          data-assessment-target="section"
-          disabled>
-          <p class="position-relative py-4 m-0">
-            {{ forloop.index + 1 }}. {{ section | capitalize | replace: "-", " " }}
-          </p>
-        </button>
-      </div>
-    {% endfor %}
-  </div>
-</div>
+  {% for section in page.sections %}
+    <div class="mr-3">
+      <button
+        class="text-white text-lg opacity-25"
+        data-action="click->assessment#select"
+        data-assessment-href-param="{{ section }}?q=1"
+        data-assessment-target="section"
+        disabled>
+        <p class="relative py-4">
+          {{ forloop.index + 1 }}. {{ section | capitalize | replace: "-", " " }}
+        </p>
+      </button>
+    </div>
+  {% endfor %}
+</nav>

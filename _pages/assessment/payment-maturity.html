@@ -1,0 +1,66 @@
+---
+layout: v2-assessment
+permalink: /payments/payment-maturity-assessment/
+title: Payment maturity assessment
+description: Payment maturity assessment
+class: assessment
+---
+
+{% include v2/background-image.html file="svg/lines-3.svg" %}
+
+<div class="max-w-screen-lg mx-auto px-6 lg:px-0">
+  {% include assessment/header.html area="payments"%}
+
+  <div class="rounded-xl bg-neutral-900/90 p-10 overflow-hidden relative">
+    <p class="text-purple-50 mb-8 text-xs">5 minute quiz</p>
+
+    <div class="flex">
+      <div class="w-full md:w-3/5 z-10">
+        <h2 class="text-3xl md:text-5xl font-bold mb-7">
+          Payments Maturity Assessment tool
+        </h2>
+
+        <p class="mb-5 text-gray-100">
+          This quick online tool will help you understand the overall maturity of the payments ecosystem within your organisation.<br>
+          Different organisations have different strengths and levels of maturity. Understanding where your organisation sits can help you plan out next steps. We look at four key areas:
+        </p>
+
+        <ol class="list-decimal pl-5 text-gray-100 mb-8">
+          <li>Your current state - what you have in place at the moment</li>
+          <li>Your Team - what level of skill and training do the people driving payments have?</li>
+          <li>Management - how are decisions made and how does payments form part of management decisions</li>
+          <li>Technology - processes and culture for how your payment process is delivered</li>
+        </ol>
+
+        <p
+          class="hidden mb-8 text-gray-100"
+          data-assessment-target="resume">
+          You've already started this assessment but didn't finish.
+          <a
+            href="#"
+            class="text-purple-50 hover:underline hover:text-purple-100"
+            data-action="click->assessment#resume:prevent">
+            Click here to resume where you left off.
+          </a>
+        </p>
+
+        <button
+          href="{{ include.url }}"
+          class="rounded-md px-3.5 py-3 text-sm font-semibold text-white bg-purple-50 hover:bg-purple-100"
+          data-action="click->assessment#start">
+          Start now
+          <i class="fa fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="absolute md:relative w-2/5 right-0">
+        <div class="rounded-full w-[490px] h-[490px] bg-gradient-to-b from-purple-50/60 to-[#301A69]/60 flex align-middle items-center justify-center">
+          <i class="fa-solid fa-credit-card text-black text-[13rem]"></i>
+        </div>
+        <div class="rounded-full w-[230px] h-[230px] bg-gradient-to-b from-[#F00000]/60 to-[#5F0000]/60 flex align-middle items-center justify-center -mt-20 -ml-12">
+          <i class="fa-solid fa-badge-dollar text-black text-8xl"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

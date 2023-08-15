@@ -2,15 +2,15 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
-    "./_book_call/*.md",
+    "./_assessment_book_call/*.md",
+    "./_assessment_results/*.md",
+    "./_assessment_sections/*.md",
+    "./_assessment_submissions/*.md",
     "./_includes/**/*.html",
     "./_layouts/*.html",
     "./_pages/**/*.{html, md}",
     "./_posts/*.md",
-    "./_results/*.md",
-    "./_sections/*.md",
     "./_src/**/*.{js,css}",
-    "./_submissions/*.md",
     "./jobs/*.md",
     "./portfolio/*.md",
     "./services/*.md",
@@ -176,11 +176,11 @@ module.exports = {
     },{
       pattern: /bg-(red|cyan|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|placeos|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|whats-on|yates)-100\/25/,
     },{
-      pattern: /border-(red|cyan)-(100|100\/10)/,
+      pattern: /border-(red|cyan|purple)-(50|100|100\/10)/,
     },{
       pattern: /from-(red|cyan|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|placeos|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|whats-on|yates)-100\/25/,
     },{
-      pattern: /text-(red|cyan|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|placeos|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|whats-on|yates)-(50|100)/,
+      pattern: /text-(red|cyan|purple|12wbt|accr|bank-of-queensland|beautyheaven|bondi-vet|campaign-xpress|gigcar|huggies|know-anyone|managed|matrix-education|mentor|momentum|move|mup|nps|pearsons-florist|pearsons-nav-admin|pearsons-school-of-floristry|placeos|raywhite|redant|selleys-diy|smata|sydney-trains|the-grants-hub|tribe|whats-on|yates)-(50|100)/,
       variants: ['hover'],
     },{
       pattern: /text-(red|cyan)-100\/10/,

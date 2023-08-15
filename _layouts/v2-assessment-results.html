@@ -1,0 +1,94 @@
+---
+layout: v2-assessment
+---
+
+{% include v2/background-image.html file = "svg/lines-3.svg" %}
+
+{% if page.type == "cyber-security" %}
+  {% assign button-class = "text-white bg-red-100 hover:bg-red-200" %}
+  {% assign link-class = "text-red-50 hover:text-red-100" %}
+{% elsif page.type == "privacy" %}
+  {% assign button-class = "text-black bg-amber-400 hover:bg-amber-500" %}
+  {% assign link-class = "text-amber-400 hover:text-amber-500" %}
+{% else %}
+  {% assign button-class = "text-white bg-purple-50 hover:bg-purple-100" %}
+  {% assign link-class = "text-purple-50 hover:text-purple-100" %}
+{% endif %}
+
+<div class="max-w-screen-lg mx-auto">
+  {% include assessment/header.html area = page.type %}
+
+  <div class="rounded-xl bg-neutral-900/90 p-10 overflow-hidden relative print:px-0 print:pt-5">
+    <div class="flex items-center w-full">
+      <h2 class="text-2xl md:text-5xl font-bold mb-7">
+        <span data-assessment-target="name"></span>{{ page.area }} Maturity Assessment
+      </h2>
+
+      <button
+        class="rounded-md px-3.5 py-3 text-sm font-semibold {{ button-class }}"
+        data-action="click->assessment#download">
+        Download
+      </button>
+    </div>
+
+    <p class="text-gray-100 mb-10 print:hidden class">
+      Based on your answers, here are our ratings for your organisation in the four key areas. If you think you might have misread a question, don't worry you can always <a href="/{{ page.type }}/{{ page.area | replace: ' ', '-' | downcase }}-maturity-assessment/{{ page.start-section }}?q=1" class="{{ link-class }} hover:underline">run through the questions again here</a>.
+    </p>
+
+    <a
+      href="/{{ page.type }}/book-call/"
+      class="rounded-md px-3.5 py-3 text-sm font-semibold {{ button-class }}">
+      Book a call to discuss your results with a {{ page.type | downcase }} specialist
+    </a>
+
+    <table
+      class="mt-10 table-auto rounded-lg bg-neutral-800 print:text-xs">
+      <thead>
+        <tr class="rounded-t-lg text-white">
+          <th
+            class="p-1"
+            scope="col">
+            <span class="flex py-1 px-2 rounded-md">
+              Area
+            </span>
+          </th>
+          <th
+            class="py-1 hidden md:block"
+            scope="col">
+            <span class="flex py-1 px-2 rounded-md">
+              Score
+            </span>
+          </th>
+          <th
+            class="p-1"
+            scope="col"
+            colspan="2">
+            <span class="flex py-1 px-2 rounded-md">
+              Notes
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for i in (1..4) %}
+          <tr data-assessment-target="results">
+            <td class="p-1 text-gray-100">
+              <div class="py-1 px-2 rounded-md bg-black block m-w-full m-h-full">
+              </div>
+            </td>
+            <td class="p-1 text-gray-100 hidden md:table-cell">
+              <div class="py-1 px-2 rounded-md bg-black block m-w-full m-h-full">
+              </div>
+            </td>
+            <td
+              class="p-1 text-gray-100"
+              colspan="2">
+              <div class="py-1 px-2 rounded-md bg-black block m-w-full m-h-full">
+              </div>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
