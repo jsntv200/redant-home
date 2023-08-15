@@ -1,12 +1,37 @@
 ---
 layout: v2-service-detail
 title: Support & Maintenance
-description: >-
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ab animi sapiente eum distinctio accusantium voluptatem tenetur officiis ratione numquam expedita corrupti, modi ullam? Assumenda amet in error quia maiores.
-listing_description: >
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ab animi sapiente eum distinctio accusantium voluptatem tenetur officiis ratione numquam expedita corrupti, modi ullam? Assumenda amet in error quia maiores.
+description: >
+  Welcome to a world of worry-free digital operations! Red Ant Application
+  Support and Maintenance Services are designed to ensure your software
+  applications run smoothly, remain secure, and adapt seamlessly to your
+  evolving business needs. Embrace the power of reliable support and maintenance
+  to keep your digital assets at their peak performance.
+listing_description: >-
+  Red Ant Application Support and Maintenance Services are designed to ensure
+  your software applications run smoothly, remain secure, and adapt seamlessly
+  to your evolving business needs. Embrace the power of reliable support and
+  maintenance to keep your digital assets at their peak performance.
 slug: support-and-maintenance
 icon: fa-wrench
 published: false
+subtitle: >-
+  Safeguard Your Digital Success with Red Ant Application Support and
+  Maintenance Services
+section_1_title: Why Choose Red Ant Application Support and Maintenance Services?
+section_2_title: Our Application Support and Maintenance Process
+cta_title: Experience Seamless Operations Today!
+cta_description: >
+  Elevate your digital presence with our Application Support and Maintenance
+  Services. Keep your applications secure, reliable, and responsive, allowing
+  you to focus on what you do best – growing your business.
+
+
+  Ready to ensure the long-term success of your digital assets? Partner with Red
+  Ant to experience worry-free operations.
+cta_button_label: >-
+  Contact us today to commence your journey of digital excellence and peace of
+  mind!
 ---
+
 
