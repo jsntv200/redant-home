@@ -8,8 +8,8 @@ description: >-
   satisfaction. Embrace the power of seamless payment solutions and take your
   business to new heights of success.
 listing_description: >-
-  Tailored to simplify and optimise your payment processes, enabling secure
-  transactions and increasing customer satisfaction.
+  Simplify and optimise your payment processes, enable secure transactions and
+  increase customer satisfaction.
 slug: payments
 icon: fa-credit-card-front
 published: true
@@ -79,6 +79,7 @@ section_2_list:
       We work closely with you to understand your business objectives and
       payment needs, ensuring the right integration approach is adopted.
 ---
+
 
 
 
