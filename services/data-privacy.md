@@ -36,8 +36,11 @@ section_1_list:
       Our dedicated team of data privacy experts is committed to ensuring the
       security and confidentiality of your data. We employ best practices and
       cutting-edge technologies to keep your information safe from threats.
-  - title: New item
-    text: ''
+  - title: Compliance Assurance
+    text: >-
+      Navigating the landscape of data privacy regulations can be complex. Our
+      services ensure your organisation remains compliant with evolving data
+      protection laws, avoiding penalties and legal complications.
   - title: New item
     text: ''
   - title: New item
@@ -56,5 +59,6 @@ section_2_list:
   - title: New item
     text: ''
 ---
+
 
 
