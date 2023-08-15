@@ -31,6 +31,10 @@ cta_button_label: >-
   Contact us today to start your journey of payment excellence and customer
   satisfaction!
 section_1_list:
+  - title: Streamlined Checkout Process
+    text: >-
+      Say goodbye to cart abandonment. Our payment integrations optimise the
+      checkout process, reducing friction and increasing conversion rates.
   - title: Security and Compliance
     text: >-
       Security is our top priority. Our Payment Integration Services comply with
@@ -53,6 +57,7 @@ section_1_list:
       work closely with you to develop customised payment solutions that
       perfectly align with your specific requirements.
 ---
+
 
 
 
