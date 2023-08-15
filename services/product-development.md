@@ -22,8 +22,11 @@ section_1_list:
       Get ready to roll up your sleeves and dive right into the action. Our
       workshop is designed to be interactive, allowing you to apply the concepts
       you learn in real-world scenarios.
-  - title: New item
-    text: ''
+  - title: Innovation and Creativity
+    text: >-
+      Unleash your creativity! Discover how to nurture and refine your ideas,
+      transforming them into innovative digital products that stand out in
+      today's competitive landscape.
   - title: New item
     text: ''
   - title: New item
@@ -49,5 +52,6 @@ cta_description: >
   team with the knowledge, tools, and confidence to build outstanding digital
   products that captivate your users.
 ---
+
 
 
