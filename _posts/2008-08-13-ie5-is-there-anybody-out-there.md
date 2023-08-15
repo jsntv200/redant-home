@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: ie5 - is there anybody out there?
-permalink: blog/our-work/ie5-is-there-anybody-out-there/
+permalink: /:categories/ie5-is-there-anybody-out-there/
 type: ideas
 categories:
+  - blog
   - ruby-on-rails
 author: Ben Still
 image_small: /assets/uploads/2008/space-small.png

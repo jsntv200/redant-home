@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Why we don't enter awards… And why I irritate Wayne.
-permalink: blog/red-ant-stuff/why-we-dont-enter-awards-and-why-i-irritate-wayne/
+permalink: /:categories/why-we-dont-enter-awards-and-why-i-irritate-wayne/
 type: news
 categories:
+  - blog
   - strategy
 author: Ben Still
 content_sidebar: |

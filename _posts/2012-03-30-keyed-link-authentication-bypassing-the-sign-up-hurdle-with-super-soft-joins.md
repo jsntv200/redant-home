@@ -2,12 +2,12 @@
 layout: v2-blog-detail
 is_blog: true
 title: Bypassing the sign up hurdle with super-soft joins
-permalink: >-
-  blog/blog/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
+permalink: /:categories/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
 type: ideas
 categories:
+  - blog
   - privacy
-  - digital-products
+  - products
 author: Sam Bauers
 content_sidebar: >
   When your users are unlikely to want to provide their email address to sign-up

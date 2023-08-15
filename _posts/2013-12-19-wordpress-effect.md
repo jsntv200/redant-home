@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: The WordPress Effect
-permalink: blog/strategy/wordpress-effect/
+permalink: /:categories/wordpress-effect/
 type: ideas
 categories:
+  - blog
   - strategy
   - ruby-on-rails
 author: Ben Still

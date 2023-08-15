@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Going Mobile
-permalink: blog/mobile/going-mobile-some-options-to-address-increasing-mobile-traffic-to-your-site/
+permalink: /:categories/going-mobile-some-options-to-address-increasing-mobile-traffic-to-your-site/
 type: ideas
 categories:
+  - blog
   - mobile
 author: Ben Still
 content_sidebar: >

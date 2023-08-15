@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: What we've been working on- Helping PlanDo redefine career
-permalink: blog/our-work/redefining-digital-dash dash-with-plan-do/
+permalink: /:categories/redefining-digital-dash dash-with-plan-do/
 type: news
 categories:
-  - digital-products
+  - blog
+  - products
 author: Sam Bauers
 keywords: ''
 image_small: /assets/uploads/2014/plando.jpg

@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Refactoring a design
-permalink: blog/ruby-on-rails/refactoring-a-design/
+permalink: /:categories/refactoring-a-design/
 type: ideas
 categories:
+  - blog
   - design
 author: Ben Still
 content_sidebar: >

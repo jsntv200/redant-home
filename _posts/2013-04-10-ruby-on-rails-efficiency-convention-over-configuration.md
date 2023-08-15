@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Getting more efficient with our Ruby on Rails projects
-permalink: blog/ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/
+permalink: /:categories/ruby-on-rails-efficiency-convention-over-configuration/
 type: ideas
 categories:
+  - blog
   - ruby-on-rails
 author: Ben Still
 content_sidebar: >

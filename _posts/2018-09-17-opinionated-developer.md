@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: The problem with great startup ideas is that everyone has one
-permalink: blog/red-ant-stuff/opinionated-developer/
+permalink: /:categories/opinionated-developer/
 type: news
 categories:
+  - blog
   - strategy
 author: Ben Still
 content_sidebar: >

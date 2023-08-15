@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Cyber Security from a Development perspective
-permalink: blog/cyber-security/cyber-security-from-a-development-perspective/
+permalink: /:categories/cyber-security-from-a-development-perspective/
 type: news
 categories:
+  - blog
   - cyber-security
 author: Ben Still
 content_sidebar: >

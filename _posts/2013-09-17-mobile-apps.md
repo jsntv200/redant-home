@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: 'If my customers mainly use mobile devices, should I be building a phone app?'
-permalink: blog/mobile/mobile-apps-vs-mobile-site/
+permalink: /:categories/mobile-apps-vs-mobile-site/
 type: ideas
 categories:
-  - digital-products
+  - blog
+  - products
   - mobile
   - strategy
 author: Ben Still

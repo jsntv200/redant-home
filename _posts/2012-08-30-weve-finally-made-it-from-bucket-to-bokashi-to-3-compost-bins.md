@@ -2,11 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: We've finally made it - from bucket to bokashi to 3 compost bins
-permalink: >-
-  blog/red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/
+permalink: /:categories/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/
 type: news
 categories:
-  - red-ant-stuff
+  - blog
 author: Ben Still
 content_sidebar: >
   A whirlwind tale of Red Ant's journey through the wonderful world of

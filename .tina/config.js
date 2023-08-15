@@ -54,10 +54,6 @@ export default defineConfig({
             required: true,
             component: "textarea",
           }, {
-            type: "string",
-            name: "keywords",
-            label: "keywords",
-          }, {
             type: "image",
             name: "image_small",
             label: "image_small",
@@ -394,7 +390,8 @@ export default defineConfig({
             options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail", "v2-service-detail"],
             ui: {
               defaultItem: "v2-blog-detail",
-              description: "Determines which layout this content will use.",
+              description:
+                "Do not change this value. Needs to be 'v2-blog-detail'",
             },
           }, {
             label: "title",
@@ -406,35 +403,25 @@ export default defineConfig({
             name: "permalink",
             type: "string",
             required: true,
-          }, {
-            label: "type",
-            name: "type",
-            type: "string",
-            required: true,
-            options: [
-              {
-                value: "news",
-                label: "news",
-              },
-              {
-                value: "ideas",
-                label: "ideas",
-              },
-            ],
+            ui: {
+              defaultItem: "/:categories/",
+              description:
+                "Needs to contain '/:categories/' before the permalink slug",
+            },
           }, {
             label: "categories",
             name: "categories",
             type: "string",
             list: true,
             ui: {
+              defaultItem: "blog",
               description:
-                "Example categories: our-work; ruby-on-rails; red-ant-stuff; strategy; how-we-do; design; automated-testing; ruby-on-rails-devops; mobile; digital-products; tool-reviews; pjax; marketing; software-development;",
+                "Needs 'blog' as a category. ruby-on-rails, strategy, design, devops, mobile, products, privacy, cyber-security, payments",
             },
           }, {
             label: "author",
             name: "author",
             type: "string",
-            required: true,
             ui: {
               defaultItem: "Ben Still",
             },
@@ -459,14 +446,6 @@ export default defineConfig({
             type: 'rich-text',
             label: 'content_sidebar',
             name: 'content_sidebar',
-          }, {
-            label: "tags",
-            name: "tags",
-            type: "string",
-            list: true,
-            ui: {
-              description: "Tags in use: Innovation; Startup; Red-Ant-Marketing; LinkedIn",
-            },
           }, {
             label: "time",
             name: "time",
@@ -496,14 +475,6 @@ export default defineConfig({
             ui: {
               description: "If the post has been updated, set this date",
               dateFormat: "YYYY MM DD",
-            },
-          }, {
-            label: "publisher",
-            name: "publisher",
-            type: "string",
-            required: true,
-            ui: {
-              defaultItem: "Red Ant",
             },
           }, {
             label: "Body",

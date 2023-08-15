@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: 10 ways to improve your phone app development brief
-permalink: blog/mobile/id-like-an-iphone-app-ten-things-to-look-out-for/
+permalink: /:categories/id-like-an-iphone-app-ten-things-to-look-out-for/
 type: ideas
 categories:
-  - digital-products
+  - blog
+  - products
   - mobile
   - strategy
 author: Ben Still

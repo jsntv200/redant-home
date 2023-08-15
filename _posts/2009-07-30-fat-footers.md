@@ -2,10 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Fat footers - should they include a sitemap
-permalink: blog/blog/how-we-do/fat-footers/
+permalink: /:categories/fat-footers/
 type: ideas
 categories:
-  - how-we-do
+  - blog
   - design
 author: Ben Still
 content_sidebar: >

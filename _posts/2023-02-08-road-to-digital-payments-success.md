@@ -1,10 +1,11 @@
 ---
 layout: v2-blog-detail
 is_blog: true
-permalink: blog/online-payments/road-to-digital-payments-success/
-type: online-payments
+permalink: /:categories/road-to-digital-payments-success/
+type: payments
 categories:
-  - online-payments
+  - blog
+  - payments
 author: Ben Still
 tags: []
 time: 5 Mins Read
@@ -17,7 +18,7 @@ image_small: "/assets/uploads/2023/where-to-start-on-the-road-to-digital-payment
 image: "/assets/uploads/2023/where-to-start-on-the-road-to-digital-payments-success-min.png"
 content_sidebar: A checklist of steps to take to begin the process of integrating online payments into your business. Start small and soon, and make sure you validate your plan with key stakeholders.
 redirect_from:
-  - /online-payments/road-to-digital-payments-success/
+  - /payments/road-to-digital-payments-success/
 updated_at: 2023-02-08
 ---
 

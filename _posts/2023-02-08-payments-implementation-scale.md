@@ -1,10 +1,11 @@
 ---
 layout: v2-blog-detail
 is_blog: true
-permalink: blog/online-payments/payments-implementation-scale/
-type: online-payments
+permalink: /:categories/payments-implementation-scale/
+type: payments
 categories:
-  - online-payments
+  - blog
+  - payments
 author: Ben Still
 tags: []
 time: 5 Mins Read
@@ -17,7 +18,7 @@ image_small: "/assets/uploads/2023/payments-implementation-scale-min.png"
 image: "/assets/uploads/2023/payments-implementation-scale-min.png"
 content_sidebar: An explanation of the different technical approaches for implementing online payments, from a simple shop on eBay through to a more scalable and custom technical platform.
 redirect_from:
-  - /online-payments/payments-implementation-scale/
+  - /payments/payments-implementation-scale/
 updated_at: 2023-02-08
 ---
 

@@ -2,10 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Multi-variate testing
-permalink: blog/blog/how-we-do/multi-variate-AB-testing/
+permalink: /:categories/multi-variate-AB-testing/
 type: ideas
 categories:
-  - marketing
+  - blog
   - design
   - ruby-on-rails
 author: Ben Still

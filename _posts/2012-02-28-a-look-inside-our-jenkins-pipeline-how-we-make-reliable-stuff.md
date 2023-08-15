@@ -2,11 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: A look inside our Jenkins Pipeline - how we make reliable stuff
-permalink: >-
-  blog/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/
+permalink: /:categories/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/
 type: ideas
 categories:
-  - automated-testing
+  - blog
 author: Ben Still
 content_sidebar: >
   A quick outline of how we're using Jenkins and the Pipeline view to visualise
@@ -36,7 +35,7 @@ What can be tricky is understanding exactly where Jenkins is up to. Has the buil
 
 ## Jenkins Pipeline
 
-The **Jenkins Pipeline** gives us an overview of where these tests are up to. We have a development and a master Jenkins Pipeline. Development is for releases to the development branch, and these get pushed to a Dev server. Master is the master branch, and is for all of our [hotfixes](/ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/) and tested releases. This gets pushed to UAT and then finally Production. All of this might sound like a bit of a cumbersome process with many steps (you might have worked with developers who say hey- I don't need to test my stuff. I made it so I know it is Awesome!). But in this everything is completely automated so it needs very little effort- all a developer needs to do is commit a change to kick it all off. The upside is that we can have a high degree of confidence that everything works as planned.
+The **Jenkins Pipeline** gives us an overview of where these tests are up to. We have a development and a master Jenkins Pipeline. Development is for releases to the development branch, and these get pushed to a Dev server. Master is the master branch, and is for all of our [hotfixes](/devops/how-a-project-gets-tested-and-deployed-with-gitflow/) and tested releases. This gets pushed to UAT and then finally Production. All of this might sound like a bit of a cumbersome process with many steps (you might have worked with developers who say hey- I don't need to test my stuff. I made it so I know it is Awesome!). But in this everything is completely automated so it needs very little effort- all a developer needs to do is commit a change to kick it all off. The upside is that we can have a high degree of confidence that everything works as planned.
 
 ## What the Jenkins Pipeline looks like
 
@@ -76,4 +75,4 @@ Once all the steps are done, everything goes green. You might notice that this s
 
 Next steps are to keep on [improving our test times](http://arrrrcamp.be/videos/2011/corey-haines—-fast-rails-tests/), since the faster these tests can run the sooner we can publish changes. When were busy well occasionally get a backlog of changes, Jenkins becomes Jerkins and it can take a while for all of the builds to push through.
 
-Overall, using Jenkins and the Pipeline view has been extremely useful. We get good visibility over where different builds are at, and what has failed where. Jenkins itself has helped us improve our process flow - particularly when used with [Gitflow](/ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/)
+Overall, using Jenkins and the Pipeline view has been extremely useful. We get good visibility over where different builds are at, and what has failed where. Jenkins itself has helped us improve our process flow - particularly when used with [Gitflow](/devops/how-a-project-gets-tested-and-deployed-with-gitflow/)

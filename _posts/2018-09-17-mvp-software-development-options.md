@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: Feeling a bit stuck on your MVP development?
-permalink: blog/software-development/mvp-software-development-options/
+permalink: /:categories/mvp-software-development-options/
 type: news
 categories:
-  - digital-products
+  - blog
+  - products
   - strategy
 author: Ben Still
 content_sidebar: |

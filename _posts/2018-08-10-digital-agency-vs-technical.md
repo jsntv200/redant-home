@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: Digital agency vs a Technical Agency
-permalink: blog/software-development/digital-agency-vs-technical/
+permalink: /:categories/digital-agency-vs-technical/
 type: news
 categories:
-  - digital-products
+  - blog
+  - products
   - strategy
 author: Ben Still
 content_sidebar: |

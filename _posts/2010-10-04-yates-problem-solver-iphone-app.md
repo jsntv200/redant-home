@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Yates Problem Solver iPhone App
-permalink: blog/our-work/yates-problem-solver-iphone-app/
+permalink: /:categories/yates-problem-solver-iphone-app/
 type: news
 categories:
+  - blog
   - mobile
 author: Ben Still
 content_sidebar: |

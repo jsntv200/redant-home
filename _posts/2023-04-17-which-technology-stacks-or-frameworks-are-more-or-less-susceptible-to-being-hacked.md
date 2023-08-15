@@ -4,7 +4,7 @@ is_blog: true
 title: >-
   Which technology stacks or frameworks are more or less susceptible to being
   hacked?
-permalink: blog/cyber-security/which-tech-stacks-are-more-likely-to-be-hacked/
+permalink: /:categories/which-tech-stacks-are-more-likely-to-be-hacked/
 type: news
 author: Ben Still
 content_sidebar: >-
@@ -16,6 +16,7 @@ updated_at: 2023-04-16T14:00:00.000Z
 image_small: /assets/uploads/iStock-1461383901.jpg
 image: /assets/uploads/iStock-1461383901.jpg
 categories:
+  - blog
   - cyber-security
 publisher: Red Ant
 description: >-

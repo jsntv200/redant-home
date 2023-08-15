@@ -2,12 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: The story behind our Wallboard
-permalink: >-
-  blog/red-ant-stuff/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
+permalink: /:categories/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
 type: news
 categories:
-  - agile
-  - red-ant-stuff
+  - blog
 author: Jesse Noble
 content_sidebar: |
   The story behind our Wallboard. Who's working on what, and can I deploy yet?

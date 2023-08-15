@@ -2,10 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: User generated content
-permalink: "blog/our-work/user-generated-content/"
+permalink: /:categories/user-generated-content/
 type: ideas
 categories:
-- our-work
+  - blog
 author: Ben Still
 content_sidebar: User generated content
 keywords: User generated content

@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: Defining a Digital Product
-permalink: blog/digital-products/defining-a-digital-product
+permalink: /:categories/defining-a-digital-product
 type: ideas
 categories:
-  - digital-products
+  - blog
+  - products
 author: Ben Still
 content_sidebar: |
   Defining a Digital Product
@@ -20,8 +21,8 @@ tags: []
 time: ''
 redirect_from:
   - /digital-product/
-  - /digital-products/
-  - /digital-products/defining-a-digital-product
+  - /products/
+  - /products/defining-a-digital-product
 date_published: 2014-03-25T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2014-03-25T00:00:00.000Z

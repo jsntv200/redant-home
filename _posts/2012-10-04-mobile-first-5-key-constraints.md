@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: Mobile first - 5 key constraints on mobile devices
-permalink: blog/mobile/mobile-first-5-key-constraints/
+permalink: /:categories/mobile-first-5-key-constraints/
 type: ideas
 categories:
-  - digital-products
+  - blog
+  - products
   - strategy
   - mobile
 author: Ben Still

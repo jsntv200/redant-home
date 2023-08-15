@@ -34,7 +34,7 @@ Here's what we can offer:
 * We have some interesting projects, building big web apps that support a large number of users. These can throw up challenging problems, like load, handling lots of payments, concurrency, tweaking performance and taming cache unicorns.
 * flying toasters
 
-The things we make are typically large web applications, which we call [digital products](/blog/digital-products/ "digital products"). The way we typically approach these is an Angular front end driven by a Ruby backend (JRuby, Rails, Sinatra etc)
+The things we make are typically large web applications, which we call [digital products](/blog/products/ "digital products"). The way we typically approach these is an Angular front end driven by a Ruby backend (JRuby, Rails, Sinatra etc)
 
 Have a look at our [portfolio](/portfolio/ "portfolio") to get a better idea of the some of the projects we've worked on.
 

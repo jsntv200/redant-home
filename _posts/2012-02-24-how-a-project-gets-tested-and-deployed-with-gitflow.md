@@ -2,10 +2,11 @@
 layout: v2-blog-detail
 is_blog: true
 title: How a project gets tested and deployed with GitFlow
-permalink: blog/ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/
+permalink: /:categories/how-a-project-gets-tested-and-deployed-with-gitflow/
 type: ideas
 categories:
-  - ruby-on-rails-devops
+  - blog
+  - devops
 author: Ben Still
 keywords: ''
 content_sidebar: >
@@ -18,7 +19,7 @@ description: GitFlow is the way of the future. Find out why and how here.
 tags: []
 time: ''
 redirect_from:
-  - /ruby-on-rails-devops/how-a-project-gets-tested-and-deployed-with-gitflow/
+  - /devops/how-a-project-gets-tested-and-deployed-with-gitflow/
 date_published: 2012-02-24T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-02-24T00:00:00.000Z

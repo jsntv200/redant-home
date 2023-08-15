@@ -8,13 +8,14 @@ content_sidebar: |
 slug: online-payment-systems
 projects: []
 type: news
-permalink: blog/software-development/hiring-a-web-development-team/
+permalink: /:categories/hiring-a-web-development-team/
 description: >-
   Working out the best way to resource the development of your project can be
   hard. It's super competitive, and can be hard to compare apples with apples.
 time: ''
 author: Ben Still
 categories:
+  - blog
   - ruby-on-rails
   - strategy
 tags: []

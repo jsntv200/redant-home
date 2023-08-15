@@ -2,10 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: The blog that isn't a blog - and here's why
-permalink: blog/our-work/the-blog-that-isnt-a-blog-and-heres-why/
+permalink: /:categories/the-blog-that-isnt-a-blog-and-heres-why/
 type: news
 categories:
-  - our-work
+  - blog
 author: Ben Still
 content_sidebar: >
   We've recently launched a new blog feature on the Huggies site. But it's a

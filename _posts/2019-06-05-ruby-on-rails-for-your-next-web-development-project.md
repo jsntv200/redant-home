@@ -1,9 +1,10 @@
 ---
 layout: v2-blog-detail
 is_blog: true
-permalink: blog/software-development/ruby-on-rails-for-your-web-development
+permalink: /:categories/ruby-on-rails-for-your-web-development
 type: news
 categories:
+  - blog
   - ruby-on-rails
 author: Ben Still
 tags: []

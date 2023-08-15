@@ -2,9 +2,10 @@
 layout: v2-blog-detail
 is_blog: true
 title: Our recent interactive tools
-permalink: blog/ruby-on-rails/our-recent-interactive-tools/
+permalink: /:categories/our-recent-interactive-tools/
 type: news
 categories:
+  - blog
   - ruby-on-rails
 author: Ben Still
 content_sidebar: >
