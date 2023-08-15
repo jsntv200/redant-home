@@ -28,12 +28,18 @@ cta_button_label: >-
   Contact us today and witness the transformative power of exceptional UX
   design. Your users deserve nothing less!
 section_1_list:
+  - title: Innovative Designs
+    text: >-
+      Stand out from the crowd with designs that push boundaries. Our creative
+      team brings fresh perspectives and innovative ideas to breathe life into
+      your digital products.
   - title: User-Centric Philosophy
     text: >-
       Our design approach is rooted in understanding your users. We create
       intuitive, user-friendly interfaces that delight your audience and enhance
       their interactions with your brand.
 ---
+
 
 
 
