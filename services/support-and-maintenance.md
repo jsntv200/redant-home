@@ -33,6 +33,11 @@ cta_button_label: >-
   Contact us today to commence your journey of digital excellence and peace of
   mind!
 section_1_list:
+  - title: Scalable Support
+    text: >-
+      As your business grows, your applications need to scale accordingly. Our
+      support and maintenance services are designed to accommodate your growth,
+      ensuring your applications keep up with demand.
   - title: Proactive Monitoring
     text: >-
       Stay ahead of potential issues with our proactive monitoring and alert
@@ -49,6 +54,7 @@ section_1_list:
       health and reliability of your applications, minimising downtime and
       ensuring uninterrupted business operations.
 ---
+
 
 
 
