@@ -59,6 +59,10 @@ section_1_list:
       security assessments and updates to keep your applications resilient
       against threats and compliant with industry standards.
 section_2_list:
+  - title: Timely Updates
+    text: >-
+      We manage regular updates, patches, and enhancements to keep your
+      applications up-to-date and compatible with the latest technologies.
   - title: Proactive Monitoring
     text: >-
       Our team implements advanced monitoring tools to track application
@@ -68,6 +72,7 @@ section_2_list:
       We conduct a thorough analysis of your applications to understand their
       architecture, dependencies, and potential areas of improvement.
 ---
+
 
 
 
