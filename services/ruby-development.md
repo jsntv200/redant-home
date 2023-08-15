@@ -38,8 +38,11 @@ section_1_list:
       With Ruby's efficiency and scalability, we build applications that perform
       seamlessly, even under heavy traffic loads. Be confident that your web app
       will handle growth with ease.
-  - title: New item
-    text: ''
+  - title: Clean and Maintainable Code
+    text: >-
+      Our developers follow industry best practices and adhere to clean code
+      principles, ensuring that your codebase is maintainable and scalable for
+      future enhancements.
 section_2_title: Our Ruby Development Process
 section_2_list:
   - title: New item
@@ -63,6 +66,7 @@ cta_description: >
   web development like never before.
 cta_button_label: Contact us now and let's create web solutions that captivate and excel!
 ---
+
 
 
 
