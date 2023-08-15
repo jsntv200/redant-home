@@ -59,11 +59,16 @@ section_1_list:
       security assessments and updates to keep your applications resilient
       against threats and compliant with industry standards.
 section_2_list:
+  - title: Proactive Monitoring
+    text: >-
+      Our team implements advanced monitoring tools to track application
+      performance, detect anomalies, and ensure optimal user experiences.
   - title: Analysis and Assessment
     text: >-
       We conduct a thorough analysis of your applications to understand their
       architecture, dependencies, and potential areas of improvement.
 ---
+
 
 
 
