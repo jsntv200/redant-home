@@ -32,8 +32,11 @@ section_1_list:
       Embrace the power of teamwork! Engage in cross-disciplinary collaborations
       that simulate real project environments, fostering a dynamic and enriching
       learning experience.
-  - title: New item
-    text: ''
+  - title: From Concept to Launch
+    text: >-
+      Learn the entire product development lifecycle – from conceptualisation to
+      prototyping and finally to the launch phase. Master each step with our
+      comprehensive and step-by-step approach.
   - title: New item
     text: ''
 section_2_title: Our Product Development Process
@@ -55,6 +58,7 @@ cta_description: >
   team with the knowledge, tools, and confidence to build outstanding digital
   products that captivate your users.
 ---
+
 
 
 
