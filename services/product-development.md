@@ -2,10 +2,48 @@
 layout: v2-service-detail
 title: Product Development
 description: >-
-  Help you plan, develop and deliver your digital product. Start with a 1:1 Workshop, and finish with your very own Product Roadmap and Agile Sprint Plan
-listing_description: >
-  Help you plan, develop and deliver your digital product. Start with a 1:1 Workshop, and finish with your very own Product Roadmap and Agile Sprint Plan
+  Welcome to Red Ant Digital Product Development – your gateway to transforming
+  innovative ideas into cutting-edge digital solutions! Are you ready to embark
+  on a journey of creativity and collaboration?
+listing_description: Unleash Your Potential with a Red Ant Digital Product Development!
 slug: product-development
 icon: fa-hammer
 published: false
+subtitle: Product Development
+section_1_title: Why Choose Red Ant for Product Development?
+section_1_list:
+  - title: Expert-Led Guidance
+    text: >-
+      Led by seasoned experts in the field of digital product development. Gain
+      invaluable insights from professionals who have successfully brought
+      numerous digital products to life.
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+section_2_title: Our Product Development Process
+section_2_list:
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+  - title: New item
+    text: ''
+cta_title: Join Us and Empower Your Digital Product Development Journey!
+cta_description: >
+  Don't miss this opportunity to take your digital product development skills to
+  the next level. Book our transformative workshop and equip yourself and your
+  team with the knowledge, tools, and confidence to build outstanding digital
+  products that captivate your users.
 ---
+
