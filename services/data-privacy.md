@@ -76,9 +76,12 @@ section_2_list:
       Continuous monitoring and regular audits are conducted to detect and
       address any emerging threats or vulnerabilities, ensuring your data
       privacy strategy remains effective.
-  - title: New item
-    text: ''
+  - title: Staff Training
+    text: >-
+      We educate your team on data privacy best practices, ensuring a culture of
+      data protection is ingrained in your organisation.
 ---
+
 
 
 
