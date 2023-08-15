@@ -18,6 +18,11 @@ icon: fa-gear-complex-code
 published: false
 section_1_title: Why Choose Red Ant DevOps Services?
 section_1_list:
+  - title: Continuous Integration and Delivery
+    text: >-
+      Stay ahead of the competition with continuous integration and delivery.
+      Our DevOps approach ensures that your software is continuously tested,
+      integrated, and ready for deployment.
   - title: Automated Processes
     text: >-
       Embrace automation to eliminate manual, repetitive tasks. Our experts
@@ -44,6 +49,7 @@ section_2_list:
     text: ''
 cta_description: ''
 ---
+
 
 
 
