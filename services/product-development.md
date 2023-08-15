@@ -44,8 +44,10 @@ section_1_list:
       development endeavours.
 section_2_title: Our Product Development Process
 section_2_list:
-  - title: New item
-    text: ''
+  - title: Idea Exploration
+    text: >-
+      Discover techniques for generating and refining innovative product ideas
+      that solve real-world problems and meet market needs.
   - title: New item
     text: ''
   - title: New item
@@ -61,6 +63,7 @@ cta_description: >
   team with the knowledge, tools, and confidence to build outstanding digital
   products that captivate your users.
 ---
+
 
 
 
