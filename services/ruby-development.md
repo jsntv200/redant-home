@@ -60,8 +60,11 @@ section_2_list:
       Our team of Ruby experts dives into coding, using the best tools and
       libraries to bring your project to life. We ensure every line of code
       aligns with the highest standards of quality.
-  - title: New item
-    text: ''
+  - title: Quality Assurance
+    text: >-
+      Rigorous testing is conducted to ensure that your web application
+      functions flawlessly across various devices and browsers, providing users
+      with a seamless experience.
   - title: New item
     text: ''
 cta_title: Experience the Power of Ruby Today!
@@ -75,6 +78,7 @@ cta_description: >
   web development like never before.
 cta_button_label: Contact us now and let's create web solutions that captivate and excel!
 ---
+
 
 
 
