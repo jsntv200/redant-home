@@ -46,8 +46,11 @@ section_1_list:
       We understand that data privacy needs are unique to each organisation. Our
       tailored solutions address your specific requirements, ensuring a robust
       data privacy framework aligned with your business objectives.
-  - title: New item
-    text: ''
+  - title: Enhanced Customer Trust
+    text: >-
+      Data breaches can erode customer trust. By prioritising data privacy, you
+      send a strong message to your customers that their sensitive information
+      is safe in your hands.
   - title: New item
     text: ''
 section_2_list:
@@ -62,6 +65,7 @@ section_2_list:
   - title: New item
     text: ''
 ---
+
 
 
 
