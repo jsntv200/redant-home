@@ -28,6 +28,11 @@ cta_button_label: >-
   Contact us today and witness the transformative power of exceptional UX
   design. Your users deserve nothing less!
 section_1_list:
+  - title: Seamless Functionality
+    text: >-
+      Beyond aesthetics, our designs prioritise functionality. We ensure that
+      every click, swipe, and interaction serves a purpose, resulting in
+      streamlined and efficient user experiences.
   - title: Innovative Designs
     text: >-
       Stand out from the crowd with designs that push boundaries. Our creative
@@ -39,6 +44,7 @@ section_1_list:
       intuitive, user-friendly interfaces that delight your audience and enhance
       their interactions with your brand.
 ---
+
 
 
 
