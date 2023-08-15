@@ -48,7 +48,13 @@ section_1_list:
       Our design approach is rooted in understanding your users. We create
       intuitive, user-friendly interfaces that delight your audience and enhance
       their interactions with your brand.
+section_2_list:
+  - title: User Research
+    text: >-
+      Dive deep into your users' needs, behaviours, and preferences to create
+      designs that resonate.
 ---
+
 
 
 
