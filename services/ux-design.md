@@ -2,11 +2,31 @@
 layout: v2-service-detail
 title: UX Design
 description: >-
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ab animi sapiente eum distinctio accusantium voluptatem tenetur officiis ratione numquam expedita corrupti, modi ullam? Assumenda amet in error quia maiores.
-listing_description: >
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ab animi sapiente eum distinctio accusantium voluptatem tenetur officiis ratione numquam expedita corrupti, modi ullam? Assumenda amet in error quia maiores.
+  Welcome to a world where user experiences are transformed into unforgettable
+  journeys. Are you ready to captivate your audience, boost customer
+  satisfaction, and drive conversions? Look no further than Red Ant’s expert UX
+  Design service.
+listing_description: >-
+  Are you ready to captivate your audience, boost customer satisfaction, and
+  drive conversions? Look no further than Red Ant’s expert UX Design service.
 slug: ux-design
 icon: fa-object-group
 published: false
+subtitle: Elevate Your Brand with Red Ant UX Design Services
+section_1_title: Why Choose Red Ant for UX Design?
+section_2_title: What Red Ant UX Design Service Offers
+cta_title: Elevate Your Brand with Exceptional UX Design from Red Ant!
+cta_description: >
+  Don't let a subpar user experience hold your brand back. Partner with Red Ant
+  to create digital products that leave a lasting impression. Elevate your
+  brand's digital presence, drive customer loyalty, and achieve remarkable
+  success.
+
+
+  Ready to embark on a journey of design excellence?
+cta_button_label: >-
+  Contact us today and witness the transformative power of exceptional UX
+  design. Your users deserve nothing less!
 ---
+
 
