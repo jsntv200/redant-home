@@ -45,6 +45,11 @@ section_1_list:
       integrated, and ready for deployment.
 section_2_title: Our DevOps Process
 section_2_list:
+  - title: Toolchain Selection
+    text: >-
+      Our team helps you choose the right set of DevOps tools that fit your
+      organisation's specific requirements, ensuring seamless integration and
+      maximum productivity.
   - title: Assessment and Planning
     text: >
       We analyse your existing development and operations processes to identify
@@ -52,6 +57,7 @@ section_2_list:
       aligned with your business objectives.
 cta_description: ''
 ---
+
 
 
 
