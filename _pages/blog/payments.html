@@ -1,12 +1,13 @@
 ---
 layout: v2-blog-list
 is_blog: true
-permalink: /blog/online-payments/
-type: online-payments
+permalink: /blog/payments/
+type: payments
 title: Online Payments Assessment
 description: How mature is your online payment process? We've created a quick online tool to help you understand where your organisation sits relative to others.
 redirect_from:
   - /online-payments/
+  - /blog/online-payments/
 ---
 
 {% capture markup %}
@@ -25,7 +26,7 @@ redirect_from:
   sub-description = markup
   title = "Online Payments Assessment" %}
 
-<div class="max-w-screen-2xl mx-auto px-6 lg:px-8 pb-10">
+<div class="max-w-screen-2xl mx-auto px-6 lg:px-8 pb-10 hidden">
   {% capture markup %}
     <p class='mb-4'>
       This quick online tool will help you understand the overall maturity of the payments ecosystem within your organisation.
