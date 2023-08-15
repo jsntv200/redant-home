@@ -57,6 +57,11 @@ section_1_list:
       work closely with you to develop customised payment solutions that
       perfectly align with your specific requirements.
 section_2_list:
+  - title: Seamless Integration
+    text: >-
+      Our experienced developers seamlessly integrate the selected payment
+      gateways into your website or application, ensuring a smooth and secure
+      payment flow.
   - title: Gateway Selection
     text: >-
       Based on your requirements and target audience, we help you choose the
@@ -66,6 +71,7 @@ section_2_list:
       We work closely with you to understand your business objectives and
       payment needs, ensuring the right integration approach is adopted.
 ---
+
 
 
 
