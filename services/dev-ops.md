@@ -1,12 +1,33 @@
 ---
 layout: v2-service-detail
-title: Dev-Ops
+title: DevOps
 description: >-
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ab animi sapiente eum distinctio accusantium voluptatem tenetur officiis ratione numquam expedita corrupti, modi ullam? Assumenda amet in error quia maiores.
-listing_description: >
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ab animi sapiente eum distinctio accusantium voluptatem tenetur officiis ratione numquam expedita corrupti, modi ullam? Assumenda amet in error quia maiores.
+  Welcome to a world of efficient and seamless software development! Our DevOps
+  Services are designed to optimise your development process, accelerate
+  deployments, and enhance collaboration between your development and operations
+  teams. Embrace the power of DevOps and take your organisation to new heights
+  of productivity and innovation.
+listing_description: >-
+  Welcome to a world of efficient and seamless software development! Our DevOps
+  Services are designed to optimise your development process, accelerate
+  deployments, and enhance collaboration between your development and operations
+  teams. Embrace the power of DevOps and take your organisation to new heights
+  of productivity and innovation.
 slug: dev-ops
 icon: fa-gear-complex-code
 published: false
+section_1_title: Why Choose Red Ant DevOps Services?
+section_1_list:
+  - title: End-to-End DevOps Solutions
+    text: >
+      From strategy development to implementation and ongoing support, we offer
+      comprehensive DevOps solutions tailored to your organisation's unique
+      needs and goals.
+section_2_title: Our DevOps Process
+section_2_list:
+  - title: New item
+    text: ''
+cta_description: ''
 ---
+
 
