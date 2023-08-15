@@ -33,32 +33,38 @@ cta_button_label: >-
   Contact us today to commence your journey of digital excellence and peace of
   mind!
 section_1_list:
-  - title: Security Enhancement
-    text: >-
-      We prioritise the security of your applications. Our team performs regular
-      security assessments and updates to keep your applications resilient
-      against threats and compliant with industry standards.
-  - title: Scalable Support
-    text: >-
-      As your business grows, your applications need to scale accordingly. Our
-      support and maintenance services are designed to accommodate your growth,
-      ensuring your applications keep up with demand.
-  - title: Proactive Monitoring
-    text: >-
-      Stay ahead of potential issues with our proactive monitoring and alert
-      systems. We identify and address potential problems before they impact
-      your operations.
-  - title: Tailored Solutions
-    text: >-
-      We understand that no two applications are alike. Red Ant services are
-      customised to suit your unique requirements, whether you need occasional
-      assistance or ongoing support.
   - title: Continuous Reliability
     text: >-
       Our team of experienced professionals is dedicated to maintaining the
       health and reliability of your applications, minimising downtime and
       ensuring uninterrupted business operations.
+  - title: Tailored Solutions
+    text: >-
+      We understand that no two applications are alike. Red Ant services are
+      customised to suit your unique requirements, whether you need occasional
+      assistance or ongoing support.
+  - title: Proactive Monitoring
+    text: >-
+      Stay ahead of potential issues with our proactive monitoring and alert
+      systems. We identify and address potential problems before they impact
+      your operations.
+  - title: Scalable Support
+    text: >-
+      As your business grows, your applications need to scale accordingly. Our
+      support and maintenance services are designed to accommodate your growth,
+      ensuring your applications keep up with demand.
+  - title: Security Enhancement
+    text: >-
+      We prioritise the security of your applications. Our team performs regular
+      security assessments and updates to keep your applications resilient
+      against threats and compliant with industry standards.
+section_2_list:
+  - title: Analysis and Assessment
+    text: >-
+      We conduct a thorough analysis of your applications to understand their
+      architecture, dependencies, and potential areas of improvement.
 ---
+
 
 
 
