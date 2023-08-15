@@ -8,9 +8,9 @@ description: >-
   platform, our expert team is here to craft a seamless and scalable ecommerce
   solution tailored to your business needs.
 listing_description: >-
-  Whether you're starting from scratch or seeking to enhance your existing
-  platform, our expert team is here to craft a seamless and scalable ecommerce
-  solution tailored to your business needs.
+  Starting from scratch or enhancing your existing platform, our expert team is
+  here to create a seamless and scalable ecommerce solution for your business
+  needs.
 subtitle: Unleash Your Online Store's Potential with Red Ant Ecommerce Solutions
 slug: ecommerce
 icon: fa-cart-shopping
@@ -83,6 +83,7 @@ cta_button_label: >-
   growth!
 published: true
 ---
+
 
 
 
