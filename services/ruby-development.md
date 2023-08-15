@@ -13,7 +13,7 @@ listing_description: >-
   applications with ease.
 slug: ruby-development
 icon: fa-hammer
-published: false
+published: true
 subtitle: Elevate Your Ruby Application with Red Ant
 section_1_title: Why Choose Red Ant Ruby Development Services?
 section_1_list:
@@ -81,6 +81,7 @@ cta_description: >
   web development like never before.
 cta_button_label: Contact us now and let's create web solutions that captivate and excel!
 ---
+
 
 
 
