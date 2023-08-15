@@ -41,8 +41,11 @@ section_1_list:
       Navigating the landscape of data privacy regulations can be complex. Our
       services ensure your organisation remains compliant with evolving data
       protection laws, avoiding penalties and legal complications.
-  - title: New item
-    text: ''
+  - title: Customised Solutions
+    text: >-
+      We understand that data privacy needs are unique to each organisation. Our
+      tailored solutions address your specific requirements, ensuring a robust
+      data privacy framework aligned with your business objectives.
   - title: New item
     text: ''
   - title: New item
@@ -59,6 +62,7 @@ section_2_list:
   - title: New item
     text: ''
 ---
+
 
 
 
