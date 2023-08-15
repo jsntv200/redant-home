@@ -51,8 +51,11 @@ section_1_list:
       Data breaches can erode customer trust. By prioritising data privacy, you
       send a strong message to your customers that their sensitive information
       is safe in your hands.
-  - title: New item
-    text: ''
+  - title: Holistic Approach
+    text: >-
+      Our Data Privacy Services cover every aspect of data protection, from data
+      collection and storage to processing and disposal. We leave no stone
+      unturned in safeguarding your data.
 section_2_list:
   - title: New item
     text: ''
@@ -65,6 +68,7 @@ section_2_list:
   - title: New item
     text: ''
 ---
+
 
 
 
