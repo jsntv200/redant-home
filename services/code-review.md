@@ -22,6 +22,11 @@ redirect_from:
 subtitle: Elevate Your Code with the Red Ant Expert Code Review Service
 section_1_title: Why Choose Our Code Review Service?
 section_1_list:
+  - title: Best Practices
+    text: >-
+      Stay aligned with industry standards and coding conventions. We'll help
+      you adhere to best practices, ensuring maintainable, scalable, and
+      future-proof code that stands the test of time.
   - title: Optimised Performance
     text: >
       Unlock hidden potential within your codebase. Our experts identify
@@ -40,6 +45,7 @@ section_1_list:
 cta_description: ''
 section_2_title: How Our Code Review Service Works
 ---
+
 
 
 
