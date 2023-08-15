@@ -56,7 +56,13 @@ section_1_list:
       We understand that each business has unique payment needs. Our experts
       work closely with you to develop customised payment solutions that
       perfectly align with your specific requirements.
+section_2_list:
+  - title: Requirement Analysis
+    text: >-
+      We work closely with you to understand your business objectives and
+      payment needs, ensuring the right integration approach is adopted.
 ---
+
 
 
 
