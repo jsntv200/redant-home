@@ -1,6 +1,6 @@
 ---
 layout: v2-service-detail
-title: DevOps
+title: Dev Ops
 description: >-
   Welcome to a world of efficient and seamless software development! Our DevOps
   Services are designed to optimise your development process, accelerate
@@ -82,6 +82,7 @@ cta_title: Experience the DevOps Advantage Today!
 cta_button_label: Contact us now to begin your journey of continuous innovation and success!
 subtitle: Streamline Your Development Process with Red Ant DevOps Services
 ---
+
 
 
 
