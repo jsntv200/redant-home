@@ -14,7 +14,7 @@ listing_description: >-
   and fortify your organisation against risks.
 slug: mobile
 icon: fa-eye-slash
-published: false
+published: true
 subtitle: 'Your Data, Your Privacy: Discover Red Ant Data Privacy Services'
 section_1_title: Why Choose Red Ant Data Privacy Services?
 section_2_title: Our Data Privacy Process
@@ -81,6 +81,7 @@ section_2_list:
       We educate your team on data privacy best practices, ensuring a culture of
       data protection is ingrained in your organisation.
 ---
+
 
 
 
