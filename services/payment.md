@@ -57,11 +57,16 @@ section_1_list:
       work closely with you to develop customised payment solutions that
       perfectly align with your specific requirements.
 section_2_list:
+  - title: Gateway Selection
+    text: >-
+      Based on your requirements and target audience, we help you choose the
+      most suitable payment gateways to integrate into your platform.
   - title: Requirement Analysis
     text: >-
       We work closely with you to understand your business objectives and
       payment needs, ensuring the right integration approach is adopted.
 ---
+
 
 
 
