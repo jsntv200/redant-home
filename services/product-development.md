@@ -56,8 +56,10 @@ section_2_list:
     text: >-
       Learn how to rapidly prototype your ideas and validate them with target
       users, reducing development risks and costs.
-  - title: New item
-    text: ''
+  - title: Agile Development
+    text: >-
+      Embrace Agile methodologies to efficiently manage product development,
+      enabling you to adapt to changing requirements and deliver faster.
   - title: New item
     text: ''
 cta_title: Join Us and Empower Your Digital Product Development Journey!
@@ -67,6 +69,7 @@ cta_description: >
   team with the knowledge, tools, and confidence to build outstanding digital
   products that captivate your users.
 ---
+
 
 
 
