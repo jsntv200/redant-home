@@ -1,0 +1,46 @@
+<div class="bg-cyan-100/[0.15]">
+  <div class="max-w-screen-2xl mx-auto py-12 md:py-24 px-6 lg:px-8 flex flex-col md:flex-row overflow-hidden">
+    <div class="w-full md:w-1/5 flex flex-col justify-center">
+      <div class="w-24 h-24 md:w-36 md:h-36 rounded-full border-2 md:border-4 items-center flex justify-center mb-5 mx-auto border-cyan-100">
+        <i class="fa-light fa-star text-cyan-100 w-12 h-12 md:w-24 md:h-24"></i>
+      </div>
+    </div>
+
+    <div class="w-full md:w-4/5 flex flex-col justify-center">
+      <h3 class="text-2xl lg:text-4xl font-bold px-6">
+        Testimonials
+      </h3>
+
+      <div class="px-6">
+        <div
+          class="w-full overflow-hidden"
+          data-controller="carousel"
+          data-carousel-options-value='{
+            "autoplay": true,
+            "centeredSlidesBounds": true,
+            "loop": true,
+            "slidesPerView": 1,
+            "spaceBetween": 30,
+            "speed": 1500
+          }'
+        >
+          <div
+            class="flex"
+            data-carousel-target="container">
+            {% for testimonial in site.data.testimonials %}
+              <div
+                class="min-w-full my-7"
+                data-carousel-target="item">
+                <p>"{{ testimonial.quote }}"</p>
+
+                <p class="text-sm text-gray-100 mt-8">
+                  {{ testimonial.author }}
+                </p>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

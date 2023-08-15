@@ -1,0 +1,66 @@
+---
+layout: v2-default
+---
+
+{% include v2/background-image.html
+  color = "red"
+  file = "svg/lines-4.svg" %}
+
+<div class="max-w-screen-lg mx-auto lg:px-12">
+  {% include v2/title-panel.html
+    title = page.title
+    description = page.subtitle
+    sub-description = page.description
+    cta-intercom-label = "Let's start now"
+    icon-class = page.icon %}
+</div>
+
+<div class="max-w-screen-lg mx-auto pb-12 md:pb-24 px-6 lg:px-20">
+  <hr class="bg-gray-100/40 h-[2px] mb-6 md:mb-11"></hr>
+
+  <h2 class="text-3xl lg:text-4xl font-bold mt-24 mb-16">
+    {{ page.section_1_title }}
+  </h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 mx-auto">
+    {% for item in page.section_1_list %}
+      {% include v2/card-numbered.html
+        text = item.text
+        title = item.title
+        number = forloop.index %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="bg-red-100/[0.15]">
+  <div class="max-w-screen-2xl mx-auto py-12 md:py-24 px-6 lg:px-8">
+    <h2 class="text-3xl lg:text-4xl font-bold mb-16 text-center">
+      {{ page.section_2_title }}
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mx-auto">
+      {% for item in page.section_2_list %}
+        {% include v2/card-numbered.html
+          text = item.text
+          title = item.title
+          number = forloop.index %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% include v2/cta-panel.html
+  button-label = page.cta_button_label
+  class-wrapper = "lg:pt-48 lg:pb-24"
+  description = page.cta_description
+  title = page.cta_title %}
+
+<div class="max-w-screen-lg mx-auto lg:px-12">
+  <hr class="bg-white/40 h-[2px]"></hr>
+</div>
+
+{% include v2/companies.html
+  title="We are a 100% Aussie Team"
+  content="Our clients." %}
+
+{% include v2/testimonials.html %}

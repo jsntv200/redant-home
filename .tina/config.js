@@ -32,8 +32,9 @@ export default defineConfig({
             name: "layout",
             label: "layout",
             required: true,
-            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail"],
+            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail", "v2-service-detail"],
             ui: {
+              defaultItem: "v2-jobs-detail",
               description: "Determines which layout this content will use.",
             },
           }, {
@@ -93,8 +94,9 @@ export default defineConfig({
             name: "layout",
             label: "layout",
             required: true,
-            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail"],
+            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail", "v2-service-detail"],
             ui: {
+              defaultItem: "v2-project-detail",
               description: "Determines which layout this content will use.",
             },
           }, {
@@ -231,11 +233,6 @@ export default defineConfig({
             type: "string",
             name: "title",
             label: "title",
-          }, {
-            type: "string",
-            name: "tagline",
-            label: "tagline",
-            component: "textarea",
           }, {
             type: "string",
             name: "description",
@@ -394,8 +391,10 @@ export default defineConfig({
             name: "layout",
             type: "string",
             required: true,
+            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail", "v2-service-detail"],
             ui: {
-              defaultItem: "post",
+              defaultItem: "v2-blog-detail",
+              description: "Determines which layout this content will use.",
             },
           }, {
             label: "title",
@@ -448,10 +447,6 @@ export default defineConfig({
             ui: {
               description: "Appears on index menus & meta desc",
             },
-          }, {
-            type: "string",
-            name: "keywords",
-            label: "keywords",
           }, {
             type: "image",
             name: "image_small",
@@ -543,8 +538,10 @@ export default defineConfig({
             label: "layout",
             name: "layout",
             required: true,
+            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail", "v2-service-detail"],
             ui: {
-              defaultItem: "service",
+              defaultItem: "v2-service-detail",
+              description: "Determines which layout this content will use.",
             },
           }, {
             type: "string",
@@ -553,39 +550,13 @@ export default defineConfig({
             required: true,
           }, {
             type: "string",
-            name: "subtitle_1",
-            label: "subtitle_1",
-            required: true,
-            component: "textarea",
-          }, {
-            type: "string",
-            name: "subtitle_2",
-            label: "subtitle_2",
-            component: "textarea",
-          }, {
-            type: "string",
-            name: "cta_button_title",
-            label: "cta_button_title",
+            name: "listing_description",
+            label: "listing_description",
             required: true,
           }, {
             type: "string",
-            name: "service_title",
-            label: "service_title",
-            required: true,
-          }, {
-            type: "string",
-            name: "service_bulletpoints",
-            label: "service_bulletpoints",
-            list: true,
-          }, {
-            type: "string",
-            name: "time",
-            label: "time",
-            required: true,
-          }, {
-            type: "string",
-            name: "cost",
-            label: "cost",
+            name: "subtitle",
+            label: "title",
           }, {
             type: "string",
             name: "description",
@@ -602,21 +573,89 @@ export default defineConfig({
             type: "string",
             list: true,
           }, {
+            label: "section_1_title",
+            name: "section_1_title",
             type: "string",
-            name: "bulletpoints",
-            label: "bulletpoints",
-            list: true,
           }, {
+            label: "section_1_list",
+            name: "section_1_list",
+            type: "object",
+            list: true,
+            ui: {
+              // This allows the customization of the list item UI
+              // Data can be accessed by item?.<Name of field>
+              itemProps: (item) => {
+                return { label: item?.title}
+              },
+              // Setting a default will auto-populate new items with the given values
+              defaultItem: {
+                title: "New item",
+                text: ""
+              }
+            },
+            fields: [
+              {
+                label: "title",
+                name: "title",
+                type: "string"
+              },
+              {
+                label: "text",
+                name: "text",
+                type: "string",
+                ui: {
+                  component: "textarea"
+                }
+              }
+            ]
+          }, {
+            label: "section_2_title",
+            name: "section_2_title",
             type: "string",
-            name: "projects",
-            label: "projects",
-            description: "Project slugs",
-            list: true,
           }, {
-            label: "Body",
-            name: "body",
-            isBody: true,
+            label: "section_2_list",
+            name: "section_2_list",
+            type: "object",
+            list: true,
+            ui: {
+              // This allows the customization of the list item UI
+              // Data can be accessed by item?.<Name of field>
+              itemProps: (item) => {
+                return { label: item?.title}
+              },
+              // Setting a default will auto-populate new items with the given values
+              defaultItem: {
+                title: "New item",
+                text: ""
+              }
+            },
+            fields: [
+              {
+                label: "title",
+                name: "title",
+                type: "string"
+              },
+              {
+                label: "text",
+                name: "text",
+                type: "string",
+                ui: {
+                  component: "textarea"
+                }
+              }
+            ]
+          }, {
+            label: "cta_title",
+            name: "cta_title",
+            type: "string",
+          }, {
+            label: "cta_description",
+            name: "cta_description",
             type: "rich-text",
+          }, {
+            label: "cta_button_label",
+            name: "cta_button_label",
+            type: "string",
           },
         ],
       },
@@ -636,8 +675,10 @@ export default defineConfig({
             name: "layout",
             label: "layout",
             required: true,
+            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail", "v2-service-detail"],
             ui: {
-              defaultItem: "technology",
+              defaultItem: "v2-technology-detail",
+              description: "Determines which layout this content will use.",
             },
           }, {
             type: "string",

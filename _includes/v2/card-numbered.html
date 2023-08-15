@@ -1,0 +1,23 @@
+{% comment %}
+  text
+  title
+  number
+{% endcomment %}
+
+<div class="{{ include.wrapper-class }}">
+  <div class="flex">
+    <div class="text-red-100 text-5xl w-10 mr-6 font-bold text-right">
+      {{ include.number }}
+    </div>
+
+    <div class="w-full">
+      <h5 class="mb-1.5 text-xl font-semibold {{ include.text-color }}">
+        {{ include.title }}
+      </h5>
+
+      <p class="text-gray-100">
+        {{ include.text }}
+      </p>
+    </div>
+  </div>
+</div>

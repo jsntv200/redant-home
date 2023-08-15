@@ -1,14 +1,36 @@
+{% comment %}
+  class-wrapper
+  bottom-text
+  button-label
+  description
+  title
+{% endcomment %}
+
 <div class="relative">
   {% include v2/background-image.html file="svg/lines-3.svg" %}
 
-<div class="max-w-screen-xl mx-auto relative isolate px-6 lg:px-14 py-14 lg:py-[200px] text-center">
-  <h2 class="text-6xl font-bold mb-7">
+  {% if include.class-wrapper %}
+    {% assign class = include.class-wrapper %}
+  {% else %}
+    {% assign class = "lg:py-48" %}
+  {% endif %}
+
+<div class="max-w-screen-xl mx-auto relative isolate px-6 lg:px-14 py-14 text-center {{ class }}">
+  <h2 class="text-4xl md:text-6xl font-bold mb-7">
     {{ include.title }}
   </h2>
 
-  <p class="mb-12 text-2xl">{{ include.content }}</p>
+  <p class="mb-12 text-2xl text-gray-100">
+    {{ include.description }}
+  </p>
 
-  <a class="cursor-pointer intercom-launcher rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-200">
+  <a class="cursor-pointer intercom-launcher rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-200 hover:underline block md:inline">
     {{ include.button-label}}
   </a>
+
+  {% if include.bottom-text %}
+    <p class="mt-12 text-lg text-gray-100">
+      {{ include.bottom-text }}
+    </p>
+  {% endif %}
 </div>
