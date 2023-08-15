@@ -49,6 +49,10 @@ section_1_list:
       intuitive, user-friendly interfaces that delight your audience and enhance
       their interactions with your brand.
 section_2_list:
+  - title: Usability Review and Testing
+    text: >-
+      Validate design choices through rigorous testing, ensuring your product
+      exceeds user expectations.
   - title: Interaction Design
     text: >-
       Design meaningful and intuitive interactions that keep users engaged and
@@ -66,6 +70,7 @@ section_2_list:
       Dive deep into your users' needs, behaviours, and preferences to create
       designs that resonate.
 ---
+
 
 
 
