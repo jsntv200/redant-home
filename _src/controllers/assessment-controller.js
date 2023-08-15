@@ -27,7 +27,7 @@ export class AssessmentController extends Controller {
   ];
 
   static values = {
-    basePathPayment: "/online-payments/payment-maturity-assessment/",
+    basePathPayment: "/payments/payment-maturity-assessment/",
     basePathPrivacy: "/privacy/privacy-maturity-assessment/",
     basePathCyberSecurity: "/cyber-security/cyber-security-maturity-assessment/",
     colorHashes: { type: Array, default: ["dc697a", "fdc95b", "c2d7b1", "92defb", "9069f7"] }

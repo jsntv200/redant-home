@@ -70,7 +70,7 @@
   @apply bg-neutral-700;
 }
 
-.selected-question p.online-payments:before {
+.selected-question p.payments:before {
   @apply bg-purple-50;
 }
 

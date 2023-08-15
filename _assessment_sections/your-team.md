@@ -1,10 +1,10 @@
 ---
 layout: v2-assessment-questions
-permalink: /online-payments/payment-maturity-assessment/your-team
+permalink: /payments/payment-maturity-assessment/your-team
 class: assessment
 sitemap: false
 sections: ["current", "your-team", "owner", "technology"]
-area: "online-payments"
+area: "payments"
 ---
 
 <div class="bg-black">
@@ -17,10 +17,10 @@ area: "online-payments"
       {{ site.data.assessment.payment.your-team.description }}
     </p>
 
-    {% include assessment/questions.html area = "online-payments" section = site.data.assessment.payment.your-team %}
+    {% include assessment/questions.html area = "payments" section = site.data.assessment.payment.your-team %}
   </div>
 </div>
 
 <div class="px-6 md:px-10 pb-5">
-  {% include assessment/answers.html area = "online-payments" section = site.data.assessment.payment.your-team next-section = 'owner' %}
+  {% include assessment/answers.html area = "payments" section = site.data.assessment.payment.your-team next-section = 'owner' %}
 </div>
