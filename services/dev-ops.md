@@ -45,6 +45,11 @@ section_1_list:
       integrated, and ready for deployment.
 section_2_title: Our DevOps Process
 section_2_list:
+  - title: Infrastructure as Code (IaC)
+    text: >-
+      Embrace IaC principles to manage and provision your infrastructure
+      efficiently. We help you implement IaC practices for rapid and consistent
+      deployments.
   - title: Toolchain Selection
     text: >-
       Our team helps you choose the right set of DevOps tools that fit your
@@ -57,6 +62,7 @@ section_2_list:
       aligned with your business objectives.
 cta_description: ''
 ---
+
 
 
 
