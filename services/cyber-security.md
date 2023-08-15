@@ -61,8 +61,11 @@ section_2_list:
       Real-time monitoring tools are deployed to detect and respond to emerging
       threats, ensuring your application remains resilient in the face of
       evolving cyber risks.
-  - title: New item
-    text: ''
+  - title: Developer Training
+    text: >-
+      We offer comprehensive security training for your development team,
+      equipping them with the knowledge and skills to build secure applications
+      from the ground up.
 cta_title: Secure Your App's Integrity Today with Red Ant!
 cta_description: >
   Empower your applications with Red Ant AppSec Solutions. Guard against cyber
@@ -75,6 +78,7 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
 
 
