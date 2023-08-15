@@ -27,8 +27,11 @@ section_1_list:
       Unleash your creativity! Discover how to nurture and refine your ideas,
       transforming them into innovative digital products that stand out in
       today's competitive landscape.
-  - title: New item
-    text: ''
+  - title: Cross-Disciplinary Collaboration
+    text: >-
+      Embrace the power of teamwork! Engage in cross-disciplinary collaborations
+      that simulate real project environments, fostering a dynamic and enriching
+      learning experience.
   - title: New item
     text: ''
   - title: New item
@@ -52,6 +55,7 @@ cta_description: >
   team with the knowledge, tools, and confidence to build outstanding digital
   products that captivate your users.
 ---
+
 
 
 
