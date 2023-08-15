@@ -15,7 +15,7 @@ listing_description: >-
   of productivity and innovation.
 slug: dev-ops
 icon: fa-gear-complex-code
-published: false
+published: true
 section_1_title: Why Choose Red Ant DevOps Services?
 section_1_list:
   - title: End-to-End DevOps Solutions
