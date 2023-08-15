@@ -57,6 +57,11 @@ section_1_list:
       work closely with you to develop customised payment solutions that
       perfectly align with your specific requirements.
 section_2_list:
+  - title: Ongoing Support
+    text: >-
+      Our support team is here to assist you with any queries or issues related
+      to your payment integration. We provide timely updates and maintenance to
+      keep your payment systems running smoothly.
   - title: Testing and Validation
     text: >-
       Rigorous testing is conducted to ensure the payment process works
@@ -76,6 +81,7 @@ section_2_list:
       We work closely with you to understand your business objectives and
       payment needs, ensuring the right integration approach is adopted.
 ---
+
 
 
 
