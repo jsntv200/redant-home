@@ -8,10 +8,8 @@ description: >
   evolving business needs. Embrace the power of reliable support and maintenance
   to keep your digital assets at their peak performance.
 listing_description: >-
-  Red Ant Application Support and Maintenance Services are designed to ensure
-  your software applications run smoothly, remain secure, and adapt seamlessly
-  to your evolving business needs. Embrace the power of reliable support and
-  maintenance to keep your digital assets at their peak performance.
+  Ensure your software applications run smoothly, remain secure, and adapt
+  seamlessly to your evolving business needs.
 slug: support-and-maintenance
 icon: fa-wrench
 published: true
@@ -81,6 +79,7 @@ section_2_list:
       We constantly assess and optimise your applications for peak performance,
       leveraging data-driven insights and user feedback.
 ---
+
 
 
 
