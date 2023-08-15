@@ -33,8 +33,11 @@ section_1_list:
       Our mastery extends beyond Ruby to Ruby on Rails, the powerful web
       application framework. We leverage Rails to streamline your development
       process and deliver projects faster without compromising quality.
-  - title: New item
-    text: ''
+  - title: Scalable and Performant Applications
+    text: >-
+      With Ruby's efficiency and scalability, we build applications that perform
+      seamlessly, even under heavy traffic loads. Be confident that your web app
+      will handle growth with ease.
   - title: New item
     text: ''
 section_2_title: Our Ruby Development Process
@@ -60,6 +63,7 @@ cta_description: >
   web development like never before.
 cta_button_label: Contact us now and let's create web solutions that captivate and excel!
 ---
+
 
 
 
