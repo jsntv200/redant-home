@@ -8,10 +8,8 @@ description: >
   customers. Embrace the power of comprehensive data privacy solutions and
   fortify your organisation against risks.
 listing_description: >-
-  Red Ant Data Privacy Services are meticulously designed to safeguard your
-  sensitive information, ensure compliance with regulations, and build trust
-  with your customers. Embrace the power of comprehensive data privacy solutions
-  and fortify your organisation against risks.
+  Designed to safeguard your sensitive information, ensure compliance with
+  regulations, and build trust with your customers.
 slug: mobile
 icon: fa-eye-slash
 published: true
@@ -81,6 +79,7 @@ section_2_list:
       We educate your team on data privacy best practices, ensuring a culture of
       data protection is ingrained in your organisation.
 ---
+
 
 
 
