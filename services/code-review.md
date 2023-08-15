@@ -47,7 +47,11 @@ section_1_list:
       Our team of experienced developers brings a wealth of knowledge across
       various programming languages and technologies. Benefit from insights and
       best practices that only seasoned professionals can provide.
-cta_description: ''
+cta_description: >
+  Don't let subpar code hold back your software's potential. Join the ranks of
+  successful developers and businesses who have benefited from our
+  transformative Code Review Service. Take the first step toward code excellence
+  and unlock a world of possibilities for your projects.
 section_2_title: How Our Code Review Service Works
 section_2_list:
   - title: Personalised Consultation
@@ -68,7 +72,10 @@ section_2_list:
       Simply share your repo with us, or upload your codebase securely to our
       platform. Whether it's a single feature or an entire project, we've got
       you covered.
+cta_title: Elevate Your Code Today!
+cta_button_label: Contact us now and watch your software shine brighter than ever before!
 ---
+
 
 
 
