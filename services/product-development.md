@@ -52,8 +52,10 @@ section_2_list:
     text: >-
       Master the art of user-centric design and create digital products that
       deliver seamless and delightful user experiences.
-  - title: New item
-    text: ''
+  - title: Prototyping and Validation
+    text: >-
+      Learn how to rapidly prototype your ideas and validate them with target
+      users, reducing development risks and costs.
   - title: New item
     text: ''
   - title: New item
@@ -65,6 +67,7 @@ cta_description: >
   team with the knowledge, tools, and confidence to build outstanding digital
   products that captivate your users.
 ---
+
 
 
 
