@@ -48,8 +48,10 @@ section_2_list:
     text: >-
       Discover techniques for generating and refining innovative product ideas
       that solve real-world problems and meet market needs.
-  - title: New item
-    text: ''
+  - title: User-Centric Design
+    text: >-
+      Master the art of user-centric design and create digital products that
+      deliver seamless and delightful user experiences.
   - title: New item
     text: ''
   - title: New item
@@ -63,6 +65,7 @@ cta_description: >
   team with the knowledge, tools, and confidence to build outstanding digital
   products that captivate your users.
 ---
+
 
 
 
