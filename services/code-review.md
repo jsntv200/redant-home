@@ -50,6 +50,11 @@ section_1_list:
 cta_description: ''
 section_2_title: How Our Code Review Service Works
 section_2_list:
+  - title: Personalised Consultation
+    text: >-
+      We're not just reviewers; we're partners in your success. Schedule a
+      consultation with our experts to discuss the review, answer your
+      questions, and provide guidance.
   - title: Comprehensive Feedback
     text: >
       Receive a detailed report outlining strengths, areas for improvement, and
@@ -64,6 +69,7 @@ section_2_list:
       platform. Whether it's a single feature or an entire project, we've got
       you covered.
 ---
+
 
 
 
