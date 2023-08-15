@@ -55,8 +55,11 @@ section_2_list:
       We embrace Agile methodologies, breaking down complex projects into
       manageable sprints to deliver incremental updates and receive your
       valuable feedback throughout the process.
-  - title: New item
-    text: ''
+  - title: Ruby Development
+    text: >-
+      Our team of Ruby experts dives into coding, using the best tools and
+      libraries to bring your project to life. We ensure every line of code
+      aligns with the highest standards of quality.
   - title: New item
     text: ''
   - title: New item
@@ -72,6 +75,7 @@ cta_description: >
   web development like never before.
 cta_button_label: Contact us now and let's create web solutions that captivate and excel!
 ---
+
 
 
 
