@@ -18,6 +18,11 @@ icon: fa-gear-complex-code
 published: false
 section_1_title: Why Choose Red Ant DevOps Services?
 section_1_list:
+  - title: Automated Processes
+    text: >-
+      Embrace automation to eliminate manual, repetitive tasks. Our experts
+      implement cutting-edge automation tools that streamline your development
+      pipeline and enhance overall efficiency.
   - title: Collaboration and Efficiency
     text: >-
       Bridge the gap between your development and operations teams. Our DevOps
@@ -39,6 +44,7 @@ section_2_list:
     text: ''
 cta_description: ''
 ---
+
 
 
 
