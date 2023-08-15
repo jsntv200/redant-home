@@ -6,13 +6,10 @@ description: >-
   development projects to the next level? Red Ant’s industry-leading Code Review
   Service is here to ensure your code is robust, efficient, and optimised for
   success.
-listing_description: >
-  Just like checking your own health, it is useful to get your code reviewed and
-  checked out by a different set of eyes. We can give you a better idea of the
-  good and the bad, and help you understand technical debt. We'll perform an
-  expert review of your code for security issues, performance problems and a
-  quality analysis. You’ll get a good idea of how your code benchmarks against
-  industry standards.
+listing_description: >-
+  Are you ready to take your software development projects to the next level?
+  Red Ant’s industry-leading Code Review Service is here to ensure your code is
+  robust, efficient, and optimised for success.
 slug: code-review
 icon: fa-display-code
 published: true
@@ -75,6 +72,7 @@ section_2_list:
 cta_title: Elevate Your Code Today!
 cta_button_label: Contact us now and watch your software shine brighter than ever before!
 ---
+
 
 
 
