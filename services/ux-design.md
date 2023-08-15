@@ -8,7 +8,7 @@ description: >-
   Design service.
 listing_description: >-
   Are you ready to captivate your audience, boost customer satisfaction, and
-  drive conversions? Look no further than Red Ant’s expert UX Design service.
+  drive conversions?
 slug: ux-design
 icon: fa-object-group
 published: true
@@ -70,6 +70,7 @@ section_2_list:
       Validate design choices through rigorous testing, ensuring your product
       exceeds user expectations.
 ---
+
 
 
 
