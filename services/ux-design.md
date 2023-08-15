@@ -27,6 +27,13 @@ cta_description: >
 cta_button_label: >-
   Contact us today and witness the transformative power of exceptional UX
   design. Your users deserve nothing less!
+section_1_list:
+  - title: User-Centric Philosophy
+    text: >-
+      Our design approach is rooted in understanding your users. We create
+      intuitive, user-friendly interfaces that delight your audience and enhance
+      their interactions with your brand.
 ---
+
 
 
