@@ -42,8 +42,10 @@ section_1_list:
       data protection requirements.
 section_2_title: 'Our AppSec Process:'
 section_2_list:
-  - title: New item
-    text: ''
+  - title: Assessment and Analysis
+    text: >-
+      We perform a thorough assessment of your application's architecture and
+      codebase to uncover vulnerabilities and potential risks.
   - title: New item
     text: ''
   - title: New item
@@ -64,6 +66,7 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
 
 
