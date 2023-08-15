@@ -33,6 +33,11 @@ cta_button_label: >-
   Contact us today to commence your journey of digital excellence and peace of
   mind!
 section_1_list:
+  - title: Proactive Monitoring
+    text: >-
+      Stay ahead of potential issues with our proactive monitoring and alert
+      systems. We identify and address potential problems before they impact
+      your operations.
   - title: Tailored Solutions
     text: >-
       We understand that no two applications are alike. Red Ant services are
@@ -44,6 +49,7 @@ section_1_list:
       health and reliability of your applications, minimising downtime and
       ensuring uninterrupted business operations.
 ---
+
 
 
 
