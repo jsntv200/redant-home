@@ -17,8 +17,11 @@ section_1_list:
       Led by seasoned experts in the field of digital product development. Gain
       invaluable insights from professionals who have successfully brought
       numerous digital products to life.
-  - title: New item
-    text: ''
+  - title: Hands-On Experience
+    text: >-
+      Get ready to roll up your sleeves and dive right into the action. Our
+      workshop is designed to be interactive, allowing you to apply the concepts
+      you learn in real-world scenarios.
   - title: New item
     text: ''
   - title: New item
@@ -46,4 +49,5 @@ cta_description: >
   team with the knowledge, tools, and confidence to build outstanding digital
   products that captivate your users.
 ---
+
 
