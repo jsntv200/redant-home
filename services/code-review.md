@@ -49,7 +49,14 @@ section_1_list:
       best practices that only seasoned professionals can provide.
 cta_description: ''
 section_2_title: How Our Code Review Service Works
+section_2_list:
+  - title: Submission
+    text: >-
+      Simply share your repo with us, or upload your codebase securely to our
+      platform. Whether it's a single feature or an entire project, we've got
+      you covered.
 ---
+
 
 
 
