@@ -49,11 +49,16 @@ section_1_list:
       intuitive, user-friendly interfaces that delight your audience and enhance
       their interactions with your brand.
 section_2_list:
+  - title: Wireframing and Prototyping
+    text: >-
+      Visualise the user journey through wireframes and prototypes, ensuring a
+      clear roadmap for development.
   - title: User Research
     text: >-
       Dive deep into your users' needs, behaviours, and preferences to create
       designs that resonate.
 ---
+
 
 
 
