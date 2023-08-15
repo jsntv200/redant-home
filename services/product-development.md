@@ -7,8 +7,7 @@ description: >-
   ready to embark on a journey of creativity and collaboration?
 listing_description: >-
   Your gateway to transforming innovative ideas into cutting-edge digital
-  solutions. Master the art of crafting digital products that leave a lasting
-  impact.
+  solutions. Create digital products that leave a lasting impact.
 slug: product-development
 icon: fa-hammer
 published: true
@@ -77,6 +76,7 @@ cta_button_label: >-
   Contact us today to embark on an immersive and enlightening digital product
   development experience. Let's shape the future of digital products together!
 ---
+
 
 
 
