@@ -15,8 +15,11 @@ published: false
 subtitle: Fortifying Your Applications with Red Ant AppSec Services
 section_1_title: Why Choose Red Ant AppSec Services?
 section_1_list:
-  - title: New item
-    text: ''
+  - title: Holistic Protection
+    text: >-
+      Our team of application security experts provides a comprehensive shield
+      for your software applications. From code reviews to penetration testing,
+      we employ a multi-layered approach to ensure the robustness of your apps.
   - title: New item
     text: ''
   - title: New item
@@ -49,5 +52,6 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
 
