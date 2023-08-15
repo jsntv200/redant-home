@@ -28,9 +28,9 @@ section_1_list:
       increased conversions and brand loyalty.
   - title: Robust Ecommerce Platforms
     text: >-
-      Leverage industry-leading ecommerce platforms like Shopify, XXXX, and
-      YYYYY, or we can build a reliable and scalable custom solution that can
-      grow with your business.
+      Leverage industry-leading ecommerce platforms like Shopify, or we can
+      build a reliable and scalable custom solution that can grow with your
+      business.
   - title: Seamless Payment Integration
     text: >-
       Streamline your checkout process and increase sales with seamless payment
@@ -83,5 +83,6 @@ cta_button_label: >-
   growth!
 published: true
 ---
+
 
 
