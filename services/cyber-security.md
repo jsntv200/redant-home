@@ -30,8 +30,11 @@ section_1_list:
       We deploy advanced tools and methodologies to proactively identify and
       neutralise potential security risks, preventing them from exploiting
       vulnerabilities.
-  - title: New item
-    text: ''
+  - title: Swift Incident Response
+    text: >-
+      In the face of a security incident, our rapid response team is primed to
+      take action, swiftly containing and resolving issues to minimise
+      disruptions and protect your reputation.
   - title: New item
     text: ''
 section_2_title: 'Our AppSec Process:'
@@ -58,6 +61,7 @@ cta_button_label: >-
   Contact us now to begin your journey of secure application development and
   digital resilience!
 ---
+
 
 
 
