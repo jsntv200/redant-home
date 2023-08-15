@@ -37,8 +37,11 @@ section_1_list:
       Learn the entire product development lifecycle – from conceptualisation to
       prototyping and finally to the launch phase. Master each step with our
       comprehensive and step-by-step approach.
-  - title: New item
-    text: ''
+  - title: Practical Tools and Techniques
+    text: >-
+      Gain access to a toolbox of practical techniques, methodologies, and
+      frameworks that you can immediately implement in your digital product
+      development endeavours.
 section_2_title: Our Product Development Process
 section_2_list:
   - title: New item
@@ -58,6 +61,7 @@ cta_description: >
   team with the knowledge, tools, and confidence to build outstanding digital
   products that captivate your users.
 ---
+
 
 
 
