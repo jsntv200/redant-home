@@ -17,8 +17,12 @@ published: false
 subtitle: Elevate Your Ruby Application with Red Ant
 section_1_title: Why Choose Red Ant Ruby Development Services?
 section_1_list:
-  - title: New item
-    text: ''
+  - title: Ruby Experts at Your Service
+    text: >-
+      Our team of skilled Ruby developers brings years of expertise and hands-on
+      experience with the language. We stay up-to-date with the latest trends
+      and best practices, ensuring your web development is always at the
+      forefront of innovation.
   - title: New item
     text: ''
   - title: New item
@@ -50,4 +54,5 @@ cta_description: >
   web development like never before.
 cta_button_label: Contact us now and let's create web solutions that captivate and excel!
 ---
+
 
