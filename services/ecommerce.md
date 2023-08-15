@@ -79,10 +79,11 @@ cta_description: >
   Ready to elevate your ecommerce experience? Partner with Red Ant to build an
   online store that stands out.
 cta_button_label: >-
-  Contact us now And let's create an ecommerce solution that drives success and
+  Contact us now and let's create an ecommerce solution that drives success and
   growth!
 published: true
 ---
+
 
 
 
