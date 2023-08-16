@@ -6,7 +6,7 @@ description: >-
   Development Services harness the full potential of the Ruby programming
   language to create cutting-edge web applications. Embrace the power of Ruby
   and experience a seamless blend of performance and scalability.
-listing_description: >-
+service_index_description: >-
   Harness the full potential of the Ruby programming language with cutting-edge
   web applications.
 slug: ruby-development

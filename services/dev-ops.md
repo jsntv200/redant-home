@@ -7,7 +7,7 @@ description: >-
   deployments, and enhance collaboration between your development and operations
   teams. Embrace the power of DevOps and take your organisation to new heights
   of productivity and innovation.
-listing_description: >-
+service_index_description: >-
   Optimise your development process, accelerate deployments, and enhance
   collaboration between your development and operations teams.
 slug: devops
