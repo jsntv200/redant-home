@@ -41,8 +41,10 @@ section_1_list:
   - title: Wide Range of Payment Gateways
     text: >-
       We integrate a diverse range of payment gateways (including <a
-      href="https://redant.com.au/technology/stripe-payments/">Stripe</a> and <a
-      href="https://redant.com.au/technology/zai/">Zai</a>) to accommodate your
+      href="https://redant.com.au/technology/stripe-payments/"
+      class="text-red-50 hover:text-red-100 hover:underline">Stripe</a> and <a
+      href="https://redant.com.au/technology/zai/" class="text-red-50
+      hover:text-red-100 hover:underline">Zai</a>) to accommodate your
       customers' preferences. From credit cards and digital wallets to bank
       transfers, we have you covered.
   - title: Enhanced Customer Convenience
@@ -80,6 +82,7 @@ section_2_list:
       We work closely with you to understand your business objectives and
       payment needs, ensuring the right integration approach is adopted.
 ---
+
 
 
 
