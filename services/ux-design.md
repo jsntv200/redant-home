@@ -6,7 +6,7 @@ description: >-
   journeys. Are you ready to captivate your audience, boost customer
   satisfaction, and drive conversions? Look no further than Red Ant’s expert UX
   Design service.
-listing_description: >-
+service_index_description: >-
   Captivate your audience, boost customer satisfaction, and drive conversions
   with digital products that leave a lasting impression.
 slug: ux-design

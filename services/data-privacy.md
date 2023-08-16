@@ -7,7 +7,7 @@ description: >
   information, ensure compliance with regulations, and build trust with your
   customers. Embrace the power of comprehensive data privacy solutions and
   fortify your organisation against risks.
-listing_description: >-
+service_index_description: >-
   Safeguard your sensitive information, ensure compliance with regulations, and
   build trust with your customers.
 slug: mobile

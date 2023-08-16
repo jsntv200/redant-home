@@ -15,8 +15,12 @@
   width: 0%;
 }
 
-.markdown a {
+.markdown a, .content-link {
   @apply text-red-50;
+}
+
+.markdown a:hover, .content-link {
+  @apply text-red-100;
   @apply underline;
 }
 

@@ -560,21 +560,27 @@ var config_default = defineConfig({
           },
           {
             type: "string",
-            name: "listing_description",
-            label: "listing_description",
-            required: true
+            name: "service_index_description",
+            label: "service_index_description",
+            required: true,
+            ui: {
+              description: "Text seen on /services"
+            }
           },
           {
             type: "string",
             name: "subtitle",
-            label: "title"
+            label: "subtitle"
           },
           {
             type: "string",
             name: "description",
             label: "description",
             required: true,
-            component: "textarea"
+            component: "textarea",
+            ui: {
+              description: "Used in the service detail page and also used on the meta description"
+            }
           },
           {
             type: "string",
@@ -619,9 +625,7 @@ var config_default = defineConfig({
                 label: "text",
                 name: "text",
                 type: "string",
-                ui: {
-                  component: "textarea"
-                }
+                component: "textarea"
               }
             ]
           },
@@ -657,9 +661,7 @@ var config_default = defineConfig({
                 label: "text",
                 name: "text",
                 type: "string",
-                ui: {
-                  component: "textarea"
-                }
+                component: "textarea"
               }
             ]
           },

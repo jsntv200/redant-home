@@ -7,7 +7,7 @@ description: >-
   Whether you're starting from scratch or seeking to enhance your existing
   platform, our expert team is here to craft a seamless and scalable ecommerce
   solution tailored to your business needs.
-listing_description: >-
+service_index_description: >-
   Starting from scratch or enhancing your existing platform, our expert team is
   here to create a seamless and scalable ecommerce solution for your business
   needs.

@@ -6,7 +6,7 @@ description: >-
   development projects to the next level? Red Ant’s industry-leading Code Review
   Service is here to ensure your code is robust, efficient, and optimised for
   success.
-listing_description: >-
+service_index_description: >-
   Ready to take your software development projects to the next level? We're here
   to ensure your code is robust, efficient, and optimised for success.
 slug: code-review

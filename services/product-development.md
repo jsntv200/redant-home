@@ -5,7 +5,7 @@ description: >-
   Welcome to the Red Ant Digital Product Development Workshop – your gateway to
   transforming innovative ideas into cutting-edge digital solutions! Are you
   ready to embark on a journey of creativity and collaboration?
-listing_description: >-
+service_index_description: >-
   Your gateway to transforming innovative ideas into cutting-edge digital
   solutions. Create digital products that leave a lasting impact.
 slug: product-development

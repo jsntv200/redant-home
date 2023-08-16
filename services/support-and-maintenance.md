@@ -7,7 +7,7 @@ description: >
   applications run smoothly, remain secure, and adapt seamlessly to your
   evolving business needs. Embrace the power of reliable support and maintenance
   to keep your digital assets at their peak performance.
-listing_description: >-
+service_index_description: >-
   Ensure your software applications run smoothly, remain secure, and adapt
   seamlessly to your evolving business needs.
 slug: support-and-maintenance
