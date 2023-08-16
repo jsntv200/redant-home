@@ -80,7 +80,7 @@ All of which means we get pretty immediate feedback. And if you're going to ask 
 
 Anyway - back to the actual product. Probably the best way to check it out is to sign up yourself. You never know - you might really enjoy yourself! I actually was talking to a someone the other day who had signed up as a way of evaluating our work, and he ended up doing 3 rounds.
 
-You [can read a bit more about](/our-work/our-work-michelle-bridges-12wbt-build/) the 12WBT project on this post, and [about localisation for USA version](/our-work/developing-12wbt-usa/) here. If you're really interested, or just bored at work and trying to fill in some time, check out the [dynamic videos project](/portfolio/12wbt-dynamic-video/) summary or the [Daily Companion app](/portfolio/12wbt-daily-app/).
+If you're really interested, or just bored at work and trying to fill in some time, check out the [dynamic videos project](/portfolio/12wbt-dynamic-video/) summary or the [Daily Companion app](/portfolio/12wbt-daily-app/).
 
 ## More Detail
 
