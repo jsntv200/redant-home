@@ -2,7 +2,7 @@
 layout: v2-blog-detail
 is_blog: true
 title: 10 ways to improve your phone app development brief
-permalink: /:categories/id-like-an-iphone-app-ten-things-to-look-out-for/
+permalink: '/:categories/id-like-an-iphone-app-ten-things-to-look-out-for/'
 type: ideas
 categories:
   - blog
@@ -38,7 +38,7 @@ Make sure you understand the difference between a mobile optimised site and a mo
 
 ## 3. Make your app good enough to get featured
 
-Once published, your app will join the millions already published. [Getting featured by Apple](/our-work/yates-problem-solver-iphone-app/) is a great way to drive downloads. Unless you're a big brand or have $$ to spend on advertising, it can be tricky to gain traction. Plan and design your app so that it is good enough to get featured. Checking out your competition in that category is a good place to start.
+Once published, your app will join the millions already published. Getting featured by Apple is a great way to drive downloads. Unless you're a big brand or have $$ to spend on advertising, it can be tricky to gain traction. Plan and design your app so that it is good enough to get featured. Checking out your competition in that category is a good place to start.
 
 ## 4. Allow plenty of time for publishing
 
