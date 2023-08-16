@@ -2,7 +2,8 @@
 layout: v2-blog-detail
 is_blog: true
 title: Which Shopify account is the best value for money?
-permalink: /:categories/which-shopify-account-is-the-best-value-for-money-it-depends-of-course/
+permalink: >-
+  /:categories/which-shopify-account-is-the-best-value-for-money-it-depends-of-course/
 type: ideas
 categories:
   - blog
@@ -18,10 +19,12 @@ description: Shopify for e-commerce - we looked into this as part of a recent as
 tags: []
 time: ''
 redirect_from:
-  - /tool-reviews/which-shopify-account-is-the-best-value-for-money-it-depends-of-course/
+  - >-
+    /tool-reviews/which-shopify-account-is-the-best-value-for-money-it-depends-of-course/
 date_published: 2012-08-03T00:00:00.000Z
 publisher: Red Ant
 updated_at: 2012-08-03T00:00:00.000Z
+published: false
 ---
 
 The graph above charts monthly sales to monthly costs for all four account levels at Shopify. What it gives us is a pretty straight-forward answer to which account is best for anybody who is planning on using the service.
