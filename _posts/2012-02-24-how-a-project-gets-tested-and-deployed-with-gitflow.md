@@ -2,7 +2,7 @@
 layout: v2-blog-detail
 is_blog: true
 title: How a project gets tested and deployed with GitFlow
-permalink: /:categories/how-a-project-gets-tested-and-deployed-with-gitflow/
+permalink: '/:categories/how-a-project-gets-tested-and-deployed-with-gitflow/'
 type: ideas
 categories:
   - blog
@@ -67,4 +67,4 @@ To explain: a developer would be working on a new feature, and they would merge 
 
 In a typical project, wed have 2-3 of these bigger features in the works, and then a fairly regular flow of small changes that need to go live. Using GitFlow, the small urgent changes get done as Hot Fixes. GitFlow then makes sure that these not only up to the live version, but also get integrated back into any separate features (branches) that other developers are working on.
 
-As features are completed, they are merged back into the Develop branch, which [Jenkins then automatically deploys](/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/) to a development server for review. Once these are all approved, we make a release and these changes get added to the master version. These then get pushed up to the live production site.
+As features are completed, they are merged back into the Develop branch, which [Jenkins then automatically deploys]() to a development server for review. Once these are all approved, we make a release and these changes get added to the master version. These then get pushed up to the live production site.
