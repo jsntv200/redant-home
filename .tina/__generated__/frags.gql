@@ -1,0 +1,90 @@
+fragment JobsParts on Jobs {
+  published
+  layout
+  slug
+  title
+  description
+  image_small
+  image
+  redirect_from
+  body
+}
+
+fragment PortfolioParts on Portfolio {
+  published
+  layout
+  theme
+  slug
+  title
+  description
+  project_url
+  client
+  project_date
+  team_size
+  lines_of_code
+  technology_tags
+  industry_vertical_tags
+  service_tags
+  body
+}
+
+fragment PostParts on Post {
+  published
+  layout
+  title
+  permalink
+  categories
+  author
+  description
+  image_small
+  image
+  content_sidebar
+  time
+  redirect_from
+  date_published
+  updated_at
+  body
+  is_blog
+}
+
+fragment ServicesParts on Services {
+  published
+  layout
+  title
+  service_index_description
+  subtitle
+  description
+  slug
+  redirect_from
+  section_1_title
+  section_1_list {
+    __typename
+    title
+    text
+  }
+  section_2_title
+  section_2_list {
+    __typename
+    title
+    text
+  }
+  cta_title
+  cta_description
+  cta_button_label
+}
+
+fragment TechnologyParts on Technology {
+  published
+  layout
+  category
+  type
+  title
+  subtitle
+  description
+  listing_description
+  slug
+  image
+  image_hero
+  redirect_from
+  body
+}
