@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@hotwired/stimulus": "3.2.1",
-    "@tinacms/cli": "^1.5.26",
+    "@tinacms/cli": "^1.5.28",
     "aos": "2.3.4",
     "esbuild": "^0.17.14",
     "esbuild-sass-plugin": "^2.3.3",
@@ -19,7 +19,7 @@
     "stimulus-reveal-controller": "4.1.0",
     "swiper": "9.3.1",
     "tailwindcss": "^3.3.2",
-    "tinacms": "^1.5.17"
+    "tinacms": "^1.5.19"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
