@@ -55,7 +55,7 @@ We started using Capistrano to automate things, including checking out the right
 
 ## Jenkins (Continuous Integration)
 
-We added Jenkins (or Jerkins as it is unkindly called when tests fail or take too long) to continually test projects as we work on them. Each of the stages [gets visualised in our Jenkins Pipeline](/automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/), which is like daytime TV for developers - you can sit and watch it all day.
+We added Jenkins (or Jerkins as it is unkindly called when tests fail or take too long) to continually test projects as we work on them. Each of the stages gets visualised in our Jenkins Pipeline, which is like daytime TV for developers - you can sit and watch it all day.
 
 ## GitFlow
 
@@ -67,4 +67,4 @@ To explain: a developer would be working on a new feature, and they would merge 
 
 In a typical project, wed have 2-3 of these bigger features in the works, and then a fairly regular flow of small changes that need to go live. Using GitFlow, the small urgent changes get done as Hot Fixes. GitFlow then makes sure that these not only up to the live version, but also get integrated back into any separate features (branches) that other developers are working on.
 
-As features are completed, they are merged back into the Develop branch, which [Jenkins then automatically deploys]() to a development server for review. Once these are all approved, we make a release and these changes get added to the master version. These then get pushed up to the live production site.
+As features are completed, they are merged back into the Develop branch, which Jenkins then automatically deploys to a development server for review. Once these are all approved, we make a release and these changes get added to the master version. These then get pushed up to the live production site.
