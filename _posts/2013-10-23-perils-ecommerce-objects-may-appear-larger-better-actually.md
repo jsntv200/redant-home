@@ -7,12 +7,13 @@ type: ideas
 categories:
   - blog
   - products
+blog_categories:
+  - products
   - strategy
 author: Ben Still
 content_sidebar: >
   An example of when you think you know what you're buying, but end up with
   something quite different.
-keywords: ecommerce
 image_small: /assets/uploads/2013/danger-small.jpg
 image: /assets/uploads/2013/danger.jpg
 description: Ever bought something online that wasn't what you thought it was?
@@ -21,7 +22,7 @@ time: 5 Mins Read
 redirect_from:
   - /strategy/perils-ecommerce-objects-may-appear-larger-better-actually/
 date_published: 2013-10-23T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2013-10-23T00:00:00.000Z
 published: true
 ---

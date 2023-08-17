@@ -216,7 +216,8 @@ type Post implements Node & Document {
   layout: String!
   title: String!
   permalink: String!
-  categories: [String]
+  categories: [String!]!
+  blog_categories: [String!]!
   author: String
   description: String!
   image_small: String
@@ -247,6 +248,7 @@ input PostFilter {
   title: StringFilter
   permalink: StringFilter
   categories: StringFilter
+  blog_categories: StringFilter
   author: StringFilter
   description: StringFilter
   image_small: ImageFilter
@@ -457,6 +459,7 @@ input PostMutation {
   title: String
   permalink: String
   categories: [String]
+  blog_categories: [String]
   author: String
   description: String
   image_small: String

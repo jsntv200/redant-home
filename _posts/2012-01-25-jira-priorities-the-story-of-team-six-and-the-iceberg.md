@@ -7,12 +7,13 @@ type: ideas
 categories:
   - blog
   - ruby-on-rails
+blog_categories:
   - products
+  - ruby-on-rails
 author: Ben Still
 content_sidebar: >
   Find out how we use Jira priorities at Red Ant to manage development workflows
   and make sure nobody gets hurt.
-keywords: Jira priorities
 image_small: /assets/uploads/2012/jira-screenshot-small.jpg
 image: /assets/uploads/2012/jira-screenshot.jpg
 description: 'Seal teams, titanic sinkers and our prioritization ratings.'
@@ -21,7 +22,7 @@ time: 10 Mins Read
 redirect_from:
   - /software-development/jira-priorities-the-story-of-team-six-and-the-iceberg/
 date_published: 2012-01-25T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2012-01-25T00:00:00.000Z
 published: true
 ---

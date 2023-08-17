@@ -6,9 +6,9 @@ permalink: /:categories/oooh-weve-been-busy-little-ants/
 type: news
 categories:
   - blog
+blog_categories:
 author: Ben Still
 description: Take a look at some of our recent projects at Red Ant.
-keywords: Red Ant projects
 image_small: /assets/uploads/2009/ants.jpg
 image: /assets/uploads/2009/ants.jpg
 content_sidebar: >
@@ -19,7 +19,7 @@ time: ''
 redirect_from:
   - /our-work/oooh-weve-been-busy-little-ants/
 date_published: 2009-07-13T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2009-07-13T00:00:00.000Z
 published: false
 ---

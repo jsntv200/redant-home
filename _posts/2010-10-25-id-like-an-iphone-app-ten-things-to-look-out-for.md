@@ -7,12 +7,13 @@ type: ideas
 categories:
   - blog
   - products
+blog_categories:
+  - products
   - mobile
   - strategy
 author: Ben Still
 content_sidebar: |
   Considerations for your iphone app design brief
-keywords: iphone app design brief
 image_small: /assets/uploads/imporve-mobile-brief-1.jpg
 image: /assets/uploads/imporve-mobile-brief-2.jpg
 description: 'Ten quick tips: considerations for your iphone app design brief'
@@ -21,7 +22,7 @@ time: ''
 redirect_from:
   - /mobile/id-like-an-iphone-app-ten-things-to-look-out-for/
 date_published: 2010-10-25T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2010-10-15T00:00:00.000Z
 published: true
 ---

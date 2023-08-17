@@ -7,6 +7,7 @@ permalink: /:categories/interface-friction-on-job-sites/
 type: ideas
 categories:
   - blog
+blog_categories:
 author: Ben Still
 image_small: /assets/uploads/2009/ui-friction-small.jpg
 image: /assets/uploads/2009/ui-friction.jpg

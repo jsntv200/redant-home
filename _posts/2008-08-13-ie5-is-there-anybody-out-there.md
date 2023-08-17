@@ -7,6 +7,8 @@ type: ideas
 categories:
   - blog
   - ruby-on-rails
+blog_categories:
+  - ruby-on-rails
 author: Ben Still
 image_small: /assets/uploads/2008/space-small.png
 image: /assets/uploads/2008/space-large.jpg

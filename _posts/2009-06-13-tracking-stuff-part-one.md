@@ -7,6 +7,7 @@ permalink: /:categories/tracking-stuff-part-one/
 type: ideas
 categories:
   - blog
+blog_categories:
 author: Ben Still
 image_small: /assets/uploads/2009/track-small.jpg
 image: /assets/uploads/2009/track-large.jpg

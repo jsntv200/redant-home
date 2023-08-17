@@ -6,10 +6,10 @@ permalink: /:categories/who-are-all-these-fake-people-on-linkedin/
 type: ideas
 categories:
   - blog
+blog_categories:
 author: Ben Still
 content_sidebar: |
   Who are all these fake people on LinkedIn?
-keywords: ''
 image_small: /assets/uploads/2018/linkedin2.png
 image: /assets/uploads/2018/linkedin2.png
 description: Who are all these fake people on LinkedIn?
@@ -20,7 +20,7 @@ time: ''
 redirect_from:
   - /marketing/who-are-all-these-fake-people-on-linkedin/
 date_published: 2018-04-21T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2018-04-21T00:00:00.000Z
 published: false
 ---

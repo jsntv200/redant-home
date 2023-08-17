@@ -7,6 +7,8 @@ type: ideas
 categories:
   - blog
   - strategy
+blog_categories:
+  - strategy
 author: Ben Still
 image_small: /assets/uploads/2009/viral-small.png
 image: /assets/uploads/2009/viral-large.jpg

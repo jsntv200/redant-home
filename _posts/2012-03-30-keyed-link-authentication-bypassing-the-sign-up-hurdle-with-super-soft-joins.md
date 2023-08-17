@@ -7,12 +7,13 @@ type: ideas
 categories:
   - blog
   - privacy
+blog_categories:
+  - privacy
   - products
 author: Sam Bauers
 content_sidebar: >
   When your users are unlikely to want to provide their email address to sign-up
   to your website, "Super-soft joins" may be right for you.
-keywords: super soft joins
 image_small: /assets/uploads/2012/clear-your-vision-home-small.jpg
 image: /assets/uploads/2012/clear-your-vision-home.jpg
 description: How we use super-soft joins to interact with users on personal subjects.
@@ -22,7 +23,7 @@ redirect_from:
   - >-
     /blog/how-we-do/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/
 date_published: 2012-03-30T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2012-03-30T00:00:00.000Z
 published: true
 ---

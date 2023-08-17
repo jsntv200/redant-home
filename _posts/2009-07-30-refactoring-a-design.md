@@ -7,11 +7,12 @@ type: ideas
 categories:
   - blog
   - design
+blog_categories:
+  - design
 author: Ben Still
 content_sidebar: >
   We've recently spent some time adding some new features to a site that we
   built a while back.
-keywords: refactoring
 image_small: /assets/uploads/2009/refactor-small.jpg
 image: /assets/uploads/2009/refactor-large.jpg
 description: >-
@@ -22,7 +23,7 @@ time: ''
 redirect_from:
   - /ruby-on-rails/refactoring-a-design/
 date_published: 2009-07-30T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2009-07-30T00:00:00.000Z
 published: true
 ---

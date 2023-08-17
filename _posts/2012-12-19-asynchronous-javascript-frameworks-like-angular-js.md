@@ -6,12 +6,14 @@ permalink: /:categories/asynchronous-javascript-frameworks-like-angular-js/
 type: ideas
 categories:
   - blog
+  - ruby-on-rails
+blog_categories:
+  - ruby-on-rails
 author: Ben Still
 content_sidebar: >
   Have you noticed that some sites are insanely fast these days? The new
   generation of Javascript Frameworks are powering a new change in the way pages
   work.
-keywords: fast asynchronous javascript frameworks
 image_small: /assets/uploads/angular.jpg
 image: /assets/uploads/angular.jpg
 description: >-
@@ -23,7 +25,7 @@ redirect_from:
   - /pjax/
   - /pjax/asynchronous-javascript-frameworks-like-angular-js/
 date_published: 2012-12-19T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2012-12-19T00:00:00.000Z
 ---
 

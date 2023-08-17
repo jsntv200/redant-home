@@ -7,6 +7,8 @@ type: news
 categories:
   - blog
   - cyber-security
+blog_categories:
+  - cyber-security
 author: Ben Still
 content_sidebar: >
   Often security analysis looks at how your platform runs - the network, the
@@ -23,7 +25,7 @@ description: >-
   suit and breaking into your network. It will be finding a mistake or loophole
   in your code, and taking advantage.
 date_published: 2023-05-16T14:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2023-05-16T14:00:00.000Z
 redirect_from:
   - /cyber-security/cyber-security-from-a-development-perspective/

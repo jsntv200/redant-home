@@ -7,10 +7,12 @@ type: ideas
 categories:
   - blog
   - cyber-security
+blog_categories:
+  - cyber-security
 author: Ben Still
 date_published: 2023-04-13T14:00:00.000Z
 updated_at: 2023-04-13T14:00:00.000Z
-publisher: Red Ant
+
 description: >-
   Some security problems come about when the security of information shown isn't
   considered during the design process. Here's an easy fix, with 4 different

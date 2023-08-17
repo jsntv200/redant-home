@@ -7,10 +7,11 @@ type: ideas
 categories:
   - blog
   - products
+blog_categories:
+  - products
 author: Ben Still
 content_sidebar: |
   Defining a Digital Product
-keywords: Digital Product
 image_small: /assets/uploads/defining-a-digital-product-1.jpg
 image: /assets/uploads/defining-a-digital-product-2.jpg
 description: >-
@@ -24,7 +25,7 @@ redirect_from:
   - /products/
   - /products/defining-a-digital-product
 date_published: 2014-03-25T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2014-03-25T00:00:00.000Z
 ---
 

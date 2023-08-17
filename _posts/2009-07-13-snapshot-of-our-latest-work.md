@@ -7,6 +7,8 @@ type: news
 categories:
   - blog
   - ruby-on-rails
+blog_categories:
+  - ruby-on-rails
   - ecommerce
 author: Ben Still
 content_sidebar: >
@@ -14,7 +16,6 @@ content_sidebar: >
   should get around to putting them in to our portfolio, but the army of little
   fairies that live in our server that do all our work (well, the hard stuff
   anyway) have been a bit slack lately.
-keywords: latest work
 image_small: /assets/uploads/2010/redant-office.jpg
 image: /assets/uploads/2010/redant-office.jpg
 description: Here are a few of the projects that have been keeping us busy lately
@@ -23,7 +24,7 @@ time: ''
 redirect_from:
   - /our-work/snapshot-of-our-latest-work/
 date_published: 2009-07-13T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2009-07-13T00:00:00.000Z
 published: false
 ---

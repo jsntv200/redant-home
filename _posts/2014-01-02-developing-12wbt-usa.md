@@ -7,13 +7,14 @@ type: news
 categories:
   - blog
   - ruby-on-rails
+blog_categories:
+  - ruby-on-rails
   - products
 author: Ben Still
 content_sidebar: >
   We've been working on building the Michelle Bridges 12WBT platform in
   Australia for several years. For the last few months we've been busy on a new,
   US version of the platform which launched this week.
-keywords: 12wbt
 image_small: /assets/uploads/2014/mish-adelaide-finale-small.jpg
 image: /assets/uploads/2014/mish-adelaide-finale.jpg
 description: >-
@@ -25,7 +26,7 @@ time: ''
 redirect_from:
   - /our-work/developing-12wbt-usa/
 date_published: 2014-01-02T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2014-01-02T00:00:00.000Z
 published: false
 ---

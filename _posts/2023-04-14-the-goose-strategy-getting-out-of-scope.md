@@ -7,6 +7,8 @@ type: ideas
 categories:
   - blog
   - cyber-security
+blog_categories:
+  - cyber-security
 author: Ben Still
 content_sidebar: >
   The Goose strategy - move your application out of scope as much as you can.
@@ -38,7 +40,7 @@ description: >-
   audit.
 date_published: 2023-04-13T14:00:00.000Z
 updated_at: 2023-04-13T14:00:00.000Z
-publisher: Red Ant
+
 redirect_from:
   - /cyber-security/goose-getting-out-of-scope/
 ---

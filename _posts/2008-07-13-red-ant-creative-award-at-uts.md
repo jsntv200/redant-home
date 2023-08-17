@@ -7,6 +7,8 @@ type: news
 categories:
   - blog
   - design
+blog_categories:
+  - design
 author: Ben Still
 image_small: /assets/uploads/2008/kap-uts-design-award.jpg
 image: /assets/uploads/2008/kap-uts-design-award.jpg
@@ -21,7 +23,7 @@ date_published: 2008-07-13T00:00:00.000Z
 redirect_from:
   - /red-ant-stuff/red-ant-creative-award-at-uts/
 updated_at: 2008-07-13T00:00:00.000Z
-publisher: Ben Still
+
 ---
 
 The award is made available to the student(s) who are judged through their portfolio and interview to have the most creative and practical approach to design for web media.

@@ -7,11 +7,12 @@ type: news
 categories:
   - blog
   - products
+blog_categories:
+  - products
   - ruby-on-rails
 author: Ben Still
 content_sidebar: |
   The initial build of the Michelle Bridges 12WBT project
-keywords: michelle bridges 12wbt
 image_small: /assets/uploads/2012/build.jpg
 image: /assets/uploads/2012/build.jpg
 description: The initial build of the Michelle Bridges 12WBT project
@@ -20,7 +21,7 @@ time: ''
 redirect_from:
   - /our-work/our-work-michelle-bridges-12wbt-build/
 date_published: 2012-01-16T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2012-01-16T00:00:00.000Z
 published: false
 ---

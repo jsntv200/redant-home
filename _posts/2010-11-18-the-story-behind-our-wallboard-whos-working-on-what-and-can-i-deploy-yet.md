@@ -6,10 +6,10 @@ permalink: /:categories/the-story-behind-our-wallboard-whos-working-on-what-and-
 type: news
 categories:
   - blog
+blog_categories:
 author: Jesse Noble
 content_sidebar: |
   The story behind our Wallboard. Who's working on what, and can I deploy yet?
-keywords: our wallboard
 image_small: /assets/uploads/2010/redant-wallboard-preview-small.jpg
 image: /assets/uploads/2010/redant-wallboard-preview.jpg
 description: 'Whiteboards are out, wallboards are in. Also, vote for us!'
@@ -22,7 +22,7 @@ redirect_from:
   - >-
     /red-ant-stuff/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/
 date_published: 2010-11-18T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2010-11-18T00:00:00.000Z
 published: false
 ---

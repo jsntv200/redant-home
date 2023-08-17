@@ -6,11 +6,11 @@ permalink: /:categories/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost
 type: news
 categories:
   - blog
+blog_categories:
 author: Ben Still
 content_sidebar: >
   A whirlwind tale of Red Ant's journey through the wonderful world of
   composting.
-keywords: compost bins
 image_small: /assets/uploads/2012/compost-bin-small.jpg
 image: /assets/uploads/2012/compost-bin.jpg
 description: 'Green offices of the present future: office composting.'
@@ -20,7 +20,7 @@ redirect_from:
   - >-
     /red-ant-stuff/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/
 date_published: 2012-08-30T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2012-08-30T00:00:00.000Z
 published: false
 ---

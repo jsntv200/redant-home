@@ -7,6 +7,8 @@ type: ideas
 categories:
   - blog
   - design
+blog_categories:
+  - design
   - ruby-on-rails
 author: Ben Still
 content_sidebar: >
@@ -14,7 +16,6 @@ content_sidebar: >
   multi-variate (MV) testing. Its quite interesting, but hard to explain. In a
   nutshell, MV testing means testing lots of little changes or variations to a
   web site to see what works.
-keywords: multi variate testing
 image_small: /assets/uploads/a-b-testing-1.jpg
 image: /assets/uploads/a-b-testing-2.jpg
 description: >-
@@ -25,7 +26,7 @@ time: ''
 redirect_from:
   - /blog/how-we-do/multi-variate-AB-testing/
 date_published: 2009-07-31T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2009-07-31T00:00:00.000Z
 published: true
 ---

@@ -6,11 +6,11 @@ permalink: /:categories/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-
 type: ideas
 categories:
   - blog
+blog_categories:
 author: Ben Still
 content_sidebar: >
   A quick outline of how we're using Jenkins and the Pipeline view to visualise
   where our builds are up to
-keywords: ''
 image_small: /assets/uploads/2012/jenkins-pipeline-start-small.png
 image: /assets/uploads/2012/jenkins-pipeline-start.png
 description: How we build relational trust; our integrated testing pipeline
@@ -20,7 +20,7 @@ redirect_from:
   - >-
     /automated-testing/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/
 date_published: 2012-02-28T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2012-02-28T00:00:00.000Z
 published: false
 ---

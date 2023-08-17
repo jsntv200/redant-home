@@ -7,6 +7,7 @@ permalink: /:category/how-we-wiki/
 type: ideas
 categories:
   - blog
+blog_categories:
 author: Ben Still
 image_small: /assets/uploads/2009/wiki-wiki-small.jpg
 image: /assets/uploads/2009/wiki-wiki-big.jpg

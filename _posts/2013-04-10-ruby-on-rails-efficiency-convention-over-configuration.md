@@ -7,11 +7,12 @@ type: ideas
 categories:
   - blog
   - ruby-on-rails
+blog_categories:
+  - ruby-on-rails
 author: Ben Still
 content_sidebar: >
   How we used Ruby on Rails convention over configuration to make our developers
   more efficient and improve quality
-keywords: ruby on rails efficient
 image_small: /assets/uploads/ruby.jpg
 image: /assets/uploads/ruby.jpg
 description: >-
@@ -23,7 +24,7 @@ redirect_from:
   - /lean-development/ruby-on-rails-efficiency-convention-over-configuration/
   - /ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/
 date_published: 2013-04-10T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2013-04-10T00:00:00.000Z
 published: true
 ---

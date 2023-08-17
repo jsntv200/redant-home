@@ -431,17 +431,29 @@ var config_default = defineConfig({
             required: true,
             ui: {
               defaultItem: "/:categories/",
-              description: "Needs to contain '/:categories/' before the permalink slug"
+              description: "Needs to contain '/:categories/' before the permalink slug."
             }
           },
           {
-            label: "categories",
+            label: "bread_crumbs (items will appear ordered in the url - use 'blog' first)",
             name: "categories",
             type: "string",
+            required: true,
             list: true,
             ui: {
               defaultItem: "blog",
-              description: "Needs 'blog' as a category. ruby-on-rails, strategy, design, devops, mobile, products, privacy, cyber-security, payments"
+              description: "Use slugs: ruby-on-rails, strategy, design, devops, mobile, products, privacy, cyber-security, payments"
+            }
+          },
+          {
+            label: "categories (category pages the post will appear in)",
+            name: "blog_categories",
+            type: "string",
+            required: true,
+            list: true,
+            ui: {
+              defaultItem: "blog",
+              description: "Use slugs: ruby-on-rails, strategy, design, devops, mobile, products, privacy, cyber-security, payments"
             }
           },
           {

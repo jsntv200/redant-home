@@ -6,6 +6,8 @@ permalink: /:categories/mobile-apps-vs-mobile-site/
 type: ideas
 categories:
   - blog
+  - mobile
+blog_categories:
   - products
   - mobile
   - strategy
@@ -13,7 +15,6 @@ author: Ben Still
 content_sidebar: >
   If you're making stuff for the web, mobile is a really big deal. It's really
   important to form and execute a mobile strategy well. Which can be hard.
-keywords: mobile app
 image_small: /assets/uploads/huggies-mobile-1.jpg
 image: /assets/uploads/huggies-mobile-2.jpg
 description: >-
@@ -24,7 +25,7 @@ time: ''
 redirect_from:
   - /mobile/mobile-apps-vs-mobile-site/
 date_published: 2013-09-17T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2013-09-17T00:00:00.000Z
 published: true
 ---

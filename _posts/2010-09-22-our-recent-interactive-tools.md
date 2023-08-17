@@ -7,11 +7,12 @@ type: news
 categories:
   - blog
   - ruby-on-rails
+blog_categories:
+  - ruby-on-rails
 author: Ben Still
 content_sidebar: >
   Who doesn't like to be out in the sun, gardening and getting your fingers all
   green? Well now you can do all that from the comfort of your living room!
-keywords: our recent interactive tools
 image_small: /assets/uploads/2010/huggies-baby-room-2-small.jpg
 image: /assets/uploads/2010/yates-virtual-garden-2.jpg
 description: >-
@@ -22,7 +23,7 @@ time: ''
 redirect_from:
   - /ruby-on-rails/our-recent-interactive-tools/
 date_published: 2010-09-22T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2010-09-22T00:00:00.000Z
 published: false
 ---

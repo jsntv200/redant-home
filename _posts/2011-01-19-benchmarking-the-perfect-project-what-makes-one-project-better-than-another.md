@@ -6,11 +6,11 @@ permalink: /:categories/benchmarking-the-perfect-project-what-makes-one-project-
 type: ideas
 categories:
   - blog
+blog_categories:
 author: Jesse Noble
 content_sidebar: >
   A few months ago, we started working with a project management coach. Here's
   what happened.
-keywords: project management benchmarking
 image_small: /assets/uploads/2011/mood.jpg
 image: /assets/uploads/2011/mood.jpg
 description: >-
@@ -22,7 +22,7 @@ redirect_from:
   - >-
     /our-work/benchmarking-the-perfect-project-what-makes-one-project-better-than-another/
 date_published: 2011-01-19T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2011-01-19T00:00:00.000Z
 published: false
 ---

@@ -7,8 +7,9 @@ type: ideas
 categories:
   - blog
   - devops
+blog_categories:
+  - devops
 author: Ben Still
-keywords: ''
 content_sidebar: >
   As our projects have grown larger, so has the complexity of testing and
   deploying work. We've started moving projects over to GitFlow in order to
@@ -21,7 +22,7 @@ time: ''
 redirect_from:
   - /devops/how-a-project-gets-tested-and-deployed-with-gitflow/
 date_published: 2012-02-24T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2012-02-24T00:00:00.000Z
 published: true
 ---

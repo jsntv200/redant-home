@@ -7,12 +7,13 @@ type: news
 categories:
   - blog
   - design
+blog_categories:
+  - design
 author: Ben Still
 content_sidebar:
   First of all, congrats to David Chin, who was this years winner. Seconds
   of all, well done to everyone who participated! We're so proud to be part of these
   awards and to be able to inspire the young 'uns into creating awesome stuff.
-keywords: uts design award
 image_small: '/assets/uploads/2009/david-chin-uts-design-award.jpg'
 image: '/assets/uploads/2009/david-chin-uts-design-award.jpg'
 description:
@@ -23,7 +24,7 @@ time: ''
 redirect_from:
   - /red-ant-stuff/red-ant-web-design-award-at-uts/
 date_published: ! ' 2009-07-13'
-publisher: Red Ant
+
 updated_at: 2009-07-13
 
 ---

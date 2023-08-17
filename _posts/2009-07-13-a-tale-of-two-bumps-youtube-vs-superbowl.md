@@ -7,6 +7,7 @@ permalink: /:categories/a-tale-of-two-bumps-youtube-vs-superbowl/
 type: news
 categories:
   - blog
+blog_categories:
 author: Ben Still
 image_small: /assets/uploads/2009/alexa.png
 image: /assets/uploads/2009/alexa.png

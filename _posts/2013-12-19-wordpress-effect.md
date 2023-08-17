@@ -7,12 +7,13 @@ type: ideas
 categories:
   - blog
   - strategy
+blog_categories:
+  - strategy
   - ruby-on-rails
 author: Ben Still
 content_sidebar: >
   The growth of WordPress has turned the web development market on its head. But
   does this apply to all web development?
-keywords: wordpress
 image_small: /assets/uploads/wordpress-effect.jpg
 image: /assets/uploads/wordpress-effect.jpg
 description: >-
@@ -24,7 +25,7 @@ time: ''
 redirect_from:
   - /strategy/wordpress-effect/
 date_published: 2013-12-19T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2013-12-19T00:00:00.000Z
 ---
 

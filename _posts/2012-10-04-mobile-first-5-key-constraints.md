@@ -7,6 +7,8 @@ type: ideas
 categories:
   - blog
   - products
+blog_categories:
+  - products
   - strategy
   - mobile
 author: Ben Still
@@ -14,7 +16,6 @@ content_sidebar: >
   Instead of designing for a desktop screen and then hacking on the mobile
   version, mobile first means start with the mobile version and then flesh it
   out from there.
-keywords: mobile first
 image_small: /assets/uploads/key-constraints-1.jpg
 image: /assets/uploads/key-constraints-2.jpg
 description: >-
@@ -25,7 +26,7 @@ time: ''
 redirect_from:
   - /mobile/mobile-first-5-key-constraints/
 date_published: 2012-10-04T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2012-10-04T00:00:00.000Z
 published: true
 ---

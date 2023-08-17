@@ -7,8 +7,9 @@ type: news
 categories:
   - blog
   - products
+blog_categories:
+  - products
 author: Sam Bauers
-keywords: ''
 image_small: /assets/uploads/2014/plando.jpg
 image: /assets/uploads/2014/plando.jpg
 description: >-
@@ -24,7 +25,7 @@ content_sidebar: >
   The world of employment and careers is due for a shakeup. We have been helping
   Plando build a career management platform that we think will fundamentally
   change the careers landscape.
-publisher: Red Ant
+
 updated_at: 2014-01-02T00:00:00.000Z
 published: false
 ---

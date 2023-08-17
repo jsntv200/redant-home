@@ -6,11 +6,13 @@ permalink: /:categories/cache-busting-gmail-new-image-caching/
 type: ideas
 categories:
   - blog
+  - devops
+blog_categories:
+  - devops
 author: Sam Bauers
 content_sidebar: >
   Google's new image caching mechanism in Gmail is an email marketer's nightmare
   come true. Here's how to keep tracking your email opens in Gmail.
-keywords: 'Gmail, Google Mail, image cache, cache busting, email marketing'
 image_small: /assets/uploads/cache-busting-gmail-new-image-caching.jpg
 image: /assets/uploads/cache-busting-gmail-new-image-caching.jpg
 description: >-
@@ -23,7 +25,7 @@ redirect_from:
   - /blog/how-we-do/cache-busting-gmail-new-image-caching/
   - /blog/tool-reviews/cache-busting-gmail-new-image-caching/
 date_published: 2013-12-16T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2013-12-16T00:00:00.000Z
 ---
 

@@ -6,9 +6,9 @@ permalink: /:categories/user-generated-content/
 type: ideas
 categories:
   - blog
+blog_categories:
 author: Ben Still
 content_sidebar: User generated content
-keywords: User generated content
 image_small: "/assets/uploads/2010/user-generated-content-small.png"
 image: "/assets/uploads/2010/user-generated-content-large.png"
 description: It's always great to get some user feedback. Brett was kind enough
@@ -17,7 +17,7 @@ tags: []
 time: ''
 redirect_from:
 date_published: ! ' 2010-01-08'
-publisher: Red Ant
+
 published: false
 updated_at: 2010-01-08
 

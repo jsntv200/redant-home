@@ -44,6 +44,7 @@ export const PostPartsFragmentDoc = gql`
   title
   permalink
   categories
+  blog_categories
   author
   description
   image_small
