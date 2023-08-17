@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: 'The Goose Strategy: Getting Out Of Scope'
 permalink: /:categories/goose-getting-out-of-scope/

@@ -1,5 +1,5 @@
 ---
-layout: v2-service-detail
+layout: service-detail
 title: Ruby Development
 description: >-
   Welcome to a world of dynamic and robust web development! Red Ant Ruby

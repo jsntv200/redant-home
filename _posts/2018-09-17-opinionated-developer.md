@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: The problem with great startup ideas is that everyone has one
 permalink: /:categories/opinionated-developer/

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Who are all these fake people on LinkedIn?
 permalink: /:categories/who-are-all-these-fake-people-on-linkedin/

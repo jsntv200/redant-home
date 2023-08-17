@@ -1,5 +1,5 @@
 ---
-layout: v2-assessment-questions
+layout: assessment-questions
 permalink: /payments/payment-maturity-assessment/owner
 class: assessment
 sitemap: false

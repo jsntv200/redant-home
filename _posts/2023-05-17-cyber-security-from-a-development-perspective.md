@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Cyber Security from a Development perspective
 permalink: /:categories/cyber-security-from-a-development-perspective/

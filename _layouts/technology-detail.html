@@ -1,11 +1,11 @@
 ---
-layout: v2-default
+layout: default
 ---
 
-{% include v2/background-image.html file = "svg/lines-7.svg" %}
+{% include background-image.html file = "svg/lines-7.svg" %}
 
 <div class="max-w-screen-lg mx-auto lg:px-12">
-  {% include v2/title-panel.html
+  {% include title-panel.html
     title = page.title
     subtitle = page.subtitle
     sub-description = page.description
@@ -26,7 +26,7 @@ layout: v2-default
     </h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto">
-      {% include v2/card.html
+      {% include card.html
         content = "We create, design and build new apps and platforms. We can help
         you design for scale, as well as strategy or product support as
         you need it. We'll take responsibility for delivering your
@@ -39,7 +39,7 @@ layout: v2-default
         subtitle = "New Builds"
         text-color = "red-100" %}
 
-      {% include v2/card.html
+      {% include card.html
         content = "We can also take over an existing project. Often companies need
         a bit more experience, developer resourcing, or help in
         completing certain features before they launch. Or you might
@@ -49,7 +49,7 @@ layout: v2-default
         subtitle = "Existing Apps"
         text-color = "red-100" %}
 
-      {% include v2/card.html
+      {% include card.html
         content = "We also provide a comprehensive Devops and Platform Support
         service. We'll take on responsibility for monitoring and
         providing technical support as part of an ongoing plan that we
@@ -81,7 +81,7 @@ layout: v2-default
             {% assign image = portfolio-page.images | where: "type", "mobile" | first %}
           {% endif %}
 
-          {% include v2/card-with-backdrop.html
+          {% include card-with-backdrop.html
             bg-color = portfolio-page.theme
             content = portfolio-page.description
             hr = "true"
@@ -101,6 +101,6 @@ layout: v2-default
   <hr class="bg-gray-100/40 h-[2px] mb-12"></hr>
 </div>
 
-{% include v2/companies.html
+{% include companies.html
   title="These companies trust us"
   content="For more than 20 years, we've had the pleasure of working with many startups, brands and large companies." %}

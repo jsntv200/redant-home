@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: How a project gets tested and deployed with GitFlow
 permalink: '/:categories/how-a-project-gets-tested-and-deployed-with-gitflow/'

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Cache busting Gmail's new image caching
 permalink: /:categories/cache-busting-gmail-new-image-caching/

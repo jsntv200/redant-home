@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: 'If my customers mainly use mobile devices, should I be building a phone app?'
 permalink: /:categories/mobile-apps-vs-mobile-site/

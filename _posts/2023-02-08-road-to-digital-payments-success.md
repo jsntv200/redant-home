@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 permalink: /:categories/road-to-digital-payments-success/
 type: payments

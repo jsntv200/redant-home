@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: MySQL SVN Backup- A simple solution for small databases
 permalink: /:categories/backing-up-mysql-into-subversion-using-mysql-svn-backup/

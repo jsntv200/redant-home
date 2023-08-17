@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: The hard thing about AI isn't making it - it's testing that it works
 type: news

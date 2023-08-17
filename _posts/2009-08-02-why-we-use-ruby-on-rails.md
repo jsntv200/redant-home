@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Why we use Ruby on Rails
 permalink: /:categories/why-we-use-ruby-on-rails/

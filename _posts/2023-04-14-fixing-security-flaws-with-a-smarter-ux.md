@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Fixing security flaws with a smarter UX
 permalink: /:categories/fixing-security-flaws-with-a-smarter-ux/

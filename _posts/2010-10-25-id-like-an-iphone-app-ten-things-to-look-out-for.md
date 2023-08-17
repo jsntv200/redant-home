@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: 10 ways to improve your phone app development brief
 permalink: '/:categories/id-like-an-iphone-app-ten-things-to-look-out-for/'

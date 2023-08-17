@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: ATO gets sharp on R&D Tax refunds for software development
 permalink: /:categories/ato-gets-sharp-on-rnd-tax-refunds-for-software-development/

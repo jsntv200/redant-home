@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: A good visual design brief
 description: A well written brief is all sorts of good. We explain why and what to consider when writing your own.

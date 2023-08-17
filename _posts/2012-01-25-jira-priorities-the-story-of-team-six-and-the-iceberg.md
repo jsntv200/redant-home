@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Setting Jira priorities - Team Six and The Iceberg
 permalink: /:categories/jira-priorities-the-story-of-team-six-and-the-iceberg/

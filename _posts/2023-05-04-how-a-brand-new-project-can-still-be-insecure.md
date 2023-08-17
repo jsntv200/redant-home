@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: How a brand new project can still be insecure
 permalink: /:categories/brand-new-code-but-bad-sad-face-emoji/

@@ -1,5 +1,5 @@
 ---
-layout: v2-assessment-results
+layout: assessment-results
 permalink: /cyber-security/cyber-security-maturity-assessment/results
 type: "cyber-security"
 area: "Cyber Security"

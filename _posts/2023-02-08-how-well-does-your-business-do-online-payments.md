@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 permalink: '/:categories/how-well-does-your-business-do-payments/'
 type: payments

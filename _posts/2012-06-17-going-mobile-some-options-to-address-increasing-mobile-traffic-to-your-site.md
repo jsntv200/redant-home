@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Going Mobile
 permalink: /:categories/going-mobile-some-options-to-address-increasing-mobile-traffic-to-your-site/

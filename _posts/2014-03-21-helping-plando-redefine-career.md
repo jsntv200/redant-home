@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: What we've been working on- Helping PlanDo redefine career
 permalink: /:categories/redefining-digital-dash dash-with-plan-do/

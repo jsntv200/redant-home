@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Red Ant creative award at UTS
 permalink: /:categories/red-ant-creative-award-at-uts/

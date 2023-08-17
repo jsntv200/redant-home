@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: The perils of ecommerce and how objects may appear larger and better
 permalink: /:categories/perils-ecommerce-objects-may-appear-larger-better-actually/

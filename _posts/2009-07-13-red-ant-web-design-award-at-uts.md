@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Red Ant web design award at UTS
 permalink: /:categories/red-ant-web-design-award-at-uts/

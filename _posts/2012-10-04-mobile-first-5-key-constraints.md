@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Mobile first - 5 key constraints on mobile devices
 permalink: /:categories/mobile-first-5-key-constraints/

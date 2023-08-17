@@ -1,8 +1,8 @@
 ---
-layout: v2-default
+layout: default
 ---
 
-{% include v2/background-image.html file="svg/lines-7.svg" %}
+{% include background-image.html file="svg/lines-7.svg" %}
 
 {{ content }}
 
@@ -13,7 +13,7 @@ layout: v2-default
     {% if page.type %}
       {% for post in posts %}
         {% if post.blog_categories contains page.type %}
-          {% include v2/card.html
+          {% include card.html
             content-class = "p-5"
             content = post.description
             image = post.image_small
@@ -27,7 +27,7 @@ layout: v2-default
     {% else %}
       {% for post in posts %}
         {% unless include.type != nil or include.type == post.type %}
-          {% include v2/card.html
+          {% include card.html
             content-class = "p-5"
             content = post.description
             image = post.image_small

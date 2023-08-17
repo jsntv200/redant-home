@@ -1,5 +1,5 @@
 ---
-layout:  v2-portfolio-detail
+layout:  portfolio-detail
 theme: gigcar
 project_url: https://gigcar.com.au/
 project_date: "2021"

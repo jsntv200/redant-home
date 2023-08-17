@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Building a meaningful forum
 description: Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.

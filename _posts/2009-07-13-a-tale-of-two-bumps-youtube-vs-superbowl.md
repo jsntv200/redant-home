@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: A tale of two bumps - Youtube vs Superbowl
 description: Is traditional broadcast advertising on its way out? The data is certainly giving us that impression.

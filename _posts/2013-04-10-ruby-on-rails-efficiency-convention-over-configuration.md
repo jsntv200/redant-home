@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Getting more efficient with our Ruby on Rails projects
 permalink: /:categories/ruby-on-rails-efficiency-convention-over-configuration/

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Hiring a web development team you'll love
 subtitle: We've integrated many different types of payment systems

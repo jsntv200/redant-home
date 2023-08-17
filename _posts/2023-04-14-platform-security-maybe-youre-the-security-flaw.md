@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Platform Security - maybe you're the security flaw?
 permalink: /:categories/maybe-you're-the-security-flaw/

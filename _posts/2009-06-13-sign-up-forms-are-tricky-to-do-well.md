@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Sign up forms are tricky to do well
 permalink: /:categories/sign-up-forms-are-tricky-to-do-well/

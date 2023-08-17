@@ -1,5 +1,5 @@
 ---
-layout: v2-service-detail
+layout: service-detail
 title: Code Review
 description: >-
   Welcome to a new era of code excellence! Are you ready to take your software

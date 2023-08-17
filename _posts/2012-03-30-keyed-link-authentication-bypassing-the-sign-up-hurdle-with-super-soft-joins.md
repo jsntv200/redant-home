@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Bypassing the sign up hurdle with super-soft joins
 permalink: /:categories/keyed-link-authentication-bypassing-the-sign-up-hurdle-with-super-soft-joins/

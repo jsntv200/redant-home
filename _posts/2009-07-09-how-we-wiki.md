@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: How we Wiki
 decription: Red Ant + clients + Wiki = awesome knowledge collaboration and sharing.

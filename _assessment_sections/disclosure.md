@@ -1,5 +1,5 @@
 ---
-layout: v2-assessment-questions
+layout: assessment-questions
 permalink: /privacy/privacy-maturity-assessment/disclosure
 class: assessment
 sitemap: false

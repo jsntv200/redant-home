@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Benchmarking the perfect project - what makes a better project
 permalink: /:categories/benchmarking-the-perfect-project-what-makes-one-project-better-than-another/

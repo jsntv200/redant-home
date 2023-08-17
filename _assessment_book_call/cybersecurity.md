@@ -1,5 +1,5 @@
 ---
-layout: v2-assessment-book-call
+layout: assessment-book-call
 permalink: /cyber-security/book-call/
 title: Book a call
 class: assessment

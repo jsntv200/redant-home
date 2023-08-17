@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: New work on Beautyheaven update
 permalink: /:categories/new-work-beautyheaven-update/

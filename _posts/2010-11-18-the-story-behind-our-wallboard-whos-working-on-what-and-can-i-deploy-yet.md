@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: The story behind our Wallboard
 permalink: /:categories/the-story-behind-our-wallboard-whos-working-on-what-and-can-i-deploy-yet/

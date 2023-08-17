@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Testing web projects
 permalink: /:categories/testing-web-projects-in-rails/

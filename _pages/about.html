@@ -1,12 +1,12 @@
 ---
-layout: v2-default
+layout: default
 permalink: /about/
 title: Everything About the Ruby Developers in Sydney Australia
 description: We’re a Technical Agency in Sydney, Australia specialising in creating large Digital Products. We use Ruby on Rails and AngularJS. Hopefully this page will tell you all you need to know about us.
 author: Ben Still
 ---
 
-{% include v2/background-image.html file="svg/lines-1.svg" %}
+{% include background-image.html file="svg/lines-1.svg" %}
 
 {% capture markup %}
   <p class='block mb-4'>
@@ -20,7 +20,7 @@ author: Ben Still
   </p>
 {% endcapture %}
 
-{% include v2/title-panel.html
+{% include title-panel.html
   title = "About"
   description = markup %}
 
@@ -30,7 +30,7 @@ author: Ben Still
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mx-auto">
       <div>
-        {% include v2/card.html
+        {% include card.html
           class="pb-12 mb-12 border-b-1 border-white/40"
           content="Many of our clients have an idea for their digital product but need
           help to refine their dreams into actionable project plans. We’ll help
@@ -46,7 +46,7 @@ author: Ben Still
       </div>
 
       <div>
-        {% include v2/card.html
+        {% include card.html
           class="pb-12 mb-12 border-b-1 border-white/40"
           content="Our team of developers are experienced in building complex Platforms
           and Digital Products. From Minimum Viable Products (MVPs) to complex
@@ -62,7 +62,7 @@ author: Ben Still
       </div>
 
       <div>
-        {% include v2/card.html
+        {% include card.html
           class="pb-12 mb-12 border-b-1 border-white/40"
           content="Whether it’s a compelling online customer experience or an easy to use
           interface for admin teams, our team of designers and front end
@@ -74,7 +74,7 @@ author: Ben Still
       </div>
 
       <div>
-        {% include v2/card.html
+        {% include card.html
           class="pb-12 mb-12 border-b-1 border-white/40"
           content="We create Software as a Service (Saas) platforms that use data in
           powerful ways to deliver true customer value. We integrate simple and
@@ -86,7 +86,7 @@ author: Ben Still
       </div>
 
       <div class="hidden">
-        {% include v2/card.html
+        {% include card.html
           class="pb-12 mb-12 border-b-1 border-white/40"
           content="We look at your systems from a developer perspective - your team, processes and technology. Unlike the traditional approach, which typically starts from a System Integration and Network view, we start with your code; how it was made, how you test and deploy changes and how you process data."
           icon-class="fa-shield-halved text-red-100"
@@ -98,7 +98,7 @@ author: Ben Still
   </div>
 </div>
 
-{% include v2/companies.html
+{% include companies.html
   title="These companies trust us"
   content="For more than 20 years, we've had the pleasure of working with many startups, brands and large companies." %}
 
@@ -109,25 +109,25 @@ author: Ben Still
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-auto">
-      {% include v2/card.html
+      {% include card.html
         content="In house Sydney Based Development - we work closely with our clients on the same timezone and in the same language "
         icon-class="fa-earth-oceania text-cyan-100"
         icon-wrapper-class="mx-auto border-cyan-100"
         wrapper-class="text-center" %}
 
-      {% include v2/card.html
+      {% include card.html
         content="Highly experienced team - having delivered hundreds of successful products the team have the tools and experience to get it done faster"
         icon-class="fa-star text-cyan-100"
         icon-wrapper-class="mx-auto border-cyan-100"
         wrapper-class="text-center" %}
 
-      {% include v2/card.html
+      {% include card.html
         content="Transparent project tracking with our purpose built system - know what’s happening on your project day by day"
         icon-class="fa-display-chart-up-circle-dollar text-cyan-100"
         icon-wrapper-class="mx-auto border-cyan-100"
         wrapper-class="text-center" %}
 
-      {% include v2/card.html
+      {% include card.html
         content="Automated testing delivering stable and reliable development"
         icon-class="fa-robot text-cyan-100"
         icon-wrapper-class="mx-auto border-cyan-100"
@@ -136,7 +136,7 @@ author: Ben Still
   </div>
 </div>
 
-{% include v2/cta-panel.html
+{% include cta-panel.html
   button-label = "Request a call back"
   description = "If you’re ready to get started, take a look at our Code Review and Digital Product Workshops. Or if you want to talk to someone about your project ...call us now."
   title = "Let's Build Something Awesome" %}

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Yates Problem Solver iPhone App
 permalink: /:categories/yates-problem-solver-iphone-app/

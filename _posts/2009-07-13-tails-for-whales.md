@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Tails for Whales
 permalink: /:categories/tails-for-whales/

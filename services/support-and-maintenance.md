@@ -1,5 +1,5 @@
 ---
-layout: v2-service-detail
+layout: service-detail
 title: Support & Maintenance
 description: >
   Welcome to a world of worry-free digital operations! Red Ant Application

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Michelle Bridges 12WBT build
 permalink: /:categories/our-work-michelle-bridges-12wbt-build/

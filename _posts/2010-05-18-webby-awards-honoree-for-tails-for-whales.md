@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Webby awards honoree for tails for whales
 permalink: /:categories/webby-awards-honoree-for-tails-for-whales/

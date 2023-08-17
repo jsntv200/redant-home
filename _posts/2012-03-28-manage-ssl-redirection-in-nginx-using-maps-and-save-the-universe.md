@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: 'Manage SSL redirection in Nginx using maps, and save the universe'
 permalink: /:categories/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Digital agency vs a Technical Agency
 permalink: /:categories/digital-agency-vs-technical/

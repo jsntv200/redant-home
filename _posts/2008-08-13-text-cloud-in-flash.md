@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Text Cloud in Flash
 description: Visualising a list of information in interesting ways

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Fast follower strategy DOA?
 permalink: /:categories/fast-follower-strategy-doa/

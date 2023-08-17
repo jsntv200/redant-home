@@ -21,7 +21,7 @@
     {% endif %}
 
     {% if include.image-desktop %}
-      {% include v2/portfolio/desktop-view.html
+      {% include portfolio/desktop-view.html
         class-wrapper = class-wrapper
         class-md-height = "md:h-[700px]"
         is-portfolio-page = include.is-portfolio-page
@@ -47,7 +47,7 @@
 
       <div class="{{ mobile-wrapper-class }}">
         {% for image in images-mobile limit max-previews %}
-          {% include v2/portfolio/mobile-view.html
+          {% include portfolio/mobile-view.html
             class-mobile-height = class-mobile-height
             class-position = class-position
             path = image.path

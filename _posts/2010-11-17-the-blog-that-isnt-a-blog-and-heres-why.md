@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: The blog that isn't a blog - and here's why
 permalink: /:categories/the-blog-that-isnt-a-blog-and-heres-why/

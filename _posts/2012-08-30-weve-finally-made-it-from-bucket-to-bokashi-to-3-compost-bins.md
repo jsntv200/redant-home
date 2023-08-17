@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: We've finally made it - from bucket to bokashi to 3 compost bins
 permalink: /:categories/weve-finally-made-it-from-bucket-to-bokashi-to-3-compost-bins/

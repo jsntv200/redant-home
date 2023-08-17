@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: A look inside our Jenkins Pipeline - how we make reliable stuff
 permalink: /:categories/a-look-inside-our-jenkins-pipeline-how-we-make-reliable-stuff/

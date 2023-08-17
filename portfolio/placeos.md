@@ -1,5 +1,5 @@
 ---
-layout:  v2-portfolio-detail
+layout:  portfolio-detail
 theme: placeos
 project_url: https://place.technology/
 project_date: '2013 - '

@@ -35,9 +35,9 @@ var config_default = defineConfig({
             name: "layout",
             label: "layout",
             required: true,
-            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail", "v2-service-detail"],
+            options: ["blog-detail", "project-detail", "technology-detail", "job-detail", "service-detail"],
             ui: {
-              defaultItem: "v2-jobs-detail",
+              defaultItem: "jobs-detail",
               description: "Determines which layout this content will use."
             }
           },
@@ -101,9 +101,9 @@ var config_default = defineConfig({
             name: "layout",
             label: "layout",
             required: true,
-            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail", "v2-service-detail"],
+            options: ["blog-detail", "project-detail", "technology-detail", "job-detail", "service-detail"],
             ui: {
-              defaultItem: "v2-project-detail",
+              defaultItem: "project-detail",
               description: "Determines which layout this content will use."
             }
           },
@@ -412,10 +412,10 @@ var config_default = defineConfig({
             name: "layout",
             type: "string",
             required: true,
-            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail", "v2-service-detail"],
+            options: ["blog-detail", "project-detail", "technology-detail", "job-detail", "service-detail"],
             ui: {
-              defaultItem: "v2-blog-detail",
-              description: "Do not change this value. Needs to be 'v2-blog-detail'"
+              defaultItem: "blog-detail",
+              description: "Do not change this value. Needs to be 'blog-detail'"
             }
           },
           {
@@ -558,9 +558,9 @@ var config_default = defineConfig({
             label: "layout",
             name: "layout",
             required: true,
-            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail", "v2-service-detail"],
+            options: ["blog-detail", "project-detail", "technology-detail", "job-detail", "service-detail"],
             ui: {
-              defaultItem: "v2-service-detail",
+              defaultItem: "service-detail",
               description: "Determines which layout this content will use."
             }
           },
@@ -711,9 +711,9 @@ var config_default = defineConfig({
             name: "layout",
             label: "layout",
             required: true,
-            options: ["v2-blog-detail", "v2-project-detail", "v2-technology-detail", "v2-job-detail", "v2-service-detail"],
+            options: ["blog-detail", "project-detail", "technology-detail", "job-detail", "service-detail"],
             ui: {
-              defaultItem: "v2-technology-detail",
+              defaultItem: "technology-detail",
               description: "Determines which layout this content will use."
             }
           },

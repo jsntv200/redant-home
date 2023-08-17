@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Have you noticed how fast some sites are these days?
 permalink: /:categories/asynchronous-javascript-frameworks-like-angular-js/

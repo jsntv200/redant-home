@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: But is it viral?
 permalink: /:categories/but-is-it-viral/

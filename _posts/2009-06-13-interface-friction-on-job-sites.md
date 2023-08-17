@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Interface friction on job sites
 description: How many steps do you really need to take to put a job ad up?

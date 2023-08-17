@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Defining a Digital Product
 permalink: /:categories/defining-a-digital-product

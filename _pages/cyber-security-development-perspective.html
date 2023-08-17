@@ -1,12 +1,12 @@
 ---
-layout: v2-default
+layout: default
 permalink: /cyber-security-development-perspective/
 title: We Look At Cyber Security From A Development Perspective
 description: Even the most bullet proof network and infrastructure can be undone by poor development practices and processes in teams.
 tailwind: true
 ---
 
-{% include v2/background-image.html file="svg/lines-3.svg" %}
+{% include background-image.html file="svg/lines-3.svg" %}
 
 <div
   class="max-w-screen-2xl mx-auto relative isolate px-6 pt-14 overflow-hidden pb-24 md:pb-[200px]"
@@ -139,7 +139,7 @@ tailwind: true
   </div>
 </div>
 
-{% include v2/alert-panel.html %}
+{% include alert-panel.html %}
 
 <div>
   <div class="relative">
@@ -170,7 +170,7 @@ tailwind: true
 
     {% for post in site.posts %}
       {% if post.blog_categories contains 'cyber-security' %}
-        {% include v2/post-card-wide.html
+        {% include post-card-wide.html
           description = post.description
           image_small = post.image_small
           title = post.title

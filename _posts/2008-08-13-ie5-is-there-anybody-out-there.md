@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: ie5 - is there anybody out there?
 permalink: /:categories/ie5-is-there-anybody-out-there/

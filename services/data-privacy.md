@@ -1,5 +1,5 @@
 ---
-layout: v2-service-detail
+layout: service-detail
 title: Data Privacy
 description: >
   Welcome to a realm where data protection meets peace of mind! Red Ant Data

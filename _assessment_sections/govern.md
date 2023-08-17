@@ -1,5 +1,5 @@
 ---
-layout: v2-assessment-questions
+layout: assessment-questions
 permalink: /cyber-security/cyber-security-maturity-assessment/govern
 class: assessment
 sitemap: false

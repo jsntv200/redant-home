@@ -1,5 +1,5 @@
 ---
-layout: v2-default
+layout: default
 permalink: /portfolio/
 title: "Ruby on Rails Applications for Web and Mobile : See Our Showcase of Innovative and Scalable Solutions"
 description: It isn’t just good design, or a good user experience.  Great digital products come about when these blend together.
@@ -7,9 +7,9 @@ redirect_from:
 
 ---
 
-{% include v2/background-image.html file = "svg/lines-5.svg" %}
+{% include background-image.html file = "svg/lines-5.svg" %}
 
-{% include v2/title-panel.html title = "Portfolio" %}
+{% include title-panel.html title = "Portfolio" %}
 
 <div class="max-w-screen-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto px-6 lg:px-8 mb-24">
   {% for slug in site.data.portfolio.order %}
@@ -21,7 +21,7 @@ redirect_from:
         {% assign image = page.images | where: "type", "mobile" | first %}
       {% endif %}
 
-      {% include v2/card-with-backdrop.html
+      {% include card-with-backdrop.html
         bg-color=page.theme
         content=page.description
         hr="true"

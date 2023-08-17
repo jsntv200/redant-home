@@ -1,8 +1,8 @@
 ---
-layout: v2-default
+layout: default
 ---
 
-{% include v2/background-image.html
+{% include background-image.html
   color=page.theme
   file="svg/lines-5.svg" %}
 
@@ -15,7 +15,7 @@ layout: v2-default
   </h2>
 
   <div class="flex justify-center">
-    {% include v2/portfolio/previews.html
+    {% include portfolio/previews.html
       image-desktop = image-desktop
       images-mobile = images-mobile
       is-portfolio-page = true
@@ -79,5 +79,5 @@ layout: v2-default
 </div>
 
 <div class="max-w-screen-2xl mx-auto relative isolate px-6 pb-12 2xl:px-0 lg:pb-24">
-{% include v2/related-panel.html technologies = page.technology_tags %}
+{% include related-panel.html technologies = page.technology_tags %}
 </div>

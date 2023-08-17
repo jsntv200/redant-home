@@ -1,5 +1,5 @@
 ---
-layout: v2-portfolio-detail
+layout: portfolio-detail
 theme: 12wbt
 slug: 12wbt
 title: 'Scaling Up from MVP to Global SaaS: Strategies for Successful Expansion'

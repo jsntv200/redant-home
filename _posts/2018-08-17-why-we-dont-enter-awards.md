@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Why we don't enter awards… And why I irritate Wayne.
 permalink: /:categories/why-we-dont-enter-awards-and-why-i-irritate-wayne/

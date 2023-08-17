@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Clicktale Review - how the technology works and why it didn't for us
 permalink: /:categories/clicktale-review-technology/

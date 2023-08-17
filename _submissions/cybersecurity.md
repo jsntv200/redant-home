@@ -1,5 +1,5 @@
 ---
-layout: v2-assessment-submit
+layout: assessment-submit
 permalink: /cyber-security/cyber-security-maturity-assessment/submit
 class: assessment
 sitemap: false

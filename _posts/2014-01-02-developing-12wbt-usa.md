@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: What we've been working on- Developing 12WBT for the USA
 permalink: /:categories/developing-12wbt-usa/

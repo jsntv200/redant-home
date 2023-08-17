@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Oooh we've been busy little ants…
 permalink: /:categories/oooh-weve-been-busy-little-ants/

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: >-
   Which technology stacks or frameworks are more or less susceptible to being

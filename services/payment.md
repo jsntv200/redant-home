@@ -1,5 +1,5 @@
 ---
-layout: v2-service-detail
+layout: service-detail
 title: Payments
 description: >-
   Welcome to a world of effortless payments and enhanced customer experiences!
