@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Tracking stuff - part one
 description: Bugs, no body likes them, everyone has to deal with them. Here's how we've tried tracking ours so far.
@@ -7,6 +7,7 @@ permalink: /:categories/tracking-stuff-part-one/
 type: ideas
 categories:
   - blog
+blog_categories:
 author: Ben Still
 image_small: /assets/uploads/2009/track-small.jpg
 image: /assets/uploads/2009/track-large.jpg

@@ -1,5 +1,5 @@
 ---
-layout: v2-service-detail
+layout: service-detail
 title: Dev Ops
 description: >-
   Welcome to a world of efficient and seamless software development! Our DevOps

@@ -1,16 +1,18 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Clicktale Review - how the technology works and why it didn't for us
 permalink: /:categories/clicktale-review-technology/
 type: news
 categories:
   - blog
+  - ruby-on-rails
+blog_categories:
+  - ruby-on-rails
 author: Ben Still
 content_sidebar: >
   Clicktale review which looks at how the technology works and some real world
   issues that you might face when implementing Clicktale
-keywords: Clicktale review
 image_small: /assets/uploads/Heatmap.png
 image: /assets/uploads/Heatmap-2.png
 description: >-
@@ -22,7 +24,7 @@ redirect_from:
   - /tool-reviews/clicktale-review-technology/
   - /blog/tool-reviews/clicktale-review-technology/
 date_published: 2012-01-31T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2012-01-31T00:00:00.000Z
 ---
 

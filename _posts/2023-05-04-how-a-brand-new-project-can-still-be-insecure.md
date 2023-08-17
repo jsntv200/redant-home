@@ -1,11 +1,13 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: How a brand new project can still be insecure
 permalink: /:categories/brand-new-code-but-bad-sad-face-emoji/
 type: ideas
 categories:
   - blog
+  - cyber-security
+blog_categories:
   - cyber-security
 author: Ben Still
 description: >-
@@ -18,7 +20,7 @@ content_sidebar: >
   there’s also a misplaced assumption. In fact, a brand new code release can
   have many different security problems. Here's how we look for them.
 date_published: 2023-05-03T14:00:00.000Z
-publisher: Red Ant
+
 image_small: /assets/uploads/iStock-668575918.jpg
 image: /assets/uploads/iStock-668575918.jpg
 updated_at: 2023-05-03T14:00:00.000Z

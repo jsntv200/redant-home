@@ -1,11 +1,13 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: 'The Goose Strategy: Getting Out Of Scope'
 permalink: /:categories/goose-getting-out-of-scope/
 type: ideas
 categories:
   - blog
+  - cyber-security
+blog_categories:
   - cyber-security
 author: Ben Still
 content_sidebar: >
@@ -38,7 +40,7 @@ description: >-
   audit.
 date_published: 2023-04-13T14:00:00.000Z
 updated_at: 2023-04-13T14:00:00.000Z
-publisher: Red Ant
+
 redirect_from:
   - /cyber-security/goose-getting-out-of-scope/
 ---

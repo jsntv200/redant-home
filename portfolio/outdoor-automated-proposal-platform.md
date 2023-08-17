@@ -1,5 +1,5 @@
 ---
-layout:  v2-portfolio-detail
+layout:  portfolio-detail
 theme: move
 slug: outdoor-automated-proposal-platform
 title: >-

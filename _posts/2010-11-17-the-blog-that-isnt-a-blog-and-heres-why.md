@@ -1,16 +1,16 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: The blog that isn't a blog - and here's why
 permalink: /:categories/the-blog-that-isnt-a-blog-and-heres-why/
 type: news
 categories:
   - blog
+blog_categories:
 author: Ben Still
 content_sidebar: >
   We've recently launched a new blog feature on the Huggies site. But it's a
   blog with a difference.
-keywords: huggies blog
 image_small: /assets/uploads/2010/huggies-blogs-1-small.jpg
 image: /assets/uploads/2010/huggies-blogs-1.jpg
 description: >-
@@ -21,7 +21,7 @@ time: ''
 redirect_from:
   - /our-work/the-blog-that-isnt-a-blog-and-heres-why/
 date_published: 2010-11-17T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2010-11-17T00:00:00.000Z
 published: false
 ---

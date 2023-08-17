@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Get the Red Ant desktop wallpaper
 permalink: /:categories/get-the-desktop/
@@ -7,9 +7,10 @@ type: news
 categories:
   - blog
   - design
+blog_categories:
+  - design
 author: Ben Still
 description: Download your Red Ant desktop wallpaper today.
-keywords: red ant desktop wallpapers
 image_small: /assets/uploads/2009/redant-wallpaper-small.png
 image: /assets/uploads/2009/redant-wallpaper-1400x1050.jpg
 content_sidebar: |
@@ -19,7 +20,7 @@ time: ''
 redirect_from:
   - /our-work/get-the-desktop/
 date_published: 2009-07-12T14:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2009-07-13T00:00:00.000Z
 published: false
 ---

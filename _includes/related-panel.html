@@ -19,7 +19,7 @@
       {% assign page = site.pages | where: 'slug', slug | first %}
 
       {% if page %}
-        {% include v2/card.html
+        {% include card.html
           description = page.type
           image = page.image
           text-color = "text-red-50"
@@ -40,7 +40,7 @@
       {% assign page = site.pages | where: 'slug', slug | first %}
 
       {% if page %}
-        {% include v2/card.html
+        {% include card.html
           description = page.type
           image = page.image
           text-color = "text-red-50"

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Feeling a bit stuck on your MVP development?
 permalink: /:categories/mvp-software-development-options/
@@ -7,11 +7,12 @@ type: news
 categories:
   - blog
   - products
+blog_categories:
+  - products
   - strategy
 author: Ben Still
 content_sidebar: |
   Feeling stuck on your MVP development process? Some options to get unstuck
-keywords: MVP development
 image_small: /assets/uploads/mvp-software-development-options.jpg
 image: /assets/uploads/mvp-software-development-options.jpg
 description: >-
@@ -22,7 +23,7 @@ time: ''
 redirect_from:
   - /software-development/mvp-software-development-options/
 date_published: 2018-09-17T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2018-09-17T00:00:00.000Z
 published: true
 ---

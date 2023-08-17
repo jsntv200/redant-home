@@ -1,11 +1,13 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Cyber Security from a Development perspective
 permalink: /:categories/cyber-security-from-a-development-perspective/
 type: news
 categories:
   - blog
+  - cyber-security
+blog_categories:
   - cyber-security
 author: Ben Still
 content_sidebar: >
@@ -23,7 +25,7 @@ description: >-
   suit and breaking into your network. It will be finding a mistake or loophole
   in your code, and taking advantage.
 date_published: 2023-05-16T14:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2023-05-16T14:00:00.000Z
 redirect_from:
   - /cyber-security/cyber-security-from-a-development-perspective/

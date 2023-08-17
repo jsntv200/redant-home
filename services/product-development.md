@@ -1,5 +1,5 @@
 ---
-layout: v2-service-detail
+layout: service-detail
 title: Product Development
 description: >-
   Welcome to the Red Ant Digital Product Development Workshop – your gateway to

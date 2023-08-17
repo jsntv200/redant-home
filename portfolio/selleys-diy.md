@@ -1,5 +1,5 @@
 ---
-layout:  v2-portfolio-detail
+layout:  portfolio-detail
 theme: 12wbt
 slug: selleys-diy
 title: 'Selleys DIY Site: How Our Technical Expertise Transformed Home Improvement'

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: How we Wiki
 decription: Red Ant + clients + Wiki = awesome knowledge collaboration and sharing.
@@ -7,6 +7,7 @@ permalink: /:category/how-we-wiki/
 type: ideas
 categories:
   - blog
+blog_categories:
 author: Ben Still
 image_small: /assets/uploads/2009/wiki-wiki-small.jpg
 image: /assets/uploads/2009/wiki-wiki-big.jpg

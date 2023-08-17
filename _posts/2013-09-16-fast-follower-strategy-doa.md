@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Fast follower strategy DOA?
 permalink: /:categories/fast-follower-strategy-doa/
@@ -7,13 +7,14 @@ type: ideas
 categories:
   - blog
   - products
+blog_categories:
+  - products
   - strategy
   - mobile
 author: Ben Still
 content_sidebar: >
   Fast follower is a strategy used to replicate successful products. Here are 5
   reasons why it might not work out, based on our experience.
-keywords: fast follower
 image_small: /assets/uploads/fast-follower-strategy-doa.jpg
 image: /assets/uploads/fast-follower-strategy-doa.jpg
 description: >-
@@ -24,7 +25,7 @@ time: ''
 redirect_from:
   - /strategy/fast-follower-strategy-doa/
 date_published: 2013-09-16T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2013-09-16T00:00:00.000Z
 published: true
 ---

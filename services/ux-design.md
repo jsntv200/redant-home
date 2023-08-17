@@ -1,5 +1,5 @@
 ---
-layout: v2-service-detail
+layout: service-detail
 title: UX Design
 description: >-
   Welcome to a world where user experiences are transformed into unforgettable

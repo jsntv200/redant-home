@@ -1,13 +1,13 @@
 ---
-layout: v2-default
+layout: default
 ---
 
-{% include v2/background-image.html
+{% include background-image.html
   color = "red"
   file = "svg/lines-4.svg" %}
 
 <div class="max-w-screen-lg mx-auto lg:px-12">
-  {% include v2/title-panel.html
+  {% include title-panel.html
     title = page.title
     description = page.subtitle
     sub-description = page.description
@@ -24,7 +24,7 @@ layout: v2-default
 
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 mx-auto">
     {% for item in page.section_1_list %}
-      {% include v2/card-numbered.html
+      {% include card-numbered.html
         text = item.text
         title = item.title
         number = forloop.index %}
@@ -40,7 +40,7 @@ layout: v2-default
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mx-auto">
       {% for item in page.section_2_list %}
-        {% include v2/card-numbered.html
+        {% include card-numbered.html
           text = item.text
           title = item.title
           number = forloop.index %}
@@ -49,7 +49,7 @@ layout: v2-default
   </div>
 </div>
 
-{% include v2/cta-panel.html
+{% include cta-panel.html
   button-label = page.cta_button_label
   class-wrapper = "lg:pt-48 lg:pb-24"
   description = page.cta_description
@@ -59,8 +59,8 @@ layout: v2-default
   <hr class="bg-white/40 h-[2px]"></hr>
 </div>
 
-{% include v2/companies.html
+{% include companies.html
   title="We are a 100% Aussie Team"
   content="Our clients." %}
 
-{% include v2/testimonials.html %}
+{% include testimonials.html %}

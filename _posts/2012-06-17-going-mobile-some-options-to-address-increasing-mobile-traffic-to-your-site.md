@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Going Mobile
 permalink: /:categories/going-mobile-some-options-to-address-increasing-mobile-traffic-to-your-site/
@@ -7,11 +7,12 @@ type: ideas
 categories:
   - blog
   - mobile
+blog_categories:
+  - mobile
 author: Ben Still
 content_sidebar: >
   Here are four approaches for improving mobile experience on your site. These
   aren't exclusive, our recommendation is to adopt all four if you can.
-keywords: responsive mobile experience
 image_small: /assets/uploads/going-mobile-1.jpg
 image: /assets/uploads/going-mobile-2.jpg
 description: >-
@@ -22,7 +23,7 @@ time: ''
 redirect_from:
   - /mobile/going-mobile-some-options-to-address-increasing-mobile-traffic-to-your-site/
 date_published: 2012-06-17T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2012-06-17T00:00:00.000Z
 ---
 

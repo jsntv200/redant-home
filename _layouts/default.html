@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
-  {% include v2/head.html %}
+  {% include head.html %}
   <body class="bg-black text-white flex flex-col min-h-screen">
     <div class="flex-grow pt-16 md:pt-24" data-controller="aos">
       <div
         data-controller="nav"
         data-nav-scroll-animation-value="true">
-        {% include v2/nav.html %}
+        {% include nav.html %}
         {% if page.is_blog %}
-          {% include v2/blog-nav.html %}
+          {% include blog-nav.html %}
         {% endif %}
       </div>
       {{ content }}
     </div>
     <div class="mt-auto">
-      {% include v2/footer.html %}
-      {% include v2/hire-us.html %}
+      {% include footer.html %}
+      {% include hire-us.html %}
     </div>
-    {% include v2/scripts.html %}
+    {% include scripts.html %}
   </body>
 </html>

@@ -1,8 +1,8 @@
 ---
-layout: v2-default
+layout: default
 ---
 
-{% include v2/background-image.html file="svg/lines-7.svg" %}
+{% include background-image.html file="svg/lines-7.svg" %}
 
 {{ content }}
 
@@ -11,21 +11,23 @@ layout: v2-default
     {% assign posts = site.posts | sort: 'updated_at' | reverse %}
 
     {% if page.type %}
-      {% for post in site.categories[page.type] %}
-        {% include v2/card.html
-          content-class = "p-5"
-          content = post.description
-          image = post.image_small
-          image-class = "md:h-[320px]"
-          subtitle = post.title
-          text-color = "text-cyan-100"
-          url = post.url
-          wrapper-class = "bg-cyan-100/[0.15]" %}
+      {% for post in posts %}
+        {% if post.blog_categories contains page.type %}
+          {% include card.html
+            content-class = "p-5"
+            content = post.description
+            image = post.image_small
+            image-class = "md:h-[320px]"
+            subtitle = post.title
+            text-color = "text-cyan-100"
+            url = post.url
+            wrapper-class = "bg-cyan-100/[0.15]" %}
+        {% endif %}
       {% endfor %}
     {% else %}
       {% for post in posts %}
         {% unless include.type != nil or include.type == post.type %}
-          {% include v2/card.html
+          {% include card.html
             content-class = "p-5"
             content = post.description
             image = post.image_small

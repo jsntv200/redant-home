@@ -1,5 +1,5 @@
 ---
-layout: v2-service-detail
+layout: service-detail
 title: Cyber Security
 description: >-
   Red Ant AppSec Services are meticulously crafted to fortify your applications

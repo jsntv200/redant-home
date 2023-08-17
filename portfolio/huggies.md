@@ -1,5 +1,5 @@
 ---
-layout:  v2-portfolio-detail
+layout:  portfolio-detail
 theme: huggies
 slug: huggies
 title: 'Scaling Success: How We Built a Community for Millions of Parents'

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: 'Manage SSL redirection in Nginx using maps, and save the universe'
 permalink: /:categories/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/
@@ -7,11 +7,12 @@ type: ideas
 categories:
   - blog
   - devops
+blog_categories:
+  - devops
 author: Sam Bauers
 content_sidebar: >
   A simple tutorial showing how to manage a large list of rewrite rules to
   enforce SSL/HTTPS or PLAIN/HTTP in Nginx.
-keywords: nginx ssl redirection
 image_small: /assets/uploads/nginx.jpg
 image: /assets/uploads/nginx.jpg
 description: >-
@@ -23,7 +24,7 @@ redirect_from:
   - >-
     /devops/manage-ssl-redirection-in-nginx-using-maps-and-save-the-universe/
 date_published: 2012-03-28T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2012-03-28T00:00:00.000Z
 published: true
 ---

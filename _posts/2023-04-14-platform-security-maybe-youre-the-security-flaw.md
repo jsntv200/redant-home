@@ -1,11 +1,13 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Platform Security - maybe you're the security flaw?
 permalink: /:categories/maybe-you're-the-security-flaw/
 type: ideas
 categories:
   - blog
+  - cyber-security
+blog_categories:
   - cyber-security
 author: Ben Still
 content_sidebar: >
@@ -18,7 +20,7 @@ content_sidebar: >
   redundant.
 date_published: 2023-04-13T14:00:00.000Z
 updated_at: 2023-04-13T14:00:00.000Z
-publisher: Red Ant
+
 image: /assets/uploads/Screenshot 2023-04-14 at 11.10.18 am.png
 image_small: /assets/uploads/Screenshot 2023-04-14 at 11.10.18 am.png
 description: >-

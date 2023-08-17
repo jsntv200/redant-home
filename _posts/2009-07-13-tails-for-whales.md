@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Tails for Whales
 permalink: /:categories/tails-for-whales/
@@ -7,11 +7,12 @@ type: news
 categories:
   - blog
   - ruby-on-rails
+blog_categories:
+  - ruby-on-rails
 author: Ben Still
 content_sidebar: >
   Tails was whales has been a huge success, and we've loved working on it. And
   now we're making it even better.
-keywords: tails for whales
 image_small: /assets/uploads/Tails-for-Whales.jpg
 image: /assets/uploads/Tails-for-Whales.jpg
 description: >-
@@ -22,7 +23,7 @@ time: ''
 redirect_from:
   - /ruby-on-rails/tails-for-whales/
 date_published: 2009-07-13T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2009-07-13T00:00:00.000Z
 published: false
 ---

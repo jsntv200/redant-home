@@ -1,17 +1,18 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 permalink: /:categories/how-much-should-I-spend/
 type: ideas
 categories:
   - blog
   - products
+blog_categories:
+  - products
   - strategy
 author: Ben Still
 tags: []
 time: 5 Mins Read
 date_published: 2020-02-27T00:00:00.000Z
-publisher: Red Ant
 title: How much should I spend on my website?
 content_sidebar: >
   Building a SaaS platform isn’t a modular commodity with a fixed price. It
@@ -19,7 +20,6 @@ content_sidebar: >
   to make sure you have enough funds to stay in the game. Here we discuss how to
   calculate your tech break even and understand how far your funding runway
   really is.
-keywords: 'Budget, SaaS platform'
 image_small: /assets/uploads/2020/Desktop.png
 image: /assets/uploads/2020/Desktop-1.png
 description: Building a SaaS platform isn’t a modular commodity with a fixed price.

@@ -1,5 +1,5 @@
 ---
-layout: v2-technology-detail
+layout: technology-detail
 category: Languages
 type: Technology
 title: Swift

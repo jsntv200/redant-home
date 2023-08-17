@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: MySQL SVN Backup- A simple solution for small databases
 permalink: /:categories/backing-up-mysql-into-subversion-using-mysql-svn-backup/
@@ -7,13 +7,12 @@ type: ideas
 categories:
   - blog
   - devops
+blog_categories:
+  - devops
 author: Sam Bauers
 content_sidebar: >
   Introducing a simple tool for backing up small MySQL databases to Subversion.
   The open source script MySQL SVN Backup. Now featuring dolphins with lasers.
-keywords: >-
-  Subversion, MySQL, backup, MySQL backup, small database backup, dolphin with
-  lasers
 image_small: /assets/uploads/mysql.jpg
 image: /assets/uploads/mysql.jpg
 description: >-
@@ -25,7 +24,7 @@ redirect_from:
   - >-
     /devops/backing-up-mysql-into-subversion-using-mysql-svn-backup/
 date_published: 2014-01-16T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2014-01-16T00:00:00.000Z
 published: false
 ---

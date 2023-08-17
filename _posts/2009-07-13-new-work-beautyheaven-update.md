@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: New work on Beautyheaven update
 permalink: /:categories/new-work-beautyheaven-update/
@@ -7,12 +7,13 @@ type: news
 categories:
   - blog
   - ruby-on-rails
+blog_categories:
+  - ruby-on-rails
 author: Ben Still
 content_sidebar: >
   One of our long-term client, Beauty Heaven, has let us make some snazzy new
   updates to their super popular website. Think faster, higher and that sort of
   stuff.
-keywords: beautyheaven ruby on rails
 image_small: /assets/uploads/2009/beauty-heaven-site.jpg
 image: /assets/uploads/2009/beauty-heaven-site.jpg
 description: >-
@@ -24,7 +25,7 @@ time: ''
 redirect_from:
   - /our-work/new-work-beautyheaven-update/
 date_published: 2009-07-13T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2009-07-13T00:00:00.000Z
 published: false
 ---

@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Fat footers - should they include a sitemap
 permalink: /:categories/fat-footers/
@@ -7,11 +7,12 @@ type: ideas
 categories:
   - blog
   - design
+blog_categories:
+  - design
 author: Ben Still
 content_sidebar: >
   In several recent projects, we've experimented with extending the footer area.
   We've had some mixed results.
-keywords: website footer design
 image_small: /assets/uploads/fat-footer-bigfoot.jpg
 image: /assets/uploads/fat-footer-bigfoot2.jpg
 description: >-
@@ -22,7 +23,7 @@ time: ''
 redirect_from:
   - /blog/how-we-do/fat-footers/
 date_published: 2009-07-30T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2009-07-30T00:00:00.000Z
 ---
 

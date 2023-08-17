@@ -361,7 +361,8 @@ export type Post = Node & Document & {
   layout: Scalars['String']['output'];
   title: Scalars['String']['output'];
   permalink: Scalars['String']['output'];
-  categories?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+  categories: Array<Scalars['String']['output']>;
+  blog_categories: Array<Scalars['String']['output']>;
   author?: Maybe<Scalars['String']['output']>;
   description: Scalars['String']['output'];
   image_small?: Maybe<Scalars['String']['output']>;
@@ -392,6 +393,7 @@ export type PostFilter = {
   title?: InputMaybe<StringFilter>;
   permalink?: InputMaybe<StringFilter>;
   categories?: InputMaybe<StringFilter>;
+  blog_categories?: InputMaybe<StringFilter>;
   author?: InputMaybe<StringFilter>;
   description?: InputMaybe<StringFilter>;
   image_small?: InputMaybe<ImageFilter>;
@@ -700,6 +702,7 @@ export type PostMutation = {
   title?: InputMaybe<Scalars['String']['input']>;
   permalink?: InputMaybe<Scalars['String']['input']>;
   categories?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  blog_categories?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   author?: InputMaybe<Scalars['String']['input']>;
   description?: InputMaybe<Scalars['String']['input']>;
   image_small?: InputMaybe<Scalars['String']['input']>;
@@ -761,7 +764,7 @@ export type JobsPartsFragment = { __typename?: 'Jobs', published: boolean, layou
 
 export type PortfolioPartsFragment = { __typename?: 'Portfolio', published: boolean, layout: string, theme: string, slug?: string | null, title?: string | null, description?: string | null, project_url?: string | null, client?: string | null, project_date?: string | null, team_size?: string | null, lines_of_code?: string | null, technology_tags?: Array<string | null> | null, industry_vertical_tags?: Array<string | null> | null, service_tags?: Array<string | null> | null, body?: any | null };
 
-export type PostPartsFragment = { __typename?: 'Post', published: boolean, layout: string, title: string, permalink: string, categories?: Array<string | null> | null, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean };
+export type PostPartsFragment = { __typename?: 'Post', published: boolean, layout: string, title: string, permalink: string, categories: Array<string>, blog_categories: Array<string>, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean };
 
 export type ServicesPartsFragment = { __typename?: 'Services', published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null };
 
@@ -810,7 +813,7 @@ export type PostQueryVariables = Exact<{
 }>;
 
 
-export type PostQuery = { __typename?: 'Query', post: { __typename?: 'Post', id: string, published: boolean, layout: string, title: string, permalink: string, categories?: Array<string | null> | null, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
+export type PostQuery = { __typename?: 'Query', post: { __typename?: 'Post', id: string, published: boolean, layout: string, title: string, permalink: string, categories: Array<string>, blog_categories: Array<string>, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
 
 export type PostConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']['input']>;
@@ -822,7 +825,7 @@ export type PostConnectionQueryVariables = Exact<{
 }>;
 
 
-export type PostConnectionQuery = { __typename?: 'Query', postConnection: { __typename?: 'PostConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'PostConnectionEdges', cursor: string, node?: { __typename?: 'Post', id: string, published: boolean, layout: string, title: string, permalink: string, categories?: Array<string | null> | null, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
+export type PostConnectionQuery = { __typename?: 'Query', postConnection: { __typename?: 'PostConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'PostConnectionEdges', cursor: string, node?: { __typename?: 'Post', id: string, published: boolean, layout: string, title: string, permalink: string, categories: Array<string>, blog_categories: Array<string>, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
 
 export type ServicesQueryVariables = Exact<{
   relativePath: Scalars['String']['input'];
@@ -901,6 +904,7 @@ export const PostPartsFragmentDoc = gql`
   title
   permalink
   categories
+  blog_categories
   author
   description
   image_small

@@ -1,5 +1,5 @@
 ---
-layout: v2-job-detail
+layout: job-detail
 slug: senior-ruby-developer
 title: Senior Ruby on Rails Developer
 description: >-

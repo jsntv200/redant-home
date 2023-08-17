@@ -1,5 +1,5 @@
 ---
-layout:  v2-portfolio-detail
+layout:  portfolio-detail
 theme: whats-on
 slug: whats-on
 title: 'City of Sydney''s What''s On Website: A User-Centric Design Approach'

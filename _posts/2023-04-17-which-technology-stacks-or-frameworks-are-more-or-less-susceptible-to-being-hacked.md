@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: >-
   Which technology stacks or frameworks are more or less susceptible to being
@@ -18,7 +18,9 @@ image: /assets/uploads/iStock-1461383901.jpg
 categories:
   - blog
   - cyber-security
-publisher: Red Ant
+blog_categories:
+  - cyber-security
+
 description: >-
   We’re often asked if a particular framework or technology is more or less
   susceptible to being hacked than another. Or put another way, is one “more

@@ -1,5 +1,5 @@
 ---
-layout:  v2-portfolio-detail
+layout:  portfolio-detail
 theme: nps
 slug: nps-medicinewise
 title: 'Boosting Efficiency and Savings: How a Headless CMS Helped NPS Medicinewise'

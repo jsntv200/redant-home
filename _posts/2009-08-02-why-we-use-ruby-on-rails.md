@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Why we use Ruby on Rails
 permalink: /:categories/why-we-use-ruby-on-rails/
@@ -7,11 +7,12 @@ type: ideas
 categories:
   - blog
   - ruby-on-rails
+blog_categories:
+  - ruby-on-rails
   - devops
 author: Ben Still
 content_sidebar: |
   Why we use Ruby on Rails
-keywords: ruby on rails
 image_small: /assets/uploads/2009/ruby-on-rails.png
 image: /assets/uploads/2009/ruby-on-rails.png
 description: >-
@@ -24,7 +25,7 @@ redirect_from:
   - /blog/text-cloud-in-flash/
   - /ruby-on-rails/why-we-use-ruby-on-rails/
 date_published: 2009-08-02T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2009-08-02T00:00:00.000Z
 published: true
 ---

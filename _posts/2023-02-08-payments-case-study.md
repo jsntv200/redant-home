@@ -1,19 +1,19 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 permalink: /:categories/payments-case-study/
 type: payments
 categories:
   - blog
   - payments
+blog_categories:
+  - payments
 author: Ben Still
 tags: []
 time: 5 Mins Read
 date_published: ! ' 2023-02-08'
-publisher: Red Ant
 title: Payments case study - better payments as a way to reimagine your Product.
 description: A case study on a company that explores two options for implementing online payments, and how the results of each of those can impact company business performance going forward
-keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/payments-case-study-min.png"
 image: "/assets/uploads/2023/payments-case-study-min.png"
 content_sidebar: A case study on a company that explores two options for implementing online payments, and how the results of each of those can impact company business performance going forward

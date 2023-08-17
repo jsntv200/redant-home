@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: The problem with great startup ideas is that everyone has one
 permalink: /:categories/opinionated-developer/
@@ -7,11 +7,12 @@ type: news
 categories:
   - blog
   - strategy
+blog_categories:
+  - strategy
 author: Ben Still
 content_sidebar: >
   Execution matters. There are plenty of great ideas, but you need an
   experienced and opinionated development team to help you execute
-keywords: ''
 image_small: /assets/uploads/ideas.jpg
 image: /assets/uploads/ideas.jpg
 description: Execution matters. Your development team matters.
@@ -20,7 +21,7 @@ time: ''
 redirect_from:
   - /red-ant-stuff/opinionated-developer/
 date_published: 2018-09-17T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2018-09-17T00:00:00.000Z
 published: true
 ---

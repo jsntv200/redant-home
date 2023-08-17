@@ -1,5 +1,5 @@
 ---
-layout: v2-service-detail
+layout: service-detail
 title: Ecommerce
 description: >-
   Welcome to the future of online retail! Red Ant Ecommerce Solutions is your

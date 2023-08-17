@@ -1,10 +1,12 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 permalink: /:categories/ruby-on-rails-for-your-web-development
 type: news
 categories:
   - blog
+  - ruby-on-rails
+blog_categories:
   - ruby-on-rails
 author: Ben Still
 tags: []
@@ -13,14 +15,13 @@ title: Why choose Ruby on Rails?
 content_sidebar: >
   The no nonsense guide for entrepreneurs, startups, product owners or anyone
   that is a bit baffled about tech stack options.
-keywords: ''
 image_small: /assets/uploads/2019/why-choose-ruby.jpg
 image: /assets/uploads/2019/why-choose-ruby.jpg
 description: >-
   The no nonsense guide for entrepreneurs, startups, product owners or anyone
   that is a bit baffled about tech stack options.
 date_published: 2019-06-05T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2019-06-05T00:00:00.000Z
 redirect_from:
   - /software-development/ruby-on-rails-for-your-web-development/

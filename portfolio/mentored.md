@@ -1,5 +1,5 @@
 ---
-layout:  v2-portfolio-detail
+layout:  portfolio-detail
 theme: mentor
 slug: mentored
 title: 'Empowering Small Businesses: A Look into Our Work on Mentored TV Show Website'

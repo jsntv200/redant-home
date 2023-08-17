@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Yates Problem Solver iPhone App
 permalink: /:categories/yates-problem-solver-iphone-app/
@@ -7,10 +7,11 @@ type: news
 categories:
   - blog
   - mobile
+blog_categories:
+  - mobile
 author: Ben Still
 content_sidebar: |
   Yates Problem Solver iPhone App
-keywords: yates problem solver app
 image_small: /assets/uploads/2010/problem-solver.jpg
 image: /assets/uploads/2010/problem-solver.jpg
 description: >-
@@ -21,7 +22,7 @@ time: ''
 redirect_from:
   - /our-work/yates-problem-solver-iphone-app/
 date_published: 2010-10-04T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2010-10-04T00:00:00.000Z
 published: false
 ---

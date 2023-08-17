@@ -1,19 +1,19 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 permalink: /:categories/road-to-digital-payments-success/
 type: payments
 categories:
   - blog
   - payments
+blog_categories:
+  - payments
 author: Ben Still
 tags: []
 time: 5 Mins Read
 date_published: ! ' 2023-02-08'
-publisher: Red Ant
 title: Where to start on the road to digital payments success?
 description: A checklist of steps to take to begin the process of integrating online payments into your business. Start small and soon, and make sure you validate your plan with key stakeholders.
-keywords: Online payments, digital payments
 image_small: "/assets/uploads/2023/where-to-start-on-the-road-to-digital-payments-success-min.png"
 image: "/assets/uploads/2023/where-to-start-on-the-road-to-digital-payments-success-min.png"
 content_sidebar: A checklist of steps to take to begin the process of integrating online payments into your business. Start small and soon, and make sure you validate your plan with key stakeholders.

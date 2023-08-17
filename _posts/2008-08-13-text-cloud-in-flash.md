@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Text Cloud in Flash
 description: Visualising a list of information in interesting ways
@@ -7,6 +7,7 @@ permalink: /:categories/text-cloud-in-flash/
 type: ideas
 categories:
   - blog
+blog_categories:
 author: Ben Still
 image_small: /assets/uploads/2008/radiant-admin-465x311.png
 image: /assets/uploads/2008/radiant-admin.png

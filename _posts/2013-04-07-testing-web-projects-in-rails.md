@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Testing web projects
 permalink: /:categories/testing-web-projects-in-rails/
@@ -7,12 +7,13 @@ type: ideas
 categories:
   - blog
   - cyber-security
+blog_categories:
+  - cyber-security
   - devops
 author: Ben Still
 content_sidebar: >
   As web projects grow in complexity, the testing process gets more and more
   difficult. Introducing, Automated Testing and Test Driven Development (TDD).
-keywords: automated testing web projects
 image_small: /assets/uploads/testing-web-projects-in-rails-1.jpg
 image: /assets/uploads/testing-web-projects-in-rails-2.jpg
 description: >-
@@ -23,7 +24,7 @@ time: ''
 redirect_from:
   - /automated-testing/testing-web-projects-in-rails/
 date_published: 2013-04-07T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2013-04-07T00:00:00.000Z
 published: true
 ---

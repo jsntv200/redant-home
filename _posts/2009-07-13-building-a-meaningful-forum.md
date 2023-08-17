@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: Building a meaningful forum
 description: Thought goes into building a good solid forum, especially one with high traffic (like the one we built for Huggies). Here are some things to consider.
@@ -7,6 +7,8 @@ permalink: /:categories/building-a-meaningful-forum/
 type: ideas
 categories:
   - blog
+  - ruby-on-rails
+blog_categories:
   - ruby-on-rails
 author: Ben Still
 image_small: /assets/uploads/2009/forum-small.png

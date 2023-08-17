@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: We've been busy ants
 description: We've been busy little ants over the last few months
@@ -7,6 +7,7 @@ permalink: /:categories/weve-been-busy-ants/
 type: news
 categories:
   - blog
+blog_categories:
 author: Ben Still
 image_small: /assets/uploads/2008/ant-small.jpg
 image: /assets/uploads/2008/ant-large.jpg

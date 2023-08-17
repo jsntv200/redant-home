@@ -1,18 +1,17 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 permalink: "blog/"
 type: news
 categories:
   - blog
+blog_categories:
 author: Ben Still
 tags: []
 time: 5 Mins Read
 date_published: ! ' 2020-07-20'
-publisher: Red Ant
 title: Hompage is important, don't stuffed it up!
 description: How to optimize your homepage in the mobile era
-keywords: ''
 image_small: "/assets/uploads/2020/group-2.png"
 image: "/assets/uploads/2020/group-2.png"
 content_sidebar: "How to optimize your homepage in the mobile era"

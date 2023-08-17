@@ -1,5 +1,5 @@
 ---
-layout: v2-blog-detail
+layout: blog-detail
 is_blog: true
 title: The hard thing about AI isn't making it - it's testing that it works
 type: news
@@ -7,12 +7,13 @@ permalink: /:categories/ai-development-testing
 categories:
   - blog
   - ruby-on-rails
+blog_categories:
+  - ruby-on-rails
   - products
 author: Ben Still
 content_sidebar: >
   AI and Machine Learning are amazing technologies. But in some cases it can be
   hard to know when they are actually working
-keywords: 'ai development, machine learning, automated tests'
 date: '2018-11-26T02:31:36.000+00:00'
 image_small: /assets/uploads/2018/extra_large-1498661132-cover-image-1.jpg
 image: /assets/uploads/2018/extra_large-1498661132-cover-image.jpg
@@ -24,7 +25,7 @@ time: ''
 redirect_from:
   - /automated-testing/ai-development-testing/
 date_published: 2018-11-26T00:00:00.000Z
-publisher: Red Ant
+
 updated_at: 2018-11-26T00:00:00.000Z
 published: true
 ---
