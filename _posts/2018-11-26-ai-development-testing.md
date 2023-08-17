@@ -3,7 +3,7 @@ layout: blog-detail
 is_blog: true
 title: The hard thing about AI isn't making it - it's testing that it works
 type: news
-permalink: /:categories/ai-development-testing
+permalink: '/:categories/ai-development-testing'
 categories:
   - blog
   - ruby-on-rails
@@ -25,7 +25,6 @@ time: ''
 redirect_from:
   - /automated-testing/ai-development-testing/
 date_published: 2018-11-26T00:00:00.000Z
-
 updated_at: 2018-11-26T00:00:00.000Z
 published: true
 ---
@@ -40,15 +39,15 @@ But it can often be quite hard to get a handle on how well it's working. Or if i
 
 So if you looked at this dog
 
-# 🐕
+🐕
 
 and liked it, should we show you
 
-# 🐩
+🐩
 
 or
 
-# 🐈
+🐈
 
 We used image analysis AI to generate more information about each animal. For example we already knew from the rescue shelter data whether the animal was a dog or a cat. But image analysis helped us understand if it had black and white spots, or was mainly brown, or had short hair. We used text analysis AI to better understand what was written about the animal. For example rescue pets can be rescued by one shelter, but fostered somewhere else. Which would kind of suck if you turned up to the shelter expecting to introduce your kids to the pet of their dreams, only to discover they were located somewhere else. That would be a long trip home.
 
@@ -56,7 +55,7 @@ That all worked. The problem we hit was around recommendations. What to show you
 
 To explain: when we write code, it's good practice to also write some test code to check that. So say the feature you code is a doorbell. Your test might be:
 
-> *when I press the red button with my finger, I should hear a chimewhen I press the side with my finger, I should not hear a chime*
+> *when I press the red button with my finger, I should hear a chime when I press the side with my finger, I should not hear a chime*
 
 These tests get fed into Continuous Integration, and get run each time a developer makes changes or deploys code. They can even be run in the live environment to monitor ongoing performance. That's how we can be certain that our code is working as planned.
 
@@ -68,7 +67,7 @@ and the AI has replied
 
 *"42"*.
 
-It can be hard to understand if pet id#42 is in fact the right pet to show for this person or not.
+It can be hard to understand if pet id #42 is in fact the right pet to show for this person or not.
 
 ML works really well in some situations. Say you needed to make a recommendation on what I should watch next on Netflix. You could test to see if I started watching the recommended show. Even better would be to test if I watched to the end. Gave it a thumbs up.
 
@@ -85,7 +84,7 @@ The data set we were working with was quite different
 * The data changed a lot - new pets (unfortunately) come into the system all the time.
 * The entire set churns every few months
 * the data set itself (pets available) is a few thousand. Once we apply preferences (the kind of pet you're after) and location (only show pets in shelters close to you) it gets much smaller.
-* Very difficult to set success criteria. There is no clear data about whether a user actually went on to adopt pet#42. What if they did and it didn't work out (the recommendation was bad)?
+* Very difficult to set success criteria. There is no clear data about whether a user actually went on to adopt pet #42. What if they did and it didn't work out (the recommendation was bad)?
 
 The problem we faced was not knowing if our fancy AI based Machine Learning \< insert trendy keyword here > recommendation engine was actually making any difference at all. How different were the results it recommended vs using simple random pick code?
 
