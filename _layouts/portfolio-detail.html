@@ -10,9 +10,9 @@ layout: default
 {% assign images-mobile = page.images | where: "type", "mobile" %}
 
 <div class="max-w-screen-lg mx-auto py-12 md:py-24 px-6 lg:px-20">
-  <h2 class="leading-tight md:leading-tight text-3xl md:text-5xl font-bold mb-7 md:mb-20 text-{{ include.title-color }}">
+  <h1 class="leading-tight md:leading-tight text-3xl md:text-5xl font-bold mb-7 md:mb-20 text-{{ include.title-color }}">
     {{ page.title }}
-  </h2>
+  </h1>
 
   <div class="flex justify-center">
     {% include portfolio/previews.html
