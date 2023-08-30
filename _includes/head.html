@@ -3,7 +3,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="google-site-verification" content="uky3VJEeD3NAFHIK0V4KLdxlYF7fGGXJYyyt96LLe78" />
-  {% seo %}
+  <title>
+    {% if page.title != site.title %}{{ page.title }} - {% endif -%}
+    {{ site.title }}
+  </title>
+  {% seo title=false %}
   <meta property="og:image" content="https://redant.com.au/assets/images/social-image.png" />
   <meta property="og:image:width" content="627" />
   <meta property="og:image:height" content="1200" />
