@@ -24,8 +24,8 @@ content_sidebar: >
 date_published: 2023-09-04T14:00:00.000Z
 updated_at: 2023-09-04T14:00:00.000Z
 is_blog: true
-image_small: /assets/uploads/ruby-dev.jpg
-image: /assets/uploads/ruby-dev-s.jpg
+image_small: /assets/uploads/ruby-developer-1.jpg
+image: /assets/uploads/ruby-developer-2.jpg
 ---
 
 A Ruby developer is a software developer who specialises in using the Ruby programming language to build web applications, websites, and various software solutions. Ruby is a dynamically-typed, high-level programming language known for its simplicity and productivity. It's often used in web development frameworks like Ruby on Rails, which is a popular choice for building web applications.
