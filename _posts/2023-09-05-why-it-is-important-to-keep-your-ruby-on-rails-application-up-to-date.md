@@ -17,6 +17,9 @@ description: >-
 date_published: 2023-09-04T14:00:00.000Z
 updated_at: 2023-09-04T14:00:00.000Z
 is_blog: true
+image_small: /assets/uploads/ruby-update-s.jpg
+image: /assets/uploads/ruby-update-l.jpg
+content_sidebar: ''
 ---
 
 It's really important to keep your Ruby on Rails application up to date. I know, it would be nice if it just automatically updated itself somehow. But here's some compelling reasons to do that update:
@@ -43,4 +46,4 @@ It's really important to keep your Ruby on Rails application up to date. I know,
 10. Long-Term Viability:
     By staying current with Rails updates, you ensure the long-term viability of your application. An outdated application may eventually become difficult or costly to maintain, and it may be challenging to find developers willing to work with older technology.
 
-While updating your Rails application is essential, it's also crucial to plan and test updates carefully to minimise disruption and ensure that your application continues to function correctly. 
+While updating your Rails application is essential, it's also crucial to plan and test updates carefully to minimise disruption and ensure that your application continues to function correctly.
