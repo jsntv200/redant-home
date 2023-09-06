@@ -26,7 +26,7 @@ It's really important to keep your [Ruby on Rails](https://redant.com.au/blog/ru
 
 1. Security:
    Number one, two and three reason -  update your Rails application to address security vulnerabilities. As new vulnerabilities are discovered, the Rails core team and the community work to patch them and release updates. Running an outdated version of Rails can expose your application to security risks, making it vulnerable to attacks, data breaches, and other security incidents.\
-   Remember that it's not necessarily just risks in the "core" or main Ruby on Rails code that your platform uses. It's also all the dependent libraries and things that hang off that. These will all work more securely if things are kept up to date.
+   Remember that it's not necessarily just risks in the "core" or main [Ruby on Rails](https://redant.com.au/blog/ruby-on-rails/why-we-use-ruby-on-rails/) code that your platform uses. It's also all the dependent libraries and things that hang off that. These will all work more securely if things are kept up to date.
 2. Bug Fixes:
    Updates often include bug fixes that can improve the stability and performance of your platform or application. Running an older version may mean you're dealing with known issues that have been resolved in newer releases. Running a really old version will start causing more visible problems. Addressing these bugs can enhance your user experience and reduce ongoing technical maintenance efforts.
 3. Compatibility:
