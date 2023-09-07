@@ -2,12 +2,11 @@
 published: true
 layout: blog-detail
 title: Why it is important to keep your Ruby on Rails application up to date
-permalink: /blog/ruby-on-rails/why-keep-your-app-up-to-date
+permalink: '/:categories/why-keep-your-app-up-to-date'
 categories:
   - blog
   - ruby-on-rails
 blog_categories:
-  - blog
   - ruby-on-rails
 author: Ben Still
 description: >-
