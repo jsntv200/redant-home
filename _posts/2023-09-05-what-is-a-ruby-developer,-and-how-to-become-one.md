@@ -2,12 +2,11 @@
 published: true
 layout: blog-detail
 title: 'What is a Ruby Developer, and how to become one'
-permalink: /blog/ruby-on-rails/what-is-a-ruby-developer
+permalink: '/:categories/what-is-a-ruby-developer'
 categories:
   - blog
   - ruby-on-rails
 blog_categories:
-  - blog
   - ruby-on-rails
 author: Ben Still
 description: >
