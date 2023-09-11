@@ -16,8 +16,8 @@ description: >-
 date_published: 2023-09-04T14:00:00.000Z
 updated_at: 2023-09-04T14:00:00.000Z
 is_blog: true
-image_small: /assets/uploads/ruby-update-s.jpg
-image: /assets/uploads/ruby-update-l.jpg
+image_small: /assets/uploads/update-ruby-s.jpg
+image: /assets/uploads/update-ruby-l.jpg
 content_sidebar: ''
 ---
 
