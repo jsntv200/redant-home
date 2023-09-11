@@ -25,7 +25,6 @@ description: >-
   suit and breaking into your network. It will be finding a mistake or loophole
   in your code, and taking advantage.
 date_published: 2023-05-16T14:00:00.000Z
-
 updated_at: 2023-05-16T14:00:00.000Z
 redirect_from:
   - /cyber-security/cyber-security-from-a-development-perspective/
