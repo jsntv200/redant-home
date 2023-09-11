@@ -2,7 +2,7 @@
 published: true
 layout: blog-detail
 title: "Updating your Ruby on Rails application to the latest version\_"
-permalink: /blog/ruby-on-rails/updating-roby-on-rails-to-latest-version
+permalink: /blog/ruby-on-rails/updating-ruby-on-rails-to-latest-version
 categories:
   - blog
   - ruby-on-rails
