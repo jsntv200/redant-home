@@ -22,6 +22,8 @@ content_sidebar: ''
 date_published: 2023-09-10T14:00:00.000Z
 updated_at: 2023-09-10T14:00:00.000Z
 is_blog: true
+image_small: /assets/uploads/ruby-updating-s.jpg
+image: /assets/uploads/ruby-updating-l.jpg
 ---
 
 Once upon a time, it wasn’t uncommon for people to leave their web application the hell alone once they’d stabilised things. The belief being that making changes may introduce new problems, and the best approach to boosting longevity was to make as few changes possible.
@@ -122,7 +124,6 @@ As you progress through your Upgrade Journey, you will encounter various speed b
 * rails 4/5 apps - having to jump through all of the intermediate techs on the way to 7 - sprockets>webpacker>sprockets>esbuild>importmaps
 * ditching paperclip for active storage - if they are have any custom paperclip integrations
 * migrating paperclip assets to active storage will always take 5x longer than you planned for
-
 
 Some Advice on updating your Ruby on Rails app
 
