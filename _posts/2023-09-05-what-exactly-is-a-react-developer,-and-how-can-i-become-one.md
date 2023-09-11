@@ -2,7 +2,7 @@
 published: true
 layout: blog-detail
 title: 'What exactly is a React Developer, and how can I become one?'
-permalink: '/:categories/what-is-a-react-developer'
+permalink: '/:categories/what-is-a-react-developer/'
 categories:
   - blog
   - ruby-on-rails
