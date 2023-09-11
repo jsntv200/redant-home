@@ -26,17 +26,15 @@ layout: default
       {% endfor %}
     {% else %}
       {% for post in posts %}
-        {% unless include.type != nil or include.type == post.type %}
-          {% include card.html
-            content-class = "p-5"
-            content = post.description
-            image = post.image_small
-            image-class = "md:h-[320px]"
-            subtitle = post.title
-            text-color = "text-cyan-100"
-            url = post.url
-            wrapper-class = "bg-cyan-100/[0.15]" %}
-        {% endunless %}
+        {% include card.html
+          content-class = "p-5"
+          content = post.description
+          image = post.image_small
+          image-class = "md:h-[320px]"
+          subtitle = post.title
+          text-color = "text-cyan-100"
+          url = post.url
+          wrapper-class = "bg-cyan-100/[0.15]" %}
       {% endfor %}
     {% endif %}
   </div>
