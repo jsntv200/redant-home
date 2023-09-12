@@ -125,7 +125,7 @@ As you progress through your Upgrade Journey, you will encounter various speed b
 * ditching paperclip for active storage - if they are have any custom paperclip integrations
 * migrating paperclip assets to active storage will always take 5x longer than you planned for
 
-Some Advice on updating your Ruby on Rails app
+Some Advice on updating your [Ruby on Rails](https://redant.com.au/blog/ruby-on-rails/why-we-use-ruby-on-rails/) app
 
 * Don’t get carried away and upgrade all the things at once
 * Updating from ruby 2 to 3 will introduce syntax errors. Many gems don’t correctly specify which versions of ruby they rely on in their gemspecs, before going down the rabbit hole make sure your ruby version is suitable for the version of the gem you have installed.
