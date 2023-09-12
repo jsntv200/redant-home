@@ -30,7 +30,7 @@ Once upon a time, it wasn’t uncommon for people to leave their web application
 
 Over the years, as businesses become more dependent on web applications to operate, and as the threat of cyber fraud increased a tipping point was reached, and this strategy become no longer viable in most cases. 
 
-It’s really important to keep your Ruby on Rails application up to date
+It’s really important to keep your [Ruby on Rails](https://redant.com.au/blog/ruby-on-rails/ruby-on-rails-for-your-web-development) application up to date
 
 * Old rails apps can be difficult to work on
 * Old versions of Ruby, Rails, and the various dependencies frequently have know critical security vulnerabilities, staying on top of these issues is extremely important if your app is processing payments, and/or handling Personally Identifying Information
