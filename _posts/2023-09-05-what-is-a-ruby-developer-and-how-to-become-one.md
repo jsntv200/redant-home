@@ -59,7 +59,7 @@ Here are the steps to become a Ruby developer:
 6. Collaborate and Contribute:
    * Join Ruby and Ruby on Rails communities to collaborate with other developers, ask questions, and learn from experienced developers. Consider contributing to open-source projects in the Ruby ecosystem to gain real-world experience.
 7. Stay Updated:
-   * Technology evolves quickly, so stay updated on the latest developments in Ruby and web development. Follow blogs, attend conferences, and read books to keep your knowledge current.
+   * Technology evolves quickly, so stay updated on the [latest developments in Ruby and web development](https://redant.com.au/blog/ruby-on-rails/why-keep-your-app-up-to-date). Follow blogs, attend conferences, and read books to keep your knowledge current.
 8. Create a Portfolio:
    * Showcase your work in a portfolio. Share your projects, code samples, and any contributions you've made to open source. A strong portfolio will help you stand out to potential employers or clients.
 9. Apply for Jobs or Freelance:
