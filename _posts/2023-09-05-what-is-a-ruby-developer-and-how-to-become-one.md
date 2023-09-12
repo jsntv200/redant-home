@@ -43,28 +43,28 @@ Obviously the most common industry for Ruby developers is web application or Saa
 
 Here are the steps to become a Ruby developer:
 
-1. Learn the Basics of Programming:
+1. **Learn the Basics of Programming:**
    * Start by gaining a solid foundation in programming concepts, including variables, data types, loops, conditional statements, and functions. You can start with languages like Ruby, Python, or JavaScript to learn these fundamentals.
-2. Study Ruby:
+2. **Study Ruby:**
    * Once you're comfortable with basic programming, dive into learning Ruby. You can find numerous online tutorials, courses, and books to help you get started. Some popular resources include:
      * "Learn Ruby the Hard Way" by Zed Shaw (don't be put off by the title)
      * Online courses on platforms like Codecademy, Coursera, and Udemy
      * Ruby's official documentation
-3. Practice Coding:
+3. **Practice Coding:**
    * The key to becoming proficient in any programming language is practice. Work on small coding projects to apply your knowledge. Experiment with Ruby's syntax and features to build your skills.
-4. Learn Ruby on Rails:
+4. **Learn Ruby on Rails:**
    * Ruby on Rails (often called Rails) is a powerful web development framework built with Ruby. To become a well-rounded Ruby developer, learn how to use Rails to create web applications. There are many online tutorials and courses specifically focused on Rails.
-5. Build Projects:
+5. **Build Projects:**
    * Start building your own projects using Ruby and Ruby on Rails. Create web applications, websites, or other software solutions to gain practical experience.
-6. Collaborate and Contribute:
+6. **Collaborate and Contribute:**
    * Join Ruby and Ruby on Rails communities to collaborate with other developers, ask questions, and learn from experienced developers. Consider contributing to open-source projects in the Ruby ecosystem to gain real-world experience.
-7. Stay Updated:
+7. **Stay Updated:**
    * Technology evolves quickly, so stay updated on the [latest developments in Ruby and web development](https://redant.com.au/blog/ruby-on-rails/why-keep-your-app-up-to-date). Follow blogs, attend conferences, and read books to keep your knowledge current.
-8. Create a Portfolio:
+8. **Create a Portfolio:**
    * Showcase your work in a portfolio. Share your projects, code samples, and any contributions you've made to open source. A strong portfolio will help you stand out to potential employers or clients.
-9. Apply for Jobs or Freelance:
+9. **Apply for Jobs or Freelance:**
    * Look for job opportunities as a Ruby developer. Start with entry-level positions like junior developer or internship roles. You can also consider freelance opportunities to gain experience.
-10. Continue Learning:
+10. **Continue Learning:**
     * The learning never stops in the world of programming. Continuously improve your skills, explore new technologies, and adapt to industry trends.
 
 Becoming a Ruby developer takes time and dedication, but with consistent effort and a passion for coding, you can develop the skills needed to excel in this field.
