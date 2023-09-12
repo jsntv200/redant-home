@@ -43,6 +43,6 @@ It's really important to keep your [Ruby on Rails](https://redant.com.au/blog/ru
 9. **Maintainability:**
    As your application grows and evolves, maintaining an up-to-date code base becomes more manageable. Outdated code can become a maintenance headache, making it harder to add new features or fix issues.
 10. **Long-Term Viability:**
-    By staying current with Rails updates, you ensure the long-term viability of your application. An outdated application may eventually become difficult or costly to maintain, and it may be challenging to find developers willing to work with older technology.
+    By staying current with Rails updates, you ensure the long-term viability of your application. An outdated application may eventually become difficult or costly to maintain, and it may be challenging to find [developers](https://redant.com.au/blog/ruby-on-rails/what-is-a-ruby-developer) willing to work with older technology.
 
 While updating your Rails application is essential, it's also crucial to plan and test updates carefully to minimise disruption and ensure that your application continues to function correctly.
