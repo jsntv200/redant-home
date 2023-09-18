@@ -36,7 +36,7 @@ It’s really important to keep your [Ruby on Rails](https://redant.com.au/blog/
 * Old versions of Ruby, Rails, and the various dependencies frequently have know critical security vulnerabilities, staying on top of these issues is extremely important if your app is processing payments, and/or handling Personally Identifying Information
 * Left unchecked long enough, your app may become so difficult to work on, or the effort required to update so great that it’s easier to completely re-implement.
 
-Determining what needs to be updated
+## Determining what needs to be updated
 
 ### Ruby
 
