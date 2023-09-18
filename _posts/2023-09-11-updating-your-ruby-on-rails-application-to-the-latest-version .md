@@ -38,7 +38,7 @@ It’s really important to keep your [Ruby on Rails](https://redant.com.au/blog/
 
 Determining what needs to be updated
 
-Ruby
+### Ruby
 
 Take a look for a .ruby-version file in the root of your app to determine which version you’re running, if that’s missing you can check to see if it’s specified inside the Gemfile, or failing that you can make some assumptions based on your Rails version.
 
@@ -57,7 +57,7 @@ Take a look for a .ruby-version file in the root of your app to determine which 
 
 As of writing this in September 2023, Ruby 3 and greater are currently supported. For further information check [https://endoflife.date/ruby](https://endoflife.date/ruby)
 
-Rails
+### Rails
 
 You can check your Gemfile to determine which version of Rails your app is running. 
 
@@ -67,13 +67,13 @@ Having a functional automated test suite will be extremely helpful for testing a
 
 [https://endoflife.date/rails](https://endoflife.date/rails)
 
-Gems / Dependencies
+### Gems / Dependencies
 
 It’s useful to run a static analysis tool such as Brakeman to discover any known critical vulnerabilities in your gems, and prioritise updating those with issues.
 
 Rather than updating your gems to the latest version, move slowly through major versions
 
-The Upgrade Cycle
+### The Upgrade Cycle
 
 1. Bump the rails gem to the next major release
 2. Update ruby to recommended version
@@ -82,7 +82,7 @@ The Upgrade Cycle
 5. Manually test site for issues
 6. Goto 1
 
-Speed bumps
+### Speed bumps
 
 As you progress through your Upgrade Journey, you will encounter various speed bumps, depending on rails version, and gems you use. Here’s some noteworthy ones
 
