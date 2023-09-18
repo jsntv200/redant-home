@@ -54,7 +54,7 @@ Take a look for a .ruby-version file in the root of your app to determine which 
 | 4.2 | | 2.2 |
 | 4.1 | | 2.1 |
 | 4 | | 2 |
-| 3.2 | 2 |
+| 3.2 | | 2 |
 
 As of writing this in September 2023, Ruby 3 and greater are currently supported. For further information check [https://endoflife.date/ruby](https://endoflife.date/ruby)
 
