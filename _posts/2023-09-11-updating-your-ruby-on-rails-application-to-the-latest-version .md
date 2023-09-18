@@ -42,7 +42,8 @@ It’s really important to keep your [Ruby on Rails](https://redant.com.au/blog/
 
 Take a look for a .ruby-version file in the root of your app to determine which version you’re running, if that’s missing you can check to see if it’s specified inside the Gemfile, or failing that you can make some assumptions based on your Rails version.
 
-|| Rails Version || Ruby Version ||
+| Rails Version | Ruby Version |\
+| ----------- | ----------- |
 | 7.1 | 3.2 |
 | 7 | 3.1 |
 | 6.1 | 3 |
