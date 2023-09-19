@@ -115,7 +115,7 @@ is_blog: true
 
 * Only use `ubuntu 22 / jammy` for >= ruby 3.1 apps - no `openssl 1.1.1`
 * Use `ubuntu 20 / focal` for node 20, but with `openssl-legacy-provider` to use `openssl 1.1.1`
-* Even if your app uses postgres 15, you'll have difficulties trying to get it working. Just use postgres 12 in your travis config and save hrs of fucking around that you'll never get back. In celebration of the time you've just saved, plant a garden or do something nice.
+* Even if your app uses `postgres 15`, you'll have difficulties trying to get it working. Just use `postgres 12` in your travis config and save hrs of fucking around which you know in your heart of hearts you'll never get back. In celebration of the time you've just saved, plant a garden or do something nice.
 
 ## Heroku
 
