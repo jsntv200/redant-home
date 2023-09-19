@@ -25,15 +25,15 @@ is_blog: true
 
 ## The BIG gotchas
 
-* Old (unmaintained) vendored gems, new ruby compatibility? fixed upstream? why did they vendor it? did they modify it? can you switch back to upstream (un-vendor)?
+* Old (unmaintained) vendored gems - new ruby compatibility? Fixed upstream? Why did they vendor it? Did they modify it? Can you switch back to upstream (un-vendor)?
 * Rails 4/5 apps - having to jump through all of the intermediate techs on the way to 7 - sprockets>webpacker>sprockets>esbuild>importmaps
-* If the app in question has any custom paperclip integrations - ditch paperclip for active storage 
-* Migrating paperclip assets to active storage takes 5x longer than you planned for
+* If the app in question has any custom paperclip integrations - ditch paperclip for active storage
+* Migrating paperclip assets to active storage will always take 5x longer than you estimated
 * Adding turbolinks can fuck with any inline JS littered in views, rewrite as turbo-friendly stimulus controllers if you can
-* Apps using cdn-url scripts in laouts/views - eg: jquery, ckeditor
+* Apps using cdn-url scripts in layouts/views - eg: jquery, ckeditor
 * Apps that have an overlap/mix of BE/FE gems/node packages. eg. bootstrap gem + bootstrap node package. Which one is in use? Why both? Who wrote this…?
 * Don't get carried away trying to upgrade all the things  - just update the minimal required to bump to the next version of ruby/rails
-* Everything else is scope creep and features you can probably bill separately to upgrade, if the client even wants it
+* Everything else is scope creep and features you can probably upgrade at another time. I know it might sound cruel, but just focus on the bare minimum and get the upgrade done. It can be mighty tempting to tweak a few things while you've got the hood open, but there be the dragons.
 * Unless it breaks, log it, come back to it
 
 ## Rails/ruby
@@ -42,11 +42,11 @@ is_blog: true
 * Don't use the latest ruby version - step through them with each rails upgrade - use latest supported
 * Have other rails apps handy for reference - don't have to reinvent the wheel
 * rails diff is your friend [https://railsdiff.org/6.1.7.4/7.0.6](https://railsdiff.org/6.1.7.4/7.0.6)
-* rails-new-output is your friend [https://github.com/railsdiff/rails-new-output](https://github.com/railsdiff/rails-new-output)
-* Get your test suite working, upgrade gems to latest, add travis so you can test in the background while you do other things. Or make dinner or practice your drums
-* theres plenty of blog posts about upgrading rails - mostly just rehashing whats in the [rubyonrails.org](http://rubyonrails.org/) guides
-* move plain text passwords -> rails credentials, roll keys if sensitive, master key -> 1pass
-* each upgrade adds /config/initialisers/ new framework defaults - most of them can be simply enabled. you wont even notice. add them all and if nothing breaks, you're good
+* rails-new-output is your even bester friend [https://github.com/railsdiff/rails-new-output](https://github.com/railsdiff/rails-new-output)
+* Get your test suite working, upgrade gems to latest, add travis so you can test in the background while you do other things. Or make dinner or practice your drums.
+* There's plenty of blog posts about upgrading rails - mostly just rehashing what's in the [rubyonrails.org](http://rubyonrails.org/) guides. Or some SEO junkie trying to grab some traffic. 
+* Move plain text passwords -> rails credentials, roll keys if sensitive, master key -> 1pass or similar
+* Each upgrade adds /config/initialisers/ new framework defaults. Most of them can be simply enabled. You won't even notice. Add them all and if nothing breaks, you're good
 * otherwise step through each and rerun your tests
 * you can remove them from /config/initialisers once you've set their version in /config/application.rb
 * good seed data is helpful when setting up a fresh app to test against - a prod dump, (obfuscated!) is better
@@ -74,7 +74,7 @@ is_blog: true
 * discard > paranoia
 * use httparty for simple api interactions, instead of including a huge buggy gem, at the cost of having to maintain the api url versioning yourself
 * if your using sidekiq, sidekiq-cron > whenever
-* slim > haml 
+* slim > haml
 * using wkhtmltopdf on heroku? theres a wkhtmltopdf-heroku specific gem that works
 * gh action reviewdog + brakeman > travis + brakeman
 * if your app depends on a github url, fork it to your repo so your app doesnt die if they delete the repo
