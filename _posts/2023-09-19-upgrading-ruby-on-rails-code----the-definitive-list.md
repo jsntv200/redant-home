@@ -15,9 +15,14 @@ description: >-
   gotchas and rabbit holes out there. 
 content_sidebar: >
   Most Rails update guides are just sad regurgitations of rubyonrails.org
-  guides. But get ready - this is the unvarnished, definitive guide. We've
-  already wasted all the time and been down all the rabbit holes, so you don't
-  need to! So nice.
+  guides. 
+
+
+  But get ready - this is the unvarnished, definitive guide. We've already
+  wasted all the time and been down all the rabbit holes, so you don't need to! 
+
+
+  So nice.
 date_published: 2023-09-18T14:00:00.000Z
 updated_at: 2023-09-18T14:00:00.000Z
 is_blog: true
