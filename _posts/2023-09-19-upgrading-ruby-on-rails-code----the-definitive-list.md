@@ -31,13 +31,13 @@ is_blog: true
 
 * Old (unmaintained) vendored gems - new ruby compatibility? Fixed upstream? Why did they vendor it? Did they modify it? Can you switch back to upstream (un-vendor)?
 * Rails 4/5 apps - having to jump through all of the intermediate techs on the way to 7 - `sprockets>webpacker>sprockets>esbuild>importmaps`
-* If the app in question has any custom `paperclip` integrations - ditch `paperclip` for active storage
-* Migrating `paperclip` assets to active storage will always take 5x longer than you estimated
-* Adding turbolinks can mess with any inline JS littered in views, rewrite as turbo-friendly stimulus controllers if you can
+* If the app in question has any custom `paperclip` integrations - ditch `paperclip` for `active storage`
+* Migrating `paperclip` assets to `active storage` will always take 5x longer than you ever thought possible
+* Adding `turbolinks` can mess with any inline JS littered in views, rewrite as turbo-friendly `stimulus` controllers if you can
 * Apps using `cdn-url` scripts in layouts/views - eg: `jquery`, `ckeditor`
-* Apps that have an overlap/mix of BE/FE gems/node packages. eg.` bootstrap gem` + `bootstrap node` package. Which one is in use? Why both? Who wrote this…?
-* Don't get carried away trying to upgrade All The Things. Just update the minimal required to bump to the next version of ruby/rails
-* Everything else is scope creep and features you can probably upgrade at another time. I know it might sound cruel, and maybe you really want to, but just focus on the bare minimum and get the upgrade done. It can be mighty tempting to tweak a few things while you've got the hood open, but there be the dragons.
+* Apps that have an overlap/mix of BE/FE gems/node packages. eg. `bootstrap gem` + `bootstrap node` package. Which one is in use? Why both? Who wrote this…?
+* Don't get carried away trying to Upgrade All The Things. Just update the minimal required to bump to the next version of ruby/rails
+* Everything else is scope creep and features you can probably upgrade at another time. I know it might sound mean, and maybe you really want to. But just focus on the bare minimum and get the upgrade done. It can be mighty tempting to tweak a few things while you've got the hood open, but there be the dragons, Luke.
 * Unless it breaks, log it, come back to it
 
 ## Rails/Ruby
@@ -53,7 +53,7 @@ is_blog: true
 * Each upgrade adds /config/initialisers/ new framework defaults. Most of them can be simply enabled. You won't even notice. Add them all and if nothing breaks, you're good.
 * ... otherwise step through each and rerun your tests
 * You can remove them from `/config/initialisers` once you've set their version in `/config/application.rb`
-* Good seed data is helpful when setting up a fresh app to test against. A recent Prod dump, (obfuscated of course!) is better
+* Good seed data is helpful when setting up a fresh app to test against. A recent Prod dump, (obfuscated, of course!) is better
 * Comment out super old outdated `rake` tasks that can mess up your data. Less code to maintain
 * Before upgrading controllers, check the routes to see if they are actually in use. You might find a bunch of old unused controllers that you can skip upgrading
 * This will take more time, but it's easier to upgrade each rails major.minor version one by one instead of leaping 5.x -> 7.x. And we're 1000% guaranteeing that you'll miss something. 
@@ -73,10 +73,10 @@ is_blog: true
 * Check their issues/pull requests for anything related to rails/ruby version fixes
 * If the gem is super duper outdated, check if its actually being used in the app before upgrading it. Nothing sadder than spending time on something that you only later discover isn't being used. Delete with relish.
 * Use rails native encrypted fields over `attr_encrypted` once you hit rails 7.0. Migrate your 2FA keys
-* Use rails credentials with config gem - use `env` vars for things that need changing without a full deploy (I'm looking at you Heroku), or things managed by 3rd party apps (eg heroku postgres)
+* Use rails credentials with `config` gem - use `env` vars for things that need changing without a full deploy (I'm looking at you Heroku), or things managed by 3rd party apps (eg `heroku postgres`)
 * `env` specific creds where applicable
 * Use bullet for n+1s
-* Don't include the full aws sdk if you are only need s3 - use the s3 specific gem
+* Don't include the full `aws sdk` if you are only need s3 - use the s3 specific gem
 * `discard` > `paranoia`
 * Use `httparty` for simple api interactions, instead of including a huge buggy gem, at the cost of having to maintain the api url versioning yourself
 * If you're using `sidekiq`, `sidekiq-cron` > `whenever`
@@ -93,7 +93,7 @@ is_blog: true
 * Delete `coffee-rails`, use an online service to decaffinate
 * Remove `uglifier`, `yui-compressor` etc once you have `webpacker` packaging the FE
 * `letter_opener` is your friend on local dev. If you absolutely must test on an smtp server, add some sandbox email intercepting so you don't email real people. Friends don't let friends spam. But you use obfuscated data, right?
-* If you're using sentry/new relic, make sure you're filtering out PII
+* If you're using sentry/new relic, make sure you're filtering out PII when you push data to them
 
 ## Node
 
