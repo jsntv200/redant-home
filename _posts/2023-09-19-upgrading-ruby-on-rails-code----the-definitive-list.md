@@ -34,7 +34,7 @@ is_blog: true
 * Rails 4/5 apps - having to jump through all of the intermediate techs on the way to 7 - sprockets>webpacker>sprockets>esbuild>importmaps
 * If the app in question has any custom paperclip integrations - ditch paperclip for active storage
 * Migrating paperclip assets to active storage will always take 5x longer than you estimated
-* Adding turbolinks can fuck with any inline JS littered in views, rewrite as turbo-friendly stimulus controllers if you can
+* Adding turbolinks can mess with any inline JS littered in views, rewrite as turbo-friendly stimulus controllers if you can
 * Apps using cdn-url scripts in layouts/views - eg: jquery, ckeditor
 * Apps that have an overlap/mix of BE/FE gems/node packages. eg. bootstrap gem + bootstrap node package. Which one is in use? Why both? Who wrote this…?
 * Don't get carried away trying to upgrade all the things  - just update the minimal required to bump to the next version of ruby/rails
