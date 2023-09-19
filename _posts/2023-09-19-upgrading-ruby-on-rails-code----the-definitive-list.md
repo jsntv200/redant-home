@@ -52,7 +52,7 @@ is_blog: true
 * There's plenty of blog posts about upgrading rails - mostly just rehashing what's in the [rubyonrails.org](http://rubyonrails.org/) guides. Or some SEO junkie trying to grab some traffic. 
 * Move plain text passwords -> rails credentials, roll keys if sensitive, master key -> 1pass or similar
 * Each upgrade adds /config/initialisers/ new framework defaults. Most of them can be simply enabled. You won't even notice. Add them all and if nothing breaks, you're good.
-* ...otherwise step through each and rerun your tests
+* ... otherwise step through each and rerun your tests
 * You can remove them from /config/initialisers once you've set their version in /config/application.rb
 * Good seed data is helpful when setting up a fresh app to test against. A recent Prod dump, (obfuscated of course!) is better
 * Comment out super old outdated rake tasks that can mess up your data. Less code to maintain
