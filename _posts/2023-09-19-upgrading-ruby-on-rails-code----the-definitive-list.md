@@ -63,7 +63,7 @@ is_blog: true
 * If there's been infrequent gem modifications, jump to latest - it'll probably just work
 * It there has been a lot of gem modifications, jump to each major/minor version after reading the changelog - most changes are minor bugfixes, pay attention to major version jumps
 * Check their issues/pull requests for anything related to rails/ruby version fixes
-* If the gem is super duper outdated, check if its actually being used in the app before upgrading it. Nothing sadder than spending time on something that you only later discover isn't being used. Delete with relish.
+* If the gem is super duper outdated, check if its actually being used in the app before upgrading it. Nothing sadder than spending time on something that you only later discover isn't being used. Delete with a flourish.
 * Use rails native encrypted fields over `attr_encrypted` once you hit rails 7.0. Migrate your 2FA keys
 * Use rails credentials with `config` gem - use `env` vars for things that need changing without a full deploy (I'm looking at you Heroku), or things managed by 3rd party apps (eg `heroku postgres`)
 * `env` specific creds where applicable
@@ -75,7 +75,7 @@ is_blog: true
 * `slim` > `haml`
 * Using `wkhtmltopdf` on heroku? There's a `wkhtmltopdf-heroku `specific gem that works
 * gh action `reviewdog` + `brakeman` > `travis` + `brakeman`
-* If your app depends on a github url, fork it to your repo so your app doesn't die if some evil clown deletes the original
+* If your app depends on a github url, fork it to your repo so your app doesn't die if some evil clown deletes the original repo on you
 * `ffaker` > `faker` - should only be a few differences to fix
 * `pagy` > all other pagination gems
 * `pundit` is great for locking down granular access to things
