@@ -13,15 +13,7 @@ description: >-
   Most Rails update guides are just sad regurgitations of rubyonrails.org
   guides. But not this one. Strap in. Get ready. This is the unvarnished,
   definitive guide to all the gotchas and rabbit holes out there. 
-content_sidebar: >
-  Most Rails update guides are just sad regurgitations of rubyonrails.org
-  guides. <br /><br />
-
-  But strap yourself in and get ready - this is the unvarnished, definitive
-  guide. We've already wasted all the time there is and been down all the rabbit
-  holes there are, so you don't need to! <br /><br />
-
-  So nice.
+content_sidebar: "Most Rails update guides are just sad regurgitations of rubyonrails.org guides. <br /><br />\nNot this one. \\\n<br /><br />\\\nMake a cup of tea, strap yourself in and get ready - this is the unvarnished, definitive guide. We've already wasted all the time there is and been down all the rabbit holes there are, so you don't need to! <br /><br />\nSo nice. \U0001F44D\n"
 date_published: 2023-09-18T14:00:00.000Z
 updated_at: 2023-09-18T14:00:00.000Z
 is_blog: true
