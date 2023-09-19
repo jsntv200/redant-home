@@ -121,6 +121,6 @@ is_blog: true
 
 * Use heroku-20 / focal for apps \< ruby 3.1
 * Use heroku-22 / jammy for apps >= ruby 3.1
-* If you've migrated to heroku, you no longer need that capistrano config - one less thing to maintain - comment out or remove. Gemfile, /config
+* If you've [migrated to heroku](/technology/heroku/), you no longer need that capistrano config - one less thing to maintain - comment out or remove. Gemfile, /config
 * If your app does a lot of logging to disk, you need some sweet, sweet 12 Factoring
 * Write important stuff to the db, everything else to stdout and let heroku manage the logs - and maybe pipe to papertrail for a better ui
