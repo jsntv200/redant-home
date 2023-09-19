@@ -11,8 +11,8 @@ blog_categories:
 author: Clem Fandango
 description: >-
   Most Rails update guides are just sad regurgitations of rubyonrails.org
-  guides. But not this one. Get ready - this is the unvarnished, definitive
-  guide to all the gotchas and rabbit holes out there. 
+  guides. But not this one. Strap in. Get ready. This is the unvarnished,
+  definitive guide to all the gotchas and rabbit holes out there. 
 content_sidebar: >
   Most Rails update guides are just sad regurgitations of rubyonrails.org
   guides. 
