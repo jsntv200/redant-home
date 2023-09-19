@@ -58,7 +58,7 @@ is_blog: true
 * Comment out super old outdated rake tasks that can mess up your data. Less code to maintain
 * Before upgrading controllers, check the routes to see if they are actually in use. You might find a bunch of old unused controllers that you can skip upgrading
 * This will take more time, but it's easier to upgrade each rails major.minor version one by one instead of leaping 5.x -> 7.x. And we're 100% guaranteeing that you'll miss something. 
-* If your super old Rails 4 app doesn't have a huge amount of code, consider a fresh rails 7 install instead of 6+ rails upgrades and cherry pick the features actually still used
+* If your super old Rails 4 app doesn't have a huge amount of code, consider a fresh rails 7 install instead of a gazillion rails upgrades and cherry pick the features actually still used
 
 ## Dem Gemz
 
@@ -67,7 +67,7 @@ is_blog: true
 * For each gem, jump on rubygems / github and grab the changelog urls, make a list so you can get back there on each rails upgrade
 * Make a list of all gem update versions so you can impress your PM/client
 
-Upgrade strategies
+### Upgrade strategies
 
 * If there's been infrequent gem modifications, jump to latest - it'll probably just work
 * It there has been a lot of gem modifications, jump to each major/minor version after reading the changelog - most changes are minor bugfixes, pay attention to major version jumps
