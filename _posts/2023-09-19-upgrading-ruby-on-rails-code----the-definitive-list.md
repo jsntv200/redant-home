@@ -38,7 +38,7 @@ is_blog: true
 * Apps that have an overlap/mix of BE/FE gems/node packages. eg. `bootstrap gem` + `bootstrap node` package. Which one is in use? Why both? Who wrote this…?
 * Don't get carried away trying to Upgrade All The Things. Just update the minimal required to bump to the next version of ruby/rails
 * Everything else is scope creep and features you can probably upgrade at another time. I know it might sound mean, and maybe you really want to. But just focus on the bare minimum and get the upgrade done. It can be mighty tempting to tweak a few things while you've got the hood open, but there be the dragons, Luke.
-* Unless it breaks, log it, come back to it
+* Unless it breaks, be like Arnie and make a list and come back to it. He waits ages to come back for Sarah Connor.
 
 ## Rails/Ruby
 
