@@ -1,7 +1,7 @@
 ---
 published: true
 layout: blog-detail
-title: Upgrading Ruby on Rails code  - the definitive list
+title: Upgrading Ruby on Rails code  - the Definitive List
 permalink: /blog/ruby-on-rails/upgrading-ruby-on-rails-the-definitive-list
 categories:
   - blog
@@ -41,7 +41,7 @@ is_blog: true
 * Everything else is scope creep and features you can probably upgrade at another time. I know it might sound cruel, and maybe you really want to, but just focus on the bare minimum and get the upgrade done. It can be mighty tempting to tweak a few things while you've got the hood open, but there be the dragons.
 * Unless it breaks, log it, come back to it
 
-## Rails/ruby
+## Rails/Ruby
 
 * Bump to latest patch level and max supported ruby, test app, test gems (eg 5.0.x, 5.1.x, 6.0.x, 6.1.x)
 * Don't use the latest ruby version - step through them with each rails upgrade - use latest supported
@@ -96,7 +96,7 @@ is_blog: true
 * `letter_opener` is your friend on local dev. if you must test on a smtp server, add some sandbox email intercepting so you don't email real people. But you use obfuscated data, right?
 * If you're using sentry/new relic, make sure you're filtering out PII
 
-## node
+## Node
 
 * Use `yarn` over `npm` - should have a `yarn.lock` in the root
 * `yarn outdated`, `yarn audit`
