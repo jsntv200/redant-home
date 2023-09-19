@@ -80,20 +80,20 @@ is_blog: true
 * Don't include the full aws sdk if you are only need s3 - use the s3 specific gem
 * `discard` > `paranoia`
 * Use `httparty` for simple api interactions, instead of including a huge buggy gem, at the cost of having to maintain the api url versioning yourself
-* If you're using `sidekiq`, `sidekiq-cron` > whenever
+* If you're using `sidekiq`, `sidekiq-cron` > `whenever`
 * `slim` > `haml`
 * Using `wkhtmltopdf` on heroku? There's a `wkhtmltopdf-heroku `specific gem that works
 * gh action `reviewdog` + `brakeman` > `travis` + `brakeman`
-* If your app depends on a github url, fork it to your repo so your app doesn't die if some evil clown deletes the repo
+* If your app depends on a github url, fork it to your repo so your app doesn't die if some evil clown deletes the original
 * `ffaker` > `faker` - should only be a few differences to fix
 * `pagy` > all other pagination gems
 * `pundit` is great for locking down granular access to things
 * `phonelib` is great for phone/mobile sanitise/formatting
-* `pg_search` is handy for postgres full text search
+* `pg_search` is handy for `postgres` full text search
 * `paper_trail` (gem) != `papertrail` (saas) - tracking changes like audited vs online log storage
 * Delete `coffee-rails`, use an online service to decaffinate
 * Remove `uglifier`, `yui-compressor` etc once you have `webpacker` packaging the FE
-* `letter_opener` is your friend on local dev. if you must test on a smtp server, add some sandbox email intercepting so you don't email real people. But you use obfuscated data, right?
+* `letter_opener` is your friend on local dev. If you absolutely must test on an smtp server, add some sandbox email intercepting so you don't email real people. Friends don't let friends spam. But you use obfuscated data, right?
 * If you're using sentry/new relic, make sure you're filtering out PII
 
 ## Node
@@ -101,13 +101,13 @@ is_blog: true
 * Use `yarn` over `npm` - should have a `yarn.lock` in the root
 * `yarn outdated`, `yarn audit`
 * Bump the rails packages to match the rails upgrade versions
-* step major `node` versions 10>12>14>16>18>20 up to the oldest your hosting platform supports - new ones are always fiddley and will probably make you cry
+* step major `node` versions 10>12>14>16>18>20 up to the oldest your hosting platform supports - new ones are always fiddly and will probably make you sob uncontrollably.
 * If you are on ruby 3.0, you are on `openssl 1.1.1`, and can't go above `node 18/20` without using the `openssl-legacy-provider` node option - sorted in ruby 3.1 which uses `openssl 3`
 * Piss off `libv8` / `therubyracer` gems as you have `node` installed
 * Move all of your BE js gems to FE js where they have no good reason to be on the BE
 * `bootstrap`, `font awesome`, `jquery`
 * `purgecss` can help remove unused css - but sometimes it gets it wrong, add exceptions to `/config/purgecss.config.js`
-* Time to get rid of `bower`. Move them to `package.json` and let yarn take over
+* Time to get rid of `bower`. Move them to `package.json` and let `yarn` take over
 * You should have a `.node-version` in the root - if you don't, travis will assume the latest for it's ubuntu version, which may throw errors around `node18/20`, `openssl1/3`
 * Same goes for `.ruby-version`
 
