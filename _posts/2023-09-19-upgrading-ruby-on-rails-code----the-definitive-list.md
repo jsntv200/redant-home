@@ -116,4 +116,4 @@ is_blog: true
 * If your app does a lot of logging to disk, you need some sweet, sweet 12 Factoring
 * Write important stuff to the db, everything else to `stdout` and let heroku manage the logs - and maybe pipe to `papertrail` for a better ui
 
-If you're stuck on a Rails upgrade, [give us a shout](/hire-us/)! If you'd like to complain about the mixing up of metaphors, lame movie links, or anything that's rustled your jimmies please [head over to our Linkedin](https://www.linkedin.com/company/green-ant-solutions/about/) and leave a complaint there. We value the feedback.
+If you're stuck on a Rails upgrade, [give us a shout](/hire-us/)! If you'd like to complain about the mixing up of metaphors, lame movie references, or anything that's rustled your jimmies please [head over to our Linkedin](https://www.linkedin.com/company/green-ant-solutions/about/) and leave a complaint there. We value the feedback.
