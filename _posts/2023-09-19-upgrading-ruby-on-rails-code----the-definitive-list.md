@@ -123,3 +123,5 @@ is_blog: true
 * If you've [migrated to heroku](/technology/heroku/), you no longer need that capistrano config - one less thing to maintain - comment out or remove. `Gemfile`, `/config`
 * If your app does a lot of logging to disk, you need some sweet, sweet 12 Factoring
 * Write important stuff to the db, everything else to `stdout` and let heroku manage the logs - and maybe pipe to `papertrail` for a better ui
+
+If you're stuck, [give us a shout](/hire-us/)! If you'd like to complain about the mixing up of metaphors and lame movie links, please head over to our Linkedin and leave a complaint there.
