@@ -13,10 +13,12 @@ description: >-
   Most Rails update guides are just sad regurgitations of rubyonrails.org
   guides. But not this one. Strap in. Get ready. This is the unvarnished,
   definitive guide to all the gotchas and rabbit holes out there. 
-content_sidebar: "Most Rails update guides are just sad regurgitations of rubyonrails.org guides. <br /><br />\nNot this one. \\\n<br /><br />\\\nMake a cup of tea, strap yourself in and get ready - this is the unvarnished, definitive guide. We've already wasted all the time there is and been down all the rabbit holes there are, so you don't need to! <br /><br />\nSo nice. \U0001F44D\n"
+content_sidebar: "Most Rails update guides are just sad regurgitations of rubyonrails.org guides. <br /><br />\nNot this one. \\ <br /><br />\\\nMake a cup of tea, strap yourself in and get ready - this is the unvarnished, definitive guide. We've already wasted all the time there is and been down all the rabbit holes there are, so you don't need to! <br /><br />\nSo nice. \U0001F44D\n"
 date_published: 2023-09-18T14:00:00.000Z
 updated_at: 2023-09-18T14:00:00.000Z
 is_blog: true
+image_small: /assets/uploads/upgread-ror-s.jpg
+image: /assets/uploads/upgread-ror-l.jpg
 ---
 
 ## The BIG gotchas
@@ -40,7 +42,7 @@ is_blog: true
 * `rails diff` is your friend [https://railsdiff.org/6.1.7.4/7.0.6](https://railsdiff.org/6.1.7.4/7.0.6)
 * `rails-new-output` is your even bester friend [https://github.com/railsdiff/rails-new-output](https://github.com/railsdiff/rails-new-output)
 * Get your test suite working, upgrade gems to latest, add travis so you can test in the background while you do other things. Or make dinner or practice your drums.
-* There's plenty of blog posts about upgrading rails - mostly just rehashing what's in the [rubyonrails.org](http://rubyonrails.org/) guides. Or some SEO junkie trying to grab some traffic. 
+* There's plenty of blog posts about upgrading rails - mostly just rehashing what's in the [rubyonrails.org](http://rubyonrails.org/) guides. Or some SEO junkie trying to grab some traffic.
 * Move plain text passwords -> rails credentials, roll keys if sensitive, master key -> 1pass or similar
 * Each upgrade adds /config/initialisers/ new framework defaults. Most of them can be simply enabled. You won't even notice. Add them all and if nothing breaks, you're good.
 * ... otherwise step through each and rerun your tests
@@ -48,7 +50,7 @@ is_blog: true
 * Good seed data is helpful when setting up a fresh app to test against. A recent Prod dump, (obfuscated, of course!) is better
 * Comment out super old outdated `rake` tasks that can mess up your data. Less code to maintain
 * Before upgrading controllers, check the routes to see if they are actually in use. You might find a bunch of old unused controllers that you can skip upgrading
-* This will take more time, but it's easier to upgrade each rails major.minor version one by one instead of leaping 5.x -> 7.x. And we're 1000% guaranteeing that you'll miss something. 
+* This will take more time, but it's easier to upgrade each rails major.minor version one by one instead of leaping 5.x -> 7.x. And we're 1000% guaranteeing that you'll miss something.
 * If your super old Rails 4 app doesn't have a huge amount of code, consider a fresh rails 7 install instead of a gazillion Rails upgrades and cherry pick the features actually still used
 
 ## Dem Gemz
