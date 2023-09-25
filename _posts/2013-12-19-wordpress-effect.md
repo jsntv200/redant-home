@@ -2,7 +2,7 @@
 layout: blog-detail
 is_blog: true
 title: The WordPress Effect
-permalink: /:categories/wordpress-effect/
+permalink: '/:categories/wordpress-effect/'
 type: ideas
 categories:
   - blog
@@ -25,8 +25,8 @@ time: ''
 redirect_from:
   - /strategy/wordpress-effect/
 date_published: 2013-12-19T00:00:00.000Z
-
 updated_at: 2013-12-19T00:00:00.000Z
+published: true
 ---
 
 ## On one side are the Marketers
@@ -41,7 +41,7 @@ This has turned web design into a product - one you can buy instantly for $40. T
 
 Economically this works too - the company making the theme might have spent say $40k designing, developing and testing the theme. But at $40 a pop they are nominally ahead after 1000 customers.
 
-![flip](/assets/uploads/2013/flip.gif)
+![](/assets/uploads/flip.gif)
 
 #### The CMS is free
 
@@ -49,7 +49,7 @@ Wordpress itself is free - so you're probably not going to want to paymoney for 
 
 #### and hosting is cheaper
 
-At the same time, low end hosting is also easier and cheaper than ever. What used to take a day or so (sometimes weeks) now happens in real time. And you can grab a domain and set up your analytics at the same time.
+At the same time, low-end hosting is also easier and cheaper than ever. What used to take a day or so (sometimes weeks) now happens in real time. And you can grab a domain and set up your analytics at the same time.
 
 #### = pricing tsunami
 
