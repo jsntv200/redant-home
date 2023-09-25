@@ -2,7 +2,7 @@
 layout: blog-detail
 is_blog: true
 title: Why we use Ruby on Rails
-permalink: /:categories/why-we-use-ruby-on-rails/
+permalink: '/:categories/why-we-use-ruby-on-rails/'
 type: ideas
 categories:
   - blog
@@ -25,7 +25,6 @@ redirect_from:
   - /blog/text-cloud-in-flash/
   - /ruby-on-rails/why-we-use-ruby-on-rails/
 date_published: 2009-08-02T00:00:00.000Z
-
 updated_at: 2009-08-02T00:00:00.000Z
 published: true
 ---
@@ -62,7 +61,7 @@ One of the little problems that we run into is getting another developer to take
 
 This is usually petty stuff, like using underscores rather than dashes or renaming a few database tables. Sounds small, but this can then snowball when it then needs to be applied everywhere else. Frustrating when it wasnt really required, but the developer felt compelled to pee.
 
-Rails has this thing called convention over configuration, which avoids all the peeing. Rather than starting from scratch, there are all these conventions that make a lot of sense. Say I was making a list of these blog posts that you're reading now. The list would be called posts. Each item on my list would be a post.
+Rails has this thing called [convention over configuration](https://redant.com.au/blog/ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/), which avoids all the peeing. Rather than starting from scratch, there are all these conventions that make a lot of sense. Say I was making a list of these blog posts that you're reading now. The list would be called posts. Each item on my list would be a post.
 
 Make sense? Not BlogPost, blog\_item or myblog89-entry. This saves time in simple ways- like once you see post, you can assume it belongs to posts.
 
