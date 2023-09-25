@@ -2,7 +2,7 @@
 layout: blog-detail
 is_blog: true
 title: Getting more efficient with our Ruby on Rails projects
-permalink: /:categories/ruby-on-rails-efficiency-convention-over-configuration/
+permalink: '/:categories/ruby-on-rails-efficiency-convention-over-configuration/'
 type: ideas
 categories:
   - blog
@@ -24,7 +24,6 @@ redirect_from:
   - /lean-development/ruby-on-rails-efficiency-convention-over-configuration/
   - /ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/
 date_published: 2013-04-10T00:00:00.000Z
-
 updated_at: 2013-04-10T00:00:00.000Z
 published: true
 ---
@@ -39,7 +38,7 @@ As a solution, we decided to document **The Right Way**. This was before we [dis
 
 So our next attempt at solving this was to create a library of code that contained all **The Right Ways** to do stuff. This took ages to build, and it was great for a while, until we worked out that how big and inefficient the damn thing had got. It was classic [not made here (not invented here)](http://en.wikipedia.org/wiki/Not_invented_here) behaviour. Rather than using existing open source libraries, we were rolling our own, and often there were 2 or 3 very similar parts. See- the CamelCase guy might want one flavour, and lowercase guy might prefer another, so we'd better have both. I think someone had a crack at rewriting SQL in there somewhere too.
 
-![surfing](/assets/uploads/2013/surfing.gif)
+![](/assets/uploads/surfing.gif)
 
 The bloat was a problem, because this was being included on each and every request. Microsoft ASP isn't particularly fast to begin with, but we did our best to slow it to a crawl.
 
