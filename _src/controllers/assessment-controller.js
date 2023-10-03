@@ -68,14 +68,6 @@ export class AssessmentController extends Controller {
     return location.pathname.includes("book-call");
   }
 
-  get isSubmitPath() {
-    return location.pathname === `${this.basePathValue}submit`;
-  }
-
-  get isResultsPath() {
-    return location.pathname === `${this.basePathValue}results`;
-  }
-
   get storedAnswers() {
     const answers = localStorage.getItem(this.assessment.storageKey);
     return answers === 'null' || answers === null ? {} : JSON.parse(answers);
