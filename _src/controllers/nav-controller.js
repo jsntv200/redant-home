@@ -52,6 +52,13 @@ export class NavController extends Controller {
       : pathname.indexOf(link.pathname) >= 0;
   }
 
+  scrollRight() {
+    this.itemWrapperTarget.scrollTo({
+      left: this.itemWrapperTarget.scrollLeft + 130,
+      behavior: "smooth",
+    });
+  }
+
   setActive(link) {
     link.classList.add(this.activeClass);
   }
