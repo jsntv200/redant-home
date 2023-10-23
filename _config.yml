@@ -4,6 +4,12 @@ description: >-
   Red Ant is a Technical Agency. We create & build exceptional digital products.
   These live as web sites, in mobile apps, and in social networks.
 
+social:
+  name: Red Ant
+  links:
+    - https://twitter.com/r_e_d_a_n_t
+    - https://www.linkedin.com/company/76862
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://redant.com.au" # the base hostname & protocol for your site, e.g. http://example.com
 announcement_bar: false
