@@ -18,12 +18,12 @@ description: >
   more dependent on stable apps, and the threat of cyber security has become
   bigger, this is no longer viable. It’s really important to keep your Ruby on
   Rails application up to date
+image_small: /assets/uploads/ruby-updating-s.jpg
+image: /assets/uploads/ruby-updating-l.jpg
 content_sidebar: ''
 date_published: 2023-09-10T14:00:00.000Z
 updated_at: 2023-09-10T14:00:00.000Z
 is_blog: true
-image_small: /assets/uploads/ruby-updating-s.jpg
-image: /assets/uploads/ruby-updating-l.jpg
 ---
 
 Once upon a time, it wasn’t uncommon for people to leave their web application the hell alone once they’d stabilised things. The belief being that making changes may introduce new problems, and the best approach to boosting longevity was to make as few changes possible.
@@ -42,19 +42,19 @@ It’s really important to keep your [Ruby on Rails](https://redant.com.au/blog/
 
 Take a look for a .ruby-version file in the root of your app to determine which version you’re running, if that’s missing you can check to see if it’s specified inside the Gemfile, or failing that you can make some assumptions based on your Rails version.
 
-| Rails Version | | Ruby Version |
-| --------------- | ---------- | --------------- |
-| 7.1 | | 3.2 |
-| 7 | | 3.1 |
-| 6.1 | | 3 |
-| 6 | | 2.6 |
-| 5.2 | | 2.5 |
-| 5.1 | | 2.5 |
-| 5 | | 2.4 |
-| 4.2 | | 2.2 |
-| 4.1 | | 2.1 |
-| 4 | | 2 |
-| 3.2 | | 2 |
+| Rails Version |   | Ruby Version |
+| ------------- | - | ------------ |
+| 7.1           |   | 3.2          |
+| 7             |   | 3.1          |
+| 6.1           |   | 3            |
+| 6             |   | 2.6          |
+| 5.2           |   | 2.5          |
+| 5.1           |   | 2.5          |
+| 5             |   | 2.4          |
+| 4.2           |   | 2.2          |
+| 4.1           |   | 2.1          |
+| 4             |   | 2            |
+| 3.2           |   | 2            |
 
 As of writing this in September 2023, Ruby 3 and greater are currently supported. For further information check [https://endoflife.date/ruby](https://endoflife.date/ruby)
 
@@ -87,7 +87,7 @@ Rather than updating your gems to the latest version, move slowly through major 
 
 As you progress through your Upgrade Journey, you will encounter various speed bumps, depending on rails version, and gems you use. Here’s some noteworthy ones
 
-* rails 4/5 apps - having to jump through all of the intermediate techs on the way to 7 - sprockets>webpacker>sprockets>esbuild>importmaps
+* rails 4/5 apps - having to jump through all of the intermediate techs on the way to 7 - sprockets > webpacker > sprockets > esbuild > importmaps
 * ditching paperclip for active storage - if they are have any custom paperclip integrations
 * migrating paperclip assets to active storage will always take 5x longer than you planned for
 
