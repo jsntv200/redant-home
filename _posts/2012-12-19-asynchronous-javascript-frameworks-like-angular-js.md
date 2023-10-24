@@ -25,8 +25,8 @@ redirect_from:
   - /pjax/
   - /pjax/asynchronous-javascript-frameworks-like-angular-js/
 date_published: 2012-12-19T00:00:00.000Z
-
 updated_at: 2012-12-19T00:00:00.000Z
+published: false
 ---
 
 The technology behind all this are the new Javascript frameworks, with names like Angular, Ember, Spine, Knockout, Derby and Meteor. We've decided to go with [AngularJS (AngularJS)](http://angularjs.org/), which is a Google project.

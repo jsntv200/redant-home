@@ -32,7 +32,7 @@ OK- so that was a few general things. In terms of specifics, we:
 * code review PRs before they are merged, and have a pretty tight release flow
 * aim for 12 factor in all our work
 
-In terms of actual front end technology, the picture is a bit blurry right now. Everything we do is Ruby, but sometimes this is a single Rails app, and sometimes separate (JRuby API, Angular FE). But all of this is constantly evolving - we’re also evaluating React and let’s not even bring up testing frameworks.
+In terms of actual front end technology, the picture is a bit blurry right now. Everything we do is Ruby, but sometimes this is a single Rails app, and sometimes separate (JRuby API, [ReactJS](/technology/reactJS/ "ReactJS") FE). But all of this is constantly evolving - we’re also evaluating React and let’s not even bring up testing frameworks.
 
 The things we make are typically large web applications, which we call [digital products](/blog/products/defining-a-digital-product/ ""). Have a look at our [portfolio](/portfolio/ "") to get a better idea of the some of the projects we work on.
 

@@ -33,7 +33,7 @@ You might be:
 You don’t necessarily need experience with:
 
 * Ruby on Rails - although that would help
-* Javascript, in particular Javascript frameworks like AngularJS or Ember - although that would help
+* Javascript, in particular Javascript frameworks like ReactJS or Ember - although that would help
 * Travis and Continuous Integration testing - although that would help
 
 You’re methodical and meticulous. Your friends think you are a super genius. You can communicate clearly. And finally, you’re really into how things work, and you’re always interested in learning more.
@@ -46,7 +46,7 @@ Recruiters please: we’re not interested in getting contacted by recruitment co
 
 Our office is in Surry Hills, Sydney, and we’re surrounded by a gazillion great cafes, bars, clubs and restaurants. In fact our office is directly on top of Longrain, and even better the Shortgrain bar under that. You can park your bike with us, or grab a train, tram or bus - we’re pretty central.
 
-We specialise in creating large and interesting websites. There are around 35 of us – a mix of Rails Developers, Front Enders, Designers, Content People and Project Managers. As well as Rails, we’re expanding our expertise in delivering Javascript front ends using technologies like AngularJS.
+We specialise in creating large and interesting websites. There are around 35 of us – a mix of Rails Developers, Front Enders, Designers, Content People and Project Managers. As well as Rails, we’re expanding our expertise in delivering Javascript front ends using technologies like ReactJS.
 
 We’re also trying to become better at TDD, becoming even more Agile, and make our builds run at somewhere approaching light speed.
 

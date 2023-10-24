@@ -21,7 +21,6 @@ description: >-
   The no nonsense guide for entrepreneurs, startups, product owners or anyone
   that is a bit baffled about tech stack options.
 date_published: 2019-06-05T00:00:00.000Z
-
 updated_at: 2019-06-05T00:00:00.000Z
 redirect_from:
   - /software-development/ruby-on-rails-for-your-web-development/
