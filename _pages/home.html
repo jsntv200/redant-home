@@ -239,13 +239,11 @@ redirect_from:
     <hr class="bg-white/40 h-[2px]" />
 
     {% for post in site.posts limit:3 %}
-      {% unless include.type != nil or include.type == post.type %}
-        {% include post-card-wide.html
-          description = post.description
-          image_small = post.image_small
-          title = post.title
-          url = post.url %}
-      {% endunless %}
+      {% include post-card-wide.html
+        description = post.description
+        image_small = post.image_small
+        title = post.title
+        url = post.url %}
     {% endfor %}
 
     <a
