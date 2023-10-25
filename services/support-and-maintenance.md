@@ -1,35 +1,21 @@
 ---
+published: true
 layout: service-detail
 title: Support & Maintenance
+service_index_description: >-
+  Ensure your software applications run smoothly, remain secure, and adapt
+  seamlessly to your evolving business needs.
+subtitle: >-
+  Safeguard Your Digital Success with Red Ant Application Support and
+  Maintenance Services
 description: >
   Welcome to a world of worry-free digital operations! Red Ant Application
   Support and Maintenance Services are designed to ensure your software
   applications run smoothly, remain secure, and adapt seamlessly to your
   evolving business needs. Embrace the power of reliable support and maintenance
   to keep your digital assets at their peak performance.
-service_index_description: >-
-  Ensure your software applications run smoothly, remain secure, and adapt
-  seamlessly to your evolving business needs.
 slug: support-and-maintenance
-icon: fa-wrench
-published: true
-subtitle: >-
-  Safeguard Your Digital Success with Red Ant Application Support and
-  Maintenance Services
 section_1_title: Why Choose Red Ant Application Support and Maintenance Services?
-section_2_title: Our Application Support and Maintenance Process
-cta_title: Experience Seamless Operations Today!
-cta_description: >
-  Elevate your digital presence with our Application Support and Maintenance
-  Services. Keep your applications secure, reliable, and responsive, allowing
-  you to focus on what you do best – growing your business.
-
-
-  Ready to ensure the long-term success of your digital assets? Partner with Red
-  Ant to experience worry-free operations.
-cta_button_label: >-
-  Contact us today to commence your journey of digital excellence and peace of
-  mind!
 section_1_list:
   - title: Continuous Reliability
     text: >-
@@ -56,6 +42,7 @@ section_1_list:
       We prioritise the security of your applications. Our team performs regular
       security assessments and updates to keep your applications resilient
       against threats and compliant with industry standards.
+section_2_title: Our Application Support and Maintenance Process
 section_2_list:
   - title: Analysis and Assessment
     text: >-
@@ -78,18 +65,17 @@ section_2_list:
     text: >-
       We constantly assess and optimise your applications for peak performance,
       leveraging data-driven insights and user feedback.
+cta_title: Experience Seamless Operations Today!
+cta_description: >
+  Elevate your digital presence with our Application Support and Maintenance
+  Services. Keep your applications secure, reliable, and responsive, allowing
+  you to focus on what you do best – growing your business.
+
+
+  Ready to ensure the long-term success of your digital assets? Partner with Red
+  Ant to experience worry-free operations.
+cta_button_label: >-
+  Contact us today for a free initial consult to commence your journey of
+  digital excellence and peace of mind!
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
 
