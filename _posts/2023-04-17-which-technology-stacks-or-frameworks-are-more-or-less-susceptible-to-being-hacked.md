@@ -20,15 +20,12 @@ categories:
   - cyber-security
 blog_categories:
   - cyber-security
-
 description: >-
   We’re often asked if a particular framework or technology is more or less
   susceptible to being hacked than another. Or put another way, is one “more
   secure” than another? While the technology stack kind of matters, it really
   comes down to ongoing effort and experience of your team in understanding
   security risks.
-redirect_from:
-  - /cyber-security/which-tech-stacks-are-more-likely-to-be-hacked/
 ---
 
 We’re often asked if a particular framework or technology is more or less susceptible to being hacked than another. Or put another way, is one “more secure” than another?

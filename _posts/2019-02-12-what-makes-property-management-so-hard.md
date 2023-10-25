@@ -22,8 +22,6 @@ description: >-
   simple.
 tags: null
 time: ''
-redirect_from:
-  - /software-development/what-makes-property-management-so-hard/
 date_published: 2019-02-12T00:00:00.000Z
 updated_at: 2019-02-12T00:00:00.000Z
 published: true

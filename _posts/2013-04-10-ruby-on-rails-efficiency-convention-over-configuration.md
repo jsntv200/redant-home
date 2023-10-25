@@ -20,9 +20,6 @@ description: >-
   quality.
 tags: []
 time: ''
-redirect_from:
-  - /lean-development/ruby-on-rails-efficiency-convention-over-configuration/
-  - /ruby-on-rails/ruby-on-rails-efficiency-convention-over-configuration/
 date_published: 2013-04-10T00:00:00.000Z
 updated_at: 2013-04-10T00:00:00.000Z
 published: true
