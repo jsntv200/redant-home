@@ -76,6 +76,6 @@ cta_description: >
   unparalleled data protection.
 cta_button_label: >-
   Contact us now for a free initial consult and embark on a journey of security
-  and trust-building that will set your organisation apart!
+  and trust-building!
 ---
 
