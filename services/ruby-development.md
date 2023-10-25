@@ -1,18 +1,17 @@
 ---
+published: true
 layout: service-detail
 title: Ruby Development
+service_index_description: >-
+  Harness the full potential of the Ruby programming language with cutting-edge
+  web applications.
+subtitle: Elevate Your Ruby Application with Red Ant
 description: >-
   Welcome to a world of dynamic and robust web development! Red Ant Ruby
   Development Services harness the full potential of the Ruby programming
   language to create cutting-edge web applications. Embrace the power of Ruby
   and experience a seamless blend of performance and scalability.
-service_index_description: >-
-  Harness the full potential of the Ruby programming language with cutting-edge
-  web applications.
 slug: ruby-development
-icon: fa-hammer
-published: true
-subtitle: Elevate Your Ruby Application with Red Ant
 section_1_title: Why Choose Red Ant Ruby Development Services?
 section_1_list:
   - title: Ruby Experts at Your Service
@@ -77,20 +76,8 @@ cta_description: >
 
   Ready to embark on a Ruby-powered journey? Partner with Red Ant to experience
   web development like never before.
-cta_button_label: Contact us now and let's create web solutions that captivate and excel!
+cta_button_label: >-
+  Contact us now for a free initial consult and let's create web solutions that
+  captivate and excel!
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
