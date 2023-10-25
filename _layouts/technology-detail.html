@@ -5,12 +5,14 @@ layout: default
 {% include background-image.html file = "svg/lines-7.svg" %}
 
 <div class="max-w-screen-lg mx-auto lg:px-12">
+  {% assign image-alt = page.title | append: " logo" %}
   {% include title-panel.html
     title = page.title
     subtitle = page.subtitle
     sub-description = page.description
     cta-intercom-label = "Let's start now"
-    image = page.image %}
+    image = page.image
+    image-alt = image-alt %}
 </div>
 
 <div class="max-w-screen-lg mx-auto pb-12 md:pb-24 px-6 lg:px-20">

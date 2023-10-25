@@ -39,4 +39,4 @@ How I ended up here:
 * I check eBay, and yes the description is pretty clear (if I had scrolled down to read that far) that this is in fact a 6cm shoe
 * [Dreaded delivery](http://www.benchfly.com/blog/caution-objects-may-appear-larger-than-they-really-are/) arrives. Luckily there has been a rush on babies at Red Ant recently (something in the coffee I think), so there are plenty of little feet.
 
-![](/assets/uploads/2013/danger.jpg)
+![The perils of ecommerce and how objects may appear larger and better](/assets/uploads/2013/danger.jpg)

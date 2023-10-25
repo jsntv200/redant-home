@@ -41,7 +41,7 @@ This has turned web design into a product - one you can buy instantly for $40. T
 
 Economically this works too - the company making the theme might have spent say $40k designing, developing and testing the theme. But at $40 a pop they are nominally ahead after 1000 customers.
 
-![](/assets/uploads/flip.gif)
+![Stunt gone wrong](/assets/uploads/flip.gif)
 
 #### The CMS is free
 

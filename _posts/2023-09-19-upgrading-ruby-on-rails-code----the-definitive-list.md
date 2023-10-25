@@ -12,10 +12,10 @@ author: Clem Fandango
 description: >-
   Most Rails update guides are just sad regurgitations of rubyonrails.org
   guides. But not this one. Strap in. Get ready. This is the unvarnished,
-  definitive guide to all the gotchas and rabbit holes out there. 
+  definitive guide to all the gotchas and rabbit holes out there.
 image_small: /assets/uploads/upgread-ror-s.jpg
 image: /assets/uploads/upgread-ror-l.jpg
-content_sidebar: "Most Rails update guides are just sad regurgitations of rubyonrails.org guides. <br /><br />\nNot this one. \\ <br /><br />\\\nMake a cup of tea, strap yourself in and get ready - this is the unvarnished, definitive guide. We've already wasted all the time there is and been down all the rabbit holes there are, so you don't need to! <br /><br />\nSo nice. \U0001F44D\n"
+content_sidebar: "Most Rails update guides are just sad regurgitations of rubyonrails.org guides. <br /><br />Not this one. <br /><br />Make a cup of tea, strap yourself in and get ready - this is the unvarnished, definitive guide. We've already wasted all the time there is and been down all the rabbit holes there are, so you don't need to! <br /><br />\nSo nice. \U0001F44D\n"
 date_published: 2023-09-18T14:00:00.000Z
 updated_at: 2023-09-18T14:00:00.000Z
 is_blog: true

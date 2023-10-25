@@ -37,7 +37,7 @@ Nothing unusual there.
 
 The issue comes about when the content in each row grows to include potentially sensitive data. And it typically happens gradually over time. The first iteration might have only had ID, firstname, lastname. But over time, to make that search page more useful, more details were added. 
 
-![](/assets/uploads/search-ux-1.png)
+![Database evolving example](/assets/uploads/search-ux-1.png)
 
 Which is good - the software has been improved to make the search process better and more efficient. But in meeting that objective, there’s been a compromise in security. 
 
@@ -60,7 +60,7 @@ In this query, we're asking for potentially sensitive health **and** financial d
 
 The admin person's task in this case is to send out payment reminders. But to achieve this, they just need a list of people that match the criteria, rather than all of the sensitive data which makes up that query. They need to know they are having a procedure soon, but they don't need to know what (which may be sensitive). They need to know who hasn't paid their bill, but they don't need to know for how much. They don't need to know personally identifying information like Email, Date of Birth or Address, what their last payment was or any other financial or health data.
 
-![](/assets/uploads/search-ux-2.png)
+![Improved search results](/assets/uploads/search-ux-2.png)
 
 There might be a separate task to email out payment reminders to these people. Again, this could be designed so the audience is defined (people who haven't paid), and then each patient is then sent an email. An admin user doesn't need to get exposed to this information - they never need to see the actual email with payment details and the sending can all happen as a background process.
 
@@ -81,7 +81,7 @@ Another approach is to request a reason. So when the admin user arrives on a scr
 **Don't forget the API !**\
 On a more technical note, it's also important to consider what is coming back from the API data source. So while the page from the example above may now only display ID, name and procedure, a quick inspection of the data feed could expose more sensitive information. And while you may not consider Joe from Accounts capable of writing a script to paginate through the XHR and grab your entire patient data set, the person who wrote the USB key logger hidden inside the phone charging cable Joe found and has started using probably can.
 
-![](</assets/uploads/Screenshot 2023-04-17 at 5.03.56 pm.png>)
+![Rolled up cable](</assets/uploads/Screenshot 2023-04-17 at 5.03.56 pm.png>)
 
 The fix here is:
 
