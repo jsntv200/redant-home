@@ -1,21 +1,20 @@
 ---
+published: true
 layout: service-detail
 title: Code Review
+service_index_description: >-
+  Ready to take your software development projects to the next level? We're here
+  to ensure your code is robust, efficient, and optimised for success.
+subtitle: Elevate Your Code with the Red Ant Expert Code Review Service
 description: >-
   Welcome to a new era of code excellence! Are you ready to take your software
   development projects to the next level? Red Ant’s industry-leading Code Review
   Service is here to ensure your code is robust, efficient, and optimised for
   success.
-service_index_description: >-
-  Ready to take your software development projects to the next level? We're here
-  to ensure your code is robust, efficient, and optimised for success.
 slug: code-review
-icon: fa-display-code
-published: true
 redirect_from:
   - /ruby-on-rails-code-review/
   - /free-initial-consult-code-review/
-subtitle: Elevate Your Code with the Red Ant Expert Code Review Service
 section_1_title: Why Choose Our Code Review Service?
 section_1_list:
   - title: Unmatched Expertise
@@ -43,11 +42,6 @@ section_1_list:
       Our code reviews are more than just evaluations. We provide clear and
       constructive feedback, empowering your team with actionable insights that
       foster continuous improvement.
-cta_description: >
-  Don't let subpar code hold back your software's potential. Join the ranks of
-  successful developers and businesses who have benefited from our
-  transformative Code Review Service. Take the first step toward code excellence
-  and unlock a world of possibilities for your projects.
 section_2_title: How Our Code Review Service Works
 section_2_list:
   - title: Submission
@@ -69,18 +63,13 @@ section_2_list:
       consultation with our experts to discuss the review, answer your
       questions, and provide guidance.
 cta_title: Elevate Your Code Today!
-cta_button_label: Contact us now and watch your software shine brighter than ever before!
+cta_description: >
+  Don't let subpar code hold back your software's potential. Join the ranks of
+  successful developers and businesses who have benefited from our
+  transformative Code Review Service. Take the first step toward code excellence
+  and unlock a world of possibilities for your projects.
+cta_button_label: >-
+  Contact us now for a free initial consult and watch your software shine
+  brighter than ever before!
 ---
-
-
-
-
-
-
-
-
-
-
-
-
 
