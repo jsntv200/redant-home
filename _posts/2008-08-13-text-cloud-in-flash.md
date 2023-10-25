@@ -52,7 +52,7 @@ We grab the cloud bit with this code, which could be either in the layout or as 
 
 ![cloud snippet](/assets/uploads/2008/radiant-cloud-snippet.png)
 
-But this is only half the story. Next, we could have gone 2 ways. The first would have been to simply style the content via CSS and Javascript, and the second was to use Flash. The advantage of Flash here is that it gave us a bit more freedom with regard to font, effects, and speed of production. The Javascript feeds this list of words into a Flash movie and we let Flash handle the weighting. We used [Prototype](http://prototypejs.org/) to parse the list, and added it as a variable into the embed code.
+But this is only half the story. Next, we could have gone 2 ways. The first would have been to simply style the content via CSS and JavaScript, and the second was to use Flash. The advantage of Flash here is that it gave us a bit more freedom with regard to font, effects, and speed of production. The JavaScript feeds this list of words into a Flash movie and we let Flash handle the weighting. We used [Prototype](http://prototypejs.org/) to parse the list, and added it as a variable into the embed code.
 
 ```
 var so = new SWFObject("root.swf", "text-cloud-flash", "525px", "100%", "8", "#ffffff");
@@ -65,7 +65,7 @@ so.write("text-cloud");
 <script type="text/javascript" src="/assets/uploads/2008/08/javascripts/shBrushXml.js"></script>
 <script type="text/javascript" src="/assets/uploads/2008/08/javascripts/dojshighlight.js"></script>
 
-From there it is pretty straight forward. Flash randomises the array, calculates relative sizes of fonts, and generates our text cloud. The only tricky thing left to do is to resize the Flash content on the page to fit the height of it's content. We didn't want to limit the content author at all- if they want 5 words or 50 words, the Flash needs to deal with it gracefully. Again, this is handled with Javascript and Prototype. This means that the content editor doesn't need to worry about passing additional arguments to make it bigger for more text, and we can be sure the text cloud will look the way it's meant to look.
+From there it is pretty straight forward. Flash randomises the array, calculates relative sizes of fonts, and generates our text cloud. The only tricky thing left to do is to resize the Flash content on the page to fit the height of it's content. We didn't want to limit the content author at all- if they want 5 words or 50 words, the Flash needs to deal with it gracefully. Again, this is handled with JavaScript and Prototype. This means that the content editor doesn't need to worry about passing additional arguments to make it bigger for more text, and we can be sure the text cloud will look the way it's meant to look.
 
 #### Try it out
 

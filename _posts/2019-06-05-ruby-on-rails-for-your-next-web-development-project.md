@@ -21,7 +21,6 @@ description: >-
   The no nonsense guide for entrepreneurs, startups, product owners or anyone
   that is a bit baffled about tech stack options.
 date_published: 2019-06-05T00:00:00.000Z
-
 updated_at: 2019-06-05T00:00:00.000Z
 redirect_from:
   - /software-development/ruby-on-rails-for-your-web-development/
@@ -298,7 +297,7 @@ end</code></pre>
 <ul>
 <li class="mb-3">
   Released in 2010, Angular was a very popular technology that helped
-  developers create “front end” apps. These used asynchronous javascript
+  developers create “front end” apps. These used asynchronous JavaScript
   to make changes happen in the browser incredibly quickly. This made
   user interfaces very responsive and fast.
 </li>
@@ -322,7 +321,7 @@ end</code></pre>
 <h5 class="ms-4">Ember</h5>
 <ul>
   <li class="mb-3">
-    First released in 2011, Ember is a javascript framework ideally
+    First released in 2011, Ember is a JavaScript framework ideally
     suited to building single page applications that scale well.
   </li>
   <li class="mb-3">
@@ -340,7 +339,7 @@ end</code></pre>
   <li class="mb-3">
     In some ways Ember has the reverse of Angular’s problem - it has a
     stable code base but with no innovation. The rate of change has
-    fallen well behind other similar javascript projects. If you’re the
+    fallen well behind other similar JavaScript projects. If you’re the
     owner of an Ember project, you’re probably facing a complete rewrite
     in React or similar.
   </li>

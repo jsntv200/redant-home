@@ -1,11 +1,10 @@
 {
   "order": [
     "ruby-on-rails",
-    "reactjs",
+    "react",
     "stripe-payments",
     "heroku",
     "swift",
-    "angularjs",
     "kubernetes",
     "redis",
     "elasticsearch",
@@ -70,6 +69,7 @@
     "ios-push-notifications",
     "facebook-messenger",
     "facebook-authentication",
-    "fitbit"
+    "fitbit",
+    "angularjs"
   ]
 }

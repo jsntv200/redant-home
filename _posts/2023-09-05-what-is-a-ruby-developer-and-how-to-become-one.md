@@ -31,7 +31,7 @@ A Ruby developer is a software developer who specialises in using the Ruby progr
 
 ## What Does a Ruby Developer Do?
 
-A Ruby developer is typically a backend software developer, which means they are involved in the design and creation of databases, logic and architecture that makes up most modern web applications. Some Ruby developers also enjoy Front End work, which means they might be using a framework like [Ruby on Rails](https://redant.com.au/blog/ruby-on-rails/why-we-use-ruby-on-rails/), or specific Front End frameworks like React or Angular.
+A Ruby developer is typically a backend software developer, which means they are involved in the design and creation of databases, logic and architecture that makes up most modern web applications. Some Ruby developers also enjoy Front End work, which means they might be using a framework like [Ruby on Rails](https://redant.com.au/blog/ruby-on-rails/why-we-use-ruby-on-rails/), or specific Front End frameworks like React.
 
 ## How Do I Become a Ruby Developer?
 

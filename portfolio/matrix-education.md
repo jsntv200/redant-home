@@ -13,7 +13,7 @@ team_size: 5 people
 lines_of_code: 25,000+
 technology_tags:
   - Ruby on Rails
-  - ReactJS
+  - React
   - CSS
   - HTML
   - Stripe Payments

@@ -22,7 +22,7 @@ Alternatively use the supplied docker-compose config:
 
     $ docker-compose up
 
-Javascript and css is built on each build using [esbuild](https://esbuild.github.io/).
+JavaScript and css is built on each build using [esbuild](https://esbuild.github.io/).
 
 ## Updating Portfolio Order
 

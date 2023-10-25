@@ -44,7 +44,7 @@ Redesigned home page
 
 ![Redesigned home page](/assets/uploads/2009/beautyheaven-redesigned-home-page.jpg)
 
-The new feature that pulls in the latest articles on the home page (javascript)
+The new feature that pulls in the latest articles on the home page (JavaScript)
 
 ![Home page feed](/assets/uploads/2009/beautyheaven-home-page-feed.jpg)
 

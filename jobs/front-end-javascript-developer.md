@@ -1,14 +1,14 @@
 ---
 layout: job
 slug: front-end-javascript-developer
-title: Senior Front Endgnr Javascript Developer
+title: Senior Front Endgnr JavaScript Developer
 image_small: /assets/uploads/2014/yoyo.png
 published: false
 ---
 
 ## Who we’re looking for
 
-<p class="lead">We're looking for an experienced Javascript developer to help us create some incredible digital experiences. Front end technology has changed in amazing and incredible ways. New stuff comes out each week. How it fits in has become more and more critical. We need you to help us build awesome things.</p>
+<p class="lead">We're looking for an experienced JavaScript developer to help us create some incredible digital experiences. Front end technology has changed in amazing and incredible ways. New stuff comes out each week. How it fits in has become more and more critical. We need you to help us build awesome things.</p>
 
 Lets go off piste here and assume that you are indeed technically awesome.
 
@@ -31,7 +31,7 @@ OK- so that was a few general things. In terms of specifics, we:
 * code review PRs before they are merged, and have a pretty tight release flow
 * aim for 12 factor in all our work
 
-In terms of actual front end technology, the picture is a bit blurry right now. Everything we do is Ruby, but sometimes this is a single Rails app, and sometimes separate (JRuby API, Angular FE). But all of this is constantly evolving - we're also evaluating React and let's not even bring up testing frameworks.
+In terms of actual front end technology, the picture is a bit blurry right now. Everything we do is Ruby, but sometimes this is a single Rails app, and sometimes separate (JRuby API, React FE). But all of this is constantly evolving - we're also evaluating React and let's not even bring up testing frameworks.
 
 The things we make are typically large web applications, which we call [Digital Products](/blog/products/ "Digital Products"). Have a look at our [portfolio](/portfolio/ "portfolio") to get a better idea of the some of the projects we work on.
 

@@ -6,13 +6,13 @@ description: We’re looking for a super special designer to join our team, and 
 published: false
 ---
 
-# Front End Javascript developer - Red Ant
+# Front End JavaScript developer - Red Ant
 
 Permanent Full Time Role
 
-* We’re looking for a Javascript fanatic
-* Develop your JS and Javascript MVC skills
-* AngularJS and Ruby on Rails environment
+* We’re looking for a JavaScript fanatic
+* Develop your JS and JavaScript MVC skills
+* Ruby on Rails environment
 
 ## Description of the job
 
@@ -20,13 +20,13 @@ We’re looking for a super special front end developer to join our team, and wo
 
 Here’s why you need to be super special: most of the front end roles you might be coming across involve turning photoshop files into HTML. Maybe a bit of jQuery to make a slideshow. Ho hum.
 
-We’re after a total Javascript maniac. More and more of our projects are using Javascript MVC frameworks like AngularJS. This means that rather than the main Rails app driving everything, the front end becomes more important. Everything changes, and pages become super fast. You can read [more on our blawg.](/pjax/asynchronous-javascript-frameworks-like-angular-js/ "more on our blawg.")
+We’re after a total JavaScript maniac. More and more of our projects are using JavaScript MVC. This means that rather than the main Rails app driving everything, the front end becomes more important. Everything changes, and pages become super fast.
 
 Ideally you will be passionate about:
 
 * You’re into making really usable stuff that works well and looks great
 * optimising pages to make them as fast as possible
-* Javascript frameworks, ideally Angular - but experience in Ember, Batman, Node or another advanced Javascript technology is OK as well.
+* JavaScript frameworks, ideally React - but experience in Ember, Batman, Node or another advanced JavaScript technology is OK as well.
 * Ruby on Rails or open source software
 * working as part of an Agile team
 
