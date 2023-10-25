@@ -1,18 +1,18 @@
 ---
+published: true
 layout: service-detail
 title: Dev Ops
+service_index_description: >-
+  Optimise your development process, accelerate deployments, and enhance
+  collaboration between your development and operations teams.
+subtitle: Streamline Your Development Process with Red Ant DevOps Services
 description: >-
   Welcome to a world of efficient and seamless software development! Our DevOps
   Services are designed to optimise your development process, accelerate
   deployments, and enhance collaboration between your development and operations
   teams. Embrace the power of DevOps and take your organisation to new heights
   of productivity and innovation.
-service_index_description: >-
-  Optimise your development process, accelerate deployments, and enhance
-  collaboration between your development and operations teams.
 slug: devops
-icon: fa-gear-complex-code
-published: true
 section_1_title: Why Choose Red Ant DevOps Services?
 section_1_list:
   - title: End-to-End DevOps Solutions
@@ -67,6 +67,7 @@ section_2_list:
       We analyse your existing development and operations processes to identify
       areas for improvement. Together, we develop a tailored DevOps strategy
       aligned with your business objectives.
+cta_title: Experience the DevOps Advantage Today!
 cta_description: >
   Unlock the full potential of your software development process with our DevOps
   Services. Streamline your workflows, accelerate releases, and achieve
@@ -75,26 +76,8 @@ cta_description: >
 
   Ready to revolutionise your development process? Partner with Red Ant to
   experience the DevOps advantage.
-cta_title: Experience the DevOps Advantage Today!
-cta_button_label: Contact us now to begin your journey of continuous innovation and success!
-subtitle: Streamline Your Development Process with Red Ant DevOps Services
+cta_button_label: >-
+  Contact us now for a free initial consult to begin your journey of continuous
+  innovation and success!
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
