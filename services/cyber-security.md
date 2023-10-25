@@ -1,19 +1,18 @@
 ---
+published: true
 layout: service-detail
 title: Cyber Security
+service_index_description: >-
+  Red Ant AppSec services fortify your applications against potential threats
+  and vulnerabilities, providing you with peace of mind and a robust digital
+  presence.
+subtitle: Fortifying Your Applications with Red Ant AppSec Services
 description: >-
   Red Ant AppSec Services are meticulously crafted to fortify your applications
   against potential threats and vulnerabilities. With a focus on proactive
   security measures, we ensure your applications are shielded from cyber risks,
   providing you with peace of mind and a robust digital presence.
-service_index_description: >-
-  Red Ant AppSec services fortify your applications against potential threats
-  and vulnerabilities, providing you with peace of mind and a robust digital
-  presence.
 slug: cyber-security
-icon: fa-lock
-published: true
-subtitle: Fortifying Your Applications with Red Ant AppSec Services
 section_1_title: Why Choose Red Ant AppSec Services?
 section_1_list:
   - title: Holistic Protection
@@ -76,22 +75,7 @@ cta_description: >
   Ready to fortify your application security? Partner with Red Ant to experience
   a new level of AppSec excellence.
 cta_button_label: >-
-  Contact us now to begin your journey of secure application development and
-  digital resilience!
+  Contact us now for a free initial consult to begin your journey of secure
+  application development and digital resilience!
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
