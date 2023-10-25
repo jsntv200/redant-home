@@ -11,6 +11,7 @@ description: >-
   development projects to the next level? Red Ant’s industry-leading Code Review
   Service is here to ensure your code is robust, efficient, and optimised for
   success.
+hero_cta_label: Let's start now
 slug: code-review
 redirect_from:
   - /ruby-on-rails-code-review/

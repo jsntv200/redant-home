@@ -15,6 +15,7 @@ listing_description: >
 
   You can go far beyond simple data retrieval and aggregate information to
   discover trends and patterns in your data.
+hero_cta_label: Let's start now
 slug: elasticsearch
 image: /assets/uploads/2019/elasticsearch.png
 redirect_from: null

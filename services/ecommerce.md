@@ -13,6 +13,7 @@ description: >-
   Whether you're starting from scratch or seeking to enhance your existing
   platform, our expert team is here to craft a seamless and scalable ecommerce
   solution tailored to your business needs.
+hero_cta_label: Let's start now
 slug: ecommerce
 section_1_title: Why Choose Red Ant Ecommerce Solutions?
 section_1_list:

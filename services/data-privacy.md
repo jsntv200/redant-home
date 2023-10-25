@@ -12,6 +12,7 @@ description: >
   information, ensure compliance with regulations, and build trust with your
   customers. Embrace the power of comprehensive data privacy solutions and
   fortify your organisation against risks.
+hero_cta_label: Let's start now
 slug: mobile
 section_1_title: Why Choose Red Ant Data Privacy Services?
 section_1_list:

@@ -12,6 +12,7 @@ description: >-
   deployments, and enhance collaboration between your development and operations
   teams. Embrace the power of DevOps and take your organisation to new heights
   of productivity and innovation.
+hero_cta_label: Let's start now
 slug: devops
 section_1_title: Why Choose Red Ant DevOps Services?
 section_1_list:

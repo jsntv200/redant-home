@@ -11,6 +11,7 @@ description: >-
   journeys. Are you ready to captivate your audience, boost customer
   satisfaction, and drive conversions? Look no further than Red Ant’s expert UX
   Design service.
+hero_cta_label: Let's start now
 slug: ux-design
 section_1_title: Why Choose Red Ant for UX Design?
 section_1_list:

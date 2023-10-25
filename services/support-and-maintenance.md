@@ -14,6 +14,7 @@ description: >
   applications run smoothly, remain secure, and adapt seamlessly to your
   evolving business needs. Embrace the power of reliable support and maintenance
   to keep your digital assets at their peak performance.
+hero_cta_label: Let's start now
 slug: support-and-maintenance
 section_1_title: Why Choose Red Ant Application Support and Maintenance Services?
 section_1_list:

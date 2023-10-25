@@ -12,6 +12,7 @@ description: >-
   your payment processes, enabling secure transactions and increasing customer
   satisfaction. Embrace the power of seamless payment solutions and take your
   business to new heights of success.
+hero_cta_label: Let's start now
 slug: payments
 section_1_title: Why Choose Red Ant Payment Integration Services?
 section_1_list:
