@@ -73,7 +73,6 @@ cta_description: >
   products that captivate your users.
 cta_button_label: >-
   Contact us today for a free initial consult to embark on an immersive and
-  enlightening digital product development experience. Let's shape the future of
-  digital products together!
+  enlightening digital product development experience!
 ---
 
