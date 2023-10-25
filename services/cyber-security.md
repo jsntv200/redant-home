@@ -76,6 +76,6 @@ cta_description: >
   a new level of AppSec excellence.
 cta_button_label: >-
   Contact us now for a free initial consult to begin your journey of secure
-  application development and digital resilience!
+  application development!
 ---
 
