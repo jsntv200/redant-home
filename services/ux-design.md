@@ -61,12 +61,12 @@ cta_description: >
   Don't let a subpar user experience hold your brand back. Partner with Red Ant
   to create digital products that leave a lasting impression. Elevate your
   brand's digital presence, drive customer loyalty, and achieve remarkable
-  success.
+  success. Your users deserve nothing less!
 
 
   Ready to embark on a journey of design excellence?
 cta_button_label: >-
   Contact us today for a free initial consult and witness the transformative
-  power of exceptional UX design. Your users deserve nothing less!
+  power of exceptional UX design
 ---
 
