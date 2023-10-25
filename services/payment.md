@@ -1,33 +1,19 @@
 ---
+published: true
 layout: service-detail
 title: Payments
+service_index_description: >-
+  Simplify and optimise your payment processes, enable secure transactions and
+  increase customer satisfaction.
+subtitle: Seamless Transactions with Red Ant Payment Integration Services
 description: >-
   Welcome to a world of effortless payments and enhanced customer experiences!
   Red Ant  Payment Integration Services are tailored to simplify and optimise
   your payment processes, enabling secure transactions and increasing customer
   satisfaction. Embrace the power of seamless payment solutions and take your
   business to new heights of success.
-service_index_description: >-
-  Simplify and optimise your payment processes, enable secure transactions and
-  increase customer satisfaction.
 slug: payments
-icon: fa-credit-card-front
-published: true
-subtitle: Seamless Transactions with Red Ant Payment Integration Services
 section_1_title: Why Choose Red Ant Payment Integration Services?
-section_2_title: Our Payment Integration Process
-cta_title: Transform Your Payments Today!
-cta_description: >
-  Elevate your payment experiences with Red Ant Payment Integration Services.
-  Say goodbye to payment headaches and welcome a world of secure, convenient,
-  and seamless transactions.
-
-
-  Ready to revolutionise your payment processes? Partner with Red Ant to
-  experience the difference.
-cta_button_label: >-
-  Contact us today to start your journey of payment excellence and customer
-  satisfaction!
 section_1_list:
   - title: Streamlined Checkout Process
     text: >-
@@ -56,6 +42,7 @@ section_1_list:
       We understand that each business has unique payment needs. Our experts
       work closely with you to develop customised payment solutions that
       perfectly align with your specific requirements.
+section_2_title: Our Payment Integration Process
 section_2_list:
   - title: Ongoing Support
     text: >-
@@ -80,23 +67,17 @@ section_2_list:
     text: >-
       We work closely with you to understand your business objectives and
       payment needs, ensuring the right integration approach is adopted.
+cta_title: Transform Your Payments Today!
+cta_description: >
+  Elevate your payment experiences with Red Ant Payment Integration Services.
+  Say goodbye to payment headaches and welcome a world of secure, convenient,
+  and seamless transactions.
+
+
+  Ready to revolutionise your payment processes? Partner with Red Ant to
+  experience the difference.
+cta_button_label: >-
+  Contact us today for a free initial consult to start your journey of payment
+  excellence and customer satisfaction!
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
