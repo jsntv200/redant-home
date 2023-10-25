@@ -1,19 +1,19 @@
 ---
+published: true
 layout: service-detail
 title: Ecommerce
+service_index_description: >-
+  Starting from scratch or enhancing your existing platform, our expert team is
+  here to create a seamless and scalable ecommerce solution for your business
+  needs.
+subtitle: Unleash Your Online Store's Potential with Red Ant Ecommerce Solutions
 description: >-
   Welcome to the future of online retail! Red Ant Ecommerce Solutions is your
   gateway to creating a powerful, user-friendly, and profitable online store.
   Whether you're starting from scratch or seeking to enhance your existing
   platform, our expert team is here to craft a seamless and scalable ecommerce
   solution tailored to your business needs.
-service_index_description: >-
-  Starting from scratch or enhancing your existing platform, our expert team is
-  here to create a seamless and scalable ecommerce solution for your business
-  needs.
-subtitle: Unleash Your Online Store's Potential with Red Ant Ecommerce Solutions
 slug: ecommerce
-icon: fa-cart-shopping
 section_1_title: Why Choose Red Ant Ecommerce Solutions?
 section_1_list:
   - title: Tailored Ecommerce Solutions
@@ -79,14 +79,7 @@ cta_description: >
   Ready to elevate your ecommerce experience? Partner with Red Ant to build an
   online store that stands out.
 cta_button_label: >-
-  Contact us now and let's create an ecommerce solution that drives success and
-  growth!
-published: true
+  Contact us now for a free initial consult and let's create an ecommerce
+  solution that drives success and growth!
 ---
-
-
-
-
-
-
 
