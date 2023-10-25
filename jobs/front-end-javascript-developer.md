@@ -1,14 +1,14 @@
 ---
 layout: job
 slug: front-end-javascript-developer
-title: Senior Front Endgnr Javascript Developer
+title: Senior Front Endgnr JavaScript Developer
 image_small: /assets/uploads/2014/yoyo.png
 published: false
 ---
 
 ## Who we’re looking for
 
-<p class="lead">We're looking for an experienced Javascript developer to help us create some incredible digital experiences. Front end technology has changed in amazing and incredible ways. New stuff comes out each week. How it fits in has become more and more critical. We need you to help us build awesome things.</p>
+<p class="lead">We're looking for an experienced JavaScript developer to help us create some incredible digital experiences. Front end technology has changed in amazing and incredible ways. New stuff comes out each week. How it fits in has become more and more critical. We need you to help us build awesome things.</p>
 
 Lets go off piste here and assume that you are indeed technically awesome.
 

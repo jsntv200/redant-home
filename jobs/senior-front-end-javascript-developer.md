@@ -1,7 +1,7 @@
 ---
 layout: job
 slug: senior-front-end-javascript-developer
-title: Senior Front End Javascript Developer
+title: Senior Front End JavaScript Developer
 image_small: /assets/uploads/2014/yoyo.png
 published: false
 ---
@@ -16,13 +16,13 @@ We’re looking for a super special front end developer to join our team, and wo
 
 Here’s why you need to be super special: many of the front end roles you might be coming across involve turning photoshop files into HTML. Maybe a bit of jQuery to make a slideshow. Yeah, right.
 
-We’re after a total front end fanatic. The complexity of our front end work has increased dramatically - there's lots of new technologies and methods that both make life easier and blow your mind. Tests matter. Performance really matters. More and more of our projects are using Javascript MVC frameworks like ReactJS. This means that rather than a monolithic Rails app driving everything, the front end becomes more important. Everything changes, and pages become super fast.
+We’re after a total front end fanatic. The complexity of our front end work has increased dramatically - there's lots of new technologies and methods that both make life easier and blow your mind. Tests matter. Performance really matters. More and more of our projects are using JavaScript MVC frameworks like React. This means that rather than a monolithic Rails app driving everything, the front end becomes more important. Everything changes, and pages become super fast.
 
 Ideally you will be passionate about:
 
 * making really usable stuff that works well and looks great
 * optimising pages to make them as fast as possible
-* Javascript frameworks, ideally React - but experience in Ember, Batman, Node or another advanced Javascript technology is OK as well.
+* JavaScript frameworks, ideally React - but experience in Ember, Batman, Node or another advanced JavaScript technology is OK as well.
 * Ruby on Rails or open source software
 * working as part of an Agile team
 

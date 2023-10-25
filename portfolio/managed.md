@@ -21,7 +21,7 @@ technology_tags:
   - Sidekiq
   - Zai
   - MoneyTech
-  - ReactJS
+  - React
   - Refile
 industry_vertical_tags: []
 service_tags: []

@@ -49,7 +49,7 @@ This is a full time position. We’ve been around for over 18 years, and expect 
 
 ## About Red Ant
 
-We’re a leading technical agency in Sydney, Australia. This page should tell you all you need to know about us and more. To start with, we have a core team of 35 – a mix of developers, designers and project managers. For technology, we use [Ruby on Rails](/ruby-on-rails/ "Ruby on Rails") and [ReactJS](/technology/reactJS/ "ReactJS"). We apply the [ReactJS](/technology/reactJS/ "ReactJS").
+We’re a leading technical agency in Sydney, Australia. This page should tell you all you need to know about us and more. To start with, we have a core team of 35 – a mix of developers, designers and project managers. For technology, we use [Ruby on Rails](/ruby-on-rails/ "Ruby on Rails") and [React](/technology/react/ "React"). We apply the [React](/technology/react/ "React").
 We’ve been around for a while (+18y) and in that time have worked on a wide variety of projects. Picking up quite a bit of know how and experience along the way. We specialise in creating and building [Digital Products](/blog/products/ "Digital Products").
 
 Take a look at [redant.com.au](redant.com.au "redant.com.au") for more on what we do.

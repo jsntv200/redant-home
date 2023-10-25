@@ -15,7 +15,7 @@ project_date: 2019  - current
 team_size: '5'
 lines_of_code: ''
 technology_tags:
-  - ReactJS
+  - React
   - Docker
   - Amazon Web Services (AWS)
   - PostgresSQL

@@ -58,7 +58,7 @@ Please be sure to stop by the [Novated Lease Calculator](http://www.orix.com.au/
 
 [![Oxfam Trailwalker](/assets/uploads/2008/oxfam.jpg)](http://www2.oxfam.org.au/trailwalker/Melbourne)
 
-A dotNet project with extensive javascript and AJAX, we're working together with the Oxfam team to build this application for the Trailwalker project.
+A dotNet project with extensive JavaScript and AJAX, we're working together with the Oxfam team to build this application for the Trailwalker project.
 
 [http://www2.oxfam.org.au/trailwalker/Melbourne](http://www2.oxfam.org.au/trailwalker/Melbourne)
 

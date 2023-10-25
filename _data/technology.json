@@ -1,7 +1,7 @@
 {
   "order": [
     "ruby-on-rails",
-    "reactjs",
+    "react",
     "stripe-payments",
     "heroku",
     "swift",

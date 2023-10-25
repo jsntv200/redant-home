@@ -22,7 +22,7 @@ image_small: /assets/uploads/react-developer-1.jpg
 image: /assets/uploads/react-developer-2.jpg
 ---
 
-A React developer is a software developer who specialises in building web applications, particularly front-end user interfaces, using the [React JavaScript library](/technology/reactJS/ "React"). React is a popular open-source library developed by Facebook for creating interactive and dynamic user interfaces. React allows developers to build single-page applications (SPAs) and efficiently update and render UI components when data changes, making it a key technology in modern web development.
+A React developer is a software developer who specialises in building web applications, particularly front-end user interfaces, using the [React JavaScript library](/technology/react/ "React"). React is a popular open-source library developed by Facebook for creating interactive and dynamic user interfaces. React allows developers to build single-page applications (SPAs) and efficiently update and render UI components when data changes, making it a key technology in modern web development.
 
 Here are the steps to become a React developer:
 

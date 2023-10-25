@@ -20,7 +20,7 @@ Here's what we can offer:
 * We work in teams across several clients. Each client typically has several projects running.
 * We have some interesting projects, building big web apps that support a large number of users. These can throw up challenging problems, like load, handling lots of payments, concurrency, tweaking performance and taming cache unicorns.
 
-The things we make are typically large web applications, which we call [Digital Products](/blog/products/ "Digital Products"). The way we typically approach these is an [ReactJS](/technology/reactJS/ "ReactJS") frontend driven by a Ruby backend (JRuby, Rails, Sinatra etc)
+The things we make are typically large web applications, which we call [Digital Products](/blog/products/ "Digital Products"). The way we typically approach these is an [React](/technology/react/ "React") frontend driven by a Ruby backend (JRuby, Rails, Sinatra etc)
 
 Have a look at our [portfolio](/portfolio/ "portfolio") to get a better idea of the some of the projects we've worked on.
 
