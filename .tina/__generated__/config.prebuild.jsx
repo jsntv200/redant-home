@@ -596,6 +596,14 @@ var config_default = defineConfig({
           },
           {
             type: "string",
+            name: "hero_cta_label",
+            label: "hero_cta_label",
+            ui: {
+              description: "Label that appears in the hero button under the description"
+            }
+          },
+          {
+            type: "string",
             name: "slug",
             label: "slug"
           },
@@ -758,11 +766,19 @@ var config_default = defineConfig({
           },
           {
             type: "string",
+            name: "hero_cta_label",
+            label: "hero_cta_label",
+            ui: {
+              description: "Label that appears in the hero button under the description"
+            }
+          },
+          {
+            type: "string",
             name: "listing_description",
             label: "listing_description",
             component: "textarea",
             ui: {
-              defaultItem: ""
+              description: "Text seen on /technology"
             }
           },
           {

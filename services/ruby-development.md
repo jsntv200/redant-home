@@ -11,6 +11,7 @@ description: >-
   Development Services harness the full potential of the Ruby programming
   language to create cutting-edge web applications. Embrace the power of Ruby
   and experience a seamless blend of performance and scalability.
+hero_cta_label: Let's start now
 slug: ruby-development
 section_1_title: Why Choose Red Ant Ruby Development Services?
 section_1_list:

@@ -440,6 +440,7 @@ export type Services = Node & Document & {
   service_index_description: Scalars['String']['output'];
   subtitle?: Maybe<Scalars['String']['output']>;
   description: Scalars['String']['output'];
+  hero_cta_label?: Maybe<Scalars['String']['output']>;
   slug?: Maybe<Scalars['String']['output']>;
   redirect_from?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
   section_1_title?: Maybe<Scalars['String']['output']>;
@@ -471,6 +472,7 @@ export type ServicesFilter = {
   service_index_description?: InputMaybe<StringFilter>;
   subtitle?: InputMaybe<StringFilter>;
   description?: InputMaybe<StringFilter>;
+  hero_cta_label?: InputMaybe<StringFilter>;
   slug?: InputMaybe<StringFilter>;
   redirect_from?: InputMaybe<StringFilter>;
   section_1_title?: InputMaybe<StringFilter>;
@@ -504,6 +506,7 @@ export type Technology = Node & Document & {
   title: Scalars['String']['output'];
   subtitle: Scalars['String']['output'];
   description: Scalars['String']['output'];
+  hero_cta_label?: Maybe<Scalars['String']['output']>;
   listing_description?: Maybe<Scalars['String']['output']>;
   slug?: Maybe<Scalars['String']['output']>;
   image?: Maybe<Scalars['String']['output']>;
@@ -523,6 +526,7 @@ export type TechnologyFilter = {
   title?: InputMaybe<StringFilter>;
   subtitle?: InputMaybe<StringFilter>;
   description?: InputMaybe<StringFilter>;
+  hero_cta_label?: InputMaybe<StringFilter>;
   listing_description?: InputMaybe<StringFilter>;
   slug?: InputMaybe<StringFilter>;
   image?: InputMaybe<ImageFilter>;
@@ -733,6 +737,7 @@ export type ServicesMutation = {
   service_index_description?: InputMaybe<Scalars['String']['input']>;
   subtitle?: InputMaybe<Scalars['String']['input']>;
   description?: InputMaybe<Scalars['String']['input']>;
+  hero_cta_label?: InputMaybe<Scalars['String']['input']>;
   slug?: InputMaybe<Scalars['String']['input']>;
   redirect_from?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   section_1_title?: InputMaybe<Scalars['String']['input']>;
@@ -752,6 +757,7 @@ export type TechnologyMutation = {
   title?: InputMaybe<Scalars['String']['input']>;
   subtitle?: InputMaybe<Scalars['String']['input']>;
   description?: InputMaybe<Scalars['String']['input']>;
+  hero_cta_label?: InputMaybe<Scalars['String']['input']>;
   listing_description?: InputMaybe<Scalars['String']['input']>;
   slug?: InputMaybe<Scalars['String']['input']>;
   image?: InputMaybe<Scalars['String']['input']>;
@@ -766,9 +772,9 @@ export type PortfolioPartsFragment = { __typename?: 'Portfolio', published: bool
 
 export type PostPartsFragment = { __typename?: 'Post', published: boolean, layout: string, title: string, permalink: string, categories: Array<string>, blog_categories: Array<string>, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean };
 
-export type ServicesPartsFragment = { __typename?: 'Services', published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null };
+export type ServicesPartsFragment = { __typename?: 'Services', published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null };
 
-export type TechnologyPartsFragment = { __typename?: 'Technology', published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null };
+export type TechnologyPartsFragment = { __typename?: 'Technology', published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, hero_cta_label?: string | null, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null };
 
 export type JobsQueryVariables = Exact<{
   relativePath: Scalars['String']['input'];
@@ -832,7 +838,7 @@ export type ServicesQueryVariables = Exact<{
 }>;
 
 
-export type ServicesQuery = { __typename?: 'Query', services: { __typename?: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } };
+export type ServicesQuery = { __typename?: 'Query', services: { __typename?: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } };
 
 export type ServicesConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']['input']>;
@@ -844,14 +850,14 @@ export type ServicesConnectionQueryVariables = Exact<{
 }>;
 
 
-export type ServicesConnectionQuery = { __typename?: 'Query', servicesConnection: { __typename?: 'ServicesConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'ServicesConnectionEdges', cursor: string, node?: { __typename?: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } | null } | null> | null } };
+export type ServicesConnectionQuery = { __typename?: 'Query', servicesConnection: { __typename?: 'ServicesConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'ServicesConnectionEdges', cursor: string, node?: { __typename?: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } | null } | null> | null } };
 
 export type TechnologyQueryVariables = Exact<{
   relativePath: Scalars['String']['input'];
 }>;
 
 
-export type TechnologyQuery = { __typename?: 'Query', technology: { __typename?: 'Technology', id: string, published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
+export type TechnologyQuery = { __typename?: 'Query', technology: { __typename?: 'Technology', id: string, published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, hero_cta_label?: string | null, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
 
 export type TechnologyConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']['input']>;
@@ -863,7 +869,7 @@ export type TechnologyConnectionQueryVariables = Exact<{
 }>;
 
 
-export type TechnologyConnectionQuery = { __typename?: 'Query', technologyConnection: { __typename?: 'TechnologyConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'TechnologyConnectionEdges', cursor: string, node?: { __typename?: 'Technology', id: string, published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
+export type TechnologyConnectionQuery = { __typename?: 'Query', technologyConnection: { __typename?: 'TechnologyConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'TechnologyConnectionEdges', cursor: string, node?: { __typename?: 'Technology', id: string, published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, hero_cta_label?: string | null, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
 
 export const JobsPartsFragmentDoc = gql`
     fragment JobsParts on Jobs {
@@ -926,6 +932,7 @@ export const ServicesPartsFragmentDoc = gql`
   service_index_description
   subtitle
   description
+  hero_cta_label
   slug
   redirect_from
   section_1_title
@@ -954,6 +961,7 @@ export const TechnologyPartsFragmentDoc = gql`
   title
   subtitle
   description
+  hero_cta_label
   listing_description
   slug
   image

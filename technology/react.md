@@ -6,6 +6,7 @@ title: React
 subtitle: We’re experts with React
 description: Red Ant is a leading, Australian based team of React Developers. We’ve worked with hundreds of companies and startups to integrate JavaScript frameworks like React into APIs and Server side platforms.
 listing_description: React is a JavaScript library for building reliable user interfaces (UIs). UIs are the critical space where your users experience your app or website. Some of these elements are static while some pull in and present dynamic information. React is widely used because of its reliability and ability to fetch rapidly changing data. Our highly experienced front end team have created hundreds of successful user interfaces that result in a fast and seamless user experience.
+hero_cta_label: Let's start now
 slug: react
 image: '/assets/uploads/2019/reactjs.png'
 redirect_from: /technology/reactJS/

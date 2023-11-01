@@ -6,6 +6,7 @@ title: Salesforce Marketing Cloud
 subtitle: We're experts in integrating Salesforce
 description: Salesforce Marketing Cloud is a powerful messaging platform that can be used to create customer journeys or send specific messages. It can do pretty much anything in terms of customer engagement.
 listing_description: 'Salesforce Marketing Cloud allows you to listen and engage with customers across: email, social, web, and mobile. Salesforce allows you to automate and manage every campaign, publish content, analyse results, and optimise. Salesforce Marketing Cloud provides a great range of marketing options to design and automate customer journeys. We can help you to design and implement a solution to fit your business goals and integrate with your website.'
+hero_cta_label: Let's start now
 slug: salesforce-marketing-cloud
 image: '/assets/uploads/2019/salesforce.png'
 redirect_from:

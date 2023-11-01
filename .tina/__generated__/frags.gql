@@ -55,6 +55,7 @@ fragment ServicesParts on Services {
   service_index_description
   subtitle
   description
+  hero_cta_label
   slug
   redirect_from
   section_1_title
@@ -82,6 +83,7 @@ fragment TechnologyParts on Technology {
   title
   subtitle
   description
+  hero_cta_label
   listing_description
   slug
   image

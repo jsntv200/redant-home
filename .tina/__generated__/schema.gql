@@ -290,6 +290,7 @@ type Services implements Node & Document {
   service_index_description: String!
   subtitle: String
   description: String!
+  hero_cta_label: String
   slug: String
   redirect_from: [String]
   section_1_title: String
@@ -321,6 +322,7 @@ input ServicesFilter {
   service_index_description: StringFilter
   subtitle: StringFilter
   description: StringFilter
+  hero_cta_label: StringFilter
   slug: StringFilter
   redirect_from: StringFilter
   section_1_title: StringFilter
@@ -351,6 +353,7 @@ type Technology implements Node & Document {
   title: String!
   subtitle: String!
   description: String!
+  hero_cta_label: String
   listing_description: String
   slug: String
   image: String
@@ -370,6 +373,7 @@ input TechnologyFilter {
   title: StringFilter
   subtitle: StringFilter
   description: StringFilter
+  hero_cta_label: StringFilter
   listing_description: StringFilter
   slug: StringFilter
   image: ImageFilter
@@ -490,6 +494,7 @@ input ServicesMutation {
   service_index_description: String
   subtitle: String
   description: String
+  hero_cta_label: String
   slug: String
   redirect_from: [String]
   section_1_title: String
@@ -509,6 +514,7 @@ input TechnologyMutation {
   title: String
   subtitle: String
   description: String
+  hero_cta_label: String
   listing_description: String
   slug: String
   image: String

@@ -66,6 +66,7 @@ export const ServicesPartsFragmentDoc = gql`
   service_index_description
   subtitle
   description
+  hero_cta_label
   slug
   redirect_from
   section_1_title
@@ -94,6 +95,7 @@ export const TechnologyPartsFragmentDoc = gql`
   title
   subtitle
   description
+  hero_cta_label
   listing_description
   slug
   image

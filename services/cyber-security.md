@@ -12,6 +12,7 @@ description: >-
   against potential threats and vulnerabilities. With a focus on proactive
   security measures, we ensure your applications are shielded from cyber risks,
   providing you with peace of mind and a robust digital presence.
+hero_cta_label: Let's start now
 slug: cyber-security
 section_1_title: Why Choose Red Ant AppSec Services?
 section_1_list:
