@@ -76,4 +76,4 @@ Doing work for Property Managers is often a bugbear for Tradespeople. They might
 
 The Managed platform allows Tradespeople to set up their payment preferences and get paid immediately. They get simple and qualified work orders, with all of the information that they need to do the job. Once the job is done they post a photo and get paid.
 
-Also read our post about [What makes property management so hard](/software-development/what-makes-property-management-so-hard)?
+Also read our post about [What makes property management so hard](/blog/strategy/what-makes-property-management-so-hard)?
