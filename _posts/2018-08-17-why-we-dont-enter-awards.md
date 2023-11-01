@@ -31,7 +31,7 @@ Wayne has this thing about titles. It is Very Important to him that everyone kno
 
 And it shits Wayne no end when he learnt we had one of these London International awards (and he doesn't). Apparently they are a Big Deal —- one of the super prestigious awards. I explained to Wayne how we won it.
 
-![](/assets/uploads/2018/london-i18n-awards.jpg)
+![London international award](/assets/uploads/2018/london-i18n-awards.jpg)
 
 London International Awards
 We had an intern. They ran out of work, so I got them to make a list of recent work and enter it into a bunch of awards.

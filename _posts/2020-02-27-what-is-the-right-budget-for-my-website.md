@@ -36,7 +36,7 @@ The cost of building a technology product - like a SaaS platform - is largely dr
 
 The solution lies with your business plan. Map out what you expect revenue to look like. It might look like this:
 
-![](/assets/uploads/2020/how-much-1.png)
+![Revenue and total revenue graph](/assets/uploads/2020/how-much-1.png)
 
 Now remember, as a general rule, the more awesome & unique your product, the steeper that graph will be. But these usually take more engineering effort. **You can keep tech costs down by using off the shelf technologies, or a less capable development team. But it’s naive to assume you’ll get both cheap and good.**
 
@@ -46,6 +46,6 @@ Next work out your “runway” - how much money do you have to invest in this i
 
 Then overlay those costs with your revenue graph. The aim is to get those lines crossing over as soon as you can. Without trying to state the obvious, that cross over point has to be before your runway runs out.
 
-![](/assets/uploads/2020/how-much-2.png)
+![Tech costs and revenue graph](/assets/uploads/2020/how-much-2.png)
 
 **Congratulations** - **you now have a basic cost model. Putting more effort into engineering (within reason & market conditions) will probably impact both revenue start date and the steepness of the graph. Spending less will make the green line smaller, and give you more runway.**
