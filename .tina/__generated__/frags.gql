@@ -73,6 +73,7 @@ fragment ServicesParts on Services {
   cta_title
   cta_description
   cta_button_label
+  calendar_modal_url
 }
 
 fragment TechnologyParts on Technology {

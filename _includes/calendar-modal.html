@@ -1,0 +1,19 @@
+{% comment %}
+  url
+{% endcomment %}
+
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+  (function() {
+    var target = document.currentScript;
+    window.addEventListener('load', function() {
+      calendar.schedulingButton.load({
+        url: '{{ include.url }}',
+        color: '#ff2a00',
+        label: 'Book an appointment',
+        target,
+      });
+    });
+  })();
+</script>
