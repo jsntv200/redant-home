@@ -98,6 +98,10 @@
   animation: blinkingBackground 900ms infinite;
 }
 
+.hur54b {
+  padding: 30px !important;
+}
+
 @keyframes blinkingBackground {
   0% { background-color: transparent; }
   30% { background-color: #fff; }
