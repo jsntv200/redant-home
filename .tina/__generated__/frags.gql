@@ -1,4 +1,5 @@
 fragment JobsParts on Jobs {
+  __typename
   published
   layout
   slug
@@ -11,6 +12,7 @@ fragment JobsParts on Jobs {
 }
 
 fragment PortfolioParts on Portfolio {
+  __typename
   published
   layout
   theme
@@ -29,6 +31,7 @@ fragment PortfolioParts on Portfolio {
 }
 
 fragment PostParts on Post {
+  __typename
   published
   layout
   title
@@ -49,6 +52,7 @@ fragment PostParts on Post {
 }
 
 fragment ServicesParts on Services {
+  __typename
   published
   layout
   title
@@ -77,6 +81,7 @@ fragment ServicesParts on Services {
 }
 
 fragment TechnologyParts on Technology {
+  __typename
   published
   layout
   category
