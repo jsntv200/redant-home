@@ -300,6 +300,7 @@ type Services implements Node & Document {
   cta_title: String
   cta_description: JSON
   cta_button_label: String
+  calendar_modal_url: String
   id: ID!
   _sys: SystemInfo!
   _values: JSON!
@@ -332,6 +333,7 @@ input ServicesFilter {
   cta_title: StringFilter
   cta_description: RichTextFilter
   cta_button_label: StringFilter
+  calendar_modal_url: StringFilter
 }
 
 type ServicesConnectionEdges {
@@ -504,6 +506,7 @@ input ServicesMutation {
   cta_title: String
   cta_description: JSON
   cta_button_label: String
+  calendar_modal_url: String
 }
 
 input TechnologyMutation {

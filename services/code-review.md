@@ -11,7 +11,7 @@ description: >-
   development projects to the next level? Red Ant’s industry-leading Code Review
   Service is here to ensure your code is robust, efficient, and optimised for
   success.
-hero_cta_label: Let's start now
+hero_cta_label:
 slug: code-review
 redirect_from:
   - /ruby-on-rails-code-review/
@@ -72,5 +72,6 @@ cta_description: >
 cta_button_label: >-
   Contact us now for a free initial consult and watch your software shine
   brighter than ever before!
+calendar_modal_url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2DDxPW6oh3Nxg-jTGSMZYiqWSW9fRLRO2DtlnSXMG1gWScNUtmcYS6_RXaWzfRzoP1ro9FxjwU?gv=true'
 ---
 

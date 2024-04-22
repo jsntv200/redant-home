@@ -648,6 +648,13 @@ export default defineConfig({
             label: "cta_button_label",
             name: "cta_button_label",
             type: "string",
+          }, {
+            label: "calendar_modal_url",
+            name: "calendar_modal_url",
+            type: "string",
+            ui: {
+              description: "Set a url for the button to open google calendar modal",
+            },
           },
         ],
       },

@@ -1,4 +1,5 @@
 {% comment %}
+  calendar-modal-url
   class-wrapper
   bottom-text
   button-label
@@ -24,9 +25,13 @@
     {{ include.description }}
   </p>
 
-  <a class="cursor-pointer intercom-launcher rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-200 hover:underline block md:inline">
-    {{ include.button-label}}
-  </a>
+  {% if include.calendar-modal-url %}
+    {% include calendar-modal.html url = page.calendar_modal_url %}
+  {% else %}
+    <a class="cursor-pointer intercom-launcher rounded-md bg-red-100 px-3.5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-200 hover:underline block md:inline">
+      {{ include.button-label}}
+    </a>
+  {% endif %}
 
   {% if include.bottom-text %}
     <p class="mt-12 text-lg text-gray-100">

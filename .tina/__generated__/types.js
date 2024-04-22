@@ -84,6 +84,7 @@ export const ServicesPartsFragmentDoc = gql`
   cta_title
   cta_description
   cta_button_label
+  calendar_modal_url
 }
     `;
 export const TechnologyPartsFragmentDoc = gql`

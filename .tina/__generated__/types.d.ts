@@ -450,6 +450,7 @@ export type Services = Node & Document & {
   cta_title?: Maybe<Scalars['String']['output']>;
   cta_description?: Maybe<Scalars['JSON']['output']>;
   cta_button_label?: Maybe<Scalars['String']['output']>;
+  calendar_modal_url?: Maybe<Scalars['String']['output']>;
   id: Scalars['ID']['output'];
   _sys: SystemInfo;
   _values: Scalars['JSON']['output'];
@@ -482,6 +483,7 @@ export type ServicesFilter = {
   cta_title?: InputMaybe<StringFilter>;
   cta_description?: InputMaybe<RichTextFilter>;
   cta_button_label?: InputMaybe<StringFilter>;
+  calendar_modal_url?: InputMaybe<StringFilter>;
 };
 
 export type ServicesConnectionEdges = {
@@ -747,6 +749,7 @@ export type ServicesMutation = {
   cta_title?: InputMaybe<Scalars['String']['input']>;
   cta_description?: InputMaybe<Scalars['JSON']['input']>;
   cta_button_label?: InputMaybe<Scalars['String']['input']>;
+  calendar_modal_url?: InputMaybe<Scalars['String']['input']>;
 };
 
 export type TechnologyMutation = {
@@ -772,7 +775,7 @@ export type PortfolioPartsFragment = { __typename?: 'Portfolio', published: bool
 
 export type PostPartsFragment = { __typename?: 'Post', published: boolean, layout: string, title: string, permalink: string, categories: Array<string>, blog_categories: Array<string>, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean };
 
-export type ServicesPartsFragment = { __typename?: 'Services', published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null };
+export type ServicesPartsFragment = { __typename?: 'Services', published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, calendar_modal_url?: string | null, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null };
 
 export type TechnologyPartsFragment = { __typename?: 'Technology', published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, hero_cta_label?: string | null, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null };
 
@@ -838,7 +841,7 @@ export type ServicesQueryVariables = Exact<{
 }>;
 
 
-export type ServicesQuery = { __typename?: 'Query', services: { __typename?: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } };
+export type ServicesQuery = { __typename?: 'Query', services: { __typename?: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, calendar_modal_url?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } };
 
 export type ServicesConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']['input']>;
@@ -850,7 +853,7 @@ export type ServicesConnectionQueryVariables = Exact<{
 }>;
 
 
-export type ServicesConnectionQuery = { __typename?: 'Query', servicesConnection: { __typename?: 'ServicesConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'ServicesConnectionEdges', cursor: string, node?: { __typename?: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } | null } | null> | null } };
+export type ServicesConnectionQuery = { __typename?: 'Query', servicesConnection: { __typename?: 'ServicesConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'ServicesConnectionEdges', cursor: string, node?: { __typename?: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, calendar_modal_url?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } | null } | null> | null } };
 
 export type TechnologyQueryVariables = Exact<{
   relativePath: Scalars['String']['input'];
@@ -950,6 +953,7 @@ export const ServicesPartsFragmentDoc = gql`
   cta_title
   cta_description
   cta_button_label
+  calendar_modal_url
 }
     `;
 export const TechnologyPartsFragmentDoc = gql`
