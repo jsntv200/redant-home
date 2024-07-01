@@ -10,9 +10,14 @@
     <div class="rounded-md h-5 w-full bg-white"></div>
   </div>
   <div class="relative">
-    <img
-      class="object-cover"
-      src="{{ include.path }}"
-      alt="{{ include.title }} mobile layout">
+    <picture>
+      {% assign webp_path = include.path | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' | replace: '.png', '.webp' %}
+      <source type="image/webp" srcset="{{ webp_path }}">
+      <source type="image/jpg" srcset="{{ include.path }}">
+      <img
+        class="object-cover"
+        src="{{ include.path }}"
+        alt="{{ include.title }} mobile layout">
+    </picture>
   </div>
 </div>
