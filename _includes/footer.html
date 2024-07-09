@@ -147,7 +147,7 @@
           </li>
           <li class="mb-2.5">
             <p>
-              © <span id="c-date"></span>
+              © <span>{{ site.time | date: '%Y' }}</span>
               <a href="/" class="hover:underline hover:text-red-50 ml-1">
                 Red Ant
               </a>
@@ -158,5 +158,3 @@
     </div>
   </div>
 </footer>
-
-<script>document.getElementById("c-date").innerHTML = new Date().getFullYear();</script>
