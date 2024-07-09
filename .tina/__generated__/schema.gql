@@ -400,6 +400,7 @@ type Mutation {
   updateDocument(collection: String, relativePath: String!, params: DocumentUpdateMutation!): DocumentNode!
   deleteDocument(collection: String, relativePath: String!): DocumentNode!
   createDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
+  createFolder(collection: String, relativePath: String!): DocumentNode!
   updateJobs(relativePath: String!, params: JobsMutation!): Jobs!
   createJobs(relativePath: String!, params: JobsMutation!): Jobs!
   updatePortfolio(relativePath: String!, params: PortfolioMutation!): Portfolio!

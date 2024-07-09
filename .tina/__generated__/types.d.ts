@@ -556,6 +556,7 @@ export type Mutation = {
   updateDocument: DocumentNode;
   deleteDocument: DocumentNode;
   createDocument: DocumentNode;
+  createFolder: DocumentNode;
   updateJobs: Jobs;
   createJobs: Jobs;
   updatePortfolio: Portfolio;
@@ -593,6 +594,12 @@ export type MutationCreateDocumentArgs = {
   collection?: InputMaybe<Scalars['String']['input']>;
   relativePath: Scalars['String']['input'];
   params: DocumentMutation;
+};
+
+
+export type MutationCreateFolderArgs = {
+  collection?: InputMaybe<Scalars['String']['input']>;
+  relativePath: Scalars['String']['input'];
 };
 
 
@@ -769,22 +776,22 @@ export type TechnologyMutation = {
   body?: InputMaybe<Scalars['JSON']['input']>;
 };
 
-export type JobsPartsFragment = { __typename?: 'Jobs', published: boolean, layout: string, slug: string, title: string, description: string, image_small?: string | null, image?: string | null, redirect_from?: Array<string | null> | null, body?: any | null };
+export type JobsPartsFragment = { __typename: 'Jobs', published: boolean, layout: string, slug: string, title: string, description: string, image_small?: string | null, image?: string | null, redirect_from?: Array<string | null> | null, body?: any | null };
 
-export type PortfolioPartsFragment = { __typename?: 'Portfolio', published: boolean, layout: string, theme: string, slug?: string | null, title?: string | null, description?: string | null, project_url?: string | null, client?: string | null, project_date?: string | null, team_size?: string | null, lines_of_code?: string | null, technology_tags?: Array<string | null> | null, industry_vertical_tags?: Array<string | null> | null, service_tags?: Array<string | null> | null, body?: any | null };
+export type PortfolioPartsFragment = { __typename: 'Portfolio', published: boolean, layout: string, theme: string, slug?: string | null, title?: string | null, description?: string | null, project_url?: string | null, client?: string | null, project_date?: string | null, team_size?: string | null, lines_of_code?: string | null, technology_tags?: Array<string | null> | null, industry_vertical_tags?: Array<string | null> | null, service_tags?: Array<string | null> | null, body?: any | null };
 
-export type PostPartsFragment = { __typename?: 'Post', published: boolean, layout: string, title: string, permalink: string, categories: Array<string>, blog_categories: Array<string>, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean };
+export type PostPartsFragment = { __typename: 'Post', published: boolean, layout: string, title: string, permalink: string, categories: Array<string>, blog_categories: Array<string>, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean };
 
-export type ServicesPartsFragment = { __typename?: 'Services', published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, calendar_modal_url?: string | null, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null };
+export type ServicesPartsFragment = { __typename: 'Services', published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null };
 
-export type TechnologyPartsFragment = { __typename?: 'Technology', published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, hero_cta_label?: string | null, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null };
+export type TechnologyPartsFragment = { __typename: 'Technology', published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, hero_cta_label?: string | null, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null };
 
 export type JobsQueryVariables = Exact<{
   relativePath: Scalars['String']['input'];
 }>;
 
 
-export type JobsQuery = { __typename?: 'Query', jobs: { __typename?: 'Jobs', id: string, published: boolean, layout: string, slug: string, title: string, description: string, image_small?: string | null, image?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
+export type JobsQuery = { __typename?: 'Query', jobs: { __typename: 'Jobs', id: string, published: boolean, layout: string, slug: string, title: string, description: string, image_small?: string | null, image?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
 
 export type JobsConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']['input']>;
@@ -796,14 +803,14 @@ export type JobsConnectionQueryVariables = Exact<{
 }>;
 
 
-export type JobsConnectionQuery = { __typename?: 'Query', jobsConnection: { __typename?: 'JobsConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'JobsConnectionEdges', cursor: string, node?: { __typename?: 'Jobs', id: string, published: boolean, layout: string, slug: string, title: string, description: string, image_small?: string | null, image?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
+export type JobsConnectionQuery = { __typename?: 'Query', jobsConnection: { __typename?: 'JobsConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'JobsConnectionEdges', cursor: string, node?: { __typename: 'Jobs', id: string, published: boolean, layout: string, slug: string, title: string, description: string, image_small?: string | null, image?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
 
 export type PortfolioQueryVariables = Exact<{
   relativePath: Scalars['String']['input'];
 }>;
 
 
-export type PortfolioQuery = { __typename?: 'Query', portfolio: { __typename?: 'Portfolio', id: string, published: boolean, layout: string, theme: string, slug?: string | null, title?: string | null, description?: string | null, project_url?: string | null, client?: string | null, project_date?: string | null, team_size?: string | null, lines_of_code?: string | null, technology_tags?: Array<string | null> | null, industry_vertical_tags?: Array<string | null> | null, service_tags?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
+export type PortfolioQuery = { __typename?: 'Query', portfolio: { __typename: 'Portfolio', id: string, published: boolean, layout: string, theme: string, slug?: string | null, title?: string | null, description?: string | null, project_url?: string | null, client?: string | null, project_date?: string | null, team_size?: string | null, lines_of_code?: string | null, technology_tags?: Array<string | null> | null, industry_vertical_tags?: Array<string | null> | null, service_tags?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
 
 export type PortfolioConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']['input']>;
@@ -815,14 +822,14 @@ export type PortfolioConnectionQueryVariables = Exact<{
 }>;
 
 
-export type PortfolioConnectionQuery = { __typename?: 'Query', portfolioConnection: { __typename?: 'PortfolioConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'PortfolioConnectionEdges', cursor: string, node?: { __typename?: 'Portfolio', id: string, published: boolean, layout: string, theme: string, slug?: string | null, title?: string | null, description?: string | null, project_url?: string | null, client?: string | null, project_date?: string | null, team_size?: string | null, lines_of_code?: string | null, technology_tags?: Array<string | null> | null, industry_vertical_tags?: Array<string | null> | null, service_tags?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
+export type PortfolioConnectionQuery = { __typename?: 'Query', portfolioConnection: { __typename?: 'PortfolioConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'PortfolioConnectionEdges', cursor: string, node?: { __typename: 'Portfolio', id: string, published: boolean, layout: string, theme: string, slug?: string | null, title?: string | null, description?: string | null, project_url?: string | null, client?: string | null, project_date?: string | null, team_size?: string | null, lines_of_code?: string | null, technology_tags?: Array<string | null> | null, industry_vertical_tags?: Array<string | null> | null, service_tags?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
 
 export type PostQueryVariables = Exact<{
   relativePath: Scalars['String']['input'];
 }>;
 
 
-export type PostQuery = { __typename?: 'Query', post: { __typename?: 'Post', id: string, published: boolean, layout: string, title: string, permalink: string, categories: Array<string>, blog_categories: Array<string>, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
+export type PostQuery = { __typename?: 'Query', post: { __typename: 'Post', id: string, published: boolean, layout: string, title: string, permalink: string, categories: Array<string>, blog_categories: Array<string>, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
 
 export type PostConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']['input']>;
@@ -834,14 +841,18 @@ export type PostConnectionQueryVariables = Exact<{
 }>;
 
 
-export type PostConnectionQuery = { __typename?: 'Query', postConnection: { __typename?: 'PostConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'PostConnectionEdges', cursor: string, node?: { __typename?: 'Post', id: string, published: boolean, layout: string, title: string, permalink: string, categories: Array<string>, blog_categories: Array<string>, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
+export type PostConnectionQuery = { __typename?: 'Query', postConnection: { __typename?: 'PostConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'PostConnectionEdges', cursor: string, node?: { __typename: 'Post', id: string, published: boolean, layout: string, title: string, permalink: string, categories: Array<string>, blog_categories: Array<string>, author?: string | null, description: string, image_small?: string | null, image?: string | null, content_sidebar?: any | null, time?: string | null, redirect_from?: Array<string | null> | null, date_published: string, updated_at: string, body?: any | null, is_blog: boolean, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
 
 export type ServicesQueryVariables = Exact<{
   relativePath: Scalars['String']['input'];
 }>;
 
 
+<<<<<<< HEAD
 export type ServicesQuery = { __typename?: 'Query', services: { __typename?: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, calendar_modal_url?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } };
+=======
+export type ServicesQuery = { __typename?: 'Query', services: { __typename: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } };
+>>>>>>> 7fefda48 (chore(dependencies): upgrade dependencies & node to v20)
 
 export type ServicesConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']['input']>;
@@ -853,14 +864,18 @@ export type ServicesConnectionQueryVariables = Exact<{
 }>;
 
 
+<<<<<<< HEAD
 export type ServicesConnectionQuery = { __typename?: 'Query', servicesConnection: { __typename?: 'ServicesConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'ServicesConnectionEdges', cursor: string, node?: { __typename?: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, calendar_modal_url?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } | null } | null> | null } };
+=======
+export type ServicesConnectionQuery = { __typename?: 'Query', servicesConnection: { __typename?: 'ServicesConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'ServicesConnectionEdges', cursor: string, node?: { __typename: 'Services', id: string, published: boolean, layout: string, title: string, service_index_description: string, subtitle?: string | null, description: string, hero_cta_label?: string | null, slug?: string | null, redirect_from?: Array<string | null> | null, section_1_title?: string | null, section_2_title?: string | null, cta_title?: string | null, cta_description?: any | null, cta_button_label?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, section_1_list?: Array<{ __typename: 'ServicesSection_1_list', title?: string | null, text?: string | null } | null> | null, section_2_list?: Array<{ __typename: 'ServicesSection_2_list', title?: string | null, text?: string | null } | null> | null } | null } | null> | null } };
+>>>>>>> 7fefda48 (chore(dependencies): upgrade dependencies & node to v20)
 
 export type TechnologyQueryVariables = Exact<{
   relativePath: Scalars['String']['input'];
 }>;
 
 
-export type TechnologyQuery = { __typename?: 'Query', technology: { __typename?: 'Technology', id: string, published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, hero_cta_label?: string | null, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
+export type TechnologyQuery = { __typename?: 'Query', technology: { __typename: 'Technology', id: string, published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, hero_cta_label?: string | null, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
 
 export type TechnologyConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']['input']>;
@@ -872,10 +887,11 @@ export type TechnologyConnectionQueryVariables = Exact<{
 }>;
 
 
-export type TechnologyConnectionQuery = { __typename?: 'Query', technologyConnection: { __typename?: 'TechnologyConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'TechnologyConnectionEdges', cursor: string, node?: { __typename?: 'Technology', id: string, published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, hero_cta_label?: string | null, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
+export type TechnologyConnectionQuery = { __typename?: 'Query', technologyConnection: { __typename?: 'TechnologyConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'TechnologyConnectionEdges', cursor: string, node?: { __typename: 'Technology', id: string, published: boolean, layout: string, category: string, type: string, title: string, subtitle: string, description: string, hero_cta_label?: string | null, listing_description?: string | null, slug?: string | null, image?: string | null, image_hero?: string | null, redirect_from?: Array<string | null> | null, body?: any | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
 
 export const JobsPartsFragmentDoc = gql`
     fragment JobsParts on Jobs {
+  __typename
   published
   layout
   slug
@@ -889,6 +905,7 @@ export const JobsPartsFragmentDoc = gql`
     `;
 export const PortfolioPartsFragmentDoc = gql`
     fragment PortfolioParts on Portfolio {
+  __typename
   published
   layout
   theme
@@ -908,6 +925,7 @@ export const PortfolioPartsFragmentDoc = gql`
     `;
 export const PostPartsFragmentDoc = gql`
     fragment PostParts on Post {
+  __typename
   published
   layout
   title
@@ -929,6 +947,7 @@ export const PostPartsFragmentDoc = gql`
     `;
 export const ServicesPartsFragmentDoc = gql`
     fragment ServicesParts on Services {
+  __typename
   published
   layout
   title
@@ -958,6 +977,7 @@ export const ServicesPartsFragmentDoc = gql`
     `;
 export const TechnologyPartsFragmentDoc = gql`
     fragment TechnologyParts on Technology {
+  __typename
   published
   layout
   category
@@ -1252,35 +1272,35 @@ export const TechnologyConnectionDocument = gql`
 export type Requester<C= {}> = <R, V>(doc: DocumentNode, vars?: V, options?: C) => Promise<R>
   export function getSdk<C>(requester: Requester<C>) {
     return {
-      jobs(variables: JobsQueryVariables, options?: C): Promise<{data: JobsQuery, variables: JobsQueryVariables, query: string}> {
-        return requester<{data: JobsQuery, variables: JobsQueryVariables, query: string}, JobsQueryVariables>(JobsDocument, variables, options);
+      jobs(variables: JobsQueryVariables, options?: C): Promise<{data: JobsQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: JobsQueryVariables, query: string}> {
+        return requester<{data: JobsQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: JobsQueryVariables, query: string}, JobsQueryVariables>(JobsDocument, variables, options);
       },
-    jobsConnection(variables?: JobsConnectionQueryVariables, options?: C): Promise<{data: JobsConnectionQuery, variables: JobsConnectionQueryVariables, query: string}> {
-        return requester<{data: JobsConnectionQuery, variables: JobsConnectionQueryVariables, query: string}, JobsConnectionQueryVariables>(JobsConnectionDocument, variables, options);
+    jobsConnection(variables?: JobsConnectionQueryVariables, options?: C): Promise<{data: JobsConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: JobsConnectionQueryVariables, query: string}> {
+        return requester<{data: JobsConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: JobsConnectionQueryVariables, query: string}, JobsConnectionQueryVariables>(JobsConnectionDocument, variables, options);
       },
-    portfolio(variables: PortfolioQueryVariables, options?: C): Promise<{data: PortfolioQuery, variables: PortfolioQueryVariables, query: string}> {
-        return requester<{data: PortfolioQuery, variables: PortfolioQueryVariables, query: string}, PortfolioQueryVariables>(PortfolioDocument, variables, options);
+    portfolio(variables: PortfolioQueryVariables, options?: C): Promise<{data: PortfolioQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: PortfolioQueryVariables, query: string}> {
+        return requester<{data: PortfolioQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: PortfolioQueryVariables, query: string}, PortfolioQueryVariables>(PortfolioDocument, variables, options);
       },
-    portfolioConnection(variables?: PortfolioConnectionQueryVariables, options?: C): Promise<{data: PortfolioConnectionQuery, variables: PortfolioConnectionQueryVariables, query: string}> {
-        return requester<{data: PortfolioConnectionQuery, variables: PortfolioConnectionQueryVariables, query: string}, PortfolioConnectionQueryVariables>(PortfolioConnectionDocument, variables, options);
+    portfolioConnection(variables?: PortfolioConnectionQueryVariables, options?: C): Promise<{data: PortfolioConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: PortfolioConnectionQueryVariables, query: string}> {
+        return requester<{data: PortfolioConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: PortfolioConnectionQueryVariables, query: string}, PortfolioConnectionQueryVariables>(PortfolioConnectionDocument, variables, options);
       },
-    post(variables: PostQueryVariables, options?: C): Promise<{data: PostQuery, variables: PostQueryVariables, query: string}> {
-        return requester<{data: PostQuery, variables: PostQueryVariables, query: string}, PostQueryVariables>(PostDocument, variables, options);
+    post(variables: PostQueryVariables, options?: C): Promise<{data: PostQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: PostQueryVariables, query: string}> {
+        return requester<{data: PostQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: PostQueryVariables, query: string}, PostQueryVariables>(PostDocument, variables, options);
       },
-    postConnection(variables?: PostConnectionQueryVariables, options?: C): Promise<{data: PostConnectionQuery, variables: PostConnectionQueryVariables, query: string}> {
-        return requester<{data: PostConnectionQuery, variables: PostConnectionQueryVariables, query: string}, PostConnectionQueryVariables>(PostConnectionDocument, variables, options);
+    postConnection(variables?: PostConnectionQueryVariables, options?: C): Promise<{data: PostConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: PostConnectionQueryVariables, query: string}> {
+        return requester<{data: PostConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: PostConnectionQueryVariables, query: string}, PostConnectionQueryVariables>(PostConnectionDocument, variables, options);
       },
-    services(variables: ServicesQueryVariables, options?: C): Promise<{data: ServicesQuery, variables: ServicesQueryVariables, query: string}> {
-        return requester<{data: ServicesQuery, variables: ServicesQueryVariables, query: string}, ServicesQueryVariables>(ServicesDocument, variables, options);
+    services(variables: ServicesQueryVariables, options?: C): Promise<{data: ServicesQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: ServicesQueryVariables, query: string}> {
+        return requester<{data: ServicesQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: ServicesQueryVariables, query: string}, ServicesQueryVariables>(ServicesDocument, variables, options);
       },
-    servicesConnection(variables?: ServicesConnectionQueryVariables, options?: C): Promise<{data: ServicesConnectionQuery, variables: ServicesConnectionQueryVariables, query: string}> {
-        return requester<{data: ServicesConnectionQuery, variables: ServicesConnectionQueryVariables, query: string}, ServicesConnectionQueryVariables>(ServicesConnectionDocument, variables, options);
+    servicesConnection(variables?: ServicesConnectionQueryVariables, options?: C): Promise<{data: ServicesConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: ServicesConnectionQueryVariables, query: string}> {
+        return requester<{data: ServicesConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: ServicesConnectionQueryVariables, query: string}, ServicesConnectionQueryVariables>(ServicesConnectionDocument, variables, options);
       },
-    technology(variables: TechnologyQueryVariables, options?: C): Promise<{data: TechnologyQuery, variables: TechnologyQueryVariables, query: string}> {
-        return requester<{data: TechnologyQuery, variables: TechnologyQueryVariables, query: string}, TechnologyQueryVariables>(TechnologyDocument, variables, options);
+    technology(variables: TechnologyQueryVariables, options?: C): Promise<{data: TechnologyQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: TechnologyQueryVariables, query: string}> {
+        return requester<{data: TechnologyQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: TechnologyQueryVariables, query: string}, TechnologyQueryVariables>(TechnologyDocument, variables, options);
       },
-    technologyConnection(variables?: TechnologyConnectionQueryVariables, options?: C): Promise<{data: TechnologyConnectionQuery, variables: TechnologyConnectionQueryVariables, query: string}> {
-        return requester<{data: TechnologyConnectionQuery, variables: TechnologyConnectionQueryVariables, query: string}, TechnologyConnectionQueryVariables>(TechnologyConnectionDocument, variables, options);
+    technologyConnection(variables?: TechnologyConnectionQueryVariables, options?: C): Promise<{data: TechnologyConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: TechnologyConnectionQueryVariables, query: string}> {
+        return requester<{data: TechnologyConnectionQuery, errors?: { message: string, locations: { line: number, column: number }[], path: string[] }[], variables: TechnologyConnectionQueryVariables, query: string}, TechnologyConnectionQueryVariables>(TechnologyConnectionDocument, variables, options);
       }
     };
   }
@@ -1291,12 +1311,18 @@ import { createClient, TinaClient } from "tinacms/dist/client";
 
 const generateRequester = (
   client: TinaClient,
-  options?: { branch?: string }
 ) => {
   const requester: (
     doc: any,
     vars?: any,
-    options?: { branch?: string },
+    options?: {
+      branch?: string,
+      /**
+       * Aside from `method` and `body`, all fetch options are passed
+       * through to underlying fetch request
+       */
+      fetchOptions?: Omit<Parameters<typeof fetch>[1], 'body' | 'method'>,
+    },
     client
   ) => Promise<any> = async (doc, vars, options) => {
     let url = client.apiUrl
@@ -1308,9 +1334,9 @@ const generateRequester = (
       query: doc,
       variables: vars,
       url,
-    })
+    }, options)
 
-    return { data: data?.data, query: doc, variables: vars || {} }
+    return { data: data?.data, errors: data?.errors, query: doc, variables: vars || {} }
   }
 
   return requester
@@ -1331,12 +1357,8 @@ export const ExperimentalGetTinaClient = () =>
 
 export const queries = (
   client: TinaClient,
-  options?: {
-    branch?: string
-  }
 ) => {
-  const requester = generateRequester(client, options)
+  const requester = generateRequester(client)
   return getSdk(requester)
 }
 
-  
