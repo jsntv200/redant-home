@@ -2,6 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
+    "./node_modules/flowbite/**/*.js",
     "./_assessment_book_call/*.md",
     "./_assessment_results/*.md",
     "./_assessment_sections/*.md",
@@ -186,5 +187,7 @@ module.exports = {
       pattern: /text-(red|cyan)-100\/10/,
     },
   ],
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
