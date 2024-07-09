@@ -4,7 +4,9 @@ import { getChildControllers } from "../utils/selectors";
 
 export class TypewriterController extends Controller {
   connect() {
-    if (location.pathname !== "/") return;
+    // Exit if mobile - save on Largest Contentful Paint
+    if (window.innerWidth <= 500) return;
+
     // TODO maybe longer to give words time to connect
     setTimeout(this.locateChildWordControllers.bind(this), 200);
 

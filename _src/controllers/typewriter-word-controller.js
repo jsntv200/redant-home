@@ -6,6 +6,9 @@ export class TypewriterWordController extends Controller {
   };
 
   connect() {
+    // Exit if mobile - save on Largest Contentful Paint
+    if (window.innerWidth <= 500) return;
+
     this.altValue = [this.element.innerText].concat(this.altValue); // insert orig word and shuffle alt words
     this.altIndex = 0; // start with alt word at this index
 

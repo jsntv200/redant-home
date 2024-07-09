@@ -29,6 +29,11 @@
           path=include.image %}
       </div>
     {% elsif include.image %}
+      <picture>
+        <source type="image/webp" srcset="images/flower1.webp">
+        <source type="image/jpeg" srcset="images/flower1.jpg">
+        <img src="images/flower1.jpg">
+      </picture>
       <img
         class="w-full h-[320px] mb-8"
         src="{{ include.image }}"

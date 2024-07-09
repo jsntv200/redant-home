@@ -13,6 +13,15 @@ technology_tags:
   - Brightcove
 industry_vertical_tags: []
 service_tags: []
+images:
+  - type: gallery
+    path: /assets/images/projects/12wbt-dynamic-video/12wbt-dynamic-video-1.jpg
+  - type: gallery
+    path: /assets/images/projects/12wbt-dynamic-video/12wbt-dynamic-video-2.jpg
+  - type: mobile
+    path: /assets/images/projects/12wbt-dynamic-video/workout-player-mobile.jpg
+  - type: desktop
+    path: /assets/images/projects/12wbt-dynamic-video/workout-player-desktop.jpg
 ---
 
 ## Project Description

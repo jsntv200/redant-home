@@ -9,12 +9,6 @@
   @apply opacity-0;
 }
 
-.fill {
-  @apply bg-purple-50;
-  @apply h-full;
-  width: 0%;
-}
-
 .markdown a, .content-link {
   @apply text-red-50;
 }
@@ -123,16 +117,6 @@
 
   h2 {
     font-size: 1.5rem !important;
-  }
-
-  .main-layout.default-layout {
-    padding-bottom: 0px !important;
-  }
-
-  .assessment .assessment-header {
-    display: block;
-    margin: none !important;
-    padding: none !important;
   }
 
   .assessment .container {
