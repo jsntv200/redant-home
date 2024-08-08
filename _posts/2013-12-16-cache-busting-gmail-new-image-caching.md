@@ -1,32 +1,33 @@
 ---
-layout: blog-detail
-is_blog: true
-title: Cache busting Gmail's new image caching
-permalink: /:categories/cache-busting-gmail-new-image-caching/
 type: ideas
+tags: []
+published: true
+layout: blog-detail
+title: Cache busting Gmail's new image caching
+permalink: '/:categories/cache-busting-gmail-new-image-caching/'
 categories:
   - blog
   - devops
 blog_categories:
   - devops
 author: Sam Bauers
-content_sidebar: >
-  Google's new image caching mechanism in Gmail is an email marketer's nightmare
-  come true. Here's how to keep tracking your email opens in Gmail.
-image_small: /assets/uploads/cache-busting-gmail-new-image-caching.jpg
-image: /assets/uploads/cache-busting-gmail-new-image-caching.jpg
 description: >-
   This week, GMail announced images are on by default. If you're a marketer, you
   might have seen some posts about how exciting this is that we can now track
   emails again.
-tags: []
+image_small: /assets/uploads/cache-busting-gmail-new-image-caching.jpg
+image: /assets/uploads/cache-busting-gmail-new-image-caching.jpg
+content_sidebar: >
+  Google's new image caching mechanism in Gmail is an email marketer's nightmare
+  come true. Here's how to keep tracking your email opens in Gmail.
 time: ''
 redirect_from:
+  - /how-we-do/cache-busting-gmail-new-image-caching
   - /blog/how-we-do/cache-busting-gmail-new-image-caching/
   - /blog/tool-reviews/cache-busting-gmail-new-image-caching/
 date_published: 2013-12-16T00:00:00.000Z
-
 updated_at: 2013-12-16T00:00:00.000Z
+is_blog: true
 ---
 
 The basic story is that Google will now cache all images in HTML email on their own servers, instead of having your email load the images from the original source. This is great for speed and reliability, and also means as a marketer you can send images as part of your email communication. But it **breaks** tracking.
@@ -41,18 +42,18 @@ To investigate how it actually works, we created some code to generate random im
 
 To start with we need to build out all the potential ways a tracking image could be served. This is a matrix of the construction of the URL:
 
-* Filename always the same - e.g. http://example.com/images/same.png
-* Filename always the same, querystring unique between emails - e.g. http://example.com/images/same.png?12345
-* Filename unique between emails- e.g. http://example.com/images/same-12345.png
+* Filename always the same - e.g. [http://example.com/images/same.png](http://example.com/images/same.png)
+* Filename always the same, querystring unique between emails - e.g. [http://example.com/images/same.png?12345](http://example.com/images/same.png?12345)
+* Filename unique between emails- e.g. [http://example.com/images/same-12345.png](http://example.com/images/same-12345.png)
 
 Also we need to consider the actual content of the image. Usually the images used for tracking are 1 pixel by 1 pixel transparent GIFs, but maybe the caching behaves differently depending on the actual content of the request, here are our variables:
 
 * File content always the same
-* i.e. http://example.com/images/same.png always returns the same content
+* i.e. [http://example.com/images/same.png](http://example.com/images/same.png) always returns the same content
 * File content different between emails
-* i.e. http://example.com/images/different.png always returns the same content for that particular email
+* i.e. [http://example.com/images/different.png](http://example.com/images/different.png) always returns the same content for that particular email
 * File content always different
-* i.e. http://example.com/images/different.png always returns different content for any email
+* i.e. [http://example.com/images/different.png](http://example.com/images/different.png) always returns different content for any email
 
 This gives us a matrix of 9 different scenarios (well 8 actually, because 2 of them are effectively the same). We can determine our file naming for the tests from the matrix. It looks like this:
 
