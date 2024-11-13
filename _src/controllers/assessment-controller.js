@@ -8,7 +8,7 @@ export class AssessmentController extends Controller {
     "answersInput",
     "answerSection",
     "bookingIframe",
-    "colorsInput",
+    //"colorsInput", // not used in v2
     "emailInput",
     "fill",
     "form",
@@ -138,8 +138,11 @@ export class AssessmentController extends Controller {
       this.nameTarget.innerHTML = `${decodeURIComponent(params.get('name'))}: `;
     }
 
-    var scores = "";
-    var colors = "";
+    // v1 Google Sheets - scores as list
+    // var scores = "";
+    // var colors = "";
+    // v2 Assessment Mailer API - scores as json
+    var scores = {};
 
     for (const [i, values] of Object.values(answers).entries()) {
       const max = Number(this.scoreRange[i]["max"]).toFixed(1);
@@ -169,16 +172,22 @@ export class AssessmentController extends Controller {
       }
 
       if (location.pathname === `${this.assessment.basePath}submit`) {
-        scores += `${results[this.assessment.slug][i]["results"][closest]["title"]},`;
-        colors += `${this.colorHashesValue[closest]},`;
+        // v1 Google Sheets - scores as list
+        // scores += `${results[this.assessment.slug][i]["results"][closest]["title"]},`;
+        // colors += `${this.colorHashesValue[closest]},`;
+        // v2 Assessment Mailer API - scores as json
+        scores[results[this.assessment.slug][i].slug] = results[this.assessment.slug][i]["results"][closest]["title"];
       } else {
         this.setResult(i, closest);
       }
     }
 
     if (location.pathname === `${this.assessment.basePath}submit`) {
-      this.scoresInputTarget.value = scores.slice(0, -1);
-      this.colorsInputTarget.value = colors.slice(0, -1);
+      // v1 Google Sheets - scores as list
+      // this.scoresInputTarget.value = scores.slice(0, -1);
+      // this.colorsInputTarget.value = colors.slice(0, -1);
+      // v2 Assessment Mailer API - scores as json
+      this.scoresInputTarget.value = JSON.stringify(scores);
     }
   }
 
@@ -254,10 +263,20 @@ export class AssessmentController extends Controller {
       }
     });
 
+    // v1 Google Sheets
     // add form-specific values into the data
-    data.formDataNameOrder = JSON.stringify(fields);
-    data.formGoogleSheetName = this.formTarget.dataset.sheet || "responses";
-    data.formGoogleSendEmail = email;
+    // data.formDataNameOrder = JSON.stringify(fields);
+    // data.formGoogleSheetName = this.formTarget.dataset.sheet || "responses";
+    // data.formGoogleSendEmail = email;
+
+    // v2 Assessment Mailer API
+    // add assessment slug and source so the API knows where to link back to
+    data.assessment = this.assessment.slug;
+
+    var isStaging = !!window.location.host.match(/^staging/);
+    var isLocal = !!window.location.host.match(/^localhost/);
+
+    data.source = isStaging ? 'staging' : (isLocal ? 'localhost' : 'production');
 
     return { data, honeypot };
   }
@@ -292,20 +311,28 @@ export class AssessmentController extends Controller {
 
     var xhr = new XMLHttpRequest();
     xhr.open('POST', this.formTarget.action);
-    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    // v1 Google Sheets
+    // xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+    // v2 Assessment Mailer API
+    xhr.setRequestHeader("Content-Type", "application/json");
+
     xhr.onreadystatechange = () => {
-      if (xhr.readyState === 4 && xhr.status === 200) {
+      if (xhr.readyState === 4 && (xhr.status === 200 || xhr.status === 201)) {
         this.formTarget.reset();
         this.formTarget.classList.toggle("hidden");
         this.responseTarget.classList.replace("hidden", "flex");
       }
     };
 
-    var encoded = Object.keys(formData.data).map(function(k) {
-      return encodeURIComponent(k) + "=" + encodeURIComponent(formData.data[k]);
-    }).join('&');
+    // v1 Google Sheets - sent as application/x-www-form-urlencoded
+    // var encoded = Object.keys(formData.data).map(function(k) {
+    //   return encodeURIComponent(k) + "=" + encodeURIComponent(formData.data[k]);
+    // }).join('&');
+    // xhr.send(encoded);
 
-    xhr.send(encoded);
+    // v2 Assessment Mailer API - sent as application/json
+    xhr.send(JSON.stringify(formData.data));
   }
 
   resizeContainer() {

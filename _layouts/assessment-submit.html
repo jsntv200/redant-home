@@ -46,7 +46,7 @@ layout: assessment
                   <input
                     id="name"
                     name="name"
-                    class="block w-full rounded-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                    class="block w-full rounded-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2">
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ layout: assessment
                     autocomplete="email"
                     id="email"
                     name="email"
-                    class="block w-full rounded-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    class="block w-full rounded-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 px-2"
                     data-action="input->assessment#clearErrors"
                     data-assessment-target="emailInput"
                     type="email"
@@ -90,12 +90,13 @@ layout: assessment
                 value=""
                 hidden />
 
+              <!-- not used in v2
               <input
                 id="colors"
                 name="colors"
                 data-assessment-target="colorsInput"
                 value=""
-                hidden />
+                hidden /> -->
 
               <input
                 id="user"
@@ -124,7 +125,7 @@ layout: assessment
             <a
               href="/blog/{{ page.root_url }}/"
               class="rounded-md px-3.5 py-3 text-sm font-semibold {{ button-class }}">
-              Go to {{ page.type }} Blog
+              Go to {{ page.type | capitalize }} Blog
             </a>
           </div>
         </div>
