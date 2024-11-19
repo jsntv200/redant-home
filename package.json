@@ -12,22 +12,22 @@
     "@hotwired/stimulus": "^3.2.2",
     "@tinacms/cli": "^1.6.2",
     "aos": "^2.3.4",
-    "esbuild": "0.23.0",
+    "esbuild": "0.24.0",
     "esbuild-sass-plugin": "3.3.1",
     "final-form": "^4.20.8",
-    "flowbite": "^2.4.1",
+    "flowbite": "^2.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rellax": "^1.12.1",
     "stimulus-read-more": "^4.1.0",
     "stimulus-reveal-controller": "^4.1.0",
-    "swiper": "11.1.4",
+    "swiper": "11.1.14",
     "tailwindcss": "^3.4.3",
-    "tinacms": "^1.6.1"
+    "tinacms": "^2.4.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
-    "cssnano": "7.0.4",
+    "cssnano": "7.0.6",
     "postcss": "^8.4.38"
   }
 }
