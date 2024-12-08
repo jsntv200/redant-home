@@ -9,6 +9,11 @@
   @apply opacity-0;
 }
 
+.assessment-card-bg svg {
+  min-height: 1200px;
+  min-width: 100%;
+}
+
 .markdown a, .content-link {
   @apply text-red-50;
 }

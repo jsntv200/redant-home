@@ -1,0 +1,123 @@
+{% comment %}
+  area
+  is_results
+  type
+{% endcomment %}
+
+<div class="max-w-screen-2xl mx-auto relative isolate mb-24 md:mb-48">
+  <div class="overflow-hidden rounded-xl border relative">
+    {% include background-image.html file="svg/lines-3.svg" opaque-background=true %}
+
+    <div class="flex flex-col lg:flex-row p-4 md:p-16">
+      <div class="w-full lg:w-3/4 flex flex-col mb-5 lg:mb-0">
+        <p class="mb-10 text-3xl md:text-5xl font-bold">
+          {% if include.is_results %}
+            You've just tried our <span class="text-yellow-300">{{ include.area }} assessment.</span> Check out some of our other free online tools:
+          {% else %}
+            Free online tools to help you:
+          {% endif %}
+        </p>
+
+        <div class="flex mb-3">
+          <div class="p-3 rounded-l-md bg-yellow-300 flex items-center">
+            <i class="fa-solid fa-arrow-right text-white text-lg"></i>
+          </div>
+
+          <a
+            href="https://assessments.redant.com.au/quiz"
+            target="_blank"
+            class="rounded-r-md bg-yellow-300/50 px-3.5 py-3 text-xl text-white shadow-sm hover:bg-yellow-400/50">
+            Tech stack upgrade path
+          </a>
+        </div>
+
+        <div class="flex mb-3">
+          <div class="p-3 rounded-l-md bg-orange-500 flex items-center">
+            <i class="fa-solid fa-arrow-right text-white text-lg"></i>
+          </div>
+
+          <a
+            href="https://testcoach.app/"
+            target="_blank"
+            class="rounded-r-md bg-orange-500/50 px-3.5 py-3 text-xl text-white shadow-sm hover:bg-orange-600/50">
+            Test your Stripe payment flow
+          </a>
+        </div>
+
+        {% if include.type != "cyber-security" %}
+          <div class="flex mb-3">
+            <div class="p-3 rounded-l-md bg-red-100 flex items-center">
+              <i class="fa-solid fa-arrow-right text-white text-lg"></i>
+            </div>
+
+            <a
+              href="/cyber-security/cyber-security-maturity-assessment/"
+              class="rounded-r-md bg-red-100/50 px-3.5 py-3 text-xl text-white shadow-sm hover:bg-red-200/50">
+              Cyber security review
+            </a>
+          </div>
+        {% endif %}
+
+        {% if include.type != "privacy" %}
+          <div class="flex mb-3">
+            <div class="p-3 rounded-l-md bg-fuchsia-900 flex items-center">
+              <i class="fa-solid fa-arrow-right text-white text-lg"></i>
+            </div>
+
+            <a
+              href="/privacy/privacy-maturity-assessment/"
+              class="rounded-r-md bg-fuchsia-900/50 px-3.5 py-3 text-xl text-white shadow-sm hover:bg-fuchsia-950/50">
+              Privacy maturity assessment
+            </a>
+          </div>
+        {% endif %}
+
+        {% if include.type != "payments" %}
+          <div class="flex mb-3">
+            <div class="p-3 rounded-l-md bg-purple-500 flex items-center">
+              <i class="fa-solid fa-arrow-right text-white text-lg"></i>
+            </div>
+
+            <a
+              href="/payments/payment-maturity-assessment/"
+              class="rounded-r-md bg-purple-500/50 px-3.5 py-3 text-xl text-white shadow-sm hover:bg-purple-100/50">
+              Payments maturity assessment
+            </a>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="relative flex justify-center w-full lg:w-auto lg:-z-10">
+        {% if include.is_results %}
+          <div
+            class="rounded-full size-[120px] min-w-[120px] lg:size-[246px] bg-gradient-to-b from-yellow-400/70 to-red-100/60 flex items-center justify-center lg:ml-40 lg:-mt-[74px] lg:absolute">
+            <i class="fa-solid fa-gem text-black text-4xl lg:text-9xl"></i>
+          </div>
+
+          <div
+            class="rounded-full size-[120px] min-w-[120px] lg:size-[246px] bg-gradient-to-b from-red-100/50 to-purple-50/40 flex items-center justify-center lg:ml-40 lg:mt-32 lg:absolute">
+            <i class="fa-solid fa-shield-halved text-black text-4xl lg:text-9xl"></i>
+          </div>
+
+          <div class="rounded-full size-[120px] min-w-[120px] lg:size-[246px] bg-gradient-to-b from-purple-50/40 to-[#301A69]/70 flex items-center justify-center lg:ml-40 lg:mt-[326px] lg:absolute">
+            <i class="fa-solid fa-credit-card text-black text-4xl lg:text-9xl"></i>
+          </div>
+        {% else %}
+          <div
+            class="rounded-full size-[120px] min-w-[120px] lg:size-[550px] bg-gradient-to-b from-yellow-400/70 to-red-100/60 flex items-center justify-center -mr-4 lg:-ml-96 lg:-mt-48 lg:-mr-0 lg:absolute">
+            <i class="fa-solid fa-gem text-black text-4xl lg:text-[15rem]"></i>
+          </div>
+
+          <div
+            class="rounded-full size-[120px] min-w-[120px] lg:size-[330px] bg-gradient-to-b from-red-100/50 to-purple-50/40 flex items-center justify-center lg:ml-96 lg:-mt-20 lg:absolute">
+            <i class="fa-solid fa-shield-halved text-black text-4xl lg:text-9xl"></i>
+          </div>
+
+          <div class="rounded-full size-[120px] min-w-[120px] lg:size-[480px] bg-gradient-to-b from-purple-50/40 to-[#301A69]/70 flex items-center justify-center -ml-4 lg:-ml-2 lg:mt-36 lg:absolute">
+            <i class="fa-solid fa-credit-card text-black text-4xl lg:text-9xl lg:text-[11rem]"></i>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
